@@ -16,6 +16,10 @@
     --border-color: #e2e8f0;
     --input-bg: #ffffff;
     --shadow-color: rgba(1, 66, 137, 0.08);
+
+    /* Section Accents */
+    --accent-pmo: #22c55e;
+    --accent-iapos-red: #ef4444;
 }
 
 /* Dark Mode Variables */
@@ -109,6 +113,38 @@ html.dark ::-webkit-scrollbar-thumb {
     transform: translateY(-2px);
     box-shadow: 0 10px 15px -3px var(--shadow-color);
     border-color: var(--iapos-light);
+}
+
+/* Source-Specific Accents */
+
+/* Elementos (Blue - Default) */
+.result-card.source-elementos:hover {
+    border-color: var(--iapos-light);
+    border-left-color: var(--iapos-light);
+}
+
+.result-card.source-elementos button:hover {
+    color: var(--iapos-light);
+}
+
+/* PMO (Green) */
+.result-card.source-pmo:hover {
+    border-color: var(--accent-pmo);
+    border-left-color: var(--accent-pmo);
+}
+
+.result-card.source-pmo button:hover {
+    color: var(--accent-pmo);
+}
+
+/* IAPOS (Red) */
+.result-card.source-iapos:hover {
+    border-color: var(--accent-iapos-red);
+    border-left-color: var(--accent-iapos-red);
+}
+
+.result-card.source-iapos button:hover {
+    color: var(--accent-iapos-red);
 }
 
 /* Tab Active States */

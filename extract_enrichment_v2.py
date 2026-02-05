@@ -59,8 +59,8 @@ def extract_excel():
         print(f"Error crítico en Excel: {e}")
 
 def save_js():
-    # Guardar como objeto global JS para fácil importación
-    js_content = f"// Datos generados automáticamente desde Excel\nconst enrichedDataRaw = {json.dumps(enriched_data, indent=2, ensure_ascii=False)};"
+    # Guardar como objeto global JS explícito (window) para asegurar acceso
+    js_content = f"// Datos generados automáticamente desde Excel\nwindow.enrichedDataRaw = {json.dumps(enriched_data, indent=2, ensure_ascii=False)};"
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         f.write(js_content)
     print(f"Archivo generado: {OUTPUT_PATH}")

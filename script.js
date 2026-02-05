@@ -113,11 +113,24 @@ function renderResults(items) {
     items.forEach(item => {
         const card = document.createElement('div');
         // Use custom class 'result-card' which handles dark mode bg via CSS variables
-        card.className = `result-card p-4 rounded-xl cursor-pointer mb-3 flex justify-between items-center group transition-all duration-200 border-l-4 border-l-transparent hover:border-l-iapos-light`;
+        card.className = `result-card source-${currentTab} p-4 rounded-xl cursor-pointer mb-3 flex justify-between items-center group transition-all duration-200 border-l-4 border-l-transparent`;
+
+        // Check for enriched data
+        const cleanCode = String(item.code).replace(/\./g, '').trim();
+        let extraBadge = '';
+        if (window.enrichedDataRaw && window.enrichedDataRaw[cleanCode]) {
+            extraBadge = `<span class="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200" title="Información Extra Disponible">
+                <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                Info
+             </span>`;
+        }
 
         card.innerHTML = `
             <div class="flex-1 pr-4">
-                <div class="font-mono font-bold text-iapos-dark dark:text-iapos-light text-lg mb-1">${item.code}</div>
+                <div class="flex items-center mb-1">
+                    <span class="font-mono font-bold text-iapos-dark dark:text-iapos-light text-lg">${item.code}</span>
+                    ${extraBadge}
+                </div>
                 <div class="text-slate-600 dark:text-slate-300 font-medium text-sm md:text-base leading-snug">${item.description}</div>
             </div>
             <button class="text-slate-300 hover:text-iapos-light transition-colors">
@@ -138,6 +151,35 @@ function renderResults(items) {
 function openModal(item) {
     modalCode.textContent = item.code;
     modalDesc.textContent = item.description;
+
+    // Enrich Modal Content
+    const cleanCode = String(item.code).replace(/\./g, '').trim();
+    const extraData = (window.enrichedDataRaw && window.enrichedDataRaw[cleanCode]) ? window.enrichedDataRaw[cleanCode] : null;
+
+    const existingExtra = document.getElementById('modalExtraInfo');
+    if (existingExtra) existingExtra.remove();
+
+    if (extraData) {
+        const extraDiv = document.createElement('div');
+        extraDiv.id = 'modalExtraInfo';
+        extraDiv.className = 'mt-4 bg-slate-50 dark:bg-slate-700/50 rounded-lg p-4 text-sm text-left border border-slate-200 dark:border-slate-600';
+
+        extraDiv.innerHTML = `
+            <h4 class="font-bold text-slate-700 dark:text-slate-300 mb-2 border-b border-slate-200 dark:border-slate-600 pb-1 flex justify-between">
+                <span>Detalles (Nomenclador)</span>
+                <span class="text-xs font-normal text-slate-500">${extraData.categoria}</span>
+            </h4>
+            <div class="grid grid-cols-2 gap-x-6 gap-y-2">
+                <div class="flex justify-between"><span class="text-slate-500 text-xs">Galenos:</span> <span class="font-mono font-bold">${extraData.galenos}</span></div>
+                <div class="flex justify-between"><span class="text-slate-500 text-xs">Gastos:</span> <span class="font-mono font-bold">${extraData.gastos}</span></div>
+                <div class="flex justify-between border-t border-slate-200 dark:border-slate-600 pt-1 mt-1 col-span-2">
+                    <span class="text-slate-600 dark:text-slate-400 font-bold">TOTAL:</span> 
+                    <span class="font-mono font-bold text-green-600 dark:text-green-400 text-lg">${extraData.total}</span>
+                </div>
+            </div>
+        `;
+        modalDesc.parentNode.insertBefore(extraDiv, modalDesc.nextSibling);
+    }
 
     // Auto Copy on Click? Maybe too aggressive. Keep button.
     copyBtn.innerHTML = `
