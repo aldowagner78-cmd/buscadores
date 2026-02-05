@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador Médico IAPOS</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        iapos: {
+                            dark: '#014289',
+                            light: '#00a8e7',
+                            gold: '#f0ab0c'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body
+    class="min-h-screen flex flex-col justify-center items-center p-4 selection:bg-iapos-light selection:text-white transition-colors duration-300">
+
+    <!-- Theme Toggle -->
+    <button id="themeToggle" class="fixed top-6 right-6 theme-toggle text-slate-500 dark:text-slate-400 z-50"
+        aria-label="Cambiar modo oscuro">
+        <!-- Sun Icon -->
+        <svg id="sunIcon" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+        <!-- Moon Icon -->
+        <svg id="moonIcon" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M20.354 24.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+        </svg>
+    </button>
+
+    <div
+        class="w-full max-w-5xl glass rounded-3xl shadow-2xl overflow-hidden backdrop-blur-xl transition-all duration-300">
+
+        <!-- Header Section -->
+        <div class="p-8 md:p-10 text-center relative overflow-hidden">
+            <!-- Decorative Background Blob -->
+            <div
+                class="absolute top-[-50%] left-[-10%] w-[120%] h-[200%] bg-gradient-to-br from-iapos-light/10 to-transparent rounded-full blur-3xl -z-10 dark:from-iapos-dark/20">
+            </div>
+
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-2 tracking-tight text-gradient-iapos">
+                Buscador Médico
+            </h1>
+            <p class="text-slate-500 dark:text-slate-400 text-lg md:text-xl font-medium tracking-wide">
+                Nomenclador IAPOS • PMO • Compras
+            </p>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="flex border-b border-gray-200 dark:border-gray-700 bg-white/50 dark:bg-slate-800/50">
+            <button data-tab="elementos"
+                class="tab-btn flex-1 py-4 text-center text-sm md:text-base font-semibold text-slate-500 hover:text-iapos-light transition-all duration-200 uppercase tracking-wider relative group">
+                <span class="z-10 relative">Elementos</span>
+                <span
+                    class="absolute bottom-0 left-0 w-full h-0.5 bg-iapos-light transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+            </button>
+            <button data-tab="pmo"
+                class="tab-btn flex-1 py-4 text-center text-sm md:text-base font-semibold text-slate-500 hover:text-green-500 transition-all duration-200 uppercase tracking-wider relative group">
+                <span class="z-10 relative">PMO</span>
+                <span
+                    class="absolute bottom-0 left-0 w-full h-0.5 bg-green-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+            </button>
+            <button data-tab="iapos"
+                class="tab-btn flex-1 py-4 text-center text-sm md:text-base font-semibold text-slate-500 hover:text-red-500 transition-all duration-200 uppercase tracking-wider relative group">
+                <span class="z-10 relative">IAPOS</span>
+                <span
+                    class="absolute bottom-0 left-0 w-full h-0.5 bg-red-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+            </button>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="p-6 md:p-8 bg-white/30 dark:bg-slate-800/30">
+            <div class="relative group">
+                <div class="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
+                    <svg class="h-6 w-6 text-slate-400 group-focus-within:text-iapos-light transition-colors duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </div>
+                <input type="text" id="searchInput"
+                    class="search-input block w-full pl-14 pr-4 py-4 rounded-2xl text-lg shadow-sm focus:outline-none transition-all duration-300 placeholder-slate-400"
+                    placeholder="Buscar código o descripción..." autocomplete="off">
+            </div>
+            <!-- Search Stats -->
+            <div class="flex justify-between items-center mt-3 px-2">
+                <div id="resultsCount" class="text-sm font-medium text-iapos-light min-h-[1.5rem]"></div>
+                <div class="text-xs text-slate-400 dark:text-slate-500 hidden md:block">Presiona ESC para limpiar</div>
+            </div>
+        </div>
+
+        <!-- Results Container -->
+        <div class="relative min-h-[300px] h-[55vh] max-h-[700px]">
+            <div id="searchResults" class="absolute inset-0 overflow-y-auto p-6 space-y-3 custom-scrollbar">
+                <!-- Empty State -->
+                <div class="flex flex-col items-center justify-center h-full text-center text-slate-400 animate-pulse">
+                    <svg class="w-16 h-16 mb-4 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M8 16l2.879-2.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242zM21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-lg">Inicia tu búsqueda seleccionando una categoría.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div
+            class="py-4 border-t border-gray-100 dark:border-gray-800 text-center text-xs text-slate-400 bg-white/50 dark:bg-slate-900/50">
+            v2.1 • Datos actualizados: 2026
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="copyModal"
+        class="modal-backdrop fixed inset-0 z-[60] hidden flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
+        <div
+            class="bg-white dark:bg-slate-800 rounded-3xl shadow-2xl max-w-md w-full p-8 relative transform scale-95 transition-transform duration-300 border border-slate-100 dark:border-slate-700">
+
+            <button id="closeModal"
+                class="absolute top-4 right-4 text-slate-400 hover:text-red-500 transition-colors bg-slate-100 dark:bg-slate-700/50 rounded-full p-1">
+                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+            <div class="text-center">
+                <div
+                    class="inline-flex items-center justify-center h-16 w-16 rounded-2xl bg-gradient-to-br from-iapos-light to-iapos-dark text-white shadow-lg mb-6 transform rotate-3 hover:rotate-0 transition-transform duration-300">
+                    <span class="text-2xl font-bold">#</span>
+                </div>
+
+                <h3 class="text-2xl font-bold text-slate-800 dark:text-white mb-3">Código Copiado</h3>
+
+                <div
+                    class="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl p-4 mb-6">
+                    <span id="modalCode"
+                        class="block text-4xl font-mono font-bold text-iapos-dark dark:text-iapos-light tracking-widest select-all"></span>
+                </div>
+
+                <p id="modalDescription" class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6 px-4">
+                </p>
+
+                <button id="copyButton"
+                    class="w-full bg-iapos-dark hover:bg-iapos-light text-white font-bold py-3.5 px-6 rounded-xl shadow-lg shadow-iapos-dark/30 hover:shadow-iapos-light/40 transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0">
+                    Copiar al Portapapeles
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

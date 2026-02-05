@@ -1,0 +1,149 @@
+/* Custom Styles for Modern IAPOS Design (Option B) */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+    /* Brand Colors (IAPOS) */
+    --iapos-dark: #014289;
+    --iapos-light: #00a8e7;
+    --iapos-gold: #f0ab0c;
+
+    /* Theme Variables - Light (Default) */
+    --bg-body: #f0f9ff;
+    --bg-card: #ffffff;
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+    --border-color: #e2e8f0;
+    --input-bg: #ffffff;
+    --shadow-color: rgba(1, 66, 137, 0.08);
+}
+
+/* Dark Mode Variables */
+html.dark :root {
+    --bg-body: #0f172a;
+    --bg-card: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --border-color: #334155;
+    --input-bg: #1e293b;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    /* Modern, friendly font */
+    background-color: var(--bg-body);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Glassmorphism Classes */
+.glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+html.dark .glass {
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Gradient Text */
+.text-gradient-iapos {
+    background: linear-gradient(135deg, var(--iapos-dark), var(--iapos-light));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+html.dark .text-gradient-iapos {
+    background: linear-gradient(135deg, #38bdf8, #818cf8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+    background-color: #475569;
+}
+
+/* Animations */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.result-card {
+    animation: slideUp 0.3s ease-out forwards;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 6px -1px var(--shadow-color);
+}
+
+.result-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px var(--shadow-color);
+    border-color: var(--iapos-light);
+}
+
+/* Tab Active States */
+.tab-btn.active {
+    background: linear-gradient(to right, rgba(0, 168, 231, 0.1), transparent);
+    border-bottom: 2px solid var(--iapos-light);
+    color: var(--iapos-dark);
+}
+
+html.dark .tab-btn.active {
+    background: linear-gradient(to right, rgba(56, 189, 248, 0.1), transparent);
+    border-bottom: 2px solid #38bdf8;
+    color: #38bdf8;
+}
+
+/* Input Styles */
+.search-input {
+    background-color: var(--input-bg);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+.search-input:focus {
+    border-color: var(--iapos-light);
+    box-shadow: 0 0 0 3px rgba(0, 168, 231, 0.2);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+}
