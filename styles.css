@@ -145,13 +145,13 @@ html.dark ::-webkit-scrollbar-thumb { background-color: #475569; }
 
 /* Header Logo - same height as title font */
 .header-logo {
-    height: 2.25rem; /* matches text-4xl */
+    height: 3rem; /* mobile */
     width: auto;
 }
 
 @media (min-width: 768px) {
     .header-logo {
-        height: 3.75rem; /* matches text-6xl */
+        height: 4.5rem; /* desktop */
     }
 }
 
