@@ -59,13 +59,23 @@ def extract_normative_data():
         try:
             page = doc[page_num]
             # Renderizar página completa a alta resolución
-            pix = page.get_pixmap(matrix=fitz.Matrix(2, 2)) 
+            # Zoom 3x para mejorar nitidez de caracteres pequeños
+            pix = page.get_pixmap(matrix=fitz.Matrix(3, 3)) 
             img_data = pix.tobytes("png")
             full_img = Image.open(io.BytesIO(img_data))
             
             # Corrección de Rotación (Detectado 270 grados en OSD -> Rotar 90 CW para enderezar)
-            # PIL rotate es Counter-Clockwise. Para 90 CW usamos -90 (o 270).
             full_img = full_img.rotate(-90, expand=True)
+            
+            # PRE-PROCESAMIENTO DE IMAGEN PARA REDUCIR RUIDO (Fix Critical)
+            # 1. Convertir a Escala de Grises
+            full_img = full_img.convert('L')
+            
+            # 2. Binarización (Thresholding)
+            # Filtro agresivo: Todo lo que no sea casi negro se vuelve blanco puro.
+            # Ayuda enormemente a eliminar fondos sucios y caracteres fantasmas.
+            threshold = 150 # Valor experimental para texto normal
+            full_img = full_img.point(lambda p: 255 if p > threshold else 0)
             
             width, height = full_img.size
             
