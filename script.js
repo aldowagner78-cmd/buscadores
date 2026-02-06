@@ -230,12 +230,13 @@ function renderEmptyState(message) {
 function createResultCard(item, index) {
     const normativa = getEffectiveNormativa(item);
     const hasNormativa = normativa && normativa.length > 0;
+    const coseguro = item.coseguro || '';
 
     const card = document.createElement('div');
     card.className = 'result-card p-4 rounded-xl mb-3 transition-all duration-200 border-l-4 border-l-transparent';
     card.style.animationDelay = (index * 30) + 'ms';
 
-    // --- Top Row: Code + Badge ---
+    // --- Top Row: Code + Badges ---
     const topRow = document.createElement('div');
     topRow.className = 'flex items-center mb-1 flex-wrap gap-1';
 
@@ -243,6 +244,14 @@ function createResultCard(item, index) {
     codeSpan.className = 'font-mono font-bold text-themed text-lg';
     codeSpan.textContent = item.code;
     topRow.appendChild(codeSpan);
+
+    // Badge Coseguro
+    if (coseguro) {
+        const cosegBadge = document.createElement('span');
+        cosegBadge.className = 'badge-coseguro ml-2';
+        cosegBadge.textContent = coseguro;
+        topRow.appendChild(cosegBadge);
+    }
 
     if (hasNormativa) {
         const badge = document.createElement('span');
@@ -357,6 +366,7 @@ function createActionBtn(label, iconPath, onClick, isPrimary) {
 // --- Modal: Detail View ---
 function openModal(item) {
     const normativa = getEffectiveNormativa(item);
+    const coseguro = item.coseguro || '';
 
     // Clear previous content
     while (dom.modalContent.firstChild) {
@@ -376,6 +386,16 @@ function openModal(item) {
     codeSpan.className = 'block text-4xl font-mono font-bold text-themed tracking-widest select-all';
     codeSpan.textContent = item.code;
     codeBox.appendChild(codeSpan);
+    // Coseguro in code box
+    if (coseguro) {
+        const cosegDiv = document.createElement('div');
+        cosegDiv.className = 'mt-2';
+        const cosegBadge = document.createElement('span');
+        cosegBadge.className = 'badge-coseguro';
+        cosegBadge.textContent = 'Coseguro: ' + coseguro;
+        cosegDiv.appendChild(cosegBadge);
+        codeBox.appendChild(cosegDiv);
+    }
     dom.modalContent.appendChild(codeBox);
 
     // Description
