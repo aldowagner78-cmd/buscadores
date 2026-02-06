@@ -145,7 +145,7 @@ html.dark ::-webkit-scrollbar-thumb { background-color: #475569; }
 
 /* Header Logo - same height as title font */
 .header-logo {
-    height: 3rem; /* mobile */
+    height: 2.5rem; /* mobile */
     width: auto;
 }
 
@@ -180,6 +180,24 @@ html.dark .card-logo {
 }
 
 /* Tab Styles */
+.tab-btn {
+    font-size: 0.7rem;
+    padding: 0.75rem 0.25rem;
+    border-right: 1px solid var(--border-color);
+}
+
+.tab-btn:last-child {
+    border-right: none;
+}
+
+@media (min-width: 768px) {
+    .tab-btn {
+        font-size: 1rem;
+        padding: 1rem 1rem;
+        border-right: none;
+    }
+}
+
 .tab-btn.active {
     background: linear-gradient(to right, var(--active-theme-fade), transparent);
     border-bottom: 2px solid var(--active-theme);
