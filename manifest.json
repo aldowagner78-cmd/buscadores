@@ -2,17 +2,36 @@
   "name": "Buscador Médico IAPOS",
   "short_name": "IAPOS",
   "description": "Buscador de códigos médicos IAPOS",
-  "start_url": "./index.html",
+  "start_url": "/buscadores/",
+  "scope": "/buscadores/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#014289",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "./iapos.png",
+      "src": "iapos.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "iapos.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "iapos.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "iapos.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
