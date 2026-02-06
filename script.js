@@ -16,6 +16,9 @@ let currentTab = 'elementos'; // 'elementos', 'pmo', 'iapos'
 let currentData = [];
 
 // Local Storage & Merging Logic
+
+// Local Storage & Merging Logic - V4 CLEANUP: Removed OCR Merge
+// We ONLY keep userOverrides for manual edits (persistence)
 let userOverrides = {};
 try {
     const saved = localStorage.getItem('userOverrides');
@@ -23,10 +26,10 @@ try {
 } catch (e) { console.error("Error loading overrides", e); }
 
 function getFinalData(code) {
+    // V4: Pure Data. No enriched_data fallback.
+    // Only check local overrides (manual edits)
     const clean = String(code).replace(/\./g, '').trim().padStart(6, '0');
-    const base = window.enrichedDataRaw && window.enrichedDataRaw[clean] ? window.enrichedDataRaw[clean] : {};
-    const override = userOverrides[clean] || {};
-    return { ...base, ...override };
+    return userOverrides[clean] || {};
 }
 
 // Deduplicate Arrays on load
@@ -151,28 +154,22 @@ function renderResults(items) {
         let normPreview = '';
         let financialBlock = '';
 
-        if (extraData) {
-            // Normative Preview logic
-            const hasNormative = extraData.incluye || extraData.excluye || extraData.text || extraData.observacion;
+        // V3 Specific: Coseguro & Bonos (Visible)
+        let v3Badges = '';
 
-            // Financial Data (Hidden by default)
-            financialBlock = `
-                <div class="hidden financial-data mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/50 grid grid-cols-3 gap-2 text-xs opacity-75">
-                    <div>
-                        <span class="text-slate-400 block mb-0.5">Galenos</span>
-                        <span class="font-mono font-semibold text-slate-700 dark:text-slate-200">${extraData.galenos || '-'}</span>
-                    </div>
-                    <div>
-                        <span class="text-slate-400 block mb-0.5">Gastos</span>
-                        <span class="font-mono font-semibold text-slate-700 dark:text-slate-200">${extraData.gastos || '-'}</span>
-                    </div>
-                    <div>
-                        <span class="text-slate-400 block mb-0.5">Total</span>
-                        <span class="font-mono font-bold text-themed">${extraData.total || '-'}</span>
-                    </div>
+        // NORM V3 LOGIC: Explicitly use 'normativa' field from V3 if present (Digital Source) 
+        // Use enriched data ONLY if V3 norm is missing.
+        let normContent = '';
+        if (item.normativa) {
+            // V3 Clean Data
+            normContent = `
+                <div class="mt-3 pt-2 border-t border-slate-100 dark:border-slate-700/50 text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-normative-clean">
+                    ${item.normativa}
                 </div>
             `;
-
+        } else if (extraData) {
+            // Fallback to OCR/Enriched
+            const hasNormative = extraData.incluye || extraData.excluye || extraData.text || extraData.observacion;
             if (hasNormative) {
                 extraBadge = `<span class="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-themed-soft text-themed" title="Normativa Disponible">
                     <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
@@ -188,56 +185,83 @@ function renderResults(items) {
                 if (previewText.length > 200) previewText = previewText.substring(0, 200) + '...';
 
                 if (previewText) {
-                    normPreview = `
+                    normContent = `
                         <div class="mt-3 pt-2 border-t border-slate-100 dark:border-slate-700/50 text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
                             ${previewText}
-                        </div>
-                    `;
-                }
-            }
+        // V4: Card Styling - Clean & Modern
+        card.className = `result - card source - ${ currentTab } p - 4 rounded - xl mb - 3 flex flex - col group transition - all duration - 200 border - l - 4 border - l - transparent hover: bg - white dark: hover: bg - slate - 800 hover: shadow - md relative`;
 
-            extraContent = normPreview + financialBlock;
+        // V4: Coseguro Filter (Hide Money, Show Codes only)
+        let coseguroBadge = '';
+        if (item.coseguro && !item.coseguro.includes('$') && !/^\d{2,}/.test(item.coseguro)) { 
+             coseguroBadge = `
+                        < span class="inline-flex items-center px-2 py-1 rounded text-xs font-bold bg-themed-soft text-themed border border-themed/20" title = "Coseguro / Código" >
+                            ${ item.coseguro }
+                </span > `;
         }
 
-
-        // V3 Specific: Coseguro & Bonos (Visible) - Prioritize V3 Data fields over stored overrides or enriched
-        let v3Badges = '';
-        if (item.coseguro || item.bonos) {
-            v3Badges = `
-                <div class="flex flex-wrap gap-2 mt-2 mb-1">
-                    ${item.coseguro ? `
-                        <span class="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-bold bg-themed-soft text-themed border border-themed/20 shadow-sm" title="Coseguro a cargo del afiliado">
-                            <svg class="w-3 h-3 mr-1.5 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
-                            Coseguro: ${item.coseguro}
-                        </span>` : ''}
-                    
-                    ${item.bonos ? `
-                        <span class="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-bold bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-600 shadow-sm" title="Cantidad de Bonos/Unidades">
-                            <svg class="w-3 h-3 mr-1.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path></svg>
-                            ${item.bonos} ${/^\d+$/.test(item.bonos) ? (currentTab === 'bioquimica' ? 'UB' : 'Bonos') : ''}
-                        </span>` : ''}
-                </div>
-             `;
+        // V4: Bonos Badge
+        let bonosBadge = '';
+        if (item.bonos) {
+             const isMoney = item.bonos.includes('$'); // Should typically be units/bonos count
+             if (!isMoney) {
+                 bonosBadge = `
+                        < span class="inline-flex items-center px-2 py-1 rounded text-xs font-bold bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600" title = "Bonos" >
+                            <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path></svg>
+                        ${ item.bonos }
+                    </span > `;
+             }
         }
+
+        // V4: Normative Content (Digital Source Only + Overrides)
+        const cleanCode = String(item.code).replace(/\./g, '').trim().padStart(6, '0');
+        const overrides = userOverrides[cleanCode] || {};
+        
+        // Priority: Override Text > V3 Normativa
+        const finalNorm = overrides.text || item.normativa || '';
+        
+        // Preview: Show first 3 lines of normative text if exists
+        const normPreview = finalNorm ? `< div class="mt-3 text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-normative-clean line-clamp-3 whitespace-pre-line border-t border-slate-100 dark:border-slate-700 pt-2" > ${ finalNorm }</div > ` : '';
 
         card.innerHTML = `
-            <div class="flex-1 pr-4">
-                <div class="flex items-center mb-1">
-                    <span class="font-mono font-bold text-themed text-lg">${item.code}</span>
-                    ${extraBadge}
+                        < div class="flex-1 w-full relative z-0" >
+                < !--Header -->
+                <div class="flex justify-between items-start mb-1">
+                    <div class="font-mono font-bold text-themed text-xl tracking-tight">${item.code}</div>
+                    <div class="flex gap-2 shrink-0">${coseguroBadge}${bonosBadge}</div>
                 </div>
-                <div class="text-slate-600 dark:text-slate-300 font-medium text-sm md:text-base leading-snug">${item.description}</div>
-                ${v3Badges}
-                ${extraContent}
-            </div>
-            <button class="self-start mt-2 text-slate-300 hover:text-themed transition-colors" title="Ver detalles y copiar">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                </svg>
-            </button>
-        `;
+                
+                <!--Body -->
+                        <div class="text-slate-800 dark:text-slate-200 font-medium text-base mb-2 leading-snug pr-2">
+                            ${item.description}
+                        </div>
+                ${ normPreview }
 
-        card.addEventListener('click', () => openModal(item));
+                < !--Footer / Actions(V4 Granular Copy)-- >
+                        <div class="mt-4 pt-3 flex gap-2 flex-wrap border-t border-slate-50 dark:border-slate-700/30 opacity-90 group-hover:opacity-100 transition-opacity">
+                            <button onclick="event.stopPropagation(); copyToClipboard('${item.code}')" class="px-2.5 py-1.5 bg-slate-50 dark:bg-slate-700/50 hover:bg-themed hover:text-white rounded-lg text-xs font-semibold transition-all border border-slate-200 dark:border-slate-600 shadow-sm active:scale-95">
+                                Copiar Código
+                            </button>
+                            <button onclick="event.stopPropagation(); copyToClipboard('${item.code} ${item.description}')" class="px-2.5 py-1.5 bg-slate-50 dark:bg-slate-700/50 hover:bg-themed hover:text-white rounded-lg text-xs font-semibold transition-all border border-slate-200 dark:border-slate-600 shadow-sm active:scale-95">
+                                + Nombre
+                            </button>
+                            ${finalNorm ? `<button onclick="event.stopPropagation(); copyToClipboard('${finalNorm.replace(/'/g, "\\'").replace(/\n/g, " ")}')" class="px-2.5 py-1.5 bg-slate-50 dark:bg-slate-700/50 hover:bg-themed hover:text-white rounded-lg text-xs font-semibold transition-all border border-slate-200 dark:border-slate-600 shadow-sm active:scale-95">Copiar Nota</button>` : ''}
+
+                            <button onclick="openModal({code:'${item.code}', description:'${item.description.replace(/'/g, "\\'")}', normativa: '${(finalNorm || '').replace(/'/g, "\\'").replace(/\n/g, " ").replace(/\r/g, "")}'})" class="ml-auto text-slate-400 hover:text-themed transition-colors text-xs flex items-center px-1">
+                            <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                            Ver / Editar
+                        </button>
+                </div >
+            </div >
+                        `;
+
+        // Card Click opens Modal
+        card.addEventListener('click', () => openModal({
+            code: item.code, 
+            description: item.description, 
+            normativa: finalNorm 
+        }));
+        
         searchResults.appendChild(card);
     });
 }
@@ -266,35 +290,43 @@ function openModal(item) {
 
     let contentHtml = '';
     const hasData = extraData && (Object.keys(extraData).length > 0);
+    const hasDigitalNorm = item.normativa && item.normativa.length > 5;
 
-    if (hasData) {
-        if (extraData.incluye) contentHtml += `<div class="mb-3"><h5 class="font-bold text-green-700 dark:text-green-400 text-xs uppercase mb-1">Incluye</h5><p class="text-slate-700 dark:text-slate-300 leading-relaxed">${extraData.incluye}</p></div>`;
-        if (extraData.excluye) contentHtml += `<div class="mb-3"><h5 class="font-bold text-red-700 dark:text-red-400 text-xs uppercase mb-1">Excluye</h5><p class="text-slate-700 dark:text-slate-300 leading-relaxed">${extraData.excluye}</p></div>`;
-        if (extraData.criterios) contentHtml += `<div class="mb-3"><h5 class="font-bold text-blue-700 dark:text-blue-400 text-xs uppercase mb-1">Criterios</h5><p class="text-slate-700 dark:text-slate-300 italic">${extraData.criterios}</p></div>`;
-        if (extraData.observacion) contentHtml += `<div class="mb-3"><h5 class="font-bold text-orange-700 dark:text-orange-400 text-xs uppercase mb-1">Observación</h5><p class="text-slate-700 dark:text-slate-300">${extraData.observacion}</p></div>`;
-        if (!contentHtml && extraData.text) contentHtml += `<p class="text-slate-700 dark:text-slate-300 whitespace-pre-line">${extraData.text}</p>`;
+    // PRIORITY: Use Digital Text (V3) if available
+    if (hasDigitalNorm) {
+        contentHtml += `< div class="mb-3 text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line" > ${ item.normativa }</div > `;
+        if (extraData && extraData.text && extraData.text !== item.normativa) {
+            // Optional: Show old OCR notes as "Historical/OCR Context" if significantly different?
+            // For now, Cleaner is better. Skip garbage.
+        }
+    } else if (hasData) {
+        if (extraData.incluye) contentHtml += `< div class="mb-3" ><h5 class="font-bold text-green-700 dark:text-green-400 text-xs uppercase mb-1">Incluye</h5><p class="text-slate-700 dark:text-slate-300 leading-relaxed">${extraData.incluye}</p></div > `;
+        if (extraData.excluye) contentHtml += `< div class="mb-3" ><h5 class="font-bold text-red-700 dark:text-red-400 text-xs uppercase mb-1">Excluye</h5><p class="text-slate-700 dark:text-slate-300 leading-relaxed">${extraData.excluye}</p></div > `;
+        if (extraData.criterios) contentHtml += `< div class="mb-3" ><h5 class="font-bold text-blue-700 dark:text-blue-400 text-xs uppercase mb-1">Criterios</h5><p class="text-slate-700 dark:text-slate-300 italic">${extraData.criterios}</p></div > `;
+        if (extraData.observacion) contentHtml += `< div class="mb-3" ><h5 class="font-bold text-orange-700 dark:text-orange-400 text-xs uppercase mb-1">Observación</h5><p class="text-slate-700 dark:text-slate-300">${extraData.observacion}</p></div > `;
+        if (!contentHtml && extraData.text) contentHtml += `< p class="text-slate-700 dark:text-slate-300 whitespace-pre-line" > ${ extraData.text }</p > `;
     }
 
     extraDiv.innerHTML = `
-        <h4 class="font-bold text-slate-700 dark:text-slate-300 mb-3 border-b border-slate-200 dark:border-slate-600 pb-1 flex justify-between items-center">
+                        < h4 class="font-bold text-slate-700 dark:text-slate-300 mb-3 border-b border-slate-200 dark:border-slate-600 pb-1 flex justify-between items-center" >
             <span>Normativa / Detalles</span>
             <button onclick="enableEdit('${cleanCode}')" class="text-xs text-themed hover:text-themed-dark font-semibold flex items-center bg-white dark:bg-slate-800 px-2 py-1 rounded border border-slate-200 dark:border-slate-600 shadow-sm transition-colors">
                 <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
                 ${hasData ? 'Editar' : 'Agregar Nota'}
             </button>
-        </h4>
-        ${contentHtml || '<p class="text-slate-400 italic text-center py-2">Sin normativa cargada.</p>'}
-    `;
+        </h4 >
+                        ${ contentHtml || '<p class="text-slate-400 italic text-center py-2">Sin normativa cargada.</p>' }
+                    `;
     modalDesc.parentNode.insertBefore(extraDiv, modalDesc.nextSibling);
 
     // Reset Button State
     const copyBtn = document.getElementById('copyButton');
     copyBtn.innerHTML = `
-        <span class="flex items-center justify-center gap-2">
+                        < span class="flex items-center justify-center gap-2" >
             <span>Copiar Código</span>
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-        </span>
-    `;
+        </span >
+                        `;
     copyBtn.className = "w-full btn-themed font-bold py-3.5 px-6 rounded-xl shadow-lg transition-all duration-300 transform active:translate-y-0"; // Ensure class overrides any previous state
 
 
@@ -329,24 +361,26 @@ function closeModal() {
     const secondaryClass = "bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600";
 
     granularActions.innerHTML = `
-        <button onclick="copyToClipboard('${item.code}')" class="${btnClass} ${secondaryClass}">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-            Código
-        </button>
-        <button onclick="copyToClipboard('${item.description.replace(/'/g, "\\'")}')" class="${btnClass} ${secondaryClass}">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-            Descripción
-        </button>
-        ${(extraData?.incluye || extraData?.excluye) ? `
+                        < button onclick = "copyToClipboard('${item.code}')" class="${btnClass} ${secondaryClass}" >
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                    Código
+        </button >
+                        <button onclick="copyToClipboard('${item.description.replace(/'/g, "\\'")}')" class="${ btnClass } ${ secondaryClass } ">
+                            < svg class="w-4 h-4" fill = "none" stroke = "currentColor" viewBox = "0 0 24 24" > <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg >
+                                Descripción
+        </button >
+        ${
+            (extraData?.incluye || extraData?.excluye) ? `
         <button onclick="copyToClipboard('${(extraData.incluye || "")} ${(extraData.excluye || "")}')" class="${btnClass} ${secondaryClass} col-span-2">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
             Normativa
         </button>
-        ` : ''}
-        <button onclick="copyToClipboard('${item.code} - ${item.description.replace(/'/g, "\\'")} ${extraData?.incluye ? '\\nIncluye: ' + extraData.incluye : ''}')" class="${btnClass} ${primaryClass} col-span-2">
+        ` : ''
+    }
+    <button onclick="copyToClipboard('${item.code} - ${item.description.replace(/'/g, "\\'")} ${extraData?.incluye ? '\\nIncluye: ' + extraData.incluye : ''}') " class="${ btnClass } ${ primaryClass } col - span - 2">
             Copiar Info
-        </button>
-    `;
+        </button >
+        `;
 
     // Append after modal content
     const container = document.querySelector('#copyModal .text-center');
@@ -384,7 +418,7 @@ window.copyToClipboard = function (text) {
         const btn = document.activeElement;
         // Simple visual feedback
         const originalContent = btn.innerHTML;
-        btn.innerHTML = `<span class="font-bold">¡Copiado!</span>`;
+        btn.innerHTML = `< span class="font-bold" >¡Copiado!</span > `;
         btn.classList.add('ring-2', 'ring-green-400');
 
         setTimeout(() => {
@@ -399,7 +433,7 @@ window.copyToClipboard = function (text) {
 /* 
 copyBtn.addEventListener('click', () => {
     navigator.clipboard.writeText(modalCode.textContent).then(() => {
-        copyBtn.innerHTML = `<span class="text-white">¡Copiado Exitosamente!</span>`;
+        copyBtn.innerHTML = `< span class="text-white" >¡Copiado Exitosamente!</span > `;
         if (currentTab === 'iapos') copyBtn.classList.add('bg-green-500'); // Valid feedback
         setTimeout(() => closeModal(), 800);
     });
@@ -473,10 +507,10 @@ window.enableEdit = function (code) {
     editContainer.className = 'mt-4 bg-white dark:bg-slate-800 rounded-lg p-5 border-2 border-themed/20 shadow-xl animate-fade-in';
 
     editContainer.innerHTML = `
-        <h4 class="font-bold text-themed mb-4 text-sm flex items-center">
+        < h4 class="font-bold text-themed mb-4 text-sm flex items-center" >
             <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
-            Editar Normativa (${cleanCode})
-        </h4>
+            Editar Normativa(${ cleanCode })
+        </h4 >
         
         <div class="space-y-4">
             <div>
@@ -537,7 +571,7 @@ window.saveEdit = function (code) {
     // Show Toast
     const copyBtn = document.getElementById('copyButton');
     const originalText = copyBtn.innerHTML;
-    copyBtn.innerHTML = `<span class="text-green-200">¡Guardado Persistente!</span>`;
+    copyBtn.innerHTML = `< span class="text-green-200" >¡Guardado Persistente!</span > `;
     copyBtn.classList.add('bg-green-600');
     setTimeout(() => {
         copyBtn.innerHTML = originalText;
