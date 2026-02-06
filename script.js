@@ -60,7 +60,11 @@ tabs.forEach(tab => {
 
 function updateTab(tabName) {
     currentTab = tabName;
+    currentTab = tabName;
     currentData = dataSources[tabName];
+
+    // Set Global Theme Scope
+    document.body.dataset.scope = tabName;
 
     // Update UI
     tabs.forEach(t => {

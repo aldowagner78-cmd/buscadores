@@ -1,5 +1,4 @@
 /* Custom Styles for Modern IAPOS Design (Option B) */
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
 :root {
@@ -17,9 +16,30 @@
     --input-bg: #ffffff;
     --shadow-color: rgba(1, 66, 137, 0.08);
 
-    /* Section Accents */
-    --accent-pmo: #22c55e;
-    --accent-iapos-red: #ef4444;
+    /* Section Accents - Base Colors */
+    --color-elementos: #00a8e7;
+    --color-pmo: #22c55e;
+    --color-iapos: #ef4444;
+
+    /* Current Active Theme (Default to Elementos) */
+    --active-theme: var(--color-elementos);
+    --active-theme-fade: rgba(0, 168, 231, 0.1);
+}
+
+/* Scope-Based Theming */
+body[data-scope="elementos"] {
+    --active-theme: var(--color-elementos);
+    --active-theme-fade: rgba(0, 168, 231, 0.1);
+}
+
+body[data-scope="pmo"] {
+    --active-theme: var(--color-pmo);
+    --active-theme-fade: rgba(34, 197, 94, 0.1);
+}
+
+body[data-scope="iapos"] {
+    --active-theme: var(--color-iapos);
+    --active-theme-fade: rgba(239, 68, 68, 0.1);
 }
 
 /* Dark Mode Variables */
@@ -35,7 +55,6 @@ html.dark :root {
 
 body {
     font-family: 'Outfit', sans-serif;
-    /* Modern, friendly font */
     background-color: var(--bg-body);
     color: var(--text-primary);
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -54,16 +73,17 @@ html.dark .glass {
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* Gradient Text */
+/* Gradient Text - Dynamic */
 .text-gradient-iapos {
-    background: linear-gradient(135deg, var(--iapos-dark), var(--iapos-light));
+    background: linear-gradient(135deg, var(--iapos-dark), var(--active-theme));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: background 0.5s ease;
 }
 
 html.dark .text-gradient-iapos {
-    background: linear-gradient(135deg, #38bdf8, #818cf8);
+    background: linear-gradient(135deg, #38bdf8, var(--active-theme));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -107,57 +127,44 @@ html.dark ::-webkit-scrollbar-thumb {
     background-color: var(--bg-card);
     border: 1px solid var(--border-color);
     box-shadow: 0 4px 6px -1px var(--shadow-color);
+    /* Dynamic Active Border */
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
 }
 
+/* Strict Theming: On Hover OR if forced, use active theme */
 .result-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 15px -3px var(--shadow-color);
-    border-color: var(--iapos-light);
+    border-color: var(--active-theme);
+    /* Full border color */
+    border-left-color: var(--active-theme);
+    /* Thick left border */
 }
 
-/* Source-Specific Accents */
-
-/* Elementos (Blue - Default) */
-.result-card.source-elementos:hover {
-    border-color: var(--iapos-light);
-    border-left-color: var(--iapos-light);
-}
-
-.result-card.source-elementos button:hover {
-    color: var(--iapos-light);
-}
-
-/* PMO (Green) */
-.result-card.source-pmo:hover {
-    border-color: var(--accent-pmo);
-    border-left-color: var(--accent-pmo);
-}
-
-.result-card.source-pmo button:hover {
-    color: var(--accent-pmo);
-}
-
-/* IAPOS (Red) */
-.result-card.source-iapos:hover {
-    border-color: var(--accent-iapos-red);
-    border-left-color: var(--accent-iapos-red);
-}
-
-.result-card.source-iapos button:hover {
-    color: var(--accent-iapos-red);
+/* Icon Hover */
+.result-card button:hover {
+    color: var(--active-theme);
 }
 
 /* Tab Active States */
 .tab-btn.active {
-    background: linear-gradient(to right, rgba(0, 168, 231, 0.1), transparent);
-    border-bottom: 2px solid var(--iapos-light);
-    color: var(--iapos-dark);
+    background: linear-gradient(to right, var(--active-theme-fade), transparent);
+    border-bottom: 2px solid var(--active-theme);
+    color: var(--active-theme);
 }
 
 html.dark .tab-btn.active {
-    background: linear-gradient(to right, rgba(56, 189, 248, 0.1), transparent);
-    border-bottom: 2px solid #38bdf8;
-    color: #38bdf8;
+    background: linear-gradient(to right, var(--active-theme-fade), transparent);
+}
+
+/* Tab Hover */
+.tab-btn:hover span.relative {
+    color: var(--active-theme);
+}
+
+.tab-btn span.absolute {
+    background-color: var(--active-theme);
 }
 
 /* Input Styles */
@@ -168,8 +175,8 @@ html.dark .tab-btn.active {
 }
 
 .search-input:focus {
-    border-color: var(--iapos-light);
-    box-shadow: 0 0 0 3px rgba(0, 168, 231, 0.2);
+    border-color: var(--active-theme);
+    box-shadow: 0 0 0 3px var(--active-theme-fade);
 }
 
 /* Theme Toggle Button */
@@ -182,4 +189,13 @@ html.dark .tab-btn.active {
 
 .theme-toggle:hover {
     background-color: rgba(128, 128, 128, 0.1);
+}
+
+/* Font Colors */
+.font-mono.font-bold {
+    color: var(--iapos-dark);
+}
+
+html.dark .font-mono.font-bold {
+    color: var(--iapos-light);
 }
