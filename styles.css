@@ -187,8 +187,42 @@ html.dark .tab-btn.active {
     transition: all 0.3s ease;
 }
 
-.theme-toggle:hover {
-    background-color: rgba(128, 128, 128, 0.1);
+/* Themed Utilities - The core of the deep theming */
+
+/* Text generic class */
+.text-themed {
+    color: var(--active-theme) !important;
+}
+
+/* Hover text generic class */
+.hover\:text-themed:hover {
+    color: var(--active-theme) !important;
+}
+
+/* Focus within generic class for search icon parent */
+.group:focus-within .group-focus-within\:text-themed {
+    color: var(--active-theme) !important;
+}
+
+/* Background soft generic class (for badges) */
+.bg-themed-soft {
+    background-color: var(--active-theme-fade);
+}
+
+/* Font Mono Bold override (The main code in cards) */
+.font-mono.font-bold {
+    color: var(--active-theme) !important;
+}
+
+/* Button Hover override (Actions in cards) */
+.result-card button:hover {
+    color: var(--active-theme) !important;
+}
+
+/* Tab Active State - Ensure Text is Themed */
+.tab-btn.active span.z-10 {
+    /* The active class already sets color, but let's be safe */
+    color: var(--active-theme);
 }
 
 /* Font Colors */
