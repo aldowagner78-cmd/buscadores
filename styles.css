@@ -8,7 +8,7 @@
     --iapos-light: #00a8e7;
 
     /* Theme Variables - Light */
-    --bg-body: #f0f9ff;
+    --bg-body: #dfe6ed;
     --bg-card: #ffffff;
     --text-primary: #0f172a;
     --text-secondary: #475569;
@@ -140,6 +140,24 @@ html.dark ::-webkit-scrollbar-thumb { background-color: #475569; }
     box-shadow: 0 4px 6px -1px var(--shadow-color);
     border-left: 4px solid transparent;
     transition: all 0.3s ease;
+    position: relative;
+}
+
+/* Card Logo */
+.card-logo {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    object-fit: contain;
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+html.dark .card-logo {
+    opacity: 0.1;
+    filter: brightness(2);
 }
 
 .result-card:hover {

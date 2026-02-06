@@ -19,5 +19,8 @@ Thumbs.db
 *.swo
 .vscode/
 
-# Images not used in app
-iapos.png
+# Temp/junk
+nul
+data_v3.js
+debug_columns.txt
+explore_bonos.py

@@ -75,6 +75,10 @@ const dom = {
 };
 
 // --- Utility: Get merged data (base + user overrides) for a code ---
+function displayCode(code) {
+    return String(code).replace(/\./g, '');
+}
+
 function getMergedNormativa(code) {
     const cleanCode = String(code).replace(/\./g, '').trim().padStart(6, '0');
     const override = state.userOverrides[cleanCode];
@@ -233,8 +237,15 @@ function createResultCard(item, index) {
     const coseguro = item.coseguro || '';
 
     const card = document.createElement('div');
-    card.className = 'result-card p-4 rounded-xl mb-3 transition-all duration-200 border-l-4 border-l-transparent';
+    card.className = 'result-card p-4 rounded-xl mb-3 transition-all duration-200 border-l-4 border-l-transparent relative';
     card.style.animationDelay = (index * 30) + 'ms';
+
+    // IAPOS logo (subtle, top-right)
+    const logo = document.createElement('img');
+    logo.src = 'iapos.png';
+    logo.alt = '';
+    logo.className = 'card-logo';
+    card.appendChild(logo);
 
     // --- Top Row: Code + Badges ---
     const topRow = document.createElement('div');
@@ -242,7 +253,7 @@ function createResultCard(item, index) {
 
     const codeSpan = document.createElement('span');
     codeSpan.className = 'font-mono font-bold text-themed text-lg';
-    codeSpan.textContent = item.code;
+    codeSpan.textContent = displayCode(item.code);
     topRow.appendChild(codeSpan);
 
     // Badge Coseguro
@@ -299,13 +310,13 @@ function createResultCard(item, index) {
     // [Copiar Código]
     actionsDiv.appendChild(createActionBtn('Código', 'M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2', function (e) {
         e.stopPropagation();
-        copyToClipboard(item.code);
+        copyToClipboard(displayCode(item.code));
     }));
 
     // [+ Nombre]
     actionsDiv.appendChild(createActionBtn('+ Nombre', 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z', function (e) {
         e.stopPropagation();
-        copyToClipboard(item.code + ' ' + item.description);
+        copyToClipboard(displayCode(item.code) + ' ' + item.description);
     }));
 
     // [Copiar Nota] - solo si hay normativa
@@ -384,7 +395,7 @@ function openModal(item) {
     codeBox.className = 'bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl p-4 mb-4 text-center';
     const codeSpan = document.createElement('span');
     codeSpan.className = 'block text-4xl font-mono font-bold text-themed tracking-widest select-all';
-    codeSpan.textContent = item.code;
+    codeSpan.textContent = displayCode(item.code);
     codeBox.appendChild(codeSpan);
     // Coseguro in code box
     if (coseguro) {
@@ -433,13 +444,13 @@ function openModal(item) {
 
     // Copiar Código
     const btnCode = createModalBtn('Copiar Código', false, function () {
-        copyToClipboard(item.code);
+        copyToClipboard(displayCode(item.code));
     });
     actionsGrid.appendChild(btnCode);
 
     // Copiar Código + Nombre
     const btnCodeName = createModalBtn('Código + Nombre', false, function () {
-        copyToClipboard(item.code + ' ' + item.description);
+        copyToClipboard(displayCode(item.code) + ' ' + item.description);
     });
     actionsGrid.appendChild(btnCodeName);
 
@@ -454,7 +465,7 @@ function openModal(item) {
 
     // Copiar Todo
     const btnAll = createModalBtn('Copiar Info Completa', true, function () {
-        let fullText = item.code + ' - ' + item.description;
+        let fullText = displayCode(item.code) + ' - ' + item.description;
         if (normativa) fullText += '\n' + normativa;
         copyToClipboard(fullText);
     });
@@ -511,7 +522,7 @@ function openEditModal(item) {
     editSvg.appendChild(editPath);
     title.appendChild(editSvg);
 
-    const titleText = document.createTextNode('Editar Normativa (' + item.code + ')');
+    const titleText = document.createTextNode('Editar Normativa (' + displayCode(item.code) + ')');
     title.appendChild(titleText);
     dom.modalContent.appendChild(title);
 
@@ -520,7 +531,7 @@ function openEditModal(item) {
     infoDiv.className = 'bg-slate-50 dark:bg-slate-900/50 rounded-lg p-3 mb-4 text-sm';
     const infoCode = document.createElement('span');
     infoCode.className = 'font-mono font-bold text-themed';
-    infoCode.textContent = item.code;
+    infoCode.textContent = displayCode(item.code);
     infoDiv.appendChild(infoCode);
     const infoDesc = document.createElement('span');
     infoDesc.className = 'text-slate-600 dark:text-slate-300 ml-2';
