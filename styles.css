@@ -30,16 +30,28 @@
 body[data-scope="elementos"] {
     --active-theme: var(--color-elementos);
     --active-theme-fade: rgba(0, 168, 231, 0.1);
+    --grad-start: #014289;
+    /* Dark Blue */
+    --grad-end: #00a8e7;
+    /* Light Blue */
 }
 
 body[data-scope="pmo"] {
     --active-theme: var(--color-pmo);
     --active-theme-fade: rgba(34, 197, 94, 0.1);
+    --grad-start: #15803d;
+    /* Dark Green */
+    --grad-end: #4ade80;
+    /* Light Green */
 }
 
 body[data-scope="iapos"] {
     --active-theme: var(--color-iapos);
     --active-theme-fade: rgba(239, 68, 68, 0.1);
+    --grad-start: #b91c1c;
+    /* Dark Red */
+    --grad-end: #f87171;
+    /* Light Red */
 }
 
 /* Dark Mode Variables */
@@ -75,11 +87,27 @@ html.dark .glass {
 
 /* Gradient Text - Dynamic */
 .text-gradient-iapos {
-    background: linear-gradient(135deg, var(--iapos-dark), var(--active-theme));
+    background: linear-gradient(135deg, var(--grad-start), var(--grad-end));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: background 0.5s ease;
+    transition: all 0.5s ease;
+    background-size: 200% 200%;
+    animation: gradientFlow 3s ease infinite;
+}
+
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 html.dark .text-gradient-iapos {
