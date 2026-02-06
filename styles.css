@@ -181,10 +181,11 @@ html.dark .card-logo {
 
 /* Tab Styles */
 .tab-btn {
-    font-size: 0.7rem;
-    letter-spacing: 0.025em;
-    padding: 1rem 0.75rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    padding: 1rem 1rem;
     border-right: 2px solid var(--border-color);
+    min-width: 0;
 }
 
 .tab-btn:last-child {
