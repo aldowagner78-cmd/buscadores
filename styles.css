@@ -145,7 +145,7 @@ html.dark ::-webkit-scrollbar-thumb { background-color: #475569; }
 
 /* Header Logo - same height as title font */
 .header-logo {
-    height: 2.5rem; /* mobile */
+    height: 2rem; /* mobile */
     width: auto;
 }
 
@@ -181,8 +181,9 @@ html.dark .card-logo {
 
 /* Tab Styles */
 .tab-btn {
-    font-size: 0.7rem;
-    padding: 0.75rem 0.25rem;
+    font-size: 0.65rem;
+    letter-spacing: 0.025em;
+    padding: 0.875rem 0.5rem;
     border-right: 1px solid var(--border-color);
 }
 
@@ -193,7 +194,8 @@ html.dark .card-logo {
 @media (min-width: 768px) {
     .tab-btn {
         font-size: 1rem;
-        padding: 1rem 1rem;
+        letter-spacing: 0.05em;
+        padding: 1rem 1.5rem;
         border-right: none;
     }
 }
