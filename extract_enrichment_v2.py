@@ -12,8 +12,12 @@ OUTPUT_PATH = r"c:\Users\kengy\Desktop\Buscador_v2\enriched_data.js"
 enriched_data = {}
 
 def clean_code(code):
-    """Elimina puntos y espacios de los códigos (ej: 01.01.01 -> 010101)"""
-    return str(code).replace('.', '').strip()
+    """Elimina puntos, espacios y normaliza a 6 dígitos (ej: 10101 -> 010101)"""
+    clean = str(code).replace('.', '').strip()
+    # Si es numérico, forzar 6 dígitos
+    if clean.isdigit():
+        return clean.zfill(6)
+    return clean
 
 def extract_excel():
     print(f"--- Procesando Excel: {EXCEL_PATH} ---")

@@ -15,6 +15,20 @@ const closeModalBtn = document.getElementById('closeModal');
 let currentTab = 'elementos'; // 'elementos', 'pmo', 'iapos'
 let currentData = [];
 
+// Local Storage & Merging Logic
+let userOverrides = {};
+try {
+    const saved = localStorage.getItem('userOverrides');
+    if (saved) userOverrides = JSON.parse(saved);
+} catch (e) { console.error("Error loading overrides", e); }
+
+function getFinalData(code) {
+    const clean = String(code).replace(/\./g, '').trim().padStart(6, '0');
+    const base = window.enrichedDataRaw && window.enrichedDataRaw[clean] ? window.enrichedDataRaw[clean] : {};
+    const override = userOverrides[clean] || {};
+    return { ...base, ...override };
+}
+
 // Deduplicate Arrays on load
 const deduplicate = (arr, key) => {
     const seen = new Set();
@@ -120,13 +134,46 @@ function renderResults(items) {
         card.className = `result-card source-${currentTab} p-4 rounded-xl cursor-pointer mb-3 flex justify-between items-center group transition-all duration-200 border-l-4 border-l-transparent`;
 
         // Check for enriched data
-        const cleanCode = String(item.code).replace(/\./g, '').trim();
+        // Ensure consistent 6-digit zero-padding for matching
+        let cleanCode = String(item.code).replace(/\./g, '').trim();
+        if (/^\d+$/.test(cleanCode)) {
+            cleanCode = cleanCode.padStart(6, '0');
+        }
+
+        const extraData = getFinalData(String(item.code).replace(/\./g, '').trim());
+
         let extraBadge = '';
-        if (window.enrichedDataRaw && window.enrichedDataRaw[cleanCode]) {
-            extraBadge = `<span class="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-themed-soft text-themed" title="Información Extra Disponible">
-                <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                Info
-             </span>`;
+        let extraContent = '';
+
+        if (extraData) {
+            // Normative Preview (Inline)
+            // Prioritize: Incluye/Excluye/Text
+            const hasNormative = extraData.incluye || extraData.excluye || extraData.text || extraData.observacion;
+
+            if (hasNormative) {
+                extraBadge = `<span class="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-themed-soft text-themed" title="Normativa Disponible">
+                    <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    Normas
+                 </span>`;
+
+                let previewParts = [];
+                if (extraData.incluye) previewParts.push(`<span class="text-green-700 dark:text-green-400 font-bold">Incluye:</span> ${extraData.incluye}`);
+                if (extraData.excluye) previewParts.push(`<span class="text-red-700 dark:text-red-400 font-bold">Excluye:</span> ${extraData.excluye}`);
+                if (extraData.text && !extraData.incluye && !extraData.excluye) previewParts.push(`<span class="text-slate-500">Nota:</span> ${extraData.text}`);
+
+                let previewText = previewParts.join(' | ');
+                if (previewText.length > 200) previewText = previewText.substring(0, 200) + '...';
+
+                if (previewText) {
+                    normPreview = `
+                        <div class="mt-3 pt-2 border-t border-slate-100 dark:border-slate-700/50 text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+                            ${previewText}
+                        </div>
+                    `;
+                }
+            }
+
+            extraContent = normPreview + financialBlock;
         }
 
         card.innerHTML = `
@@ -136,8 +183,9 @@ function renderResults(items) {
                     ${extraBadge}
                 </div>
                 <div class="text-slate-600 dark:text-slate-300 font-medium text-sm md:text-base leading-snug">${item.description}</div>
+                ${extraContent}
             </div>
-            <button class="text-slate-300 hover:text-themed transition-colors">
+            <button class="self-start mt-2 text-slate-300 hover:text-themed transition-colors" title="Ver detalles y copiar">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
                 </svg>
@@ -156,34 +204,43 @@ function openModal(item) {
     modalCode.textContent = item.code;
     modalDesc.textContent = item.description;
 
-    // Enrich Modal Content
-    const cleanCode = String(item.code).replace(/\./g, '').trim();
-    const extraData = (window.enrichedDataRaw && window.enrichedDataRaw[cleanCode]) ? window.enrichedDataRaw[cleanCode] : null;
+    // Enrich Modal Content - Normative
+    const cleanCode = String(item.code).replace(/\./g, '').trim().padStart(6, '0');
+    // Use getFinalData to include user edits
+    const extraData = getFinalData(cleanCode);
 
     const existingExtra = document.getElementById('modalExtraInfo');
     if (existingExtra) existingExtra.remove();
+    const existingEdit = document.getElementById('editContainer');
+    if (existingEdit) existingEdit.remove();
 
-    if (extraData) {
-        const extraDiv = document.createElement('div');
-        extraDiv.id = 'modalExtraInfo';
-        extraDiv.className = 'mt-4 bg-slate-50 dark:bg-slate-700/50 rounded-lg p-4 text-sm text-left border border-slate-200 dark:border-slate-600';
+    // Always create container to allow adding data if empty
+    const extraDiv = document.createElement('div');
+    extraDiv.id = 'modalExtraInfo';
+    extraDiv.className = 'mt-4 bg-slate-50 dark:bg-slate-700/50 rounded-lg p-4 text-sm text-left border border-slate-200 dark:border-slate-600';
 
-        extraDiv.innerHTML = `
-            <h4 class="font-bold text-slate-700 dark:text-slate-300 mb-2 border-b border-slate-200 dark:border-slate-600 pb-1 flex justify-between">
-                <span>Detalles (Nomenclador)</span>
-                <span class="text-xs font-normal text-slate-500">${extraData.categoria}</span>
-            </h4>
-            <div class="grid grid-cols-2 gap-x-6 gap-y-2">
-                <div class="flex justify-between"><span class="text-slate-500 text-xs">Galenos:</span> <span class="font-mono font-bold">${extraData.galenos}</span></div>
-                <div class="flex justify-between"><span class="text-slate-500 text-xs">Gastos:</span> <span class="font-mono font-bold">${extraData.gastos}</span></div>
-                <div class="flex justify-between border-t border-slate-200 dark:border-slate-600 pt-1 mt-1 col-span-2">
-                    <span class="text-slate-600 dark:text-slate-400 font-bold">TOTAL:</span> 
-                    <span class="font-mono font-bold text-green-600 dark:text-green-400 text-lg">${extraData.total}</span>
-                </div>
-            </div>
-        `;
-        modalDesc.parentNode.insertBefore(extraDiv, modalDesc.nextSibling);
+    let contentHtml = '';
+    const hasData = extraData && (Object.keys(extraData).length > 0);
+
+    if (hasData) {
+        if (extraData.incluye) contentHtml += `<div class="mb-3"><h5 class="font-bold text-green-700 dark:text-green-400 text-xs uppercase mb-1">Incluye</h5><p class="text-slate-700 dark:text-slate-300 leading-relaxed">${extraData.incluye}</p></div>`;
+        if (extraData.excluye) contentHtml += `<div class="mb-3"><h5 class="font-bold text-red-700 dark:text-red-400 text-xs uppercase mb-1">Excluye</h5><p class="text-slate-700 dark:text-slate-300 leading-relaxed">${extraData.excluye}</p></div>`;
+        if (extraData.criterios) contentHtml += `<div class="mb-3"><h5 class="font-bold text-blue-700 dark:text-blue-400 text-xs uppercase mb-1">Criterios</h5><p class="text-slate-700 dark:text-slate-300 italic">${extraData.criterios}</p></div>`;
+        if (extraData.observacion) contentHtml += `<div class="mb-3"><h5 class="font-bold text-orange-700 dark:text-orange-400 text-xs uppercase mb-1">Observación</h5><p class="text-slate-700 dark:text-slate-300">${extraData.observacion}</p></div>`;
+        if (!contentHtml && extraData.text) contentHtml += `<p class="text-slate-700 dark:text-slate-300 whitespace-pre-line">${extraData.text}</p>`;
     }
+
+    extraDiv.innerHTML = `
+        <h4 class="font-bold text-slate-700 dark:text-slate-300 mb-3 border-b border-slate-200 dark:border-slate-600 pb-1 flex justify-between items-center">
+            <span>Normativa / Detalles</span>
+            <button onclick="enableEdit('${cleanCode}')" class="text-xs text-themed hover:text-themed-dark font-semibold flex items-center bg-white dark:bg-slate-800 px-2 py-1 rounded border border-slate-200 dark:border-slate-600 shadow-sm transition-colors">
+                <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                ${hasData ? 'Editar' : 'Agregar Nota'}
+            </button>
+        </h4>
+        ${contentHtml || '<p class="text-slate-400 italic text-center py-2">Sin normativa cargada.</p>'}
+    `;
+    modalDesc.parentNode.insertBefore(extraDiv, modalDesc.nextSibling);
 
     // Reset Button State
     const copyBtn = document.getElementById('copyButton');
@@ -210,11 +267,91 @@ function closeModal() {
     modal.querySelector('div').classList.remove('scale-100');
     modal.querySelector('div').classList.add('scale-95');
 
+    // Granular Copy Buttons
+    const copyBtn = document.getElementById('copyButton');
+    copyBtn.classList.add('hidden'); // Hide original big button
+
+    const existingActions = document.getElementById('granularActions');
+    if (existingActions) existingActions.remove();
+
+    const granularActions = document.createElement('div');
+    granularActions.id = 'granularActions';
+    granularActions.className = 'grid grid-cols-2 gap-3 mt-6';
+
+    // Theme-aware classes
+    const btnClass = "flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-bold transition-all duration-200 text-sm shadow-sm hover:-translate-y-0.5 active:translate-y-0";
+    const primaryClass = "btn-themed text-white shadow-themed/30";
+    const secondaryClass = "bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600";
+
+    granularActions.innerHTML = `
+        <button onclick="copyToClipboard('${item.code}')" class="${btnClass} ${secondaryClass}">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+            Código
+        </button>
+        <button onclick="copyToClipboard('${item.description.replace(/'/g, "\\'")}')" class="${btnClass} ${secondaryClass}">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+            Descripción
+        </button>
+        ${(extraData?.incluye || extraData?.excluye) ? `
+        <button onclick="copyToClipboard('${(extraData.incluye || "")} ${(extraData.excluye || "")}')" class="${btnClass} ${secondaryClass} col-span-2">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+            Normativa
+        </button>
+        ` : ''}
+        <button onclick="copyToClipboard('${item.code} - ${item.description.replace(/'/g, "\\'")} ${extraData?.incluye ? '\\nIncluye: ' + extraData.incluye : ''}')" class="${btnClass} ${primaryClass} col-span-2">
+            Copiar Info
+        </button>
+    `;
+
+    // Append after modal content
+    const container = document.querySelector('#copyModal .text-center');
+    container.appendChild(granularActions);
+
+    modal.classList.remove('hidden');
+    // Animate in
+    setTimeout(() => {
+        modal.classList.remove('opacity-0');
+        modal.querySelector('div').classList.remove('scale-95');
+        modal.querySelector('div').classList.add('scale-100');
+    }, 10);
+}
+
+function closeModal() {
+    modal.classList.add('opacity-0');
+    modal.querySelector('div').classList.remove('scale-100');
+    modal.querySelector('div').classList.add('scale-95');
+
     setTimeout(() => {
         modal.classList.add('hidden');
+        // Reset state
+        const actions = document.getElementById('granularActions');
+        if (actions) actions.remove();
+        const copyBtn = document.getElementById('copyButton');
+        copyBtn.classList.remove('hidden');
     }, 300);
 }
 
+// Global helper for granular buttons
+window.copyToClipboard = function (text) {
+    if (!text) return;
+    navigator.clipboard.writeText(text).then(() => {
+        // Find the button that was clicked to give feedback
+        const btn = document.activeElement;
+        // Simple visual feedback
+        const originalContent = btn.innerHTML;
+        btn.innerHTML = `<span class="font-bold">¡Copiado!</span>`;
+        btn.classList.add('ring-2', 'ring-green-400');
+
+        setTimeout(() => {
+            btn.innerHTML = originalContent;
+            btn.classList.remove('ring-2', 'ring-green-400');
+        }, 1000);
+    }).catch(err => {
+        console.error('Error al copiar: ', err);
+    });
+};
+
+/* 
 copyBtn.addEventListener('click', () => {
     navigator.clipboard.writeText(modalCode.textContent).then(() => {
         copyBtn.innerHTML = `<span class="text-white">¡Copiado Exitosamente!</span>`;
@@ -222,6 +359,7 @@ copyBtn.addEventListener('click', () => {
         setTimeout(() => closeModal(), 800);
     });
 });
+*/
 
 closeModalBtn.addEventListener('click', closeModal);
 window.addEventListener('click', (e) => {
@@ -274,5 +412,93 @@ document.addEventListener('keydown', (e) => {
 });
 
 // Run
+// Editor Functions
+window.enableEdit = function (code) {
+    const cleanCode = String(code).padStart(6, '0');
+    const currentData = getFinalData(cleanCode);
+
+    const infoDiv = document.getElementById('modalExtraInfo');
+    if (infoDiv) infoDiv.classList.add('hidden');
+
+    const existing = document.getElementById('editContainer');
+    if (existing) existing.remove();
+
+    const editContainer = document.createElement('div');
+    editContainer.id = 'editContainer';
+    editContainer.className = 'mt-4 bg-white dark:bg-slate-800 rounded-lg p-5 border-2 border-themed/20 shadow-xl animate-fade-in';
+
+    editContainer.innerHTML = `
+        <h4 class="font-bold text-themed mb-4 text-sm flex items-center">
+            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+            Editar Normativa (${cleanCode})
+        </h4>
+        
+        <div class="space-y-4">
+            <div>
+                <label class="block text-xs font-bold text-green-600 dark:text-green-400 uppercase mb-1">Incluye</label>
+                <textarea id="editIncluye" rows="2" class="w-full text-sm p-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all" placeholder="Ej: Honorarios, Material descartable...">${currentData.incluye || ''}</textarea>
+            </div>
+            
+            <div>
+                <label class="block text-xs font-bold text-red-600 dark:text-red-400 uppercase mb-1">Excluye</label>
+                <textarea id="editExcluye" rows="2" class="w-full text-sm p-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" placeholder="Ej: Material radioactivo...">${currentData.excluye || ''}</textarea>
+            </div>
+            
+            <div>
+                <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Observaciones / Criterios</label>
+                <textarea id="editObs" rows="3" class="w-full text-sm p-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-themed focus:border-transparent transition-all" placeholder="Notas adicionales...">${currentData.observacion || currentData.criterios || ''}</textarea>
+            </div>
+        </div>
+        
+        <div class="flex justify-end gap-3 mt-4 pt-3 border-t border-slate-100 dark:border-slate-700">
+            <button onclick="cancelEdit()" class="px-4 py-2 text-sm font-medium text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg transition-colors">Cancelar</button>
+            <button onclick="saveEdit('${cleanCode}')" class="px-5 py-2 text-sm font-bold text-white bg-themed hover:bg-themed-dark rounded-lg shadow-md hover:shadow-lg transition-all transform active:scale-95">Guardar Cambios</button>
+        </div>
+    `;
+
+    modalDesc.parentNode.insertBefore(editContainer, modalDesc.nextSibling);
+};
+
+window.cancelEdit = function () {
+    const editContainer = document.getElementById('editContainer');
+    if (editContainer) editContainer.remove();
+    const infoDiv = document.getElementById('modalExtraInfo');
+    if (infoDiv) infoDiv.classList.remove('hidden');
+};
+
+window.saveEdit = function (code) {
+    const incluye = document.getElementById('editIncluye').value.trim();
+    const excluye = document.getElementById('editExcluye').value.trim();
+    const obs = document.getElementById('editObs').value.trim();
+
+    const cleanCode = String(code).padStart(6, '0');
+    if (!userOverrides[cleanCode]) userOverrides[cleanCode] = {};
+
+    if (incluye) userOverrides[cleanCode].incluye = incluye; else delete userOverrides[cleanCode].incluye;
+    if (excluye) userOverrides[cleanCode].excluye = excluye; else delete userOverrides[cleanCode].excluye;
+    if (obs) userOverrides[cleanCode].observacion = obs; else delete userOverrides[cleanCode].observacion;
+
+    // Clean empty objects
+    if (Object.keys(userOverrides[cleanCode]).length === 0) delete userOverrides[cleanCode];
+
+    localStorage.setItem('userOverrides', JSON.stringify(userOverrides));
+
+    // Refresh modal
+    cancelEdit();
+    // Re-render info part
+    const item = { code: cleanCode, description: modalDesc.textContent }; // Hacky re-open
+    openModal(item);
+
+    // Show Toast
+    const copyBtn = document.getElementById('copyButton');
+    const originalText = copyBtn.innerHTML;
+    copyBtn.innerHTML = `<span class="text-green-200">¡Guardado Persistente!</span>`;
+    copyBtn.classList.add('bg-green-600');
+    setTimeout(() => {
+        copyBtn.innerHTML = originalText;
+        copyBtn.classList.remove('bg-green-600');
+    }, 1500);
+};
+
 init();
 
