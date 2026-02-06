@@ -111,10 +111,12 @@ html.dark .glass {
 }
 
 html.dark .text-gradient-iapos {
-    background: linear-gradient(135deg, #38bdf8, var(--active-theme));
+    background: linear-gradient(135deg, var(--grad-start), var(--grad-end));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    filter: brightness(1.2);
+    /* Boost brightness slightly for dark mode contrast */
 }
 
 /* Custom Scrollbar */
