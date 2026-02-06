@@ -145,10 +145,31 @@ function renderResults(items) {
         let extraBadge = '';
         let extraContent = '';
 
+        // Inicializar variables para evitar ReferenceError
+        let normPreview = '';
+        let financialBlock = '';
+
         if (extraData) {
-            // Normative Preview (Inline)
-            // Prioritize: Incluye/Excluye/Text
+            // Normative Preview logic
             const hasNormative = extraData.incluye || extraData.excluye || extraData.text || extraData.observacion;
+
+            // Financial Data (Hidden by default)
+            financialBlock = `
+                <div class="hidden financial-data mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/50 grid grid-cols-3 gap-2 text-xs opacity-75">
+                    <div>
+                        <span class="text-slate-400 block mb-0.5">Galenos</span>
+                        <span class="font-mono font-semibold text-slate-700 dark:text-slate-200">${extraData.galenos || '-'}</span>
+                    </div>
+                    <div>
+                        <span class="text-slate-400 block mb-0.5">Gastos</span>
+                        <span class="font-mono font-semibold text-slate-700 dark:text-slate-200">${extraData.gastos || '-'}</span>
+                    </div>
+                    <div>
+                        <span class="text-slate-400 block mb-0.5">Total</span>
+                        <span class="font-mono font-bold text-themed">${extraData.total || '-'}</span>
+                    </div>
+                </div>
+            `;
 
             if (hasNormative) {
                 extraBadge = `<span class="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-themed-soft text-themed" title="Normativa Disponible">
