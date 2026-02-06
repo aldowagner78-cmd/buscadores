@@ -158,13 +158,29 @@ html.dark .tab-btn.active {
     background: linear-gradient(to right, var(--active-theme-fade), transparent);
 }
 
-/* Tab Hover */
-.tab-btn:hover span.relative {
-    color: var(--active-theme);
+/* Independent Inactive Hover States */
+.tab-btn[data-tab="elementos"]:not(.active):hover {
+    color: var(--color-elementos);
 }
 
-.tab-btn span.absolute {
-    background-color: var(--active-theme);
+.tab-btn[data-tab="elementos"]:not(.active):hover span.absolute {
+    background-color: var(--color-elementos);
+}
+
+.tab-btn[data-tab="pmo"]:not(.active):hover {
+    color: var(--color-pmo);
+}
+
+.tab-btn[data-tab="pmo"]:not(.active):hover span.absolute {
+    background-color: var(--color-pmo);
+}
+
+.tab-btn[data-tab="iapos"]:not(.active):hover {
+    color: var(--color-iapos);
+}
+
+.tab-btn[data-tab="iapos"]:not(.active):hover span.absolute {
+    background-color: var(--color-iapos);
 }
 
 /* Input Styles */
@@ -185,6 +201,23 @@ html.dark .tab-btn.active {
     padding: 0.5rem;
     border-radius: 9999px;
     transition: all 0.3s ease;
+}
+
+/* Themed Button (Copy Button) */
+.btn-themed {
+    background-color: var(--active-theme) !important;
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.btn-themed:hover {
+    filter: brightness(1.1);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px var(--active-theme-fade);
+}
+
+.btn-themed:active {
+    transform: translateY(0);
 }
 
 /* Themed Utilities - The core of the deep theming */
