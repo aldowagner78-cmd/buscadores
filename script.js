@@ -41,10 +41,12 @@ const deduplicate = (arr, key) => {
 };
 
 // Data Sources (mapped from data.js globals)
+// Data Sources (mapped from data.js globals)
 const dataSources = {
-    elementos: deduplicate(typeof elementosDataRaw !== 'undefined' ? elementosDataRaw : [], 'code'),
+    elementos: deduplicate(typeof medicasDataV3 !== 'undefined' ? medicasDataV3 : [], 'code'),
     pmo: deduplicate(typeof pmoDataRaw !== 'undefined' ? pmoDataRaw : [], 'code'),
-    iapos: deduplicate(typeof iaposDataRaw !== 'undefined' ? iaposDataRaw : [], 'code')
+    iapos: deduplicate(typeof iaposDataRaw !== 'undefined' ? iaposDataRaw : [], 'code'),
+    bioquimica: deduplicate(typeof biochemDataV3 !== 'undefined' ? biochemDataV3 : [], 'code')
 };
 
 // Utilities
@@ -197,6 +199,27 @@ function renderResults(items) {
             extraContent = normPreview + financialBlock;
         }
 
+
+        // V3 Specific: Coseguro & Bonos (Visible) - Prioritize V3 Data fields over stored overrides or enriched
+        let v3Badges = '';
+        if (item.coseguro || item.bonos) {
+            v3Badges = `
+                <div class="flex flex-wrap gap-2 mt-2 mb-1">
+                    ${item.coseguro ? `
+                        <span class="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-bold bg-themed-soft text-themed border border-themed/20 shadow-sm" title="Coseguro a cargo del afiliado">
+                            <svg class="w-3 h-3 mr-1.5 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                            Coseguro: ${item.coseguro}
+                        </span>` : ''}
+                    
+                    ${item.bonos ? `
+                        <span class="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-bold bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-600 shadow-sm" title="Cantidad de Bonos/Unidades">
+                            <svg class="w-3 h-3 mr-1.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path></svg>
+                            ${item.bonos} ${/^\d+$/.test(item.bonos) ? (currentTab === 'bioquimica' ? 'UB' : 'Bonos') : ''}
+                        </span>` : ''}
+                </div>
+             `;
+        }
+
         card.innerHTML = `
             <div class="flex-1 pr-4">
                 <div class="flex items-center mb-1">
@@ -204,6 +227,7 @@ function renderResults(items) {
                     ${extraBadge}
                 </div>
                 <div class="text-slate-600 dark:text-slate-300 font-medium text-sm md:text-base leading-snug">${item.description}</div>
+                ${v3Badges}
                 ${extraContent}
             </div>
             <button class="self-start mt-2 text-slate-300 hover:text-themed transition-colors" title="Ver detalles y copiar">

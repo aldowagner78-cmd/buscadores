@@ -20,6 +20,8 @@
     --color-elementos: #00a8e7;
     --color-pmo: #22c55e;
     --color-iapos: #ef4444;
+    --color-bioquimica: #9333ea;
+    /* Purple 600 */
 
     /* Current Active Theme (Default to Elementos) */
     --active-theme: var(--color-elementos);
@@ -52,6 +54,15 @@ body[data-scope="iapos"] {
     /* Deep Red (Darker) */
     --grad-end: #f87171;
     /* Bright Red (Lighter) */
+}
+
+body[data-scope="bioquimica"] {
+    --active-theme: var(--color-bioquimica);
+    --active-theme-fade: rgba(147, 51, 234, 0.1);
+    --grad-start: #581c87;
+    /* Purple 900 */
+    --grad-end: #c084fc;
+    /* Purple 400 */
 }
 
 /* Dark Mode Variables */
@@ -211,6 +222,14 @@ html.dark .tab-btn.active {
 
 .tab-btn[data-tab="iapos"]:not(.active):hover span.absolute {
     background-color: var(--color-iapos);
+}
+
+.tab-btn[data-tab="bioquimica"]:not(.active):hover {
+    color: var(--color-bioquimica);
+}
+
+.tab-btn[data-tab="bioquimica"]:not(.active):hover span.absolute {
+    background-color: var(--color-bioquimica);
 }
 
 /* Input Styles */
