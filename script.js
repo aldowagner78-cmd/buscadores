@@ -1,92 +1,133 @@
+/**
+ * Buscador Médico IAPOS v3.0
+ * Motor de búsqueda robusto con DOM API puro (sin innerHTML para datos de usuario)
+ */
 
-// DOM Elements
-const tabs = document.querySelectorAll('.tab-btn');
-const contents = document.querySelectorAll('.tab-content');
-const searchInput = document.getElementById('searchInput');
-const searchResults = document.getElementById('searchResults');
-const resultsCount = document.getElementById('resultsCount');
-const modal = document.getElementById('copyModal');
-const modalCode = document.getElementById('modalCode');
-const modalDesc = document.getElementById('modalDescription');
-const copyBtn = document.getElementById('copyButton');
-const closeModalBtn = document.getElementById('closeModal');
+// --- SearchEngine Class ---
+class SearchEngine {
+    constructor(data) {
+        this.data = data; // { medicas: [], bioquimica: [], odontologia: [], elementos: [] }
+    }
 
-// State
-let currentTab = 'elementos'; // 'elementos', 'pmo', 'iapos'
-let currentData = [];
+    normalize(str) {
+        if (!str) return '';
+        return str.toString()
+            .toLowerCase()
+            .normalize('NFD').replace(/[\u0300-\u036f]/g, '')  // Remove accents
+            .replace(/\./g, '')    // Remove dots
+            .replace(/\s+/g, ' ') // Normalize spaces
+            .replace(/[^a-z0-9 ]/g, ''); // Keep alphanumeric + spaces
+    }
 
-// Local Storage & Merging Logic
+    search(category, query) {
+        const normalizedQuery = this.normalize(query);
+        if (normalizedQuery.length < 2) return [];
 
-// Local Storage & Merging Logic - V4 CLEANUP: Removed OCR Merge
-// We ONLY keep userOverrides for manual edits (persistence)
-let userOverrides = {};
+        const items = this.data[category] || [];
+        return items.filter(item => {
+            const code = this.normalize(item.code);
+            const desc = this.normalize(item.description);
+            return code.includes(normalizedQuery) || desc.includes(normalizedQuery);
+        });
+    }
+
+    deduplicate(items) {
+        const seen = new Set();
+        return items.filter(item => {
+            if (seen.has(item.code)) return false;
+            seen.add(item.code);
+            return true;
+        });
+    }
+}
+
+// --- App State ---
+const state = {
+    currentTab: 'medicas',
+    userOverrides: {}
+};
+
+// Load user overrides from localStorage
 try {
-    const saved = localStorage.getItem('userOverrides');
-    if (saved) userOverrides = JSON.parse(saved);
-} catch (e) { console.error("Error loading overrides", e); }
-
-function getFinalData(code) {
-    // V4: Pure Data. No enriched_data fallback.
-    // Only check local overrides (manual edits)
-    const clean = String(code).replace(/\./g, '').trim().padStart(6, '0');
-    return userOverrides[clean] || {};
+    const saved = localStorage.getItem('userOverrides_v3');
+    if (saved) state.userOverrides = JSON.parse(saved);
+} catch (e) {
+    console.error('Error loading overrides:', e);
 }
 
-// Deduplicate Arrays on load
-const deduplicate = (arr, key) => {
-    const seen = new Set();
-    return arr.filter(item => {
-        const val = item[key];
-        if (seen.has(val)) return false;
-        seen.add(val);
-        return true;
-    });
+// --- Initialize ---
+const engine = new SearchEngine(typeof searchData !== 'undefined' ? searchData : {});
+
+// DOM References
+const dom = {
+    tabs: document.querySelectorAll('.tab-btn'),
+    searchInput: document.getElementById('searchInput'),
+    clearSearch: document.getElementById('clearSearch'),
+    searchResults: document.getElementById('searchResults'),
+    resultsCount: document.getElementById('resultsCount'),
+    modal: document.getElementById('detailModal'),
+    modalContent: document.getElementById('modalContent'),
+    closeModalBtn: document.getElementById('closeModal'),
+    themeToggle: document.getElementById('themeToggle'),
+    sunIcon: document.getElementById('sunIcon'),
+    moonIcon: document.getElementById('moonIcon'),
+    mainTitle: document.getElementById('mainTitle')
 };
 
-// Data Sources (mapped from data.js globals)
-// Data Sources (mapped from data.js globals)
-const dataSources = {
-    elementos: deduplicate(typeof medicasDataV3 !== 'undefined' ? medicasDataV3 : [], 'code'),
-    pmo: deduplicate(typeof pmoDataRaw !== 'undefined' ? pmoDataRaw : [], 'code'),
-    iapos: deduplicate(typeof iaposDataRaw !== 'undefined' ? iaposDataRaw : [], 'code'),
-    bioquimica: deduplicate(typeof biochemDataV3 !== 'undefined' ? biochemDataV3 : [], 'code')
-};
-
-// Utilities
-const normalizeConfirm = (str) => {
-    if (!str) return '';
-    return str.toString()
-        .toLowerCase()
-        .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Remove accents
-        .replace(/\./g, '') // Remove dots
-        .replace(/[^a-z0-9\s]/g, ''); // Keep only alphanumeric and spaces
-};
-
-
-// Initialize
-function init() {
-    updateTab('elementos');
-    searchInput.focus();
+// --- Utility: Get merged data (base + user overrides) for a code ---
+function getMergedNormativa(code) {
+    const cleanCode = String(code).replace(/\./g, '').trim().padStart(6, '0');
+    const override = state.userOverrides[cleanCode];
+    return override || null;
 }
 
-// Tab Switching
-tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-        const target = tab.dataset.tab;
-        updateTab(target);
-    });
-});
+function getEffectiveNormativa(item) {
+    const cleanCode = String(item.code).replace(/\./g, '').trim().padStart(6, '0');
+    const override = state.userOverrides[cleanCode];
+    if (override && override.normativa) {
+        return override.normativa;
+    }
+    return item.normativa || '';
+}
 
+// --- Utility: Save overrides ---
+function saveOverrides() {
+    localStorage.setItem('userOverrides_v3', JSON.stringify(state.userOverrides));
+}
+
+// --- Utility: Show toast ---
+function showToast(message, type) {
+    const existing = document.querySelector('.toast');
+    if (existing) existing.remove();
+
+    const toast = document.createElement('div');
+    toast.className = 'toast ' + (type === 'success' ? 'toast-success' : 'toast-info');
+    toast.textContent = message;
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transition = 'opacity 0.3s ease';
+        setTimeout(() => toast.remove(), 300);
+    }, 2000);
+}
+
+// --- Utility: Copy to clipboard ---
+function copyToClipboard(text) {
+    if (!text) return;
+    navigator.clipboard.writeText(text).then(() => {
+        showToast('Copiado al portapapeles', 'success');
+    }).catch(err => {
+        console.error('Error al copiar:', err);
+    });
+}
+
+// --- Tab Switching ---
 function updateTab(tabName) {
-    currentTab = tabName;
-    currentTab = tabName;
-    currentData = dataSources[tabName];
-
-    // Set Global Theme Scope
+    state.currentTab = tabName;
     document.body.dataset.scope = tabName;
 
-    // Update UI
-    tabs.forEach(t => {
+    dom.tabs.forEach(t => {
         if (t.dataset.tab === tabName) {
             t.classList.add('active');
         } else {
@@ -94,490 +135,517 @@ function updateTab(tabName) {
         }
     });
 
-    // Clear search and results
-    searchInput.value = '';
-    searchInput.placeholder = `Buscar en ${tabName.toUpperCase()}...`;
+    dom.searchInput.value = '';
+    dom.searchInput.placeholder = 'Buscar en ' + tabName.toUpperCase() + '...';
+    dom.clearSearch.classList.add('hidden');
     renderResults([]);
-    resultsCount.textContent = '';
+    dom.resultsCount.textContent = '';
+    dom.searchInput.focus();
 }
 
-// Search Logic
-searchInput.addEventListener('input', (e) => {
-    const query = normalizeConfirm(e.target.value);
+dom.tabs.forEach(tab => {
+    tab.addEventListener('click', () => updateTab(tab.dataset.tab));
+});
+
+// --- Search Logic ---
+dom.searchInput.addEventListener('input', function () {
+    const query = this.value;
+
+    // Show/hide clear button
+    if (query.length > 0) {
+        dom.clearSearch.classList.remove('hidden');
+    } else {
+        dom.clearSearch.classList.add('hidden');
+    }
 
     if (query.length < 2) {
         renderResults([]);
-        resultsCount.textContent = '';
+        dom.resultsCount.textContent = '';
         return;
     }
 
-    const results = currentData.filter(item => {
-        const code = normalizeConfirm(item.code);
-        const desc = normalizeConfirm(item.description);
-        return code.includes(query) || desc.includes(query);
-    });
-
+    const results = engine.search(state.currentTab, query);
     renderResults(results);
-    resultsCount.textContent = `${results.length} resultados encontrados`;
+    dom.resultsCount.textContent = results.length + ' resultados encontrados';
 });
 
-function renderResults(items) {
-    searchResults.innerHTML = '';
+// Clear button
+dom.clearSearch.addEventListener('click', function () {
+    dom.searchInput.value = '';
+    dom.clearSearch.classList.add('hidden');
+    renderResults([]);
+    dom.resultsCount.textContent = '';
+    dom.searchInput.focus();
+});
 
-    if (items.length === 0 && searchInput.value.length >= 2) {
-        searchResults.innerHTML = `
-            <div class="text-center p-8 text-slate-400">
-                <p>No se encontraron resultados para "${searchInput.value}"</p>
-            </div>
-        `;
+// --- Render Results (Pure DOM API - NO innerHTML for user data) ---
+function renderResults(items) {
+    // Clear previous results
+    while (dom.searchResults.firstChild) {
+        dom.searchResults.removeChild(dom.searchResults.firstChild);
+    }
+
+    if (items.length === 0 && dom.searchInput.value.length >= 2) {
+        renderEmptyState('No se encontraron resultados para "' + dom.searchInput.value + '"');
         return;
     }
 
-    items.forEach(item => {
-        const card = document.createElement('div');
-        // Use custom class 'result-card' which handles dark mode bg via CSS variables
-        card.className = `result-card source-${currentTab} p-4 rounded-xl cursor-pointer mb-3 flex justify-between items-center group transition-all duration-200 border-l-4 border-l-transparent`;
+    if (items.length === 0) {
+        renderEmptyState('Inicia tu búsqueda seleccionando una categoría.');
+        return;
+    }
 
-        // Check for enriched data
-        // Ensure consistent 6-digit zero-padding for matching
-        let cleanCode = String(item.code).replace(/\./g, '').trim();
-        if (/^\d+$/.test(cleanCode)) {
-            cleanCode = cleanCode.padStart(6, '0');
-        }
-
-        const extraData = getFinalData(String(item.code).replace(/\./g, '').trim());
-
-        let extraBadge = '';
-        let extraContent = '';
-
-        // Inicializar variables para evitar ReferenceError
-        let normPreview = '';
-        let financialBlock = '';
-
-        // V3 Specific: Coseguro & Bonos (Visible)
-        let v3Badges = '';
-
-        // NORM V3 LOGIC: Explicitly use 'normativa' field from V3 if present (Digital Source) 
-        // Use enriched data ONLY if V3 norm is missing.
-        let normContent = '';
-        if (item.normativa) {
-            // V3 Clean Data
-            normContent = `
-                <div class="mt-3 pt-2 border-t border-slate-100 dark:border-slate-700/50 text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-normative-clean">
-                    ${item.normativa}
-                </div>
-            `;
-        } else if (extraData) {
-            // Fallback to OCR/Enriched
-            const hasNormative = extraData.incluye || extraData.excluye || extraData.text || extraData.observacion;
-            if (hasNormative) {
-                extraBadge = `<span class="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-themed-soft text-themed" title="Normativa Disponible">
-                    <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-                    Normas
-                 </span>`;
-
-                let previewParts = [];
-                if (extraData.incluye) previewParts.push(`<span class="text-green-700 dark:text-green-400 font-bold">Incluye:</span> ${extraData.incluye}`);
-                if (extraData.excluye) previewParts.push(`<span class="text-red-700 dark:text-red-400 font-bold">Excluye:</span> ${extraData.excluye}`);
-                if (extraData.text && !extraData.incluye && !extraData.excluye) previewParts.push(`<span class="text-slate-500">Nota:</span> ${extraData.text}`);
-
-                let previewText = previewParts.join(' | ');
-                if (previewText.length > 200) previewText = previewText.substring(0, 200) + '...';
-
-                if (previewText) {
-                    normContent = `
-                        <div class="mt-3 pt-2 border-t border-slate-100 dark:border-slate-700/50 text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-                            ${previewText}
-        // V4: Card Styling - Clean & Modern
-        card.className = `result - card source - ${ currentTab } p - 4 rounded - xl mb - 3 flex flex - col group transition - all duration - 200 border - l - 4 border - l - transparent hover: bg - white dark: hover: bg - slate - 800 hover: shadow - md relative`;
-
-        // V4: Coseguro Filter (Hide Money, Show Codes only)
-        let coseguroBadge = '';
-        if (item.coseguro && !item.coseguro.includes('$') && !/^\d{2,}/.test(item.coseguro)) { 
-             coseguroBadge = `
-                        < span class="inline-flex items-center px-2 py-1 rounded text-xs font-bold bg-themed-soft text-themed border border-themed/20" title = "Coseguro / Código" >
-                            ${ item.coseguro }
-                </span > `;
-        }
-
-        // V4: Bonos Badge
-        let bonosBadge = '';
-        if (item.bonos) {
-             const isMoney = item.bonos.includes('$'); // Should typically be units/bonos count
-             if (!isMoney) {
-                 bonosBadge = `
-                        < span class="inline-flex items-center px-2 py-1 rounded text-xs font-bold bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600" title = "Bonos" >
-                            <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path></svg>
-                        ${ item.bonos }
-                    </span > `;
-             }
-        }
-
-        // V4: Normative Content (Digital Source Only + Overrides)
-        const cleanCode = String(item.code).replace(/\./g, '').trim().padStart(6, '0');
-        const overrides = userOverrides[cleanCode] || {};
-        
-        // Priority: Override Text > V3 Normativa
-        const finalNorm = overrides.text || item.normativa || '';
-        
-        // Preview: Show first 3 lines of normative text if exists
-        const normPreview = finalNorm ? `< div class="mt-3 text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-normative-clean line-clamp-3 whitespace-pre-line border-t border-slate-100 dark:border-slate-700 pt-2" > ${ finalNorm }</div > ` : '';
-
-        card.innerHTML = `
-                        < div class="flex-1 w-full relative z-0" >
-                < !--Header -->
-                <div class="flex justify-between items-start mb-1">
-                    <div class="font-mono font-bold text-themed text-xl tracking-tight">${item.code}</div>
-                    <div class="flex gap-2 shrink-0">${coseguroBadge}${bonosBadge}</div>
-                </div>
-                
-                <!--Body -->
-                        <div class="text-slate-800 dark:text-slate-200 font-medium text-base mb-2 leading-snug pr-2">
-                            ${item.description}
-                        </div>
-                ${ normPreview }
-
-                < !--Footer / Actions(V4 Granular Copy)-- >
-                        <div class="mt-4 pt-3 flex gap-2 flex-wrap border-t border-slate-50 dark:border-slate-700/30 opacity-90 group-hover:opacity-100 transition-opacity">
-                            <button onclick="event.stopPropagation(); copyToClipboard('${item.code}')" class="px-2.5 py-1.5 bg-slate-50 dark:bg-slate-700/50 hover:bg-themed hover:text-white rounded-lg text-xs font-semibold transition-all border border-slate-200 dark:border-slate-600 shadow-sm active:scale-95">
-                                Copiar Código
-                            </button>
-                            <button onclick="event.stopPropagation(); copyToClipboard('${item.code} ${item.description}')" class="px-2.5 py-1.5 bg-slate-50 dark:bg-slate-700/50 hover:bg-themed hover:text-white rounded-lg text-xs font-semibold transition-all border border-slate-200 dark:border-slate-600 shadow-sm active:scale-95">
-                                + Nombre
-                            </button>
-                            ${finalNorm ? `<button onclick="event.stopPropagation(); copyToClipboard('${finalNorm.replace(/'/g, "\\'").replace(/\n/g, " ")}')" class="px-2.5 py-1.5 bg-slate-50 dark:bg-slate-700/50 hover:bg-themed hover:text-white rounded-lg text-xs font-semibold transition-all border border-slate-200 dark:border-slate-600 shadow-sm active:scale-95">Copiar Nota</button>` : ''}
-
-                            <button onclick="openModal({code:'${item.code}', description:'${item.description.replace(/'/g, "\\'")}', normativa: '${(finalNorm || '').replace(/'/g, "\\'").replace(/\n/g, " ").replace(/\r/g, "")}'})" class="ml-auto text-slate-400 hover:text-themed transition-colors text-xs flex items-center px-1">
-                            <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
-                            Ver / Editar
-                        </button>
-                </div >
-            </div >
-                        `;
-
-        // Card Click opens Modal
-        card.addEventListener('click', () => openModal({
-            code: item.code, 
-            description: item.description, 
-            normativa: finalNorm 
-        }));
-        
-        searchResults.appendChild(card);
+    items.forEach((item, index) => {
+        const card = createResultCard(item, index);
+        dom.searchResults.appendChild(card);
     });
 }
 
+function renderEmptyState(message) {
+    const container = document.createElement('div');
+    container.className = 'flex flex-col items-center justify-center h-full text-center text-slate-400';
 
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('class', 'w-16 h-16 mb-4 opacity-50');
+    svg.setAttribute('fill', 'none');
+    svg.setAttribute('viewBox', '0 0 24 24');
+    svg.setAttribute('stroke', 'currentColor');
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('stroke-linecap', 'round');
+    path.setAttribute('stroke-linejoin', 'round');
+    path.setAttribute('stroke-width', '1.5');
+    path.setAttribute('d', 'M8 16l2.879-2.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242zM21 12a9 9 0 11-18 0 9 9 0 0118 0z');
+    svg.appendChild(path);
+    container.appendChild(svg);
 
-// Modal Logic
+    const p = document.createElement('p');
+    p.className = 'text-lg';
+    p.textContent = message;
+    container.appendChild(p);
+
+    dom.searchResults.appendChild(container);
+}
+
+// --- Create Result Card (Pure DOM) ---
+function createResultCard(item, index) {
+    const normativa = getEffectiveNormativa(item);
+    const hasNormativa = normativa && normativa.length > 0;
+
+    const card = document.createElement('div');
+    card.className = 'result-card p-4 rounded-xl mb-3 transition-all duration-200 border-l-4 border-l-transparent';
+    card.style.animationDelay = (index * 30) + 'ms';
+
+    // --- Top Row: Code + Badge ---
+    const topRow = document.createElement('div');
+    topRow.className = 'flex items-center mb-1 flex-wrap gap-1';
+
+    const codeSpan = document.createElement('span');
+    codeSpan.className = 'font-mono font-bold text-themed text-lg';
+    codeSpan.textContent = item.code;
+    topRow.appendChild(codeSpan);
+
+    if (hasNormativa) {
+        const badge = document.createElement('span');
+        badge.className = 'badge-normativa ml-2';
+
+        const badgeSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        badgeSvg.setAttribute('class', 'w-3 h-3 mr-1');
+        badgeSvg.setAttribute('fill', 'none');
+        badgeSvg.setAttribute('stroke', 'currentColor');
+        badgeSvg.setAttribute('viewBox', '0 0 24 24');
+        const badgePath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        badgePath.setAttribute('stroke-linecap', 'round');
+        badgePath.setAttribute('stroke-linejoin', 'round');
+        badgePath.setAttribute('stroke-width', '2');
+        badgePath.setAttribute('d', 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z');
+        badgeSvg.appendChild(badgePath);
+        badge.appendChild(badgeSvg);
+
+        const badgeText = document.createTextNode('Normativa');
+        badge.appendChild(badgeText);
+        topRow.appendChild(badge);
+    }
+
+    card.appendChild(topRow);
+
+    // --- Description ---
+    const descDiv = document.createElement('div');
+    descDiv.className = 'text-slate-600 dark:text-slate-300 font-medium text-sm md:text-base leading-snug mb-2';
+    descDiv.textContent = item.description;
+    card.appendChild(descDiv);
+
+    // --- Normativa Preview ---
+    if (hasNormativa) {
+        const normDiv = document.createElement('div');
+        normDiv.className = 'mt-2 pt-2 border-t border-slate-100 dark:border-slate-700/50 text-xs text-slate-500 dark:text-slate-400 leading-relaxed';
+        const preview = normativa.length > 180 ? normativa.substring(0, 180) + '...' : normativa;
+        normDiv.textContent = preview;
+        card.appendChild(normDiv);
+    }
+
+    // --- Action Buttons ---
+    const actionsDiv = document.createElement('div');
+    actionsDiv.className = 'flex flex-wrap gap-2 mt-3 pt-2 border-t border-slate-100 dark:border-slate-700/50';
+
+    // [Copiar Código]
+    actionsDiv.appendChild(createActionBtn('Código', 'M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2', function (e) {
+        e.stopPropagation();
+        copyToClipboard(item.code);
+    }));
+
+    // [+ Nombre]
+    actionsDiv.appendChild(createActionBtn('+ Nombre', 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z', function (e) {
+        e.stopPropagation();
+        copyToClipboard(item.code + ' ' + item.description);
+    }));
+
+    // [Copiar Nota] - solo si hay normativa
+    if (hasNormativa) {
+        actionsDiv.appendChild(createActionBtn('Nota', 'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01', function (e) {
+            e.stopPropagation();
+            copyToClipboard(normativa);
+        }));
+    }
+
+    // [Ver Detalle]
+    actionsDiv.appendChild(createActionBtn('Detalle', 'M15 12a3 3 0 11-6 0 3 3 0 016 0z M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z', function (e) {
+        e.stopPropagation();
+        openModal(item);
+    }, true));
+
+    // [Editar]
+    actionsDiv.appendChild(createActionBtn('Editar', 'M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z', function (e) {
+        e.stopPropagation();
+        openEditModal(item);
+    }));
+
+    card.appendChild(actionsDiv);
+
+    return card;
+}
+
+function createActionBtn(label, iconPath, onClick, isPrimary) {
+    const btn = document.createElement('button');
+    btn.className = 'action-btn ' + (isPrimary ? 'btn-themed' : 'btn-secondary');
+
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('class', 'w-3.5 h-3.5');
+    svg.setAttribute('fill', 'none');
+    svg.setAttribute('stroke', 'currentColor');
+    svg.setAttribute('viewBox', '0 0 24 24');
+
+    // Support multiple paths (separated by space + M)
+    const paths = iconPath.split(/(?= M)/);
+    paths.forEach(d => {
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('stroke-linecap', 'round');
+        path.setAttribute('stroke-linejoin', 'round');
+        path.setAttribute('stroke-width', '2');
+        path.setAttribute('d', d.trim());
+        svg.appendChild(path);
+    });
+
+    btn.appendChild(svg);
+
+    const text = document.createTextNode(' ' + label);
+    btn.appendChild(text);
+
+    btn.addEventListener('click', onClick);
+    return btn;
+}
+
+// --- Modal: Detail View ---
 function openModal(item) {
-    modalCode.textContent = item.code;
-    modalDesc.textContent = item.description;
+    const normativa = getEffectiveNormativa(item);
 
-    // Enrich Modal Content - Normative
+    // Clear previous content
+    while (dom.modalContent.firstChild) {
+        dom.modalContent.removeChild(dom.modalContent.firstChild);
+    }
+
+    // Title
+    const title = document.createElement('h3');
+    title.className = 'text-2xl font-bold text-slate-800 dark:text-white mb-3 text-center';
+    title.textContent = 'Detalle';
+    dom.modalContent.appendChild(title);
+
+    // Code Box
+    const codeBox = document.createElement('div');
+    codeBox.className = 'bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl p-4 mb-4 text-center';
+    const codeSpan = document.createElement('span');
+    codeSpan.className = 'block text-4xl font-mono font-bold text-themed tracking-widest select-all';
+    codeSpan.textContent = item.code;
+    codeBox.appendChild(codeSpan);
+    dom.modalContent.appendChild(codeBox);
+
+    // Description
+    const descP = document.createElement('p');
+    descP.className = 'text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4 px-2 text-center';
+    descP.textContent = item.description;
+    dom.modalContent.appendChild(descP);
+
+    // Normativa Section
+    const normSection = document.createElement('div');
+    normSection.className = 'bg-slate-50 dark:bg-slate-700/50 rounded-lg p-4 text-sm text-left border border-slate-200 dark:border-slate-600 mb-6';
+
+    const normHeader = document.createElement('h4');
+    normHeader.className = 'font-bold text-slate-700 dark:text-slate-300 mb-3 border-b border-slate-200 dark:border-slate-600 pb-1';
+    normHeader.textContent = 'Normativa / Detalles';
+    normSection.appendChild(normHeader);
+
+    if (normativa && normativa.length > 0) {
+        const normText = document.createElement('p');
+        normText.className = 'text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line';
+        normText.textContent = normativa;
+        normSection.appendChild(normText);
+    } else {
+        const noNorm = document.createElement('p');
+        noNorm.className = 'text-slate-400 italic text-center py-2';
+        noNorm.textContent = 'Sin normativa cargada.';
+        normSection.appendChild(noNorm);
+    }
+
+    dom.modalContent.appendChild(normSection);
+
+    // Action Buttons
+    const actionsGrid = document.createElement('div');
+    actionsGrid.className = 'grid grid-cols-2 gap-3';
+
+    // Copiar Código
+    const btnCode = createModalBtn('Copiar Código', false, function () {
+        copyToClipboard(item.code);
+    });
+    actionsGrid.appendChild(btnCode);
+
+    // Copiar Código + Nombre
+    const btnCodeName = createModalBtn('Código + Nombre', false, function () {
+        copyToClipboard(item.code + ' ' + item.description);
+    });
+    actionsGrid.appendChild(btnCodeName);
+
+    // Copiar Normativa (if exists)
+    if (normativa) {
+        const btnNorm = createModalBtn('Copiar Normativa', false, function () {
+            copyToClipboard(normativa);
+        });
+        btnNorm.className += ' col-span-2';
+        actionsGrid.appendChild(btnNorm);
+    }
+
+    // Copiar Todo
+    const btnAll = createModalBtn('Copiar Info Completa', true, function () {
+        let fullText = item.code + ' - ' + item.description;
+        if (normativa) fullText += '\n' + normativa;
+        copyToClipboard(fullText);
+    });
+    btnAll.className += ' col-span-2';
+    actionsGrid.appendChild(btnAll);
+
+    // Editar
+    const btnEdit = createModalBtn('Editar Normativa', false, function () {
+        closeModal();
+        setTimeout(() => openEditModal(item), 350);
+    });
+    btnEdit.className += ' col-span-2';
+    actionsGrid.appendChild(btnEdit);
+
+    dom.modalContent.appendChild(actionsGrid);
+
+    // Show modal
+    showModal();
+}
+
+function createModalBtn(label, isPrimary, onClick) {
+    const btn = document.createElement('button');
+    btn.className = 'flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-bold transition-all duration-200 text-sm shadow-sm hover:-translate-y-0.5 active:translate-y-0 ' +
+        (isPrimary ? 'btn-themed' : 'btn-secondary');
+    btn.textContent = label;
+    btn.addEventListener('click', onClick);
+    return btn;
+}
+
+// --- Modal: Edit View ---
+function openEditModal(item) {
     const cleanCode = String(item.code).replace(/\./g, '').trim().padStart(6, '0');
-    // Use getFinalData to include user edits
-    const extraData = getFinalData(cleanCode);
+    const currentNormativa = getEffectiveNormativa(item);
 
-    const existingExtra = document.getElementById('modalExtraInfo');
-    if (existingExtra) existingExtra.remove();
-    const existingEdit = document.getElementById('editContainer');
-    if (existingEdit) existingEdit.remove();
+    // Clear previous content
+    while (dom.modalContent.firstChild) {
+        dom.modalContent.removeChild(dom.modalContent.firstChild);
+    }
 
-    // Always create container to allow adding data if empty
-    const extraDiv = document.createElement('div');
-    extraDiv.id = 'modalExtraInfo';
-    extraDiv.className = 'mt-4 bg-slate-50 dark:bg-slate-700/50 rounded-lg p-4 text-sm text-left border border-slate-200 dark:border-slate-600';
+    // Title
+    const title = document.createElement('h4');
+    title.className = 'font-bold text-themed mb-4 text-sm flex items-center';
 
-    let contentHtml = '';
-    const hasData = extraData && (Object.keys(extraData).length > 0);
-    const hasDigitalNorm = item.normativa && item.normativa.length > 5;
+    const editSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    editSvg.setAttribute('class', 'w-4 h-4 mr-2');
+    editSvg.setAttribute('fill', 'none');
+    editSvg.setAttribute('stroke', 'currentColor');
+    editSvg.setAttribute('viewBox', '0 0 24 24');
+    const editPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    editPath.setAttribute('stroke-linecap', 'round');
+    editPath.setAttribute('stroke-linejoin', 'round');
+    editPath.setAttribute('stroke-width', '2');
+    editPath.setAttribute('d', 'M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z');
+    editSvg.appendChild(editPath);
+    title.appendChild(editSvg);
 
-    // PRIORITY: Use Digital Text (V3) if available
-    if (hasDigitalNorm) {
-        contentHtml += `< div class="mb-3 text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line" > ${ item.normativa }</div > `;
-        if (extraData && extraData.text && extraData.text !== item.normativa) {
-            // Optional: Show old OCR notes as "Historical/OCR Context" if significantly different?
-            // For now, Cleaner is better. Skip garbage.
+    const titleText = document.createTextNode('Editar Normativa (' + item.code + ')');
+    title.appendChild(titleText);
+    dom.modalContent.appendChild(title);
+
+    // Code + Description (read-only display)
+    const infoDiv = document.createElement('div');
+    infoDiv.className = 'bg-slate-50 dark:bg-slate-900/50 rounded-lg p-3 mb-4 text-sm';
+    const infoCode = document.createElement('span');
+    infoCode.className = 'font-mono font-bold text-themed';
+    infoCode.textContent = item.code;
+    infoDiv.appendChild(infoCode);
+    const infoDesc = document.createElement('span');
+    infoDesc.className = 'text-slate-600 dark:text-slate-300 ml-2';
+    infoDesc.textContent = item.description;
+    infoDiv.appendChild(infoDesc);
+    dom.modalContent.appendChild(infoDiv);
+
+    // Normativa Textarea
+    const label = document.createElement('label');
+    label.className = 'block text-xs font-bold text-slate-500 uppercase mb-1';
+    label.textContent = 'Normativa (Incluye / Excluye / Criterios / Observaciones)';
+    dom.modalContent.appendChild(label);
+
+    const textarea = document.createElement('textarea');
+    textarea.id = 'editNormativa';
+    textarea.rows = 6;
+    textarea.className = 'edit-textarea mb-4';
+    textarea.placeholder = 'Ej: Incluye: Honorarios, Material descartable. Excluye: Anestesia...';
+    textarea.value = currentNormativa || '';
+    dom.modalContent.appendChild(textarea);
+
+    // Buttons
+    const btnRow = document.createElement('div');
+    btnRow.className = 'flex justify-end gap-3 pt-3 border-t border-slate-100 dark:border-slate-700';
+
+    const cancelBtn = document.createElement('button');
+    cancelBtn.className = 'px-4 py-2 text-sm font-medium text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg transition-colors';
+    cancelBtn.textContent = 'Cancelar';
+    cancelBtn.addEventListener('click', closeModal);
+    btnRow.appendChild(cancelBtn);
+
+    const saveBtn = document.createElement('button');
+    saveBtn.className = 'px-5 py-2 text-sm font-bold btn-themed rounded-lg shadow-md hover:shadow-lg transition-all';
+    saveBtn.textContent = 'Guardar Cambios';
+    saveBtn.addEventListener('click', function () {
+        const newNormativa = document.getElementById('editNormativa').value.trim();
+
+        if (newNormativa) {
+            if (!state.userOverrides[cleanCode]) state.userOverrides[cleanCode] = {};
+            state.userOverrides[cleanCode].normativa = newNormativa;
+        } else {
+            if (state.userOverrides[cleanCode]) {
+                delete state.userOverrides[cleanCode].normativa;
+                if (Object.keys(state.userOverrides[cleanCode]).length === 0) {
+                    delete state.userOverrides[cleanCode];
+                }
+            }
         }
-    } else if (hasData) {
-        if (extraData.incluye) contentHtml += `< div class="mb-3" ><h5 class="font-bold text-green-700 dark:text-green-400 text-xs uppercase mb-1">Incluye</h5><p class="text-slate-700 dark:text-slate-300 leading-relaxed">${extraData.incluye}</p></div > `;
-        if (extraData.excluye) contentHtml += `< div class="mb-3" ><h5 class="font-bold text-red-700 dark:text-red-400 text-xs uppercase mb-1">Excluye</h5><p class="text-slate-700 dark:text-slate-300 leading-relaxed">${extraData.excluye}</p></div > `;
-        if (extraData.criterios) contentHtml += `< div class="mb-3" ><h5 class="font-bold text-blue-700 dark:text-blue-400 text-xs uppercase mb-1">Criterios</h5><p class="text-slate-700 dark:text-slate-300 italic">${extraData.criterios}</p></div > `;
-        if (extraData.observacion) contentHtml += `< div class="mb-3" ><h5 class="font-bold text-orange-700 dark:text-orange-400 text-xs uppercase mb-1">Observación</h5><p class="text-slate-700 dark:text-slate-300">${extraData.observacion}</p></div > `;
-        if (!contentHtml && extraData.text) contentHtml += `< p class="text-slate-700 dark:text-slate-300 whitespace-pre-line" > ${ extraData.text }</p > `;
-    }
 
-    extraDiv.innerHTML = `
-                        < h4 class="font-bold text-slate-700 dark:text-slate-300 mb-3 border-b border-slate-200 dark:border-slate-600 pb-1 flex justify-between items-center" >
-            <span>Normativa / Detalles</span>
-            <button onclick="enableEdit('${cleanCode}')" class="text-xs text-themed hover:text-themed-dark font-semibold flex items-center bg-white dark:bg-slate-800 px-2 py-1 rounded border border-slate-200 dark:border-slate-600 shadow-sm transition-colors">
-                <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
-                ${hasData ? 'Editar' : 'Agregar Nota'}
-            </button>
-        </h4 >
-                        ${ contentHtml || '<p class="text-slate-400 italic text-center py-2">Sin normativa cargada.</p>' }
-                    `;
-    modalDesc.parentNode.insertBefore(extraDiv, modalDesc.nextSibling);
+        saveOverrides();
+        closeModal();
+        showToast('Guardado correctamente', 'success');
 
-    // Reset Button State
-    const copyBtn = document.getElementById('copyButton');
-    copyBtn.innerHTML = `
-                        < span class="flex items-center justify-center gap-2" >
-            <span>Copiar Código</span>
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-        </span >
-                        `;
-    copyBtn.className = "w-full btn-themed font-bold py-3.5 px-6 rounded-xl shadow-lg transition-all duration-300 transform active:translate-y-0"; // Ensure class overrides any previous state
+        // Re-render current search results
+        const query = dom.searchInput.value;
+        if (query.length >= 2) {
+            const results = engine.search(state.currentTab, query);
+            renderResults(results);
+        }
+    });
+    btnRow.appendChild(saveBtn);
 
+    dom.modalContent.appendChild(btnRow);
 
-    modal.classList.remove('hidden');
-    // Animate in
+    // Show modal
+    showModal();
+
+    // Focus textarea
+    setTimeout(() => textarea.focus(), 350);
+}
+
+// --- Modal Show/Hide ---
+function showModal() {
+    dom.modal.style.display = 'flex';
+    dom.modal.classList.remove('hidden');
     setTimeout(() => {
-        modal.classList.remove('opacity-0');
-        modal.querySelector('div').classList.remove('scale-95');
-        modal.querySelector('div').classList.add('scale-100');
+        dom.modal.classList.remove('opacity-0');
+        const inner = dom.modal.querySelector('div');
+        if (inner) {
+            inner.classList.remove('scale-95');
+            inner.classList.add('scale-100');
+        }
     }, 10);
 }
 
 function closeModal() {
-    modal.classList.add('opacity-0');
-    modal.querySelector('div').classList.remove('scale-100');
-    modal.querySelector('div').classList.add('scale-95');
-
-    // Granular Copy Buttons
-    const copyBtn = document.getElementById('copyButton');
-    copyBtn.classList.add('hidden'); // Hide original big button
-
-    const existingActions = document.getElementById('granularActions');
-    if (existingActions) existingActions.remove();
-
-    const granularActions = document.createElement('div');
-    granularActions.id = 'granularActions';
-    granularActions.className = 'grid grid-cols-2 gap-3 mt-6';
-
-    // Theme-aware classes
-    const btnClass = "flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-bold transition-all duration-200 text-sm shadow-sm hover:-translate-y-0.5 active:translate-y-0";
-    const primaryClass = "btn-themed text-white shadow-themed/30";
-    const secondaryClass = "bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600";
-
-    granularActions.innerHTML = `
-                        < button onclick = "copyToClipboard('${item.code}')" class="${btnClass} ${secondaryClass}" >
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-                    Código
-        </button >
-                        <button onclick="copyToClipboard('${item.description.replace(/'/g, "\\'")}')" class="${ btnClass } ${ secondaryClass } ">
-                            < svg class="w-4 h-4" fill = "none" stroke = "currentColor" viewBox = "0 0 24 24" > <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg >
-                                Descripción
-        </button >
-        ${
-            (extraData?.incluye || extraData?.excluye) ? `
-        <button onclick="copyToClipboard('${(extraData.incluye || "")} ${(extraData.excluye || "")}')" class="${btnClass} ${secondaryClass} col-span-2">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
-            Normativa
-        </button>
-        ` : ''
+    dom.modal.classList.add('opacity-0');
+    const inner = dom.modal.querySelector('div');
+    if (inner) {
+        inner.classList.remove('scale-100');
+        inner.classList.add('scale-95');
     }
-    <button onclick="copyToClipboard('${item.code} - ${item.description.replace(/'/g, "\\'")} ${extraData?.incluye ? '\\nIncluye: ' + extraData.incluye : ''}') " class="${ btnClass } ${ primaryClass } col - span - 2">
-            Copiar Info
-        </button >
-        `;
-
-    // Append after modal content
-    const container = document.querySelector('#copyModal .text-center');
-    container.appendChild(granularActions);
-
-    modal.classList.remove('hidden');
-    // Animate in
     setTimeout(() => {
-        modal.classList.remove('opacity-0');
-        modal.querySelector('div').classList.remove('scale-95');
-        modal.querySelector('div').classList.add('scale-100');
-    }, 10);
-}
-
-function closeModal() {
-    modal.classList.add('opacity-0');
-    modal.querySelector('div').classList.remove('scale-100');
-    modal.querySelector('div').classList.add('scale-95');
-
-    setTimeout(() => {
-        modal.classList.add('hidden');
-        // Reset state
-        const actions = document.getElementById('granularActions');
-        if (actions) actions.remove();
-        const copyBtn = document.getElementById('copyButton');
-        copyBtn.classList.remove('hidden');
+        dom.modal.style.display = 'none';
+        dom.modal.classList.add('hidden');
     }, 300);
 }
 
-// Global helper for granular buttons
-window.copyToClipboard = function (text) {
-    if (!text) return;
-    navigator.clipboard.writeText(text).then(() => {
-        // Find the button that was clicked to give feedback
-        const btn = document.activeElement;
-        // Simple visual feedback
-        const originalContent = btn.innerHTML;
-        btn.innerHTML = `< span class="font-bold" >¡Copiado!</span > `;
-        btn.classList.add('ring-2', 'ring-green-400');
-
-        setTimeout(() => {
-            btn.innerHTML = originalContent;
-            btn.classList.remove('ring-2', 'ring-green-400');
-        }, 1000);
-    }).catch(err => {
-        console.error('Error al copiar: ', err);
-    });
-};
-
-/* 
-copyBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText(modalCode.textContent).then(() => {
-        copyBtn.innerHTML = `< span class="text-white" >¡Copiado Exitosamente!</span > `;
-        if (currentTab === 'iapos') copyBtn.classList.add('bg-green-500'); // Valid feedback
-        setTimeout(() => closeModal(), 800);
-    });
-});
-*/
-
-closeModalBtn.addEventListener('click', closeModal);
-window.addEventListener('click', (e) => {
-    if (e.target === modal) closeModal();
+dom.closeModalBtn.addEventListener('click', closeModal);
+dom.modal.addEventListener('click', function (e) {
+    if (e.target === dom.modal) closeModal();
 });
 
-// Theme Logic
-const themeToggle = document.getElementById('themeToggle');
-const sunIcon = document.getElementById('sunIcon');
-const moonIcon = document.getElementById('moonIcon');
+// --- Theme Toggle ---
 const html = document.documentElement;
 
-// Check Local Storage or System Preference
 if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     html.classList.add('dark');
-    sunIcon.classList.remove('hidden');
-    moonIcon.classList.add('hidden');
+    dom.sunIcon.classList.remove('hidden');
+    dom.moonIcon.classList.add('hidden');
 } else {
     html.classList.remove('dark');
-    sunIcon.classList.add('hidden');
-    moonIcon.classList.remove('hidden');
+    dom.sunIcon.classList.add('hidden');
+    dom.moonIcon.classList.remove('hidden');
 }
 
-themeToggle.addEventListener('click', () => {
+dom.themeToggle.addEventListener('click', function () {
     if (html.classList.contains('dark')) {
         html.classList.remove('dark');
         localStorage.theme = 'light';
-        sunIcon.classList.add('hidden');
-        moonIcon.classList.remove('hidden');
+        dom.sunIcon.classList.add('hidden');
+        dom.moonIcon.classList.remove('hidden');
     } else {
         html.classList.add('dark');
         localStorage.theme = 'dark';
-        sunIcon.classList.remove('hidden');
-        moonIcon.classList.add('hidden');
+        dom.sunIcon.classList.remove('hidden');
+        dom.moonIcon.classList.add('hidden');
     }
 });
 
-// Keyboard Shortcuts
-document.addEventListener('keydown', (e) => {
+// --- Keyboard Shortcuts ---
+document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
-        if (!modal.classList.contains('hidden')) {
+        if (dom.modal.style.display === 'flex') {
             closeModal();
         } else {
-            searchInput.value = '';
+            dom.searchInput.value = '';
+            dom.clearSearch.classList.add('hidden');
             renderResults([]);
-            resultsCount.textContent = '';
-            searchInput.focus();
+            dom.resultsCount.textContent = '';
+            dom.searchInput.focus();
         }
     }
 });
 
-// Run
-// Editor Functions
-window.enableEdit = function (code) {
-    const cleanCode = String(code).padStart(6, '0');
-    const currentData = getFinalData(cleanCode);
-
-    const infoDiv = document.getElementById('modalExtraInfo');
-    if (infoDiv) infoDiv.classList.add('hidden');
-
-    const existing = document.getElementById('editContainer');
-    if (existing) existing.remove();
-
-    const editContainer = document.createElement('div');
-    editContainer.id = 'editContainer';
-    editContainer.className = 'mt-4 bg-white dark:bg-slate-800 rounded-lg p-5 border-2 border-themed/20 shadow-xl animate-fade-in';
-
-    editContainer.innerHTML = `
-        < h4 class="font-bold text-themed mb-4 text-sm flex items-center" >
-            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
-            Editar Normativa(${ cleanCode })
-        </h4 >
-        
-        <div class="space-y-4">
-            <div>
-                <label class="block text-xs font-bold text-green-600 dark:text-green-400 uppercase mb-1">Incluye</label>
-                <textarea id="editIncluye" rows="2" class="w-full text-sm p-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all" placeholder="Ej: Honorarios, Material descartable...">${currentData.incluye || ''}</textarea>
-            </div>
-            
-            <div>
-                <label class="block text-xs font-bold text-red-600 dark:text-red-400 uppercase mb-1">Excluye</label>
-                <textarea id="editExcluye" rows="2" class="w-full text-sm p-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all" placeholder="Ej: Material radioactivo...">${currentData.excluye || ''}</textarea>
-            </div>
-            
-            <div>
-                <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Observaciones / Criterios</label>
-                <textarea id="editObs" rows="3" class="w-full text-sm p-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-themed focus:border-transparent transition-all" placeholder="Notas adicionales...">${currentData.observacion || currentData.criterios || ''}</textarea>
-            </div>
-        </div>
-        
-        <div class="flex justify-end gap-3 mt-4 pt-3 border-t border-slate-100 dark:border-slate-700">
-            <button onclick="cancelEdit()" class="px-4 py-2 text-sm font-medium text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg transition-colors">Cancelar</button>
-            <button onclick="saveEdit('${cleanCode}')" class="px-5 py-2 text-sm font-bold text-white bg-themed hover:bg-themed-dark rounded-lg shadow-md hover:shadow-lg transition-all transform active:scale-95">Guardar Cambios</button>
-        </div>
-    `;
-
-    modalDesc.parentNode.insertBefore(editContainer, modalDesc.nextSibling);
-};
-
-window.cancelEdit = function () {
-    const editContainer = document.getElementById('editContainer');
-    if (editContainer) editContainer.remove();
-    const infoDiv = document.getElementById('modalExtraInfo');
-    if (infoDiv) infoDiv.classList.remove('hidden');
-};
-
-window.saveEdit = function (code) {
-    const incluye = document.getElementById('editIncluye').value.trim();
-    const excluye = document.getElementById('editExcluye').value.trim();
-    const obs = document.getElementById('editObs').value.trim();
-
-    const cleanCode = String(code).padStart(6, '0');
-    if (!userOverrides[cleanCode]) userOverrides[cleanCode] = {};
-
-    if (incluye) userOverrides[cleanCode].incluye = incluye; else delete userOverrides[cleanCode].incluye;
-    if (excluye) userOverrides[cleanCode].excluye = excluye; else delete userOverrides[cleanCode].excluye;
-    if (obs) userOverrides[cleanCode].observacion = obs; else delete userOverrides[cleanCode].observacion;
-
-    // Clean empty objects
-    if (Object.keys(userOverrides[cleanCode]).length === 0) delete userOverrides[cleanCode];
-
-    localStorage.setItem('userOverrides', JSON.stringify(userOverrides));
-
-    // Refresh modal
-    cancelEdit();
-    // Re-render info part
-    const item = { code: cleanCode, description: modalDesc.textContent }; // Hacky re-open
-    openModal(item);
-
-    // Show Toast
-    const copyBtn = document.getElementById('copyButton');
-    const originalText = copyBtn.innerHTML;
-    copyBtn.innerHTML = `< span class="text-green-200" >¡Guardado Persistente!</span > `;
-    copyBtn.classList.add('bg-green-600');
-    setTimeout(() => {
-        copyBtn.innerHTML = originalText;
-        copyBtn.classList.remove('bg-green-600');
-    }, 1500);
-};
-
-init();
-
+// --- Init ---
+updateTab('medicas');
+dom.searchInput.focus();

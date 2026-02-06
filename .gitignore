@@ -1,8 +1,23 @@
+# Source data (PDFs, spreadsheets)
+*.pdf
+*.xlsx
+*.csv
 
+# Python scripts (build tools)
+*.py
+
+# Temp files
+tmpclaude-*
+
+# Old work
+Trabajo anterior/
+
+# OS / IDE
 .DS_Store
 Thumbs.db
-node_modules/
-*.log
+*.swp
+*.swo
+.vscode/
 
-__pycache__/
-*.tmp
+# Images not used in app
+iapos.png

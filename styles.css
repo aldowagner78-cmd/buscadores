@@ -1,72 +1,65 @@
-/* Custom Styles for Modern IAPOS Design (Option B) */
+/* Buscador Médico IAPOS - Estilos v3.0 */
+/* Estilo Clásico Clean con Glassmorphism */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
 :root {
-    /* Brand Colors (IAPOS) */
+    /* Brand Colors */
     --iapos-dark: #014289;
     --iapos-light: #00a8e7;
-    --iapos-gold: #f0ab0c;
 
-    /* Theme Variables - Light (Default) */
+    /* Theme Variables - Light */
     --bg-body: #f0f9ff;
     --bg-card: #ffffff;
     --text-primary: #0f172a;
-    --text-secondary: #64748b;
+    --text-secondary: #475569;
     --border-color: #e2e8f0;
     --input-bg: #ffffff;
     --shadow-color: rgba(1, 66, 137, 0.08);
 
-    /* Section Accents - Base Colors */
+    /* Section Accent Colors */
+    --color-medicas: #ef4444;
+    --color-bioquimica: #22c55e;
+    --color-odontologia: #8b5cf6;
     --color-elementos: #00a8e7;
-    --color-pmo: #22c55e;
-    --color-iapos: #ef4444;
-    --color-bioquimica: #9333ea;
-    /* Purple 600 */
 
-    /* Current Active Theme (Default to Elementos) */
-    --active-theme: var(--color-elementos);
-    --active-theme-fade: rgba(0, 168, 231, 0.1);
+    /* Active Theme (default: medicas) */
+    --active-theme: var(--color-medicas);
+    --active-theme-fade: rgba(239, 68, 68, 0.1);
+    --grad-start: #991b1b;
+    --grad-end: #f87171;
 }
 
 /* Scope-Based Theming */
-body[data-scope="elementos"] {
-    --active-theme: var(--color-elementos);
-    --active-theme-fade: rgba(0, 168, 231, 0.1);
-    --grad-start: #003366;
-    /* Deep Blue (Darker) */
-    --grad-end: #00a8e7;
-    /* Cyan Blue (Lighter) */
-}
-
-body[data-scope="pmo"] {
-    --active-theme: var(--color-pmo);
-    --active-theme-fade: rgba(34, 197, 94, 0.1);
-    --grad-start: #14532d;
-    /* Deep Green (Darker) */
-    --grad-end: #4ade80;
-    /* Bright Green (Lighter) */
-}
-
-body[data-scope="iapos"] {
-    --active-theme: var(--color-iapos);
+body[data-scope="medicas"] {
+    --active-theme: var(--color-medicas);
     --active-theme-fade: rgba(239, 68, 68, 0.1);
     --grad-start: #991b1b;
-    /* Deep Red (Darker) */
     --grad-end: #f87171;
-    /* Bright Red (Lighter) */
 }
 
 body[data-scope="bioquimica"] {
     --active-theme: var(--color-bioquimica);
-    --active-theme-fade: rgba(147, 51, 234, 0.1);
-    --grad-start: #581c87;
-    /* Purple 900 */
-    --grad-end: #c084fc;
-    /* Purple 400 */
+    --active-theme-fade: rgba(34, 197, 94, 0.1);
+    --grad-start: #14532d;
+    --grad-end: #4ade80;
+}
+
+body[data-scope="odontologia"] {
+    --active-theme: var(--color-odontologia);
+    --active-theme-fade: rgba(139, 92, 246, 0.1);
+    --grad-start: #4c1d95;
+    --grad-end: #a78bfa;
+}
+
+body[data-scope="elementos"] {
+    --active-theme: var(--color-elementos);
+    --active-theme-fade: rgba(0, 168, 231, 0.1);
+    --grad-start: #003366;
+    --grad-end: #00a8e7;
 }
 
 /* Dark Mode Variables */
-html.dark :root {
+html.dark {
     --bg-body: #0f172a;
     --bg-card: #1e293b;
     --text-primary: #f1f5f9;
@@ -76,6 +69,7 @@ html.dark :root {
     --shadow-color: rgba(0, 0, 0, 0.3);
 }
 
+/* Global */
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--bg-body);
@@ -83,112 +77,79 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Glassmorphism Classes */
+/* Glassmorphism */
 .glass {
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 html.dark .glass {
-    background: rgba(30, 41, 59, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(30, 41, 59, 0.8);
+    border: 1px solid rgba(100, 116, 139, 0.2);
 }
 
 /* Gradient Text - Dynamic */
-.text-gradient-iapos {
+.text-gradient {
     background: linear-gradient(135deg, var(--grad-start), var(--grad-end));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 0.5s ease;
     background-size: 200% 200%;
     animation: gradientFlow 3s ease infinite;
 }
 
-@keyframes gradientFlow {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+html.dark .text-gradient {
+    filter: brightness(1.2);
 }
 
-html.dark .text-gradient-iapos {
-    background: linear-gradient(135deg, var(--grad-start), var(--grad-end));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: brightness(1.2);
-    /* Boost brightness slightly for dark mode contrast */
+@keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* Custom Scrollbar */
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb {
     background-color: #cbd5e1;
     border-radius: 20px;
     border: 3px solid transparent;
     background-clip: content-box;
 }
-
-html.dark ::-webkit-scrollbar-thumb {
-    background-color: #475569;
-}
+html.dark ::-webkit-scrollbar-thumb { background-color: #475569; }
 
 /* Animations */
 @keyframes slideUp {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Result Cards */
 .result-card {
     animation: slideUp 0.3s ease-out forwards;
     background-color: var(--bg-card);
     border: 1px solid var(--border-color);
     box-shadow: 0 4px 6px -1px var(--shadow-color);
-    /* Dynamic Active Border */
     border-left: 4px solid transparent;
     transition: all 0.3s ease;
 }
 
-/* Strict Theming: On Hover OR if forced, use active theme */
 .result-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 15px -3px var(--shadow-color);
     border-color: var(--active-theme);
-    /* Full border color */
     border-left-color: var(--active-theme);
-    /* Thick left border */
 }
 
-/* Icon Hover */
-.result-card button:hover {
-    color: var(--active-theme);
-}
-
-/* Tab Active States */
+/* Tab Styles */
 .tab-btn.active {
     background: linear-gradient(to right, var(--active-theme-fade), transparent);
     border-bottom: 2px solid var(--active-theme);
@@ -199,44 +160,40 @@ html.dark .tab-btn.active {
     background: linear-gradient(to right, var(--active-theme-fade), transparent);
 }
 
-/* Independent Inactive Hover States */
-.tab-btn[data-tab="elementos"]:not(.active):hover {
-    color: var(--color-elementos);
+/* Independent Tab Hover Colors */
+.tab-btn[data-tab="medicas"]:not(.active):hover {
+    color: var(--color-medicas);
 }
-
-.tab-btn[data-tab="elementos"]:not(.active):hover span.absolute {
-    background-color: var(--color-elementos);
-}
-
-.tab-btn[data-tab="pmo"]:not(.active):hover {
-    color: var(--color-pmo);
-}
-
-.tab-btn[data-tab="pmo"]:not(.active):hover span.absolute {
-    background-color: var(--color-pmo);
-}
-
-.tab-btn[data-tab="iapos"]:not(.active):hover {
-    color: var(--color-iapos);
-}
-
-.tab-btn[data-tab="iapos"]:not(.active):hover span.absolute {
-    background-color: var(--color-iapos);
+.tab-btn[data-tab="medicas"]:not(.active):hover span.absolute {
+    background-color: var(--color-medicas);
 }
 
 .tab-btn[data-tab="bioquimica"]:not(.active):hover {
     color: var(--color-bioquimica);
 }
-
 .tab-btn[data-tab="bioquimica"]:not(.active):hover span.absolute {
     background-color: var(--color-bioquimica);
+}
+
+.tab-btn[data-tab="odontologia"]:not(.active):hover {
+    color: var(--color-odontologia);
+}
+.tab-btn[data-tab="odontologia"]:not(.active):hover span.absolute {
+    background-color: var(--color-odontologia);
+}
+
+.tab-btn[data-tab="elementos"]:not(.active):hover {
+    color: var(--color-elementos);
+}
+.tab-btn[data-tab="elementos"]:not(.active):hover span.absolute {
+    background-color: var(--color-elementos);
 }
 
 /* Input Styles */
 .search-input {
     background-color: var(--input-bg);
     color: var(--text-primary);
-    border-color: var(--border-color);
+    border: 1px solid var(--border-color);
 }
 
 .search-input:focus {
@@ -244,7 +201,7 @@ html.dark .tab-btn.active {
     box-shadow: 0 0 0 3px var(--active-theme-fade);
 }
 
-/* Theme Toggle Button */
+/* Theme Toggle */
 .theme-toggle {
     cursor: pointer;
     padding: 0.5rem;
@@ -252,66 +209,128 @@ html.dark .tab-btn.active {
     transition: all 0.3s ease;
 }
 
-/* Themed Button (Copy Button) */
+/* Themed Utilities */
+.text-themed { color: var(--active-theme) !important; }
+.hover\:text-themed:hover { color: var(--active-theme) !important; }
+.group:focus-within .group-focus-within\:text-themed { color: var(--active-theme) !important; }
+.bg-themed-soft { background-color: var(--active-theme-fade); }
+
+/* Themed Button */
 .btn-themed {
     background-color: var(--active-theme) !important;
     color: white !important;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .btn-themed:hover {
     filter: brightness(1.1);
     transform: translateY(-1px);
-    box-shadow: 0 4px 6px -1px var(--active-theme-fade);
 }
 
 .btn-themed:active {
     transform: translateY(0);
 }
 
-/* Themed Utilities - The core of the deep theming */
-
-/* Text generic class */
-.text-themed {
-    color: var(--active-theme) !important;
+/* Secondary Button */
+.btn-secondary {
+    background-color: #f1f5f9;
+    color: #475569;
+    transition: all 0.2s ease;
 }
 
-/* Hover text generic class */
-.hover\:text-themed:hover {
-    color: var(--active-theme) !important;
+html.dark .btn-secondary {
+    background-color: #334155;
+    color: #cbd5e1;
 }
 
-/* Focus within generic class for search icon parent */
-.group:focus-within .group-focus-within\:text-themed {
-    color: var(--active-theme) !important;
+.btn-secondary:hover {
+    background-color: #e2e8f0;
 }
 
-/* Background soft generic class (for badges) */
-.bg-themed-soft {
+html.dark .btn-secondary:hover {
+    background-color: #475569;
+}
+
+/* Normativa Badge */
+.badge-normativa {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 500;
     background-color: var(--active-theme-fade);
-}
-
-/* Font Mono Bold override (The main code in cards) */
-.font-mono.font-bold {
-    color: var(--active-theme) !important;
-}
-
-/* Button Hover override (Actions in cards) */
-.result-card button:hover {
-    color: var(--active-theme) !important;
-}
-
-/* Tab Active State - Ensure Text is Themed */
-.tab-btn.active span.z-10 {
-    /* The active class already sets color, but let's be safe */
     color: var(--active-theme);
 }
 
-/* Font Colors */
-.font-mono.font-bold {
-    color: var(--iapos-dark);
+/* Modal Backdrop */
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
-html.dark .font-mono.font-bold {
-    color: var(--iapos-light);
+/* Edit Form Textarea */
+.edit-textarea {
+    width: 100%;
+    font-size: 0.875rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+    background-color: var(--input-bg);
+    color: var(--text-primary);
+    resize: vertical;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.edit-textarea:focus {
+    outline: none;
+    border-color: var(--active-theme);
+    box-shadow: 0 0 0 2px var(--active-theme-fade);
+}
+
+/* Toast Notification */
+.toast {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    z-index: 100;
+    animation: slideUp 0.3s ease-out;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+}
+
+.toast-success {
+    background-color: #22c55e;
+    color: white;
+}
+
+.toast-info {
+    background-color: var(--active-theme);
+    color: white;
+}
+
+/* Action Button Styles */
+.action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.action-btn:hover {
+    transform: translateY(-1px);
+}
+
+.action-btn:active {
+    transform: translateY(0);
 }
