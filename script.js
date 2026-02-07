@@ -6,16 +6,15 @@
 // --- Supabase Config & Fallback ---
 const SUPABASE_URL = 'https://cosnaaecpdkfwucrnsiv.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_-b_9uSpVycqVCqzC_Wb2_A_soVCvdgT';
-let supabase = null;
+let supabaseClient = null;
 
 try {
-    if (typeof window.supabase !== 'undefined' && window.supabase.createClient) {
-        supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-    } else if (typeof supabase !== 'undefined' && supabase.createClient) {
-        // Sometimes exposed as global 'supabase' directly
-        supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+    const lib = window.supabase;
+    if (lib && typeof lib.createClient === 'function') {
+        supabaseClient = lib.createClient(SUPABASE_URL, SUPABASE_KEY);
+        console.log('✅ Supabase conectado correctamente.');
     } else {
-        console.warn('⚠️ Librería Supabase no cargada. Funcionando en modo OFFLINE (LocalStorage).');
+        console.warn('⚠️ Librería Supabase no cargada. Funcionando en modo OFFLINE (localStorage).');
     }
 } catch (e) {
     console.error('Error inicializando Supabase:', e);
@@ -59,11 +58,11 @@ const state = {
 // --- Cloud Sync Functions ---
 
 async function loadCloudOverrides() {
-    if (!supabase) return; // Fallback to local only
+    if (!supabaseClient) return; // Fallback to local only
 
     console.log('☁️ Cargando datos de la nube...');
     try {
-        const { data, error } = await supabase
+        const { data, error } = await supabaseClient
             .from('normativas_custom')
             .select('code, normativa');
 
@@ -96,20 +95,20 @@ async function saveOverrideToCloud(code, normativa) {
     // Re-renderizar si es necesario (opcional)
 
     // 2. Send to Cloud (if available)
-    if (!supabase) return;
+    if (!supabaseClient) return;
 
     try {
-        const { error } = await supabase
+        const { error } = await supabaseClient
             .from('normativas_custom')
             .upsert({
-                code: code, // Guardamos el código original (puede tener puntos o no, según venga)
+                code: cleanCode,
                 normativa: normativa,
-                updated_at: new Date()
+                updated_at: new Date().toISOString()
             }, { onConflict: 'code' });
 
         if (error) throw error;
-        console.log('☁️ Guardado en nube:', code);
-        showToast('Guardado en la nube', 'success');
+        console.log('☁️ Guardado en nube:', cleanCode);
+        showToast('Guardado en la nube ☁️', 'success');
     } catch (err) {
         console.error('❌ Error guardando:', err);
         showToast('Error al guardar (Verifica conexión)', 'error');
