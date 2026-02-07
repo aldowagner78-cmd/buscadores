@@ -166,13 +166,56 @@
     <!-- Scripts -->
     <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
     <script src="data.js"></script>
-    <script src="script.js?v=3.1"></script>
+    <script src="script.js?v=3.2"></script>
     <script>
-        // Registrar Service Worker para PWA
+        // PWA: Registrar Service Worker y capturar evento de instalación
+        let deferredPrompt = null;
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            console.log('✅ PWA instalable! beforeinstallprompt capturado');
+            // Mostrar botón de instalar
+            showInstallButton();
+        });
+
+        function showInstallButton() {
+            // Crear botón flotante de instalar si no existe
+            if (document.getElementById('installBtn')) return;
+            const btn = document.createElement('button');
+            btn.id = 'installBtn';
+            btn.innerHTML = '📲 Instalar App';
+            btn.style.cssText = 'position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:9999;padding:12px 28px;background:#014289;color:white;border:none;border-radius:16px;font-weight:bold;font-size:16px;box-shadow:0 4px 20px rgba(0,0,0,0.3);cursor:pointer;animation:slideUp 0.3s ease';
+            btn.addEventListener('click', async () => {
+                if (!deferredPrompt) return;
+                deferredPrompt.prompt();
+                const result = await deferredPrompt.userChoice;
+                console.log('Instalación:', result.outcome);
+                deferredPrompt = null;
+                btn.remove();
+            });
+            document.body.appendChild(btn);
+        }
+
+        window.addEventListener('appinstalled', () => {
+            console.log('✅ App instalada!');
+            deferredPrompt = null;
+            const btn = document.getElementById('installBtn');
+            if (btn) btn.remove();
+        });
+
         if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
+            window.addEventListener('load', async () => {
+                // Forzar actualización: des-registrar SWs viejos y re-registrar
+                const regs = await navigator.serviceWorker.getRegistrations();
+                for (const reg of regs) {
+                    await reg.update();
+                }
                 navigator.serviceWorker.register('/buscadores/sw.js', { scope: '/buscadores/' })
-                    .then(reg => console.log('SW registrado:', reg.scope))
+                    .then(reg => {
+                        console.log('SW registrado:', reg.scope);
+                        reg.update(); // Forzar check de nueva versión
+                    })
                     .catch(err => console.log('SW error:', err));
             });
         }
