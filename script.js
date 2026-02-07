@@ -490,14 +490,27 @@ function openModal(item) {
 
     dom.modalContent.appendChild(editDiv);
 
-    // Show
+    // Show modal with animation
     dom.modal.classList.remove('hidden');
     dom.modal.style.display = 'flex';
+    setTimeout(() => {
+        dom.modal.classList.remove('opacity-0');
+        dom.modal.querySelector('div').classList.remove('scale-95');
+        dom.modal.querySelector('div').classList.add('scale-100');
+    }, 10);
 }
 
 function closeModal() {
-    dom.modal.classList.add('hidden');
-    dom.modal.style.display = 'none';
+    dom.modal.classList.add('opacity-0');
+    const inner = dom.modal.querySelector('div');
+    if (inner) {
+        inner.classList.remove('scale-100');
+        inner.classList.add('scale-95');
+    }
+    setTimeout(() => {
+        dom.modal.classList.add('hidden');
+        dom.modal.style.display = 'none';
+    }, 300);
 }
 
 dom.closeModalBtn.addEventListener('click', closeModal);
