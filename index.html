@@ -168,19 +168,17 @@
     <script src="data.js"></script>
     <script src="script.js?v=3.2"></script>
     <script>
-        // PWA: Registrar Service Worker y capturar evento de instalación
+        // PWA: Limpiar SW viejo, re-registrar, y capturar evento de instalación
         let deferredPrompt = null;
 
         window.addEventListener('beforeinstallprompt', (e) => {
             e.preventDefault();
             deferredPrompt = e;
             console.log('✅ PWA instalable! beforeinstallprompt capturado');
-            // Mostrar botón de instalar
             showInstallButton();
         });
 
         function showInstallButton() {
-            // Crear botón flotante de instalar si no existe
             if (document.getElementById('installBtn')) return;
             const btn = document.createElement('button');
             btn.id = 'installBtn';
@@ -206,17 +204,25 @@
 
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', async () => {
-                // Forzar actualización: des-registrar SWs viejos y re-registrar
+                // PASO 1: Des-registrar TODOS los SWs viejos y borrar TODOS los caches
                 const regs = await navigator.serviceWorker.getRegistrations();
                 for (const reg of regs) {
-                    await reg.update();
+                    await reg.unregister();
+                    console.log('SW viejo des-registrado');
                 }
-                navigator.serviceWorker.register('/buscadores/sw.js', { scope: '/buscadores/' })
-                    .then(reg => {
-                        console.log('SW registrado:', reg.scope);
-                        reg.update(); // Forzar check de nueva versión
-                    })
-                    .catch(err => console.log('SW error:', err));
+                const cacheNames = await caches.keys();
+                for (const name of cacheNames) {
+                    await caches.delete(name);
+                    console.log('Cache borrado:', name);
+                }
+
+                // PASO 2: Re-registrar el SW nuevo limpio
+                try {
+                    const reg = await navigator.serviceWorker.register('/buscadores/sw.js', { scope: '/buscadores/' });
+                    console.log('SW nuevo registrado:', reg.scope);
+                } catch (err) {
+                    console.log('SW error:', err);
+                }
             });
         }
     </script>
