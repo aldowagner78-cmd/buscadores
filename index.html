@@ -32,10 +32,12 @@
     <link rel="stylesheet" href="styles.css?v=3.0">
 </head>
 
-<body class="min-h-screen flex flex-col justify-center items-center p-4 selection:bg-iapos-light selection:text-white transition-colors duration-300">
+<body
+    class="min-h-screen flex flex-col justify-center items-center p-4 selection:bg-iapos-light selection:text-white transition-colors duration-300">
 
     <!-- Theme Toggle -->
-    <button id="themeToggle" class="fixed top-6 right-6 theme-toggle text-slate-500 dark:text-slate-400 z-50" aria-label="Cambiar modo oscuro">
+    <button id="themeToggle" class="fixed top-6 right-6 theme-toggle text-slate-500 dark:text-slate-400 z-50"
+        aria-label="Cambiar modo oscuro">
         <svg id="sunIcon" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -46,38 +48,54 @@
         </svg>
     </button>
 
-    <div class="w-full max-w-5xl glass rounded-3xl shadow-2xl overflow-hidden backdrop-blur-xl transition-all duration-300">
+    <div
+        class="w-full max-w-5xl glass rounded-3xl shadow-2xl overflow-hidden backdrop-blur-xl transition-all duration-300">
 
         <!-- Header -->
         <div class="py-4 md:py-10 relative overflow-hidden px-4 md:px-5">
-            <div class="absolute top-[-50%] left-[-10%] w-[120%] h-[200%] bg-gradient-to-br from-iapos-light/10 to-transparent rounded-full blur-3xl -z-10 dark:from-iapos-dark/20"></div>
+            <div
+                class="absolute top-[-50%] left-[-10%] w-[120%] h-[200%] bg-gradient-to-br from-iapos-light/10 to-transparent rounded-full blur-3xl -z-10 dark:from-iapos-dark/20">
+            </div>
             <div class="flex items-center gap-3 md:gap-24">
                 <img src="iapos.png" alt="IAPOS" class="header-logo object-contain opacity-90 flex-shrink-0">
                 <div class="flex-1 min-w-0">
-                    <h1 id="mainTitle" class="text-base md:text-6xl font-extrabold mb-1 text-gradient whitespace-nowrap overflow-hidden">
+                    <h1 id="mainTitle"
+                        class="text-base md:text-6xl font-extrabold mb-1 text-gradient whitespace-nowrap overflow-hidden">
                         Buscador Médico
-                    </h1>                    
+                    </h1>
                 </div>
             </div>
         </div>
 
         <!-- Navigation Tabs -->
         <div class="flex border-b border-gray-200 dark:border-gray-700 bg-white/50 dark:bg-slate-800/50">
-            <button data-tab="medicas" class="tab-btn flex-1 text-center font-semibold text-slate-500 transition-all duration-200 uppercase relative group">
-                <span class="z-10 relative"><span class="md:hidden">Médicas</span><span class="hidden md:inline">Médicas</span></span>
-                <span class="absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+            <button data-tab="medicas"
+                class="tab-btn flex-1 text-center font-semibold text-slate-500 transition-all duration-200 uppercase relative group">
+                <span class="z-10 relative"><span class="md:hidden">Médicas</span><span
+                        class="hidden md:inline">Médicas</span></span>
+                <span
+                    class="absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
             </button>
-            <button data-tab="bioquimica" class="tab-btn flex-1 text-center font-semibold text-slate-500 transition-all duration-200 uppercase relative group">
-                <span class="z-10 relative"><span class="md:hidden">Bioq.</span><span class="hidden md:inline">Bioquímica</span></span>
-                <span class="absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+            <button data-tab="bioquimica"
+                class="tab-btn flex-1 text-center font-semibold text-slate-500 transition-all duration-200 uppercase relative group">
+                <span class="z-10 relative"><span class="md:hidden">Bioq.</span><span
+                        class="hidden md:inline">Bioquímica</span></span>
+                <span
+                    class="absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
             </button>
-            <button data-tab="odontologia" class="tab-btn flex-1 text-center font-semibold text-slate-500 transition-all duration-200 uppercase relative group">
-                <span class="z-10 relative"><span class="md:hidden">Odont.</span><span class="hidden md:inline">Odontología</span></span>
-                <span class="absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+            <button data-tab="odontologia"
+                class="tab-btn flex-1 text-center font-semibold text-slate-500 transition-all duration-200 uppercase relative group">
+                <span class="z-10 relative"><span class="md:hidden">Odont.</span><span
+                        class="hidden md:inline">Odontología</span></span>
+                <span
+                    class="absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
             </button>
-            <button data-tab="elementos" class="tab-btn flex-1 text-center font-semibold text-slate-500 transition-all duration-200 uppercase relative group">
-                <span class="z-10 relative"><span class="md:hidden">Elem.</span><span class="hidden md:inline">Elementos</span></span>
-                <span class="absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+            <button data-tab="elementos"
+                class="tab-btn flex-1 text-center font-semibold text-slate-500 transition-all duration-200 uppercase relative group">
+                <span class="z-10 relative"><span class="md:hidden">Elem.</span><span
+                        class="hidden md:inline">Elementos</span></span>
+                <span
+                    class="absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
             </button>
         </div>
 
@@ -95,9 +113,12 @@
                     class="search-input block w-full pl-14 pr-12 py-4 rounded-2xl text-lg shadow-sm focus:outline-none transition-all duration-300 placeholder-slate-400"
                     placeholder="Buscar código o descripción..." autocomplete="off">
                 <!-- Clear Button -->
-                <button id="clearSearch" class="absolute inset-y-0 right-0 pr-5 flex items-center text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 transition-colors hidden" aria-label="Limpiar búsqueda">
+                <button id="clearSearch"
+                    class="absolute inset-y-0 right-0 pr-5 flex items-center text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 transition-colors hidden"
+                    aria-label="Limpiar búsqueda">
                     <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </button>
             </div>
@@ -116,16 +137,21 @@
         </div>
 
         <!-- Footer -->
-        <div class="py-4 border-t border-gray-100 dark:border-gray-800 text-center text-xs text-slate-400 bg-white/50 dark:bg-slate-900/50">
+        <div
+            class="py-4 border-t border-gray-100 dark:border-gray-800 text-center text-xs text-slate-400 bg-white/50 dark:bg-slate-900/50">
             v3.0 &bull; Datos actualizados: 2026
         </div>
     </div>
 
     <!-- Modal -->
-    <div id="detailModal" class="modal-backdrop fixed inset-0 z-[60] hidden items-center justify-center p-4 opacity-0 transition-opacity duration-300" style="display:none;">
-        <div class="bg-white dark:bg-slate-800 rounded-3xl shadow-2xl max-w-lg w-full p-8 relative transform scale-95 transition-transform duration-300 border border-slate-100 dark:border-slate-700 max-h-[90vh] overflow-y-auto">
+    <div id="detailModal"
+        class="modal-backdrop fixed inset-0 z-[60] hidden items-center justify-center p-4 opacity-0 transition-opacity duration-300"
+        style="display:none;">
+        <div
+            class="bg-white dark:bg-slate-800 rounded-3xl shadow-2xl max-w-lg w-full p-8 relative transform scale-95 transition-transform duration-300 border border-slate-100 dark:border-slate-700 max-h-[90vh] overflow-y-auto">
             <!-- Close button -->
-            <button id="closeModal" class="absolute top-4 right-4 text-slate-400 hover:text-red-500 transition-colors bg-slate-100 dark:bg-slate-700/50 rounded-full p-1">
+            <button id="closeModal"
+                class="absolute top-4 right-4 text-slate-400 hover:text-red-500 transition-colors bg-slate-100 dark:bg-slate-700/50 rounded-full p-1">
                 <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
@@ -138,7 +164,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
     <script src="data.js"></script>
     <script src="script.js?v=3.0"></script>
     <script>

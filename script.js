@@ -3,10 +3,23 @@
  * Motor de búsqueda robusto con Sincronización en Nube (Supabase)
  */
 
-// --- Supabase Config ---
+// --- Supabase Config & Fallback ---
 const SUPABASE_URL = 'https://cosnaaecpdkfwucrnsiv.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_-b_9uSpVycqVCqzC_Wb2_A_soVCvdgT';
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+let supabase = null;
+
+try {
+    if (typeof window.supabase !== 'undefined' && window.supabase.createClient) {
+        supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+    } else if (typeof supabase !== 'undefined' && supabase.createClient) {
+        // Sometimes exposed as global 'supabase' directly
+        supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+    } else {
+        console.warn('⚠️ Librería Supabase no cargada. Funcionando en modo OFFLINE (LocalStorage).');
+    }
+} catch (e) {
+    console.error('Error inicializando Supabase:', e);
+}
 
 // --- SearchEngine Class ---
 class SearchEngine {
@@ -46,6 +59,8 @@ const state = {
 // --- Cloud Sync Functions ---
 
 async function loadCloudOverrides() {
+    if (!supabase) return; // Fallback to local only
+
     console.log('☁️ Cargando datos de la nube...');
     try {
         const { data, error } = await supabase
@@ -72,19 +87,21 @@ async function loadCloudOverrides() {
 
 async function saveOverrideToCloud(code, normativa) {
     const cleanCode = String(code).replace(/\./g, '');
-    
+
     // 1. Optimistic UI Update (Local instantáneo)
     if (!state.userOverrides[cleanCode]) state.userOverrides[cleanCode] = {};
     state.userOverrides[cleanCode].normativa = normativa;
-    
+
     // Si la normativa está vacía, podríamos querer borrarla, pero por simplicidad actualizamos a string vacío
     // Re-renderizar si es necesario (opcional)
 
-    // 2. Send to Cloud
+    // 2. Send to Cloud (if available)
+    if (!supabase) return;
+
     try {
         const { error } = await supabase
             .from('normativas_custom')
-            .upsert({ 
+            .upsert({
                 code: code, // Guardamos el código original (puede tener puntos o no, según venga)
                 normativa: normativa,
                 updated_at: new Date()
@@ -151,7 +168,7 @@ function showToast(message, type) {
 
     const toast = document.createElement('div');
     toast.className = 'toast ' + (type === 'success' ? 'toast-success' : 'toast-info');
-    if(type === 'error') toast.style.backgroundColor = '#ef4444'; // Red for errors
+    if (type === 'error') toast.style.backgroundColor = '#ef4444'; // Red for errors
     toast.textContent = message;
     document.body.appendChild(toast);
 
@@ -298,16 +315,16 @@ function createResultCard(item, index) {
 
     // Logo (placeholder path)
     const logo = document.createElement('img');
-    logo.src = 'iapos.png'; 
+    logo.src = 'iapos.png';
     logo.alt = '';
     logo.className = 'card-logo';
-    logo.onerror = function() { this.style.display = 'none'; }; // Hide if missing
+    logo.onerror = function () { this.style.display = 'none'; }; // Hide if missing
     card.appendChild(logo);
 
     // Header
     const topRow = document.createElement('div');
     topRow.className = 'flex items-center mb-1 flex-wrap gap-1';
-    
+
     const codeSpan = document.createElement('span');
     codeSpan.className = 'font-mono font-bold text-themed text-lg';
     codeSpan.textContent = displayCode(item.code);
@@ -428,7 +445,7 @@ function openModal(item) {
     // --- Normativa Display ---
     const normSection = document.createElement('div');
     normSection.className = 'bg-slate-50 dark:bg-slate-700/50 rounded-lg p-4 text-sm text-left border border-slate-200 dark:border-slate-600 mb-6';
-    
+
     if (normativa) {
         normSection.textContent = normativa;
     } else {
@@ -440,7 +457,7 @@ function openModal(item) {
     // --- Edit Section ---
     const editDiv = document.createElement('div');
     editDiv.className = 'border-t border-slate-200 dark:border-slate-700 pt-4 mt-4';
-    
+
     const editLabel = document.createElement('label');
     editLabel.className = 'block text-xs font-bold text-slate-500 uppercase mb-2';
     editLabel.textContent = 'Editar Normativa Personalizada (Sincronizado en Nube)';
