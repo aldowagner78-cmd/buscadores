@@ -1,4 +1,4 @@
-const CACHE_NAME = 'iapos-v2';
+const CACHE_NAME = 'iapos-v3';
 const urlsToCache = [
   '/buscadores/',
   '/buscadores/index.html',
@@ -31,9 +31,18 @@ self.addEventListener('activate', event => {
   );
 });
 
+// Network-first: siempre intenta traer la versión nueva del servidor
 self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request)
-      .then(response => response || fetch(event.request))
+    fetch(event.request)
+      .then(response => {
+        // Guardar copia en cache para offline
+        if (response.ok) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+        }
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });

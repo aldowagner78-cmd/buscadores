@@ -399,6 +399,11 @@ function createResultCard(item, index) {
     }));
 
     card.appendChild(actionsDiv);
+
+    // Hacer toda la tarjeta clickeable para abrir modal
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', () => openModal(item));
+
     return card;
 }
 
