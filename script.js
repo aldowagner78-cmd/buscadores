@@ -98,13 +98,26 @@ async function saveOverrideToCloud(code, normativa) {
     if (!supabaseClient) return;
 
     try {
-        const { error } = await supabaseClient
+        // Verificar si ya existe una fila con este código
+        const { data: existing } = await supabaseClient
             .from('normativas_custom')
-            .upsert({
-                code: cleanCode,
-                normativa: normativa,
-                updated_at: new Date().toISOString()
-            }, { onConflict: 'code' });
+            .select('id')
+            .eq('code', cleanCode)
+            .maybeSingle();
+
+        let error;
+        if (existing) {
+            // UPDATE: ya existe, actualizar
+            ({ error } = await supabaseClient
+                .from('normativas_custom')
+                .update({ normativa: normativa, updated_at: new Date().toISOString() })
+                .eq('code', cleanCode));
+        } else {
+            // INSERT: no existe, crear nuevo
+            ({ error } = await supabaseClient
+                .from('normativas_custom')
+                .insert({ code: cleanCode, normativa: normativa, updated_at: new Date().toISOString() }));
+        }
 
         if (error) throw error;
         console.log('☁️ Guardado en nube:', cleanCode);
