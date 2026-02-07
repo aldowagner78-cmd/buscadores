@@ -1,11 +1,13 @@
-const CACHE_NAME = 'iapos-v3';
+const CACHE_NAME = 'iapos-v4';
 const urlsToCache = [
   '/buscadores/',
   '/buscadores/index.html',
   '/buscadores/styles.css',
   '/buscadores/script.js',
   '/buscadores/data.js',
-  '/buscadores/iapos.png'
+  '/buscadores/iapos.png',
+  '/buscadores/iapos-192.png',
+  '/buscadores/iapos-512.png'
 ];
 
 self.addEventListener('install', event => {

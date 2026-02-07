@@ -161,6 +161,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // --- Helper Functions ---
 
+function refreshSearchResults() {
+    const query = dom.searchInput.value;
+    if (query.length >= 2) {
+        const results = engine.search(state.currentTab, query);
+        renderResults(results);
+    }
+}
+
 function displayCode(code) {
     return String(code).replace(/\./g, '');
 }
@@ -498,6 +506,8 @@ function openModal(item) {
         const newText = textarea.value.trim();
         saveOverrideToCloud(item.code, newText);
         closeModal();
+        // Re-renderizar resultados de búsqueda para reflejar el cambio
+        refreshSearchResults();
     });
     editDiv.appendChild(saveBtn);
 
