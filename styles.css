@@ -33,6 +33,7 @@
 body[data-scope="medicas"] {
     --active-theme: var(--color-medicas);
     --active-theme-fade: rgba(239, 68, 68, 0.1);
+    --bg-body: #fef2f2; /* Pastel Red */
     --grad-start: #991b1b;
     --grad-end: #f87171;
 }
@@ -40,6 +41,7 @@ body[data-scope="medicas"] {
 body[data-scope="bioquimica"] {
     --active-theme: var(--color-bioquimica);
     --active-theme-fade: rgba(34, 197, 94, 0.1);
+    --bg-body: #f0fdf4; /* Pastel Green */
     --grad-start: #14532d;
     --grad-end: #4ade80;
 }
@@ -47,6 +49,7 @@ body[data-scope="bioquimica"] {
 body[data-scope="odontologia"] {
     --active-theme: var(--color-odontologia);
     --active-theme-fade: rgba(139, 92, 246, 0.1);
+    --bg-body: #f5f3ff; /* Pastel Violet */
     --grad-start: #4c1d95;
     --grad-end: #a78bfa;
 }
@@ -54,6 +57,7 @@ body[data-scope="odontologia"] {
 body[data-scope="elementos"] {
     --active-theme: var(--color-elementos);
     --active-theme-fade: rgba(0, 168, 231, 0.1);
+    --bg-body: #f0f9ff; /* Pastel Blue */
     --grad-start: #003366;
     --grad-end: #00a8e7;
 }
