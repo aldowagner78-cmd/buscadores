@@ -33,7 +33,10 @@
 body[data-scope="medicas"] {
     --active-theme: var(--color-medicas);
     --active-theme-fade: rgba(239, 68, 68, 0.1);
-    --bg-body: #fef2f2; /* Pastel Red */
+    --bg-body: #fef2f2;
+    /* Level 1: Very Light Red */
+    --bg-card: #fee2e2;
+    /* Level 2: Light Red (Container) */
     --grad-start: #991b1b;
     --grad-end: #f87171;
 }
@@ -41,7 +44,10 @@ body[data-scope="medicas"] {
 body[data-scope="bioquimica"] {
     --active-theme: var(--color-bioquimica);
     --active-theme-fade: rgba(34, 197, 94, 0.1);
-    --bg-body: #f0fdf4; /* Pastel Green */
+    --bg-body: #f0fdf4;
+    /* Level 1: Very Light Green */
+    --bg-card: #dcfce7;
+    /* Level 2: Light Green (Container) */
     --grad-start: #14532d;
     --grad-end: #4ade80;
 }
@@ -49,7 +55,10 @@ body[data-scope="bioquimica"] {
 body[data-scope="odontologia"] {
     --active-theme: var(--color-odontologia);
     --active-theme-fade: rgba(139, 92, 246, 0.1);
-    --bg-body: #f5f3ff; /* Pastel Violet */
+    --bg-body: #faf5ff;
+    /* Level 1: Very Light Violet */
+    --bg-card: #f3e8ff;
+    /* Level 2: Light Violet (Container) */
     --grad-start: #4c1d95;
     --grad-end: #a78bfa;
 }
@@ -57,7 +66,10 @@ body[data-scope="odontologia"] {
 body[data-scope="elementos"] {
     --active-theme: var(--color-elementos);
     --active-theme-fade: rgba(0, 168, 231, 0.1);
-    --bg-body: #f0f9ff; /* Pastel Blue */
+    --bg-body: #f0f9ff;
+    /* Level 1: Very Light Blue */
+    --bg-card: #e0f2fe;
+    /* Level 2: Light Blue (Container) */
     --grad-start: #003366;
     --grad-end: #00a8e7;
 }
@@ -83,10 +95,11 @@ body {
 
 /* Glassmorphism */
 .glass {
-    background: rgba(255, 255, 255, 0.7);
+    background: var(--bg-card, rgba(255, 255, 255, 0.7));
+    /* Use tinted card bg or white fallback */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 html.dark .glass {
@@ -109,31 +122,60 @@ html.dark .text-gradient {
 }
 
 @keyframes gradientFlow {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* Custom Scrollbar */
-::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
 ::-webkit-scrollbar-thumb {
     background-color: #cbd5e1;
     border-radius: 20px;
     border: 3px solid transparent;
     background-clip: content-box;
 }
-html.dark ::-webkit-scrollbar-thumb { background-color: #475569; }
+
+html.dark ::-webkit-scrollbar-thumb {
+    background-color: #475569;
+}
 
 /* Animations */
 @keyframes slideUp {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 /* Result Cards */
@@ -149,13 +191,15 @@ html.dark ::-webkit-scrollbar-thumb { background-color: #475569; }
 
 /* Header Logo - same height as title font */
 .header-logo {
-    height: 2rem; /* mobile */
+    height: 2rem;
+    /* mobile */
     width: auto;
 }
 
 @media (min-width: 768px) {
     .header-logo {
-        height: 5.5rem; /* desktop */
+        height: 5.5rem;
+        /* desktop */
     }
 }
 
@@ -219,6 +263,7 @@ html.dark .tab-btn.active {
 .tab-btn[data-tab="medicas"]:not(.active):hover {
     color: var(--color-medicas);
 }
+
 .tab-btn[data-tab="medicas"]:not(.active):hover span.absolute {
     background-color: var(--color-medicas);
 }
@@ -226,6 +271,7 @@ html.dark .tab-btn.active {
 .tab-btn[data-tab="bioquimica"]:not(.active):hover {
     color: var(--color-bioquimica);
 }
+
 .tab-btn[data-tab="bioquimica"]:not(.active):hover span.absolute {
     background-color: var(--color-bioquimica);
 }
@@ -233,6 +279,7 @@ html.dark .tab-btn.active {
 .tab-btn[data-tab="odontologia"]:not(.active):hover {
     color: var(--color-odontologia);
 }
+
 .tab-btn[data-tab="odontologia"]:not(.active):hover span.absolute {
     background-color: var(--color-odontologia);
 }
@@ -240,6 +287,7 @@ html.dark .tab-btn.active {
 .tab-btn[data-tab="elementos"]:not(.active):hover {
     color: var(--color-elementos);
 }
+
 .tab-btn[data-tab="elementos"]:not(.active):hover span.absolute {
     background-color: var(--color-elementos);
 }
@@ -265,10 +313,21 @@ html.dark .tab-btn.active {
 }
 
 /* Themed Utilities */
-.text-themed { color: var(--active-theme) !important; }
-.hover\:text-themed:hover { color: var(--active-theme) !important; }
-.group:focus-within .group-focus-within\:text-themed { color: var(--active-theme) !important; }
-.bg-themed-soft { background-color: var(--active-theme-fade); }
+.text-themed {
+    color: var(--active-theme) !important;
+}
+
+.hover\:text-themed:hover {
+    color: var(--active-theme) !important;
+}
+
+.group:focus-within .group-focus-within\:text-themed {
+    color: var(--active-theme) !important;
+}
+
+.bg-themed-soft {
+    background-color: var(--active-theme-fade);
+}
 
 /* Themed Button */
 .btn-themed {
