@@ -91,6 +91,9 @@ async function saveOverrideToCloud(code, normativa) {
     if (!state.userOverrides[cleanCode]) state.userOverrides[cleanCode] = {};
     state.userOverrides[cleanCode].normativa = normativa;
 
+    // Toast inmediato (Experiencia de usuario rápida)
+    showToast('Guardado en la nube ☁️', 'success');
+
     // Si la normativa está vacía, podríamos querer borrarla, pero por simplicidad actualizamos a string vacío
     // Re-renderizar si es necesario (opcional)
 
@@ -120,8 +123,7 @@ async function saveOverrideToCloud(code, normativa) {
         }
 
         if (error) throw error;
-        console.log('☁️ Guardado en nube:', cleanCode);
-        showToast('Guardado en la nube ☁️', 'success');
+        console.log('☁️ Guardado confirmado:', cleanCode);
     } catch (err) {
         console.error('❌ Error guardando:', err);
         showToast('Error al guardar (Verifica conexión)', 'error');
@@ -240,7 +242,7 @@ function showToast(message, type) {
         toast.style.opacity = '0';
         toast.style.transition = 'opacity 0.3s ease';
         setTimeout(() => toast.remove(), 300);
-    }, 2000);
+    }, 1000);
 }
 
 function copyToClipboard(text) {
