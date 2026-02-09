@@ -151,12 +151,56 @@ const dom = {
 document.addEventListener('DOMContentLoaded', async () => {
     // 1. Cargar datos nube
     await loadCloudOverrides();
-    // 2. Inicializar UI
+    // 2. Suscribir a real-time
+    subscribeRealtimeChanges();
+    // 3. Inicializar UI
     updateTab('medicas');
     dom.searchInput.focus();
-    // 3. Theme
+    // 4. Theme
     initTheme();
 });
+
+async function subscribeRealtimeChanges() {
+    if (!supabaseClient) return;
+
+    supabaseClient
+        .channel('normativas-realtime')
+        .on(
+            'postgres_changes',
+            { event: '*', schema: 'public', table: 'normativas_custom' },
+            (payload) => {
+                const newRecord = payload.new;
+
+                // Ignorar si no hay payload válido (ej. DELETE a medias)
+                if (!newRecord || !newRecord.code) return;
+
+                const cleanCode = String(newRecord.code).replace(/\./g, '');
+                state.userOverrides[cleanCode] = { normativa: newRecord.normativa };
+
+                // Actualizar lista si es visible
+                refreshSearchResults();
+
+                // Actualizar MODAL si está abierto en ese item
+                const modalCodeEl = document.querySelector('#modalContent .font-mono');
+                if (modalCodeEl && modalCodeEl.textContent.replace(/\./g, '') === cleanCode) {
+                    const normDiv = document.querySelector('#viewModeContainer div.whitespace-pre-wrap');
+                    if (normDiv) {
+                        if (newRecord.normativa) {
+                            normDiv.textContent = newRecord.normativa;
+                            normDiv.classList.remove('italic', 'text-slate-400', 'text-center');
+                        } else {
+                            normDiv.textContent = 'Sin normativa especial.';
+                            normDiv.classList.add('italic', 'text-slate-400', 'text-center');
+                        }
+                    }
+                    // También actualizar el textarea por si acaso cambian a modo edición
+                    const ta = document.querySelector('#editModeContainer textarea');
+                    if (ta) ta.value = newRecord.normativa || '';
+                }
+            }
+        )
+        .subscribe();
+}
 
 
 // --- Helper Functions ---
