@@ -575,6 +575,13 @@ function openModal(item, mode = 'view') {
     }, 10);
 }
 
+// --- Modal Logic ---
+// Track mousedown target to prevent closing when selecting text (dragging outside)
+let modalMouseDownTarget = null;
+dom.modal.addEventListener('mousedown', (e) => {
+    modalMouseDownTarget = e.target;
+});
+
 function closeModal() {
     dom.modal.classList.add('opacity-0');
     const inner = dom.modal.querySelector('div');
@@ -585,12 +592,16 @@ function closeModal() {
     setTimeout(() => {
         dom.modal.classList.add('hidden');
         dom.modal.style.display = 'none';
+        modalMouseDownTarget = null; // Reset
     }, 300);
 }
 
 dom.closeModalBtn.addEventListener('click', closeModal);
 window.addEventListener('click', (e) => {
-    if (e.target === dom.modal) closeModal();
+    // Solo cerrar si el click Y el mousedown fueron en el backdrop
+    if (e.target === dom.modal && modalMouseDownTarget === dom.modal) {
+        closeModal();
+    }
 });
 
 // Keyboard
