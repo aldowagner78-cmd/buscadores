@@ -324,6 +324,7 @@ function renderEmptyState(message) {
 }
 
 // --- Create Result Card ---
+// --- Create Result Card ---
 function createResultCard(item, index) {
     const normativa = getEffectiveNormativa(item);
     const hasNormativa = normativa && normativa.length > 0;
@@ -404,26 +405,23 @@ function createResultCard(item, index) {
         }));
     }
 
-    // Detail
+    // Detail -> Open in View Mode
     actionsDiv.appendChild(createActionBtn('Detalle', function (e) {
         e.stopPropagation();
-        openModal(item);
+        openModal(item, 'view');
     }, true));
 
-    // Edit (opens modal internally)
+    // Edit -> Open in Edit Mode
     actionsDiv.appendChild(createActionBtn('Editar', function (e) {
         e.stopPropagation();
-        openModal(item);
-        // We trigger edit mode inside modal logic usually, but here we just open modal
-        // ideally openEditModal logic should be merged or triggered.
-        // For simplicity, let's open modal and user clicks edit there.
+        openModal(item, 'edit');
     }));
 
     card.appendChild(actionsDiv);
 
-    // Hacer toda la tarjeta clickeable para abrir modal
+    // Click anywhere on card -> Open in View Mode
     card.style.cursor = 'pointer';
-    card.addEventListener('click', () => openModal(item));
+    card.addEventListener('click', () => openModal(item, 'view'));
 
     return card;
 }
@@ -437,9 +435,8 @@ function createActionBtn(label, onClick, isPrimary) {
 }
 
 // --- Modal Logic ---
-function openModal(item) {
+function openModal(item, mode = 'view') {
     const normativa = getEffectiveNormativa(item);
-    const coseguro = item.coseguro || '';
 
     // Clear content
     while (dom.modalContent.firstChild) {
@@ -467,9 +464,15 @@ function openModal(item) {
     descP.textContent = item.description;
     dom.modalContent.appendChild(descP);
 
-    // --- Normativa Display ---
+    // Container for View Mode
+    const viewContainer = document.createElement('div');
+    viewContainer.id = 'viewModeContainer';
+    // Initially hidden if mode is 'edit'
+    if (mode === 'edit') viewContainer.classList.add('hidden');
+
+    // Normativa Display (View Mode)
     const normSection = document.createElement('div');
-    normSection.className = 'bg-slate-50 dark:bg-slate-700/50 rounded-lg p-4 text-sm text-left border border-slate-200 dark:border-slate-600 mb-6';
+    normSection.className = 'bg-slate-50 dark:bg-slate-700/50 rounded-lg p-4 text-sm text-left border border-slate-200 dark:border-slate-600 mb-4 whitespace-pre-wrap';
 
     if (normativa) {
         normSection.textContent = normativa;
@@ -477,41 +480,90 @@ function openModal(item) {
         normSection.textContent = 'Sin normativa especial.';
         normSection.className += ' italic text-slate-400 text-center';
     }
-    dom.modalContent.appendChild(normSection);
+    viewContainer.appendChild(normSection);
 
-    // --- Edit Section ---
-    const editDiv = document.createElement('div');
-    editDiv.className = 'border-t border-slate-200 dark:border-slate-700 pt-4 mt-4';
+    // Button to switch to Edit Mode
+    const toEditBtn = document.createElement('button');
+    toEditBtn.className = 'w-full py-2 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-lg hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors';
+    toEditBtn.textContent = '✏️ Editar Normativa';
+    toEditBtn.addEventListener('click', () => {
+        viewContainer.classList.add('hidden');
+        editContainer.classList.remove('hidden');
+        // Focus textarea
+        const ta = editContainer.querySelector('textarea');
+        if (ta) ta.focus();
+    });
+    viewContainer.appendChild(toEditBtn);
 
+    dom.modalContent.appendChild(viewContainer);
+
+
+    // Container for Edit Mode
+    const editContainer = document.createElement('div');
+    editContainer.id = 'editModeContainer';
+    // Initially hidden if mode is 'view'
+    if (mode === 'view') editContainer.classList.add('hidden');
+
+    // Label
     const editLabel = document.createElement('label');
     editLabel.className = 'block text-xs font-bold text-slate-500 uppercase mb-2';
     editLabel.textContent = 'Editar Normativa Personalizada (Sincronizado en Nube)';
-    editDiv.appendChild(editLabel);
+    editContainer.appendChild(editLabel);
 
+    // Textarea (Edit Mode)
     const textarea = document.createElement('textarea');
-    textarea.className = 'w-full p-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-sm focus:ring-2 focus:ring-themed outline-none transition-all';
-    textarea.rows = 4;
-    textarea.placeholder = 'Escribe aquí para agregar notas o normativa...';
-    textarea.value = getEffectiveNormativa(item) === item.normativa ? '' : getEffectiveNormativa(item); // Show override if exists
-    // If no override, show empty to imply "adding new note". 
-    // Or prefer showing current norm to edit? Let's show current effective norm to edit.
-    textarea.value = getEffectiveNormativa(item);
+    textarea.className = 'w-full p-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-sm focus:ring-2 focus:ring-themed outline-none transition-all mb-3';
+    textarea.rows = 6;
+    textarea.placeholder = 'Escribe aquí para modificar la normativa...';
+    // Pre-fill with effective content
+    textarea.value = normativa || '';
+    editContainer.appendChild(textarea);
 
-    editDiv.appendChild(textarea);
+    // Actions Row
+    const editActions = document.createElement('div');
+    editActions.className = 'flex gap-2';
 
+    // Cancel Button
+    const cancelBtn = document.createElement('button');
+    cancelBtn.className = 'flex-1 py-2 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-lg hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors';
+    cancelBtn.textContent = 'Cancelar';
+    cancelBtn.addEventListener('click', () => {
+        // Switch back to view mode
+        editContainer.classList.add('hidden');
+        viewContainer.classList.remove('hidden');
+        // Reset textarea value to current saved state just in case
+        textarea.value = getEffectiveNormativa(item) || '';
+    });
+    editActions.appendChild(cancelBtn);
+
+    // Save Button - using btn-themed class for visibility
     const saveBtn = document.createElement('button');
-    saveBtn.className = 'mt-3 w-full py-2 bg-themed text-white font-bold rounded-lg shadow hover:bg-opacity-90 transition-colors';
+    saveBtn.className = 'flex-1 py-2 btn-themed font-bold rounded-lg shadow hover:bg-opacity-90 transition-colors';
     saveBtn.textContent = 'Guardar Cambios';
     saveBtn.addEventListener('click', () => {
         const newText = textarea.value.trim();
         saveOverrideToCloud(item.code, newText);
-        closeModal();
-        // Re-renderizar resultados de búsqueda para reflejar el cambio
+
+        // Update view mode content
+        if (newText) {
+            normSection.textContent = newText;
+            normSection.classList.remove('italic', 'text-slate-400', 'text-center');
+        } else {
+            normSection.textContent = 'Sin normativa especial.';
+            normSection.classList.add('italic', 'text-slate-400', 'text-center');
+        }
+
+        // Switch back to view mode
+        editContainer.classList.add('hidden');
+        viewContainer.classList.remove('hidden');
+
+        // Re-render search results to reflect changes in list
         refreshSearchResults();
     });
-    editDiv.appendChild(saveBtn);
+    editActions.appendChild(saveBtn);
 
-    dom.modalContent.appendChild(editDiv);
+    editContainer.appendChild(editActions);
+    dom.modalContent.appendChild(editContainer);
 
     // Show modal with animation
     dom.modal.classList.remove('hidden');
