@@ -6,57 +6,49 @@ const searchData = {
     {
       "code": "42.01.01",
       "description": "CONSULTA MÉDICA",
-      "normativa": "EXCLUYE: - Los estudios, prdcticas y medicaci6n indicadas por ct equipo profesional se atendefan par los mecanismos de cobertura hal]ituales del IAPOS, abordando el PPDTE aquellas prdcticas incluidas en el mismo. AAdministraci6nvgesti6n: - EI M6di//a Segi/in/chto y Ai/foci/idodo -33€1.64, sera gestionado en modo exclusivo y directo par el IAPOS, sin participaci6n de terceras entidades gestoras-prestadoras dct PPDTE. Consecuentemente, la ggesti6n, riquidaci6n y pago a prestadores, agentes y profdsioneles a cargo del M6dufo Sqgt//in/ento y At/tact//dado -3391.64, sera efectuada con presentaci6n de fa facturaci6ii directa al lAPOS a los valores :#+=:cO:;:::::,::;=,:::=r+:::::Ch#::.:::I::f:::;rely:;=:±`:;: ccomo tope y marco de referencia. ==.=0 2 4 1 9 MAY 2025 ANEXO 11 -Registro Clinico Registro Clinico (c6digo",
-      "price_hidden": "",
+      "normativa": "INCLUYE: del Módulo: - El IAPOS definirá anualmente una patología en particular para la realización de actividades de prevención y de orientación para su tratamiento. El IAPOS podrá efectuar dicha determinación junto al Ministerio de Salud, al área de Salud Laboral de la Provincia, la DipART y la Caja de Jubilaciones y Pensiones de la Provincia. - El alcance es todo el territorio provincial y el conjunto de afiliados determinados por el IAPOS en función de la patología seleccionada. - El módulo comprenderá la planificación y programación del seguimiento y contacto personalizado a los afiliados comprendidos en poblaciones de riesgo. [El'seguimiento y contacto personalizado tendrá como instrumento principal al Call Center y se ¿ornlernelará con herramientas de mensajes y alertas enviados al celular del afiliado y al Portal del ' afilado IAP S.\nEXCLUYE: - Las prácticas de laboratorio y estudios requeridos y sus insumos se facturarán fuera de cartera a los valores definidos en la política arancelaria del IAPOS. El resultado de las mismas se incorporará a la HHCC digital y al Portal del Afiliado IAPOS. - Las consultas posteriores de devolución y seguimiento, se atenderán bajo la modalidad de telecuidados (código",
       "coseguro": ""
     },
     {
       "code": "43.01.01",
       "description": "MODULO PENSIÓN",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: se encuentran contemplados en la Cartera Fija suscripta con la Asociación Médica de Rosario y Sanatorios Co-contratantes, que cuenta con partida presupuestaria prevista en el convenio (fojas 10); Que se cuenta con crédito presupuestario suficiente en la partida específica que se atiende con la Fuente Financiera 201, habiéndose realizado el compromiso preventivo del gasto según consta a fojas 08, sin previa comunicación a la Contaduría General de la Provincia de Santa Fe, en virtud de no encontrarse alcanzado el Instituto por lo dispuesto en Resolución N° 281/09 del Ministerio de Economía reglamentario del Decreto N° 155/03;",
       "coseguro": ""
     },
     {
       "code": "40.01.01",
       "description": "TERAPIA - UNIDAD CORONARIA",
-      "normativa": "INCLUYE: HONC)RARIOS DE EQUIPO DE CIRUGIA PLASTICA) TRAQUEOSTOMIA POR CUALQUIER VIA RESECCION PULMONAR PARCIAL 0 TOTAL, DECORTICACIONPULMONARPORTORACOTOMIA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: REPARACION PLASTICAESCISION LOCAL DE LESION DE PIEL O GLANDULA DE PIEL, CICATRIZAL, INFLAMATORIA, CONGENITA O TUMORAL BENIGNA -QUISTE SEBACEO, ANTRAX, VENUS, ETC. INCISION Y DRENAJE DE ABSCESO SUPERFICIAL, HIDROSADENITIS, QUISTE SEBACEO INFECTADO, FORUNCULO, PANADIZO, HEMATOMA, ANTRAX, ETC. EXTRAC. DE CUERPO EXTRAÑO SUPERFICIAL DESTRUCCION DE LESION DE PIEL -",
       "coseguro": ""
     },
     {
       "code": "41.01.01",
       "description": "CUIDADOS ESPECIALES NEO - LUMINOTERAPIA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: REPARACION PLASTICAESCISION LOCAL DE LESION DE PIEL O GLANDULA DE PIEL, CICATRIZAL, INFLAMATORIA, CONGENITA O TUMORAL BENIGNA -QUISTE SEBACEO, ANTRAX, VENUS, ETC. INCISION Y DRENAJE DE ABSCESO SUPERFICIAL, HIDROSADENITIS, QUISTE SEBACEO INFECTADO, FORUNCULO, PANADIZO, HEMATOMA, ANTRAX, ETC. EXTRAC. DE CUERPO EXTRAÑO SUPERFICIAL DESTRUCCION DE LESION",
       "coseguro": ""
     },
     {
       "code": "41.01.02",
       "description": "CUIDADOS ESPECIALES EN UNIDADES CRITICAS",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: HONORARIOS DE EQUIPODECIRUGÍAPLÁSTICA) 105.90.04TRAQUEOSTOMIA PORCUALQUIER VIA RESECCION PULMONAR PARCIAL O TOTAL, DECO RTICACION PULMONAR POR TORACOTOMIA N",
       "coseguro": ""
     },
     {
       "code": "41.01.03",
       "description": "RECUPERACIÓN DEL CARDIOPATA POST CIRUGIA CARDIOVASCULAR",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: HONORARIOS DE EQUIPODECIRUGÍAPLÁSTICA) 105.90.04TRAQUEOSTOMIA PORCUALQUIER VIA RESECCION PULMONAR PARCIAL O TOTAL, DECO RTICACION PULMONAR POR TORACOTOMIA N",
       "coseguro": ""
     },
     {
       "code": "43.11.03",
       "description": "ASISTENCIA RESPIRATORIA EN TERAPIA INTENSIVA (POR DIA INTERNACION)",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: Insuficiencia respiratoria aguda grave por Covid 19, y además uno de los siguientes: -Reqüétimiento de ARM invasiva. 'eqUetifilieto de vasopresores. Esté.MÓduló' lf factura conjuntamente con UTI (",
       "coseguro": ""
     },
     {
       "code": "43.11.04",
       "description": "ASISTENCIA RESPIRATORIA EN CUIDADOS ESPECIALES (POR DIA INTERNACION)",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: Insuficiencia respiratoria aguda grave por Covid 19, y además uno de los siguientes: -Reqüétimiento de ARM invasiva. 'eqUetifilieto de vasopresores. Esté.MÓduló' lf factura conjuntamente con UTI (",
       "coseguro": ""
     },
     {
@@ -104,8 +96,7 @@ const searchData = {
     {
       "code": "12.90.17",
       "description": "MODULO II",
-      "normativa": "FIJACION HASTA CINCO NIVELES INCLUSIVE VALOR HONORARIOS GASTOS SANATORIALES: 01.03.02 AL 100% FIJACION DE SEIS A DIEZ NIVELES INCLUSIVE (REGION CERVICAL, DORSAL, LUMBAR). PATOLOGIA DEGENERATIVA. TUMORES. FRACTURAS. CIRUGÍA POSTERIOS SOLDA . GASTOS SANATORIALES: 01.03.02 AL 100% + 12.11.01 AL 50% DEFORMIDADES. ESCOLIOSOS. CIFOSIS. FIJACIONES 11 O MAS NIVELES, COMBINADAS ANTERIORES Y POSTERIORES. GASTOS SANATORIALES: 01.03.02 AL 100% + 12.11.02 AL 50%",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Prescripción de medicamento Misoprostol con o sin internación concurrente, si correspondiese. La solicitud de este módulo se realizará en el SIOS bajo la modalidad de autorización y consumo simultáneo. El médico tratante deberá informar datos de la persona gestante que accederá a la interrupción del embarazo (nombre-DNI-teléfono/mail de contacto) en mail institucional de IAPOS: ive.ile.iapos@santafe.gov.ar a los fines de tomar contacto con afilada/o y evaluar calidad del proceso asistencial. Toda la documentación avalatoria de las prestaciones realizadas deben adjuntadas en SIOS para su auditoria posterior (",
       "coseguro": ""
     },
     {
@@ -118,7 +109,7 @@ const searchData = {
     {
       "code": "44.01.24",
       "description": "TRASLADOS BAJA COMPLEJIDAD",
-      "normativa": "INCLUYE: Prescripción de medicamento Misoprostol con o sin internación concurrente, si correspondiese. La solicitud de este módulo se realizará en el SIOS bajo la modalidad de autorización y consumo simultáneo. El médico tratante deberá informar datos de la persona gestante que accederá a la interrupción del embarazo (nombre-DNI-teléfono/mail de contacto) en mail institucional de IAPOS: ive.ile.iapos@santafe.gov.ar a los fines de tomar contacto con afilada/o y evaluar calidad del proceso asistencial. Toda la documentación avalatoria de las prestaciones realizadas deben adjuntadas en SIOS para su auditoria posterior (",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
@@ -139,50 +130,43 @@ const searchData = {
     {
       "code": "01.03.10",
       "description": "VERTEBROPLASTIA PERCUTÁNEA ACRÍLICA",
-      "normativa": "Incluye: Uso de aparato. Honorarios Médicos. Gastos Sanatoriales. | Excluye: Anestesia. Tac diagnóstica, Tac de control, pensión en habitación compartida. Complicaciones. Set de vertebroplastia a cargo de IAPOS | Observaciones: En caso de dos (2) Vértebras, se factura el 100% de la primer vértebra + el 50% de la segunda vértebra. VIDEOCOLONOFIBROSCOPÍA (VCC)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Uso de aparato. Honorarios Médicos. Derechos, Punción de vértebra bajo control tomográfico (abordaje bilateral) Flebografía intra ósea. Biopsia de vértebra. Anatomía , patológica, Uso de radioscopia con arco en C durante el procedimiento, Practicas de Rx y Medicamentos, Material Descartable: Agujas de Punción ósea de 10 Gauge\nEXCLUYE: Anestesia. Tac diagnóstica, Tac de control, pensión en ha bitación compartida. Complicaciones. Observaciones : En caso de dos (2) Vértebras, se factura el 100% de la primer vértebra + el 50% de la segunda vértebra --\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estUmago, colon y recto - Ectasia vascular antral gástrica --Hroctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "BQ"
     },
     {
       "code": "01.07.02",
       "description": "PANARTERIOGRAFÍA CEREBRAL POR CATETERISMO",
-      "normativa": "Incluye: Pensión en habitación compartida, Honorarios Médicos, Derechos de Hemodinámia, Prácticas de Rx , Medicamentos, Sustancia de Contraste y Material Descartable específico. | Excluye: Cualquier otro procedimiento adicional. Anestesia, TAC, RMN. | Observaciones: En caso de complicaciones se factura toda la internación por prestación. PAPILOESFINTEROTOMÍA ENDOSCÓPICA CON EXTRACCIÓN DE CÁLCULO",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión, Videoesofagogastroduodenofibropia diagnóstica (VEDA). Uso de endoscopio e instrumenta l inhererWaka.: práctica, Honora rios médicos (corresponden a l 40% del total del modulo), Medicamentos y Materiales desca rta bles. Eiyé:‘ • Honorarios a nestesia, Elementos médicos específicos de ac4hr-ao patología seg ún normativas IAPOS.\nEXCLUYE: Honora rios anestesia, Eleryklgt94médicos específicos de acuerdo a patología según normativa 1 IAPOS.",
       "coseguro": "BQ"
     },
     {
       "code": "01.50.01",
       "description": "ANGIOGRAFÍA CON SUSTRACCIÓN DIGITAL",
-      "normativa": "Incluye: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de HRS. Medicamentos y Material Descartable inherente a la práctica. | Excluye: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la practica. Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de HRS. Medicamentos y Material Descartable inherente a la práctica.\nEXCLUYE: , Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la practica. Anestesia.\nREQUISITOS: Tumor suprarrenal.",
       "coseguro": "BQ"
     },
     {
       "code": "01.50.03",
       "description": "ARTERIOGRAFÍA DE VASOS DE CUELLO",
-      "normativa": "Incluye: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. | Excluye: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia. ARTERIOGRAFÍA PERIFÉRICA DE MIEMBRO INFERIOR BILATERAL DESDE NACIMIENTO DE ARTERIAS ILÍACAS PRIMITIVAS",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en ha bitación compartida, Honorarios médicos, Medicamentos, Derechos de hemodinámia, Prácticas de RX Sustancia de Contraste y Material Descarta ble inherente al procedimiento.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la rea lización de la práctica. Anestesia.",
       "coseguro": "BQ"
     },
     {
       "code": "01.90.01",
       "description": "ASPIRADOR ULTRASÓNICO",
-      "normativa": "INCLUYE: Honorarios — Derechos - Uso de aparatología, 1/3 de la sonda/catéter y elementos específicos Honorarios, Gastos y materiales específicos. URETROCIFDFIBROSCOPIA Incluye; Honorarios y Gastos . URETI~ETEROFIBROSCOPIA CONVIDEO Honorarios y Gastos. Uso de video. URETRA RÉNIDSCOPIAINFERIOR Honorarios. URETRÓRENOSCOMAMEDIA[ Honorarios. tJRETRORENOSCOPIASUPERIOR URORESONANCIAI Honorarios y Gastos . -c E o c o nr o ci. o, r: o viDE00050NOFIBROSCOPiA (VCC) N N Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico ), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos.\nEXCLUYE: Anestesia. Tac diagnóstica, Tac de control, pensión en ha bitación compartida. Complicaciones. Observaciones : En caso de dos (2) Vértebras, se factura el 100% de la primer vértebra + el 50% de la segunda vértebra -- I N Endoscopía - Anestesia - Medicamentos - Sala de recuperación. URETEROLITORICIA ENDOSCÓPICA[ PENSION: HASTA 3 (TRES) DIAS. ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan VIDEOLAPAROSCOPIA GINECOLOGICA TERAPEUTICA COMPLEJA congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRRE\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estUmago, colon y recto - Ectasia vascular antral gástrica --Hroctitis actínica Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos. Tumor de ovario. Miomatosis uterina. Histerectomia o Anexo Histerectomia",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nREQUISITOS: FIBRILACION AURICULAR CRONICANOVALVULAR CON ALTO RIESGO TROMBOEMBÓLICO +CONTRAINDICACIÓN ABSOLUTA DE ANTICOAGULACIÓN (determinada por especialista en hematología). REQUISITOS: RESUMEN DEHISTORIA CLÍNICA ORIENTADA A LA",
       "coseguro": "BQ"
     },
     {
       "code": "01.90.02",
       "description": "NEUROCIRUGÍA POR RADIOFRECUENCIA",
-      "normativa": "Incluye: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: LOS MATERIALES NECESARIOS (SET NEFROSTOMIA) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TAC O ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS .Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. NEUROCIRUGÍA POR RADIOFRECUENCIA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: uso de quirófano, video y todo el instrumental específico inherente al procedimiento)\nEXCLUYE: Pensión - Anestesia - Medicamentos y descartables - Material de Contraste - Catéter Doble.)",
       "coseguro": "BQ"
     },
     {
       "code": "03.02.03",
       "description": "MIRINGOTOMIA CON O SIN COLOCACION DE TUBO DRENAJE",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos, descartables. | Excluye: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Material Radiactivo según valor CEDIM.\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Indicaciones: Estudio de Citópenias aisladas o'combinadas - Estúdio de eritrocitosis:leucocitosis o trorhbocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y •I Seguimiento de Sindromes Mielodisplassicos - Estudió y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "20"
     },
     {
@@ -195,85 +179,74 @@ const searchData = {
     {
       "code": "03.13.01",
       "description": "AMIGDALECTOMÍA O ADENOIDECTOMÍA",
-      "normativa": "Incluye: Pensión hasta 2 días. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos y descartables.\nEXCLUYE: CCVValvuloplastia - Prótesis - Ortesis - C• ocación de marcap, • • • initivos Balón de Contrapulsación - Catéter adicionales - emoterapia - TA - Eco d• • pler Infusión de drogas - Estudio Electrofisiológico y • alquier otra compl., ion que -urgiere del .rocedimiento. Stent Anestesia /id\nREQUISITOS: Tumor suprarrenal .",
       "coseguro": "BQ"
     },
     {
       "code": "03.50.01",
       "description": "EXUDADO FARÍNGEO METODO RÁPIDO",
-      "normativa": "Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. EXUDADO FARÍNGEO METODO RÁPIDO",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
       "coseguro": "6"
     },
     {
       "code": "03.50.02",
       "description": "ESTUDIO APNEA OBSTRUCTIVA RINOLARÍNGEA",
-      "normativa": "INCLUYE: Pensión, Videoesofagogastroduodenofibropia diagnóstica (VEDA). Uso de endoscopio e instrumenta l inhererWaka.: práctica, Honora rios médicos (corresponden a l 40% del total del modulo), Medicamentos y Materiales desca rta bles. Eiyé:‘ • Honorarios a nestesia, Elementos médicos específicos de ac4hr-ao patología seg ún normativas IAPOS. Indicación: SAHO (Síndrome de Apneas Obstructivas dei s Sueño).Sólo por Neumonólogo con especialización en Medicina del Sueño. Honorarios y Gastos : Pensión, Videocolonofibroscopia diagnóstica (VCC). Uso de endoscopio e instrumenta l inherente a la práctica, Honorarios médicos (corresponde n a l 40% del tota l del modulo), Medicamen tos y Materiales descartables. Honorarios, Derechos y Materiales Desca rta bles. Incluido el correspondiente Kit. y filtros, Tipificación. Serologia y reposición de liquidos. El va lor establecido es por cada ciclo y se podrá solicitar hasta 10 ciclos, los cua les va rían según la patología del paciente. Honora rios y Gastos. Pensión, Uso de endoscop io e instrumenta ; iril.-Ierente a la l práctica, Honorarios médicos (corresponde a l 405; dei , ota ! dell modulo), Medicamentos, canastilla y Materiales desearta bles. 1 : Instrumenta l inherente a la práctica, Honorarios médicos (corresponden a l 40% del valor tota l del modulo), Medicamen tos y Materiales desca rtables.\nEXCLUYE: Honora rios anestesia, Eleryklgt94médicos específicos de acuerdo a patología según normativa 1 IAPOS. Albunima Humana. Sangre. Plasma o Derivados. Honorarios anestesia Elementos médicos leSpeCitiCOSdel acuerdo a patología seg ún normativas IAPOS. 1 Sugerencia: De acuerdo a necesidad en estudio cit-:, ,sanci-.,,ic yio! coagulopatias LOS MATERIALES NECESARIOS (SET NEFROSTOMIA) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A. P.O.S., SEG ÚN NORMATIVA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Parciliza es estudio del SANOS. Lo realiza el ORL habilitado. Indicaciones: Somnolencia diurna y falta de atención y concentración en los siguientes casos: hipertensos de más de 60 años, sobrepeso a cualquier edad, diabético, fumadores, stress crónico, hipertrofia amigdalina, obstrucción nasal, cuello corto y macroglosia.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. 28.50.01ESPIROMETRÍACOMPUTADA\nREQUISITOS: Somnolencia diurna y falta de atención y concentración en los siguientes casos: hipertensos de más de 60 años, sobrepeso a cualquier edad, diabético, fumadores, stress crónico, hipertrofia amigdalina, obstrucción nasal, cuello corto y macroglosia.",
       "coseguro": "20"
     },
     {
       "code": "03.90.04",
       "description": "ADENOIDECTOMÍA + AMIGDALECTOMÍA",
-      "normativa": "660005 Acido Base /660015 Albúmina /660022 Amilanasa /660035 antibiograma /660105 Bacteriológico/660110 Blirrubina /660133 Calcio /660134 Calcio Ionico /660154 Cetonemia 660171 Coagulograma/660174 Colesterol/660176 Rto de Colonias/660187 Coprocultivo/660190 CPK/660192 Creatinina/660297 VSG/660349 Examen Fis. Qcos de Exud./660362 Fosforo/660412/Glucemia/660466 Hematocrito/660475 Hemograma/660468/Hemocultivo/66048 1 Hepatograma/660546 Ionograma/660592 Acido Láctico/660594 LDH/660653 Magnesio/660711/Orina Completa/660746 Rto de Plaquetas/660761 PCR/660763 Proteínas Totales/660876 Triglicéridos/660902 Uremia/660904/Acido úrico/661035 HDL-col/661040 LDL-col ADENOIDECTOMÍA + AMIGDALECTOMÍA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos y descartables.\nEXCLUYE: Prácticas y/o estudios complementarios a partir del tercer día de internación. Cirugía de revascularización por el fracaso de la angioplastia. Otras practicas tales como eco-doppler, estudios electrofisiológicos, etc. Infusión de drogas trombolíticos. Stent. Anestesia. ANGIOF = rIANCTÁ'-",
       "coseguro": "BQ"
     },
     {
       "code": "03.90.05",
       "description": "ADENOIDECTOMÍA + MIRINGOTOMÍA",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos, descartables. | Excluye: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión hasta 2 días. Gastosderechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturíbipolar, a rmónico), Honorarios médicos (corresponden a l 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada esta rán a cargo del prestador, hasta dentro de los 15 d ías, de acuerdo a l concepto de 'PATOLOGÍARESUELTA'. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que¡ estarán a ca rgo del equipo que intervino a l paciente.\nEXCLUYE: ANATOMIAi PATOLOGICA DE LA/S PIEZA/S Q UIRURGICA/S (las Diferidas, no as i lasl intraoperatorias, que incluyan congelación) MATERIAL DESCA RTABLE: UN ( 1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LASÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOSANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Tumor suprarrenal.",
       "coseguro": "BQ"
     },
     {
       "code": "03.90.06",
       "description": "MIRINGOPLASTIA TIPO I",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos, descartables. | Excluye: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye: Honorar ios y Gastos. 03.90.06SINUSOTOM ÍA + SEPTUMPLASTIA POR VIDEO Incluye: Honorar ios y Ga stos. Uso de v ideo. !N , .1 -7 _ bIN IJbU I UMIACO NFIBRA OPTICA Y VIDEOSCOPIA Incluye: Honorarios y Gastos. Uso de v ideo. TAC CEREBRAL Incluye: Honora rios y Gastos. Incluye: Honorarios y Gastos. Incluye: Honora rios y Gastos. Incluye: Honorar ios y Gastos. Incluye: Honorar ios y Gastos. Incluye: Honorar ios y Gastos. Incluye: Honora rios y Gastos. incluye: Honorar ios y Gastos. Incluye: Honorarios y Gastos. Incluye: Honora rios y Gastos. I HL t-ItH/A I ()BILIAR, ESPLENI ÁTICA, RENAL, SUPRA1,Incluye: Honorar ios y Gastos. ,TAC OFTALMOLOGICA Incluye: Honorarios y Gastos . Incluye: Honorarios y Gas tos . Incluye: Honorar ios y Gastos .",
       "coseguro": "19"
     },
     {
       "code": "03.90.07",
       "description": "MIRINGOPLASTIA TIPO II",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos, descartables. | Excluye: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 1- lorarlos y Gastos. Incluye: Honorarios y Gastos. 1Incluye: Honorarios y Gastos. Incluye: honorarios, derechos quirúrgicos, medicamentos, descartables. Exc luye: Anestesia, elementos protésicos (diabolo a cargo de lAPOS) y sala de recuperación. .. Incluye: honorarios, derechos quirúrgicos, medicamentos, descartable s. Exc luye: ión. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperac\nEXCLUYE: a patología según normativas IAPOS.",
       "coseguro": "BQ"
     },
     {
       "code": "03.90.08",
       "description": "TIMPANOPLASTIA",
-      "normativa": "Incluye: Pensión en habitación compartida. Evaluación pre, intra y post-procedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. | Excluye: Anestesia. Droga (ampollas de adenosina).",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos .\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓNDE TRATAMIENTOINVASIVO CONRIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2SCORESVALIDADOS (Adjuntar PRINTCOMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) OMAL CANDIDATO QUIRÚRGICOPOR OTRASVARIABLESNO CONTEMPLADAS EN LOSSCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DEVIDA > 1 AÑO. DEBE DETERMINARSECALIDAD DE VIDAACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍACON EL PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra requerir información adicional que considere pertinente. (IMPLANTEVALVU LAR AÓRTICO TRANSCATETER — TAVI) REQUISITOS: RESUMEN HISTORIACLINICAorientado a la prestación con evaluación por HeartTeam (con firma y sello de todos integrantes)",
       "coseguro": "BQ"
     },
     {
       "code": "03.90.09",
       "description": "TIMPANOPLASTIA + MASTOIDES",
-      "normativa": "Incluye: Pensión en habitación compartida. Evaluación pre, intra y post-procedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. | Excluye: Anestesia. Droga (ampollas de adenosina).",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos .\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓNDE TRATAMIENTOINVASIVO CONRIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2SCORESVALIDADOS (Adjuntar PRINTCOMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) OMAL CANDIDATO QUIRÚRGICOPOR OTRASVARIABLESNO CONTEMPLADAS EN LOSSCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DEVIDA > 1 AÑO. DEBE DETERMINARSECALIDAD DE VIDAACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍACON EL PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra requerir información adicional que considere pertinente. (IMPLANTEVALVU LAR AÓRTICO TRANSCATETER — TAVI) REQUISITOS: RESUMEN HISTORIACLINICAorientado a la prestación con evaluación por HeartTeam (con firma y sello de todos integrantes) donde se avale lo solicitado, expresando claramente los motivos de la no resolución por via quirúrgica convencional. SCORES DE RIESGO QUIRÚRGICO: ArgenScore, STS score o Euroscore impresos",
       "coseguro": "BQ"
     },
     {
       "code": "03.90.10",
       "description": "SINUSOTOMÍA + SEPTUMPLASTIA POR VIDEO",
-      "normativa": "INCLUYE: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de HRS. Medicamentos y Material Descartable inherente a la práctica. Pensión en UCC, pensión en habitación compartida, Honorarios del equipo quirúrgico. Medicamentos y Material descartable inherentes al procedimiento. Honorarios y Gastos honorarios, derechos quirúrgicos, medicamentos y descartables. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. honorarios, derechos quirúrgicos, medicamentos y descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. ADENOIDECTOMÍA + MIRINGOTOMÍA\nEXCLUYE: , Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la practica. Anestesia. Stent. Anestesia. Filtro de protección cerebral Anestesia y sala de recuperación. PENSION: HASTA 2 (DOS) DIAS. ANATOMIA PATOLOGICA DELA/S PIEZAS QUIRURGICA/S (las Diferidas, no asílas intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: UN ( 1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARESA VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación. INCLUSIONESY CÓDIGO PRÁCTICA DESCRIPCION ADENOIDECTOMÍA + AMIGDALECTOMÍA Anestesia y sala de recuperación. Anestesia, elementos protésicos (diabolo a cargo de IAPOS)\nREQUISITOS: Tumor suprarrenal.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "06.50.01",
       "description": "ARPONAJE MAMARIO (MARCACIÓN PREQUIRURGICA)",
-      "normativa": "Incluye: Pensión hasta 1 día. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: DOS (2) SOBRES DE SUTURAS IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA BASE APENDICULAR Y SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión hasta 1día. Gastos-derechos quirúrgicos, Uso de inherente a la práctica (bisturí bipolar, laparoscopio e instrumental 40% del valor total del armónico), Honorarios médicos (corresponden al modulo), Medicamentos Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15días, de acuerdo al concepto de 'PATOLOGÍARESUELTA'. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la practica. Anestesia.",
       "coseguro": "BQ"
     },
     {
       "code": "06.50.02",
       "description": "PUNCIÓN ESTEREOTÁXICA DE MAMA",
-      "normativa": "Incluye: Honorarios y Gastos. Aguja de Punción. | Excluye: Pensión en habitación compartida. Medicamentos Oncológicos a cargo de Iapos. PUNCIÓN LUMBAR DIAGNÓSTICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Uso de video. Incluye: Honorarios y Gastos. Incluye : Honorarios y Gastos. Incluye: Honorarios y Gastos. Incjme: Honorariosy Gastos.\nEXCLUYE: ESt11010",
       "coseguro": "BQ"
     },
     {
@@ -286,183 +259,161 @@ const searchData = {
     {
       "code": "06.50.04",
       "description": "SENOGRAFÍA AMPLIADA Y FOCALIZADA BILATERAL",
-      "normativa": "Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: CEREBRAL) _ GASTROTOMIA POR RADIOSCOPIA / FIBROSCOPIA COLECISTECTOMIA CON O SIN COLEDOCOTOM ÍA TRANSLAPAROSCÓPICA",
       "coseguro": "20"
     },
     {
       "code": "06.50.05",
       "description": "PUNCIÓN MAMOGRÁFICA CON SISTEMA ATEC / SUROS",
-      "normativa": "Incluye: Honorarios y derechos. Aguja ATEC | Excluye: Anatomía patológica. Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios Médicos, Derechos, Uso de bomba infusora.\nEXCLUYE: Pensión en habitación compartida . Medicamentos Oncológicos a (cargo de lapos).",
       "coseguro": "BQ"
     },
     {
       "code": "07.01.13",
       "description": "BIOPSIA ENDOMIOCARDICA (BEM) POR CATETERISMO CARDIACO",
-      "normativa": "Incluye: Honorarios médicos de todo el equipo interviniente, Hemodinamia, Gastos, Anatomía Patológica, Medicamentos y Descratables inherentes al procedimiento. | Excluye: Pensión (por cartera prestacional), Anestesia (generalmente local) y Biótomo (provisto por IAPOS). Complicaciones del procedimiento (facturación por cartera prestacional).",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos Incluye: Honorarios médicos de todo el equipo interviniente, Hemodinamia, Gastos, Anatom ía Patológica, Medicamentos y BIOPSIA ENDOMIOCARDICA (BEM) POR CATETERISMO Descratables inherentes al procedimiento.\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional",
       "coseguro": "BQ"
     },
     {
       "code": "07.02.01",
       "description": "CIRUGÍA CARDIOVASCULAR",
-      "normativa": "Incluye: 6 DIAS DE PENSION (1 PRE-OPERATORI0 Y 5 POST- OPERATORIOS). . EN CASO DE COMPLICACION, LA PENSION SE FACTURARA POR FUERA DE MODULO. Honorarios Cirujanos (estos corresponden al 40% del valor del Módulo), ayudantes, perfusionista, cardiólogos, infectólogos, kinesiólogos Derechos Quirúrgicos e instrumen- tista. Prácticas, medicamentos y material descartable inherentes a la Cgía.Cardiovascular. | Excluye: HONORARIOS RECUPERACION CARDIOVASCULAR (AGO/23 $ 20.079, SET/23 $ 20.882, OCT/23 $ 21.717, NOV/23 $ 22.369 y DIC/23 $ 23.040) Y HEMOTERAPIA (SE RECONOCERAN HASTA 8 TRANSFUSIONES DE ACUERDO A CRITERIO TRANSFUSIONAL DE SAH Y SUJETO A AUDITORIA). Simdax (levosimendan) Prótesis vasculares, válvulas. Parches intracavitarios y todo tipo de material implantable, marcapasos definitivos. Medicamentos y Materiales Descartables que no tengan relación con la prestación, trombolíticos y protomplex, ECMO y Oxido Nítrico. Tomografía Axial Computada, Resonancia Magnética Nuclear, Eco-Doppler Transesofágico. Estudios de Hemodinámia, Recupero de sangre intra y post operatorio. Balón de contrapulsación. Bomba centrífuga (mat.descartable), en caso de que el paciente padezca endocarditis bacteriana, HIV. Anestesia. Se excluyen Específicamente: transplante, cardiomioplastías, cirugías de arritmias y toda complicación cardiológica. Prestaciones no comprendidas en el módulo. Toda cirugía o práctica no incluída en el módulo será facturada a los valores fijados por contrato con la respectiva Obra Social. Las prácticas no nomencladas serán facturadas según los aranceles vigentes al momento de la intervención (por ejemplo virus). Las Hemodiálisis y diálisis contínuas (DPCA): se facturará al valor que fije el contrato. | Observaciones: Si el paciente fallece dentro de las 24 hs. de operado se abona el 60% del valor del módulo. En caso de re-operaciones se incrementa un 20% al valor del módulo.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en UCV - RCV y habitación compartida. Honorarios Cirujanos, ayudantes, perfusionista, cardiólogos, infectólogos, kinesiólogos. Derechos Quirúrgicos e instrumen- tista. Prácticas, medicamentos y material descartable inherentes a la Cgía.Cardiovascular. Hasta 8 (ocho) transfusiones de sangre y hemoderivados. Biología Molecular. Lccluye: Simdax (levosimendan) Prótesis vasculares, válvulas. Parches intracavitarios y todo tipo de material implantable, marcapasos definitivos. Medicamentos y Materiales Descarcables que no tengan relación con la prestación, trombolíticos y protomplex, ECMO y Oxido Nítrico. Tomografía Axial Computada, Resonancia Magnética Nuclear, EcoDoppler Transesofágico. Estudios de Hemodinámia, Recupero de sangre intra y post operatorio. Balón de contrapulsación. Bomba centrífuga (mat.desca rtable), en caso de que el paciente padezca endocarditis bacteriana, HIV. Anestesia. Se\nEXCLUYE: Todas las complicaciones de la parturienta y todas las patologías del bebé. Anestesia, NEO, TAC, RMN, Screening Neonatal, Sangre, Plasma. Observaciones: En caso de complicaciones se factura toda la internación por prestación.",
       "coseguro": "BPE"
     },
     {
       "code": "07.07.03",
       "description": "CORONARIOGRAFÍA SELECTIVA",
-      "normativa": "Incluye: Honorarios Médicos, Derechos de Hemodinámia, Prácticas de Rx ,Medicamentos, Sustancia de Contraste (100ML) y Material Descartable inherente a la práctica. | Excluye: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la cinecoronariografia. Anestesia. | Observaciones: Cuando se realice Cinecoronariografía y Angioplastia en el mismo acto se abonará: 60% de la Cinecoronariografia y 100% de la Angioplastia Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente. CURVA DE CAPTACIÓN TIROIDEA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios, Gastos y Asa de Leep.\nEXCLUYE: Pensión en habitación compartida.\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo trata miento de osteoporosis se reconoce una DMO por a ño para seguimiento, aunque lo indicado sería repetirla no a ntes de los 2 a ños. No se reconoce a ntes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca mag nitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de 3 años. S i la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior. Se recomienda realizar DMO (S/la US Preventive Services TaskForce(USPSTF) en: Mujeres mayores de 65 a ños en forma rutinaria. Mujeres, a pa rtir de los 60 años, con riesgo incrementado para fracturas osteoporóticas. Se recomienda realizar DMO (S/la National Osteoporosis Foundation ( NOF) mujer < 65 años que tiene uno o más factores de riesgo4ára fractu ra. Todas las mujeres mayores de 65 años.",
       "coseguro": "BQ"
     },
     {
       "code": "07.08.01",
       "description": "ANGIOPLASTIA CORONARIA",
-      "normativa": "Incluye: Pensión en UCC, pensión en habitación compartida, Honorarios del equipo quirúrgico. Medicamentos y Material descartable inherentes al procedimiento. | Excluye: Stent. Anestesia. Filtro de protección cerebral",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en UCC, pensión en habitación compartida, Honorarios del equipo ANGIOPLASTIA CARO-1IDEA quirúrgico. Medicamentos y Material descartable inherentes al procedimiento.\nEXCLUYE: Stent. Anestesia. Filtro de protección cerebral '\nREQUISITOS: Tumor suprarrenal .",
       "coseguro": "BPE"
     },
     {
       "code": "07.08.06",
       "description": "ANGIOPLASTIA ARTERIAL PERIFERICA (NO CORONARIA-CAROTIDEA)",
-      "normativa": "Incluye: Pensión en UCC o Pensión en habitación compartida, Honorarios Médicos. Derechos de hemodinámia. Medicamentos y Material Descartable inherentes al procedimiento. | Excluye: Prácticas y/o estudios complementarios a partir del tercer día de internación. Cirugía de revascularización por el fracaso de la angioplastia. Otras practicas tales como eco-doppler, estudios electrofisiológicos, etc. Infusión de drogas trombolíticos. Stent. Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: el usa de m6todos/tecnologias adlclonales de evaluacl6n dlagn6stlca hemodlnamlca ana`6mlco-funclonal (IVUS-REF-otros) y/a\nEXCLUYE: Practlcas y/o estudlos complementa rlos a partlr del tercer dla de internaci6n. Clrugia de revascularlzacl6n par el fracaso de la angloplastla. Otras practlcas tales como eco-doppler, estudlos electroflslol6glcos, etc. Infusl6n de drogas tronlbolltlcos. Stent. Anestesla.",
       "coseguro": "BQ"
     },
     {
       "code": "07.50.01",
       "description": "ARTERIOGRAFÍA PERIFÉRICA DE MIEMBRO INFERIOR BILATERAL DESDE NACIMIENTO",
-      "normativa": "Incluye: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. | Excluye: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia. ARTERIOGRAFÍA PERIFÉRICA DE MIEMBRO INFERIOR BILATERAL DESDE NACIMIENTO DE ARTERIAS ILÍACAS PRIMITIVAS",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en habitación compartida, Honorarios médicos, Derechos e ARTERIOGRAFÍA PERIFÉRICA DE MIEMBRO INFERIOR hemodinámia, Prácticas de RX ,Medicamentos, Sustancia deContraste y Material\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modJlo contempla solo lo inherente a la realización de la práctica. Anestesia.",
       "coseguro": "BQ"
     },
     {
       "code": "07.90.01",
       "description": "ANGIOPLASTIA CAROTÍDEA",
-      "normativa": "Incluye: Pensión en UCC, pensión en habitación compartida, Honorarios del equipo quirúrgico. Medicamentos y Material descartable inherentes al procedimiento. | Excluye: Stent. Anestesia. Filtro de protección cerebral",
-      "price_hidden": "",
+      "normativa": "PROTOCOLOS DE AUTORIZACIÓN Y AUDITORÍA PROCEDIMIENTOS CARDIOVASCULARES - NORMATIVAS DE USO - REQUISITOS DE SOLICITUD DE ELEMENTOS MÉDICOS Índice - - Tratamiento de la estenosis carotídea Tratamiento de estenosis en el sistema vertebrobasilar Tratamiento del aneurisma de aorta abdominal Tratamiento endovascular de la patología coronaria o Uso de stents convencionales o Uso de stents liberadores de drogas Tratamiento de estenosis vascular en otros territorios Utilización de marcapasos permanentes Utilización de cardiodesfibriladores implantables Cierre de CIA y Ductus AV Reemplazo valvular cardíaco El presente documento pretende ser una guía para la Auditoría Médica IAPOS en la consideración de casos clínicos particulares, más una normativa de ordenamiento de los datos indispensables para su correcta evaluación, en particular sobre casos particulares de elementos médicos comunes ligados a las prácticas solicitadas. NORMATIVA SOBRE TRATAMIENTO DE LA ESTENOSIS CAROTÍDEA Requisitos de solicitud: historia clínica completa consignando edad del paciente, descripción precisa del cuadro neurológico actual y/ó precedentes, otros antecedentes patológicos de relevancia (DBT, TBQ, aterosclerosis) angiografía de vasos de cuello (puede completarse con EcoDoppler) • Tratamiento validado: Endarterectomía carotídea De elección especialmente en: – pacientes sintomáticos – pacientes > 65 años – placa con signos de ulceración Angioplastia carotídea • INDICACIONES: Sólo en pacientes con “cuello complejo” (criterios confirmados por historia clínica y estudios) – lesión extendida más allá de C2 – endarterectomía previa o cirugía de cuello – cuello irradiado – pacientes traqueostomizados – infarto cardíaco reciente – angioplastia o cirugía cardíaca reciente SAPPHYRE • Sistema de protección cerebral – De uso mandatorio en el procedimiento – Será provisto por IAPOS. Ninguno de los modelos asegura una tasa de éxito absoluto ni diferencia sobre el resto. La adjudicación del mismo se hará por el mecanismo usual de licitación y precios existente en la obra social – Modelos: FilterWire – AngioGuard – PercoSurge - Spider X • Stents – Autoexpandible ó balón expandible – Ninguno ha demostrado diferencia significativa sobre el resto. La adjudicación del mismo se hará por el mecanismo usual de licitación y precios existente en la obra social • Celda cerrada (Wallstent) ó Celda abierta (Acculink, Precise, Protege) TRATAMIENTO DE LAS ESTENOSIS DEL SISTEMA VERTEBROBASILAR • En las lesiones intracraneales la evidencia hasta el momento no define mejores resultados vs la terapia médica (antiagregante, anticoagulantes • En lesiones de ostium de la vertebral se indica PTCA con stent sin filtro (cuando hay clínica comprobada de déficit de perfusión regional y/ o alteración asimétrica de la irrigación por angiografía). TRATAMIENTO DEL ANEURISMA DE AORTA ABDOMINAL Casos que requieren tratamiento: • aneurisma con diámetro > 55 mm (definido por medición de TAC abdominal con contraste o método de similar E/S) Tratamiento validado: Cirugía de reparación del aneurisma a cielo abierto Condiciones para considerar uso de endoprótesis: • • aneurismas infrarrenales cuello infrarrenal > 10 mm (visible en imágenes definidas: TAC, RMN, angioTAC, TAC multislice) que permita anclaje de endoprótesis • riesgo quirúrgico aumentado que contraindique posibilidad de abordaje quirúrgico a cielo abierto (al menos 1 de los criterios siguientes) • • – valoración cardiovascular con informe de cardiólogo clínico responsable: • descripción de antecedentes clínicos • presencia de ICC • carga isquémica global evaluada con SPECT o perfusión miocárdica planar – valoración neumonológica con informe de neumonólogo • espirometría con signos de alto riesgo – abdomen hostil (se considerará un criterio adicional) • definición por cirujano general, con descripción detallada de antecedentes quirúrgicos ausencia de neoplasia terminal (pronóstico de sobrevida < 2 año) en presencia de",
       "coseguro": "BQ"
     },
     {
       "code": "07.90.02",
       "description": "COLOCACIÓN DE ENDOPRÓTESIS DE AORTA",
-      "normativa": "Incluye: Honorarios y Gastos Operatorios. 24 hs. UTI y/o UCO, medicamentos y descartables inherentes al procedimiento. | Excluye: Anestesia, resto de días de Pensión, cualquier prestación ajena la procedimiento. Endoprótesis (a cargo de Iapos) COLOCACIÓN DE ENDOPROTESIS EN LA VIA BILIAR POR VIA ENDOSCOPICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos Operatorios. 24hs. UTI y/o UCO, medicamentos y descartables inherentes al procedimiento.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la cinecoronariografia. Anestesia. Observación: Cuando se realice Cinecoronariografía y Angioplastia en el mismo acto se abonará: 60% de la Cinecoronariografia y 100%de la Angioplastia\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por año para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición",
       "coseguro": "BQ"
     },
     {
       "code": "07.90.03",
       "description": "EMBOLIZACIÓN SELECTIVA ARTERIAL PERIFERICA (EXCLUYE CEREBRAL)",
-      "normativa": "EMBOLIZACIÓN SELECTIVA ARTERIAL PERIFERICA (EXCLUYE CEREBRAL)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación EMBOLIZACIÓNSELECTIVA ARTERIALPERIFERICA (EXCLUYEC compartida (Por Cartera perstacional) INDICACIONES: DECANULACIÓNDETRAQUEOSTOMIA, BAL para citología o cultivo, SOSPECHADEPATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIASRECURRENTES, GRAN QUEMADOCONRIESGODE COMPROMISO ENDOSCOPIARESPIRATORIADIGANOSTICA (PEDIATRICA-ADUL DEVIAAÉREA) .\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMIA, BAL para citología o cultivo, SOSPECHADEPATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIASRECURRENTES, GRAN QUEMADOCONRIESGODE COMPROMISO ENDOSCOPIARESPIRATORIADIGANOSTICA (PEDIATRICA-ADUL DEVIAAÉREA) . REQUISITOS: RESUMENDEHISTORIACLINICA ORIENTADOA LA PRESTACIÓN. RADIOGRAFÍA DETÓRAXFRENTE (INFORMEE IMAGEN) UOTRO ESTUDIO POR IMAGEN QUEPRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DEESTENOSISTRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTODELESIONES OMALFORMACIONES DELA VÍAAÉREA (presentar estudios que lo documenten). ENDOSCOPIARESPIRATORIATERAPEUTICA (PEDIATRICA-ADIU REQUISITOS: RESUMENDEHISTORIACLÍNICAORIENTADOA LAPRESTACIÓN. ENDOSCOPÍADIAGNOSTICA (SIFUE REALIZADA). TACDETÓRAXUOTRO ESTUDIOQUEDOCUMENTELAPATOLOGÍA. Cor",
       "coseguro": "BQ"
     },
     {
       "code": "07.90.04",
       "description": "VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS (IMPLANTE VALVULAR AÓRTICO",
-      "normativa": "INDICACIONES: ESTENOSIS AÓRTICA SEVERA CON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DEL PACIENTE E IMPACTO EN SU MEJORÍA CON EL PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra requerir información adicional que considere pertinente. REQUISITOS: RESUMEN HISTORIA CLINICA orientado a la prestación con evaluación por Heart Team (con firma y sello de todos integrantes) donde se avale lo solicitado, expresando claramente los motivos de la no resolución por via quirúrgica convencional. SCORES DE RIESGO QUIRÚRGICO: ArgenScore, STS score o Euroscore impresos. Deben ejecutarse on line (pagina web especifica) y se deben imprimir en forma completa. Adjuntar todos los estudios que respalden las variables incorporadas en el calculo de los mismos (informes de laboratorio, estudios de iamgenes, otros) que llevaron a esa estratificación de riesgo quirúrgico. Ecocardiograma Doppler y Cateterismo que documente grado de estenosis aórtica y enfermedad coronaria asociada. Estudio de fragilidad y test neurocognitivo. INCLUYE: Honorarios equipo interviniente, derechos hemodinamia, gastos, medicamentos y descartables inherentes al procedimiento. EXCLUYE: honorarios anestesia, Eco-doppler intra-esofágico, prestaciones derivadas de complicaciones del procedimiento (por cartera prestacional), válvula percutánea (provista por IAPOS).",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Uso de aparato. Honorarios Médicos. Derechos, Punción de vértebra bajo control tomográfico (abordaje bilateral) Flebografía intra ósea. Biopsia de vértebra. Anatomía patológica, Uso de radioscopia con arco en C durante el procedimiento, Practicas de Rx y Medicamentos, Material Descartable: Agujas de Punción ósea de 10 Gauge (descartables), Aguja de tipo Janshide, Polvo de VERTEBROPLASTIAPERCUTÁNEAACRÍLICA tantalio, Bone Cemnet Simplex surgical (de Honmédica) Jeringas descarables, Xilocaina al 2%, Agujas de punción lumbar.\nEXCLUYE: Anestesia. Tac diagnóstica, Tac de control, pensión en habitación compartida. Complicaciones. Observaciones : En caso de dos (2) Vértebras, se factura el 100% de la primer vértebra + el 50% de la segunda vértebra\nREQUISITOS: RESUMEN HISTORIACLINICA orientado a la prestación con TRANSCATETER — TAVI) evaluación por Heart Team (con firma y sello de todos integrantes) donde se avale lo scado a l mes 3°, 6° y 12°. Biopsia endomiocárdica: si sospecha de rechazo agudo en el primer año (c ada 2 semanas en los primeros 3 meses o cada 2 meses hasta cumplir el año) o para control de tratamiento efectivo posterior a rechazo.ementarios de laboratorios, imágenes, anatomía patológica. Interconsultas médicas. Honorarios de cirujanos cardiovasculares. Honorarios de cirujanos plásticos. Férulas ortopédicas- inmolizacion con yesos. Nuevas cirugías relacionadas con la intervención más allá de los 6 meses post operatorias. Nuevas cirugías en la fase aguda-subaguda no relacionadas con la patología de base o con la intervención e n cuestión. Sangre-hemoderivados. Traslados. Embolizacion preoperatorias. Mapeo de espécimen para determinación de porce ntaje de necrosis postQuimioterapia. Cualquier otra prestación no incluida expresamente. Las siguientes dos intervenciones quedaran fuera del sistema de módulos, respetando los convenios",
       "coseguro": "BPE"
     },
     {
       "code": "07.90.43",
       "description": "CIERRE PERCUTANEO DE MALFORMACIONES CARDIACAS CONGENITAS (CIERRE DE",
-      "normativa": "INCLUYE: Pensión en ha bitación compartida, Honorarios médicos, Medicamentos, Derechos de hemodinámia, Prácticas de RX Sustancia de Contraste y Material Descarta ble inherente al procedimiento. Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX Medicamentos, Descartable inherente al Sustancia de Contraste y Material procedimiento. Honorarios y Gastos Honorarios y Gastos. Arpón Pensión hasta 1 día. Gastos-derechos quirúrgicos, Uso de lapa roscopio e instrumental inherente a la práctica (bisturíbipolar, 40%del valor total armónico), Honorarios médicos (corresponden a l del modulo), Medicamentos Las complicaciones devenidas la práctica realizada estarán a ca rgo del prestador, hasta dentro de los 15días, de acuerdo a l concepto de \"PATOLOGÍARESUELTA\". Esto eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesa rios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que interv ino a l paciente.\nEXCLUYE: : Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la rea lización de la práctica. Anestesia. Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia. Anestesia o = o 1 ai = Q = ARPONAJEMAMARIO (MARCACIÓN PREQUIRURGICA) APLICACIÓNDEBOTOX ti) o : ANATOMIAPATOLOGICADELA/S PIEZA/S QUIRURGICA/S (las Diferidas, no as ílas intraoperatorias, que incluya n congelación) MATERIAL DESCARTABLE: DOS (2) SOBRES DE SUTURASIRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA BASEAPENDICULARYSÍNTESISDE LA PIEL EN LOS SITIOSDEINGRESODELOS TRÓCARESA VALORES CONVENIDOS. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS . Observaciones: En cirugías de urgencia la",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BPE"
     },
     {
       "code": "07.90.44",
       "description": "CIERRE PERCUTANEO DE OREJUELA IZQUIERDA",
-      "normativa": "EXCLUYE: Materlal Radlactivo (valor CEDIM lnterlor) a cargo de la cartera prestaclonal BIOPSIA DE VELLOSIDADES C !±E!±!i!!: Honoranos y Gastos BIOPSIA ENDOMI OCARDICA !aife: Horioi.arias m6dlcos de todo el equlpo lnterviniente, Hemodinamia, Gastos, Anatomia Patol6gica, Medicamentos y D8scratables lnherentes al (BEM) POR CATETERISMO CARDIACO procedimtonto. gz!g!!!ifa: Pension (por cartera prestacional). Anestesia (generalmente local) y 816tomo (provisto por lAPOS). Complicactones del procedimiento (facturaci6n par cartera prestacional). !agbe Penst6n en habitaa6n compartida. Honorarios Medicos de todo el Materlal RadTactlvo (valor CEDIM Interior) a cargo de la cartera prestaclonal Se automaafa tlnlcamente en aquellas pacientes ouyo Papanicolau resulle ariomal a dudoso CIERRE PERCUTANEO DEMALFORMAcloNES",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BPE"
     },
     {
       "code": "07.90.45",
       "description": "TRATAMIENTO ENDOVASCULAR DE COARTACIÓN DE AORTA",
-      "normativa": "EXCLUYE: CEREBRAL) _ GASTROTOMIA POR RADIOSCOPIA / FIBROSCOPIA COLECISTECTOMIA CON O SIN COLEDOCOTOM ÍA TRANSLAPAROSCÓPICA VALORES ARANCELARIOS Y PRESTACIO NES DE VALOR FIJO NOV/23 $547.171' $96.690 $232.200 $73.452 $131.330 $543.691 $10.954 $185.388 $59.059 $2.572 $14.800, N. N CO E& EA- CO CD r'..ci N ,st- Lo 0 0 co O c) ci co co co os) r) r) co co co N. co ci co o) co LO Z (15, 00 ,- I EA- EF} 'q• CO co co ,-- N eco ,- 00 co ci ci ai ai ci co co co co Lc) ri ri •zi ni ca w0000 CO N '4\" Eig- d co co co ca, co O N-Tft- a- '.11- O co CO O •St. N. O. 0 <- O ni' co O - n- CO O EF) EA- Lo U9. $285.0921 $19.8711 co e-co co O LO co e-- co e- CO co <- 0 co co . O N- N N CO CO Lr) co o co co co «3 N: N: ocoo oo $285.092 $572.7131 O) La ,-- N 'et CO .-. Ce) () CO .• ni N CO Cf) 'el' co co -",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "08.04.07",
       "description": "GASTROSTOMÍA POR RADIOSCOPÍA / FIBROSCOPÍA",
-      "normativa": "Incluye: Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Elemento a cargo de lapos. Anestesia. Pensión.\nREQUISITOS: Controles de Seguimiento de patologías oncohematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "BQ"
     },
     {
       "code": "08.07.16",
       "description": "COLECISTECTOMÍA CON O SIN COLEDOCOTOMÍA TRANSLAPAROSCÓPICA",
-      "normativa": "Incluye: Pensión hasta 1 dia, Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE SUTURA IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las diferidas, no asílas intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE SUTURA IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LAPIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: FIBRILACION AURICULAR CRONICANOVALVULAR CON ALTO RIESGO TROMBOEMBÓLICO + CONTRAINDICACIÓN ABSOLUTADE ANTICOAGULACIÓN (determinada por especialista en hematología). REQUISITOS: RESUMEN DE HISTORIA CLÍNICA ORIENTADAA LA PRESTACIÓN. ECOCARDIOGRAMA DOPPLER (INFORMEEIMÁGENES). NTERCONSULTACON HEMATOLOGÍA PARAESTRATIFICACIÓNDE RIESGOYCONTRAINDICACIÓNDE ANTICOAGULACIÓN.",
       "coseguro": "BQ"
     },
     {
       "code": "08.07.22",
       "description": "COLANGIOPANCREATOGRAFÍA ENDOSCÓPICA RETRÓGRADA",
-      "normativa": "Incluye: Honorarios y Gastos. CITOMETRÍA DE FLUJO MÉDULA ÓSEA Y SANGRE PERIFÉRICA Incluye: Honorarios y Gastos. Incluye todos los órganos y/o regiones.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: prestaciones para los siguientes cuatrimestres correspondientes a partir del tercer año del post-Trasplante.en: Toda mujer 65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años. Incluye: Honorarios y Gastos. Si es por dos CITOGENETICODEMEDULAOSEA - INMUNOMARCACIONIncluye: Honorarios y Gastos. Criterios de Autorización: A partir de los 21 años de edad y cada 3 años para detección ,i precoz de cáncer de cuello uterino.Si tiene mas de 30 años y también le han hecho pruebas para el virus del papiloma humano (VPH, por sus siglas en inglés) y tanto la VPH son normales, le pueden hacer prueba de Papanicolaou como las pruebas para el causa verrugas genitales y cáncer de 'exámenes cada 5 años (el VPH es el virus que CITOLOGÍA EXFOLIATIVA ONCOLÓGICA - PAP 65 a 70 años, la mayoría de las mujeres pueden cuello uterino). Después de la edadde dejar de hacerse la p\nREQUISITOS: CLÍNICA: PRIMARIO: Según tamaño tumoral y área corporal: Área H>6 mm (párpados, cejas, nariz, labios pera, orejas); Área M> 10mm (mejillas, frente y pretibial); Área L>20mm (tronco y miembros). RECIDIVATUMORAL. HISTOPATOLOGÍA: Subtipos histológicos indiferenciados: CBC: morfeiforme, esclerosante, metatípico, CIRUGIADEMOHS micronodular. CEC: acantolítico, adenoescamoso, pagetoide, queratoacantomatoso. Infiltrante. Invasión perineural o linfovascular. Compromiso de márgenes luego de una Escisión inicial. ANTECEDENTESDELPACIENTE: Inmunodepresión (HIV, trasplantados, oncohematológicos, drogas inmunosupresoras, etc). Síndromes genéticos con tumores de piel múltiples. Radioterapia local previa. Antecedentes personales de tumores agresivos. REQUISITOS: Resumen de histesteroÓDULO4",
       "coseguro": "BQ"
     },
     {
       "code": "08.07.23",
       "description": "PAPILOESFINTEROTOMÍA ENDOSCÓPICA CON EXTRACCIÓN DE CÁLCULO",
-      "normativa": "Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos, canastilla y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. PDF (PRODUCTO DEGRADACION DE FIBRINOGENO) PH METRÍA ESOFÁGICA EN LACTANTES",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión, Uso de endoscopio e instrumental inherente a la p ráctica, Honorarios médicos (corresponde a l 40% del total del modulo), Medicamentos y Materiales descarta bles.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
       "coseguro": "BQ"
     },
     {
       "code": "08.50.01",
       "description": "ELASTOGRAFIA HEPATICA",
-      "normativa": "INCLUYE: Perfus x 1 sublimaze x 1 +SF x 1 + propofol x 1 + midazolam x 1+1 16 90 02 MODULO 2: DROGAS ANESTESICASEN PROCEDIMIENTOS AMB Perfus x 1 + Angiocath 20 x 1 sublimaze x 2+ atropina x 1+ metoclopramida x 1 1 Honorarios y Gastos. Punción aspirado Médula Osea para otros estudios. Ej.Estudio de Sindrome Febril prolongado para medulocultivos.. 4 consultas / 1 Laboratorio basico (Hemograma, Glucemia, Uremia, Ionog rama, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Crea tinina MODULO1 SEGUIMIENTO POST TRASPLANTERENO- urinaria) / 2 Creatnemias /2 Dosajes de FK-506 / 1Dosaje de Peptico C.\nEXCLUYE: Medicamentos (Aminomux, Ciclofosfarnida, 20 50 12 MODULO DE ADMINISTRACION DE DROGAS ESPECIALES Pamidronato). Pensión (facturar sala de recuperación). No facturable en pacientesinternados 21 FEB 214 1 k•,. .. CD M*. , (O CO - est r' „:\",„ LO O 0 LO. .:, ci O) d CV CO CD o in co O O O LO (.15 CO ,---CD -4' O cd CD NCD ,-- N- lo o O) ni Lri C \J ci ó <O CD CD 10 0 O 0) CV C\I v- CD O. 0) ri O CO O o 0) or) O t CD O 0) có <O Aguja de Punción (a cargo de IAPOS) MODULOESTUDIODEMEDULA OSEAII MODULOESTUDIO DE MEDULA OSEA III cg -zr 0 tr) N r-i PANCREASSIMULTANEO - PRIMER MES (Facturar fuera del modulo con documentacion requerida): Eco doppler renal. Eco doppler de eje espelno-renal. Dosajes de PCR cuantitativa para CMV (solo para pacientes de bajo riesgo inmunologico, ya que los de alto riesgo estan con profilaxis con Ganciclovir y no lo requiere. Resto de las prestaciones no incluida en el Modulo. 'ORLO TANTO NOLLEVAN COSEGURO Incluye,: Punción aspirado de Médula Osea (esternal o Cresta Ilíaca Unilateral)",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "08.90.01",
       "description": "COLECTOMIA VIDEO LAPAROSCOPICA",
-      "normativa": "Incluye: Pensión hasta 3 días, Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE SE SUTURA REABSORBIBLE (POLIGLACTINA) PARA CIERRE DEL SITIO DE EXTRACCION LA PIEZA QUIRURGICO Y UN (1) SOBRE DE SUTURA IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS. SUTURAS MECANICAS DE ACUERDO A PROTOCOLOS IAPOS. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye: Honorarios y Gastos. Incluye todos los órganos y/o regiones. incluye: Honorarios y Gastos.\nEXCLUYE: Anestesia y Sala de Recuperación (cuando se utilice)\nREQUISITOS: Patología quirúrgica del colon",
       "coseguro": "BQ"
     },
     {
       "code": "08.90.02",
       "description": "APENDICECTOMIA POR VIDEOLAPAROSCOPIA",
-      "normativa": "Incluye: Pensión hasta 1 día. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: DOS (2) SOBRES DE SUTURAS IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA BASE APENDICULAR Y SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos\nEXCLUYE: PENSION: HASTA 1 (UNO) DIA. ANATOMIA PATOLOGICADELA/SPIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: DOS (2)",
       "coseguro": "BQ"
     },
     {
       "code": "08.90.04",
       "description": "DERMOLIPECTOMÍA POST DESCENSO MASIVO DE PESO",
-      "normativa": "Incluye: Honorarios y Gastos de la detección.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión, Uso de endoscopio e instrumental inherente a la del práctica, Honorarios médicos (corresponden a l 40%del total modulo), Medicamentos y Materiales descarta bles.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: DESCENSO MASIVODEPESO (post bariatrica o no) +COLGAJOSCUTÁNEOSQUEREQUIERANCORRECCIÓN PORPATOLOGÍA FUNCIONAL, EN CUALQ UIERÁREADEL CUERPO (ABDOMEN, BRAZOSOMUSLOS). El plan quirúrgico establecido debe estar debidamente justificado por el profesional tratante, desde el inicio del tratamiento ( requisito para la autorización de cada solicitud). REQUISITOS: RESUMEN DE HISTORIACLÍNICA ORIENTADAA LA PRESTACIÓNCON DESC RIPCIÓNDE COLGAJOSYTRANSTORNO FUNCIONAL QUEJUSTIFIQUELA PRÁCTICA. FOTOGRAFÍAS DELÁREA AFECTADA TOMADASPOR ELPROFESIONAL. Corresponde: Honorarios 70% y Gastos 30%del va lor de la práctica.",
       "coseguro": "BQ"
     },
     {
       "code": "08.90.05",
       "description": "HERNIOPLASTIA POR VIDEOLAPAROSCOPIA",
-      "normativa": "INCLUYE: Recuento de reticulocitos - Recuento de Plaquetas - Citomorfología de Sangre periférica - Ferremia (opcional) - Capacidad de saturación transferrina (opcional) - Porcentaje Saturación tranferrina (opcional) - Toma de muestra. Sugerencia: Uno por mes los primeros tres meses. Luego uno cada dos meses. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. En casos de citopenias críticas (< 50.000 plaquetas - < 1.500 neutrófilos o <7gr. Hemoglobina), se pueden requerir controles mas seguidos. Pensión en habitación compartida, Medicamentos y Material Descartable inherente al procedimiento, Derecho de Hemodinámia, Honorarios Médicos, Realización del cateterismo, sobreestimulación cardíaca, mapeo y desencadenamiento de la arritmia y otros. Test de Sickling - Cuerpos de Heinz - Electroforesis Hemoglobina en acetato - Electroforesis Hemoglobina en Agar - Cuantificación Hemoglobina Fetal - Estudio Resistencia Globular - Esferocitosis Hereditaria - Eliptocitosis etc.- Estudio anemias Hemoliticas Congénitas. Sugerencia: Uno solo al diagnóstico. Seguimiento con módulo de seguimiento de citopénias. ESTUDIO FUNCIÓNVENTRICULARIZQUIERDA Y Honorarios y Gastos. Hemograma - Recuento de Reticulocitos - Recu\nEXCLUYE: CEREBRAL) o 2 F[3 12023 O cn ci a) a) 0 ci u-) o o u-) d o) O cy Ni cm ,- O N cr) o O Lo c,i ni- o d u, ri cm (o o ci in cri cm cm o c.i r--: .— O Colocación de marcapaso definitivo, Estudios Hemodinamicos. Anestesia. Material Radiactivo según valor PERFUSIÓN MIOCÁRDICA CONSPECT (SPECT CEDIM. CARDIACO)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: OSTOMIAS) ESOFAGUECTOMIA EN TRES TIEMPOS POR EL MISMO GRUPO QUIRURGICO 07.90.23CIRUGIA ANEURISMA AORTA TORACICO ABDOMINAL VARICES UNILATERAL: SAFENECTOMIA INTERNA Y/O EXTERNA DE MIEMBRO",
       "coseguro": "BQ"
     },
     {
       "code": "10.01.17",
       "description": "NEFROSTOMÍA PERCUTÁNEA",
-      "normativa": "Incluye: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: LOS MATERIALES NECESARIOS (SET NEFROSTOMIA) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TAC O ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS .Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. NEUROCIRUGÍA POR RADIOFRECUENCIA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos (incluye uso de quirófano, video y todo el instrumental específico inherente al procedimiento)\nEXCLUYE: Pensión - Anestesia - Medicamentos y descartables - Material de Contraste - Catéter Doble.)",
       "coseguro": "BQ"
     },
     {
       "code": "10.01.25",
       "description": "LITOTRICIA EXTRACORPÓREA RENAL",
-      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos y descartables. Honorarios y Gastos Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de HRS. Medicamentos y Material Descartable inherente a la ANGIOGRAFÍACONSUSTRACCIÓN DIGITAL práctica. Pensión en UCC, pensión en habitación compartida, Honorarios del equipo ANGIOPLASTIA CARO-1IDEA quirúrgico. Medicamentos y Material descartable inherentes al procedimiento. - Pensión -en UCC, pensión -en habitación compartida, Honorarios Médicos, hemodinámia, radiología. Medicamentos y Material descartable inherentes al procedimiento.\nEXCLUYE: Anestesia y sa la de recuperación. i _ IANALISISICROMOSOMICO DECARIOTIPOSIMPLE Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la practica. Anestesia. Stent. Anestesia. Filtro de protección cerebral ' CCV - Valvuloplastia - Prótesis - Ortesis - Colocación de marcapaso definitivos Balón de Contrapulsación - Catéter adicionales - Hemoterapia - TAC - Eco doppler Infusión de drogas - Estudio Electrofisiológico y cualquier otra complicación que surgiere del procedimiento. Stent. Anestesia cn O AMIGDALFCTOMÍAO ADENOIDECTOMÍA „ 03. 13.01 o° laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40%del valor total del modulo ), Medicamentos. PENSION: HASTA2 (DOS) DIAS. ANATOMIAPATOLOGICA DELA /S PIEZA/S QUIRURGICA/S (las Diferidas , no asílas intraoperatorias , que incluyan congelación ) MATERIALDESCARTABLE : UN (1) SOBREDE MATERIAL IRREABSORBIBLE , MONOFILAMENTO, DE NYLON, PARALASÍNTESISDE LAPIEL ENLOS SITIOS DE INGRESO DE LOSTROCARES A VALORES CONVENIDOSY 3 (TRES) LIGACLIPS HONORARIOSANESTESIA . Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaci",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos Diagnóstico y seguimiento de Leucemias agudas",
       "coseguro": "BQ"
     },
     {
@@ -475,64 +426,57 @@ const searchData = {
     {
       "code": "10.90.03",
       "description": "ADRENALECTOMIA POR VIDEOSCOPIA",
-      "normativa": "Incluye: Pensión hasta 2 días. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensl6n en UCC, pensl6n en habitacl6n compartida, Honorarios del equlpo\nEXCLUYE: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (Ias",
       "coseguro": "BQ"
     },
     {
       "code": "10.90.05",
       "description": "PROSTATECTOMIA RADICAL POR VIA VIDEO LAPARÓSCOPIA",
-      "normativa": "INCLUYE: Pensión hasta 2días. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos . Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de \"PATOLOGÍA RESUELTA\". Esto eventuales drenajes percutáneos de colecciones post operatorias (con Materiales , necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. honorarios, derechos quirúrgicos, medicamentos y descartables. Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de HRS. Medicamentos y Material Descartable inherente a la práctica. Pensión en UCC, pensión en habitación compartida, Honorarios Médicos, hemodinámia, radiología.\nEXCLUYE: ADRENALECTOMIA POR VIDEOSCOPIA NATOMIA PATOLOGICA DE LA/SPIEZAS QUIRURGICA/S (las Diferidas, no asílas intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORESCONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación. NORMAS DE TRABAJO PRACTICAS MEDICAS NO NOMENCLADAS Y MODULADAS O o O E 0 ce) o a) Anestesia y sala de recuperación. Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la practica. Anestesia.\nREQUISITOS: Tumor suprarrenal.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "10.90.06",
       "description": "ADENOMECTOMIA DE PROSTATA POR VIA VIDEO LAPARÓSCOPIA",
-      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos, descartables. MIRINGOPLASTIA TIPO II honorarios, derechos quirúrgicos, medicamentos, descartables. Pensión en habitación compartida. Arteriografía renal selectiva. Estudios radiológicos y ecográficos nomenclados. Exámen funcional respiratorio, Laboratorio. Prácticas cardiológicas nomencladas. Medicina transfusional - 1 módulo de serología. Consultas con distintas especialidades. Honorarios del equipo médico clínico, quirúrgico y técnico. Estudios de histocompatibilidad (metodo Luminex): MÓDULO PRE-TRANSPLANTE RENAL DONANTE determinacion de Antigeno HLA y ABC. Determinacion de antigeno HLADR. Cultivo mixto de linfocitos. Grupo sanguineo y factor. Crossmatch c/panel receptor. Crossmatch D-R (luminex) Honorarios y Gastos. Uso de video. Honorarios y Gastos. Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables.\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. MIRINGOTOMIA CONOSIN COLOCACION DE TUBO DRENAJE Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Prácticas quirúrgicas. Tratamientos derivados de diagnósticos que se establezcan. Tac, Biopsias y sus estudios anatomopatológicos. Medicamentos específicos. MODULOVIDEOENDOSCOPIA DIGESTIVAALTA Y BAJA (VEDA + Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. VCC) Medicamentos anestésicos y descartables. O O tt 1 !I I !N ' C17 ci cm ci , O) O ‘-- U) (vi o cri O O U) O cm c\i d d 11 91 d O) ci ,— N 0 r.1.— ci .— 0 r•-: 0 ,--c:, N 0 N 0 Cn N cci cD LOS MATERIALES NECESARIOS (SET NEFROSTOMIA) PARA LA PRÁCTICA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "11.02.13",
       "description": "CONIZACIÓN DE CUELLO",
-      "normativa": "Incluye: Honorarios | Excluye: Pensión, Gastos Sanatoriales, Set completo con guia y cateter doble J a cargo de IAPOS de acuerdo a PROTOCOLO VIGENTE.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por año para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de 3 años. Sila DMOda por encima del valor normal no se reconocerá ningún seguimiento posterior. Se recomienda realizar DMO (S/la US Preventive Services Task Force(USPSTF) en: Mujeres mayores de 65 años en forma rutinaria. Mujeres, a partir de los 60 años, con riesgo incrementado para fracturas osteoporóticas. Se recomienda realizar DMO (S/la National Osteoporosis Foundation (NOF) en: Toda mujer < 65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años.",
       "coseguro": "BQ"
     },
     {
       "code": "11.05.02",
       "description": "VIDEOHISTEROSCOPÍA DIAGNÓSTICA",
-      "normativa": "Incluye: Honorarios y Gastos. Uso de video. | Excluye: Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. VIDEOHISTEROSCOPÍA DIAGNÓSTICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión hasta 1 día. Gastos-derechos qur41.gicos Uso del lapa roscopio e instrumental inherente a la práctica .:bistur bipoiar1 armónico), Honorarios médicos (corresponden a l 40'., del valor tota ll del modulo). Medicamentos. Las complicaciones devenidas lai práctica realizada esta rán a cargo dei prestador, riasta dentro de los ; 15 días, de acuerdo a l concepto de 'PATOLOGÍARET ':UELTA. Esto l incluye eventuales drenajes percutáneos de c(..cciones post1 operatorias (con Materia les necesarios), reoperacios, materiaies1 descartables y demás eiementos que estarán a cargo de: equipo que ! interv ino a l paciente.\nEXCLUYE: ANATOMIAPATOLOGICADE LA/SI PIEZA/S QUIRURGICA/S (las Diferidas, no as í las intraoperatoriasi que incluyan congelación) MATERIAL DE-SCARTABLE: UN ( 1) SOBRE DE MATERIAL I RREABSORBIBLE, MO NOFILAMENTO, DE NYLON, PARA LASÍNTESIS DE LA PIEL ENLOS SITIOS DE INGRESO DE LOS TROCARES A VALORESCONVENIDOS Y TRES (3) LIGACLIPSSISE JUSTIFICA SU UTILIZACION. . HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza!",
       "coseguro": "BQ"
     },
     {
       "code": "11.05.03",
       "description": "VIDEOHISTEROSCOPÍA TERAPÉUTICA",
-      "normativa": "Incluye: Honorarios y Gastos. Uso de video. | Excluye: Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. VIDEOHISTEROSCOPÍA DIAGNÓSTICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión hasta 1 día. Gastos-derechos qur41.gicos Uso del lapa roscopio e instrumental inherente a la práctica .:bistur bipoiar1 armónico), Honorarios médicos (corresponden a l 40'., del valor tota ll del modulo). Medicamentos. Las complicaciones devenidas lai práctica realizada esta rán a cargo dei prestador, riasta dentro de los ; 15 días, de acuerdo a l concepto de 'PATOLOGÍARET ':UELTA. Esto l incluye eventuales drenajes percutáneos de c(..cciones post1 operatorias (con Materia les necesarios), reoperacios, materiaies1 descartables y demás eiementos que estarán a cargo de: equipo que ! interv ino a l paciente.\nEXCLUYE: ANATOMIAPATOLOGICADE LA/SI PIEZA/S QUIRURGICA/S (las Diferidas, no as í las intraoperatoriasi que incluyan congelación) MATERIAL DE-SCARTABLE: UN ( 1) SOBRE DE MATERIAL I RREABSORBIBLE, MO NOFILAMENTO, DE NYLON, PARA LASÍNTESIS DE LA PIEL ENLOS SITIOS DE INGRESO DE LOS TROCARES A VALORESCONVENIDOS Y TRES (3) LIGACLIPSSISE JUSTIFICA SU UTILIZACION. . HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza!",
       "coseguro": "BQ"
     },
     {
       "code": "11.90.01",
       "description": "VIDEOLAPAROSCOPIA GINECOLOGICA DIAGNOSTICA",
-      "normativa": "Incluye: Pensión hasta 1 día. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y TRES (3) LIGACLIPS SISE JUSTIFICA SU UTILIZACION. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: . Honorarios y Gastos. Uso de video. Incluye: Honorarios y Gastos, Uso de video. Incluye¡ Honorarios y Gastos. Uso de video. incluye: Honorarios y Gastos. ASA\nEXCLUYE: Pensión en habitación compartida. Anestesia. Medicamentos y Descartables Indicaciones: Cuadros pelvianos agudos sin diagnóstico de certeza\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza",
       "coseguro": "BQ"
     },
     {
       "code": "11.90.02",
       "description": "VIDEOLAPAROSCOPIA GINECOLOGICA TERAPEUTICA SIMPLE",
-      "normativa": "Incluye: Pensión hasta 1 día. Gastos- derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos.\nEXCLUYE: . Biopsia por congelación. Anatomía patologica. Interconsultas. Estudios previos en caso de atención de guardia. Estudios prequirúrgicos. Anestesia. Indicaciones:\nREQUISITOS: Embarazo ectopico. Endometriosis. Quiste ovario con complicaciones (hemorragico, sangrante, infectado). Adherencias pelvianas que compliquen la cirugia convencional",
       "coseguro": "BQ"
     },
     {
       "code": "11.90.03",
       "description": "VIDEOLAPAROSCOPIA GINECOLOGICA TERAPEUTICA COMPLEJA",
-      "normativa": "Incluye: Pensión hasta 3 días. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS ONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Uso de video.\nEXCLUYE: Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. En caso VIDEOESOFAGOGASTRODUODENOFIBROSCOMA (VEDA) de realizarse en internación se permitirá facturar el valor diferencial de pensión en",
       "coseguro": "BQ"
     },
     {
@@ -545,50 +489,43 @@ const searchData = {
     {
       "code": "12.20.02",
       "description": "ARTROSCOPÍA DE RODILLA SIMPLE",
-      "normativa": "Incluye: Pensión en habitación compartida, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. Punta de Shaver (incluido en valorización del módulo) | Excluye: Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Honorarios Médicos por cartera prestacional",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: Anestesla. Todas las compll[aclones y/a procedlmiento adlclonal, Materiales",
       "coseguro": "BQ"
     },
     {
       "code": "12.20.03",
       "description": "ARTROSCOPÍA DE RODILLA COMPLEJA",
-      "normativa": "Incluye: Pensión en habitación compartida, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. Punta de Shaver (incluido en valorización del módulo) | Excluye: Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Honorarios Médicos por cartera prestacional",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Anestesia. Todas las comolicaciones vio nrnctPriimipn ariirinnal RAnfcwinkuc de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. 1/3 punta de Shaver (incluido en valorización del módulo) Excluye: Anestesia. Todas las comolicaciones vio nronedimipnto Arlirinnal RAnhurimle■e Alquiler Uso de Equipo a valores de plaza (independientemente del valor fijado por DG)",
       "coseguro": "BQ"
     },
     {
       "code": "12.90.01",
       "description": "ARTROSCOPÍA DE TOBILLO / MUÑECA",
-      "normativa": "Incluye: Pensión en habitación compartida, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. Punta de Shaver (incluido en valorización del módulo) | Excluye: Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Honorarios Médicos por cartera prestacional",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en habitación compartida , gastos operatorios, uso de videoartroscopi o, medicament os, material descartable, set de artroscopia de cadera, puntadeShaver.\nEXCLUYE: Materiales protésicos (arpones), Complicacionesyo procedimientosadicionales. Anestesia. HonorariosMédicospor carteraprestacional\nREQUISITOS: Pinzamiento femoroacetabular, lesionesdelLabrum acetabular, Cuerposlibresintraarticulares, lesionaescondrales acetabularesy femorales, secuelasdeenfermedaddePerthesy epifisiolisis, enfermedad de lasinovial, condromatosissinovial, artritisséptica. Ventajas:Menostraumaquirúrgico, Menorriesgode complicacion es tanto intra como post-operatorias , Menor estadía hospitalaria, rápida recuperación con una incorporació n precoz ala rutinahabitual.",
       "coseguro": "BQ"
     },
     {
       "code": "12.90.02",
       "description": "APLICACIÓN DE BOTOX",
-      "normativa": "Incluye: Pensión hasta 1 día. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: DOS (2) SOBRES DE SUTURAS IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA BASE APENDICULAR Y SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión hasta 1día. Gastos-derechos quirúrgicos, Uso de inherente a la práctica (bisturí bipolar, laparoscopio e instrumental 40% del valor total del armónico), Honorarios médicos (corresponden al modulo), Medicamentos Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15días, de acuerdo al concepto de 'PATOLOGÍARESUELTA'. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la practica. Anestesia.",
       "coseguro": "20"
     },
     {
       "code": "12.90.03",
       "description": "ARTROSCOPIA DE CADERA",
-      "normativa": "Incluye: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. | Excluye: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos Indicaciones: Pinzamiento femoroacetabular, lesiones del Labrum acetabular, Cuerpos libres intraarticulares, lesionaes condrales acetabulares y femorales. secuelas de enfermedad de Perthes y epifisiolisis, enfermedad de la sinovial, condromatosis sinovial, artritis séptica. Ventajas: Menos trauma quirúrgico, Menor riesgo de complicaciones ta nto intra como post-operatorias, Menor estadía hospitalaria, rápida recuperación con una incorporación precoz a la rutina habitual. Incluye: Pensión en habitación compartida, gastos operatorios, uso de descartable, setde artroscopia de v ideoartroscopio, medicamentos, material cadera, punta de Shaver.\nEXCLUYE: Materiales protésicos (arpones), Complicaciones yo procedimientos adicionales. Anestesia. Honorarios Médicos por ca rtera prestacional\nREQUISITOS: Pinzamiento femoroacetabular, lesiones del Labrum acetabular, Cuerpos libres intraarticulares, lesionaes condrales acetabulares y femorales. secuelas de enfermedad de Perthes y epifisiolisis, enfermedad de la sinovial, condromatosis sinovial, artritis séptica. Ventajas: Menos trauma quirúrgico, Menor riesgo de complicaciones ta nto intra como post-operatorias, Menor estadía hospitalaria, rápida recuperación con una incorporación precoz a la rutina habitual.",
       "coseguro": "BQ"
     },
     {
       "code": "12.90.10",
       "description": "MOVILIZACIÓN FORZADA DE ARTICULACIÓN BAJO ANESTESIA GENERAL",
-      "normativa": "Incluye: Honorarios y gastos. Equipamiento de monitoreo. Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios profesionales (valor dos consultas médicas) y Botón de Gastrostomía\nEXCLUYE: (Facturar fuera del modulo con documentacion requerida): Eco doppler renal. Eco doppler de eje espelnorenal. Dosajes de PCR cuantitativa para CMV (solo para pacientes de bajo riesgo inmunologico, ya que los de alto riesgo estan con profilaxis con Ganciclovir y no lo requiere. Resto de las prestaciones no incluida en el Modulo.\nREQUISITOS: Sospecha de HTA guardapolvo blanco (3 mediciones en consultorio > ó= 140/90 mmHg con 3 mediciones fuera del consultorio < 140/90 sin evidencia de daño en órgano blando, Sospecha de HTA episódica o HTA sistólica aislada en > 60 años, HTA MONITOREO AMBULATORIO DE LA TENSIÓNARTERIAL - PRESUROME resistente (en pacientes tratados con dosis máximas de 3 o más medicamentos), Sospecha de episodios hipotensivos relacionados a medicación_ o síndromes neurológicos, Disfunsión autonómica. Profesionales autorizados; cardiólogos.",
       "coseguro": "20"
     },
     {
       "code": "13.90.05",
       "description": "DERMATOSCOPÍA DIGITAL CON MAPEO CORPORAL TOTAL",
-      "normativa": "Incluye: Honorarios y gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. DENTASCANPORTCVMULTISLICE UN MAXILAR Incluye: Honorarios y Gastos. Criterios de autorización: sólo en casos de presencia de múltiples nevus y alto riesgo de DERMATOSCOPÍADIGITALCONMAPEOCORPORAL TOTAL melanoma y/o nevus displásicos. Se deberá adjuntar en todos los casos clasificación ABDC y score de Meinzes Incluye: Honorarios y gastos.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo CORONARIOGRAFFA SELECTIVA contempla solo lo inherente a la realización de la cinecoronariografia. Anestesia. Observación: Cuando se realice Cinecoronariografía y Angioplastia en el mismo acto se abonará: 60%de la Cinecoronarioqrafia y 100% de la_Angioplastia\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por a ño para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de, 3 años. Si la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior. Se recomienda realizar DMO (S/la USPreventive Services Task Force(USPSTF) en: Mujeres mayores de 65 años en forma rutinaria. Mujeres, a partir de los 60 años, conte de cardiodesfibrilador con resincronizador.s cuatrimestres correspondientes a partir del tercer año del post-Trasplante.en: Toda mujer < 65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años.",
       "coseguro": "24"
     },
     {
@@ -601,57 +538,50 @@ const searchData = {
     {
       "code": "13.90.07",
       "description": "CIRUGIA DE MOHS",
-      "normativa": "Incluye: Honorarios. Gastos: facturar código 13.01.02 CITOGENETICO DE MEDULA OSEA - INMUNOMARCACION Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye todos los órganos y/o regiones. 1 Incluye: Honorarios y Gastos.\nEXCLUYE: Anestesia y Sala de Recuperación (cuando se utilice).\nREQUISITOS: CLÍNICA: PRIMARIO: Según tamaño tumoral y área corporal: Área H>6 mm (párpados, cejas, nariz, labios pera, orejas); Área M>10mm (mejillas, frente y pretibial); Área L>20mm (tronco y miembros). RECIDIVATUMORAL. HISTOPATOL OGÍA: Subtipos histológicos indiferenciados: CBC: morfeiforme, esclerosante, metatlpico, micronodular. CEC: acantolítico, adenoescamoso, pagetoide, queratoacantomatoso. Infiltrante. Invasión perineural o linfovascular. Compromiso de márgenes luego de una Escisión inicial. ANTECEDENTESDEL PACIENTE: Inmunodepresión (HIV, trasplantados, oncohematológicos, drogas inmunosupresoras, etc). Síndromes genéticos con tumores de piel múltiples. Radioterapia local previa. Antecedentes personales de tumores agresivos. REQUISITOS: Resumen de histesteroágenes relacionados al tratamiento ablativo (TACRMN-ETE-ETT) o prácticas devenidas por complicaciones eventuales del procedimiento (pericardiocentesis-cirugía cardíaca). Estos insumos exchidos serán gestionados para su adquisición por mecanismos de licitación de IAPOS o facturados po [",
       "coseguro": "BQ"
     },
     {
       "code": "14.50.01",
       "description": "PRICK TEST",
-      "normativa": "Incluye: Pensión, Videoesofagogastroduodenofibroscopia diagnóstica (VEDA). Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Albunima Humana. Sangre. Plasma o Derivados.",
       "coseguro": "12"
     },
     {
       "code": "15.01.06",
       "description": "CITOLOGÍA EXFOLIATIVA ONCOLÓGICA - PAP",
-      "normativa": "Incluye: Honorarios y Gastos. CITOMETRÍA DE FLUJO MÉDULA ÓSEA Y SANGRE PERIFÉRICA Incluye: Honorarios y Gastos. Incluye todos los órganos y/o regiones.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Anestesia y Sala de Recuperación\nREQUISITOS: CLÍNICA: PRIMARIO: Según tamaño tumoral y área corporal: Área H>6 mm (párpados, cejas, nariz, labios pera, orejas); Área M > 10mm (mejillas, frente y pretibial); Área L >20mm (tronco y miembros). RECIDIVATUMORAL. HISTOPATOLOGÍA: Subtipos histológicos indiferenciados: CBC: morfeiforme, esclerosante, metatípico, micronodular. CEC: acantolítico, adenoescamoso, pagetoide, queratoacantomatoso. Infiltrante. Invasión perineural o linfovascular. Compromiso de márgenes luego de una Escisión inicial. ANTECEDENTES DEL PACIENTE: Inmunodepresión (HIV, trasplantados, oncohematológicos, drogas inmunosupresoras, etc). Síndromes genéticos con tumores de piel múltiples. Radioterapia local previa. Antecedentes personales de tumores agresivos. REQUISITOS: Resumen de histesterolitograficos. Gastos de internación o reinternacion. Anestesia. Gastos administrativos Horas de quirófano/derecho de quirófano. Material médico quirúrgico, descartable y medicamentos relacionados con la cirugía. Estudios comp lementari os de laboratorios, imágenes, anatom ía patológica.",
       "coseguro": "8"
     },
     {
       "code": "15.50.17",
       "description": "TÉCNICA INMUNOHISTOQUÍMICA",
-      "normativa": "INCLUYE: 1- lorarlos y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. honorarios, derechos quirúrgicos, medicamentos, descartables. Exc luye: Anestesia, elementos protésicos (diabolo a cargo de lAPOS) y sala de recuperación. .. honorarios, derechos quirúrgicos, medicamentos, descartable s. Exc luye: ión. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperac Honorarios y Gastos. Pensión, Uso de endoscopio e instrumenta l inherente a la practica, Honorarios Plaquetas Hemograma - Recuento de Reticulocitos - Recuento de transferina saturación de Capacidad Citomorfología de Sangre periférica - Ferremia en la evaluación Uno Sugerencia: muestra. de Toma nsferrina ta saturación Porcentaje de citopenias. inicial Honorarios y Gastos. Honorarios \" • Pensión, Uso de endoscopio e instrumenta l inherente a la practica, Materiales y Medicamentos del modulo), del total 40% den al médicos (correspon s de acuerdo descartables. Honorarios y Gastos. Honorarios y Gastos. Uso de video. . ._ . Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. txcluve: Material Radiactivo según valor CEDIMIhterior Honorarios y Gastos. . Pensión, Uso de eco o TAC e instrumental- inherente a la practica, Honorarios del modulo), Medicamentos y Materiales 40%del valor total médicos (corresponden al médicos específicos de acuerdo Elementosl descartables. Honorarios y Gastos inherent\nEXCLUYE: a patología según normativas IAPOS. Honorarios anestesia, Elementos médicos específico a patología según normativas IAPOS. Honorarios Anestesia, IAPOS. normativas según a patología . ¡ •",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "15.50.01",
       "description": "HIBRIDACIÓN IN SITU",
-      "normativa": "Incluye: Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos inherentes a la prestación, Pruebas de HEMOTERAPIA / TRANSFUSION Compatibilidad, Serología, Materiales Descartables. Biología Molecular. Filtro.\nEXCLUYE: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
       "coseguro": "20"
     },
     {
       "code": "15.50.02",
       "description": "BIOPSIA DE VELLOSIDADES CORIÓNICAS",
-      "normativa": "Incluye: Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. El monto",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Codificar REGIÓN según Nomenclador BARRIDO CORPORAL TOTAL PARA CARCINOMA DE TIROIDES Nacional. El monto\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional\nREQUISITOS: FIBRILACION AURICULAR CRONICA NO VALVULAR CON ALTORIESGOTROMBOEMBÓLICO +CONTRAINDICACIÓN ABSOLUTADE ANTICOAGULACIÓN (determinada por especialista en hematología). REQUISITOS: RESUMEN DEHISTORIA CLÍNICA ORIENTADA A LAPRESTACIÓN. ECOCARDIOGRAMA DOPPLER (INFORME EIMÁGENES). NTERCONSULTA CONHEMATOLOGÍA PARA ESTRATIFICAC IÓNDE RIESGO Y CONTRAINDICACIÓNDE ANTICOAGULACIÓN.",
       "coseguro": "23"
     },
     {
       "code": "15.50.03",
       "description": "BIOPSIA MUSCULAR POR M.E.",
-      "normativa": "Incluye: Pensión en habitación compartida. Honorarios Médicos de todo el equipo, Gastos, Punción, Anatomía Patológica, Laboratorio, Radiología, Medicamentos y Material Descartables inherentes al procedimiento. | Excluye: Anestesia, Medicación Inmunodepresora.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios y gastos. INDICACIONES: FIBRILACION AURICULAR CRONICA NO VALVULAR CON ALTO RIESGO TROMBOEMBÓLICO + CONTRAINDICACIÓN ABSOLUTA DE ANTICOAGULACIÓN (determinada por especialista en hematología).\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional BIOPSIA DE VELLOSIDADES CORIÓNICAS\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICA ORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMADOPPLER (ORMN) CON MEDICIONES E INFORME.",
       "coseguro": "25"
     },
     {
       "code": "15.50.04",
       "description": "CITOGENETICO DE MEDULA OSEA - INMUNOMARCACION",
-      "normativa": "Incluye: Honorarios. Gastos: facturar código 13.01.02 CITOGENETICO DE MEDULA OSEA - INMUNOMARCACION Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: prestaciones para los siguientes cuatrimestres correspondientes a partir del tercer año del post-Trasplante.en: Toda mujer 65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años. Incluye: Honorarios y Gastos. Si es por dos CITOGENETICODEMEDULAOSEA - INMUNOMARCACIONIncluye: Honorarios y Gastos. Criterios de Autorización: A partir de los 21 años de edad y cada 3 años para detección ,i precoz de cáncer de cuello uterino.Si tiene mas de 30 años y también le han hecho pruebas para el virus del papiloma humano (VPH, por sus siglas en inglés) y tanto la VPH son normales, le pueden hacer prueba de Papanicolaou como las pruebas para el causa verrugas genitales y cáncer de 'exámenes cada 5 años (el VPH es el virus que CITOLOGÍA EXFOLIATIVA ONCOLÓGICA - PAP 65 a 70 años, la mayoría de las mujeres pueden cuello uterino). Des\nREQUISITOS: CLÍNICA: PRIMARIO: Según tamaño tumoral y área corporal: Área H>6 mm (párpados, cejas, nariz, labios pera, orejas); Área M> 10mm (mejillas, frente y pretibial); Área L>20mm (tronco y miembros). RECIDIVATUMORAL. HISTOPATOLOGÍA: Subtipos histológicos indiferenciados: CBC: morfeiforme, esclerosante, metatípico, CIRUGIADEMOHS micronodular. CEC: acantolítico, adenoescamoso, pagetoide, queratoacantomatoso. Infiltrante. Invasión perineural o linfovascular. Compromiso de márgenes luego de una Escisión inicial. ANTECEDENTESDELPACIENTE: Inmunodepresión (HIV, trasplantados, oncohematológicos, drogas inmunosupresoras, etc). Síndromes genéticos con tumores de piel múltiples. Radioterapia local previa. Antecedentes personales de tumores agresivos. REQUISITOS: Resumen de histesteroÓDULO4",
       "coseguro": "20"
     },
     {
@@ -664,29 +594,25 @@ const searchData = {
     {
       "code": "16.90.01",
       "description": "MÓDULO 1: DROGAS ANESTESICAS EN PROCEDIMIENTOS AMBULATORIOS",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos, descartables. | Excluye: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos, descartables. excl ye: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sa a ce recuperación.\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala ce recuperación.\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según pro:ocoío aplicado y criterio del médico tratante.",
       "coseguro": "7"
     },
     {
       "code": "16.90.02",
       "description": "MÓDULO 2: DROGAS ANESTESICAS EN PROCEDIMIENTOS AMBULATORIOS",
-      "normativa": "Incluye: Perfus x 1 + Angiocath 20 x 1 + SF x 1 + propofol x 1 + midazolam x 1+ sublimaze x 2 + atropina x 1 + metoclopramida x 1",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos Incluye: Honorarios y Gastos\nEXCLUYE: Anestesia, elementos prOtésicos (diabolo a",
       "coseguro": "8"
     },
     {
       "code": "17.01.18",
       "description": "ELECTROCARDIOGRAMA DE HOLTER POR 24 HS",
-      "normativa": "Incluye: Honorarios y Gastos. Material Descartable",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en j habitación compartida (Por Cartera perstacional) INDICACIONES: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON ENDOSCOPIA RESPIRATORIA DIGANOSTICA RIESGODECOMPROMISO DE VIA AÉREA) . REQ UISITOS: RESUMEN DE (PEDIATRICA-ADULTO) HISTORIACLINICAORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEE IMAGEN) U OTRO ESTUDIOPOR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONESO MALFORMACIONESDE LA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten).\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON ENDOSCOPIA RESPIRATORIA DIGANOSTICA RIESGODECOMPROMISO DE VIA AÉREA) . REQ UISITOS: RESUMEN DE (PEDIATRICA-ADULTO) HISTORIACLINICAORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEE IMAGEN) U OTRO ESTUDIOPOR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONESO MALFORMACIONESDE LA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten). REQUISITOS: RESUMEN DE (PEDIATRICA-ADIULTO) HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA 1DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX UOTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica",
       "coseguro": "20"
     },
     {
       "code": "17.01.19",
       "description": "TILT TEST",
-      "normativa": "Incluye: Pensión en habitación compartida. Evaluación pre, intra y post-procedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. | Excluye: Anestesia. Droga (ampollas de adenosina).",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios + Gastos + Materiales ncluye: Honorarios y Gastos.",
       "coseguro": "20"
     },
     {
@@ -699,169 +625,145 @@ const searchData = {
     {
       "code": "17.02.02",
       "description": "ESTUDIO ELECTROFISIOLÓGICO COMPLETO",
-      "normativa": "Incluye: Pensión en habitación compartida, Medicamentos y Material Descartable inherente al procedimiento, Derecho de Hemodinámia, Honorarios Médicos, Realización del cateterismo, sobreestimulación cardíaca, mapeo y desencadenamiento de la arritmia y otros. | Excluye: Colocación de marcapaso definitivo, Estudios Hemodinamicos. Anestesia. ESTUDIO FUNCIÓN VENTRICULAR IZQUIERDA Y PERFUSIÓN MIOCÁRDICA CON SPECT (SPECT CARDIACO)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 1- lorarlos y Gastos. Incluye: Honorarios y Gastos. 1Incluye: Honorarios y Gastos. Incluye: honorarios, derechos quirúrgicos, medicamentos, descartables. Exc luye: Anestesia, elementos protésicos (diabolo a cargo de lAPOS) y sala de recuperación. .. Incluye: honorarios, derechos quirúrgicos, medicamentos, descartable s. Exc luye: ión. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperac\nEXCLUYE: a patología según normativas IAPOS.",
       "coseguro": "BQ"
     },
     {
       "code": "17.50.01",
       "description": "TEST DE CAMINATA 6´",
-      "normativa": "Incluye: Honorarios y Gastos .",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Anestesia. Droga (ampollas de adenosina). TEST\nREQUISITOS: Se deberá adjunt historia clínica justificando el pedido describiendo características de lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "10"
     },
     {
       "code": "17.50.02",
       "description": "TEST DE CAMINATA 6´ CON OXÍGENO",
-      "normativa": "Incluye: Pensión en habitación compartida. Evaluación pre, intra y post-procedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. | Excluye: Anestesia. Droga (ampollas de adenosina).",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Anestesia, elementos nrotésicos (diabolo a carao de IAPOS)",
       "coseguro": "12"
     },
     {
       "code": "17.50.03",
       "description": "ERGOMETRÍA COMPUTARIZADA",
-      "normativa": "Incluye: Honorarios y Gastos. ESCLEROSIS DE LESIÓN SANGRANTE GÁSTRICA O ESOFÁGICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos. 18.50.07ECOGRAFIAENDOCAVITARIAPROSTÁTICAIncluye: Honorarios y Gastos.\nREQUISITOS: Somnolencia Parciliza es estudio del diurna y falta de atención y concentración en los siguientes casos: hipertensos de más de 60 años, sobrepeso a cualquier edad, diabético, fumadores, stress crónico, hipertrofia amigdalin",
       "coseguro": "8"
     },
     {
       "code": "17.50.04",
       "description": "CONTROL TELEMETRICO DE DISPOSITIVOS CARDIACOS",
-      "normativa": "Incluye: Honorarios | Excluye: Pensión, Gastos Sanatoriales, Set completo con guia y cateter doble J a cargo de IAPOS de acuerdo a PROTOCOLO VIGENTE.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja CORONARIOGRAFÍASELECTIVA aclarado que el modulo contempla solo lo inherente a la realización de la cinecoronariografia. Anestesia. Obs\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por año para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de 3 años. Si la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior. Se recom ienda realizar DMO (S/la US Preventive Services Task Force(USPSTF) en: Mujeres mayores de 65 años en forma rutinaria. Mujeres, a partir de los 60 años, con riesgo incrementado para fracturas osteoporóticas. Se recomienda realizar DMO (S/la National Osteoporosis Foundation (NOF) en: Toda mujer <65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años.",
       "coseguro": "6"
     },
     {
       "code": "18.01.01",
       "description": "ECOCARDIOGRAMA COMPLETO A M y B",
-      "normativa": "Incluye: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: LOS MATERIALES NECESARIOS (SET DRENAJE BILIAR PERCUTANEO) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TAC O ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. ECO-DOPPLER CARDÍACO COLOR",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: LOSMATERIALESNECESARIOS (SETDRENAJEBILIARPERCUTANEO) PARALAPRÁCTICAS, ESTARÁN A CARGO DE I.A. P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TACOECOGRAFIA (SOLOUNA) NECESARIA PARA REALIZAREL PROCEMIENTO. PENSION (HASTA1 DIA) EN PROCEDIMIENTOSPROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: CARACTERÍSTICAS PREOCUPANTES: ECOENDOSCOPIA Y EVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared 'quística. Wirsung entre 5 — 9 mm, ca mbio a brupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un crec imiento del quiste > 5 mm en dos a ños. ESTIGMASDE ALTORIESGO: CONDUCTA QUIRÚRGICA PRIMERA ELECCIÓN (NO ECOENDOSCOPÍANIPUNCIÓN). Obstrucción del Wirsung con lesión en cabeza pancreática. Wirsung >10 mm. SEGUIMIENTO IMAGENOLÓGICO (NOECOENDOSCOPÍA NI PUNCIÓN): TODOS LOS PACIENTES CON Q UISTESMENORES DE 3CM, SIN CARACTERISTICAS PREOCUPANTES. REQUISITOS: Resumen de historia clínica orientado a la patología. RMI de a bdomen o RMI colangio",
       "coseguro": "11"
     },
     {
       "code": "18.01.06",
       "description": "ECOGRAFÍA MAMARIA UNI O BILATERAL",
-      "normativa": "Incluye: Honorarios y Gastos Incluye: Honorarios y Gastos. ECOGRAFÍA PANCREATICA O SUPRARRENAL Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIA DIGANOSTICA (PEDIATRICAQUEMADOCON RIESGODE COMPROMISODE VIA AÉREA) . ADULTO) REQUISITOS: RESUMENDE HISTORIACLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORME E IMAGEN) U OTRO ESTUDIO POR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTODE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estr",
       "coseguro": "11"
     },
     {
       "code": "18.01.07",
       "description": "ECOGRAFÍA CEREBRAL CON MODO B y A",
-      "normativa": "Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos. Incluye: Honorarios y Gastos.\nREQUISITOS: CARACTERÍSTICAS PREOCUPANTES: ECOENDOSCOPIA Y EVENTUALPUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE LTO RIESGO: CONDUCTA QUIRÚRGICA PRIMERA ELECCIÓN (NO ECOENDOSCOPÍA NIPUNCIÓN). Obstrucción del Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO IMAGENOLÓGICO (NO ECOENDOSCOPÍA NI PUNCIÓN): TODOS LOSPACIENTESCON QUISTES MENORES DE 3 CM, SIN CARACTERISTICASPREOCUPANTES . REQUISITOS: Resumen de historia clínica orientado a la patología. RMIde abdomen o colangio RMI",
       "coseguro": "11"
     },
     {
       "code": "18.01.10",
       "description": "ECOGRAFÍA TIROIDEA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. t—1 cerapeutew ennii wCriterios de autorización: para valoración de estrategia Evaluación pre, infra y plt(excepcional!!2a) Pensión en habitación compartida. bles inherentes a descarta ntos y Medicame s. dimiento. Honorarios médico proce osina). de aden (ampollas Droga práctica. 1-Im rarlos y Gastos . °escama:Ama. Exc1 • honorarios, derechos quirúrgicos, medicamentos, de recuperación. sala y IAPOS) de cargo a s (diabolo Anestesia, elementos protésico tves. ticcul descarta mentos, medica icos, quirúrg derechos honorarios, ión. recuperac de sala y s (diabolo a cargo de IAPOS) Anestesia, elementos protésico ncluye: Honorarios y Gastos. ncluye: Honorarios y Gastos. C) RRENI I ncluye: Honorarios y Gastos. SUPRA RENAL IARESPLÉNICA. PANCREÁTICA, 1I; • Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 0 2 O cz Gt .1 !. bb1:1 iI < O h- U) f-- 10 C.) < 1C < u_ U) o 1 cc ; W O O I— }-) < ¡. , 4 CL CL v-• < CY .-J < fl. a.zz j Ce ) < C) 5 „ ,, ,_ ,.. 5 5 ) c ). tr 2 — — ,e , < -.J O (..) (.) < 5 < < ° C: L1 25 =•5 111 'rál. 'LC) 1 1 19 - U- I< frO0WWC 5 i . 5 o 1= I- 1-- > i__ h. ) C) C) C) C) U C) C) U) U ).C. z ).4 ^c<<<<<<<wu n ft. -I— h- h- h- I— I-- I— I-- I.o ' .1 - ,-, 11 13\nEXCLUYE: Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos 118.50.06 ECOGRAFÍAOTRASREGIONESIncluye: Honorarios y Gastos. ECOGRAFÍA PANCREATICA O SUPRARRENALIncluye: Honorarios y Gastos. ECOGRAFÍA PARALAAMNINOCENTESIS Incluye: Honorarios y Gastos. 118.50.85 ECOGRAFIARENOVESICOPROSTATICACOMPLETA Incluye: Honorarios y Gastos. 118.01.10 ECOGRAFÍA TIROIDEA Incluye: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstac ional)\nREQUISITOS: DECANULACIÓN DETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOG ÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIADIGANOSTICA Q UEMADO CON RIESGO DE COMPROMISO DE VIA AÉREA) . (PEDIATRICA-ADULTO) REQUISITOS: RESUMEN DE HISTORIA CLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAF ÍA DE TÓRAX FRENTE ( INFORME E IMAGEN) U OTRO ESTUDIO POR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (p resentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DELESIONES O MALFORMACIONES DELA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten). REQUISITOS: RESUMEN DE (PEDIATRICA-ADIULTO) HISTORIA CLÍNICA ORIENTADO ALA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SIFUEREALIZADA). TAC DE T ÓRAX U OTRO ESTUDIO QUEDOCUMENTELAPATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica",
       "coseguro": "11"
     },
     {
       "code": "18.01.11",
       "description": "ECOGRAFÍA DE TESTÍCULOS",
-      "normativa": "Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos 118.50.06 ECOGRAFÍAOTRASREGIONESIncluye: Honorarios y Gastos. ECOGRAFÍA PANCREATICA O SUPRARRENALIncluye: Honorarios y Gastos. ECOGRAFÍA PARALAAMNINOCENTESIS Incluye: Honorarios y Gastos. 118.50.85 ECOGRAFIARENOVESICOPROSTATICACOMPLETA Incluye: Honorarios y Gastos. 118.01.10 ECOGRAFÍA TIROIDEA Incluye: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstac ional)\nREQUISITOS: DECANULACIÓN DETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOG ÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIADIGANOSTICA Q UEMADO CON RIESGO DE COMPROMISO DE VIA AÉREA) . (PEDIATRICA-ADULTO) REQUISITOS: RESUMEN DE HISTORIA CLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAF ÍA DE TÓRAX FRENTE ( INFORME E IMAGEN) U OTRO ESTUDIO POR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (p resentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DELESIONES O MALFORMACIONES DELA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten). REQUISITOS: RESUMEN DE (PEDIATRICA-ADIULTO) HISTORIA CLÍNICA ORIENTADO ALA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SIFUEREALIZADA). TAC DE T ÓRAX U OTRO ESTUDIO QUEDOCUMENTELAPATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica",
       "coseguro": "11"
     },
     {
       "code": "18.01.12",
       "description": "ECOGRAFÍA COMPLETA DE ABDOMEN",
-      "normativa": "Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación EMBOLIZACIÓNSELECTIVA ARTERIALPERIFERICA (EXCLUYEC compartida (Por Cartera perstacional)\nREQUISITOS: Resumen de historia clínica orientado a la patología. RMIde abdomen o colangio RMI 118.01.071 ECOGRAFÍACEREBRALCONMODOB y A",
       "coseguro": "11"
     },
     {
       "code": "18.01.13",
       "description": "ECOGRAFÍA HEPÁTICA, BILIAR, ESPLÉNICA O TORÁCICA",
-      "normativa": "Incluye: Honorarios y Gastos. ECOGRAFÍA HEPÁTICA, BILIAR, ESPLÉNICA O TORÁCICA Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. 118.01.13 ECOGRAFÍAHEPÁTICA, BILIAR, ESPLÉNICA OTORÁCICA Incluye: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstac ional)\nREQUISITOS: DECANULACIÓN DETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOG ÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIADIGANOSTICA Q UEMADO CON RIESGO DE COMPROMISO DE VIA AÉREA) . (PEDI",
       "coseguro": "11"
     },
     {
       "code": "18.01.17",
       "description": "ECOGRAFÍA DE AORTA ABDOMINAL (DINÁMICA Y ESTÁTICA)",
-      "normativa": "EXCLUYE: Or06.742 $422.090 GASTROTOMIA FOR RADIOSCOPIA / FIBROSCOPIA COLECISTECTOMIA CON 0 SIN COLEDOCOTOMIA COLANGIOPANC REATOGRAFIA ENDOSCOPICA RETROGRADAPAPILOESFINTEROTOMIAENDOSCOPICACONEXTRACCION $157.831 $163.786 $690.307 0' 0'",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos. Incluye: Honorarios y Gastos.\nREQUISITOS: CARACTERÍSTICAS PREOCUPANTES: ECOENDOSCOPIA Y EVENTUALPUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE LTO RIESGO: CONDUCTA QUIRÚRGICA PRIMERA ELECCIÓN (NO ECOENDOSCOPÍA NIPUNCIÓN). Obstrucción del Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO IMAGENOLÓGICO (NO ECOENDOSCOPÍA NI PUNCIÓN): TODOS LOSPACIENTESCON QUISTES MENORES DE 3 CM, SIN CARACTERISTICASPREOCUPANTES . REQUISITOS: Resumen de historia clínica orientado a la patología. RMIde abdomen o colangio RMI",
       "coseguro": "11"
     },
     {
       "code": "18.01.18",
       "description": "ECOGRAFÍA PANCREATICA O SUPRARRENAL",
-      "normativa": "Incluye: Honorarios y Gastos Incluye: Honorarios y Gastos. ECOGRAFÍA PANCREATICA O SUPRARRENAL Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIA DIGANOSTICA (PEDIATRICAQUEMADOCON RIESGODE COMPROMISODE VIA AÉREA) . ADULTO) REQUISITOS: RESUMENDE HISTORIACLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORME E IMAGEN) U OTRO ESTUDIO POR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTODE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONES O MALFORMACIONES DE LA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (PEDIATRICAVÍA AÉREA (presentar estudios que lo documenten). REQUISITOS: ADIULTO) RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX U OTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: Honorar",
       "coseguro": "11"
     },
     {
       "code": "18.01.21",
       "description": "ECOGRAFÍA PARA LA AMNIOCENTESIS",
-      "normativa": "Incluye: Honorarios y Gastos Incluye: Honorarios y Gastos. ECOGRAFÍA PANCREATICA O SUPRARRENAL Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIA DIGANOSTICA (PEDIATRICAQUEMADOCON RIESGODE COMPROMISODE VIA AÉREA) . ADULTO) REQUISITOS: RESUMENDE HISTORIACLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORME E IMAGEN) U OTRO ESTUDIO POR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTODE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONES O MALFORMACIONES DE LA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (PEDIATRICAVÍA AÉREA (presentar estudios que lo documenten). REQUISITOS: ADIULTO) RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX U OTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica Re• uisitos enerales: Resumen",
       "coseguro": "11"
     },
     {
       "code": "18.02.02",
       "description": "ECO-DOPPLER VASCULAR PERIFÉRICO",
-      "normativa": "Incluye: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: LOS MATERIALES NECESARIOS (SET DRENAJE BILIAR PERCUTANEO) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TAC O ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. ECO-DOPPLER CARDÍACO COLOR",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. 118.03.01 1ECO-DOPPLERCARDIACOCOLOR [Incluye: Honorarios y Gastos. ECO-DOPPLEROTRASREGIONES [Incluye: Honorarios y Gastos. 118.04.021ECO-DOPPLERTRANSESOFÁGICO COLOR Incluye: Honorarios y Gastos. 118.50.40 1 ECO-DOPPLERVASCULARFETAL [Incluye: Honorarios y Gastos. 118.02.02 ECO-DOPPLERVASCULARPERIFÉRICO [Incluye: Honorarios y Gastos. ECOCARDIOGRAMA COMPLETOAM y B 118.03.02 ECOCARDIOGRAMA DE STRESSFÍSICOO FARMACOLÓGICOIncluye: Honorarios , Gastos y Medicamentos. La realización o no de la punción diagnóstica quedará sujeto a auditoría posterior, según protocolo. En caso de realizarse punción diagnóstica la misma deberá realizarse en el mismo procedimiento, y gestionarse el elemento (aguja de puncion especifica) por la vía CARACTERÍSTICASPREOCUPANTES: de reposición. INDICACIONES: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTERISTICASPREOCUPANTES .\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo\nREQUISITOS: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTERISTICASPREOCUPANTES . REQUISITOS: Resumen de historia clínica orientado a la patología. RMI de abdomen o colan • io RMI 1",
       "coseguro": "11"
     },
     {
       "code": "18.03.01",
       "description": "ECO-DOPPLER CARDÍACO COLOR",
-      "normativa": "Incluye: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: LOS MATERIALES NECESARIOS (SET DRENAJE BILIAR PERCUTANEO) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TAC O ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. ECO-DOPPLER CARDÍACO COLOR",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. 118.03.01 1ECO-DOPPLERCARDIACOCOLOR [Incluye: Honorarios y Gastos. ECO-DOPPLEROTRASREGIONES [Incluye: Honorarios y Gastos. 118.04.021ECO-DOPPLERTRANSESOFÁGICO COLOR Incluye: Honorarios y Gastos. 118.50.40 1 ECO-DOPPLERVASCULARFETAL [Incluye: Honorarios y Gastos. 118.02.02 ECO-DOPPLERVASCULARPERIFÉRICO [Incluye: Honorarios y Gastos. ECOCARDIOGRAMA COMPLETOAM y B 118.03.02 ECOCARDIOGRAMA DE STRESSFÍSICOO FARMACOLÓGICOIncluye: Honorarios , Gastos y Medicamentos. La realización o no de la punción diagnóstica quedará sujeto a auditoría posterior, según protocolo. En caso de realizarse punción diagnóstica la misma deberá realizarse en el mismo procedimiento, y gestionarse el elemento (aguja de puncion especifica) por la vía CARACTERÍSTICASPREOCUPANTES: de reposición. INDICACIONES: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTERISTICASPREOCUPANTES .\nEXCLUYE: LOS MATERIALESNECESARIOS (SET DRENAJEBILIARPERCUTANEO) PARALA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚNNORMATIVAS Y DRENAJE PERCUTÁNEO BILIAR PROTOCOLOSVIGENTES. TACOECOGRAFIA (SOLOUNA) NECESARIA PARA REALIZAR ELPROCEMIENTO. PENSION (HASTA1 DIA) ENPROCEDIMIENTOS PROGRAMADOSAMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTERISTICASPREOCUPANTES . REQUISITOS: Resumen de historia clínica orientado a la patología. RMI de abdomen o colan • io RMI 1",
       "coseguro": "12"
     },
     {
       "code": "18.03.02",
       "description": "ECOCARDIOGRAMA DE STRESS FÍSICO O FARMACOLÓGICO",
-      "normativa": "Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. 118.03.01 1ECO-DOPPLERCARDIACOCOLOR [Incluye: Honorarios y Gastos. ECO-DOPPLEROTRASREGIONES [Incluye: Honorarios y Gastos. 118.04.021ECO-DOPPLERTRANSESOFÁGICO COLOR Incluye: Honorarios y Gastos. 118.50.40 1 ECO-DOPPLERVASCULARFETAL [Incluye: Honorarios y Gastos. 118.02.02 ECO-DOPPLERVASCULARPERIFÉRICO [Incluye: Honorarios y Gastos. ECOCARDIOGRAMA COMPLETOAM y B 118.03.02 ECOCARDIOGRAMA DE STRESSFÍSICOO FARMACOLÓGICOIncluye: Honorarios , Gastos y Medicamentos. La realización o no de la punción diagnóstica quedará sujeto a auditoría posterior, según protocolo. En caso de realizarse punción diagnóstica la misma deberá realizarse en el mismo procedimiento, y gestionarse el elemento (aguja de puncion especifica) por la vía CARACTERÍSTICASPREOCUPANTES: de reposición. INDICACIONES: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTERISTICASPREOCUPANTES .\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo\nREQUISITOS: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTERISTICASPREOCUPANTES . REQUISITOS: Resumen de historia clínica orientado a la patología. RMI de abdomen o colan • io RMI 1",
       "coseguro": "12"
     },
     {
       "code": "18.04.02",
       "description": "ECO-DOPPLER TRANSESOFÁGICO COLOR",
-      "normativa": "Incluye: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: LOS MATERIALES NECESARIOS (SET DRENAJE BILIAR PERCUTANEO) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TAC O ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. ECO-DOPPLER CARDÍACO COLOR",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. 118.03.01 1ECO-DOPPLERCARDIACOCOLOR [Incluye: Honorarios y Gastos. ECO-DOPPLEROTRASREGIONES [Incluye: Honorarios y Gastos. 118.04.021ECO-DOPPLERTRANSESOFÁGICO COLOR Incluye: Honorarios y Gastos. 118.50.40 1 ECO-DOPPLERVASCULARFETAL [Incluye: Honorarios y Gastos. 118.02.02 ECO-DOPPLERVASCULARPERIFÉRICO [Incluye: Honorarios y Gastos. ECOCARDIOGRAMA COMPLETOAM y B 118.03.02 ECOCARDIOGRAMA DE STRESSFÍSICOO FARMACOLÓGICOIncluye: Honorarios , Gastos y Medicamentos. La realización o no de la punción diagnóstica quedará sujeto a auditoría posterior, según protocolo. En caso de realizarse punción diagnóstica la misma deberá realizarse en el mismo procedimiento, y gestionarse el elemento (aguja de puncion especifica) por la vía CARACTERÍSTICASPREOCUPANTES: de reposición. INDICACIONES: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTERISTICASPREOCUPANTES .\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo\nREQUISITOS: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTERISTICASPREOCUPANTES . REQUISITOS: Resumen de historia clínica orientado a la patología. RMI de abdomen o colan • io RMI 1",
       "coseguro": "20"
     },
     {
       "code": "18.06.01",
       "description": "ECOGRAFÍA DE PARTES BLANDAS",
-      "normativa": "Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos. Incluye: Honorarios y Gastos.\nREQUISITOS: CARACTERÍSTICAS PREOCUPANTES: ECOENDOSCOPIA Y EVENTUALPUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE LTO RIESGO: CONDUCTA QUIRÚRGICA PRIMERA ELECCIÓN (NO ECOENDOSCOPÍA NIPUNCIÓN). Obstrucción del Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO IMAGENOLÓGICO (NO ECOENDOSCOPÍA NI PUNCIÓN): TODOS LOSPACIENTESCON QUISTES MENORES DE 3 CM, SIN CARACTERISTICASPREOCUPANTES . REQUISITOS: Resumen de historia clínica orientado a la patología. RMIde abdomen o colangio RMI",
       "coseguro": "11"
     },
     {
       "code": "18.50.01",
       "description": "ECOGRAFÍA CON TRANSLUCENCIA NUCAL",
-      "normativa": "INCLUYE: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. Honorarios Honorarios y Gastos. Arpón/Clip. Pensión hasta 1 día. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10%del valor del total del módulo), Honorarios 40% del valor total del modulo), médicos (corresponden al Medicamentos Las complicaciones devenidas la práctica rea lizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de \"PATOLOGÍA RESUELTA\". Esto eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia. Anestesia ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así MATERIAL las intraoperatorias, que incluyan congelación) DESCARTABLE: DOS (2) SOBRES DE SUTURASIRREABSORBIBLE, MONOFILAMENTO, DENYLON, PARA LA BASE APENDICULAR Y SÍNTESIS DELA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación\nREQUISITOS: PATOLOGIAVASCULARPULMONAR: TEP MALFORMACIONES FISTULAS PATOLOGIAVENAS PULMONARES.Sospecha de TEP. Sospecha de MAV o fístulas AV pulmonares. estudio de patología de venas pulmonares. PATOLOGIA AORTICAAGUDAYCRONICA: Sospecha de disección aórtica. Prequirúrgico del aneurisma de Aorta. Resumen de HC orient",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos. Incluye: Honorarios y Gastos.\nREQUISITOS: CARACTERÍSTICAS PREOCUPANTES: ECOENDOSCOPIA Y EVENTUALPUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE LTO RIESGO: CONDUCTA QUIRÚRGICA PRIMERA ELECCIÓN (NO ECOENDOSCOPÍA NIPUNCIÓN). Obstrucción del Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO IMAGENOLÓGICO (NO ECOENDOSCOPÍA NI PUNCIÓN): TODOS LOSPACIENTESCON QUISTES MENORES DE 3 CM, SIN CARACTERISTICASPREOCUPANTES . REQUISITOS: Resumen de historia clínica orientado a la patología. RMIde abdomen o colangio RMI",
       "coseguro": "11"
     },
     {
       "code": "18.50.02",
       "description": "ECOGRAFÍA DE CADERA",
-      "normativa": "INCLUYE: Honorarios y Gastos. SINUSOTOMIA+SEPTUMPLASTIAPOR VIDEO Honorarios y Gastos. Uso de vídeo. SINUSOTOMIACONFIBRAÓPTICAYVIDEOSCOPÍA Honorarios y Gastos. Uso-de video. II TACCEREBRAL Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios_y Gastos. Honorarios y Gastos. TACDECOLUMNA Honorarios y Gastos. TACDE OTROSORGANOSOREGIONES Honorarios y Gastos. Honorarios y Gastos. TAC GINECOLOGICAREFORZADA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC MAMARIA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC TORÁCICA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC VEJIGA Y PROSTATA REFORZADA Honorarios y Gastos. TEST DECAMINATA6' Honorarios y Gastos. TESTDECAMINATA6' CON OXIGENO [ Honorarios y Gastos. Criterios de autorización: para valoración de estrategia terapéutica en HTP la TEST DE VASOREACTIVIDAD PULMONAR C/REGISTRO DE (excepcional// 2a) Pensión en habitación compartida. Evaluación pre, intra y post Gastos. «5 C■I co c., .- in o c5 q 9 c! ,01) ° CD ci .«- .ci ci ci o) o o on a1 o Ir) cti co cli uri IP c.Ci •hr j 09 cn cg cg c.\" 19 cn ,-<-ci a) ci cm o 9 in co cn\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VAL",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nREQUISITOS: CARACTERÍSTICAS PREOCUPANTES: ECOENDOSCOPIA Y EVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared 'quística. Wirsung entre 5 — 9 mm, ca mbio a brupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un crec imiento del quiste > 5 mm en dos a ños. ESTIGMASDE ALTORIESGO: CONDUCTA QUIRÚRGICA PRIMERA ELECCIÓN (NO ECOENDOSCOPÍANIPUNCIÓN). Obstrucción del Wirsung con lesión en cabeza pancreática. Wirsung >10 mm. SEGUIMIENTO IMAGENOLÓGICO (NOECOENDOSCOPÍA NI PUNCIÓN): TODOS LOS PACIENTES CON Q UISTESMENORES DE 3CM, SIN CARACTERISTICAS PREOCUPANTES. REQUISITOS: Resumen de historia clínica orientado a la patología. RMI de a bdomen o RMI colangio",
       "coseguro": "11"
     },
     {
       "code": "18.50.03",
       "description": "ECOGRAFÍA INTRAOPERATORIA",
-      "normativa": "Incluye: Honorarios y Gastos Incluye: Honorarios y Gastos. ECOGRAFÍA PANCREATICA O SUPRARRENAL Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIA DIGANOSTICA (PEDIATRICAQUEMADOCON RIESGODE COMPROMISODE VIA AÉREA) . ADULTO) REQUISITOS: RESUMENDE HISTORIACLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORME E IMAGEN) U OTRO ESTUDIO POR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTODE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONES O MALFORMACIONES DE LA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (PEDIATRICAVÍA AÉREA (presentar estudios que lo documenten). REQUISITOS: ADIULTO) RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX U OTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica Re• uisitos enerales: Resumen de historia clínica orientado a la patología. Estudios de laboratorio y de imágenes según sospecha diagnostica (estudios de anemia, reactantes de fase aguda, endoscopías, tomografías, etc). Indicaciones: 1) Sospecha de tumores o pólipos de intestino delgado. Requisitos: Resumen de HC orientado a la prestación, estudios por imágenes realizados. 2) Sospecha de ENTEROCLISIS BAJO TAC estenosis parcial de intestino delgado. Requisitos: Resumen de HC orientado a la prestación, estudios por imágenes realizados que orienten a esta sospecha. 3) Evaluación de complicaciones, extensión y gravedad de Enfermedadde Crohn y Evaluación de hemorragia digestiva de origen oscuro. Requisit",
       "coseguro": "11"
     },
     {
       "code": "18.50.04",
       "description": "ECOGRAFÍA ENDOANAL",
-      "normativa": "Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. 18.50.01ECOGRAFÍA CON TRANSLUCENCIA NUCAL Incluye: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación EMBOLIZACIÓNSELECTIVA ARTERIALPERIFERICA (EXCLUYEC compartida (Por Cartera perstacional) INDICACIONES: DECANULACIÓNDETRAQUEOSTOMIA, BAL para citología o cultivo, SOSPECHADEPATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIASRECURRENTES, GRAN QUEMADOCONRIESGODE COMPROMISO ENDOSCOPIARESPIRATORIADIGANOSTICA (PEDIATRICA-ADUL DEVIAAÉREA) .\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMIA, BAL para citología o cultivo, SOSPECHADEPATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIASRECURRENTES, GRAN QUEMADOCONRIESGODE COMPROMISO ENDOSCOPIARESPIRATORIADIGANOSTICA (PEDIATRICA-ADUL DEVIAAÉREA) . REQUISITOS: RESUMENDEHISTORIACLINICA ORIENTADOA LA PRESTACIÓN. RADIOGRAFÍA DETÓRAXFRENTE (INFORMEE IMAGEN) UOTRO ESTUDIO POR IMAGEN QUEPRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DEESTENOSI",
       "coseguro": "11"
     },
     {
@@ -874,71 +776,62 @@ const searchData = {
     {
       "code": "18.50.06",
       "description": "ECOGRAFÍA OTRAS REGIONES",
-      "normativa": "Incluye: Honorarios y Gastos Incluye: Honorarios y Gastos. ECOGRAFÍA PANCREATICA O SUPRARRENAL Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos 118.50.06 ECOGRAFÍAOTRASREGIONESIncluye: Honorarios y Gastos. ECOGRAFÍA PANCREATICA O SUPRARRENALIncluye: Honorarios y Gastos. ECOGRAFÍA PARALAAMNINOCENTESIS Incluye: Honorarios y Gastos. 118.50.85 ECOGRAFIARENOVESICOPROSTATICACOMPLETA Incluye: Honorarios y Gastos. 118.01.10 ECOGRAFÍA TIROIDEA Incluye: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstac ional)\nREQUISITOS: DECANULACIÓN DETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOG ÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIADIGANOSTICA Q UEMADO CON RIESGO DE COMPROMISO DE VIA AÉREA) . (PEDIATRICA-ADULTO) REQUISITOS: RESUMEN DE HISTORIA CLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAF ÍA DE TÓRAX FRENTE ( INFORME E IMAGEN) U OTRO ESTUDIO POR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (p resentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DELESIONES O MALFORMACIONES DELA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten). REQUISITOS: RESUMEN DE (PEDIATRICA-ADIULTO) HISTORIA CLÍNICA ORIENTADO ALA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SIFUEREALIZADA). TAC DE T ÓRAX U OTRO ESTUDIO QUEDOCUMENTELAPATOLOGÍA. Corresponde: Honorarios 70% y Gastos",
       "coseguro": "11"
     },
     {
       "code": "18.50.09",
       "description": "ECOGRAFÍA ENDOCAVITARIA PROSTÁTICA",
-      "normativa": "INCLUYE: Honorarios Médicos, Derechos, Uso de bomba infusora. Honorarios Médicos, Derechos, Uso de bomba infusora. Pensión (Sillón). Honorarios y derechos. Aguja ATEC Honorarios y Gastos. Aguja de Punción. Sala de recuperación. Honorarios y Gastos. PROGESTERONA - HER2NEW - KI-67 - JAK2) Honorarios y Gastos. Aguja de Punción. Honorarios neurocirugía, derechos, medicamentos y descartables. Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. Honorarios y Gastos, por mama, por lesión Excluye,: Anatom ía Patológica. Honorarios y Gastos, por mama, por lesión Honorarios y Gastos. Honorarios y Gastos. calibración de CPAP Honorari\nEXCLUYE: Pensión en habitación compartida . Medicamentos Oncológicos a (cargo de lapos). Medicamentos Oncológicos (a cargo de lapos). Criterios de autorización: biopsia nódulos mamarios definidos, como opción no quirúrgica. Anatomía patológica. Anestesia. Estudio de LCR. RECEPTORES CON TÉCNICA INMUNOHISTOQUÍMICA (ESTRÓGENO - Pensión en habitación compartida. Medicamentos Oncológicos a cargo de lapos. Pensión, anatomía patológica, cultivos. Alquiler marco estereotáxico por parte de la Institución Prestadora: OCT/22 $ 28.754, NOV/22 $ 29.703 Y DIC/22 $ 30.654 y Aguja de punción: OCT/22 $ 15.210, NOV/22 $ 15.712 Y DIC/22 16.214). Anatom ía Patológica, pensión en habitación compartida. Anatom ía Patológica, pensión en habitación) compartida. Anatomía) Patológica. Anatomía Patológica.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "18.50.40",
       "description": "ECO-DOPPLER VASCULAR FETAL",
-      "normativa": "Incluye: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: LOS MATERIALES NECESARIOS (SET DRENAJE BILIAR PERCUTANEO) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TAC O ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. ECO-DOPPLER CARDÍACO COLOR",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. 118.03.01 1ECO-DOPPLERCARDIACOCOLOR [Incluye: Honorarios y Gastos. ECO-DOPPLEROTRASREGIONES [Incluye: Honorarios y Gastos. 118.04.021ECO-DOPPLERTRANSESOFÁGICO COLOR Incluye: Honorarios y Gastos. 118.50.40 1 ECO-DOPPLERVASCULARFETAL [Incluye: Honorarios y Gastos. 118.02.02 ECO-DOPPLERVASCULARPERIFÉRICO [Incluye: Honorarios y Gastos. ECOCARDIOGRAMA COMPLETOAM y B 118.03.02 ECOCARDIOGRAMA DE STRESSFÍSICOO FARMACOLÓGICOIncluye: Honorarios , Gastos y Medicamentos. La realización o no de la punción diagnóstica quedará sujeto a auditoría posterior, según protocolo. En caso de realizarse punción diagnóstica la misma deberá realizarse en el mismo procedimiento, y gestionarse el elemento (aguja de puncion especifica) por la vía CARACTERÍSTICASPREOCUPANTES: de reposición. INDICACIONES: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTERISTICASPREOCUPANTES .\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo\nREQUISITOS: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTERISTICASPREOCUPANTES . REQUISITOS: Resumen de historia clínica orientado a la patología. RMI de abdomen o colan • io RMI 1",
       "coseguro": "11"
     },
     {
       "code": "18.50.41",
       "description": "ECO-DOPPLER OTRAS REGIONES",
-      "normativa": "Incluye: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: LOS MATERIALES NECESARIOS (SET DRENAJE BILIAR PERCUTANEO) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TAC O ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. ECO-DOPPLER CARDÍACO COLOR",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: LOSMATERIALES NECESARIOS (SET DRENAJE BILIAR PERCUTANEO) PARA LA PRÁCTICAS, ESTARÁNACARGO DE I.A.P.O.S., SEGÚN NORMATIVASY PROTOCOLOSVIGENTES. TACO DRENAJE PERCUTÁNEOBILIAR ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZARELPROCEMIENTO. PENSION (HASTA1 DIA) EN PROCEDIMIENTOSPROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. 18.03.01ECO-DOPPLERCARDÍACOCOLOR\nREQUISITOS: CARACTERÍSTICAS PREOCUPANTES: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTO RIESGO: CONDUCTA QUIRÚRGICA PRIMERA ELECCIÓN (NO ECOENDOSCOPÍA NI PUNCIÓN). Obstrucción del Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO IMAGENOLÓGICO (NO ECOENDOSCOPÍA NI PUNCIÓN): TODOSLOSPACIENTESCON QUISTES MENORES DE 3 CM, SIN CARACTERISTICAS PREOCUPANTES . REQUISITOS: Resumen de historia clínica orientado a la patología. R",
       "coseguro": "11"
     },
     {
       "code": "18.50.80",
       "description": "PUNCIÓN BIOPSIA DE OVARIO BAJO ECOGRAFÍA",
-      "normativa": "Incluye: Pensión, Videoesofagogastroduodenofibroscopia diagnóstica (VEDA). Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye calibración de CPAP POTENCIALES EVOCADOS Incluye: Honorarios y Gastos. 1PRICK TEST Incluye: Honorarios +Gastos +Materiales. 118.50.80'PUNCIÓN BIOPSIA DEOVARIO BAJO ECOGRAFÍA Incluye: Honorarios y Gastos.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS*En caso de realizarse en internación se permitirá facturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado 129.02.02IPOLISOMNOGRAFÍA",
       "coseguro": "28"
     },
     {
       "code": "18.50.81",
       "description": "PUNCIÓN BIOPSIA DE PRÓSTATA BAJO ECOGRAFÍA",
-      "normativa": "Incluye: Pensión, Videoesofagogastroduodenofibroscopia diagnóstica (VEDA). Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye calibración de CPAP POTENCIALES EVOCADOS Incluye: Honorarios y Gastos. 1PRICK TEST Incluye: Honorarios +Gastos +Materiales. 118.50.80'PUNCIÓN BIOPSIA DEOVARIO BAJO ECOGRAFÍA Incluye: Honorarios y Gastos.\nEXCLUYE: Anatomía Patológica. 118.50.81 'PUNCIÓN BIOPSIA DE PRÓSTATA BAJO ECOGRAFIA Inclu e: Honorarios y Gastos. Excluye: Anatomía Patológica. 118.50.82'PUNCIÓN BIOPSIA DE TIROIDES BAJO ECOGRAFÍA",
       "coseguro": "28"
     },
     {
       "code": "18.50.82",
       "description": "PUNCIÓN BIOPSIA DE TIROIDES BAJO ECOGRAFÍA",
-      "normativa": "Incluye: Honorarios neurocirugía, derechos, medicamentos y descartables. | Excluye: Pensión, anatomía patológica, cultivos. Alquiler marco estereotáxico por parte de la Institución Prestadora: AGO/23 $ 48.108, SET/23 $ 50.033, OCT/23 $ 52.034, NOV/23 $ 53.595 y DIC/23 $ 55.203 y Aguja de punción: AGO/23 $ 25.446, SET/23 $ 26.464, OCT/23 $ 27.523, NOV/23 $ 28.348 y DIC/23 $ 29.199). PUNCIÓN BIOPSIA PERCUTÁNEA POR TAC",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye calibración de CPAP POTENCIALES EVOCADOS Incluye: Honorarios y Gastos. 1PRICK TEST Incluye: Honorarios +Gastos +Materiales. 118.50.80'PUNCIÓN BIOPSIA DEOVARIO BAJO ECOGRAFÍA Incluye: Honorarios y Gastos.\nEXCLUYE: Anatomía Patológica. 118.50.81 'PUNCIÓN BIOPSIA DE PRÓSTATA BAJO ECOGRAFIA Inclu e: Honorarios y Gastos. Excluye: Anatomía Patológica. 118.50.82'PUNCIÓN BIOPSIA DE TIROIDES BAJO ECOGRAFÍA",
       "coseguro": "28"
     },
     {
       "code": "18.50.83",
       "description": "PUNCIÓN BIOPSIA RENAL BAJO ECOGRAFÍA",
-      "normativa": "Incluye: Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. | Excluye: Anatomía Patológica, pensión en habitación compartida. PUNCIÓN DE MAMA BAJO ECOGRAFÍA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. PUNCIÓN BIOPSIA PERCUTÁNEAPORTAC\nEXCLUYE: Anatomía Patológica, pensión en habitación compartida.",
       "coseguro": "28"
     },
     {
       "code": "18.50.84",
       "description": "PUNCIÓN DE MAMA BAJO ECOGRAFÍA",
-      "normativa": "Incluye: Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. | Excluye: Anatomía Patológica, pensión en habitación compartida. PUNCIÓN DE MAMA BAJO ECOGRAFÍA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en ha bitación compartida. Honora-los Médicos, Derechos de Hemodinámia, Prácticas de Rx . Medicamentos, Sustancia de Contraste y Material Desca rtable especifico, Exc luye:1 Cualquier otro procedimiento adicionai. Anestesia, TAC, RMN, Observaciones: En caso de complicaciones se factura toda la internación por prestación.\nEXCLUYE: Anestesia. I",
       "coseguro": "28"
     },
     {
       "code": "18.50.85",
       "description": "ECOGRAFIA RENOVESICOPROSTATICA COMPLETA",
-      "normativa": "INCLUYE: Pensión en habitación compartida. Honorarios Médicos de todo el equipo, Gastos, Punción, Anatomía Patológica, Laboratorio, BIOPSIA HEPÁTICA POST-TRANSPLANTE HEPÁTICO Radiología, Medicamentos y Material Descartables inherentes al procedimiento. Honorarios y Gastos. Anatomía Patológica. Honorarios y Gastos. Medicación Específica. Honorarios y Gastos. Codificar REGIÓN según Nomenclador 6DIAS DE PENSION (1 () D 45 i z as u) u) u) T LU LU 15„•,- (n- M Z69- CO U.1 y) -cii U) >, nig? a) (T) M ft <1.) __10 O 'O C> - _ITD a a -(1003 O rr) .--, \" CAO r.i O MI -O c = = . - a) LiE1om 113 1 c., -, . O,,, „ co in O E co -00 ,ca- _6,11 8 a3 2 cr N O w ,_ -\")<I O --- „, 2 _O 0 ddoo 0 11,wc- ED--00o .-5 ,- o 0 >(n om ro o a)D >, ,.. o _-c onso c)),, O , 0 u) ,_ _ 0 £1_3 (D -•-• (11) .n3 -'-' Z 16 _ _ -'' u) C u Oj nicm Z U(1) cw Oa 12 ‘-' c ya 0 n -EL --- -c,Ej CL ( _.- = 0. > 2w0c0 11 --co= . ../..woet -sm oBomg c „,woz 0 E-, u ,2w ozw- co trro '.1 1-1-'''' ° o_ 0,1&11 -1WIB2151 u) =I 157:82 (/),,a 1,2 -Nzu,=->„ 13= a,1-ar m -0_00.0- E - 1,, 91>-oE u,a0->„1511111.43—.9111 71) 735 m 0_,_ (» .,_. co co 2,0 o o o - .=11(r<owmpomEm.mm,g. r o 2 u-li- m = =‹),J).--015 O 1- O 9 Z 16 Cl 2 E 24 C i,.<- u_ < ° 9 Q) 6 CL :1 - -2; g .2 : g 735 t .1 3 -.z .. _a.co> > - W3 iwi'•E o(Dcm 017)/(jo cinoascoEinzc2w Ow iliwir) pcnBmcmw< o?loom,I,E212.c8 el_TT\nEXCLUYE: Anestesia, Medicación Inmunodepresora. BIOPSIA MUSCULAR POR M.E. Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional 0041 • N N ' c)•• Cgías de malformaciones congénitas cardiácas, cirugías de revascularización miocardicas, cirugía de reemplazo valvular, PREaneurisma de aorta torácica.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos 118.50.06 ECOGRAFÍAOTRASREGIONESIncluye: Honorarios y Gastos. ECOGRAFÍA PANCREATICA O SUPRARRENALIncluye: Honorarios y Gastos. ECOGRAFÍA PARALAAMNINOCENTESIS Incluye: Honorarios y Gastos. 118.50.85 ECOGRAFIARENOVESICOPROSTATICACOMPLETA Incluye: Honorarios y Gastos. 118.01.10 ECOGRAFÍA TIROIDEA Incluye: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstac ional)\nREQUISITOS: DECANULACIÓN DETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOG ÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIADIGANOSTICA Q UEMADO CON RIESGO DE COMPROMISO DE VIA AÉREA) . (PEDIATRICA-ADULTO) REQUISITOS: RESUMEN DE HISTORIA CLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAF ÍA DE TÓRAX FRENTE ( INFORME E IMAGEN) U OTRO ESTUDIO POR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (p resentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DELESIONES O MALFORMACIONES DELA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten). REQUISITOS: RESUMEN DE (PEDIATRICA-ADIULTO) HISTORIA CLÍNICA ORIENTADO ALA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SIFUEREALIZADA). TAC DE T ÓRAX U OTRO ESTUDIO QUEDOCUMENTELAPATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica",
       "coseguro": "11"
     },
     {
@@ -951,176 +844,152 @@ const searchData = {
     {
       "code": "20.01.11",
       "description": "MANOMETRÍA ESOFÁGICA",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos, descartables. | Excluye: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - E",
       "coseguro": "20"
     },
     {
       "code": "20.01.22",
       "description": "VIDEOESOFAGOGASTRODUODENOFIBROSCOPÍA (VEDA)",
-      "normativa": "Incluye: Honorarios y Gastos. Uso de video. | Excluye: Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. VIDEOHISTEROSCOPÍA DIAGNÓSTICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión hasta 1 día. Gastos-derechos qur41.gicos Uso del lapa roscopio e instrumental inherente a la práctica .:bistur bipoiar1 armónico), Honorarios médicos (corresponden a l 40'., del valor tota ll del modulo). Medicamentos. Las complicaciones devenidas lai práctica realizada esta rán a cargo dei prestador, riasta dentro de los ; 15 días, de acuerdo a l concepto de 'PATOLOGÍARET ':UELTA. Esto l incluye eventuales drenajes percutáneos de c(..cciones post1 operatorias (con Materia les necesarios), reoperacios, materiaies1 descartables y demás eiementos que estarán a cargo de: equipo que ! interv ino a l paciente.\nEXCLUYE: ANATOMIAPATOLOGICADE LA/SI PIEZA/S QUIRURGICA/S (las Diferidas, no as í las intraoperatoriasi que incluyan congelación) MATERIAL DE-SCARTABLE: UN ( 1) SOBRE DE MATERIAL I RREABSORBIBLE, MO NOFILAMENTO, DE NYLON, PARA LASÍNTESIS DE LA PIEL ENLOS SITIOS DE INGRESO DE LOS TROCARES A VALORESCONVENIDOS Y TRES (3) LIGACLIPSSISE JUSTIFICA SU UTILIZACION. . HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza!",
       "coseguro": "20"
     },
     {
       "code": "20.01.24",
       "description": "VIDEOCOLONOFIBROSCOPÍA (VCC)",
-      "normativa": "Incluye: Honorarios y Gastos. Uso de video. | Excluye: Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos. Incluye: Honorarios y Gastos de la detección\nEXCLUYE: Material\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados independientemente de su IARO. Criterios de Autorización - Par seguimiento: En mujeres bajo tratamiento de osteoporosis s reconoce una DMO por año para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del añ del estudio previo ya que el tratamiento es a muy largo plazo y lo resultados son de poca magnitud. Sila DMO es normal (T scor mayor a -1) se reconocerá su repetición luego de 3 años. Sila DMO da por encima del valor normal no se reconocerá ningún seguimient posterior. Se recomienda realizar DMO (S/la USPreventive Services TaskForce(USPSTF) en: Mujeres mayores de 65 años en forma rutinaria. Mujeres, a partir de los 60 años, con riesgo incrementado para fracturas osteoporóticas. Se recomienda realizar DMO(S/I National Osteoporosis Foundation (NOF) en: Toda mujer < 65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años.",
       "coseguro": "24"
     },
     {
       "code": "20.01.26",
       "description": "RECTOSIGMOIDEOFIBROSCOPÍA",
-      "normativa": "Incluye: Honorarios y Gastos. Medicamentos y Materiales Descartables inherentes al procedimiento. Simulación, Planificación, Radiografías, Tac y Aplicaciones. Pensión en habitación compartida. | Excluye: Anestesia. RECEPTORES CON TÉCNICA INMUNOHISTOQUÍMICA",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: SUST.CONTRASTE) TAC HEPATOBILIAR REFORZADA ( EXCLUYESUSTCONTRASTE) TAC HEPATOBILIAR, ESPLENICA, PANCREÁTICA, RENAL SUPRARRENAL 34. 10.Uti Ac",
       "coseguro": "20"
     },
     {
       "code": "20.01.34",
       "description": "POLIPECTOMÍA ENDOSCÓPICA GÁSTRICA",
-      "normativa": "Incluye: Pensión, Videoesofagogastroduodenofibroscopia diagnóstica (VEDA). Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión, Videoesofagogastroduodenofibropia diagnóstica (VEDA). Uso de endoscopio e instrumenta l inhererWaka.: práctica, Honora rios médicos (corresponden a l 40% del total del modulo), Medicamentos y Materiales desca rta bles. Eiyé:‘ • Honorarios a nestesia, Elementos médicos específicos de ac4hr-ao patología seg ún normativas IAPOS.\nEXCLUYE: Honora rios anestesia, Eleryklgt94médicos específicos de acuerdo a patología según normativa 1 IAPOS.",
       "coseguro": "30"
     },
     {
       "code": "20.01.35",
       "description": "POLIPECTOMÍA ENDOSCÓPICA COLÓNICA",
-      "normativa": "Incluye: Pensión, Videocolonofibroscopia diagnóstica (VCC). Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 1/2 pensión (hasta 12hs)'\nEXCLUYE: sala de recuperación (se conserva exclusión de módulo).",
       "coseguro": "35"
     },
     {
       "code": "20.05.01",
       "description": "PH METRÍA ESOFÁGICA EN LACTANTES",
-      "normativa": "Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos, canastilla y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. PDF (PRODUCTO DEGRADACION DE FIBRINOGENO) PH METRÍA ESOFÁGICA EN LACTANTES",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión, Videoesofagogastroduodenofibropia diagnóstica (VEDA). Uso de endoscopio e instrumenta l inhererWaka.: práctica, Honora rios médicos (corresponden a l 40% del total del modulo), Medicamentos y Materiales desca rta bles. Eiyé:‘ • Honorarios a nestesia, Elementos médicos específicos de ac4hr-ao patología seg ún normativas IAPOS.\nEXCLUYE: Honora rios anestesia, Eleryklgt94médicos específicos de acuerdo a patología según normativa 1 IAPOS.",
       "coseguro": "20"
     },
     {
       "code": "20.50.01",
       "description": "BIOPSIA HEPÁTICA POST-TRANSPLANTE HEPÁTICO",
-      "normativa": "Incluye: Pensión en habitación compartida. Honorarios Médicos de todo el equipo, Gastos, Punción, Anatomía Patológica, Laboratorio, Radiología, Medicamentos y Material Descartables inherentes al procedimiento. | Excluye: Anestesia, Medicación Inmunodepresora.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios y gastos. INDICACIONES: FIBRILACION AURICULAR CRONICA NO VALVULAR CON ALTO RIESGO TROMBOEMBÓLICO + CONTRAINDICACIÓN ABSOLUTA DE ANTICOAGULACIÓN (determinada por especialista en hematología).\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional BIOPSIA DE VELLOSIDADES CORIÓNICAS\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICA ORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMADOPPLER (ORMN) CON MEDICIONES E INFORME.",
       "coseguro": "BQ"
     },
     {
       "code": "20.50.02",
       "description": "MANOMETRÍA ANORECTAL",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos, descartables. | Excluye: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Es",
       "coseguro": "20"
     },
     {
       "code": "20.50.03",
       "description": "VIDEODEGLUCIÓN",
-      "normativa": "Incluye: Honorarios y Gastos. Uso de video. | Excluye: Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión hasta 1 día. Gastos-derechos qur41.gicos Uso del lapa roscopio e instrumental inherente a la práctica .:bistur bipoiar1 armónico), Honorarios médicos (corresponden a l 40'., del valor tota ll del modulo). Medicamentos. Las complicaciones devenidas lai práctica realizada esta rán a cargo dei prestador, riasta dentro de los ; 15 días, de acuerdo a l concepto de 'PATOLOGÍARET ':UELTA. Esto l incluye eventuales drenajes percutáneos de c(..cciones post1 operatorias (con Materia les necesarios), reoperacios, materiaies1 descartables y demás eiementos que estarán a cargo de: equipo que ! interv ino a l paciente.\nEXCLUYE: ANATOMIAPATOLOGICADE LA/SI PIEZA/S QUIRURGICA/S (las Diferidas, no as í las intraoperatoriasi que incluyan congelación) MATERIAL DE-SCARTABLE: UN ( 1) SOBRE DE MATERIAL I RREABSORBIBLE, MO NOFILAMENTO, DE NYLON, PARA LASÍNTESIS DE LA PIEL ENLOS SITIOS DE INGRESO DE LOS TROCARES A VALORESCONVENIDOS Y TRES (3) LIGACLIPSSISE JUSTIFICA SU UTILIZACION. . HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza!",
       "coseguro": "20"
     },
     {
       "code": "20.50.06",
       "description": "ECOENDOSCOPIA BILIOPANCREÁTICA CON O SIN PUNCIÓN",
-      "normativa": "INCLUYE: Honorarios, Gastos y Asa de Leep. Honorarios Honorarios y Ga stos. Si es por dos regiones, se factura 50% adicional. Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. El monto y Honorarios y Gastos.\nEXCLUYE: Pensión en habitación compartida. Pensión, Gastos Sanatoriales, Set completo con guia y cateter doble J a cargo de IAPOSde acuerdo a PROTOCOLOVIGENTE. Criterios de Autorización - Para Diagnóstico: mujeres que tengan un puntaje IARO igual o mayor a 9 mas a lguno de los factores de riesgo y q ue estén dispuestas a rea lizar trata miento o no tengan contra Material Rad iactivo (valor CEDIM Interior) a cargo de la ca rtera prestacional de acuerdo a DG IAPOS vigente. DENTASCAN POR TCV MULTISLICEUNMAXILAR\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo trata miento de osteoporosis se reconoce una DMO por a ño para seguimiento, aunque lo indicado sería repetirla no a ntes de los 2 a ños. No se reconoce a ntes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca mag nitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de 3 años. S i la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior. Se recomienda realizar DMO (S/la US Preventive Services TaskForce(USPSTF) en: Mujeres mayores de 65 a ños en forma rutinaria. Mujeres, a pa rtir de los 60 años, con riesgo incrementado para fracturas osteoporóticas. Se recomienda realizar DMO (S/la National Osteoporosis Foundation ( NOF) mujer < 65 años que tiene uno o más factores de riesgo4ára fractu ra. Todas las mujeres mayores de 65 años.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "20.50.04",
       "description": "MODULO VIDEOENDOSCOPIA DIGESTIVA ALTA Y BAJA (VEDA + VCC)",
-      "normativa": "Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Criterios de autorización: patología inflamatoria, tumoral y funcional, que afecta el canal anal, recto inferior, tabique recto vaginal y suelo pelviano, adjuntando descripción semiológica y otros estudios previos Incluye: Honorarios y gastos. Incluye: Honorarios y Gastos.\nREQUISITOS: Resumen de historia clínica orientado a la patología. RMI abdomen o colangio RMI",
       "coseguro": "BQ"
     },
     {
       "code": "20.90.01",
       "description": "COLOCACIÓN DE ENDOPRÓTESIS ESOFAGICA",
-      "normativa": "Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. COLOCACIÓN O EXTRACCIÓN DE CATETER DOBLE J",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión, Uso de endoscopio e instrumenta l inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales\nEXCLUYE: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por a ño para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de, 3 años. Si la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior. Se recomienda realizar DMO (S/la USPreventive Services Task Force(USPSTF) en: Mujeres ma",
       "coseguro": "BQ"
     },
     {
       "code": "20.90.02",
       "description": "DILATACIÓN ESOFÁGICA ENDOSCOPICA",
-      "normativa": "Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios. Uso de aparato Gamma Probe (ALQUILER=$1800).\nEXCLUYE: Pensión. Material radiactivo, centellograma linfático. Anestesia.\nREQUISITOS: para el mismo Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por año para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de 3 años Si la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior Se recomienda realizar DMO (S/la US Preventive Services Task Force(USPSTF) en: Mujeres mayores de 65 años en forma rutinaria. Mujeres, a partir de los 60 años, con riesgo incrementado para fracturas osteoporóticas. Se recomienda realizar DMO (S/la National Osteoporosis Foundation (NOF) en: Toda mujer < 65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años. In",
       "coseguro": "20"
     },
     {
       "code": "20.90.03",
       "description": "DRENAJE PERCUTÁNEO BILIAR",
-      "normativa": "Incluye: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: LOS MATERIALES NECESARIOS (SET DRENAJE BILIAR PERCUTANEO) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TAC O ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. ECO-DOPPLER CARDÍACO COLOR",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: Honorarios ailestesla, Elementos m€dlcos especificos de acuei.do a\nREQUISITOS: CARACTER[STICAS PREOCuPANTES! ECOENDOSCOPIA Y",
       "coseguro": "BQ"
     },
     {
       "code": "20.90.04",
       "description": "ENTEROCLISIS BAJO TAC",
-      "normativa": "Incluye: Honorarios y Gastos. ESCLEROSIS DE LESIÓN SANGRANTE GÁSTRICA O ESOFÁGICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación EMBOLIZACIÓNSELECTIVA ARTERIALPERIFERICA (EXCLUYEC compartida (Por Cartera perstacional) INDICACIONES: DECANULACIÓNDETRAQUEOSTOMIA, BAL para citología o cultivo, SOSPECHADEPATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIASRECURRENTES, GRAN QUEMADOCONRIESGODE COMPROMISO ENDOSCOPIARESPIRATORIADIGANOSTICA (PEDIATRICA-ADUL DEVIAAÉREA) .\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMIA, BAL para citología o cultivo, SOSPECHADEPATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIASRECURRENTES, GRAN QUEMADOCONRIESGODE COMPROMISO ENDOSCOPIARESPIRATORIADIGANOSTICA (PEDIATRICA-ADUL DEVIAAÉREA) . REQUISITOS: RESUMENDEHISTORIACLINICA ORIENTADOA LA PRESTACIÓN. RADIOGRAFÍA DETÓRAXFRENTE (INFORMEE IMAGEN) UOTRO ESTUDIO POR IMAGEN QUEPRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DEESTENOSISTRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTODELESIONES OMALFORMACIONES DELA VÍAAÉREA (presentar estudios que lo documenten). ENDOSCOPIARESPIRATORIATERAPEUTICA (PEDIATRICA-ADIU REQUISITOS: RESUMENDEHISTORIACLÍNICAORIENTADOA LAPRESTACIÓN. ENDOSCOPÍADIAGNOSTICA (SIFUE REALIZADA). TACDETÓRAXUOTRO ESTUDIOQUEDOCUMENTELAPATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica",
       "coseguro": "24"
     },
     {
       "code": "20.90.05",
       "description": "ESCLEROSIS DE LESIÓN SANGRANTE GÁSTRICA O ESOFÁGICA",
-      "normativa": "Incluye: Honorarios y Gastos. ESCLEROSIS DE LESIÓN SANGRANTE GÁSTRICA O ESOFÁGICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Medicamentos y Descartable. Sala del ENTEROCLISIS BAJOTAC 'Recuperación. Anestesia. ERGOMETRÍA COMPUTARIZADA\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHADE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADOCON RIESGO DE COMPROMISODE VIA AÉREA) . REQ UISITOS: RESUMENDEHISTORIACLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORME E IMAGEN) UOTROESTUDIO POR IMAGEN QUEPRESENTE. Corresponde: Honorarios 70% y Gastos 30%del valor de la práctica",
       "coseguro": "20"
     },
     {
       "code": "20.90.06",
       "description": "ESCLEROSIS DE VÁRICES ESOFÁGICAS",
-      "normativa": "Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios, ESCISION DE LESION CONJUNTIVA medicamentos y descartables. No se reconoce la lanestesia general dincluye: Honorarios y Gastos. Uso de Video.\nEXCLUYE: ESCLEROSIS DE LESIÓN SANGRANTE GÁSTRICA 1Pensión en habitación compartida. Endoscopía ESOFÁGICA Anestesia. Medicamentos y Descartables. ENTEROCLISIS BAJO TAC",
       "coseguro": "BQ"
     },
     {
       "code": "20.90.07",
       "description": "LIGADURAS DE VÁRICES ESOFÁGICAS",
-      "normativa": "Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos inherentes a la prestación, Pruebas de Compatibilidad, 1 Serología, Materiales Descartables. Biología Molecular. Filtro. 15.50.01HIBRIDACIÓN IN SITU Incluye: Honorarios y Gastos. Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de ap",
       "coseguro": "BQ"
     },
     {
       "code": "20.90.08",
       "description": "EXTRACCIÓN CUERPO EXTRAÑO ESOFÁGICO",
-      "normativa": "Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. EXUDADO FARÍNGEO METODO RÁPIDO",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. ELECTROCARDIOGRAMADEHOLTERPOR24 HS Incluye: Honorarios y Gastos. 129.01.05 ELECTROMIOG RAFÍA CUATROMIEMBROSIncluye: Honorarios y Gastos. Material Descartable ELECTROMIOGRAFÍA DE MIEMBROS SUPERIORES O\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. ESPIROMETRÍA COMPUTADA",
       "coseguro": "20"
     },
     {
       "code": "20.90.09",
       "description": "MÓDULO QUIMIOEMBOLIZACIÓN DE NÓDULOS HEPÁTICOS",
-      "normativa": "Incluye: Pensión hasta 2 días. Cateterismo y arteriografía selectiva de la zona de probable sangrado. Embolización. Medicamentos y descartables inherentes a la práctica. Catéteres. Honorarios médicos, hemodinamista, radiólogo. | Excluye: LIPIODOL POR 2(DOS) AMPOLLAS Y DROGA CITOSTATICA POR FARMACIA. CATETER CORRESPONDIENTE (GESTION COMPRAS IAPOS). Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Cateterismo y arteriografía selectiva de la zona 'de probable sangrado. Embolización. Medicamentos y descartables inherentes a la práctica. Catéteres. Honorarios médicos, hemodinamista, radiólogo. Pensión: 3 días en habitación compartida.\nEXCLUYE: Droga citostática. Anestesia.\nREQUISITOS: Litiasis renales > 2 cm - Litiasis renales <, 2 cm con contraindicación para litotricia extracorpóreal (embarazo, MCP, insuficiencia renal severa, coagulopatíal severa o anticoagulación en curso) - Litiasis coraliforme completa o incompleta no tratable por vía extracorpórea Inclusiones: Honorarios y gastos (",
       "coseguro": "BPE"
     },
     {
       "code": "20.90.10",
       "description": "COLOCACIÓN DE ENDOPROTESIS EN LA VIA BILIAR POR VIA ENDOSCOPICA",
-      "normativa": "Incluye: Honorarios y Gastos Operatorios. 24 hs. UTI y/o UCO, medicamentos y descartables inherentes al procedimiento. | Excluye: Anestesia, resto de días de Pensión, cualquier prestación ajena la procedimiento. Endoprótesis (a cargo de Iapos) COLOCACIÓN DE ENDOPROTESIS EN LA VIA BILIAR POR VIA ENDOSCOPICA",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: Material Radlactlvo (valor CEDIM Interior) a cargo de la cartera prestaclonal",
       "coseguro": "BQ"
     },
     {
       "code": "20.90.11",
       "description": "USO DE ARGÓN PLASMA",
-      "normativa": "Incluye: Honorarios. Incluye: Honorarios. URETRORENOSCOPÍA SUPERIOR Incluye: Honorarios. Incluye: Honorarios y Gastos . Indicaciones: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos. Incluye: Honorarios – Derechos - Uso de aparatología, ⅓ de la sonda/catéter y elementos específicos | Excluye: Endoscopía - Anestesia - Medicamentos - Sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Uso de video. Incluye: Honorarios. Incluye: Honorarios. Incluye: Honorarios. Incluye: Honorarios y Gastos\nEXCLUYE: Endoscopía - Anestesia - Medicamentos - Sala ae recuperación.\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "BQ"
     },
     {
       "code": "20.90.12",
       "description": "MUCOSECTOMÍA ENDOSCÓPICA",
-      "normativa": "Incluye: Honorarios y gastos. Equipamiento de monitoreo. Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos (incluye uso de quirófano, video y todo el instrumental específico inherente al procedimiento)\nEXCLUYE: Pensión — Anestesia — de Contraste — Catéter Doble J Medicamentos y descartables — Material\nREQUISITOS: Sospecha de HTA guardapolvo blanco (3 mediciones en consultorio > ó = 140/90 mmHg con 3 mediciones fuera del consultorio <140/90 sin evidencia de daño en órgano blando, Sospecha de HTA episódica o HTA sistólica aislada en >60 años, HTA MONITOREOAMBULATORIODE LATENSIÓNARTERIAL - PRESL resistente (en pacientes tratados con dosis máximas de 3 o más medicamentos), Sospecha de episodios hipotensivos relacionados a medicación o síndromes neurológicos, Disfunsión autonómica. Profesionales autorizados; cardiólogos.",
       "coseguro": "BQ"
     },
     {
       "code": "20.90.18",
       "description": "MÓDULO RECAMBIO BOTON GASTRICO",
-      "normativa": "Incluye: Honorarios profesionales (valor dos consultas médicas). | Excluye: Botón de Gastrostomía a cargo de IAPOS",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos. Equipamiento de monitoreo.\nEXCLUYE: LIPIODOL POR 2(DOS) AMPOLLAS Y DROGA CITOSTATICA POR FARMACIA. CATETER CORRESPONDIENTE (GESTION COMPRAS IAPOS). PENSION HASTA 2 DIAS. Anestesia.\nREQUISITOS: Sospecha de HTA guardapolvo blanco (3 mediciones en consultorio > ó = 140/90 mm Hg con 3 mediciones fuera del consultorio < 140/90 sin evidencia de daño en órgano blando, Sospecha de HTA episódica o HTA MONITOREO AMBULATORIO DE LA TENSIÓN ARTERI sistólica aislada en > 60 años, HTA resistente (en pacientes tratados con dosis máximas de 3 o más medicamentos), Sospecha de episodios hipotensivos relacionados a medicación o síndromes neurológicos, Disfunsión autonómica. Profesionales autorizados; cardiólogos.",
       "coseguro": "20"
     },
     {
@@ -1133,64 +1002,55 @@ const searchData = {
     {
       "code": "21.01.04",
       "description": "ANALISIS CROMOSOMICO DE CARIOTIPO SIMPLE",
-      "normativa": "Incluye: Pensión hasta 2 días. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de HRS. Medicamentos y Material Descartable inherente a la práctica.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la practica. Anestesia.\nREQUISITOS: Tumor suprarrenal.",
       "coseguro": "20"
     },
     {
       "code": "22.01.08",
       "description": "CEPILLADO DE EPITELIO VAGINAL Y CERVICAL",
-      "normativa": "INCLUYE: Gastos-derechos quirúrgicos , Uso de Anestesia y sala de recuperación. honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos y descartables. Honorarios, gastos y set de-medicamentos,\nEXCLUYE: CCV - Valvuloplastia - Prótesis - Ortesis - Colocación de marcapaso definitivos Balón de Contrapulsación - Catéter adicionales - Hemoterapia - TAC - Eco doppler Infusión de drogas - Estudio Electrofisiológico y cualquier otra complicación que surgiere del procedimiento. Stent. Anestesia cn O AMIGDALFCTOMÍAO ADENOIDECTOMÍA „ 03. 13.01 o° laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40%del valor total del modulo ), Medicamentos. PENSION: HASTA2 (DOS) DIAS. ANATOMIAPATOLOGICA DELA /S PIEZA/S QUIRURGICA/S (las Diferidas , no asílas intraoperatorias , que incluyan congelación ) MATERIALDESCARTABLE : UN (1) SOBREDE MATERIAL IRREABSORBIBLE , MONOFILAMENTO, DE NYLON, PARALASÍNTESISDE LAPIEL ENLOS SITIOS DE INGRESO DE LOSTROCARES A VALORES CONVENIDOSY 3 (TRES) LIGACLIPS HONORARIOSANESTESIA . Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación. Anestesia, elementos protésicos (diabolo a careo de IAPOS) , ,sala de recuperación. - 07 \"3: ADRENALECTOMIA PORVIDEOSCOPIA ADENOIDECTOMÍA + MIRINGOTOMÍA ADENOIDECTOMÍA +AMIGDALECTOMÍA 0 1 PRÁCTICA NORMAS DE TRABAJOPRACTICAS MEDICAS NO NOMENCLADAS Y MODULADAS L. 3 í. cuszara ol.reso/ vp 0311:91,111191313posy oiunrpy oltvlaJogs VCIVOSVI Q cq in ; Z5 Z_:-:. ó r--: O oci O r-: Criterio de autorización: TEC y/o M.A.V. en plan de evaluación para resolución quirúrgica Material de contraste. 34.50. 17 1-,1 ó La ..:1' C\/ o ci o ozi\nREQUISITOS: Tumor suprarrenal .",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios y gastos. INDICACIONES: FIBRILACION AURICULAR CRONICA NO VALVULAR CON ALTO RIESGO TROMBOEMBÓLICO + CONTRAINDICACIÓN ABSOLUTA DE ANTICOAGULACIÓN (determinada por especialista en hematología).\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional BIOPSIA DE VELLOSIDADES CORIÓNICAS\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICA ORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMADOPPLER (ORMN) CON MEDICIONES E INFORME.",
       "coseguro": "5"
     },
     {
       "code": "23.50.01",
       "description": "DOSAJE DIMERO-D",
-      "normativa": "EXCLUYE: Practlcas y/o estudlos complementa rlos a partlr del tercer dla de internaci6n. Clrugia de revascularlzacl6n par el fracaso de la angloplastla. Otras practlcas tales como eco-doppler, estudlos electroflslol6glcos, etc. Infusl6n de drogas tronlbolltlcos. Stent. Anestesla. fa¢q`:r=EREE%.*' 5IisoSFIR5#3*¥i-k ANGIORESONANCIA !!±g!!±][g: Honorarios. Gastos y RMN Cerebral. S'88P 4dy %ca beE¥¥Zy P58'na 1 2024 2 3 DIC 2024 ---- 13 7 Criterlo gf autorizacl6n: TEC y/a M.A.V, en plan de evaluaci6n para resoliici6n ANGI OTOMOGRAFIA CRANEOYVASOSDECUELLO Materlal de Contraste lncluye: Pensl6n hasta 1 dra. Gastos-derechos qulrdrglcos, Usa de laparo5coplo e 1nstrumeiital lnherente a la pr5ctlca (blsturl blpolar, arm6nlco corresponde al 10% del valor del total del m6dulo), Honorarios medlcos (corresponden",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), DILATACIÓNESOFÁGICA ENDOSCOPICA Medicamentos y Materiales descartables.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. Sugerencia: Uno al diagnóstico de TVP - TEP. Uno a los treinta días de 1\nREQUISITOS: DESCENSOMASIVO DE PESO (postbariatrica o no) +COLGAJOSCUTÁNEOS QUE REQUIERANCORRECCIÓN POR PATOLOGÍA FUNCIONAL, EN CUALQUIERÁREADEL CUERPO (ABDOMEN, BRAZOSOMUSLOS). El plan quirúrgico establecido debe estar debidamente justificado por el profesional tratante, desde el inicio DERMOLIPECTOMÍA POSTDESCENSO MASIVODEPESO del tratamiento (requisito para la autorización de cada solicitud). REQUISITOS: RESUMENDEHISTORIACLÍNICA ORIENTADA A LA PRESTACIÓN CONDESCRIPCIÓNDECOLGAJOSYTRANSTORNO FUNCIONALQUE JUSTIFIQUE LAPRÁCTICA. FOTOGRAFÍAS DEL ÁREA AFECTADA TOMADAS PORELPROFESIONAL. Corresponde: Honorarios 70% y Gastos 30%del valor de la práctica. DETECCIÓN DE GANGLIOCENTINELA",
       "coseguro": "12"
     },
     {
       "code": "23.50.02",
       "description": "DOSAJE FACTORES K DEPEDIENTES (INCLUYE FACTORES II – VII – IX – YX)",
-      "normativa": "DOSAJE FACTORES K DEPEDIENTES (INCLUYE FACTORES II – VII – IX – YX)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: FACTORESII — VII — IX Sugerencia para todos los factores: De acuerdo a necesidad en estudio de sangrados y /\nEXCLUYE: LOS MATERIALESNECESARIOS (SET DRENAJEBILIARPERCUTANEO) PARALA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚNNORMATIVAS Y DRENAJE PERCUTÁNEO BILIAR PROTOCOLOSVIGENTES. TACOECOGRAFIA (SOLOUNA) NECESARIA PARA REALIZAR ELPROCEMIENTO. PENSION (HASTA1 DIA) ENPROCEDIMIENTOS PROGRAMADOSAMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: ECOENDOSCOPIAYEVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un ECOENDOSCOPIABILIOPANCREÁTICACONOSINPUNCIÓN crecimiento del quiste > 5 mm en dos años. ESTIGMAS DE ALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPIANIPUNCIÓN). Obstrucción Wirsung con lesión en cabeza pancreática. Wirsung > 10 mm. SEGUIMIENTO del IMAGENOLÓGICO (NOECOENDOSCOPIA NI PUNCIÓN): TODOSLOSPACIENTES CONQUISTESMENORESDE3CM, SINCARACTER",
       "coseguro": "20"
     },
     {
       "code": "23.50.03",
       "description": "ESTUDIO BASICO DE COAGULACION",
-      "normativa": "Incluye: -Hematocrito. -Recuento Plaquetario. -Frotis sangre Periférica. -Tiempo de sangría. -Tiempo plasma recalcificado. -APTT . -Tiempo de Protrombina. -Tasa de Protrombina (Quick). -Tiempo de Trombina. - Retracción del coágulo. -Fibrinógeno. -Lisis de Euglobulinas. Consumo Protombina TGT (Test generación Tromboplastina).Sugerencia: Uno al inicio del tratamiento anticoagulante. Uno en pre-quirúrgico cirugía gral. Uno en pre- quirúrgico cirugía CV. Dos en post-quirúrgico cirugia CV . Uno al inicio del estudio de coagulopatía o sangrados. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios, Gastos, Medicamentos y Mat.Descartable inherentes al procedimiento\nEXCLUYE: Pensión en habitación compartida. Anestesia.",
       "coseguro": "14"
     },
     {
       "code": "23.50.04",
       "description": "ESTUDIO BASICO DE LAS HEMOGLOBINOPATIAS",
-      "normativa": "Incluye: Test de Sickling - Cuerpos de Heinz - Electroforesis Hemoglobina en acetato - Electroforesis Hemoglobina en Agar - Cuantificación Hemoglobina Fetal - Estudio Resistencia Globular - Esferocitosis Hereditaria - Eliptocitosis - etc.- Estudio anemias Hemoliticas Congénitas. Sugerencia: Uno solo al diagnóstico. Seguimiento con módulo de seguimiento de citopénias.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Recuento de reticulocitos - Recuento de Plaquetas - Citomorfología de Sangre periférica - Ferremia (opcional) - Capacidadde saturación transferrina (opcional) Porcentaje Saturación tranferrina (opcional) - Toma de muestra. Sugerencia: Uno por mes los primeros tres meses. Luego uno cada dos meses. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. En casos de citopenias críticas (<50.000 plaquetas - < 1.500 neutrófilos o <7gr. Hemoglobina), se pueden requerir controles mas seguidos.\nREQUISITOS: Somnolencia diurna y falta de atención y concentración en los siguientes casos: hipertensos de más de 60 años, sobrepeso a cualquier edad, diabético, fumadores, stress crónico, hipertrofia amigdalina, obstrucción nasal, cuello corto y macroglosia. Autorización: Mesa de ayuda IAPOS con prescripción e historia clínica que justifique el pedido. Se habilita exclusivamente a ORL con debida acreditación. Norma de Facturación: Autorizado por informe del procedimineto. AMR Gestión junto a la prescripción y bonos. Adjuntar el 1 . Estudio inicial de coagulopatias. Preoperatorio de cirugía cardiovascular o general. Inicio del tratamiento Anticoagulante.",
       "coseguro": "20"
     },
     {
       "code": "23.50.05",
       "description": "ESTUDIO INICIAL DE CITOPENIAS AISLADAS O COMBINADAS",
-      "normativa": "Incluye: Hemograma - Recuento de Reticulocitos - Recuento de Plaquetas - Citomorfología de Sangre periférica - Ferremia - Capacidad de saturación transferina - Porcentaje saturación tansferrina - Toma de muestra. Sugerencia: Uno en la evaluación inicial de citopenias. ESTUDIO URODINÁMICO COMPLETO Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Nacional. Excluye: Material Radiactivo según valor C-EDIMInterior\nREQUISITOS: rintr^1..s d Cona.irnic.nto 'nci-,-h. , t^lógicn snün protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "13"
     },
     {
       "code": "23.50.06",
       "description": "ESTUDIO DE CITOPENIAS (SEGUIMIENTO)",
-      "normativa": "Incluye: Recuento de reticulocitos - Recuento de Plaquetas - Citomorfología de Sangre periférica - Ferremia (opcional) - Capacidad de saturación transferrina (opcional) - Porcentaje Saturación tranferrina (opcional) - Toma de muestra. Sugerencia: Uno por mes los primeros tres meses. Luego uno cada dos meses. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. En casos de citopenias críticas (< 50.000 plaquetas - < 1.500 neutrófilos o < 7gr. Hemoglobina), se pueden requerir controles mas seguidos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Test de Sickling - Cuerpos de Heinz Electroforesis Hemoglobina en acetato - Electroforesis Hemoglobina en Agar - Cuantificación Hemoglobina Fetal( - Estudio Resistencia Globular - Esferocitosis Hereditaria Eliptocitosis - etc.- Estudio anemias Hemoliticas Congénitas. Sugerencia: Uno solo al diagnóstico.' Seguimiento con módulo de seguimiento de citopénias.\nEXCLUYE: Colocación de marcapaso definitivo, Estudios' Hemodinamicos. Anestesia.",
       "coseguro": "10"
     },
     {
       "code": "23.50.07",
       "description": "PDF (PRODUCTO DEGRADACION DE FIBRINOGENO)",
-      "normativa": "INCLUYE: Honorarios y Gastos hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. Honorarios Honorarios y Gastos. Arpón Pensión en habitación compartida, Honorarios médicos, Derechos de práctica (bisturíbipolar, armónico), Honorarios médicos (corresponden al 40%del valor total riel modulo ), Medicamentos Honorados y Gastos Honorarios y Gastos. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la ANGIOTOMOGRAFIA GRANEOY VASOS DE CUELLO Anestesia. ln\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia. Cualquier otro procedimiento adicional. Se deja aclarado que el modulo prestación Anestesia PENSION: HASTA 1 LUNO) DIA. ANATOMIA PATOLOGICADE LA /S PIEZA/S QUIRURGICA/S (las Digeridas , no así las intraoperatorias, que incluyan congelación ) MATERIAL DESCARTABLE : DOS (2) SOBRES DESUTURASII3REABSORBIBLE , MONOFILAMENTO, DENYLON, PARALA BASEAPENDICULAR YSÍNTESISDELA PIELEN LOSSITIOS DE INGRESODE LOS TROCARESAVALORES CONVENIDOS • . HONORARIOS ANESTESIA . Suturas mecánicas de acuerdo a patología según normativas IAPOS . Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por Material de Contraste. Material de Contraste. 1 ANGIOTOMOGRAFIADETORAX Material de Contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: *Sala de recuperación (hasta 7hs.), Videocolonofibroscopia diagnóstica (VCC). inherente a la práctica, Honorarios médicos Uso de endoscopio e instrumental del' modulo), Medicamentos y Materiales descartables. (corresponden al 40%del total\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. *En caso de realizarse en internación se permitirá facturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado.",
       "coseguro": "9"
     },
     {
@@ -1203,71 +1063,61 @@ const searchData = {
     {
       "code": "23.50.09",
       "description": "SEGUIMIENTO ANTICOAGULACION HEPARINA + ORAL (TRANSICION)",
-      "normativa": "Hematocrito. -Rto de Plaquetas. -Tiempo de Protrombina. -Tasa de Protrombina. -KPTT. -Tiempo de trombina. -Toma de muestra. Durante los primeros días del tratamiento 3 o 4 controles diarios (De acuerdo a criterio médico). Sugerencia: Uno a las seis horas del inicio del goteo. Luego uno por día. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. SEGUIMIENTO ANTICOAGULACION HEPARINA + ORAL (TRANSICION)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Hematocrito - Recuento Plaquetas - Dosaje Anti Factor X activado. Sugerencia:\nEXCLUYE: Estudio\nREQUISITOS: RESUMENDE HISTORIA CLINICA ORIENTADO A LAPRESTACION.",
       "coseguro": "11"
     },
     {
       "code": "23.50.10",
       "description": "SEGUIMIENTO ANTICOAGULACION HEPARINA BAJO PESO MOLECULAR",
-      "normativa": "Incluye: Hematocrito - Recuento Plaquetas - Dosaje Anti Factor X activado. Sugerencia: Solo en insuficiencia renal, embarazo y pacientes en extremos del rango del BMI (Body Mass Index). Sujeto a modificación de acuerdo a evolución clínica o necesidad.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Hematocrito - Recuento Plaquetas - Dosaje Anti\nEXCLUYE: Endoscopia - Anestesia - Medicamentos - Sala de recuperación.\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "13"
     },
     {
       "code": "23.50.11",
       "description": "SEGUIMIENTO ANTICOAGULACION ORAL",
-      "normativa": "Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos Incluye: Honorarios y Gastos\nEXCLUYE: Material de Contraste",
       "coseguro": "8"
     },
     {
       "code": "23.50.12",
       "description": "MÓDULO DE ADMINISTRACION DE DROGAS ESPECIALES",
-      "normativa": "Incluye: Honorarios y Gastos. | Excluye: Medicamentos (Aminomux, Ciclofosfamida, Pamidronato). Pensión (facturar sala de recuperación). MÓDULO DE ATENCIÓN KINÉSICA INTEGRAL",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Pensión en habitación compartida. IMPLANTABLE CON RESERVORIO (COLOCACION PORTH VENOSO) Incluye: Honorarios y Gastos FLUJOMETRÍA URINARIA\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y\nREQUISITOS: Controles de Seguimiento de patologías oncohematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "18"
     },
     {
       "code": "23.50.13",
       "description": "MÓDULO ESTUDIO DE MEDULA OSEA I",
-      "normativa": "Incluye: Punción aspirado de Médula Osea (esternal o Cresta Ilíaca Unilateral) - Medulograma - Hemosiderina medular - Sideroblastos - (% y clasificación) - Búsqueda de células neoplásicas - - Descartables. Indicaciones: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y | Excluye: Aguja de Punción (a cargo de IAPOS)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Punción aspirado Médula Osea para otros estudios. Ej.Estudio de Sindrome Febril prolongado para medulocultivos..\nEXCLUYE: Aguja de Punción (a cargo de IAPOS)\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Indicaciones: Estudio de Citópenias aisladas o'combinadas - Estúdio de eritrocitosis:leucocitosis o trorhbocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y •I Seguimiento de Sindromes Mielodisplassicos - Estudió y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "20"
     },
     {
       "code": "23.50.14",
       "description": "MÓDULO ESTUDIO DE MEDULA OSEA II",
-      "normativa": "Incluye: Punción aspirado de Médula Osea (esternal o Cresta Ilíaca Unilateral) - Biopsia de Médula Osea Unilateral - Medulograma - Hemosiderina Medular - Sideroblastos (% y clasificación) - Búsque de células neoplásicas - Descartables. Indicaciones: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y | Excluye: Aguja de Punción (a cargo de IAPOS)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la extracción de muestras para estudios de inmunofenotipo y / o citogénico según criterio del médico tratante.\nEXCLUYE: Aguja de Punción (a cargo _ de IAPOS)\nREQUISITOS: para la facturación: Certificado de implante. Protocolo quirúrgico con fecha de trasplante (solo para los primeros tres meses post trasplante). Historia clínica, evolución y estudios complementarios realizados incluidos en cada etapa de los módulos correspondientes. Las prestaciones que NO están incluidas en los Módulos se facturarán por prestación a los valores convenidos. Deben facturarse JUNTO al módulo correspondiente de post-trasplante renal. Pare eso se deberá adjuntar a la presentación: Resumen de Historia clínica y estudios pertinentes que justifiquen dicha solicitud para ser evaluados en Auditoría Médica. El MÓDULO 1",
       "coseguro": "20"
     },
     {
       "code": "23.50.15",
       "description": "MÓDULO ESTUDIO DE MEDULA OSEA III",
-      "normativa": "Incluye: Punción aspirado Médula Osea para otros estudios. Ej.Estudio de Sindrome Febril prolongado para medulocultivos.. | Excluye: Aguja de Punción (a cargo de IAPOS) DE ACUERDO A LA LEY DE PROTECCION INTEGRAL PARA PERSONAS TRASPLANTADAS, TODOS LOS MODULOS PRE Y POST TRASPLANTE SON SIN",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Punción aspirado Médula Osea para otros estudios. Ej.Estudio de Sindrome Febril prolongado para medulocultivos..\nEXCLUYE: Aguja de Punción (a cargo de IAPOS)\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Indicaciones: Estudio de Citópenias aisladas o'combinadas - Estúdio de eritrocitosis:leucocitosis o trorhbocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y •I Seguimiento de Sindromes Mielodisplassicos - Estudió y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "20"
     },
     {
       "code": "23.50.16",
       "description": "CITOMETRÍA DE FLUJO MÉDULA ÓSEA Y SANGRE PERIFÉRICA",
-      "normativa": "Incluye: Honorarios y Gastos. CITOMETRÍA DE FLUJO MÉDULA ÓSEA Y SANGRE PERIFÉRICA Incluye: Honorarios y Gastos. Incluye todos los órganos y/o regiones.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: prestaciones para los siguientes cuatrimestres correspondientes a partir del tercer año del post-Trasplante.en: Toda mujer 65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años. Incluye: Honorarios y Gastos. Si es por dos CITOGENETICODEMEDULAOSEA - INMUNOMARCACIONIncluye: Honorarios y Gastos. Criterios de Autorización: A partir de los 21 años de edad y cada 3 años para detección ,i precoz de cáncer de cuello uterino.Si tiene mas de 30 años y también le han hecho pruebas para el virus del papiloma humano (VPH, por sus siglas en inglés) y tanto la VPH son normales, le pueden hacer prueba de Papanicolaou como las pruebas para el causa verrugas genitales y cáncer de 'exámenes cada 5 años (el VPH es el virus que CITOLOGÍA EXFOLIATIVA ONCOLÓGICA - PAP 65 a 70 años, la mayoría de las mujeres pueden cuello uterino). Después de la edadde dejar de hacerse la prueba de Pa\nREQUISITOS: CLÍNICA: PRIMARIO: Según tamaño tumoral y área corporal: Área H>6 mm (párpados, cejas, nariz, labios pera, orejas); Área M> 10mm (mejillas, frente y pretibial); Área L>20mm (tronco y miembros). RECIDIVATUMORAL. HISTOPATOLOGÍA: Subtipos histológicos indiferenciados: CBC: morfeiforme, esclerosante, metatípico, CIRUGIADEMOHS micronodular. CEC: acantolítico, adenoescamoso, pagetoide, queratoacantomatoso. Infiltrante. Invasión perineural o linfovascular. Compromiso de márgenes luego de una Escisión inicial. ANTECEDENTESDELPACIENTE: Inmunodepresión (HIV, trasplantados, oncohematológicos, drogas inmunosupresoras, etc). Síndromes genéticos con tumores de piel múltiples. Radioterapia local previa. Antecedentes personales de tumores agresivos. REQUISITOS: Resumen de histesteroÓDULO4",
       "coseguro": "20"
     },
     {
       "code": "24.10.05",
       "description": "PLASMAFERESIS",
-      "normativa": "Incluye: Honorarios, Derechos y Materiales Descartables. Incluido el correspondiente Kit. y filtros, Tipificación, Serología y reposición de líquidos. El valor establecido es por cada ciclo y se podrá solicitar hasta 10 ciclos, los cuales varían según la patología del paciente. | Excluye: Albunima Humana. Sangre. Plasma o Derivados. Indicación: SAHO (Síndrome de Apneas Obstructivas del Sueño).Sólo por Neumonólogo con especialización en Medicina del Sueño.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos Incluye: *Sala de recuperación (hasta 7hs.), Videocolonofibroscopia diagnóstica (VCC). Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
       "coseguro": "S/C"
     },
     {
       "code": "24.90.01",
       "description": "HEMOTERAPIA/TRANSUSION",
-      "normativa": "Incluye: Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Drogas inmunosupresoras y\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y c riterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y c rónicas - Estadificación de Linfomas (Hodgkin y l No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "S/C"
     },
     {
@@ -1280,71 +1130,61 @@ const searchData = {
     {
       "code": "26.02.34",
       "description": "ESTUDIO FUNCIÓN VENTRICULAR IZQUIERDA Y PERFUSIÓN MIOCÁRDICA CON SPECT",
-      "normativa": "Incluye: Pensión en habitación compartida, Medicamentos y Material Descartable inherente al procedimiento, Derecho de Hemodinámia, Honorarios Médicos, Realización del cateterismo, sobreestimulación cardíaca, mapeo y desencadenamiento de la arritmia y otros. | Excluye: Colocación de marcapaso definitivo, Estudios Hemodinamicos. Anestesia. ESTUDIO FUNCIÓN VENTRICULAR IZQUIERDA Y PERFUSIÓN MIOCÁRDICA CON SPECT (SPECT CARDIACO)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Uso de video.\nREQUISITOS: rintr^1..s d Cona.irnic.nto 'nci-,-h. , t^lógicn snün protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "35"
     },
     {
       "code": "26.05.13",
       "description": "BARRIDO CORPORAL TOTAL PARA CARCINOMA DE TIROIDES",
-      "normativa": "Incluye: Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. El monto",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Anatomía Patológica. BLOQUEO FASCETARIO RADICULAR BAJOTACIncluye: Honorarios y Gastos. Medicación Específica. Incluye: Honorarios y Gastos. Codificar REGIÓN según Nomenclador CENTELLOGRAMA Nacional. El monto\nEXCLUYE: Anestesia, Medicación Inmunodepresora. BIOPSIA MUSCULAR POR M.E.",
       "coseguro": "20"
     },
     {
       "code": "26.05.29",
       "description": "FLEBOGRAFIA RADIOISOTÓPICA POR ÁREAS",
-      "normativa": "Incluye: Honorarios y Gastos. Uso de video. FLEBOGRAFIA RADIOISOTÓPICA POR ÁREAS",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "19"
     },
     {
       "code": "26.50.01",
       "description": "CENTELLOGRAMA",
-      "normativa": "Incluye: Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. El monto",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios y gastos. INDICACIONES: FIBRILACION AURICULAR CRONICA NO VALVULAR CON ALTO RIESGO TROMBOEMBÓLICO + CONTRAINDICACIÓN ABSOLUTA DE ANTICOAGULACIÓN (determinada por especialista en hematología).\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional BIOPSIA DE VELLOSIDADES CORIÓNICAS\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICA ORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMADOPPLER (ORMN) CON MEDICIONES E INFORME.",
       "coseguro": "20"
     },
     {
       "code": "26.50.02",
       "description": "DETECCIÓN DE GANGLIO CENTINELA",
-      "normativa": "Incluye: Honorarios y Gastos de la detección.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y gastos. Incluye: Honorarios y Gastos de la detección\nEXCLUYE: Material\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados independientemente de su IARO. Criterios de Autorización - Par seguimiento: En mujeres bajo tratamiento de osteoporosis s reconoce una DMO por año para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del añ del estudio previo ya que el tratamiento es a muy largo plazo y lo resultados son de poca magnitud. Sila DMO es normal (T scor mayor a -1) se reconocerá su repetición luego de 3 años. Sila DMO da por encima del valor normal no se reconocerá ningún seguimient posterior. Se recomienda realizar DMO (S/la USPreventive Services TaskForce(USPSTF) en: Mujeres mayores de 65 años en forma rutinaria. Mujeres, a partir de los 60 años, con riesgo incrementado para fracturas osteoporóticas. Se recomienda realizar DMO(S/I National Osteoporosis Foundation (NOF) en: Toda mujer < 65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años.",
       "coseguro": "20"
     },
     {
       "code": "26.50.03",
       "description": "DETECCIÓN DE GANGLIO CENTINELA CON USO DE GAMMA PROBE",
-      "normativa": "Incluye: Honorarios. Uso de aparato Gamma Probe (ALQUILER=50% del valor del módulo). | Excluye: Pensión. Material radiactivo a cargo de cartera prestacional, centellograma linfático. Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión, Uso de endoscopio e instrumental inherente a la del práctica, Honorarios médicos (corresponden a l 40%del total modulo), Medicamentos y Materiales descarta bles.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: DESCENSO MASIVODEPESO (post bariatrica o no) +COLGAJOSCUTÁNEOSQUEREQUIERANCORRECCIÓN PORPATOLOGÍA FUNCIONAL, EN CUALQ UIERÁREADEL CUERPO (ABDOMEN, BRAZOSOMUSLOS). El plan quirúrgico establecido debe estar debidamente justificado por el profesional tratante, desde el inicio del tratamiento ( requisito para la autorización de cada solicitud). REQUISITOS: RESUMEN DE HISTORIACLÍNICA ORIENTADAA LA PRESTACIÓNCON DESC RIPCIÓNDE COLGAJOSYTRANSTORNO FUNCIONAL QUEJUSTIFIQUELA PRÁCTICA. FOTOGRAFÍAS DELÁREA AFECTADA TOMADASPOR ELPROFESIONAL. Corresponde: Honorarios 70% y Gastos 30%del va lor de la práctica.",
       "coseguro": "20"
     },
     {
       "code": "26.50.04",
       "description": "CURVA DE CAPTACIÓN TIROIDEA",
-      "normativa": "Incluye: Honorarios Médicos, Derechos de Hemodinámia, Prácticas de Rx ,Medicamentos, Sustancia de Contraste (100ML) y Material Descartable inherente a la práctica. | Excluye: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la cinecoronariografia. Anestesia. | Observaciones: Cuando se realice Cinecoronariografía y Angioplastia en el mismo acto se abonará: 60% de la Cinecoronariografia y 100% de la Angioplastia Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente. CURVA DE CAPTACIÓN TIROIDEA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios, Gastos y Asa de Leep.\nEXCLUYE: Pensión eni\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga a lgún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por a ño para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de 3 años. Si la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior. Se recomienda realizar DMO (S/la US Preventive Services Task Force(USPSTF) en: Mujeres mayores de 65 años en forma rutinaria. Mujeres, a partir de los 60 años, con riesgo incrementado para fracturas osteoporóticas. Se recomienda realizar DMO (S/la National Osteoporosis Foundation (NOF) en: Toda mujer < 65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años.",
       "coseguro": "3"
     },
     {
       "code": "28.50.01",
       "description": "ESPIROMETRÍA COMPUTADA",
-      "normativa": "Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. ELECTROCARDIOGRAMADEHOLTER POR 24 HS Incluye: Honorarios y Gastos. ELECTROMIOGRAFIACUATROMIEMBROSIncluye: Honorarios y Gastos. Material Descartable\nEXCLUYE: Coils (a cargo de IAPOS).1 Pensión en habitación compartida (Por Cartera perstacional) INDICACIONES: DECANULACIÓNDETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHADEPATOLOGÍADE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON RIESGO DECOMPROMISODE VIA AÉREA) .\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHADEPATOLOGÍADE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON RIESGO DECOMPROMISODE VIA AÉREA) . REQUISITOS: RESUMENDE HISTORIA CLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAFÍADE TÓRAX FRENTE (INFORME E IMAGEN) U OTRO ESTUDIOPOR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONES O MALFORMACIONES DE LA VÍA AÉREA (presentar estudios que lo documenten). REQUISITOS: RESUMEN DE HISTORIA CLÍNICA ORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX U OTRO ESTUDIO QUE DOCUMENTE LA PATOLOG ÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica Requisitos generales: Resumen de historia clínica orientado a la patología. Estudios de laboratorio y de imágenes según sospecha diagnostica (estudios de anemia, reactantes de fase aguda, endoscopías, tomografías, etc). Indicaciones: 1) Sospecha de tumores o pólipos de intestino delgado. Requisitos: Resumen de HC orientado a la prestación, estudios por imágenes realizados. 2) Sospecha de estenosis parcial de intestino delgado. Requisitos: Resumen de HC orientado a la prestación, estudios por imágenes realizados que orienten a esta sospecha. 3) Evaluación de complicaciones, extensión y gravedad de Enfermedad de Crohn y Evaluación de hemorragia digestiva de origen oscuro. Requisitos: Resumen de HC orientado a la prestación, Laboratorio que demuestre ferropenia, 2 VCC, 2 VEDA.",
       "coseguro": "10"
     },
     {
       "code": "28.50.02",
       "description": "POLIGRAFÍA RESPIRATORIA",
-      "normativa": "Incluye: Honorarios, Derechos y Materiales Descartables. Incluido el correspondiente Kit. y filtros, Tipificación, Serología y reposición de líquidos. El valor establecido es por cada ciclo y se podrá solicitar hasta 10 ciclos, los cuales varían según la patología del paciente. | Excluye: Albunima Humana. Sangre. Plasma o Derivados. Indicación: SAHO (Síndrome de Apneas Obstructivas del Sueño).Sólo por Neumonólogo con especialización en Medicina del Sueño.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 1/2Pensión (hasta 12hs.), Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Materiales descartables.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
       "coseguro": "20"
     },
     {
       "code": "28.50.03",
       "description": "TEST DE VASOREACTIVIDAD PULMONAR C/REGISTRO DE RESISTENCIA Y PRESIONES",
-      "normativa": "Incluye: Pensión en habitación compartida. Evaluación pre, intra y post-procedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. | Excluye: Anestesia. Droga (ampollas de adenosina).",
-      "price_hidden": "",
+      "normativa": "INCLUYE: FACTORES II - VII - IX - YX) _ __ ESTUDIOL3ASIGODE COAGULACION _ __ ESTUDIOt3ASIGODE LAS HEMOGLOBINOPATIAS ESTUDIOINICIALDE C ITOPENIAS AISLADAS O COMBINADAS _ ESTUDIODE UfI opENIAS (SEGUIMIENTO) _ PDF(PRODUCTO DEGRADACION DE FIBRINOGENO) SEGUIMIENTO ANTICUAGULAGIONCON HEPARINA NO FRACCIONADA SEGUIMIENTOANIiuuAuuLAuloNHEPARINA + ORAL (TRANSICION) S I TOANIIDUA3ULAC ONHEPARINA BAJO PESO MOLECULAR __ SEGUIMIENTOANTicoAGULACION ORAL _ _ __ MODULO DE A umiNisTRACION DE DROGAS ESPECIALES _.._._ MODULOESTUDIODE MEDULAOSEA I MODULO rvioutiLl / ESTUDIO tb IUU10 DEMEDULAOSEA II __ MODULO ESTUDIODE MEDULA OSEAIII CITOME I KIADE FLUJOMEDULAOSEA Y SANGREPERIFÉRICA ._...______ PLAbMAI-tKESIS HEMOTERAPIA/TRANFUSION",
       "coseguro": "BQ"
     },
     {
@@ -1364,92 +1204,80 @@ const searchData = {
     {
       "code": "28.90.01",
       "description": "VIDEOTORACOSCOPÍA DIAGNOSTICA/TERAPÉUTICA GRUPO 1",
-      "normativa": "Incluye: uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), honorarios médicos (60% del valor del módulo), medicamentos y materiales descartables inherentes al procedimiento: trocares, drenajes, suturas no mecánicas, sistemas retractores y protectores de pared. Incluye Toracocentesis. | Excluye: Anatomía Patológica, Insumos específicos de hemostasia (BERIPLAST SPONGOSTAN, etc.) cuando sean justificados su utilización. Pension, Honorarios de Anestesia, Suturas Mecanicas Auto-Suturas de acuerdo a la patología y en todo de acuerdo a las Normativas y protocolos de de IAPOS, vigentes y que figuren en la pagina oficial del instituto, en cuanto a tipo y numero.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: uso de laparoscopio e instrumental inherente a la práctica (bisturí monopolar, bipolar, armónico), honorarios médicos (60% del valor del módulo), medicamentos y materiales descartables inherentes al procedimiento: trocares, drenajes, suturas no mecánicas, sistemas retractores y protectores de pared. Incluye Toracocentesis.\nEXCLUYE: Anatomía Patológica, Insumos específicos de hemostasia (BERIPLASTSPONGOSTAN, etc.) cuando sean justificados su utilización. Pension, Honorarios de Anestesia, Suturas Mecanicas Auto-Suturas de acuerdo a la patología y en todo de acuerdo a las Normativas y protocolos de de IAPOS, vigentes y que figuren en la pagina oficial del instituto, en cuanto a tipo y numero.\nREQUISITOS: Embarazo ectopico. Endometriosis. Quiste ovario con complicaciones (hemorragico, sangrante,infectado). Adherencias pelvianas que compliquen la cirugia convencional",
       "coseguro": "BQ"
     },
     {
       "code": "28.90.04",
       "description": "VIDEOTORACOSCOPÍA TERAPÉUTICA GRUPO 2",
-      "normativa": "Incluye: uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), honorarios médicos (60% del valor del módulo), medicamentos y materiales descartables inherentes al procedimiento: trocares, drenajes, suturas no mecánicas, sistemas retractores y protectores de pared. Incluye Toracocentesis. | Excluye: Anatomía Patológica, Insumos específicos de hemostasia (BERIPLAST SPONGOSTAN, etc.) cuando sean justificados su utilización. Pension, Honorarios de Anestesia, Suturas Mecanicas Auto-Suturas de acuerdo a la patología y en todo de acuerdo a las Normativas y protocolos de de IAPOS, vigentes y que figuren en la pagina oficial del instituto, en cuanto a tipo y numero.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Todos los tratamientos kinésicos y tecnología asociada a la práctica que sea necesaria según cada caso (fisioterapia, kinesioterapia, magnetoterapia, etc..)\nEXCLUYE: Honorarios de anestesia, Suturas Mecánicas (Auto Suturas) de acuerdo a patología y en un todo de acuerdo a las Normativas y Protocolos IAPOS vigentes y que figuran en la página oficial del Instituto, en cuanto a tipo y número.",
       "coseguro": "BQ"
     },
     {
       "code": "28.90.05",
       "description": "VIDEOTORACOSCOPÍA TERAPÉUTICA GRUPO 3",
-      "normativa": "Incluye: uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), honorarios médicos (60% del valor del módulo), medicamentos y materiales descartables inherentes al procedimiento: trocares, drenajes, suturas no mecánicas, sistemas retractores y protectores de pared. Incluye Toracocentesis. | Excluye: Anatomía Patológica, Insumos específicos de hemostasia (BERIPLAST SPONGOSTAN, etc.) cuando sean justificados su utilización. Pension, Honorarios de Anestesia, Suturas Mecanicas Auto-Suturas de acuerdo a la patología y en todo de acuerdo a las Normativas y protocolos de de IAPOS, vigentes y que figuren en la pagina oficial del instituto, en cuanto a tipo y numero",
-      "price_hidden": "",
+      "normativa": "INCLUYE: una biopsia de pulmón que pertenece al grupo 1), Segmentectomías en todas sus variedades. Lobectomías en todas sus variedades. Neumonectomías.\nEXCLUYE: Honorarios de anestesia, Suturas Mecánicas (Auto Suturas) de acuerdo a patología y en un todo de acuerdo a las Normativas y Protocolos IAPOS vigentes y que figuran en la página oficial del Instituto, en cuanto a tipo y número.",
       "coseguro": "BQ"
     },
     {
       "code": "28.50.12",
       "description": "DLCO (PRUEBA DE DIFUSIÓN PULMONAR DE MONÓXIDO DE CARBONO)",
-      "normativa": "INCLUYE: el usa de m6todos/tecnologras adiclonales de evaluacl6n dlBgii6stlca hemodlnamlca anat6mlco-funclonal (lvus-REF-otros) y/a tecnologias/m6todos adiclonales de tratamlento tecnologlas para modlficacl6n de placas el usa de m6todos/tecnologias adlclonales de evaluacl6n dlagn6stlca hemodlnamlca ana`6mlco-funclonal (IVUS-REF-otros) y/a tecnologras/m6todos adlclonales de trata mlento (tecnologlas pare modlflcacl6n de placas\nEXCLUYE: Stei`t. Anestesla. Flltro de proteccl6n cerebral mcluye: Penslbn en UCC, pensl6n e^ habltacl6n compartlda, Honoi.arios M6dlcos, hemodlnamla, radfologla. Medlcamentos y Material descartable lnhei.entes al procedimlento. Practlcas y/o estudlos complementa rlos a partlr del tercer dla de internaci6n. Clrugia de revascularlzacl6n par el fracaso de la angloplastla. Otras practlcas tales como eco-doppler, estudlos electroflslol6glcos, etc. Infusl6n de drogas tronlbollt",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "29.01.04",
       "description": "ELECTROMIOGRAFÍA DE MIEMBROS SUPERIORES O INFERIORES O FACIAL",
-      "normativa": "INCLUYE: Pensión, Uso de eco o TAC e instrumental inherente74- la práctica, Honorarios médicos (corresponde a l 40% del valor tota l del modulo), Medicamentos y Materiales descartables. Honorarios y Gastos Operatorios. 24hs. UTI y/o UCO, medicamentos y descartables inherentes a l procedimiento. Pensión hasta 3 días. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica ( bisturí bipolar, armónico), Honorarios médicos (corresponden a l 40%dei valor tota l del modulo), Medicamentos. Las complicaciones devenidas la práctica rea lizada estarán a cargo del prestador, hasta dentro de los 15días, de acuerdo a l concepto de \"PATOLOGÍA RESUELTA\". Esto eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que interv ino a l paciente. Pensión hasta 1 laparoscopio e instrumental inherente a la p\nEXCLUYE: : Honorarios Anestesia, Elementos médicos específicos de acu do a patología según normativas IA POS. Anestesia, resto de d ías de Pensión, cualquier prestación ajena-la procedimiento. Endoprótesis (a cargo de lapos) ANATOMIA PATOLOGICA DE LA/S I PIEZA/S Q UIRURGICA/S (las Diferidas, no as i las intraoperatorias que incluyan congelación) MATERIALDESCARTABLE: UN (1) SOBRE SE SUTURAREABSORBIBLE (POLIGLACTINA) PARA CIERREDEL SITIO DE EXTRACC IONLAPIEZAQUIRURGICO Y SOBRE DESUTURA IRREABSORBIBLE, UN (1) MONOFILAMENTO, DENYLON, PARA LASÍNTESISDELAPIEL ENLOS SITIOS DE INGRESODELOSTROCARESAVALORES CONVENIDOSSUTU RASMECANICAS DE ACUERDO A PROTOCOLOSIAPOS. HONORARIOSANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación. dia, Gastos-derechos quirúrgicos, Uso de",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en j habitación compartida (Por Cartera perstacional) INDICACIONES: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON ENDOSCOPIA RESPIRATORIA DIGANOSTICA RIESGODECOMPROMISO DE VIA AÉREA) . REQ UISITOS: RESUMEN DE (PEDIATRICA-ADULTO) HISTORIACLINICAORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEE IMAGEN) U OTRO ESTUDIOPOR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONESO MALFORMACIONESDE LA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten).\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON ENDOSCOPIA RESPIRATORIA DIGANOSTICA RIESGODECOMPROMISO DE VIA AÉREA) . REQ UISITOS: RESUMEN DE (PEDIATRICA-ADULTO) HISTORIACLINICAORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEE IMAGEN) U OTRO ESTUDIOPOR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONESO MALFORMACIONESDE LA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten). REQUISITOS: RESUMEN DE (PEDIATRICA-ADIULTO) HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA 1DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX UOTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica",
       "coseguro": "20"
     },
     {
       "code": "29.01.05",
       "description": "ELECTROMIOGRAFÍA CUATRO MIEMBROS",
-      "normativa": "Incluye: Honorarios y Gastos. Material Descartable",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en j habitación compartida (Por Cartera perstacional) INDICACIONES: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON ENDOSCOPIA RESPIRATORIA DIGANOSTICA RIESGODECOMPROMISO DE VIA AÉREA) . REQ UISITOS: RESUMEN DE (PEDIATRICA-ADULTO) HISTORIACLINICAORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEE IMAGEN) U OTRO ESTUDIOPOR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONESO MALFORMACIONESDE LA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten).\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON ENDOSCOPIA RESPIRATORIA DIGANOSTICA RIESGODECOMPROMISO DE VIA AÉREA) . REQ UISITOS: RESUMEN DE (PEDIATRICA-ADULTO) HISTORIACLINICAORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEE IMAGEN) U OTRO ESTUDIOPOR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONESO MALFORMACIONESDE LA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten). REQUISITOS: RESUMEN DE (PEDIATRICA-ADIULTO) HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA 1DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX UOTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica",
       "coseguro": "20"
     },
     {
       "code": "29.01.11",
       "description": "POTENCIALES EVOCADOS",
-      "normativa": "Incluye: Pensión, Videoesofagogastroduodenofibroscopia diagnóstica (VEDA). Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: *Sala de recuperación (hasta 7hs.), Videocolonofibroscopia diagnóstica (VCC). inherente a la práctica, Honorarios médicos Uso de endoscopio e instrumental del' modulo), Medicamentos y Materiales descartables. (corresponden al 40%del total\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. *En caso de realizarse en internación se permitirá facturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado.",
       "coseguro": "20"
     },
     {
       "code": "29.02.02",
       "description": "POLISOMNOGRAFÍA",
-      "normativa": "Incluye: Pensión, Videoesofagogastroduodenofibroscopia diagnóstica (VEDA). Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye calibración de CPAP POTENCIALES EVOCADOS Incluye: Honorarios y Gastos. 1PRICK TEST Incluye: Honorarios +Gastos +Materiales. 118.50.80'PUNCIÓN BIOPSIA DEOVARIO BAJO ECOGRAFÍA Incluye: Honorarios y Gastos.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS*En caso de realizarse en internación se permitirá facturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado 129.02.02IPOLISOMNOGRAFÍA",
       "coseguro": "20"
     },
     {
       "code": "29.50.01",
       "description": "VIDEOELECTROENCEFALOGRAMA POR TELEMETRIA",
-      "normativa": "Incluye: Honorarios y Gastos. Uso de video. | Excluye: Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión hasta 1 día. Gastos-derechos qur41.gicos Uso del lapa roscopio e instrumental inherente a la práctica .:bistur bipoiar1 armónico), Honorarios médicos (corresponden a l 40'., del valor tota ll del modulo). Medicamentos. Las complicaciones devenidas lai práctica realizada esta rán a cargo dei prestador, riasta dentro de los ; 15 días, de acuerdo a l concepto de 'PATOLOGÍARET ':UELTA. Esto l incluye eventuales drenajes percutáneos de c(..cciones post1 operatorias (con Materia les necesarios), reoperacios, materiaies1 descartables y demás eiementos que estarán a cargo de: equipo que ! interv ino a l paciente.\nEXCLUYE: ANATOMIAPATOLOGICADE LA/SI PIEZA/S QUIRURGICA/S (las Diferidas, no as í las intraoperatoriasi que incluyan congelación) MATERIAL DE-SCARTABLE: UN ( 1) SOBRE DE MATERIAL I RREABSORBIBLE, MO NOFILAMENTO, DE NYLON, PARA LASÍNTESIS DE LA PIEL ENLOS SITIOS DE INGRESO DE LOS TROCARES A VALORESCONVENIDOS Y TRES (3) LIGACLIPSSISE JUSTIFICA SU UTILIZACION. . HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza!",
       "coseguro": "20"
     },
     {
       "code": "29.50.02",
       "description": "VIDEONISTAGMOGRAFÍA",
-      "normativa": "Incluye: Pensión hasta 1 día. Gastos- derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos.\nEXCLUYE: PENSION: HASTA 1 (UNO) DIA. ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN ( 1) SOBRE DE MATERIALIRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DELAPIELEN LOS SITIOS DE INGRESO DE LOS TROCARES A VALORES CONVENIDOSY 3 (TRES) LIGACLIPSHONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Embarazo ectopico. Endometriosis. Quiste ovario con complicaciones (hemorragico, sangrante,infectado). Adherencias pelvianas que compliquen la círugia convencional",
       "coseguro": "20"
     },
     {
       "code": "29.50.03",
       "description": "ELECTRORETINOGRAMA COMPUTARIZADO",
-      "normativa": "Incluye: Honorarios y Gastos. | Excluye: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstacional)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. EEG DIGITAL Incluye: Honorarios y Gastos. EEGSUEÑO VIGILIA PROLONGADO Incluye: Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en j habitación compartida (Por Cartera perstacional) INDICACIONES: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON ENDOSCOPIA RESPIRATORIA DIGANOSTICA RIESGODECOMPROMISO DE VIA AÉREA) . REQ UISITOS: RESUMEN DE (PEDIATRICA-ADULTO) HISTORIACLINICAORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEE IMAGEN) U OTRO ESTUDIOPOR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONESO MALFORMACIONESDE LA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten).\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON ENDOSCOPIA RESPIRATORIA DIGANOSTICA RIESGODECOMPROMISO DE VIA AÉREA) . REQ UISITOS: RESUMEN DE (PEDIATRICA-ADULTO) HISTORIACLINICAORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEE IMAGEN) U OTRO ESTUDIOPOR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONESO MALFORMACIONESDE LA VÍA AÉREA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (presentar estudios que lo documenten). REQUISITOS: RESUMEN DE (PEDIATRICA-ADIULTO) HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA 1DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX UOTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica",
       "coseguro": "20"
     },
     {
       "code": "29.50.04",
       "description": "EEG SUEÑO VIGILIA PROLONGADO",
-      "normativa": "EXCLUYE: CEREBRAL) 1 11.1N 023 NNNN,-(\l •- 0 c0 O) cm T.. o o f`..: N; T- $5.253 I': •-• O 6-. T• c\j O o u) N: N: ,o a) ,- 1,. cri be $2.603 $3.850 $3.850 Cr) O) In cri Ea $2.4391 $3.6751 u\") N•• CO Cr) En- T- nl.- 00 1CO 0 O u) U) CO Cr) Cr) te 69 U) r•CO cri Ea U) N(.0 cri EA (r) C El, EA $5.5001 r cO N <o LO cd EA U) I-CO (e) 69 O U) N Lri E/* 0 0 Lo u) CO CO LO NCO (r) EA O CO CO O) 69 1.... 0 0 N o o cdob 1- \i N LO N (10 69- U\") O) N- CO CO 0) r) N: EA EA• $2.625 O LO o) Lo LO LO LO ,- O O N N N- N- 1•••••• 1- ce) LO to O) 1- CO 1- CS) r--- nr `IP ni oci Ir; c.i LO cci a) cci CO 69 Ea 69- EA 69 EA 69- N N I-- CO LO i X) 1 $26.450 O Lo nr CO N 64 EA 69 $25.300 $25.3001 $24.150 „.., — $24. 150 $8.3371 $25.3001 $25.3001 NNO) N: 69 $7.812 O O O 0) O O CO 0 O (O CV ,-, — 0 03 ,..., — .— (\"NI ..— C\J e- o.e- . - O (\"\J C\I (\"\J e- e- U C\I 1/4-) $24. 150 $24. 150 EA EA EA $4.725 u) N O ni $4.7251 69 x- cp000c0000nt co O Lo co U) N U) U) LO eN N N- 0) CO LO (3) r-- o) LO C) CO c.i cri (() cd ni c.i ni cd 1- .- VI 69 Ei, EA EA 69 «1 69 EF), $3.7801 u) N O ni $15.1881 Lo N O ni $10.1201 o co o N LO tr, c> LO CO CO CO N- r•-• 1 :1N- O) LO CO a) CO •-LO ai d c() CO c.i ni EF> 64 64 64 EA EA 64 x- 1- 1- 69 Er, o O CO ni $12.4261 Ir> N O ni $8.023 CO LO u) u) CO N N N N 01 N- 0 O 0 cri c.i ni ni \"4 &I En- EA 69- EA $4.400 O $3.8501 nr .— $3.6751 ..— $4.2001 C \I .— 1 $3.325 $88.000 0 $3. 1161 $84.000 1 $5.552 O 0 Nnt: EA 00 nt cri te $5.203 LO 1- 0 co O ir) c.i te O) 69 a, o nr PUNCIÓN BIOPSIA RENAL BAJO ECOGRAFÍA ELECTROCARDIOGRAMA DE HOLTER POR 24 HS TILT TEST ESTUDIO ELECTROFISIOLÓGICO COMPLETO Ocg ERGOMETRÍA COMPUTARIZADA 1 1",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIA DIGANOSTICA (PEDIATRICAQUEMADOCON RIESGODE COMPROMISODE VIA AÉREA) . ADULTO) REQUISITOS: RESUMENDE HISTORIACLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORME E IMAGEN) U OTRO ESTUDIO POR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTODE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONES O MALFORMACIONES DE LA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (PEDIATRICAVÍA AÉREA (presentar estudios que lo documenten). REQUISITOS: ADIULTO) RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX U OTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica Re• uisitos enerales: Resumen de historia clínica orientado a la patología. Estudios de laboratorio y de imágenes según sospecha diagnostica (estudios de anemia, reactantes de fase aguda, endoscopías, tomografías, etc). Indicaciones: 1) Sospecha de tumores o pólipos de",
       "coseguro": "20"
     },
     {
       "code": "29.50.05",
       "description": "EEG DIGITAL",
-      "normativa": "INCLUYE: Honorarios y gastos. Honorarios y Gastos. F. P, o n-O (O (D Lo o o Lo o Lo Lo c) o o Lo (O 05 cd (O co O) O) N- O) O) O) .-- ..- ,-- ,-- ,- cm cm ,,-- CN CV CV 1 Honorarios y Gastos. ECOGRAFÍA PARA LAAMNINOCENTESIS Honorarios y Gastos. ECOGRAFIARENOVESICOP ROSTATICA COMPLETA Honorarios y Gastos. ECOGRAFÍATIROIDEA Honorarios y Gastos. EEGDIGITAL Honorarios y Gastos. EEGSUEÑOVIGILIA PROLONGA DO Honorarios y Gastos. ELECTROCARDIOGRAMADE HOLTERPOR 24HS Descartable Honorarios y Gastos. Material ELECTROMIOGRAF ÍACUATROMIEMBROS ELECTROMIOGRAFÍA DE MIEMBROS SUPERIORES OINFERIORE Honorarios y Gastos. Material Descartable Honorarios y Gastos. ELECTRORETINOGRAMACOMPUTARIZADO Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación EMBOLIZACIÓNSELECTIVA ARTERIALPERIFERICA (EXCLUYEC compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMIA, BAL para citología o cultivo, SOSPECHADEPATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIASRECURRENTES, GRAN QUEMADOCONRIESGODE COMPROMISO ENDOSCOPIARESPIRATORIADIGANOSTICA (PEDIATRICA-ADUL DEVIAAÉREA) . RESUMENDEHISTORIACLINICA ORIENTADOA LA PRESTACIÓN. RADIOGRAFÍA DETÓRAXFRENTE (INFORMEE IMAGEN) UOTRO ESTUDIO POR IMAGEN QUEPRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica TRATAMIENTO DEESTENOSI",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓN DE TRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN ENDOSCOPIA RESPIRATORIA DIGANOSTICA (PEDIATRICAQUEMADOCON RIESGODE COMPROMISODE VIA AÉREA) . ADULTO) REQUISITOS: RESUMENDE HISTORIACLINICA ORIENTADO A LA PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORME E IMAGEN) U OTRO ESTUDIO POR IMAGEN QUE PRESENTE. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica INDICACIONES: TRATAMIENTODE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE LESIONES O MALFORMACIONES DE LA ENDOSCOPIA RESPIRATORIA TERAPEUTICA (PEDIATRICAVÍA AÉREA (presentar estudios que lo documenten). REQUISITOS: ADIULTO) RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX U OTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica Re• uisitos enerales: Resumen de historia clínica orientado a la patología. Estudios de laboratorio y de imágenes según sospecha diagnostica (estudios de anemia, reactantes de fase aguda, endoscopías, tomografías, etc).",
       "coseguro": "20"
     },
     {
@@ -1462,15 +1290,13 @@ const searchData = {
     {
       "code": "31.01.24",
       "description": "FARINGOLARINGOFIBROSCOPÍA",
-      "normativa": "Incluye: Honorarios y Gastos. Uso de video. FLEBOGRAFIA RADIOISOTÓPICA POR ÁREAS",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y EXTRACCIÓNCUERPO EXTRAÑOESOFÁGICO Materiales descartables.\nEXCLUYE: Material Radiactivo según valor CEDIM Interior\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "20"
     },
     {
       "code": "34.10.01",
       "description": "TAC CEREBRAL",
-      "normativa": "INCLUYE: bot6n) BQ 21. GENETICA HUMANA",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: SUST.CONTRASTE) TAC DE COLUMNA TAC DE OTROS ORGANOS O REGIONES TAC GINECOLOGICA 34.50.12I TACGINECOLOGICA REFORZADA (EXCLUYE SUST.CONTRASTE) 1",
       "coseguro": "20"
     },
     {
@@ -1483,22 +1309,19 @@ const searchData = {
     {
       "code": "34.10.04",
       "description": "TAC OFTALMOLOGICA",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC OFTALMOLOGICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. TACDECOLUMNA Incluye: Honorarios y Gastos. TACDE OTROSORGANOSOREGIONES Incluye: Honorarios y Gastos. 34.10.071TACGINECOLOGICA Incluye: Honorarios y Gastos. TAC GINECOLOGICAREFORZADA Incluye: Honorarios y Gastos.\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS (VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍA CON EL 1 PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir lescalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS (IMPLANTE respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra VALVULAR AÓRTICOTRANSCATETER — TAVI) requerir información adicional que considere pertinente. REQUISITOS: RESUMEN HISTORIA CLINICA orientado a la prestación con evaluación por Heart Team (con firma y sello de todos",
       "coseguro": "20"
     },
     {
       "code": "34.10.05",
       "description": "TAC TIROIDEA",
-      "normativa": "Incluye: Honorarios y Gastos . Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC TORACICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC VEJIGA Y PROSTATA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. TACDE OTROSORGANOSOREGIONES Incluye: Honorarios y Gastos. 34.10.071TACGINECOLOGICA Incluye: Honorarios y Gastos. TAC GINECOLOGICAREFORZADA Incluye: Honorarios y Gastos.\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS (VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍA CON EL 1 PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir lescalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS (IMPLANTE respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra VALVULAR AÓRTICOTRANSCATETER — TAVI) requerir información adicional que considere pertinente. REQUISITOS: RESUMEN HISTORIA CLINICA orientado a la prestación con evaluación por Heart Team (con firma y sello de todos integrantes) donde se avale lo sccado al mes 3°, 6° y 12°",
       "coseguro": "20"
     },
     {
       "code": "34.10.06",
       "description": "TAC MAMARIA",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC OFTALMOLOGICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: SUST.CONTRASTE) TELECOBALTOTERAPIA POR SESIÓN TILT TEST TIMPANOPLASTIA",
       "coseguro": "20"
     },
     {
@@ -1518,8 +1341,7 @@ const searchData = {
     {
       "code": "34.10.09",
       "description": "TAC HEPATOBILIAR, ESPLÉNICA, PANCREÁTICA, RENAL, SUPRARRENAL",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. 1 Honorarios y Gastos. 1 ECOGRAFIA TIROIDEA Honorarios y Gastos. 1 Honorarios y Gastos. EEGSUEÑOVIGILIAPROLONGADO ¡ Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Material Descartable ELECTROMIOGRAFÍADE MIEMBROS SUPERIORES O INFERIORESO Honorarios y Gastos. Material Descartable FACIAL ELECTRORETINOGRAMA COMPUTARIZADO Honorarios y Gastos. Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación [EMBOLIZACIÓN SELECTIVAARTERIALPERIFERICA ( CEREBR compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍADE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON RIESGO DECOMPROMISO DEVIA AÉREA) . RESUMEN DE HISTORIACLINICAORIENTADOA LA ENDOSCOPIA RESPIRATORIA DIGANOSTICA (PEDIATRICA-ADULTO) PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEEIMAGEN) UOTRO ECOGRAFIA ENDOCAVITARIA VAGINAL Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico Evaluar casos de amenaza de aborto espontáneo - Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el cuello uterino está cambiando o abriéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar lo",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: SUST.CONTRASTE) TELECOBALTOTERAPIA POR SESIÓN TILT TEST TIMPANOPLASTIA",
       "coseguro": "20"
     },
     {
@@ -1532,15 +1354,13 @@ const searchData = {
     {
       "code": "34.10.11",
       "description": "TAC VEJIGA Y PROSTATA",
-      "normativa": "Incluye: Honorarios y Gastos . Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC TORACICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC VEJIGA Y PROSTATA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS (VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍA CON EL 1 PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir lescalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS (IMPLANTE respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra VALVULAR AÓRTICOTRANSCATETER — TAVI) requerir información adicional que considere pertinente. REQUISITOS: RESUMEN HISTORIA CLINICA orientado a la prestación con evaluación por Heart Team (con firma y sello de todos integrantes) donde se avale lo sccado al mes 3°, 6° y 12°. Biopsia endomiocárdica: si sospecha de rechazo agudo en el primer año (cada 2 semanas en los primeros 3 meses o cada 2 meses hasta cumplir el año) o para co",
       "coseguro": "20"
     },
     {
       "code": "34.10.12",
       "description": "TAC DE OTROS ORGANOS O REGIONES",
-      "normativa": "Incluye: Honorarios y Gastos. Requisitos: Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos realizados, que justifiquen la solicitud. TAC DE OTROS ORGANOS O REGIONES Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: BALON)\nEXCLUYE: SUST.CONTRASTE) VALVULOPLASTIA AORTICA O MITRAL CON BALON (",
       "coseguro": "20"
     },
     {
@@ -1567,8 +1387,7 @@ const searchData = {
     {
       "code": "34.50.90",
       "description": "TAC DE COLUMNA 1 REGIÓN CON CONTRASTE",
-      "normativa": "Incluye: Honorarios y Gastos. Requisitos: Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos realizados, que justifiquen la solicitud. TAC DE COLUMNA CON CONTRASTE 1 REGIÓN",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honora rios y Gastos .\nREQUISITOS: Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos rea lizados, q ue justifiquen la solicitud.",
       "coseguro": "20"
     },
     {
@@ -1581,120 +1400,104 @@ const searchData = {
     {
       "code": "34.50.92",
       "description": "TAC GINECOLOGICA CON CONTRASTE",
-      "normativa": "Incluye: Honorarios y Gastos. TAC GINECOLOGICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. de contraste. Incluye: Honorarios y Gastos. Material\nREQUISITOS: Resumen depb:1,5toria 1 udios clínica orientado a la prestación, informe e imágenes de gl previos realizados, q ue justifiquen la solicitud.",
       "coseguro": "20"
     },
     {
       "code": "34.50.93",
       "description": "TAC HEPATOBILIAR, ESPLÉNICA, PANCREÁTICA, RENAL, SUPRARRENAL CON",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC OFTALMOLOGICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos . TAC OFTALMOLOGICACON CONTRASTEIncluye: Honorarios y Gastos. Material de contraste.\nREQUISITOS: ESTENOSISAÓRTICA SEVERACONINDICACIÓNDE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICOALTO DETERMINADOPORALMENOS 2 SCORESVALIDADOS (Adjuntar PRINT COMPLETOde cada score y todos los estudios que objetiven las variables incorporadas en los m ismos) OMALCANDIDATO QUIRÚRGICO POR OTRAS VARIABLES NO CONTEMPLADASENLOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVADEVIDA > 1 AÑO. DEBE DETERMINARSE CALIDADDE VIDA ACTUALDELPACIENTE EIMPACTO EN SU MEJORÍA CONELPROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra requerir información adicional que considere VALVULOPLASTIA AÓRTICACON BALÓNO PROTESIS",
       "coseguro": "20"
     },
     {
       "code": "34.50.94",
       "description": "TAC MAMARIA CON CONTRASTE",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC OFTALMOLOGICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos .\nREQUISITOS: ESTENOSISAÓRTICA SEVERACONINDICACIÓNDE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICOALTO DETERMINADOPORALMENOS 2 SCORESVALIDADOS (Adjuntar PRINT COMPLETOde cada score y todos los estudios que objetiven las variables incorporadas en los m ismos) OMALCANDIDATO QUIRÚRGICO POR OTRAS VARIABLES NO CONTEMPLADASENLOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVADEVIDA > 1 AÑO. DEBE DETERMINARSE CALIDADDE VIDA ACTUALDELPACIENTE EIMPACTO EN SU MEJORÍA CONELPROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra requerir información adicional que considere VALVULOPLASTIA AÓRTICACON BALÓNO PROTESIS",
       "coseguro": "20"
     },
     {
       "code": "34.50.95",
       "description": "TAC OFTALMOLOGICA CON CONTRASTE",
-      "normativa": "Incluye: Honorarios y Gastos . Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC TORACICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC VEJIGA Y PROSTATA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos . TAC VEJIGA YPROSTATA CON CONTRASTEIncluye: Honorarios y Gastos. Material de contraste. TILT TEST Incluye: Honorarios y Gastos .\nREQUISITOS: ESTENOSISAÓRTICA SEVERACONINDICACIÓNDE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICOALTO DETERMINADOPORALMENOS 2 SCORESVALIDADOS (Adjuntar PRINT COMPLETOde cada score y todos los estudios que objetiven las variables incorporadas en los m ismos) OMALCANDIDATO QUIRÚRGICO POR OTRAS VARIABLES NO CONTEMPLADASENLOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVADEVIDA > 1 AÑO. DEBE DETERMINARSE CALIDADDE VIDA ACTUALDELPACIENTE EIMPACTO EN SU MEJORÍA CONELPROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra requerir información adicional que considere VALVULOPLASTIA AÓRTICACON BALÓNO PROTESIS",
       "coseguro": "20"
     },
     {
       "code": "34.50.96",
       "description": "TAC TIROIDEA CON CONTRASTE",
-      "normativa": "Incluye: Honorarios y Gastos . Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC TORACICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC VEJIGA Y PROSTATA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos . TAC VEJIGA YPROSTATA CON CONTRASTEIncluye: Honorarios y Gastos. Material de contraste. TILT TEST Incluye: Honorarios y Gastos .\nREQUISITOS: ESTENOSISAÓRTICA SEVERACONINDICACIÓNDE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICOALTO DETERMINADOPORALMENOS 2 SCORESVALIDADOS (Adjuntar PRINT COMPLETOde cada score y todos los estudios que objetiven las variables incorporadas en los m ismos) OMALCANDIDATO QUIRÚRGICO POR OTRAS VARIABLES NO CONTEMPLADASENLOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVADEVIDA > 1 AÑO. DEBE DETERMINARSE CALIDADDE VIDA ACTUALDELPACIENTE EIMPACTO EN SU MEJORÍA CONELPROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra requerir información adicional que considere VALVULOPLASTIA AÓRTICACON BALÓNO PROTESIS",
       "coseguro": "20"
     },
     {
       "code": "34.50.97",
       "description": "TAC TORACICA CON CONTRASTE",
-      "normativa": "Incluye: Honorarios y Gastos . Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC TORACICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste. Incluye: Honorarios y Gastos . TAC VEJIGA Y PROSTATA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honora rios y Gastos\nEXCLUYE: Anestesia. Droga (ampollas de adenosina). TEST\nREQUISITOS: Se deberá adjunt historia clín",
       "coseguro": "20"
     },
     {
       "code": "34.50.98",
       "description": "TAC VEJIGA Y PROSTATA CON CONTRASTE",
-      "normativa": "INCLUYE: FACTORES II — VII — IX — YX) u-) o c5 in r5 N co o O LO ri N SEGUIMIENTO ANTICOAGULACION HEPARINA + ORAL (TRANSICION) MÓDULO ESTUDIO DE MEDULAOSEAI MÓDULO ESTUDIO DE MEDULAOSEAII te. 69. 69 te. te $32.551 $10.182 og —1 co o LO N- in .1co co cg co N Lri nr CO i, -: •I MÓDULO DE ADMINISTRACION DE DROGAS ESPECIALES N N- botón) 69 MÓDULO RECAMBIO BOTON GASTRICO te- T-1 5 O .1-",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "34.90.01",
       "description": "PUNCIÓN BIOPSIA PERCUTÁNEA POR TAC",
-      "normativa": "Incluye: Honorarios neurocirugía, derechos, medicamentos y descartables. | Excluye: Pensión, anatomía patológica, cultivos. Alquiler marco estereotáxico por parte de la Institución Prestadora: AGO/23 $ 48.108, SET/23 $ 50.033, OCT/23 $ 52.034, NOV/23 $ 53.595 y DIC/23 $ 55.203 y Aguja de punción: AGO/23 $ 25.446, SET/23 $ 26.464, OCT/23 $ 27.523, NOV/23 $ 28.348 y DIC/23 $ 29.199). PUNCIÓN BIOPSIA PERCUTÁNEA POR TAC",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios Médicos, Derechos, Uso de bomba infusora.\nEXCLUYE: En caso de realizarse en internación se permitiráfacturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado. Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
       "coseguro": "BQ"
     },
     {
       "code": "34.50.15",
       "description": "ANGIOTOMOGRAFIA DE AORTA ABDOMINAL",
-      "normativa": "Incluye: Honorarios, gastos y set de medicamentos. | Excluye: Material de contraste. ANGIOTOMOGRAFIA DE AORTA ABDOMINAL",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios, gastos y set de medicamentos.\nEXCLUYE: Material de Contraste\nREQUISITOS: Resumen de HC orientado a la prestación. Estudio por imagen y laboratorio que documente la sospecha de cada diagnostico (TEP: Dimero D, EAB, RxTx y ECG-centellograma / MAV o fístulas pulmonares: EAB, RxTx).",
       "coseguro": "BQ"
     },
     {
       "code": "34.50.17",
       "description": "ANGIOTOMOGRAFIA CRANEO Y VASOS DE CUELLO",
-      "normativa": "Incluye: Pensión en UCC o Pensión en habitación compartida, Honorarios Médicos. Derechos de hemodinámia. Medicamentos y Material Descartable inherentes al procedimiento. | Excluye: Prácticas y/o estudios complementarios a partir del tercer día de internación. Cirugía de revascularización por el fracaso de la angioplastia. Otras practicas tales como eco-doppler, estudios electrofisiológicos, etc. Infusión de drogas trombolíticos. Stent. Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensiónen UCC, Honorarios delequipoquirúrgico. Medicamentosy Material descartable inherentesalprocedimiento. Exclue: Stent. Anestesia. Filtro de•roteccióncerebral pensiónen habitacióncompartida, Incluye:Pensiónen UCC, Honorarios Médicos, hemodinámia, radiología. Medicamentosy Material descartable inherentesalprocedimiento.\nEXCLUYE: CCV -Valvuloplastia- Prótesis- Ortesis- Colocación de marcapaso definitivos- Balón de Contrapulsación- Catéter adicionales- Hemoterapia- TAC - Eco doppler- Infusión de drogasEstudio Electrofisiológicoycualquierotracomplicaciónquesurgiere del•rocedimiento. Stent. Anestesia\nREQUISITOS: Resumen de HC orientadoa laprestación. Estudiopor imageny laboratorioque documente lasospecha decada diagnostico(TEP: Dimero D, EAB, RxTxy ECG-centellograma /",
       "coseguro": "BQ"
     },
     {
       "code": "34.50.22",
       "description": "ANGIOTOMOGRAFIA DE TORAX",
-      "normativa": "Excluye: Material de Contraste",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Material de Contraste.\nREQUISITOS: Pinzamlento femoroacetabular, lesiones del Labrum acetabular, Cuerpos libres intraarticulares, lesionaes condrales acetabulares y femorales, secuelas de enfermedad de Perthes y epifisiolisis, enfermedadde la sinovial, condromatosis",
       "coseguro": "BQ"
     },
     {
       "code": "34.50.23",
       "description": "ANGIOTOMOGRAFIA DE OTRAS REGIONES",
-      "normativa": "Excluye: Material de Contraste",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Prácticas y/o estudios complementarios a partir del tercer día de internación. Cirugía de revascularización por el fracaso de la a ngioplastia . Otras practicas ta les como eco-doppler, estudios electrofisiológicos, etc. Infusión de drogas trombolíticos. Stent. Anestesia.\nREQUISITOS: va loración angiográfica de arterias coronarias para casos especiales sin posibilidad de hacerlo por CCG convencional (No se reconoce Score de Calcio). Valoración de aorta torácica. Valoración de va sos¡ pulmonares",
       "coseguro": "20"
     },
     {
       "code": "34.90.02",
       "description": "BLOQUEO FASCETARIO RADICULAR BAJO TAC",
-      "normativa": "Incluye: Pensión en habitación compartida. Honorarios Médicos de todo el equipo, Gastos, Punción, Anatomía Patológica, Laboratorio, Radiología, Medicamentos y Material Descartables inherentes al procedimiento. | Excluye: Anestesia, Medicación Inmunodepresora.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios y gastos. INDICACIONES: FIBRILACION AURICULAR CRONICA NO VALVULAR CON ALTO RIESGO TROMBOEMBÓLICO + CONTRAINDICACIÓN ABSOLUTA DE ANTICOAGULACIÓN (determinada por especialista en hematología).\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional BIOPSIA DE VELLOSIDADES CORIÓNICAS\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICA ORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMADOPPLER (ORMN) CON MEDICIONES E INFORME.",
       "coseguro": "BQ"
     },
     {
       "code": "34.20.01",
       "description": "RMN CEREBRAL",
-      "normativa": "Incluye: Honorarios y Gastos. RMN CEREBRAL CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: SUST.CONTRASTE) TAC HEPATOBILIAR REFORZADA ( EXCLUYESUSTCONTRASTE) TAC HEPATOBILIAR, ESPLENICA, PANCREÁTICA, RENAL SUPRARRENAL 34. 10.Uti Ac MAMARIA",
       "coseguro": "20"
     },
     {
       "code": "34.20.08",
       "description": "RMN COMPLETA DE ABDOMEN",
-      "normativa": "Incluye: Honorarios y Gastos. RMN COMPLETA DE ABDOMEN CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. PROGESTERONA - HER2NEW - KI-67 - JAK2) Incluye:.Honorarios y Gastos. Usode video. RECTOSIGMOIDEOFIBROSCOPIA Incluye: Honorarios y Gastos. RINOSINUSOFIBROSCOPÍADIAGNÓSTICA RMNCARDIACAFUNCIONAL Incluye: Honorarios y Gastos. RMN CEREBRAL Incluye: Honorarios y Gastos. [\nEXCLUYE: Pensión en QUIMIOTERAPIA EN INTERNACIÓN habitación compartida . Medicamentos Oncollgicos a (cargo de lagos). RECEPTORES CONTÉCNICA INMUNOHISTOQUÍMICA (ESTRÓGENO",
       "coseguro": "20"
     },
     {
       "code": "34.20.09",
       "description": "RMN HEPATOBILIAR ESPLÉNICO PANCREÁTICA",
-      "normativa": "Incluye: Honorarios y Gastos. RMN GINECOLÓGICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gas tos. I ncluye: Honorarios y Gas to s.\nEXCLUYE: Pensión",
       "coseguro": "20"
     },
     {
       "code": "34.20.10",
       "description": "RMN TORÁCICA",
-      "normativa": "Incluye: Honorarios y Gastos. RMN TORÁCICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste Indicaciones: CA de recto irradiado y/o con tto quirúrgico: para Diag./Dif. de recidiva local vs. engrosamiento inflamatorio postquirúrgico o actínico. CA de útero irradiado sin tratamiento quirúrgico: para Diag./Dif. de recidiva local vs. lesión cicatrizal actínica. Caracterización de lesiones en pacientes con contraindicación de contraste EV (ej. insuficiencia renal). Para el resto de las patologías oncológicas existen diferentes estudios por imágenes con mayor utilidad clínica (ej. toma de biopsia, PET, etc). Requisitos: Resumen de historia clínica orientado a la patología a evaluar. Estudio por Imagen previo (TAC/RMN/ECO) que objetive la lesión a evaluar. Indicaciones: CA de recto irradiado y/o con tto quirúrgico: para Diag./Dif. de recidiva local vs. engrosamiento inflamatorio postquirúrgico o actínico. CA de útero irradiado sin tratamiento quirúrgico: para Diag./Dif. de recidiva local vs. lesión cicatrizal actínica. Caracterización de lesiones en pacientes con contraindicación de contraste EV (ej. insuficiencia renal). Para el resto de las patologías oncológicas existen diferentes estudios por imágenes con mayor utilidad clínica (ej. toma de biopsia, PET, etc). Requisitos: Resumen de historia clínica orientado a la patología a evaluar. Estudio por Imagen previo (TAC/RMN/ECO) que objetive la lesión a evaluar. Indicaciones: El examen clínico es suficiente en la evaluación de la mayoría de las disfunciones del piso pelviano, ya sea incontinencia urinaria de esfuerzo o incontinencia anal. Las guías de práctica clínica condicionan su uso al compartimento medio o posterior, aunque sin establecer superioridad ante otros estudios por imágenes. Podría tener algún beneficio, por lo que se cubrirá evaluando previamente cada caso: Compartimiento anterior: sospecha de hipermotilidad uretral (como causa de incontinencia urinaria). Compartimento medio: valorar gravedad de prolapso vaginal y de cuello de útero con el esfuerzo. Compartimento posterior: valorar gravedad del rectocele (mide profundidad de la protrusión de la pared rectal con el esfuerzo defecatorio). Requisitos: Resumen de historia clínica orientado a la patología. Estudios de laboratorio y de imágenes previos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. 134.20.11RMN DE VEJIGA YPRÓSTATAIncluye: Honorarios y Gastos. RMNGINECOLÓGICA Incluye: Honorarios y Gastos. 134.20.09 RMN HEPATOBILIARESPLÉNICO PANCREÁTICA [Incluye: Honorarios y Gastos. RMNMAMARIA Incluye: Honorarios y Gastos. RMNOFTALMOLÓGICAIncluye: Honorarios y Gastos. 134.50.63 Incluye: Honorarios y Gastos. IRMNOTRASREGIONES Inclu e: Honorarios Gastos. 134.50.57RMN RENALIncluye: Honorarios y Gastos. 134.50.50 RMNSUPRARRENAL [Incluye: Honorarios y Gastos._ 134.20.10IRMN TORÁCICA Incluye: Honorarios y Gastos. o\nEXCLUYE: Anatomía patológica.",
       "coseguro": "20"
     },
     {
@@ -1721,35 +1524,31 @@ const searchData = {
     {
       "code": "34.50.50",
       "description": "RMN SUPRARRENAL",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Material de contraste Incluye: Honorarios y Gastos. RMN SUPRARRENAL CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios Médicos, Derechos, Uso de bomba\nEXCLUYE: Material de Contraste.",
       "coseguro": "20"
     },
     {
       "code": "34.50.51",
       "description": "RMN MAMARIA",
-      "normativa": "Incluye: Honorarios y Gastos. RMN MAMARIA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste Incluye: Honorarios y Gastos. RMN OFTALMOLÓGICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gas tos. I ncluye: Honorarios y Gas to s.\nEXCLUYE: Ma ter ial de co ntraste",
       "coseguro": "20"
     },
     {
       "code": "34.50.52",
       "description": "RMN DE PELVIS",
-      "normativa": "Incluye: Honorarios y Gastos. RMN DE PELVIS CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: SUST.CONTRASTE) TACHEPATOBILIAR REFORZADA (EXCLUYE SUST.CONTRASTE) TAC HEPATOBILIAR, ESPLENICA, PANCREÁTICA, RENAL, SUPRARRENAL $ 1.222 1 $ 1.222 TAC OFTALMOLOGICA $ 647",
       "coseguro": "20"
     },
     {
       "code": "34.50.54",
       "description": "RMN OTRAS REGIONES",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Material de contraste Incluye: Honorarios y Gastos. RMN OTRAS REGIONES CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. SINUSOTOMÍA CONFIBRAÓPTICA Y VIDEOSCOPÍAIncluye: Honorarios y Gastos. Uso de video. TAC CEREBRAL Incluye: Honorarios y Gastos.\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación.\nREQUISITOS: RESUMEN DEHISTORIACLÍNICA ORIENTADO A LA",
       "coseguro": "20"
     },
     {
       "code": "34.50.55",
       "description": "RMN CARDIACA FUNCIONAL",
-      "normativa": "INCLUYE: Honorarios y Gastos. ECO-DOPPLER TRANSESOFÁGICO COLOR Honorarios y Gastos. c.- .--- [ Honorarios y Gastos. DRENAJEPERCUTÁNEO BILIAR N C9 O O O U) (11 c (I) >-. ' 0 (13 U) 0 ' U) 011aO0Os00U)OU) 0(3 O u) o 2 rci 12 O' >\", E<i) as cr .0 la a CO .0 • OO CC Eg e (a.£ ,o •E o 0_ O ._ o o .7= 0 a) (13 _ O) E .N ro .0 7 1 ° 0 7 (5 0> 2 1)-cairuE ._ 11 O 0., (1) D-3-0 = -- -7=1 :6 13.1) X o_ ,._ 75 - E ,- o_ -o W O O 0_ C) 13 E .,_ rr, 7 U) 5 ca -17) e ,._ o a) = eu N (y) co C C OZ) 15 (..) a) ui a) 0 -cs u) 0 D =00 -ów wo cg o.,> ,_ 0 713 1 O 7; o 15u' D 11)., 2 a) ir -1-5 , ' co 0 -0 r ° ''.' C C5P•y) 7 ,- ,-- ce 0 u) 75)C073 0 ' > as cu co -(T) c'3 cu 3 'OO C 0 tTO 7 o 1 rs, cl) -- '--• 13 1:1)as07co-5-E(13 c {ay -E 9-, a)E -2TI 2 a) o u) m 12 ,a3 N O) O 0 ''''c\"\" c C) , Cr) c 9- -(5_5 e ...-.' -a).----.---0 a) 7 ,n3 -0 0 (a_,, ,--c--, ..--.• 03 (1) - OS c- (!) (u 1.-,--, o o U) I (f) -0 o - a) a) E ,o :5 U) 1 O a) CO <.) CL U) .-0 5) 4:11 COo a) Cr) N I4-7- ' O 0 C -0 .0 O: U) '.. cacoa)Sui usa) ,c>. 2 ) a) 1 u) w_ Tu 1 (13 u) w 13 c 5ou ) 1C..) (13 rt) O _ O -oi iii 9 S (-. c E (i) --t O É c '0- ._, ó -cs 8 5 ,° n 5 N 1o; 29L.) ..., o_ - = as = as a) :11 -o ■ c .- 0 U ...., -(ii c cu r ocoNal my ,„- _ u) a> c _ a> , o o O) N `'tu (T) a) E n •0 a).' a) -o>- u) U) --0,.... 0 1 n' E CL E 2 G.) 1D = 41) - •--,>_0 ° on a) . n o a) cl) 'c z- ---' 13 u) 4_.-',„. cr V) -0 U) ...› , -o co 0c u) o .4. >-. as c (13 ES c) o a) E 0 o , , co o - a) (u Ir c Ta _g 1 7)_ -a E -o ' 2 i. as C O 1.,=. (1) .o) <0 0 0 .0 •-coO . 5 u) 0 as N o al al -° o 2 ' .5 (7) -11) ac-u ° 49- a) ...,° ., e, E p o_ 3(vico. a) 7.. ,-, cu c cu -,_ 5, TO p u) _ ce .._o -,) O E .:(1) -5 -- y, .2, 4._9Ca, = (U U eL ,.._ > .--. a.) CL) c 4---: •-_-• O_ W 2 -o -o o C.) o_ o_ co o- ..c) }.• (13 . re G.) -.-.' CD >, 5 20. 715 as \"O O (C3 2= C O U) c CO . C o U) 7.5 co N O dO c m 7.) U) c o ca U) o o a) s >-. (13 T0 7 a). 0o >,",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
@@ -1784,8 +1583,7 @@ const searchData = {
     {
       "code": "34.50.64",
       "description": "RMN OFTALMOLÓGICA",
-      "normativa": "Incluye: Honorarios y Gastos. RMN MAMARIA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste Incluye: Honorarios y Gastos. RMN OFTALMOLÓGICA CON CONTRASTE Incluye: Honorarios y Gastos. Material de contraste",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. Incluye: Hono rarios y Gastos. 34.b0. /9 RMN GINECOLOGICA CONCONTRASTE Incluye: Honorarios y Gastos.\nEXCLUYE: Ma ter ial de co ntraste",
       "coseguro": "20"
     },
     {
@@ -1931,50 +1729,44 @@ const searchData = {
     {
       "code": "34.51.23",
       "description": "RMN CARDIACA FUNCIONAL CON CONTRASTE",
-      "normativa": "INCLUYE: Honorarios y Gastos. ECO-DOPPLERTRANSESOFÁGICOCOLOR Honorarios y Gastos. 1 Honorarios y Gastos. ECO-DOPPLERVASCULARPERIFÉRICO Honorarios y Gastos. ECOCARDIOGRAMA COMPLETO AMy B Honorarios y Gastos. 1 Honorarios , Gastos y Medicamentos. 2 nr N 0 C \I 0 a) Lo CCi co 0 0 O C•4 P LULA» 7I SCA O M N C> (3) cs) o O O 0 Cs1 0 C \I cd ozi „.-cd .,- N ,— O C> ts ■ 0 '1- ci N C; LO x-,— CCD Cd LO CD C; LO Cd r, r– N— C; Cd .......... 1 Honorarios y Gastos. Honorarios y Gastos. Criterios de Autorizacíón: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de aborto espontáneo - Escuchar los latidos cardíacos de un feto Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el cuello uterino está cambiando o abriéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los va lores normales, por ejemplo si las estructuras pélvicas o el feto son normales. Se autorizará una vez por año prestacional y en caso de necesidadde repetir el estudio con antelación al año prestacional, se deberán adjuntar estudios previos que justifiquen su realización. En caso de embarazo se autorizara bajo el plan materno infantil. Honorarios y Gastos. La realización o no de la punción diagnóstica quedará sujeto a auditoría posterior, según protocolo. En caso de realizarse punción diagnóstica la misma deberá realizarse en el mismo procedimiento, y gestionarse",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "34.50.58",
       "description": "ARTRORESONANCIA",
-      "normativa": "Incluye: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. | Excluye: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, ARTERIOGRAFÍA PERIFÉRICA DE MIEMBRO INFERIOR Sustancia de Contraste y Material Descartable inherente al BILATERAL DESDE NACIMIENTO DE ARTERIAS ILÍACAS procedimiento. PRIMITIVAS\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia. 134.50.58 ARTRORESONANCIA\nREQUISITOS: Pinzamiento femoroacetabular, lesiones del Labrum acetabular, Cuerpos libres intraarticulares, lesionaes condrales acetabulares y femorales, secuelas de enfermedad de Perthes y epifisiolisis, enfermedad de la sinovial, condromatosis sinovial, artritis séptica. Ventajas : Menos trauma quirúrgico, Menor riesgo de complicaciones tanto intra como post-operatorias, Menor estadía hospitalaria, rápida recuperación con una incorporación precoz a la rutina habitual.",
       "coseguro": "20"
     },
     {
       "code": "34.50.59",
       "description": "COLANGIORESONANCIA",
-      "normativa": "Incluye: Pensión hasta 1 dia, Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10% del valor del total del módulo), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de “PATOLOGÍA RESUELTA”. Esto incluye eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. | Excluye: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE SUTURA IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. | Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye todos los órganos y/o regiones. 1 Incluye: Honorarios y Gastos.\nEXCLUYE: Anestesia y Sala de Recuperación (cuando se utilice).\nREQUISITOS: CLÍNICA: PRIMARIO: Según tamaño tumoral y área corporal: Área H>6 mm (párpados, cejas, nariz, labios pera, orejas); Área M>10mm (mejillas, frente y pretibial); Área L>20mm (tronco y miembros). RECIDIVATUMORAL. HISTOPATOL OGÍA: Subtipos histológicos indiferenciados: CBC: morfeiforme, esclerosante, metatlpico, micronodular. CEC: acantolítico, adenoescamoso, pagetoide, queratoacantomatoso. Infiltrante. Invasión perineural o linfovascular. Compromiso de márgenes luego de una Escisión inicial. ANTECEDENTESDEL PACIENTE: Inmunodepresión (HIV, trasplantados, oncohematológicos, drogas inmunosupresoras, etc). Síndromes genéticos con tumores de piel múltiples. Radioterapia local previa. Antecedentes personales de tumores agresivos. REQUISITOS: Resumen de histesteroágenes relacionados al tratamiento ablativo (TACRMN-ETE-ETT) o prácticas devenidas por complicaciones eventuales del procedimiento (pericardiocentesis-cirugía cardíaca). Estos insumos exchidos serán gestionados para su adquisición por mecanismos de licitación de IAPOS o facturados po [",
       "coseguro": "20"
     },
     {
       "code": "34.50.60",
       "description": "URORESONANCIA",
-      "normativa": "Incluye: Honorarios. Incluye: Honorarios. URETRORENOSCOPÍA SUPERIOR Incluye: Honorarios. Incluye: Honorarios y Gastos . Indicaciones: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos. Incluye: Honorarios – Derechos - Uso de aparatología, ⅓ de la sonda/catéter y elementos específicos | Excluye: Endoscopía - Anestesia - Medicamentos - Sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Endoscopia - Anestesia - Medicamentos - Sala de recuperación.\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "20"
     },
     {
       "code": "34.50.61",
       "description": "ANGIORESONANCIA",
-      "normativa": "Incluye: Pensión en UCC o Pensión en habitación compartida, Honorarios Médicos. Derechos de hemodinámia. Medicamentos y Material Descartable inherentes al procedimiento. | Excluye: Prácticas y/o estudios complementarios a partir del tercer día de internación. Cirugía de revascularización por el fracaso de la angioplastia. Otras practicas tales como eco-doppler, estudios electrofisiológicos, etc. Infusión de drogas trombolíticos. Stent. Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios, Gastos y RMN Cerebral. Criterio de autorización: TEC y/o M.A.V. en plan de evaluación para ANGIOTOMOGRAFIA CRANEO Y VASOS DE CUELLO resolución quirúrgica Incluye: Honorarios, gastos y set de medicamentos.\nEXCLUYE: Material de contraste. ANGIOTOMOGRAFIA DEAORTA ABDOMINAL",
       "coseguro": "20"
     },
     {
       "code": "34.12.01",
       "description": "DENSITOMETRÍA ÓSEA",
-      "normativa": "Incluye: Honorarios y Gastos. Si es por dos regiones, se factura 50% adicional. DENTASCAN POR TCV MULTISLICE AMBOS MAXILARES Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "PROTOCOLOS DE AUTORIZACIÓN Y AUDITORÍA DENSITOMETRÍA ÓSEA - NORMATIVAS DE USO - REQUISITOS DE SOLICITUD DE ELEMENTOS MÉDICOS Obligación de cobertura en los siguientes casos (definición Salud) 1. Diagnóstico de Osteoporosis. En mujeres que cumplan con ambos de los siguientes criterios (a) tengan un puntaje IARO mayor o igual a 9 (nueve) sumado a alguno de los factores de riesgo (b) Estén dispuestas a realizar tratamiento específico para osteoporosis. 2. Seguimiento de Osteoporosis - En mujeres bajo tratamiento de osteoporosis no debe solicitarse una DMO de seguimiento antes de los 2 (dos) años. - No es necesario solicitar dos sitios diferentes para el diagnóstico de osteoporosis - En las mujeres jóvenes se puede solicitar DMO columna lumbar y en las mayores de 65 puede solicitarse solamente DMO de cadera. - En las pacientes con DMO normales (T score mayor a –1) el seguimiento no debe realizarse en un intervalo menor de 3 a 5 años. - Las mujeres con DMO por encima de lo normal no requieren seguimiento. - Las mujeres en programa de prevención deben ser seguidas cada 2 (dos) años hasta la estabilización de la medición. Luego debe realizarse cada 3 años. Índice IARO: Instrumento de Evaluación de Riesgo de Osteoporosis 15 puntos: para mayores de 75 años 9 puntos: entre 65 y 74 5 puntos: entre 55 y 64 años 9 puntos: si el peso es menor 60 kg 3 puntos: entre 60 y 69.9 kg 2 puntos: si no usa actualmente estrógenos Factores de Riesgo de fractura (National Osteoporosis Foundation): - DMO previa patológica - historia personal previa de fracturas - historia familiar de fracturas - delgadez (peso inferior a 60 kg) - hábito tabáquico activo 1 - utilización de esteroides V.O. durante más de 3 meses hiperparatiroidismo primario asintomático Adicionales en posmenopausia (consideración particular de acuerdo a HC): - déficit estrogénico precoz (ante de los 45 años) - caídas recientes - ingesta baja de calcio - inactividad física 2",
       "coseguro": "9"
     },
     {
       "code": "34.50.20",
       "description": "TOMOGRAFIA POR EMISION DE POSITRONES - SANTA FE",
-      "normativa": "Incluye: Pensión en habitación compartida. Evaluación pre, intra y post-procedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. | Excluye: Anestesia. Droga (ampollas de adenosina).",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos, descartables. 1\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓNDE TRATAMIENTOINVASIVO CONRIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2SCORESVALIDADOS (Adjuntar PRINTCOMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) OMAL CANDIDATO QUIRÚRGICOPOR OTRASVARIABLESNO CONTEMPLADAS EN LOSSCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DEVIDA > 1 AÑO. DEBE DETERMINARSECALIDAD DE VIDAACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍACON EL PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra requerir información adicional que considere pertinente. (IMPLANTEVALVU LAR AÓRTICO TRANSCATETER — TAVI) REQUISITOS: RESUMEN HISTORIACLINICAorientado a la prestación con evaluación por HeartTeam (con firma y sello de todos integrantes) donde se avale lo solicitado, expresando claramente los motivos de la no resolución por via quirúrgica convencional. SCORES DE RIESGO QUIRÚRGICO: ArgenScore, STS score o Euroscore impresos. Deben ejecutarse on line (pagina web especifica) y se deben imprimir en forma completa. Adjuntar todos los estudios que respalden las variables incorporadas en el calculo de los mismos (informes de laboratorio, estudios de iamgenes, o",
       "coseguro": "BQ"
     },
     {
@@ -2134,148 +1926,131 @@ const searchData = {
     {
       "code": "35.01.02",
       "description": "TELECOBALTOTERAPIA POR SESIÓN",
-      "normativa": "Incluye: Honorarios y Gastos .",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Anestesia. Droga (ampollas de adenosina). TEST\nREQUISITOS: Se deberá adjunt historia clínica justificando el pedido describiendo características de lesión y tamaño, con informe de es",
       "coseguro": "2"
     },
     {
       "code": "36.01.02",
       "description": "URETROCISTOFIBROSCOPÍA",
-      "normativa": "Incluye: Honorarios y Gastos . URETROCISTOURETEROFIBROS COPÍA CON VIDEO Incluye: Honorarios y Gastos. Uso de video.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Endoscopia - Anestesia - Medicamentos - Sala de recuperación.\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "19"
     },
     {
       "code": "36.01.08",
       "description": "URETROCISTOURETEROFIBROSCOPÍA CON VIDEO",
-      "normativa": "Incluye: Honorarios y Gastos . URETROCISTOURETEROFIBROS COPÍA CON VIDEO Incluye: Honorarios y Gastos. Uso de video.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios — Derechos - Uso de aparatología, 1/3 de la sonda/catéter y elementos específicos\nEXCLUYE: Endoscopía - Anestesia - Medicamentos - Sala de recuperación.\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMA DOPPLER-ANGIO TAC O RMN CON MEDICIONES E INFORME.",
       "coseguro": "20"
     },
     {
       "code": "36.01.11",
       "description": "ESTUDIO URODINÁMICO COMPLETO",
-      "normativa": "Incluye: Hemograma - Recuento de Reticulocitos - Recuento de Plaquetas - Citomorfología de Sangre periférica - Ferremia - Capacidad de saturación transferina - Porcentaje saturación tansferrina - Toma de muestra. Sugerencia: Uno en la evaluación inicial de citopenias. ESTUDIO URODINÁMICO COMPLETO Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nREQUISITOS: rintr^1..s d Cona.irnic.nto 'nci-,-h. , t^lógicn snün protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "20"
     },
     {
       "code": "36.50.01",
       "description": "FLUJOMETRÍA URINARIA",
-      "normativa": "Incluye: Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. | Excluye: El monto excluye Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Hemograma - Recuento de Reticulocitos - Recuento de Plaquetas (IP caturartifin trancfnrina . — Porcentaje saturación tansferrina - Toma de muestra. Sugerencia: Uno en la evaluación inicial de citopenias. 1Incluye: Honorarios y Gastos. Incluye: Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios del modulo), Medicamentos y Materiales 40%del total médicos (corresponden al descartables.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. 1",
       "coseguro": "14"
     },
     {
       "code": "36.90.01",
       "description": "COLOCACIÓN O EXTRACCIÓN DE CATETER DOBLE J",
-      "normativa": "Incluye: Honorarios | Excluye: Pensión, Gastos Sanatoriales, Set completo con guia y cateter doble J a cargo de IAPOS de acuerdo a PROTOCOLO VIGENTE.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en habitación compartida. Honorarios del cirujano y ayudante. Gastos. Uso de video. Medicamentos y descartables inherentes al procedimiento. Bisturi armonico o ultrasonico.\nEXCLUYE: Suturas mecanicas (de acuerdo a PROTOCOLO VIGENTE) Biopsia por congelación. Anatomía patologica. Interconsultas. Estudios prev os en caso de atención de guardia. Estudios prequirúrgicos. Anestesia.\nREQUISITOS: Patología quirúrgica del colon",
       "coseguro": "20"
     },
     {
       "code": "36.90.02",
       "description": "NEFROLITOTRICIA PERCUTÁNEA POR VIDEO",
-      "normativa": "Incluye: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: LOS MATERIALES NECESARIOS (SET NEFROSTOMIA) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TAC O ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS .Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. NEUROCIRUGÍA POR RADIOFRECUENCIA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Cateterismo y arteriografía selectiva de la zona 'de probable sangrado. Embolización. Medicamentos y descartables inherentes a la práctica. Catéteres. Honorarios médicos, hemodinamista, radiólogo. Pensión: 3 días en habitación compartida.\nEXCLUYE: Droga citostática. Anestesia.\nREQUISITOS: Litiasis renales > 2 cm - Litiasis renales <, 2 cm con contraindicación para litotricia extracorpóreal (embarazo, MCP, insuficiencia renal severa, coagulopatíal severa o anticoagulación en curso) - Litiasis coraliforme completa o incompleta no tratable por vía extracorpórea Inclusiones: Honorarios y gastos (",
       "coseguro": "BQ"
     },
     {
       "code": "36.90.03",
       "description": "URETRORENOSCOPÍA INFERIOR",
-      "normativa": "Incluye: Honorarios. Incluye: Honorarios. URETRORENOSCOPÍA SUPERIOR Incluye: Honorarios. Incluye: Honorarios y Gastos . Indicaciones: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos. Incluye: Honorarios – Derechos - Uso de aparatología, ⅓ de la sonda/catéter y elementos específicos | Excluye: Endoscopía - Anestesia - Medicamentos - Sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios — Derechos - Uso de aparatología, 1/3 de la sonda/catéter y elementos específicos\nEXCLUYE: Endoscopía - Anestesia - Medicamentos - Sala de recuperación.\nREQUISITOS: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "OI"
     },
     {
       "code": "36.90.04",
       "description": "URETRORENOSCOPÍA MEDIA",
-      "normativa": "Incluye: Honorarios. Incluye: Honorarios. URETRORENOSCOPÍA SUPERIOR Incluye: Honorarios. Incluye: Honorarios y Gastos . Indicaciones: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos. Incluye: Honorarios – Derechos - Uso de aparatología, ⅓ de la sonda/catéter y elementos específicos | Excluye: Endoscopía - Anestesia - Medicamentos - Sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Endoscopia - Anestesia - Medicamentos - Sala de recuperación.\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "OI"
     },
     {
       "code": "36.90.05",
       "description": "URETRORENOSCOPÍA SUPERIOR",
-      "normativa": "Incluye: Honorarios. Incluye: Honorarios. URETRORENOSCOPÍA SUPERIOR Incluye: Honorarios. Incluye: Honorarios y Gastos . Indicaciones: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos. Incluye: Honorarios – Derechos - Uso de aparatología, ⅓ de la sonda/catéter y elementos específicos | Excluye: Endoscopía - Anestesia - Medicamentos - Sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos . TEST DE CAMINATA 6' Incluye: Honorarios y Gastos . TEST DE CAMINATA 6'CON OXÍGENOIncluye: Honorarios y Gastos .\nEXCLUYE: Anestesia. Ecod000ler transesofáaieo\nREQUISITOS: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "BQ"
     },
     {
       "code": "36.90.06",
       "description": "URETEROLITOTRICIA ENDOSCÓPICA",
-      "normativa": "Incluye: honorarios y gastos. URETEROLITOTRICIA ENDOSCÓPICA Incluye: Honorarios, Gastos y materiales específicos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos .\nEXCLUYE: El material radioactivo F18-FDG CT) (\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMA DOPPLER-ANGIO TAC O RMN CON MEDICIONES E INFORME.",
       "coseguro": "BQ"
     },
     {
       "code": "38.01.01",
       "description": "PUVA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Exclu Anatomía Patológica. Honorarios neurocirugía, derechos, medicamentos y descartables. Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. PUNCIÓN BIOPSIA PERCUTÁNEAPORTAC Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. Honorarios y Gastos, por mama, por lesión Honorarios y Gastos Honorarios, Derechos y Materiales Descartables. Incluido el correspondiente Kit. y filtros, Tipificación, Serología y reposición de líquidos. El valor establecido es por cada ciclo y se podrá solicitar hasta 10 ciclos, los cuales varían según la patología del paciente. *Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40%del total del modulo), Medicamentos, canastilla y Materiales PAPILDI SFIIVEROTOMÍAENDOSCÓPICACONEXTRACCIÓNDE descar\nEXCLUYE: Anatomía Patológica. 1 Anatomía Patológica. 1 Pensión, anatomía patológica, cultivos. Alquiler marco estereotáxico por parte de la Institución Prestadora: JUU23 $48.516, AGO/23 $ 55.891, SET/23 $ 57.735, COT/23$ PUNCIÓNBIOPSIAESTEREOTÁXICA INTRA-AXIAL GUIADA POR TAC 59.582, NOV/23 $ 61. 132Y DIC/23 $ 62.660 y Aguja de punción: JUU23 $ 25.662, AGO/23 $29.563, SET/23$ 30.538, OCT/23 $ 31.515, NOV/23 $ 32.335 Y DIC/23 $ 33.143). Anatomía Patológica, pensión en habitación compartida. Anatomía Patológica, pensión en habitación compartida. PUNCIÓNDE MAMABAJOECOGRAFIA Anatomía Patológica. Indicación: SANO (Síndrome de Apneas Obstructivas del Sueño).Sólo por Neumonólogo con especialización en Medicina del Sueño. Albunima Humana. Sangre. Plasma o Derivados.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "12"
     },
     {
       "code": "38.02.01",
       "description": "CAMARA HIPERBÁRICA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Exclu Anatomía Patológica. Honorarios neurocirugía, derechos, medicamentos y descartables. Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. PUNCIÓN BIOPSIA PERCUTÁNEAPORTAC Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. Honorarios y Gastos, por mama, por lesión Honorarios y Gastos Honorarios, Derechos y Materiales Descartables. Incluido el correspondiente Kit. y filtros, Tipificación, Serología y reposición de líquidos. El valor establecido es por cada ciclo y se podrá solicitar hasta 10 ciclos, los cuales varían según la patología del paciente. *Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40%del total del modulo), Medicamentos, canastilla y Materiales PAPILDI SFIIVEROTOMÍAENDOSCÓPICACONEXTRACCIÓNDE descartables.\nEXCLUYE: Anatomía Patológica. 1 Pensión, anatomía patológica, cultivos. Alquiler marco estereotáxico por parte de la Institución Prestadora: JUU23 $48.516, AGO/23 $ 55.891, SET/23 $ 57.735, COT/23$ PUNCIÓNBIOPSIAESTEREOTÁXICA INTRA-AXIAL GUIADA POR TAC 59.582, NOV/23 $ 61. 132Y DIC/23 $ 62.660 y Aguja de punción: JUU23 $ 25.662, AGO/23 $29.563, SET/23$ 30.538, OCT/23 $ 31.515, NOV/23 $ 32.335 Y DIC/23 $ 33.143). Anatomía Patológica, pensión en habitación compartida. Anatomía Patológica, pensión en habitación compartida. PUNCIÓNDE MAMABAJOECOGRAFIA Anatomía Patológica. Indicación: SANO (Síndrome de Apneas Obstructivas del Sueño).Sólo por Neumonólogo con especialización en Medicina del Sueño. Albunima Humana. Sangre. Plasma o Derivados. En caso de realizarse en internación se permitiráfacturar el valor diferencial de pensión en",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "38.50.03",
       "description": "USO DE MICROSCOPIO",
-      "normativa": "Incluye: Honorarios. Incluye: Honorarios. URETRORENOSCOPÍA SUPERIOR Incluye: Honorarios. Incluye: Honorarios y Gastos . Indicaciones: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos. Incluye: Honorarios – Derechos - Uso de aparatología, ⅓ de la sonda/catéter y elementos específicos | Excluye: Endoscopía - Anestesia - Medicamentos - Sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Endoscopia - Anestesia - Medicamentos - Sala de recuperación.\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Requisitos: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "20"
     },
     {
       "code": "38.50.04",
       "description": "USO MONITOREO MEDULAR/TRONCO ENCEFÁLICO NEUROFISIOLÓGICO (EN CASO DE",
-      "normativa": "INCLUYE: Honorarios y Gastos. Exclu Anatomía Patológica. Honorarios neurocirugía, derechos, medicamentos y descartables. Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. PUNCIÓN BIOPSIA PERCUTÁNEAPORTAC Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. Honorarios y Gastos, por mama, por lesión Honorarios y Gastos Honorarios, Derechos y Materiales Descartables. Incluido el correspondiente Kit. y filtros, Tipificación, Serología y reposición de líquidos. El valor establecido es por cada ciclo y se podrá solicitar hasta 10 ciclos, los cuales varían según la patología del paciente. *Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40%del total del modulo), Medicamentos, canastilla y Materiales PAPILDI SFIIVEROTOMÍAENDOSCÓPICACONEXTRACCIÓNDE descartables.\nEXCLUYE: Pensión, anatomía patológica, cultivos. Alquiler marco estereotáxico por parte de la Institución Prestadora: JUU23 $48.516, AGO/23 $ 55.891, SET/23 $ 57.735, COT/23$ PUNCIÓNBIOPSIAESTEREOTÁXICA INTRA-AXIAL GUIADA POR TAC 59.582, NOV/23 $ 61. 132Y DIC/23 $ 62.660 y Aguja de punción: JUU23 $ 25.662, AGO/23 $29.563, SET/23$ 30.538, OCT/23 $ 31.515, NOV/23 $ 32.335 Y DIC/23 $ 33.143). Anatomía Patológica, pensión en habitación compartida. Anatomía Patológica, pensión en habitación compartida. PUNCIÓNDE MAMABAJOECOGRAFIA Anatomía Patológica. Indicación: SANO (Síndrome de Apneas Obstructivas del Sueño).Sólo por Neumonólogo con especialización en Medicina del Sueño. Albunima Humana. Sangre. Plasma o Derivados. En caso de realizarse en internación se permitiráfacturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado. Honorarios anestesia, Elementos médicos específicos de acue",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "38.50.05",
       "description": "USO CRANEÓTOMO",
-      "normativa": "INCLUYE: Honorarios y Gastos, por mama, por lesión Honorarios y Gastos Honorarios, Derechos y Materiales Descartables. Incluido el correspondiente Kit. y filtros, Tipificación, Serología y reposición de líquidos. El valor establecido es por cada ciclo y se podrá solicitar hasta 10 ciclos, los cuales varían según la patología del paciente. *Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40%del total del modulo), Medicamentos, canastilla y Materiales PAPILDI SFIIVEROTOMÍAENDOSCÓPICACONEXTRACCIÓNDE descartables. Honorarios y Gastos. 1 t.= — o el O d cm 5 d cm c-. C). o ,-o in cri 4 c.i ,-- d cn cci O o 2u a It It u 1c 3 o Q 1 c U u F L., o ci, n\" 2 o y el A 2 O e _r 1 _z k.) J < 1 < 1 u o < ILI Z e O w w w 1— GO 5 z D Cl. N ..4. CO O dó LO in O) ce; O 01 o d lo d c r... . ci .d, ,. .2 o d Lo d o LO Honorarios y Gastos. Aguja de Punción. Honorarios Médicos, Derechos, Uso de bomba infusora. Honorarios y Gastos. PROGESTERON\nEXCLUYE: Anatomía Patológica, pensión en habitación compartida. PUNCIÓNDE MAMABAJOECOGRAFIA Anatomía Patológica. Indicación: SANO (Síndrome de Apneas Obstructivas del Sueño).Sólo por Neumonólogo con especialización en Medicina del Sueño. Albunima Humana. Sangre. Plasma o Derivados. En caso de realizarse en internación se permitiráfacturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado. Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. 1 Pensión en habitación Pensión en QUIMIOTERAPIAENINTERNACIÓN RECEPTORESCONTÉCNICA INMUNOHISTOQUIMICA (ESTRÓGENO -",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "38.50.06",
       "description": "USO CAVITADOR ULTRASÓNICO",
-      "normativa": "INCLUYE: Honorarios y Gastos. ELECTROMIOGRAFIADEMIEMBROS SUPERIORES O INFERIORESO Honorarios y Gastos. Material Descartable FACIAL Criterios de autorización: patología inflamatoria, tumoral y funcional, que afecta el canal anal, recto inferior, tabique recto vaginal y suelo ECOGRAFIAENDOANAL pelviano, adjuntando descripción semiológica y otros estudios previos Honorarios y gastos. ECOGRAFIA ENDOCAVITARIA PROSTÁTICA Honorarios y Gastos. Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de a borto espontáneo - Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el ECOGRAFIA ENDOCAVITARIAVAGINAL cuello uterino está cambiando o a briéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los valores norma les, por ejemplo si las estructuras pélvicas o el feto son norma les. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación a l año prestacional, se deberán adjuntar estudios previos que justifiquen su rea lización. En caso de embarazo se autorizara bajo el plan materno infanta. Honorarios y Gastos. iECOGRAFIA HEPÁTICA, BILIAR, ESPLÉNICA O TORÁCICA Honorarios y Gastos. 1ECOGRAFIA INTRAOPERATORIA Honorarios y Gastos. Criterios de Autorización: Para la detección del cáncer de mama y de pequeños tumores de mama que aún no se han propagado hacia los ganglios linfáticos. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación a l añ",
-      "price_hidden": "",
+      "normativa": "INCLUYE: AAAYUXTARRENALES, PSEUDOANEURISMAS, INFECCIÓN DE PRÓTESISVASCULARESABDOMINALES, TRAUMATISMOS, INVASIÓNTUMORALDEVASOSABDOMINALES)",
       "coseguro": "S/C"
     },
     {
       "code": "38.50.07",
       "description": "USO NEURONAVEGADOR",
-      "normativa": "INCLUYE: Honorarios y Gastos. GASTROTOMÍA POR RADIOSCOPIA / FI BROSCOPIA Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y EXTRACCIÓNCUERPO EXTRAÑOESOFÁGICO Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. Uso de video. n34 / [J23 (3) O ci «S Punción aspirado de Médula Osea (esternal o Cresta Ilíaca Unilateral) Biopsia de Médula Osea Unilateral - Medulograma - Hemosiderina Medular Sideroblastos (% y clasificación) - Búsque de células neoplásicas - Descartables.\nEXCLUYE: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. FLUJOMETRÍA URINARIA Material Radiactivo según valor CEDIM Interior Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. EXUDADOFARÍNGEO METODO RÁPIDO\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - E",
-      "price_hidden": "",
+      "normativa": "INCLUYE: AAAYUXTARRENALES, PSEUDOANEURISMAS, INFECCIÓN DE PRÓTESISVASCULARESABDOMINALES, TRAUMATISMOS, INVASIÓNTUMORALDEVASOSABDOMINALES)",
       "coseguro": "S/C"
     },
     {
       "code": "38.90.01",
       "description": "QUIMIOTERAPIA AMBULATORIA",
-      "normativa": "Incluye: Honorarios y derechos. Aguja ATEC | Excluye: Anatomía patológica. Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios M6dicos, Derechos, Uso de bomba infusora. Pensi6n (Sill6n).\nEXCLUYE: Estudios (RMN) localizadoras, segiin corresponda por patologfa. PR6STATA (c6digo",
       "coseguro": "20"
     },
     {
       "code": "38.90.02",
       "description": "QUIMIOTERAPIA EN INTERNACIÓN",
-      "normativa": "Incluye: Honorarios y derechos. Aguja ATEC | Excluye: Anatomía patológica. Anestesia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorar ios y Gastos.\nEXCLUYE: En caso de rea lizarse en internación se permitirá facturar e l va lor diferencial de penSión. en re lación a l esp acio en el cua l se encuentra internado. Honorarios anestesia, Elementos médicos específicos de acuerdo a patología seg ún norma tivas IAPOS.",
       "coseguro": "OI"
     },
     {
       "code": "38.90.03",
       "description": "PUNCIÓN LUMBAR CON QUIMIOTERAPIA INTRATECAL",
-      "normativa": "Incluye: Honorarios y Gastos. Aguja de Punción. | Excluye: Pensión en habitación compartida. Medicamentos Oncológicos a cargo de Iapos. PUNCIÓN LUMBAR DIAGNÓSTICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. PUNCIÓN BIOPSIARENALBAJOECOGRAFÍA\nEXCLUYE: Anatomía Patológica, pensión en habitación compartida. Inclu e: Honorarios Gastos, •or mama, •or lesión Exclu e: Anatomía Patolós ica. PUNCIÓNDEMAMABAJOECOGRAFÍA PUNCIÓNESTEREOTÁXICADEMAMA",
       "coseguro": "OI"
     },
     {
@@ -2288,22 +2063,19 @@ const searchData = {
     {
       "code": "04.99.01",
       "description": "DENTASCAN POR TCV MULTISLICE UN MAXILAR",
-      "normativa": "Incluye: Honorarios y Gastos. Si es por dos regiones, se factura 50% adicional. DENTASCAN POR TCV MULTISLICE AMBOS MAXILARES Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: de acuerdo a DG IAPOS vigente\nREQUISITOS: para el mismo Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por año para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de 3 años Si la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior Se recomienda realizar DMO (S/la US Preventi",
       "coseguro": "20"
     },
     {
       "code": "04.99.02",
       "description": "DENTASCAN POR TCV MULTISLICE AMBOS MAXILARES",
-      "normativa": "Incluye: Honorarios y Gastos. Si es por dos regiones, se factura 50% adicional. DENTASCAN POR TCV MULTISLICE AMBOS MAXILARES Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. El monto\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional\nREQUISITOS: DESCENSOMASIVO DE PESO (postbariatrica o no) +COLGAJOSCUTÁNEOS QUE REQUIERANCORRECCIÓN POR PATOLOGÍA FUNCIONAL, EN CUALQUIERÁREADEL CUERPO (ABDOMEN, BRAZOSOMUSLOS). El plan quirúrgico establecido debe estar debidamente justificado por el profesional tratante, desde el inicio DERMOLIPECTOMÍA POSTDESCENSO MASIVODEPESO del trata",
       "coseguro": "20"
     },
     {
       "code": "43.50.01",
       "description": "SALA DE RECUPERACIÓN",
-      "normativa": "Indicación: Hidrocefalia normotensiva: para evaluar conducta diagnóstco/terapéutica cuando no pudo evaluarse con RMN de encéfalo+cistermografía radioisotópica + punción evacuadora. Solicitud por neurocirujano. Corresponde a 1/6 de valor pensión (4hs), aplicable a prestaciones ambulatorias que requieran uso de NEUROLEPTOANALGESIA / ANESTESIA.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios y gastos.\nEXCLUYE: Anestesia. Droga (ampollas de adenosina). [\nREQUISITOS: RESUMENDE HISTORIA CLINICA ORIENTADO A LAPRESTACION.",
       "coseguro": "8"
     },
     {
@@ -2323,8 +2095,7 @@ const searchData = {
     {
       "code": "01.90.03",
       "description": "TRATAMIENTO ENDOVASCULAR DE ANEURISMAS CEREBRALES",
-      "normativa": "Incluye: Medicamentos, Angiografía Digital y medio de contraste. Materiales descartables. Uso y gastos de quirófano / Sala hemodinamia. Honorarios NEUROINTERVENCIONISTA: AGO/23 $ 453.958, SET/23 $ 472.117, OCT/23 $ 491.000, NOV/23 $ 505.731 Y DIC/23 $ 520.903 técnicos y auxiliares. Microcoils de Platino (cantidad necesaria). | Excluye: Honorarios Médico Anestesiólogo. Pensión (UTI, Piso). Traslados. Estudios complementarios: TAC, Doppler, RMN, Análisis, Transfusiones. Según técnica empleada uno de los siguientes (a cargo de IAPOS): Balón Remodeling / Stent Intracraneal / Endoprótesis diversora de flujo.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye: Honorarios y Gastos Incluye: Honorarios y Gastos Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos\nEXCLUYE: Coils (a cargo de IAPOS)",
       "coseguro": "BPE"
     },
     {
@@ -2358,49 +2129,44 @@ const searchData = {
     {
       "code": "05.90.01",
       "description": "TORACOTOMIA EXPLORADORA, RESECCION DE PLEURA PARIETAL, COSTILLAS,",
-      "normativa": "INCLUYE: Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico ), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Honorarios y Gastos. Uso de video. Honorarios y Gastos. ASA. Gastosderechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. .\nEXCLUYE: PENSION: HASTA 3 (TRES) DIAS. ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan VIDEOLAPAROSCOPIA GINECOLOGICA TERAPEUTICA COMPLEJA congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARALA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TROCARESA VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación. VIDEOHISTEROSCOPÍADIAGNÓSTICA Pensión en habitación compartida. I ,VIDEOHISTEROSCOPIATERAPÉUTICA Anestesia. Medicamentos y Descartables PENSION: HASTA 1(UNO) DIA. ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no asílas intraoperatorias que incluyan congelación) MATERIALDESCARTABLE: UN (1) SOBRE DE MAT ERIAL VIDEOLAPAROSCOPIA GINECOLOGICADIAGNOSTICA IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TROCARES A VALORES CONVENIDOS Y TRES (3) LIGACLIPS SISEJUSTIFICA SU UTILIZAC ION. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías d\nREQUISITOS: Tumor de ovario. Miomatosis uterina. Histerectomia o Anexo Histerectomia Cuadros pelvianos agudos sin diagnóstico de certeza",
-      "price_hidden": "",
+      "normativa": "INCLUYE: HONORARIOS DE EQUIPODE 05.90.03CIRUGÍA PLÁSTICA? 105.90.04 1TRAQUEOSTOMIA tOR , CUALQUIERVIA RESECCION PULIviDNAR PARCIAL O iTOTAL, DECORTICACION PULMONAR PAR",
       "coseguro": ""
     },
     {
       "code": "05.90.02",
       "description": "RESECCION AMPLIA DE PARED TORACICA CON REEMPLAZO PROTESICO",
-      "normativa": "INCLUYE: Pensión hasta 1 día. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15días, de acuerdo al concepto de \"PATOLOGÍARESUELTA\". Esto eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. Honorarios y Gastos. Uso de video. Honorarios y Gastos. Uso de video. Honorarios y Gastos. Uso de video. Honorarios y Gastos. Uso de video. Honorarios y Gastos. Uso de video. Honorarios y Gastos. ASA.\nEXCLUYE: ANATOMIA PATOLOGICA DE LA/SPIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y TRES (3) LIGACLIPSSISE JUSTIFICASU UTILIZACION. HONORARIOSANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación. Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. Pensión en habitación compartida. Anestesia. Medicamentos y Descartables 1t JUN 21 )23 5 <S a) x-- VIDEOLAPAROSCOPIA GINECOLOGICA TERAPEUTICA COMPLEJA\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza Embarazo ectopico. Endometriosis. Quiste o",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE EVENTUAL INJERTO VENOSO) TRATAMIENTO Q UIRURGICO POR CUALQUIER VIA DEL ANEURISMA DE AORTA 07.90.41ABDOMINAL (NOCOMPLICADO) 1 TRATAMIENTO QUIRURGICO DEL ANEURISMA DE AORTA ABDOMINAL COMPLICADO( 1NCLUYE AAA YUXTARRENALES, PSEUDOANEURISMAS, INFECCIÓN DE PRÓTES IS VASCULARES ABDOMINALES, TRAUMATISMOS,",
       "coseguro": ""
     },
     {
       "code": "05.90.04",
       "description": "TRAQUEOSTOMIA POR CUALQUIER VIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Uso de video. Honorarios y Gastos. RMNCARDIACAFUNCIONAL Honorarios y Gastos. 1 Honorarios y Gastos. RMN COMPLETA DE ABDOMEN Honorariosy Gastos. 1 Honorarios y Gastos. RMN DECOLUMNA 1REGIÓN I lncluye: Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. 1 Honorarios y Gastos. RMNGINECOLÓGICA Honorarios y Gastos. 1 Honorarios y Gastos. RMNMAMARIA Honorarios y Gastos. RMNOFTALMOLÓGICA Honorarios y Gastos. 1 Honorarios y Gastos. IRMNOTRASREGIONES Inclu e: Honorarios Gastos. 1 Honorarios y Gastos. 1 Honorarios y Gastos._ 1 Honorarios y Gastos. o habitación compartida . Medicamentos Oncológicos a (cargo de lapos). Honorarios Médicos, Derechos, Uso de bomba infusora. Pensión (Sillón). Anestesia. Criterios de autorización: biopsia nódulos mamarios definidos, como opción no quirúrgica. Honorarios y derechos. Aguja ATEC Honorarios y Gastos. Aguja de Punción. Sala de recuperación.\nEXCLUYE: Anatomía patológica. de LCR. Estudio compartida. Medicamentos Oncológicos a cargo de lapos. QUIMIOTERAPIAAMBULATORIA PUNCIÓNMAMOGRÁFICACONSISTEMA ATEC/SUROS PUN 9011 LUMBARDIAGNÓSTICA ,PUNCIÓNLUIOIEI4RCON QUIMIOTERAPIAINTRATECAL",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE EVENTUAL INJERTO VENOSO) TRATAMIENTO Q UIRURGICO POR CUALQUIER VIA DEL ANEURISMA DE AORTA 07.90.41ABDOMINAL (NOCOMPLICADO) 1 TRATAMIENTO QUIRURGICO DEL ANEURISMA DE AORTA ABDOMINAL COMPLICADO( 1NCLUYE AAA YUXTARRENALES, PSEUDOANEURISMAS, INFECCIÓN DE PRÓTES IS VASCULARES ABDOMINALES, TRAUMATISMOS,",
       "coseguro": ""
     },
     {
       "code": "05.90.05",
       "description": "RESECCION PULMONAR PARCIAL O TOTAL, DECORTICACION PULMONAR POR",
-      "normativa": "INCLUYE: Honorarios y Gastos. Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. Pensión en habitación compartida, Honorarios Médicos, Derechos de Hemodinámia, Prácticas de Rx , Medicamentos, Sustancia de Contraste y Material Descartable específico. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), PAPILOESFINTEROTOMÍA EN DOSCÓPICACON EXTRACCIÓN Medicamentos, canastilla y Materiales descartables. Pensión hasta 2 días, Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40%del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15días, de acuerdo al concepto de \"PATOLOGÍARESUELTA\". Esto eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. Exclu\nEXCLUYE: LOS MATERIALES NECESARIOS (SET NEFROSTOMIA) PARA LA PRÁCTICAS, ESTARÁNACARGO DE I.A.P.O.S., SEGÚN NORMATIVAS Y PROTOCOLOS VIGENTES. TACO NEFROSTOMÍA PERCUTÁNEA ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS .Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. PANARTERIOGRAFÍACEREBRALPOR CATETERISMO Cualquier otro procedimiento adicional. Anestesia, TAC, RMN. Observaciones: En caso de complicaciones se factura toda la internación por prestación. DECÁLCULO Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. NEFRECTOMIA POR VIDEOSCOPIA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: HONORARIOS DE EQUIPO DE CIRUGÍA PLÁSTICA) TRAQUEOSTOMIA POR CUALQUIER VIA RESECCION PULMONAR PARCIAL O TOTAL, DECORTICACION PULMONAR POR",
       "coseguro": ""
     },
     {
       "code": "05.90.06",
       "description": "METASTASECTOMIA, RESECCIONES PULMONARES ATIPICAS. CIRUGIA RESECTIVA EN",
-      "normativa": "INCLUYE: Honorarios y Gastos. Anatomía Patológica. BLOQUEO FASCETARIO RADICULAR BAJO TAC Honorarios y Gastos. Medicación Específica. Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. honorarios y gastos. Alquiler Uso de Equipo a valores de plaza (independiente mente del valor fijado por DG) :ARRIDO CORPORAL TOTAL PARA CARCINOMA DE Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. TIROIDES Honorarios y Gastos Honorarios médicos de todo el equipo interviniente, Hemodinamia, Gastos, Anatomía Patológica, Medicamentos y Descratables inherentes al procedimiento . BIOPSIA ENDOMIOCARDICA (BEM) POR CATETERI SMO\nEXCLUYE: Anestesia, Medicación Inmunodepresora. BIOPSIA MUSCULAR POR M.E. Material Radiactivo según valor CEDIM Interior Se autorizará únicamente en aquellas pacientes cuyo Papanicolau resulte anormal o Material Radiactivo según valor CEDIM Interior BIOPSIA DE VELLOSIDADES CORIÓNICAS Pensión (por cartera prestacional), Anestesia (generalmente local) y CARDIACO Biótomo (provisto por IAPOS). Complicaciones del procedimiento (facturación por cartera prestacional). $P1RADOR ULTRASÓNICO -034 ,'„Av 211'23 - • ••••I ), c (f) o • - a)co>ftwo----Toa)o'- -loccocuou)oz ,o_ • • 0 _1 o w - (.) ,,,- co - c .- = -1:3 o o cs) o -o - - co co d< -E, u, co o 2 .... /Z (9 ID\" C1- )7 Ti_ cl. RI >• O CD 2 \"O -I 75 cts o co , o 2 ..- co . => - =o cri O ---.' D < m -. -0 c co o .c L---\"a' o N a 0 U) o I- a.) E o 0 0=0_075 ° z o (,) IiE fi >.• 2 : cp ca l >, co o t5 2 U CO c› =\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICA ORIENTADO A LA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "05.90.08",
       "description": "TORACOTOMIA AMPLIA EXPLORADORA PARA BIOPSIA DE PULMON, PLEURA O",
-      "normativa": "INCLUYE: Honorarios y Gastos. 0.01.11 MANOMETRÍA ESOFÁGICA Honorarios y Gastos. honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. MIRINGOPLASTIA TIPO II honorarios, derechos quirúrgicos, medicamentos, descartables. Pensión en habitación compartida. Arteriografía renal selectiva. Estudios radiológicos y ecográficos nomenclados. Exámen funcional respiratorio, Laboratorio. Prácticas cardiológicas nomencladas. Medicina transfusional - 1 módulo de serología. Consultas con distintas especialidades. Honorarios del equipo médico clínico, quirúrgico y técnico. Estudios de histocompatibilidad (metodo Luminex): MÓDULO PRE-TRANSPLANTE RENAL DONANTE determinacion de Antigeno HLA y ABC. Determinacion de antigeno HLADR. Cultivo mixto de linfocitos. Grupo sanguineo y factor. Crossmatch c/panel receptor. Crossmatch D-R (luminex) Honorarios y Gastos. Uso de video. Honorarios y Gastos. Instrumental inherente a la\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. MIRINGOTOMIA CONOSIN COLOCACION DE TUBO DRENAJE Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Prácticas quirúrgicas. Tratamientos derivados de diagnósticos que se establezcan. Tac, Biopsias y sus estudios anatomopatológicos. Medicamentos específicos. MODULOVIDEOENDOSCOPIA DIGESTIVAALTA Y BAJA (VEDA + Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. VCC) Medicamentos anestésicos y descartables. O O tt 1 !I I !N ' C17 ci cm ci , O) O ‘-- U) (vi o cri O O U) O cm c\i d d 11 91 d O) ci ,— N 0 r.1.— ci .— 0 r•-: 0 ,--c:, N 0 N 0 Cn N cci cD",
-      "price_hidden": "",
+      "normativa": "INCLUYE: EVENTUAL TOMA DEVENAPARA PLASTICA O INJERTO. EMBOLECTOMIA EN ARTERIASPERIFÉRICAS",
       "coseguro": ""
     },
     {
       "code": "05.90.09",
       "description": "DRENAJE DEL TORAX/BIOPSIA PLEURA ANESTESIA LOCAL, DRENAJE DE PLEURA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. ECOGRAFÍAHEPÁTICA, BILIAR, ESPLÉNICAOTORÁCICA Honorarios y Gastos. p ATORIA ECOGRAFÍAINTRAOPER ECOGRAF ÍAENDOCAVITARIAVAGINAL .0.-1-: o Igrnr-A RAwIA Fninnr,AviTARIA PROSTÁTICA ;<<< JOCO1 1JW1 .1 • w -Lu : a W u) o Z < (1) O -I CO. -i 1(f) E ECOGRAFÍA ENDOANAL ccr r.c. Li r « .'. a crcra 5 C.DC..7 L1 colangio RMI Honorarios y Gastos. Honorarios y Gastos. ; Honorarios y Gastos. Gastos. y Honorarios IncILL Ie: Honorarios y Gastos. ,Honotarios y Gastos. Honorarios y Gastos. . . (Criterios de autorización: patología inflamatoria, tumoral y fun",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
@@ -2414,120 +2180,108 @@ const searchData = {
     {
       "code": "08.90.07",
       "description": "ESOFAGUECTOMIA EN TRES TIEMPOS POR EL MISMO GRUPO QUIRURGICO",
-      "normativa": "INCLUYE: Honorarios, Gastos y Asa de Leep. Honorarios Honorarios y Gastos. DENTASCANPORTCVMULTISLICE UN MAXILAR Honorarios y Gastos. Criterios de autorización: sólo en casos de presencia de múltiples nevus y alto riesgo de DERMATOSCOPÍADIGITALCONMAPEOCORPORAL TOTAL melanoma y/o nevus displásicos. Se deberá adjuntar en todos los casos clasificación ABDC y score de Meinzes Honorarios y gastos. CO CD Nj O N: O n-O (- \i c.— ni\" C,') Cs./ ,-O O OS CA C C7) CS) 'Zi: M: CD CD\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. NI T- C■ 0 CC> ,--- rl C) 1 - C- d •1-- 'Lo CS O) 0 0) CC> O l'--: O 21 1' —On c) O. i j Pensión en habitación compartida. Pensión, Gastos Sanatoriales, Set completo con gula y cateter doble J a cargo de IAPOS de acuerdo a PROTOCOLO VIGENTE. DENSITOMETRÍAÓSEA DENTASCAN POR TCV MULTISLICEAMBOS MAXILARES\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por a ño para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de, 3 años. Si la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior. Se recomienda realizar DMO (S/la USPreventive Services Task Force(USPSTF) en: Mujeres ma",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "07.90.23",
       "description": "CIRUGIA ANEURISMA AORTA TORACICO ABDOMINAL",
-      "normativa": "Incluye: Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. El monto",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en habitación compartida, honorarios médicos, gastos operatorios, uso de videoartroscopio, medicamentos, material descartable, set de artroscopia de cadera, 1/3 punta de Shaver.\nEXCLUYE: Materiales protésicos (arpones), Complicaciones yo procedimientos adicionales. Anestesia.\nREQUISITOS: FIBRILACIONAURICULAR CRÓNICANUVINLV ULHKL'UN DE ABSOLUTA DICACIÓN CONTRAIN RIESGOTROMBOEMBÓLICO+ S: REQUISITO ía). hematolog en especialista ada por (determin ANTICOAGULACIÓN ÓN. PRESTACI LA A A HISTORIA CLÍNICAORIENTAD DE RESUMEN ULTA CON ECOCAR DIOGRAMADOPPLER (INFORMEE IMÁGENES). NTERCONS CACIÓNDE HEMATOLOGÍA PARAESTRATIFICACIÓNDERIESGOYCONTRAINDI ANTICOAGULACIÓN.,",
       "coseguro": ""
     },
     {
       "code": "07.90.24",
       "description": "VARICES UNILATERAL: SAFENECTOMIA INTERNA Y/O EXTERNA DE MIEMBRO",
-      "normativa": "Su uso se adecua según gravedad de la quemadura por clasificación de Benain y evolución. Cada consumo deberá estar debidamente documentado en la indicación médica, evolución y hoja de enfermería. TRATAMIENTO ENDOVASCULAR DE COARTACIÓN DE AORTA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: OSTOMIAS) ESOFAGUECTOMIA EN TRES TIEMPOS POR EL MISMO GRUPO QUIRURGICO 07.90.23CIRUGIA ANEURISMA AORTA TORACICO ABDOMINAL VARICES UNILATERAL: SAFENECTOMIA INTERNA Y/O EXTERNA DE MIEMBRO",
       "coseguro": ""
     },
     {
       "code": "07.90.25",
       "description": "VARICES BILATERAL, SAFENECTOMIA INTERNA Y/O EXTERNA DE MIEMBRO INFERIOR",
-      "normativa": "INCLUYE: Honorarios y Gastos. Pensión, Uso de endoscopio e instrumental inherente a la práctica, ESCLEROSIS DE LESIÓNSANGRANTEGÁSTRICAO Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y ESCLEROSIS DE VÁRICES ESOFÁGICAS Materiales descartables. Honorarios y Gastos. Parciliza es estudio del SANOS. Lo realiza el ORL habilitado. Recuento de reticulocitos - Recuento de Plaquetas - Citomorfología de Sangre periférica - Ferremia (opcional) - Capacidad de saturación transferrina (opcional) - Porcentaje Saturación tranferrina (opcional) - Toma de muestra. Sugerencia: Uno por mes los primeros tres meses. Lueg\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. CEREBRAL) o 2 F[3 12023 O cn ci a) a) 0 ci u-) o o u-) d o) O cy Ni cm ,- O N cr) o O Lo c,i ni- o d u, ri cm (o o ci in cri cm cm o c.i r--: .— O\nREQUISITOS: Somnolencia diurna y falta de atención y concentración en los siguientes casos: hipertensos de más de 60 años, sobrepeso a cualquier edad, diabético, fumadores, stress crónico, hipertrofia amigdalina, obstrucción nasal, cuello corto",
-      "price_hidden": "",
+      "normativa": "INCLUYE: OSTOMIAS) ESOFAGUECTOMIA EN TRES TIEMPOS POR EL MISMO GRUPO QUIRURGICO 07.90.23CIRUGIA ANEURISMA AORTA TORACICO ABDOMINAL VARICES UNILATERAL: SAFENECTOMIA INTERNA Y/O EXTERNA DE MIEMBRO",
       "coseguro": ""
     },
     {
       "code": "07.90.27",
       "description": "EMBOLECTOMIA EN ARTERIAS PERIFÉRICAS",
-      "normativa": "INCLUYE: Recuento de reticulocitos - Recuento de Plaquetas - Citomorfología de Sangre periférica - Ferremia (opcional) - Capacidadde saturación transferrina (opcional) Porcentaje Saturación tranferrina (opcional) - Toma de muestra. Sugerencia: Uno por mes los primeros tres meses. Luego uno cada dos meses. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. En casos de citopenias críticas (<50.000 plaquetas - < 7nr 1-lornm\"linhinal co m'orle \"' renuerir rontrnles mas seouidos. Estudio inicial de coagulopatias. Preoperatorio de cirugía cardiovascular o general. Inicio del tratamiento Anticoagulante. -Hematocríto. -Recuento Plaquetario. -Frotis sangre Periférica. -Tiempo de sangría. -Tiempo plasma recalcificado. -APTT . -Tiempo de Protrombina. -Tasa de Protrombina (Quick). -Tiempo de Trombina. -Retracción del coágulo. -Fibrinógeno. -Lisis de Euglobulinas. Consumo Protombina TGT (Test tratamiento anticoagulante. Uno generación Tromboplastina).Sugerencia: Uno al inicio del en pre-quirúrgico cirugía gral. Uno en pre-quirúrgico cirugía CV. Dos en post-quirúrgico cirugia CV . Uno al inicio del estudio de coagulopatía o sangrados. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. Testde Sickling - Cuerpos de Heinz - Electroforesis Hemoglobina en acetato Electroforesis Hemoglobina en Agar - Cuantificación Hemoglobina Fetal - Estudio Resistencia Globular - Esferocitosis Hereditaria - Eliptocitosis - etc.- Estudio anemias Hemoliticas Congénitas. Sugerencia: Uno solo al diagnóstico. Seguimiento con módulo de seguimiento de citopénias. SANOS. Lo realiza el ORLhabilitado.\nREQUISITOS: Somnolencia Parciliza es estudio del diurna y falta de atención y concentración en los siguientes casos: hipertensos de más de 60 años, sobrepeso a cualquier edad, diabético, fumadores, stress crónico, hipertrofi",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "07.90.28",
       "description": "DERIVACION (BY PASS) DE VASOS PERIFERICOS CON INJERTO VENOSO. INCLUYE",
-      "normativa": "DERIVACION (BY PASS) DE VASOS PERIFERICOS CON INJERTO VENOSO. INCLUYE TOMA DEL INJERTO.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMADELINJ ERTO. DERIVACION (BYPASS) DEVASOS PERIFERICOS CON INJERTO SIN TETICOFEMORO FEMORAL , FEMORO POPLITEO, AXILO HUMERAL, AXILO BIFEMORAL . IMPLANTEDEDISPOSITIVOCARDIACOELECTRICOUNI-CAMERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTE DEDI SPOSITIVOCARDIACO ELECTRICOBI-CAM ERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTEDEDISPOSITIVO CARDIACOELECTRICOTRI-CAMERAL ENDOCAVITARIO (RESINCRONIZADORCON/SIN CDI) IMPLANTEDEDISPOSITIVOCARDIACOELECTRICOEPICARDICO\nEXCLUYE: ANATOMIA PATOLOGICA DE LA/SPIEZASQUIRURGICA/S (las Diferidas, no asílas intraoperatorias, que incluyan congelación) MATERIALDESCARTABLE: UN (1) SOBREDE MATERIAL IRREABSORBIBLE, MON\nREQUISITOS: Tumor suprarrenal.",
       "coseguro": ""
     },
     {
       "code": "07.90.29",
       "description": "DERIVACION (BY PASS) DE VASOS PERIFERICOS CON INJERTO SINTETICO FEMORO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. GASTROTOMÍA POR RADIOSCOPIA / FI BROSCOPIA Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y EXTRACCIÓNCUERPO EXTRAÑOESOFÁGICO Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. Uso de video. n34 / [J23 (3) O ci «S Punción aspirado de Médula Osea (esternal o Cresta Ilíaca Unilateral) Biopsia de Médula Osea Unilateral - Medulograma - Hemosiderina Medular Sideroblastos (% y clasificación) - Búsque de células neoplásicas - Descartables.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. FLUJOMETRÍA URINARIA Material Radiactivo según valor CEDIM Interior Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. EXUDADOFARÍNGEO METODO RÁPIDO\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de ap",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "07.90.30",
       "description": "IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO UNI-CAMERAL ENDOCAVITARIO",
-      "normativa": "INCLUYE: Hemograma - Recuento de Reticulocitos - Recuento de Plaquetas (IP caturartifin trancfnrina . — Porcentaje saturación tansferrina - Toma de muestra. Sugerencia: Uno en la evaluación inicial de citopenias. 1 Honorarios y Gastos. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios del modulo), Medicamentos y Materiales 40%del total médicos (corresponden al descartables. Honorarios y Gastos. 1 Honorarios y Gastos. Uso de video. Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. Honorarios y Gastos. 1 inherente a la práctica, Honorarios Pensión, Uso de eco o TAC e instrumental 40% del valor total del modulo), Medicamentos y Materiales médicos (corresponden al descartables. Honorarios y Gastos inherentes a la prestaci\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. 1 Material Radiactivo según valor CEDIMInterior Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DELINJERTO. DERIVACION (BY PASS) DEVASOSPERIFERICOSCON INJERTO SINTETICO FEMOROFEMORAL , FEMOROPOPLITEO, AXILO HUMERAL, AXILO BIFEMORAL. IMPLANTE DEDISPOSITIVO CARDIACOELECTRICO UNI-CAMERAL 107.90.30 ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO BI-CAMERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTEDE DISPOSITIVO CARDIACOELECTRICO TRI-CAMERAL 107.90.32 ENDOCAVITARIO (RESINCRONIZADOR CON/SIN CDI) $86.734",
       "coseguro": ""
     },
     {
       "code": "07.90.31",
       "description": "IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO BI-CAMERAL ENDOCAVITARIO",
-      "normativa": "EXCLUYE: Material Radlactlvo (valor CEDIM Interior) a cargo de la cartera prestaclonal Cn.terlos £!g Autorlzacl6n : E=E Dlacin6stico: En miijeres que tengari unpuntajeIAROlgualomayora9masalgunodelosfactoresderiesgoyqueestendispue§tasarealizartratamientoonotengancontraindi.cacionesparaelmismo. Se autorizafa pars edad mayor a",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMADE L INJ ERTO. DERIVACION (BYPASS) DEVASOSPERIFERICOSCONINJERTO SINTETICOFEMORO FEMORAL F EMO ROPOPLITEO, AXILO HU MERAL, AXILOBIFEMORAL.",
       "coseguro": ""
     },
     {
       "code": "07.90.32",
       "description": "IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO TRI-CAMERAL ENDOCAVITARIO",
-      "normativa": "INCLUYE: Honorarios — Derechos - Uso de aparatología, 1/3 de la sonda/catéter y elementos específicos Honorarios y Gastos . URETRORENOSCOPÍA SUPERIOR Honorarios. Honorarios. Honorarios y Gastos. Uso de video. honorarios y gastos. Honorarios, Gastos y materiales específicos. Honorarios y Gastos . y evolución. Cada consumo deberá estar debidamente documentado en la indicación médica, evolución y hoja de enfermería. Se factura Pensión TRATAMIENTO DELQUEMADO - SESIÓN BALNEOTEF (Quemado Crítico: UTI / Quemado Grave y Moderado: Cuidados Especiales/ Quemado Leve: Pensión en habitación de 2)-Toilette- medicación y descartables por prestación (Sólo se podrán facturar descartables que el Acta de Comisión Mixta de Descartables defina como facturables). i Su uso se adecua según gravedad de la quemadura por clasificación de Benain TOMOGRAFÍA POR EMISIÓN DE POSITRONES (PET- , Honorarios y Gastos.\nEXCLUYE: Endoscopía - Anestesia - Medicamentos - Sala de recuperación. El material radioactivo F18-FDG CT) (\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos. RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMA DOPPLER-ANGIO TAC O RMN CON MEDICIONES E INFORME.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DEL INJERTO. DERIVACION (BY PASS) DE VASOSPERIFERICOSCONINJERTO SINTETICO FEMORO FEMORAL , FEMORO POPLITEO, AXILO HUMERAL, AXILO BIFEMORAL. IMPLANTE DE DISPOSITIVOCARDIACO ELECTRICO UNI-CAMERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO BI-CAMERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO TRI-CAMERAL",
       "coseguro": ""
     },
     {
       "code": "07.90.33",
       "description": "IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO EPICARDICO (MCP-CDI-RSC)",
-      "normativa": "INCLUYE: Honorarios y Gastos. Uso de v ideo. Honorarios y Gastos Honorarios y gastos. Equipamiento de monitoreo. inherente a la 1/2 Pensión (hasta 12hs.), Uso de endoscopio e instrumental del modulo), Medicamentos y 40%del total práctica, Honorarios médicos (corresponde al MUCOSECTOMÍAENDOSCÓPICA Materiales descartables.\nEXCLUYE: : Sala de Recuperación ( 1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. En caso /1DEOENDOSCOPIA DIGESTIVAALTAYBAJA (VEDA + de realizarse en internación se permitiráfacturar el valor diferencial de pensión en relación prppuL7 al espacio en el cual se encuentra internado. MOVILIZACIÓNFORZADADEARTICULACIÓNBAJOANESTESIA Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. L. L \ PI 1 CV O CV CD O 0) ci. r O) <á co O L. Jozo .cpc a) ,.., - ,a3 a) • ' u) -o .L. ci) :. E1 E `D O o -5 E = ° 0 52 1 0 nt _1 CL •-• I-- ?,., -a) < <I- Z 0o /) 1 0; 1-w2 I- CO U) . 0 = W CD 2 < '5, 0 -u w w / --I co- 1., D o c 2 a L.iL < , Z ,, b -' cn C.) ■-■-, (r a 2 O 1=-. 0 a_ < ó (1) o 5 o (13 03 (i)<wCO -1 uj 0 0 o t a_ O 12 '2 o as -I < 0 00< 2 a 175 i) --1 OcC < as a) E -, < O - W C 0 >, u) O-0.) C0 C9 ,... Ñ 0 a) cn U) 0 7 _o 3 . 2 :0 = )13/4. : C._ U) U) L- U) 0 (1) O 0 (I) :.--; co -0 cu O O 0 E' 'ir. Tu W) 'I= 1 ` c::ti (19 > 2 .1:1 c «3 -(7) 2o ,..E o n i 1 i O E >, = (13 CO tj ° c O - (U\nREQUISITOS: Sospecha de HTA guardapolvo blanco (3 mediciones en consultorio > ó = 140/90 mmHg con 3 mediciones fuera del consultorio <140/90 sin evidencia de daño en órgano blando, Sospecha de HTA episódica o HTA sistólica aislada en >60 años, HTA MONITOREOAMBULATORIODE LATENSIÓNARTERIAL - PRESL resistente (en pacientes tratados con dosis máximas de 3 o más medicamentos), Sospecha de episodios hipotensivos relacionados a medicación o síndromes neurológicos, Disfunsión autonómica. Profesionales autorizados; cardiólogos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMADELINJ ERTO. DERIVACION (BYPASS) DEVASOS PERIFERICOS CON INJERTO SIN TETICOFEMORO FEMORAL , FEMORO POPLITEO, AXILO HUMERAL, AXILO BIFEMORAL . IMPLANTEDEDISPOSITIVOCARDIACOELECTRICOUNI-CAMERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTE DEDI SPOSITIVOCARDIACO ELECTRICOBI-CAM ERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTEDEDISPOSITIVO CARDIACOELECTRICOTRI-CAMERAL ENDOCAVITARIO (RESINCRONIZADORCON/SIN CDI) IMPLANTEDEDISPOSITIVOCARDIACOELECTRICOEPICARDICO\nEXCLUYE: ANATOMIA PATOLOGICA DE LA/SPIEZASQUIRURGICA/S (las Diferidas, no asílas intraoperatorias, que incluyan congelación) MATERIALDESCARTABLE: UN (1) SOBREDE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DENYLON, PARALA SÍNTESISDELAPIELENLOSSITIOSDEINGRESO DE LOS TRÓCARESAVALORESCONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOSANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Tumor suprarrenal.",
       "coseguro": ""
     },
     {
       "code": "07.90.34",
       "description": "RECAMBIO/RECOLOCACION DE GENERADOR DE DISPOSITIVO CARDIACO ELECTRICO",
-      "normativa": "INCLUYE: Honorarios y gastos. Equipamiento de monitoreo. MOVILIZACIÓNFORZADA DE ARTICULACIÓNBAJO ANESTESIA GENERAL Honorarios y Gastos Criterios de autorización: en tumores hipervascularizados de progresion locoregional, sólo como alternativa a cirugia cuando esté formalmente contraindicada (u otros métodos ablativos percutáneos), con fu nción hepática estable, sin enfermedad extrahepatica, sin colestasis y con vena porta permeable. Cateterismo y arteriografía selectiva de la zona de probable sangrado. Embolización. Medicamentos y descartables inherentes a la práctica. Catéteres. Honorarios médicos, hemodinamista, radiólogo. Honorarios profesionales (valor dos consultas médicas) y Botón de Gastrostomía que garantice una durabilidad mayor a los 10 meses (valor según licitación IAPOS). : Honorarios y Gastos. Uso de video. las prácticas mencionadas, que requieren ser actua\nEXCLUYE: LIPIODOL POR 2(DOS) AMPOLLAS Y DROGA CITOSTATICA POR FARMACIA. CATETER CORRESPONDIENTE (GESTION COMPRAS IAPOS). PENSION HASTA 2 DIAS. Anestesia. : Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. En caso de realizarse en internación se permitirá facturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado.\nREQUISITOS: Sospecha de HTA guardapolvo blanco (3 mediciones en consultorio > ó = 140/90 mm Hg con 3 mediciones fuera del consultorio < 140/90 sin evidencia de daño en órgano blando, Sospecha de HTA episódica o HTA MONITOREO AMBULATORIO DE LA TENSIÓN ARTERI sistólica aislada en > 60 años, HTA resistente (en pacientes tratados con dosis máximas de 3 o más medicamentos), Sospecha de episodios hipotensivos relacionados a medicación o síndromes neurológicos, Disfunsión autonómica. Profesionales autorizados; cardiólogos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: ANATOMIA PATOLOGICA DE LA/SPIEZASQUIRURGICA/S (las Diferidas, no asílas intraoperatorias, que incluyan congelación) MATERIALDESCARTABLE: UN (1) SOBREDE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DENYLON, PARALA SÍNTESISDELAPIELENLOSSITIOSDEINGRESO DE LOS TRÓCARESAVALORESCONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOSANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Tumor suprarrenal.",
       "coseguro": ""
     },
     {
       "code": "07.90.35",
       "description": "RECAMBIO/REIMPLANTE DE ELECTRODOS ENDOCAVITARIO UNI-CAMERAL (MCP-CDI)",
-      "normativa": "EXCLUYE: Honorarios ailestesla, Elementos m€dlcos especificos de acuei.do\nREQUISITOS: RESUMENDEHISTORIA CLINICA 0RIENTADA A IA PRESTAcloN CON DESCRIPCION DE COLGAJOSYTRANSTORN0FUNCIONALQUEJUSTIFIQUELAPRACTICA. FOTOGRAFIAS DEL AREA AFECTADA TOMADAS POR EL PROFESIONAL. Come§ponde: Honorarios 70% y Gastos 30°/o del valor de la pfactica.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: ANATOMIA PATOLOGICA DE LA/SPIEZASQUIRURGICA/S (las Diferidas, no asílas intraoperatorias, que incluyan congelación) MATERIALDESCARTABLE: UN (1) SOBREDE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DENYLON, PARALA SÍNTESISDELAPIELENLOSSITIOSDEINGRESO DE LOS TRÓCARESAVALORESCONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOSANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Tumor suprarrenal.",
       "coseguro": ""
     },
     {
       "code": "07.90.36",
       "description": "RECAMBIO DE ELECTRODOS ENDOCAVITARIO BI o TRI-CAMERAL",
-      "normativa": "EXCLUYE: Honorarios ailestesla, Elementos m€dlcos especificos de\nREQUISITOS: RESUMENDEHISTORIA CLINICA 0RIENTADA A IA PRESTAcloN CON DESCRIPCION DE COLGAJOSYTRANSTORN0FUNCIONALQUEJUSTIFIQUELAPRACTICA. FOTOGRAFIAS DEL AREA AFECTADA TOMADAS POR EL PROFESIONAL. Come§ponde: Honorarios 70% y Gastos 30°/o del valor de la pfactica.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "07.90.37",
       "description": "FLEBOTOMIA CON COLOCACIÓN DE CATÉTER DISECCIÓN DE VENAS PARA",
-      "normativa": "INCLUYE: HONORARIOS DE EQUIPODE",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "07.90.38",
       "description": "COLOCACIÓN/ ABLACIÓN DE CATÉTERES VENOSOS CENTRALES IMPLANTABLES O",
-      "normativa": "INCLUYE: HONORARIOS DE EQUIPO DE CIRUGÍA PLÁSTICA) TRAQUEOSTOMIA POR CUALQUIER VIA RESECCION PULMONAR PARCIAL O TOTAL, DECORTICACION PULMONAR POR TOMA DEL INJERTO. DERIVACION (BY PASS) DE VASOSPERIFERICOSCONINJERTO SINTETICO FEMORO FEMORAL , FEMORO POPLITEO, AXILO HUMERAL, AXILO BIFEMORAL. IMPLANTE DE DISPOSITIVOCARDIACO ELECTRICO UNI-CAMERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO BI-CAMERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO TRI-CAMERAL",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorar ios médicos de todo e l equipo interviniente, Hemodinamia, Gastos, Anatomía Pato lógica, Medicamentos y Descrata bles inherentes a l procedimiento.\nEXCLUYE: Anestesia, Medicación Inmunodepresora.\nREQUISITOS: RES UMEN DE HISTORIA CLÍNICA ORIENTADOA LA PRESTACIÓN. ECOCARD IOGRAMA DOPPLER (O RMN) CON MEDICIONESE INFORME.",
       "coseguro": ""
     },
     {
       "code": "07.90.39",
       "description": "DERIVACIÓN AORTO O ILÍACOFEMORAL UNI/BILATERAL (CON O SIN",
-      "normativa": "INCLUYE: HONORARIOS DE EQUIPO DE cg O O $110.501 os- $34.550 $121,52 $3.8001 $3.800 1 DIC/23 \"t LO LO u-S CO LO LO LO LO a- a- a- ti, 64 u, u, 0 O O ANTERIORES) u} nt st nr O MUSCULOSINTERCOSTALES ( COMO UNICA OPERACIÓN ) t\" \I niai cm a CO CO CO LO OPERACIONESPLASTICASPORTORAX ENCARINA OEXCAVADO (TORACOPLASTIA COMO TRATAMIENTO DE CAVIDADESPLEURALES RESIDUALES, CON O SIN FISTULA BRONQUIAL, COMO OPERACIÓNCOMPLEMENTARIAO NO DE INTERVENCIONES $340,69 ER ,¿-,. <.5; ,-- HONORARIOS CIRUGICAS VASCULARES Y TORÁCICAS $3.800 U4 1O c6 ,-1N- CO TORACOTOMIA EXPLORADORA, RESECCION DE PLEURA PARIETAL, COSTILLAS, NOV/23 co CO <N- ts- LO CY5 C<5 C° co Lo N- 1 CONSULTAS MEDICAS (Ni CONSULTA PRE-ANESTESICA GALENOPRACTICA GALENO QUIRURGICO GALENORADIOLOGICO GALENOANATOMIAPATOLOGICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: AAAYUXTARRENALES, PSEUDOANEURISMAS, INFECCIÓN DE PRÓTESISVASCULARESABDOMINALES, TRAUMATISMOS, INVASIÓNTUMORALDEVASOSABDOMINALES)",
       "coseguro": ""
     },
     {
@@ -2540,56 +2294,54 @@ const searchData = {
     {
       "code": "07.90.41",
       "description": "TRATAMIENTO QUIRURGICO POR CUALQUIER VIA DEL ANEURISMA DE AORTA",
-      "normativa": "INCLUYE: TOMA DEL INJERTO. DERIVACION (BY PASS) DE VASOSPERIFERICOSCONINJERTO SINTETICO FEMORO FEMORAL , FEMORO POPLITEO, AXILO HUMERAL, AXILO BIFEMORAL. IMPLANTE DE DISPOSITIVOCARDIACO ELECTRICO UNI-CAMERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO BI-CAMERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO TRI-CAMERAL TOMA DE EVENTUAL INJERTO VENOSO) TRATAMIENTO QUIRURGICO POR CUALQUIER VIA DEL ANEURISMA DE AORTA ABDOMINAL (NOCOMPLICADO) TRATAMIENTO QUIRURGICO DEL ANEURISMA DE AORTA ABDOMINAL COMPLICADO(IN",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMADE L INJ ERTO. DERIVACION (BYPASS) DEVASOSPERIFERICOSCONINJERTO SINTETICOFEMORO FEMORAL F EMO ROPOPLITEO, AXILO HU MERAL, AXILOBIFEMORAL.",
       "coseguro": ""
     },
     {
       "code": "07.90.42",
       "description": "EXUAL INTEGRAL Y REPRODUCTIVA",
-      "normativa": "TRATAMIENTO QUIRURGICO DEL ANEURISMA DE AORTA ABDOMINAL COMPLICADO(INCLUYE AAA YUXTARRENALES, PSEUDOANEURISMAS, INFECCIÓN DE PRÓTESIS VASCULARES ABDOMINALES, TRAUMATISMOS, INVASIÓN TUMORAL DE VASOS ABDOMINALES)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: EVENTUAL TOMA DE VENA PARA PLASTICA O INJ ERTO. __ IBMIJULEUuMIA EN ARTERIAS PERIFERICAS _ lUtHIVAUIUN (BYPASS) DEVASOS PERIFERICOSCON INJERTO VENOSO. INCLUYE TOMA DEL INJERTO. .._... l UtIlIVAUIUN (BYPASS) DE VASOS",
       "coseguro": ""
     },
     {
       "code": "11.70.16",
       "description": "MÓDULO1: CONSULTA ACCESO IVE/ILE",
-      "normativa": "INCLUYE: CONGENITAS (CIERRE DE DUCTUS, CIA, CIV) honorarios y gastos. Honorarios y Gastos. e— Ce) <15 el 0, o d in CV cm O a> O w 58 a- 2 11 1 3 te azw >, 2 (-) 8 - -0 :(13 -2 2=o11- 8 .1 c, el. cLI > O 0.9ww8 u) 16 , 0 1Z3 (p O C O / O CL > 5 o 0 E 8 0017 13 -o \" xr) iT) Q3 .-te >.., (9 3 , 91 X0,0 21::9-g-a. R .... y c =-• ,\"CO \"\" Ill 0> O i o > ----- ,d co > >, ,. 5 .t...- , >`2 2 C.) ,,, cc cm z o 8 u, .9 z .9 a) 1.«,0,.5 .,.s. -0 O , en as 0 75 ...k• o < IN o 0 ,...z <0,1,% 03 0 2 1:2 ti- O O E 1D 8 - S ..- a) r‘ W ..* 9 CD D ,,, 1- _, C a> , •0OO c a ...., ,„ - .... ' E 2 e` j o c. \"7).. '--. •.c f ) E - - E \". :5 croo o ,.-zcc 75 o.ca2 ,-8 N0 I-..<- Z c in\" o 0> cf)010c{gyjo• - 8 a' 7 8 o) 9 cn a) a u) -C3 3, -amOoa) o < O c° 10 4._-. as a) o a) y - o ' >z --oc-0 mEw,, ■-d ic = -0=0 `nti; -10 0 2 0_ ., C 2 u - cci O o O < Z 2 o o ) -o co -.. .8 o yo o = o o z aoujT .0 .co 2 . c -. -o --.... 0- :72- a) -o Tu a_ CI coi_co<rnas .= p ,... , w 7.0 > r3)E 4-42 Eir 5 o w a. 2 o a, rc OD< w uiE0OrQQ, b 84) re 2 c 47, cp -.o u; . 2 5 0w cc ...1- ••••• CO --5 (1) O te. er o 1,-.9, 23 0- J 8.o 2 (-) \" :9 5 2_ ,gr.:,..t > z u'z15,S ,51 c29,-?:,11, -1 31 1 13 1 a o 2 -I; z .<, o .- 1 = z .<0 - o o sal .\".. 0 Ile 17. > 0 (1)c E 5 z 5-• (r) 1.--_- 15, o > 1:) CL 0 CO o • fi -1- 1 o o (-5 ,,; 8 x,) 1 E 1 - 3- -.2 0 43 .g 76 o o ▪ ui 2 <C.):...• o w002 O {e, ato : .Cc/3 2 2 2 2 m (13 . ti .0 O c Z - O 1:3) E 2 ID a) . -. «, .2 El) 2 2 1 = w itic-g 8 4t o- ,...:. z co .s2 .ui E met -\nREQUISITOS: FIBRILACION AURICULARCRONICANOVALVULARCONALTO RIESGOTROMBOEMBÓLICO+CONTRAINDICACIÓN ABSOLUTADE ANTICOAGULACIÓN (determinada por especialista en hematología). CIERRE PERCUTANEO DEOREJUELAIZQUIERDA RESUMEN DEHISTORIACLÍNICAORIENTADAA LA PRESTACIÓN. ECOCARDIOGRAMA DOPPLER (INFORME E IMÁGENES). NTERCONSULTA CON HEMATOLOGÍA PARA ESTRATIFICACIÓN DERIESGOY CONTRAINDICACIÓNDE ANTICOAGULACIÓN.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "11.70.11",
       "description": "MÓDULO 2: ECOGRAFÍA GINECOLÓGICA IVE/ILE",
-      "normativa": "INCLUYE: honorarios y gastos. Honorarios, Gastos y materiales específicos. Honorarios y Gastos . y evolución. Cada consumo deberá estar debidamente documentado en la indicación médica, evolución y hoja de enfermería. Se factura Pensión TRATAMIENTO DELQUEMADO - SESIÓN BALNEOTEF (Quemado Crítico: UTI / Quemado Grave y Moderado: Cuidados Especiales/ Quemado Leve: Pensión en habitación de 2)-Toilette- medicación y descartables por prestación (Sólo se podrán facturar descartables que el Acta de Comisión Mixta de Descartables defina como facturables). i Su uso se adecua según gravedad de la quemadura por clasificación de Benain TOMOGRAFÍA POR EMISIÓN DE POSITRONES (PET- , Honorarios y Gastos. Pensión en habitación compartida. Evaluación pre, C/REGISTRO DE RESISTENCIA Y PRESIONES intra y post-procedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. Gastos.\nEXCLUYE: El material radioactivo F18-FDG CT) ( Anestesia. Droga (ampollas de adenosina). FEB 2 023\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMA DOPPLER-ANGIO TAC O RMN CON MEDICIONES E INFORME. ESTENOSIS AÓRTICASEVERA CON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS2SCORESVALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MALCANDIDATO Q UIRÚRGICO POR OTRAS VARIABLES NO CONTEMPLADAS EN LOSSCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "11.70.12",
       "description": "MÓDULO 3: ASPIRACIÓN MANUAL ENDOUTERINA (AMEU) AMBULATORIO",
-      "normativa": "INCLUYE: TOMA DEL INJERTO. DERIVACION (BY PASS) DE VASOS PERIFERICOS CON INJERTO SINTETICO FEMORO FEMORAL , FEMO RO POPLITEO, AXILO HUMERAL, AXILO BIFEMORAL. IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO UNI-CAMERAL 1 ANESTESIA NIVEL 7X 3 $3.428.620 TRASPLANTE HEPÁTICO ADULTO (CADAVÉRICO) ANESTESIA ANESTESIA NIVEL 7 ANESTESIA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "11.70.15",
       "description": "MÓDULO 3: ASPIRACIÓN MANUAL ENDOUTERINA (AMEU) INTERNACION",
-      "normativa": "INCLUYE: EVENTUAL TOMA DE VENA PARA PLASTICA O INJ ERTO. __ IBMIJULEUuMIA EN ARTERIAS PERIFERICAS _ lUtHIVAUIUN (BYPASS) DEVASOS PERIFERICOSCON INJERTO VENOSO. TOMA DEL INJERTO. .._... l UtIlIVAUIUN (BYPASS) DE VASOS PERIFERI COS CON INJERTO SI NTETICO FEMORO ti Ln 1 ) LIGADURA Y/O RESECCI ONES ESCALONADAS BILATERAL co Cn 1 CON ) ) • LIGADURA Y/O RESECCIONES ESCALONADAS, UNILATERAL ..._.___ I $101.158 VARICESBILATERAL, SAFENECTOMIA INTERNAY/O EXTERNA DE MIEMBRO INFERIOR CON VARICES UNI LATERAL: SAFENECTOMIA INTERNA Y/O EXTERNA DE MI EMBRO INFERIOR - O 13 2024 O a) ..,„ T- I» e•• '. ,- ,- 1 1 . i 1111 al g ES 5 2 2 g 'O 25 5 1 1 g T- 0 (Ni CV CV CV C6 Cr) C6 Cr) c) 0 CD O CD CD c) CD CD CD CD O 0 ,- Clj Cr) nr T... O 0 N 7 .T. 09 O 0 Y- • -• cy o U u) > u) co COLOCACION DE CATETER VENOSO CENTRAL CORTA DU RACION (NO IMPLANTABLE) COLOCACION DE CATETER VENOSO CENTRALLARGA DURACION (SEMI-TOTALMENTE IMPLANTABLE) EXTRACCIONDECATETER VENOSOCENTRAL LARGA DURACION 07 - GANGLIO Y SISTEMA LINFATICO < Y DRENAJE DE ADENITIS SUPURADA. ADENOFLEMON INCISION LINFADENECTOMIAAXILAR, INGUINAL, CERVICAL UNILATERAL. 08 - TORAX YPLEURA DRENAJE PLEURALCONTROCAR O POR TORACOTOMIAMINIMA. 09 - TRAQUEAYBRONQUIOS TRAQUEOSTOMIA. PLASTICAOSTOMA TRAQUEAL e ) CIERRE DETRAQUEOSTOMIA. 10 - ABDOMEN, PAREDESY CONTENIDOS REDUCCION DEHERNIA INGU INAL ATASCADA. EL T C) 01 .,- 114t1T.C. SUBCUTÁNEO IN9T9NY DRENAJE DE ABSCESOSUPERFICIAL, HIDRASADENITIS. ANTRAX ZST12KCION DECUERPO EXTRAÑOSUBDERMICO. ~ ESIS DE LESIONESDERMICASYSUBDERMICASCONGENITAS, INFLAMATORIASO TUMORALES BENIGNAS (NEVUS, VERRUGAS, QUISTE DERMOIDE, NEUROFIBROMA, PILAMATRIXOMAETC.) POR UNIDAD EXERESIS DE LIPOMA 02 CUELLO INCISION Y DREN",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "11.70.13",
       "description": "MÓDULO 4: CONSULTA CONTROL POST INTERVENCIÓN Y ANTICONCEPCIÓN",
-      "normativa": "INCLUYE: TOMA DEL INJERTO. O 00 Nit5 nt EP> O c.i •-03 1<99- N CO N EG 1- r) a5 o co o) ce) ce) cid a) o) N: N: o o O) ,co \"4\" O) 69 c:5 0) N: o - $172.947 Eil $165.204 CO co co Ntri nr I$154.878 e-69 $152.6011 CO 69 u) ,-: a) $136.657 m,- O CO $87.461 J UN / ; • ; T.! !CÓDIGO N- N Cr) 0 O O e?s n- O O O nt O .-- O ¡CÓDIGO ,- N C9 It O O O O N N N N O O O O ¡CÓDIGO C.) nieCV a■ -• IN CI SION Y DRENAJ E EN QUI STETIROGLOSOOBRANQU IAL INF ECTADO. EXERESIS DE FISTULAO QU I STE BRANQ U IAL. EXERESIS DE Q UI STETIROGLOSO. EXERESIS DEQU ISTE TIROGLOSO RECIDIVADO. SUTU RA DE LENGUAO PALADAR. TRATAMIENTO DE LA RANULA. Q U ISTE MUCOSO LABIAL YUGAL. INCISION Y DR ENAJ E DE ABSCESO DELPI SODELA BOCA. o Cg 1\" — N\"r- N C) 1 0000 0 0 Cri r'i C,5 Cr> 91) ni O O O O O o .tv.C \I EXERESISDETU BERCULO PREAU RICU LAR. 'DRENAJEDE FI STULAPREAU RICULAR. I RESECCIONDEF ISTU LAPREAU RI CULAR. 05 - PABELLONAURICULAR FRENULOTOM IAGLOSOPLASTIA 04 - LENGUA Cr) U) o co > O 1- N Cr) O O O -ci ir> Lri Lci o O O O O nr N ° ks5 o N o IN CISIÓN Y DRENAJE DEADENITISSUPU RADA. ADENOFLEMON el 107 - GANGLIO Y S ISTEMALINFATICO COLOCACIONDE CATETERVENOSOCENTRALCORTA DU RACION ( NO IM PLANTABLE) COLOCACIONDECATETERVEN OSOCENTRALLARGADU RACION (SEMITOTALMENTEIMPLANTABLE) EXTRACCION DE CATETERVENOSOCENTRAL LARGA DURACION U) (CÓDIGO CV 03 - BOCA I- 'CÓDIGO EXERESISDELESI ONESDERMICASYSU BDERMICASCONG ENITAS, INFLAMATORIASO VERRU GAS, QUISTE DERM OIDE, TUMORALESBEN IG NAS ( N EVU S, POR UNIDAD XOM A ETC.) N EU ROFI BROMA, PILAMATRI EXERESISDELIPOMA 02 - CUELLO ■ - I- EXTRACCIONDE CU ERPOEXTRAÑOSUBDERMICO. Complejidad Nivel ■ - INC ISION Y DRENAJ E DE ABSCESOSUPERFIC IAL, HIDRASADENITIS. ANTRAX. 01 - PIEL T.C. SUBCUTÁNEO NOMENCLADOR DECIRUGIA PEDIATRICA Y UROLOGIA -",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "11.70.14",
       "description": "MÓDULO 5: ANTICONCEPCIÓN CON DIU POST IVE/ILE",
-      "normativa": "INCLUYE: TOMA DE EVENTUAL INJERTO VENOSO) TRATAMIENTO QUIRURGICO POR CUALQUIER VIA DEL ANEURISMA DE AORTA ABDOMINAL (NOCOMPLICADO) TRATAMIENTO QUIRURGICO DEL ANEURISMA DE AORTA ABDOMINAL COMPLICADO(INCLUYEAAAYUXTARRENALES, PSEUDOANEURISMAS, INFECCIÓN DE PRÓTESIS VASCULARESABDOMINALES, TRAUMATISMOS, INVASIÓN TUMORAL DE VASOS ABDOMINALES) CIRUGIA DE LA ARTERIA CAROTIDA ODELA VERTEBRAL: TROMBOENDARTERECTOMIA; EMBOLECTOMIA; ANASTOMOSIS; INJERTOS (TROMBOSIS, EMBOLIAS, ANEURISMAS, FISTULA ARTERIOVENOSA) EVENTUALTOMADEVENAPARAPLASTICA O INJERTO. $335.485 $173.564 O .—I d- r) CO 69 O) $255.929 CO C\I 0) Cs.! ci a) N: o ci a) N O NI r-I 64 CO O 03 NO CO LO 'Cr CM N O) co O CO ci a) N: O CO k—I 69. .--I 09 ci a) N: O CM CO 69 $238.998 Cr) O) O a) N: O Cr) r`-O r--- 69. C\I 1--i •ct CY) ci a) r--: O $127.803 CS) LO CS) O CO CO d co 69 00 t-1 (O CO C) LC) 69 N Cr) ci c5 ci ci Ci) 0) e; O N: O N: O N O N O N: O r--: O 0) CO Cv) C) $290.260 $1 08.848 O) CO 69 LC) O) CO LO CV rN CO CO r--1 CM O co 69 ni' ..zt nt O a) N O ■ --I 0) $411.202 n 05 /(12; C \J PROGRAMA DE SALUD SEXUAL INTEGRAL Y REPRODUCTIVA o o w cc w o w o o w w Ct u. o o w 2 w z ID O MÓDULO 2: ECOGRAF ÍA GINECOLÓGICA IVE/ILE MÓDULO1: CONSULTA ACCESO IVE/ILE 2 w 03 o N Ct o z E o w 0 CO é‘i o z o 2 z w cc cc w 2 o o D o z w o z w w z D 2 w z D 2 w z z o o éti D D o o 2 2 N a-1 O O 1-1 1-1 O O T-e-i O ci ci a-I a-I a-I a-I T■ T--- 1\"-e-i e-i e-i ci co O N co o o cs) o ,-I O d: co",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
@@ -2617,15 +2369,14 @@ const searchData = {
     {
       "code": "11.70.17",
       "description": "CONSULTA PRE Y POST VASECTOMIA AMBULATORIA",
-      "normativa": "INCLUYE: TOMA DEL INJERTO. co co n/e- r-. . OSTOMIAS) Ce $49.2161 ni- o o O",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OC"
     },
     {
       "code": "11.70.09",
       "description": "MÓDULO COLOCACIÓN DE DIU- AMBULATORIO",
-      "normativa": "Incluye: . Colocación de DIU. Consulta de seguimiento. Se reconocerá DIU de cobre por reintegro hasta ($11.000). En caso de tratarse de sistema intrauterino de liberación de levonorgestrel (SIU/DIU-LNG) con recomendación de uso para personas con menorragia, endometrosis, adenomiosis, leiomiomas uterinos u otra enfermedad sistémica que contraindica el uso de anticonceptivos hormonales y DIU con cobre como método anticonceptivo la Obra Social lo reconocerá al 100% siendo su autorización y entrega a través de la red de Farmacias del convenio con Colegio de Farmacéuticos, incluyendo todas las presentaciones existentes en el mercado) | Excluye: interconsultas, ecografía para seguimiento, tratamiento de complicaciones, extracción de DIU. Por la extracción del DIU se factura: AGO/23 $ 2,495, SET/23 $ 2.595, OCT/23 $ 2.699, NOV/23 $ 2.780 y DIC/23 $ 2.863.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios del Cirujano y ayudante + Monitoreo.\nEXCLUYE: Gatos y MODULO IMPLANTE COCLEAR Derechos senatoriales. Medicamentos y Material Descartable. Elementos (Honorarios Médicos) Médicos, Anestesia, Pensión.",
       "coseguro": "20"
     },
     {
@@ -2638,8 +2389,7 @@ const searchData = {
     {
       "code": "11.04.03",
       "description": "CESÁREA",
-      "normativa": "Incluye: Pensión en habitación compartida, Honorarios Médicos del Obstetra y Neonatólogo, Gastos Operatorios, Laboratorio del recién nacido. Monitoreo Fetal, Medicamentos y Material descartables. | Excluye: Todas las complicaciones de la parturienta y todas las patologías del bebé. Anestesia. | Observaciones: En caso de complicaciones se factura toda la internación por prestación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en habitación compartida hasta 3 días, Honorarios médicos del Obstetra y Neonatólogo, Gastos Operatorios, Laboratorio del recién nacido. Monitoreo Fetal, Medicamentos y Material descartables inherentes a la prestación. Parto múltiple. ;\nEXCLUYE: Todas las complicaciones de la parturienta y todas las patologías del bebé. Anestesia, NEO, TAC, RMN,1 Screening Neonatal, Sangre, Plasma. Observaciones: En caso de complicaciones se factura' !toda la internación por prestación.",
       "coseguro": "BQ"
     },
     {
@@ -2652,15 +2402,13 @@ const searchData = {
     {
       "code": "18.50.60",
       "description": "ECOGRAFÍA MORFOLOGICA DEL EMBARAZO",
-      "normativa": "Incluye: Honorarios y Gastos. ECOGRAFÍA MORFOLOGICA DEL EMBARAZO Incluye: Honorarios y Gastos",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Incluye: Honorarios y Gastos del módulo), Oto Emisiones AcüstiCas -ÓEA- (representa el 31% del valor total -TSH, FENI LALANI NA, TIR, Screening Neonatal módulo), BIOTINIDASA,GALACTOSEMIAY17HOPROGESTERONA (representa el 51% del módulo) y Saturometría. del valor total",
       "coseguro": "15"
     },
     {
       "code": "32.90.01",
       "description": "MÓDULO RECEPCIÓN RECIÉN NACIDO - ALTA CONJUNTA",
-      "normativa": "Incluye: Exámen visual Reflejo Rojo (representa el 18% del valor total del módulo), Oto Emisiones Acústicas -OEA- (representa el 31% del valor total del módulo), Screening Neonatal -TSH, FENILALANINA,TIR,BIOTINIDASA,GALACTOSEMIAY17HOPROGESTERONA (representa el 51% del valor total del módulo) y Saturometría.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. ECOGRAFIA MORFOLOGICA DEL EMBARAZO ¡ Incluye: Honorarios y Gastos Incluye: Exámen visual Reflejo Rojo (representa el 18% del valor total del módulo), Oto , Emisiones Acústicas -OEA- (representa el 31% del valor total del módulo), Screening\nEXCLUYE: Todas las complicaciones de la parturienta y todas las patologías del bebé. Anestesia, NEO, TAC, RMN, Screening Neonata!, Sangre, Plasma. Observaciones: En caso de complicaciones se factura toda la internación por prestación.\nREQUISITOS: retinopatía DBT proliferativa severa con o sin desprendimiento",
       "coseguro": "S/C"
     },
     {
@@ -2673,14 +2421,14 @@ const searchData = {
     {
       "code": "03.90.26",
       "description": "FEMINIZACIÓN DEL TERCIO FACIAL MEDIO",
-      "normativa": "INCLUYE: TOMA DEL MISMO. '€:, `.,.:F: UCLEASION a EVISCERAC. DEL GLOBO OCULAR CON 0 SIN LANTE-GARCIA NOCITO 0 SIMILAR.--anERioR gEGMENma ±cOI*B iREERA ttt02,OcO2 &REu#xoMpurs3:IADlg[ELE:pO.gEEEA3,EONcs8[8xjTitAOES.C §loNDELESIONCONJUNTQUISTEEPITELIOMANEVUS ffi3 \tQ3 ;,NRIoODri3Ec%uNB,iEtNCIAS TERAPEUTIC. SUBCONJUNTIV.Y ENSIONYSUTURA. S TURA DE CONJUNTIVA,lNCLUIDA EXTRACCION DE CUERPO TRA 0-BIOPSIA DE CONJUNTIVA. 2 3 D16 2024 g .--1 3 7 $505.173 $524.237",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "03.90.27",
       "description": "FEMINIZACIÓN DEL TERCIO FACIAL INFERIOR",
-      "normativa": "INCLUYE: Honorarios y Gastos inherentes a la prestación, Pruebas de HEMOTERAPIA / TRANSFUSION Compatibilidad, Serología, Materiales Descartables. Biología Molecular. Filtro. HIBRIDACIÓN IN SITU Honorarios y Gastos. ESTUDIO FUNCIÓN VENTRICULAR IZQ UIERDA Y PERFUSIÓN Honorarios y Gastos. Pensión en habitación compartida, Medicamentos y Material Descartable inherente al procedimiento, Derecho de Hemodinámia, Honorarios Médicos, Realización del cateterismo, sobreestimulación cardíaca, mapeo y desencadenamiento de la arritmia y otros. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), ESCLEROSIS DE VÁRICES ESOFÁGICAS Medicamentos y Materiales descartables. Honorarios y Gastos. .- oo o d O) i cm eCD O) ni N d d LO eCD LO Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), LIGADURAS DE VÁRICES ESOFÁGICAS Medicamentos y Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. 0.01.11 MANOMETRÍA ESOFÁGICA Honorarios y Gastos. honorari\nEXCLUYE: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. El monto Material MIOCÁRDICA CON SPECT (SPECT CARDIACO) Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional Colocación de marcapaso definitivo, Estudios Hemodinamicos. Anestesia. Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. r 1 Ó.01.25 LITOTRICIA EXTRACORPÓREA RENAL",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
@@ -2708,141 +2456,126 @@ const searchData = {
     {
       "code": "06.90.21",
       "description": "TORACOPLASTÍA MASCULINIZANTE: CON O SIN COLOCACIÓN DE PRÓTESIS)",
-      "normativa": "INCLUYE: Honorarios. Gastos: facturar códigos Honorarios. Gastos: facturar códigos 06. 01.04 + Honora rios. Gastos: facturar códigos Honorarios. Gastos: factura r código Consulta, Refractometría computada, Toma de agudeza visual, Biomicroscopía, Gonioscopia, Tonometria, Fondo de ojo con ofta lmoscopio directo o lampa ra de hendidura exoftalmologia e Indicación de lentes Incluye. Honorarios y Gastos. toda práctica necesaria para garantizar el óptimo funcionamiento del equipamiento (calibraciones, telemetría, pruebas objetivas y subjetivas de audición y lenguaje, adiestramiento fonoaudiológico). Hasta 3 ca libraciones por año aniversario luego de finalizado el Módulo Post-Implante coclear, 2 en el segundo a ño, y luego 1 por a ño. Prestadores habilitados para este módulo, por sistema SIOS, y va lores de convenio. Encendido y Calibraciones, la ca libración la evaluación audiológica, de percepción del habla y orientación a la familia, con supervisión del profesional tratante en la rehabilitación. Rehabilitación y adiestramiento auditivo por 90 días. Este módulo será autorizado a fonoaudiólogos habilitados para este módulo y facturados por sistema SIOS CO O ,- CD O honorarios, derechos quirúrgicos, medicamentos y descartables. No se reconoce",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "03.13.14",
       "description": "MODULO IMPLANTE COCLEAR (Honorarios Médicos)",
-      "normativa": "Incluye: Honorarios del Cirujano y ayudante + Monitoreo. | Excluye: Gatos y Derechos sanatoriales. Medicamentos y Material Descartable. Elementos Médicos, Anestesia, Pensión. MODULO IMPLANTE COCLEAR (Gastos Sanatoriales)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios del Cirujano y ayudante + Monitoreo.\nEXCLUYE: Gatos y MODULO IMPLANTE COCLEAR Derechos senatoriales. Medicamentos y Material Descartable. Elementos (Honorarios Médicos) Médicos, Anestesia, Pensión.",
       "coseguro": ""
     },
     {
       "code": "03.13.15",
       "description": "MODULO IMPLANTE COCLEAR (Gastos Sanatoriales)",
-      "normativa": "Incluye: Honorarios del Cirujano y ayudante + Monitoreo. | Excluye: Gatos y Derechos sanatoriales. Medicamentos y Material Descartable. Elementos Médicos, Anestesia, Pensión. MODULO IMPLANTE COCLEAR (Gastos Sanatoriales)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Si es por dos regiones, se factura 50% adicional.acteriana, HIV. Anestesia. Se\nEXCLUYE: , Gatos y Derechos senatoriales. Medicamentos y Material Descartable. Elementos Médicos, Anestesia, Pensión.",
       "coseguro": ""
     },
     {
       "code": "03.90.02",
       "description": "MÓDULO POST-IMPLANTE COCLEAR",
-      "normativa": "Incluye: Encendido y Calibraciones, la calibración incluye la evaluación audiológica, de percepción del habla y orientación a la familia, con supervisión del profesional tratante en la rehabilitación. Rehabilitación y adiestramiento auditivo por 90 días. Este módulo será autorizado a fonoaudiólogos habilitados para este módulo y facturados por sistema SIOS",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Drogas inmunosupresoras y\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y c riterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y c rónicas - Estadificación de Linfomas (Hodgkin y l No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se inc luye la extracción de muestras para estudios de inmunofenotipo y / o c itogénico según c riterio del médico tratante.",
       "coseguro": "S/C"
     },
     {
       "code": "03.90.03",
       "description": "CALIBRACIÓN IMPLANTE COCLEAR",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye toda práctica necesaria para garantizar el óptimo funcionamiento del equipamiento (calibraciones, telemetría, pruebas objetivas y subjetivas de audición y lenguaje, adiestramiento fonoaudiológico). Hasta 3 calibraciones por año aniversario luego de finalizado el Módulo Post-Implante coclear, 2 en el segundo año, y luego 1 por año. Prestadores habilitados para este módulo, por sistema SIOS, y valores de convenio.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Encendido y Calibraciones, la calibración incluye la evaluación audiológica_de percepción del habla y orientación a la familia, con supervisión del profesional tratante en la rehabilitación. Rehabilitación y adiestramiento auditivo por 90días. Este módulo será autorizado a fonoaudiólogos ha bilitados para este módulo y facturados Por sistema SIOS Incluye: Honorarios y Gastos. Incluye toda práctica necesaria para garantizar el óptimo funcionamiento del equipamiento (calibraciones, telemetría, pruebas objetivas y subjetivas de audición y lenguaje, adiestramiento fonoaudiológico). Hasta 3 calibraciones por año aniversario luego de finalizado el Módulo Post-Implante coclear, 2 en el segundo año, y luego 1 por año. Prestadores habilitados para este módulo, por sistema SIOS, y valores de convenio.\nEXCLUYE: , Gatos y Derechos senatoriales. Medicamentos y Material Descartable. Elementos Médicos, Anestesia, Pensión.",
       "coseguro": "S/C"
     },
     {
       "code": "42.01.00",
       "description": "CONSULTA OFTALMOLOGIA",
-      "normativa": "INCLUYE: Encendido y Calibraciones, la calibración la evaluación audiológica_de percepción del habla y orientación a la familia, con supervisión del profesional tratante en la rehabilitación. Rehabilitación y adiestramiento auditivo por 90días. Este módulo será autorizado a fonoaudiólogos ha bilitados para este módulo y facturados Por sistema SIOS Honorarios y Gastos. toda práctica necesaria para garantizar el óptimo funcionamiento del equipamiento (calibraciones, telemetría, pruebas objetivas y subjetivas de audición y lenguaje, adiestramiento fonoaudiológico). Hasta 3 calibraciones por año aniversario luego de finalizado el Módulo Post-Implante coclear, 2 en el segundo año, y luego 1 por año. Prestadores habilitados para este módulo, por sistema SIOS, y valores de convenio. IMPLANTE COCLEAR especialistas en ORL) con experiencia quirúrgica comprobable en la colocación de este Honorarios del Cirujano y ayudante Monitoreo. Gastos y Derechos Senatoriales. Medicamentos y Material Descartable. Honorarios y Gastos. ECOGRAFIA MORFOLOGICA DEL EMBARAZO ¡ Honorarios y Gastos Exámen visual Reflejo Rojo (representa el 18% del valor total del módulo), Oto , Emision\nEXCLUYE: , Gatos y Derechos senatoriales. Medicamentos y Material Descartable. Elementos Médicos, Anestesia, Pensión. , Elementos Médicos, Anestesia, Pensión. Honorarios Profesionales __ _ _ Criterios de Autorización: Se reconocerá en los siguientes casos: Patología tumoral benigna y maligna en cérvix, endometrio, miometrio, trompas y ovarios - Esterilidad: análisis de posibles lesiones que justifiquen esta situación - Reproducción ECOGRAFIA TOCOGINECOLÓGICA Uroginecología - Para guiar procedimientos invasivos. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación al año I prestacional, se deberán adjuntar estudios previos que justifiquen su realización.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OC"
     },
     {
       "code": "42.01.20",
       "description": "CONSULTA VESTIDA OFTALMOLOGIA",
-      "normativa": "Incluye: Consulta, Refractometría computada, Toma de agudeza visual, Biomicroscopía, Gonioscopia, Tonometria, Fondo de ojo con oftalmoscopio directo o lampara de hendidura exoftalmologia e Indicación de lentes ORBITOTOMIA CON ESCISION DE LESION DE ORBITA, EXTRACCION DE CUERPO EXTRAÑO, EXPLORACION,BIOPSIA,DRENAJ E, ETC.-CON O SIN APERTURA DE PARED DE ORBITA.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. 020103 OSIN APERTURADE PAREDDE ORBITA. _ . KtPAKALAUNPLASTICADE LA_ ORBITACONO SININJERTODEPIEL Incluye: Honorarios y Gastos. 02.01 65 INCLUYE TOMADEL MISMO. 1 ENUCLEASION O EVISCERAC. DEL GLOBO OCULARCONO SIN Incluya: Honorarios y Gastos. Protesis ocular a cargo de 1APOS IMPLANTE CONJUNTIVOPLASTIA INJERTO LIBRE DECONJUNTIVA O MEMBRAMA MUCOSADELLABIO. OPERACION COLGAJO: FLAPPING DE Incluye: Honorarios y Gastos. CONJUNTIVA\nEXCLUYE: Anestesia y sala de recuperación.",
       "coseguro": "OC"
     },
     {
       "code": "42.01.02",
       "description": "FONDO DE OJO EN PREMATUROS P19",
-      "normativa": "INCLUYE: Consulta, Refractometría computada, Toma de agudeza visual, Biomicroscopía, Gonioscopia, Tonometria, Fondo de ojo con oftalmoscopio directo o lampara de hendidura exoftalmologia e Indicación de lentes -0010 INYECCIÓNINTRAVITREA DE SUSTANCIAS ANTIANGIOGÉNICAS S/ - -k Y tJULEKEU IUMIA. A ln17,1k RE 1 Irinr-szl NurrAti _ _ inc ooritirEAINUUN tbULtRtL;1 UMIAE IMPLANTE. ( Honorarios y Gastos. Medicamentos Honorarios y Gastos. Honorarios y Gastos. Ui o o o 0 0 <Iii ti 7) (13 CI3 CCI CO In O 0000 m 1m 1 _11. l1 e ie T_ 7_ u) u) o u) .0 o ,o .0 rz r.. cz. e: 2 T. 12 17 000'5 ecce o o o o UNILATERAL — ow F._ ID uj cf) FLUORESCEINA O < —I 2 O E< o — -.1 < z .<mmrim LD 1 < , o < >< Z U/ 11 C) Ci Z <HL ,...., DIU I O 5 (-A- (-1 ..- 7 1c.,NUIL O2 LL < r O 0 0 0 0 0 0 0 co CC) urS cri c5 ci cd ci DCCD UUC0 V V V C C D C C c C 0 D 000 0 000 0 c 0 0 0 \ N 0 . ABSCESO-ORZUELO D d 0 d co - CCO D c c C C OD -N O 0 N w C D 1-- --- honorarios, derechos quirúrgicos, medicamentos y descartables. Honorarios y Gastos. EoluDik., DE riJAciÓN tNELESURABISMO -CONVISUSCOP10 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 30.01. 13 RETINOFLUORESCENCIA Honorarios y Gastos. COREOPLASTlA.IRlDECTOMIA. TRATAMIENTO QUIR ÚRGICO DEL GLAUCOMA . OPERACION PLASTICA EN CANALICULOS. Honorarios y Gastos. _ DRENAJE GLANDULA O SACO LAG R1MAL-ABS.SECC. PAPILA Honorarios y Gastos. LAGRIMAL PILA LAGRIMAL-ESTRICTUROTOMIA. . cAtt itKiz. DECONDUCTO LAG\nEXCLUYE: Anestesia y sala de recuperación.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "42.01.04",
       "description": "EXAMEN DE PREMATUROS EN SALA DE NEONATOLOGÍA P18",
-      "normativa": "INCLUYE: Pensión hasta 1 dia, Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de \"PATOLOGÍA RESUELTA\". Esto eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. Honorarios y Gastos 1 Honorarios y Gastos. todos los órganos y/o regiones. CIRUGIA DE MOHS Cirugía oncológica-reconstruct iva y funcional que permite la extirpación de tumores malignos de piel (CBC-CEC) no melanoma en sus formas más agresivas, con mejores tasas de curación que la escisión lesional ampliada o técnica convencional.\nEXCLUYE: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las diferidas, no asílas intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE SUTURA IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LAPIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: CLINICA: PRIMARIO: Según tamaño tumoral y área corporal: Área H >6 mm (párpados, cejas, nariz, labios pera, orejas); Area M >10mm (mejillas, frente y pretibial); Área L >20mm (tronco y miembros). RECIDIVATUMORAL. HISTOPATOLOGÍA: Subtipos histológicos indiferenciados: CBC: morfeiforme, esclerosante, metatípico, micronodula",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "17"
     },
     {
       "code": "42.01.05",
       "description": "FONDO DE OJOS EN MENORES DE 1 AÑO",
-      "normativa": "INCLUYE: Honorarios y Gastos : Honorarios y Gastos. ICITOGENETICODEMEDULAOSEA - INMUNOMARCACION Criterios de Autorización: A partir de los 21 a ños de edad y cada 3 años para detección precoz de cáncer de cuello uterino.S1 tiene mas de 30 años y ta mbién le han hecho pruebas pa ra el virus del papiloma huma no (VPH, por sus siglas en inglés) y tanto !a prueba VPH son normales, le de Papanicolaou como las pruebas para el VPH es el virus que causa cada 5 a ños (el hacer exámenes pueden PAP EXFOLIATIVA ONCOLÓGICA CITOLOGÍA verrugas genitales y cáncer de cuello uterino). Después de la edad de 65 a 70 a ños, la mayoría de las mujeres pueden dejar de hacerse la prueba de Papanicolaou siempre y cuando hayan obtenido 3 resultados negativos en los exámenes dentro de los últimos 10 a ños. Honorarios y Gastos. Honorarios y Gastos. todos los órganos y/o CITOMETRIADEFLUJO MÉDULAÓSEA Y SANGREPERIFÉRICA regiones. descarta ble. Honorarios, Gastos y material COLANGIOPANCREATOGRAFÍA ENDOSCÓPICA RETRÓGRADA Anestesia y Sala de Recuperación (cuando se utilice). CIRUGIADEMONS Cirugía oncológica-reconstructiva y funcional que permite la extirpación de tumores ma lignos de piel (CBC-CEC) no melanoma en sus formas más agresivas, con mejores tasas de curación que la escisión lesiona' ampliada o técnica convencional.\nREQUISITOS: CLÍNICA: PRIMARIO: Según tama ño tumoral y área corporal: Área H>6 mm (párpados, cejas, nariz, labios pera, orejas); Área M> 10mm (mejillas, frente y pretibial); Área L>20mm (tronco y miembros). RECIDIVA TUMORAL. HISTOPATOLOGÍA: Subtipos CBC: morfeiforme, esclerosante, histológicos indiferenciados: metatípico, micronodular. CEC: acantolítico, adenoescamoso, pagetoide, queratoacantomatoso. Infiltrante. Invasión perineural o linfovascular. Compromiso de márgenes luego de una Escisión inicial. ANTECEDENTESDELPACIENTE: Inmunodepresión (HIV, trasplantados, oncohematológ",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "02.01.05",
       "description": "REPARACION PLASTICA DE LA ORBITA CON O SIN INJERTO DE PIEL INCLUYE TOMA",
-      "normativa": "REPARACION PLASTICA DE LA ORBITA CON O SIN INJERTO DE PIEL INCLUYE TOMA DEL MISMO.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Materiales descartables y específicos al procedimiento, gas.\nEXCLUYE: aceite y suturas. ICA",
       "coseguro": "BQ"
     },
     {
       "code": "02.01.06",
       "description": "ENUCLEASION O EVISCERAC. DEL GLOBO OCULAR CON O SIN IMPLANTE",
-      "normativa": "INCLUYE: Consulta, Refractometría computa da, Toma de agudeza visual, Biomicroscopía, tj f ,Gonioscopia, Tonometria, Fondo de ojo con ofta lmoscopio directo o lampara de heraidura CONSUL, 'AVESTIDA ,-....... , ,exoftalmoloqia e Indicación de lentes rItBITOTOMIACONESCI SIONDELESIONDEORBITA, EXTRAÑO, CU ERPO DE EXTRACCI ON Honorarios y Gastos. OSI N ETC.-CON NAJ E, EXPLORAC I ON, BIOPSIA,DRE _ PAREDDEORBI TA. APERTU RA DE REPARAC I ONPLASTICADELAORBITACONOSI NINJERTO Honorarios y Gastos. DE PIE L IN CLUYE TOMADELMI SMO. ENUCLEASIONOEVI SCERAC. DELGLOBOOCULARCONOSI N Honorarios y Gastos. Protesis ocular a cargo de IAPOS I MPLANTE CONJU NTIVOPLASTIAINJ ERTOLIBREDECONJUN TIVAO MEMBRAMAMUCOSADELLABIO. OPERAC IONCOLGAJO: Honorarios y Gastos. FLAPPI N GDECONJU NTIVA honorarios, derechos quirúrgicos, medicamentos y descartables. No se reconoce ESCISIONDEL ESIONCONJU NTIVA la anestesia general EN UNTIV.Y BCONJ SU EUTIC. TERAP I NTROD.D ESU BSTANC IAS Honorarios y Gastos. TEN NONSCONI NCISI ONYSUTU RA. SUTU RADECONJU NTIVA, I NCLUI DAEXTRACCI ONDECU ERPO Honorarios y Gastos. • EXTRA _ DECONJ U NTIVA. _OPSIA _ ÑO- BI Honorarios y Gastos. ni iF RATOPLASTIA NAR. I NJERTODECORNEA. LAMI NAR, _ Honorarios Gastos. TOTAL. LASTIA 1011FRAT0PROTESI S TOTAL _ _ 5 Y/0 DE IRIS PROLAPSO SUTU RAD EH ERIDA DECORN EA CON HERIDADECRI STALINO. EXTRACCI ONDECUERPOEXTRAÑO Honorarios y Gastos. ENCAMARAANTERI OR. Indicación: PARA PACIENTESCONMENOSDE6DÉCIMAS (6/10) DEAGUDEZA VISUAL. Honorarios Médicos, Derechos Quirúrgico, Monitoreo, Medicamentos. CIRUGÍADECATARATAS Descartable inherentes al Honorarios y Gastos. FXT RACCION DECUERPOEXTRAÑOCONJ U NTIVAL. Honorarios y Gastos. EXTRACCIO N DECU ERPOEXTRAÑOENCORNEA. Honorarios ES OMAL LOS INTRAESTR DE ANIL ... ÓN _\nEXCLUYE: Anestesia. Todo otro procedimiento adicional. Material ia. suturas+sustanc procedimiento, L10+ ¡",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DEL MISMO. _..... __ _ _ ENUULEASIONO EVISCERAC. DEL GLOBO OCULAR CON O SIN IMPLANTE-GARCIA 02.01.06NOCITOOSIMILAR.-",
       "coseguro": "BQ"
     },
     {
       "code": "02.03.01",
       "description": "CONJUNTIVOPLASTIA INJERTO LIBRE DE CONJUNTIVA O MEMBRAMA MUCOSA DEL",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables. No se reconoce la anestesia general",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Encendido y Calibraciones, la ca libración incluye la evaluación audiológica, de percepción del habla y orientación a la familia, con supervisión del profesional tratante en la rehabilitación. Rehabilitación y adiestramiento auditivo por 90 días. Este módulo será autorizado a fonoaudiólogos habilitados para este módulo y facturados por sistema SIOS\nEXCLUYE: Anglesin Todo otro procedimiento adicional. Material Descartable inherentes al procedimiento, L10+ suturas+sustancia.",
       "coseguro": "20"
     },
     {
       "code": "02.03.02",
       "description": "ESCISION DE LESION CONJUNT.QUISTE EPITELIOMA NEVUS PTERIGION",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables. No se reconoce la anestesia general",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. 020103 OSIN APERTURADE PAREDDE ORBITA. _ . KtPAKALAUNPLASTICADE LA_ ORBITACONO SININJERTODEPIEL Incluye: Honorarios y Gastos. 02.01 65 INCLUYE TOMADEL MISMO. 1 ENUCLEASION O EVISCERAC. DEL GLOBO OCULARCONO SIN Incluya: Honorarios y Gastos. Protesis ocular a cargo de 1APOS IMPLANTE CONJUNTIVOPLASTIA INJERTO LIBRE DECONJUNTIVA O MEMBRAMA MUCOSADELLABIO. OPERACION COLGAJO: FLAPPING DE Incluye: Honorarios y Gastos. CONJUNTIVA\nEXCLUYE: aceite y suturas.",
       "coseguro": "20"
     },
     {
       "code": "02.03.03",
       "description": "INTROD.DE SUBSTANCIAS TERAPEUTIC. SUBCONJUNTIV.Y EN TENNONS CON",
-      "normativa": "INCLUYE: Honorarios y Gastos. Materiales descartables y específicos al procedimiento, gas. Honorarios y Gastos. Medicamentos OGÉN II1INYECCIÓ NYFCCIÓN NTRAVITREA DESUSTAN CIASANTIANGI . 0 N I NTRAVITREA ... Honorarios Gastos. CONESCLERECT OMIAEIM PLANTE. C ....I o z W Consulta, Refractometría computa da, Toma de agudeza visual, Biomicroscopía, tj f ,Gonioscopia, Tonometria, Fondo de ojo con ofta lmoscopio directo o lampara de heraidura CONSUL, 'AVESTIDA ,-....... , ,exoftalmoloqia e Indicación de lentes rItBITOTOMIACONESCI SIONDELESIONDEORBITA, EXTRAÑO, CU ERPO DE EXTRACCI ON Honorarios y Gastos. OSI N ETC.-CON NAJ E, EXPLORAC I ON, BIOPSIA,DRE _ PAREDDEORBI TA. APERTU RA DE REPARAC I ONPLASTICADELAORBITACONOSI NINJERTO Honorarios y Gastos. DE PIE L IN CLUYE TOMADELMI SMO. ENUCLEASIONOEVI SCERAC. DELGLOBOOCULARCONOSI N Honorarios y Gastos. Protesis ocular a cargo de IAPOS I MPLANTE CONJU NTIVOPLASTIAINJ ERTOLIBREDECONJUN TIVAO MEMBRAMAMUCOSADELLABIO. OPERAC IONCOLGAJO: Honorarios y Gastos. FLAPPI N GDECONJU NTIVA honorarios, derechos quirúrgicos, medicamentos y descartables. No se reconoce ESCISIONDEL ESIONCONJU NTIVA la anestesia general EN UNTIV.Y BCONJ SU EUTIC. TERAP I NTROD.D ESU BSTANC IAS Honorarios y Gastos. TEN NONSCONI NCISI ONYSUTU RA. SUTU RADECONJU NTIVA, I NCLUI DAEXTRACCI ONDECU ERPO Honorarios y Gastos. • EXTRA _ DECONJ U NTIVA. _OPSIA _ ÑO- BI Honorarios y Gastos. ni iF RATOPLASTIA N\nEXCLUYE: aceite y suturas. ICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios, derechos Q uirúrgicos, medicamentos, descartables. 1\nEXCLUYE: Drogas inmunosupresoras y\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y c riterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y c rónicas - Estadificación de Linfomas (Hodgkin y l No Hodgkin) - Estudio y Seguimieto de Discrasias de c",
       "coseguro": "20"
     },
     {
       "code": "02.03.05",
       "description": "SUTURA DE CONJUNTIVA,INCLUIDA EXTRACCION DE CUERPO EXTRAÑO- BIOPSIA DE",
-      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos y descartables. No se reconoce la anestesia general INTROD.DE SUBSTANCIAS TERAPEUTIC. SUBCONJUNTIV.YENTENNONS CONINCISIONY Honorarios y Gastos. SUTURA. SUTURADECONJUNTIVA,INCLUIDAEXTRACCION Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TOTAL. SUTURADEHERIDADECORNEA CONPROLAPSO DEIRISY/0HERIDA DE CRISTALINO.EXTRACCION Honorarios y Gastos . DECUERPOEXTRAÑOEN CAMARAANTERIOR. te■•• O O ni O cm o (c) o N N 0 5 2 2 FEB 2f121 ni O 0 • • 5 / O c, 2 2 FEB 2'723 + ro Eo -in- ro u) t.= (,) • ca > en :o o c:33 o T) .) , X en • a) (a -0 > 3 o 0 5 Ño ca) Ltrj -E .< o .2 70 1) aro c))_E Z z< O O o) ir) O O o O (o (o ai o O O o O O u, O O O O O CD cn o O z o U) Q O 1U) z w IZ U w U) U) D CIRUGÍADECATARATAS CL O O O w z o 0_ o CL o LU LU -1 O O w O U) 5 , z w O 1 o 5 I= O o O < • Z >< w oo UD > < O O o > LIJ W O 1- O o o O ti a— o O O CD O a) O O O O O O 5 Z ZW O z O z u< w 17_ >- o o o o T.) T.) C o >, (f) o co o o O C o O O o z 'LTJ O U) o) LIJ CL o O >- U_ z O o 5 O O o • w o O o w 35 o u_ < 00 0 o I= H z <w sz5 o < rz 0 ra. U) o >- z z Oo 5 _< O w • < tz ca. o z o O • w LIJ z z < Z LIJ -0 n CL O O 5 c7) O o O < o • W gcn JJ o O 0_ W <O u_ LIJ O Z O Honorarios y Gastos. o U) oo o o o Honorarios y Gastos. o C U) co ui BLEFAROCHALASIS. C Ú c E E (1.) o (D >, a, co c, _ 2 o N 'Zis a)a; c.) ca ° 2 • «,= o BLEFARORRAFIAPARCIALOTOTAL. • • 82° • < o_ c E o c 6 - a) a) _c o ' E' E -o 1.) É o Honorarios y Gastos. o 2 a) 13 o 1, o o • w . 13 1) us «3 ui ui F",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Encendido y Calibraciones, la ca libración incluye la evaluación audiológica, de percepción del habla y orientación a la familia, con supervisión del profesional tratante en la rehabilitación. Rehabilitación y adiestramiento auditivo por 90 días. Este módulo será autorizado a fonoaudiólogos habilitados para este módulo y facturados por sistema SIOS\nEXCLUYE: Anglesin Todo otro procedimiento adicional. Material Descartable inherentes al procedimiento, L10+ suturas+sustancia.",
       "coseguro": "20"
     },
     {
       "code": "02.04.01",
       "description": "QUERATOPLASTIA LAMINAR, INJERTO DE CORNEA.",
-      "normativa": "INCLUYE: Honorarios y Gastos. 020103 OSIN APERTURADE PAREDDE ORBITA. _ . KtPAKALAUNPLASTICADE LA_ ORBITACONO SININJERTODEPIEL Honorarios y Gastos. 02.01 65 TOMADEL MISMO. 1 ENUCLEASION O EVISCERAC. DEL GLOBO OCULARCONO SIN Incluya: Honorarios y Gastos. Protesis ocular a cargo de 1APOS IMPLANTE CONJUNTIVOPLASTIA INJERTO LIBRE DECONJUNTIVA O MEMBRAMA MUCOSADELLABIO. OPERACION COLGAJO: FLAPPING DE Honorarios y Gastos. CONJUNTIVA Consulta, Refractometría computada, Toma de agudeza visual, Biomicroscopía, Gonioscopia, Tonometria, Fondo de ojo con oftalmoscopio directo o lampara de hendidura exoftalmologia e Indicación de lentes -0010 INYECCIÓNINTRAVITREA DE SUSTANCIAS ANTIANGIOGÉNICAS S/ - -k Y tJULEKEU IUMIA. A ln17,1k RE 1 Irinr-szl NurrAti _ _ inc ooritirEAINUUN tbULtRtL;1 UMIAE IMPLANTE. ( Honorarios y Gastos. Medicamentos Honorarios y Gastos. Honorarios y Gastos. Ui o o o 0 0 <Iii ti 7) (13 CI3 CCI CO In O 0000 m 1m 1 _11. l1 e ie T_ 7_ u) u) o u) .0 o ,o .0 rz r.. cz. e: 2 T. 12 17 000'5 ecce o o o o UNILATERAL — ow F._ ID uj cf) FLUORESCEINA O < —I 2 O E< o — -.1 < z .<mmrim LD 1 < , o < >< Z U/ 11 C) Ci Z <HL ,...., DIU I O 5 (-A- (-1 ..- 7 1c.,NUIL O2 LL < r O 0 0 0 0 0 0 0 co CC) urS cri c5 ci cd ci DCCD UUC0 V V V C C D C C c C 0 D 000 0 000 0 c 0 0 0 \ N 0 . ABSCESO-ORZUELO D d 0 d co - CCO D c c C C OD -N O 0 N w C D 1-- --- honorarios, derechos quirúrgicos, medicamentos y descartables. Honorarios y Gastos. EoluDik., DE riJAciÓN tNELESURABISMO -CONVISUSCOP10 Honorarios y Gastos. Honorarios y Gastos.\nEXCLUYE: Anestesia y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Encendido y Calibraciones, la ca libración incluye la evaluación audiológica, de percepción del habla y orientación a la familia, con supervisión del profesional tratante en la rehabilitación. Rehabilitación y adiestramiento auditivo por 90 días. Este módulo será autorizado a fonoaudiólogos habilitados para este módulo y facturados por sistema SIOS\nEXCLUYE: Anglesin Todo otro procedimiento adicional. Material Descartable inherentes al procedimiento, L10+ suturas+sustancia.",
       "coseguro": "BQ"
     },
     {
       "code": "02.04.02",
       "description": "QUERATOPROTESIS TOTAL QUERATOP LASTIA TOTAL.",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. TOTAL. SUTURADEHERIDADECORNEA CONPROLAPSO DEIRISY/0HERIDA DE CRISTALINO.EXTRACCION Honorarios y Gastos . DECUERPOEXTRAÑOEN CAMARAANTERIOR. te■•• O O ni O cm o (c) o N N 0 5 2 2 FEB 2f121 ni O 0 • • 5 / O c, 2 2 FEB 2'723 + ro Eo -in- ro u) t.= (,) • ca > en :o o c:33 o T) .) , X en • a) (a -0 > 3 o 0 5 Ño ca) Ltrj -E .< o .2 70 1) aro c))_E Z z< O O o) ir) O O o O (o (o ai o O O o O O u, O O O O O CD cn o O z o U) Q O 1U) z w IZ U w U) U) D CIRUGÍADECATARATAS CL O O O w z o 0_ o CL o LU LU -1 O O w O U) 5 , z w O 1 o 5 I= O o O < • Z >< w oo UD > < O O o > LIJ W O 1- O o o O ti a— o O O CD O a) O O O O O O 5 Z ZW O z O z u< w 17_ >- o o o o T.) T.) C o >, (f) o co o o O C o O O o z 'LTJ O U) o) LIJ CL o O >- U_ z O o 5 O O o • w o O o w 35 o u_ < 00 0 o I= H z <w sz5 o < rz 0 ra. U) o >- z z Oo 5 _< O w • < tz ca. o z o O • w LIJ z z < Z LIJ -0 n CL O O 5 c7) O o O < o • W gcn JJ o O 0_ W <O u_ LIJ O Z O Honorarios y Gastos. o U) oo o o o Honorarios y Gastos. o C U) co ui BLEFAROCHALASIS. C Ú c E E (1.) o (D >, a, co c, _ 2 o N 'Zis a)a; c.) ca ° 2 • «,= o BLEFARORRAFIAPARCIALOTOTAL. • • 82° • < o_ c E o c 6 - a) a) _c o ' E' E -o 1.) É o Honorarios y Gastos. o 2 a) 13 o 1, o o • w . 13 1) us «3 ui ui FOTOCOAGULACIONCONRAYOLASER e u)• a) :o o as .- o o E ° Honorarios y Gastos. D 0- en o C O 7 Honorarios y Gastos. 8 o o Honorarios y Gastos. • vi o (7) ca Honorarios en- 2 + Honorarios y Gastos. 2 • w ID E o- 8 2 .5Z 2.)..5 O -2. (a5 C.) • 5 o «3 cn O t w .S.I2 1- o E z c La u) LU o a) c0 -« 2 c.)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DEL MISMO. ENUCLEASION O EVISCERAC. DELGLOBOOCULAR CONOSINIMPLANTE-GARCIANOCITO O SIMILAR.-\nEXCLUYE: LIO + suturas + sustancia)",
       "coseguro": "BQ"
     },
     {
       "code": "02.04.06",
       "description": "SUTURA DE HERIDA DE CORNEA CON PROLAPSO DE IRIS Y/O HERIDA DE",
-      "normativa": "INCLUYE: Honorarios y Gastos. TOTAL. SUTURADEHERIDADECORNEA CONPROLAPSO DEIRISY/0HERIDA DE CRISTALINO.EXTRACCION Honorarios y Gastos . DECUERPOEXTRAÑOEN CAMARAANTERIOR. te■•• O O ni O cm o (c) o N N 0 5 2 2 FEB 2f121 ni O 0 • • 5 / O c, 2 2 FEB 2'723 + ro Eo -in- ro u) t.= (,) • ca > en :o o c:33 o T) .) , X en • a) (a -0 > 3 o 0 5 Ño ca) Ltrj -E .< o .2 70 1) aro c))_E Z z< O O o) ir) O O o O (o (o ai o O O o O O u, O O O O O CD cn o O z o U) Q O 1U) z w IZ U w U) U) D CIRUGÍADECATARATAS CL O O O w z o 0_ o CL o LU LU -1 O O w O U) 5 , z w O 1 o 5 I= O o O < • Z >< w oo UD > < O O o > LIJ W O 1- O o o O ti a— o O O CD O a) O O O O O O 5 Z ZW O z O z u< w 17_ >- o o o o T.) T.) C o >, (f) o co o o O C o O O o z 'LTJ O U) o) LIJ CL o O >- U_ z O o 5 O O o • w o O o w 35 o u_ < 00 0 o I= H z <w sz5 o < rz 0 ra. U) o >- z z Oo 5 _< O w • < tz ca. o z o O • w LIJ z z < Z LIJ -0 n CL O O 5 c7) O o O < o • W gcn JJ o O 0_ W <O u_ LIJ O Z O Honorarios y Gastos. o U) oo o o o Honorarios y Gastos. o C U) co ui BLEFAROCHALASIS. C Ú c E E (1.) o (D >, a, co c, _ 2 o N 'Zis a)a; c.) ca ° 2 • «,= o BLEFARORRAFIAPARCIALOTOTAL. • • 82° • < o_ c E o c 6 - a) a) _c o ' E' E -o 1.) É o Honorarios y Gastos. o 2 a) 13 o 1, o o • w . 13 1) us «3 ui ui FOTOCOAGULACIONCONRAYOLASER e u)• a) :o o as .- o o E ° Honorarios y Gastos. D 0- en o C O 7 Honorarios y Gastos. 8 o o Honorarios y Gastos. • vi o (7) ca Honorarios en- 2 + Honorarios y Gastos. 2 • w ID E o- 8 2 .5Z 2.)..5 O -2. (a5 C.) • 5 o «3 cn O t w .S.I2 1- o E z c La u) LU o a) c0 -« 2 c.) a) o .2. < Honorarios y Gastos. (T3 O 2 Honorarios y Gastos. o — Honorarios y Gast",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Materiales descartables y específicos al procedimiento, gas.\nEXCLUYE: aceite y suturas. ICA",
       "coseguro": "20"
     },
     {
       "code": "02.07.01",
       "description": "CIRUGIA DE CATARATAS",
-      "normativa": "Incluye: Honorarios Médicos, Derechos Quirúrgico, Monitoreo, Medicamentos. | Excluye: Anestesia. Todo otro procedimiento adicional. Material Descartable inherentes al procedimiento, LIO+ suturas+sustancia. EXTRACCION DE CUERPO EXTRAÑO CONJUNTIVAL.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Encendido y Calibraciones, la ca libración incluye la evaluación audiológica, de percepción del habla y orientación a la familia, con supervisión del profesional tratante en la rehabilitación. Rehabilitación y adiestramiento auditivo por 90 días. Este módulo será autorizado a fonoaudiólogos habilitados para este módulo y facturados por sistema SIOS\nEXCLUYE: Anglesin Todo otro procedimiento adicional. Material Descartable inherentes al procedimiento, L10+ suturas+sustancia.",
       "coseguro": "BQ"
     },
     {
@@ -2862,8 +2595,7 @@ const searchData = {
     {
       "code": "02.90.02",
       "description": "COLOCACIÓN DE ANILLOS INTRAESTROMALES",
-      "normativa": "Incluye: Honorarios y Gastos. Descartables Indicación: Queratocono rápidamente evolutivo en pacientes menores de 40 años ASPIRACION, LAVADO E IMPLANTE DEL VITREO. Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en habitación compartida. Honorarios del cirujano y ayudante. Gastos. Uso de video. Medicamentos y descartables inherentes al procedimiento. Bisturi armonico o ultrasonico.\nEXCLUYE: Suturas mecanicas (de acuerdo a PROTOCOLO VIGENTE) Biopsia por congelación. Anatomía patologica. Interconsultas. Estudios prev os en caso de atención de guardia. Estudios prequirúrgicos. Anestesia.\nREQUISITOS: Patología quirúrgica del colon",
       "coseguro": "BQ"
     },
     {
@@ -2883,315 +2615,280 @@ const searchData = {
     {
       "code": "02.90.04",
       "description": "VITRECTOMÍA COMPLEJA",
-      "normativa": "Incluye: Honorarios y Gastos. Todos los materiales descartables y específicos al procedimiento. INYECCIÓN INTRAVITREA DE SUSTANCIAS ANTIANGIOGÉNICAS",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Todas las complicaciones de la parturienta y todas las patologías del bebé. Anestesia, NEO, TAC, RMN, Screening Neonata!, Sangre, Plasma. Observaciones: En caso de complicaciones se factura toda la internación por prestación.\nREQUISITOS: retinopatía DBT proliferativa severa con o sin desprendimiento de retina VITRECTOMÍA COMPLEJA severo, con o sin hemovítreo, con o sin desgarro, glaucoma hemolítico y o neovasc. iris + hemovítreo, colocación de válvulas)",
       "coseguro": "BQ"
     },
     {
       "code": "02.90.01",
       "description": "INYECCIÓN INTRAVITREA DE SUSTANCIAS ANTIANGIOGÉNICAS",
-      "normativa": "Incluye: Honorarios y Gastos. Todos los materiales descartables y específicos al procedimiento. INYECCIÓN INTRAVITREA DE SUSTANCIAS ANTIANGIOGÉNICAS",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios, derechos Q uirúrgicos, medicamentos, descartables. 1\nEXCLUYE: Anestesia, elementos Crotésicos (diaboio a cargo de IAPOS)\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y c riterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y c rónicas - Estadificación de Linfomas (Hod",
       "coseguro": "BQ"
     },
     {
       "code": "02.06.03",
       "description": "RETINOPEXIA CON ESCLERECTOMIA E IMPLANTE.",
-      "normativa": "Incluye: Honorarios y Gastos. Todos los materiales descartables y específicos al procedimiento. INYECCIÓN INTRAVITREA DE SUSTANCIAS ANTIANGIOGÉNICAS",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. RECONSTRUCCION TOTAL DEL PARPADO. TECNICA DE HUGJES O SIMILAR 1 Incluye: Honorarios y Gastos. BLEFAROPLASTIA-INJERTO,CANTOPL ASTIA,TRASOPLAST1A,RESTAURACION PLASTICA DE1 Incluye: Honorarios y Gastos. BASE CILIAR, CORRECCION DEPTOSIS- UNILATERAL BLEFARORRAFIA PARCIAL O TOTAL . Incluye: Honorarios y Gastos.",
       "coseguro": "BQ"
     },
     {
       "code": "02.06.04",
       "description": "RETINOPEXIA Y ESCLERECTOMIA.",
-      "normativa": "INCLUYE: TOMA DEL MISMO. _..... __ _ _ ENUULEASIONO EVISCERAC. DEL GLOBO OCULAR CON O SIN IMPLANTE-GARCIA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. FXT RACCION DECUERPOEXTRAÑOCONJ U NTIVAL. Incluye: Honorarios y Gastos. EXTRACCIO N DECU ERPOEXTRAÑOENCORNEA. Incluye: Honorarios ES OMAL LOS INTRAESTR DE ANIL ... ÓN __ COLOCACI Incluye: Honorarios y Gastos. VITREO. DEL MPLANTE LAVADO E I i iPIRACI ON. _ ,\nEXCLUYE: Anestesia. Todo otro procedimiento adicional. Material ia. suturas+sustanc procedimiento, L10+ ¡",
       "coseguro": "BQ"
     },
     {
       "code": "02.06.05",
       "description": "RETINOPEXIA (DIATERMIA, CRIO, ETC.)",
-      "normativa": "INCLUYE: Honorarios v Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Por Procedimiento v :se oueden 1 : Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. UNILATERAL. Honorarios y Gastos Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. l Honorarios y Gastos. z W CL 1-- u z o w O C2 a. O >-J w z O tY (r) G o.) e W O 0 7.3 O '-7) 2 2 G 1.; r r171 a) C: U) (I) U) U) U) 1.1 c» u) u) o in U) U) a) a) o Ñ o o Ñ o Z) O o 7_5 m C O o O a. W O < 1— cr w O z z z E-1— úJ ° 'O e -o 0 < (/) LLI Ui WW O z C/) C/) o 11.1 OX X X (i) V) 0 (.7) (7) W IY Z U) W 1 z 1- E w o_ z J W I I CL C.) CD 0 CV CV O cicicicc O O) O) a) 03 03 CS) r- r- I- N ca 1-• o 0 0 0 )2_ < < ro 0 0 0 (13 ro (13 ro c c o o 0000 0 ro ro ro co ro o 0000 -o 13 P -O F212 13 13 a> a) CD 7 7 7 7 7 0U 0 O ro C1) tO (13 a) (1) a) a) a) p -o D U) in in in a) o a> C e e o 0 o 9 o e X U) C a) a) .= := ro ro (7) o o_ O U) LII z O z 0 O Cr 1.1.1 z",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "02.09.01",
       "description": "FOTOCOAGULACIÓN CON YAG LASER",
-      "normativa": "INCLUYE: Honorarios y Gastos. 02:06.05 REZ.UltIMPEXIA (DIATERMIA, CRIO, ETC.) Honorarios y Gastos. ,.n F2,1W0AGULACIONCON YAG LASER Honorarios y Gastos. AN*, •GRAFIADIGITAL C/ FLUORESCEÍNA UNILATERAL Inclu e:Honorarios y Gastos. GIOGRAFIADIGITAL C/ FLUORESCEINA BILATERAL Honorarios y Gastos. Honorarios y Gastos. FOTOCOAGULACION CONRAYOLASERARGON Honorarios y Gastos. RECONSTRUCCION TOTAL DEL PARPADO. TECNICA DE HUGJES OSIMILAR Honorarios y Gastos. 0 ,-- 0. C) lo cs> c.i O t•-- o O C\i c\i o BLEFAROPLASTIA-INJERTO,CANTOPL ASTIA,TRASOPLASTIA, RESTAURACION PLASTICADEBASE Honorarios y Gastos. CILIAR, CORRECCIONDEPTOSIS- UNILATERAL BLEFARORRAFIAPARCIALO TOTAL. Honorarios y Gastos. 1 Honorarios y Gastos. NN o o c.i c\i o o C) N ce) O ESCISION DEPARPADO, BLEFARECTOMIA-PIEL DEPARPADO. GLANDULAMEIBOMIANA,CHALAZIO, SUTURA DE PIELDE Honorarios y Gastos. PARPADO- BLEFAROTOMIA-ABSCESO-ORZUELO Honorarios y Gastos. Honorarios y Gastos. ESTRICTUROTOMIA. 1 Honorarios y Gastos. Honorarios y Gastos. CATETERIZACION DE CONDUCTO LACRIMONASAL Honorarios y Gastos. honorarios, derechos quirúrgicos, medicamentos y descartables. Honorarios y Gastos. TRATAMIENTO QUIRURGICO CORRECTIVODEL ESTRABISMO honorarios, derechos quirúrgicos, medicamentos y descartables.\nEXCLUYE: TRATAMIENTO QUIRÚRGICO DEL GLAUCOMA Anestesia y sala de recuperación. 1",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Elemento a cargo de lapos. Anestesia. Pensión.\nREQUISITOS: Controles de Seguimiento de patologías oncohematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "20"
     },
     {
       "code": "02.50.01",
       "description": "ANGIOGRAFÍA DIGITAL C/ FLUORESCEÍNA UNILATERAL",
-      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos y descartables. No se reconoce la anestesia general Honorarios y Gastos. Honorarios y Gastos. •l- Lo co 1 - •l - 09 09 c5 d CD 0 EXTRACCION DECUERPO EXTRAÑO CONJUNTIVAL. EXTRACCION DE CUERPOEXTRAÑO ENCORNEA. 1 Honorarios bicos, Derechos Quirúrgico, Monitoreo, Medicamentos. : Honorarios y Gastos. Honorarios y Gastos. -, 4 SUTURA DE HERIDA DE CORNEA CON PROLAPSO DE IRIS Y/0HERIDA DE Honorarios y Gastos. CRISTALINO.EXTRACCION DECUERPOEXTRAÑO ENCAMARA ANTERIOR. QUERATOPLASTIALAMINAR, INJERTO DECORNEA. QUERATO PROTESIS TOTAL QUERATOP LASTIA TOTAL. INTROD.DE SUBSTANCIAS TERAPEUTIC. SUBCONJUNTIV.Y EN TENNONS CON INC ISION Y Honorarios y Gastos. ! SUTURA. SUTURA DECONJUNTIVA,INCLU IDA EXTRACCION DE CUERPO EXTRAÑO- BIOPSIA DE Honora rios y Gastos. CONJUNTIVA. ESCISION DE LESION CONJUNTIVA ENUCLEASION OEVISCERAC. DELGLOBOOCULARCON OSIN IMPLANTE Honorarios y Gastos. Protesis ocular a ca rgo de IAPOS CONJUNTIVOPLASTIA INJERTO LIBRE DE CONJUNTIVA O MEMBRAMA MUCOSA DEL LABIO. Honorarios y Gastos. OPERACION COLGAJO: FLAPPING DECONJUNTIVA REPARACION PLASTICA DE LA ORBITA CON O SIN INJ ERTO DE PIEL INCLUYETOMA DEL Honorarios y Gastos. 02 01 05 MISMO. ORBITOTOMIA CON ESCISION DE LESION DEORBITA, EXTRACCION DE CUERPO EXTRA ÑO, Honorarios y Gastos. 02 01 03lEXPLORACION, BIOPSIA,DRENAJE, ETC.-CON O SIN APERTURA DE PAREDDE ORBITA. 42 01 20\nEXCLUYE: Anglesin Todo otro procedimiento adicional. Material Descartable inherentes al procedimiento, L10+ suturas+sustancia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos 30.02.06ANGIOGRAFÍA DIGITAL C/ INDOCIANINA BILATERAL Incluye: Honorarios y Gastos. 30.02.05ANGIOGRAFÍA DIGITAL C/ INDOCIANINA UNILATERAL. Incluye: Honorarios y Gastos.\nEXCLUYE: Estudio electrofisiolóaico v cualauier otra comnliracinn nue",
       "coseguro": "20"
     },
     {
       "code": "02.50.02",
       "description": "ANGIOGRAFÍA DIGITAL C/ FLUORESCEÍNA BILATERAL",
-      "normativa": "INCLUYE: Honorarios bicos, Derechos Quirúrgico, Monitoreo, Medicamentos. : Honorarios y Gastos. Honorarios y Gastos. -, 4 SUTURA DE HERIDA DE CORNEA CON PROLAPSO DE IRIS Y/0HERIDA DE Honorarios y Gastos. CRISTALINO.EXTRACCION DECUERPOEXTRAÑO ENCAMARA ANTERIOR. QUERATOPLASTIALAMINAR, INJERTO DECORNEA. QUERATO PROTESIS TOTAL QUERATOP LASTIA TOTAL. INTROD.DE SUBSTANCIAS TERAPEUTIC. SUBCONJUNTIV.Y EN TENNONS CON INC ISION Y Honorarios y Gastos. ! SUTURA. SUTURA DECONJUNTIVA,INCLU IDA EXTRACCION DE CUERPO EXTRAÑO- BIOPSIA DE Honora rios y Gastos. CONJUNTIVA. ESCISION DE LESION CONJUNTIVA ENUCLEASION OEVISCERAC. DELGLOBOOCULARCON OSIN IMPLANTE Honorarios y Gastos. Protesis ocular a ca rgo de IAPOS CONJUNTIVOPLASTIA INJERTO LIBRE DE CONJUNTIVA O MEMBRAMA MUCOSA DEL LABIO. Honorarios y Gastos. OPERACION COLGAJO: FLAPPING DECONJUNTIVA REPARACION PLASTICA DE LA ORBITA CON O SIN INJ ERTO DE PIEL INCLUYETOMA DEL Honorarios y Gastos. 02 01 05 MISMO. ORBITOTOMIA CON ESCISION DE LESION DEORBITA, EXTRACCION DE CUERPO EXTRA ÑO, Honorarios y Gastos. 02 01 03lEXPLORACION, BIOPSIA,DRENAJE, ETC.-CON O SIN APERTURA DE PAREDDE ORBITA. 42 01 20\nEXCLUYE: Anglesin Todo otro procedimiento adicional. Material Descartable inherentes al procedimiento, L10+ suturas+sustancia.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos Incluye: 1 día de Pensión en habitación compartida ,1 Honorarios médicos, Derechos de hemodinámia,1 Prácticas de HRS. , Medicamentos y Material Descartabl inherente a la práctica.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja, aclarado que el modulo contempla solo lo inherente a la realización de la practica. Anestesia.",
       "coseguro": "20"
     },
     {
       "code": "02.06.02",
       "description": "FOTOCOAGULACION CON RAYO LASER",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. honos-arios, derechos quirúrgicos, medicamentos y descartables. la anestesia general se reconoce CIRUGÍA DE CATARATAS Indicación: PARAPACIENTES CON MENOS DE 6DÉCIMAS (6/10) DEAGUDEZA VISUAL. Honorarios Médicos, Derechos Quirúrgico, Monitoreo, Medicamentos. Honorarios y Gastos. __ EXTRACCION DE CUERPOEXTRANOEN CORNEA. Honorarios y Gastos. COLOCACIÓN DE ANILLOSINTRAESTROMALES Honorarios . . ASHIKACION, LAVADO E IMPLANTE DELVITREO. Honorarios y Gastos. Descripción: Vitrectomía + extracción de membrana + fotocoagulación + gas/aceite Honorarios y Gastos. Materiales descartables y específicos a l procedimiento, gas. Honorarios y Gastos. 020103 OSIN APERTURADE PAREDDE ORBITA. _ . KtPAKALAUNPLASTICADE LA_ ORBITACONO SININJERTODEPIEL Honorarios y Gastos. 02\nEXCLUYE: Anestesia. Todo otro procedimiento adicional. Material Descartable inherentes al procedimiento, L10+ suturas+sustancia. __ EXTRACCION DE CUERPO EXTRANO CONJUNTIVAL. aceite y suturas. INI KOLLUESUBSTANCIAS TERAPEUTIC. SUBCONJUNTIV.YEN 2\nREQUISITOS: retinopatía DBT proliferativa severa con o sin desprendimiento de retina VITRECTOMÍA COMPLEJA severo, con o sin hemovítreo, con o sin desgarro, glaucoma hemolítico y o neovasc. iris + hemovítreo, colocación de válvulas)",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "02.90.05",
       "description": "FOTOCOAGULACIÓN CON RAYO LASER ARGON",
-      "normativa": "EXCLUYE: CEREBRAL) COLOCACIÓN DE ENDOPRÓTESIS $316.452 u, O .I-- r-: ,c1- ANGIOPLASTIACAROTIDEA c/1 0> PRIMITIVAS 0 $635.711 5 5 5 5 5 DE ARTERIAS ILIACAS in IARTERIOGRAFIA PERIFÉRICA DE MIEMBRO INFERIORBILATERAL DESDE NACIMIENTO .4. $1.341.008 niu, $1.220.098 $7.930.000 $404.752 $200.816 r-: CORONARIA 0)) N .-03 ANGIOPLASTIA ARTERIAL PERIFERICA (NO CORONARIA-CAROTIDEA) E0 SELECTIVA in in $7.215.000 N 0 CARDIOVASCULAR CIRUGÍA a, O",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Elemento a cargo de lapos. Anestesia. Pensión.\nREQUISITOS: Controles de Seguimiento de patologías oncohematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "20"
     },
     {
       "code": "02.02.01",
       "description": "RECONSTRUCCION TOTAL DEL PARPADO. TECNICA DE HUGJES O SIMILAR",
-      "normativa": "INCLUYE: Honorarios y Gastos. CORRECCION DEPTOSIS- UNILATERAL BLEFARORRAFIAPARCIAL OTOTAL. Honorarios y Gastos. BLEFAROCHALASIS. Honorarios y Gastos. ESCISION DEPARPADO, BLEFARECTOMIA-PIELDEPARPADO. GLANDULAMEIBOMIANA,CHALAZIO, SUTURA DEPIEL DEPARPADO- Honorarios y Gastos. BLEFAROTOMIA-ABSCESO-ORZUELO DACRIOCISTORRINOST.FISTULIZAC. SACO LAGRIMAL EN Honorarios y Gastos. Honorarios y Gastos. Honorarios_ y Gastos. 1 Honorarios y Gastos. N .=o 0 o c.; o U) 4 O C O 2 o O o o co < o _ O o,- a— I•• 1... e,.. e■ CO 01 o qqqq 8888 CURVA TENSIONAL Honorarios y Gastos. RETINOGRAFIA oz RETINOFLUORESCENCIA Honorarios y Gastos. 1 Honorarios y Gastos. 1 UNILATERAL. Honorarios y Gastos TOPOGRAFÍACORNEAL Honorarios y Gastos. 1 Honorarios y Gastos. ANGIOGRAFIA DIGITAL C/ INDOCIANINABILATERAL Honorarios y Gastos. BIOMETRIAOCULAR Honorarios y Gastos. TOMOGRAFIA E OCULAR DECOHERENCIA Honorarios y Gastos. H.R.T. TOMOGRAFIA CONFOCALLASER UNI O BILATERAL Honorarios y Gastos. 8 0 o .c 3 u, .= 1 ›, u, o ,c C O 2 1 O O 0 C■i 8 0 9 Lo w) o 8 g re) dg Ni Q Q Ci CO'— 2 2, 1 Y_ a u, N o yr U) •- > g • '2 .5 E Q . .15 '15 To• ro c CO (\i Co oto),C rziN C C o .ca 11. tn. 3 E a .8 175 F3 \"rx`; O e O 'El\" ▪CO • .7. < 8 al co >",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "02.02.02",
       "description": "BLEFAROPLASTIA-INJERTO,CANTOPLASTIA,TRASOPLASTIA,RESTAURACION",
-      "normativa": "INCLUYE: Honorarios Honorarios y Gastos. Arpón Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. Pensión en habitación compartida, Honorarios Médicos, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. 1/3 punta de Shaver (incluido en valorización del módulo) Pensión en habitación compartida, Honorarios Médicos, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. 1/3 punta de Shaver (incluido en valorización del módulo) Pensión en habitación compartida, Honorarios Médicos, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. 1/\nEXCLUYE: Anestesia Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia. o34 2 3 MAY 2023 - -r), \ .R\" ,s LP \"N, it'.\ •., o 1 ,,.'\"T'..,,„ r--• a \ 1 ci 5 Ni N , ci O Ni N , 0 Ni .-- ci N Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Materiales protésicos. Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "02.02.03",
       "description": "BLEFARORRAFIA PARCIAL O TOTAL.",
-      "normativa": "INCLUYE: FACTORESII — VII — IX — YX) DOSAJE DÍMERO-D DLCO (PRUEBA DE DIFUSIÓNPULMONARDE MONÓXIDODECARBONO) DILATACIÓN ESOFÁGICA ENDOSCOPICA Honorarios y Gastos de la detección. Criterios de autorización: carcinoma ma mario, melanoma cutáneo, carcinoma de vulva. : Honorarios. Uso de aparato Gamma Probe (ALQUIL ER=50%del valor del módulo). Pensión, Uso de endoscopio e instrumental inherente a la r práctica, Honorarios médicos (corresponde a l 40% del total del modulo), Medicamentos y Materiales descartables.\nEXCLUYE: : Pensión. Material radiactivo a cargo de cartera prestacional. centellograma I nfático. Anestesia. Honorarios a nestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: DESCENSO MASIVODEPESO (post bariatrica o no) +COLGAJOSCUTÁNEOSQUEREQUIERANCORRECCIÓN PORPATOLOGÍA FUNCIONAL, EN CUALQ UIERÁREADEL CUERPO (ABDOMEN, BRAZOSOMUSLOS). El plan quirúrgico establecido debe estar debidamente justificado por el profesional tratante, desde el inicio del tratamiento ( para la autorización de cada solicitud). RESUMEN DE HISTORIACLÍNICA ORIENTADAA LA PRESTACIÓNCON DESC RIPCIÓNDE COLGAJOSYTRANSTORNO FUNCIONAL QUEJUSTIFIQUELA PRÁCTICA. FOTOGRAFÍAS DELÁREA AFECTADA TOMADASPOR ELPROFESIONAL. Corresponde: Honorarios 70% y Gastos 30%del va lor de la práctica. DERMATOSCOPÍADIGITAL CONMAPEOCORPORALTOTAL Definir inicio de tratamiento de la Fibrosis Pulmonar Idiopática y su seguimiento anual. Evaluación pretrasplante pulmonar. Elección de tratamiento en pacientes EPOC de a lto riesgo (VEF1 <50%, 2 o más exacerbaciones por a ño o a l menos 1 internación por año). Elección fa rmacológica en Enfermedades intersticiales Pulmonares (en las que las a lteraciones en la DLCO son anteriores a la clínica y a la espirometría). Solo en: esclerodermia, enferm",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Anatomía Patológica.\nEXCLUYE: Anestesia, Medicación lnmunodepresora.",
       "coseguro": "20"
     },
     {
       "code": "02.02.04",
       "description": "BLEFAROCHALASIS.",
-      "normativa": "INCLUYE: Honorarios y Gastos. Todos los materiales descartables y específicos al procedimiento. Honorarios y Gastos. Medicamentos Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Desca rtables Indicación: Queratocono rápidamente evolutivo en pacientes menores de 40 años CO CM ..,— ,-O O 0 Lc-j O CO(') O TRATAMIENTO QUIRURGICO CORRECTIVO DELESTRABISMO UNI O BILATERAL 020109 ECOGRAFÍA OFTALMOLÓGICAUNIO BILATERAL 3001 07EJERCICIOS ORTOPTICOS, POR SESION. 30 01 20 ESTUDIODE FIJACIONEN EL ESTRABISMO -CON VISUSCOP10- COREOPLASTIA. IRIDECTOMIA. Ob 1 Honorarios y Gastos. honorarios, derechos quirúrgicos, medicamentos y descartables. Honorarios y Gastos. honorarios, derechos quirúrgicos, medicameribl y descartables. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. BLEFAROCHALASIS. Honorarios y Gastos. ESCISION DE PARPADO, BLEFARECTOMIA-PIEL DE PARPADO. GLANDULA MEIBOMIANA,CHALAZIO, SUTURADE PIEL DE PARPADO- BLEFAROTOMIA-ABSCESO- Honorarios y Gastos. ORZUELO DACRIOCISTORRINOST.FISTULIZAC. SACO LAGRIMAL EN CAV.NASAL .OPERACION Honorarios y Gastos. Excluye. : Set de intubación a cargo de PLASTICAEN CANALICULOS. IAPOS DRENAJE DEGLANDULAOSACO LAG RIMAL-ABS.SECC.PAPILA LAGRIMAL PILA LAGRIMAL Honor\nEXCLUYE: Anestesia y sa la de recuperación. Anestesia y sa la de recuperación. Sras Vicryl y Seda (A cargo de IAPOS)\nREQUISITOS: retinopatía DBT proliferativa severa con o sin desprendimiento de retina severo, con o sin hemov ítreo, con o sin desgarro, glaucoma hemolítico y o neovasc. iris + hemovítreo, colocación de válvulas)",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "02.08.01",
       "description": "DACRIOCISTORRINOST.FISTULIZAC. SACO LAGRIMAL EN CAV.NASAL .OPERACION",
-      "normativa": "Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. CORRECCION DEPTOSIS- UNILATERAL BLEFARORRAFIAPARCIAL OTOTAL. Incluye: Honorarios y Gastos. BLEFAROCHALASIS. Incluye: Honorarios y Gastos. ESCISION DEPARPADO, BLEFARECTOMIA-PIELDEPARPADO. GLANDULAMEIBOMIANA,CHALAZIO, SUTURA DEPIEL DEPARPADO- Incluye: Honorarios y Gastos. BLEFAROTOMIA-ABSCESO-ORZUELO DACRIOCISTORRINOST.FISTULIZAC. SACO LAGRIMAL EN Incluye: Honorarios y Gastos. 02.08.01CAV.NASAL .OPERACION PLASTICAENCANALICULOS. DRENAJE DE GLANDULA O SACOLAGRIMAL-ABS.SECC.PAPILA",
       "coseguro": "BQ"
     },
     {
       "code": "02.08.03",
       "description": "DRENAJE DE GLANDULA O SACO LAGRIMAL-ABS.SECC.PAPILA LAGRIMAL PILA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios_ y Gastos. 1 Honorarios y Gastos. N .=o 0 o c.; o U) 4 O C O 2 o O o o co < o _ O o,- a— I•• 1... e,.. e■ CO 01 o qqqq 8888 CURVA TENSIONAL Honorarios y Gastos. RETINOGRAFIA oz RETINOFLUORESCENCIA Honorarios y Gastos. 1 Honorarios y Gastos. 1 UNILATERAL. Honorarios y Gastos TOPOGRAFÍACORNEAL Honorarios y Gastos. 1 Honorarios y Gastos. ANGIOGRAFIA DIGITAL C/ INDOCIANINABILATERAL Honorarios y Gastos. BIOMETRIAOCULAR Honorarios y Gastos. TOMOGRAFIA E OCULAR DECOHERENCIA Honorarios y Gastos. H.R.T. TOMOGRAFIA CONFOCALLASER UNI O BILATERAL Honorarios y Gastos. 8 0 o .c 3 u, .= 1 ›, u, o ,c C O 2 1 O O 0 C■i 8 0 9 Lo w) o 8 g re) dg Ni Q Q Ci CO'— 2 2, 1 Y_ a u, N o yr U) •- > g • '2 .5 E Q . .15 '15 To• ro c CO (\i Co oto),C rziN C C o .ca 11. tn. 3 E a .8 175 F3 \"rx`; O e O 'El\" ▪CO • .7. < 8 al co > 6 g> . CO 2 w t 'ct O .77., a) •o c ..0. \" 10 ••••Oe. \"C3 O o I— • o .<7, so 1:› o o o o ro .0 •a cDoxW c5 r.> 3 C 2 :5 '2 a 2 2 E :52 iii 139 8 -92 69 C ..... 2 . 1 (u A A Fi 11. t 8O.13. c o? co o <o o 1 Ir 3 E = cl AS É Z II\"a) 1 li e so 9 O o a 1 113É 10 Ozet : 7 (1) 1 1 •a) ,co ...., 5 0 ,_ Q co co c 11: 6\" dt \"0/5 8> 1- 1 E 1 1 1 u) 15 rt 11 o 552„ {.u, 2 :‘, I § le 5 2 al 511 112 .0 c .c <2 1 q.,5;-:¿,i ,.,. i 44:9 nu,««1/4-, 1 1 I 1 1 (S 1z22221 .1 o'2 ra le 2 o 03 ,C E I .a 12",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. BLEFAROCHALASIS. Incluye: Honorarios y Gastos. ESCISION DEPARPADO, BLEFARECTOMIA-PIELDEPARPADO. GLANDULAMEIBOMIANA,CHALAZIO, SUTURA DEPIEL DEPARPADO- Incluye: Honorarios y Gastos. BLEFAROTOMIA-ABSCESO-ORZUELO DACRIOCISTORRINOST.FISTULIZAC. SACO LAGRIMAL EN Incluye: Honorarios y Gastos. 02.08.01CAV.NASAL .OPERACION PLASTICAENCANALICULOS. DRENAJE DE GLANDULA O SACOLAGRIMAL-ABS.SECC.PAPILA",
       "coseguro": "17"
     },
     {
       "code": "02.08.04",
       "description": "CATETERIZ. DE CONDUCTO LAGRIMO NASAL EN QUIR.CON ANEST.GRAL.",
-      "normativa": "INCLUYE: EVENTUAL TOMA DEVENAPARA PLASTICA O INJERTO. EMBOLECTOMIA EN ARTERIASPERIFÉRICAS $82.283 oz.z.. O O 5 2 2 FEB 2 023 N cm O O a> cr> r--: r--: O O DERIVACION (BY PASS) DE VASOSPERIFERICOSCON INJERTO VENOSO. TOMA DEL INJERTO. DERIVACION (BY PASS) DEVASOS PERIFERICOS CON INJERTO SINTETICO FEMOROFEMORAL , FEMORO POPLITEO, AXILO HUMERAL, AXILO BIFEMORAL. IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO UNI-CAMERAL ENDOCAVITARIO (MARCAPASOS-CDI) IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO BI-CAMERAL 1",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. BLEFAROCHALASIS. Incluye: Honorarios y Gastos. ESCISION DEPARPADO, BLEFARECTOMIA-PIELDEPARPADO. GLANDULAMEIBOMIANA,CHALAZIO, SUTURA DEPIEL DEPARPADO- Incluye: Honorarios y Gastos. BLEFAROTOMIA-ABSCESO-ORZUELO DACRIOCISTORRINOST.FISTULIZAC. SACO LAGRIMAL EN Incluye: Honorarios y Gastos. 02.08.01CAV.NASAL .OPERACION PLASTICAENCANALICULOS. DRENAJE DE GLANDULA O SACOLAGRIMAL-ABS.SECC.PAPILA",
       "coseguro": "20"
     },
     {
       "code": "30.01.18",
       "description": "DILATACION DE CONDUCTO LACRIMO NASAL CON INTUBACION.",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables. | Excluye: Anestesia y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios. Uso de aparato Gamma Probe (ALQUILER=$1800).\nEXCLUYE: Pensión. Material radiactivo, centellograma linfático. Anestesia.\nREQUISITOS: para el mismo Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por año para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de 3 años Si la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior Se recomienda realizar DMO (S/la US Preventive Services Task Force(USPSTF) en: Mujeres mayores de 65 años en forma rutinaria. Mujeres, a partir de los 60 años, con riesgo incrementado para fracturas osteoporóticas. Se recomienda realizar DMO (S/la National Osteoporosis Foundation (NOF) en: Toda mujer < 65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años.",
       "coseguro": "5"
     },
     {
       "code": "30.01.21",
       "description": "CATETERIZACION DE CONDUCTO LACRIMONASAL-",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables. | Excluye: Anestesia y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. BLEFAROTOMIA-ABSCESO-ORZUELO DACRIOCISTORRINOST.FISTULIZAC. SACO LAGRIMAL EN Incluye: Honorarios y Gastos. 02.08.01CAV.NASAL .OPERACION PLASTICAENCANALICULOS. DRENAJE DE GLANDULA O SACOLAGRIMAL-ABS.SECC.PAPILA",
       "coseguro": "2"
     },
     {
       "code": "02.05.01",
       "description": "TRATAMIENTO QUIRURGICO DEL GLAUCOMA.",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables. | Excluye: Anestesia y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorar ios y Gastos. Incluye: Honorar ios y Gastos.\nEXCLUYE: Anestesia y",
       "coseguro": "BQ"
     },
     {
       "code": "02.05.02",
       "description": "COREOPLASTIA.IRIDECTOMIA.",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables. | Excluye: Anestesia y sala de recuperación.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. ESTRICTUROTOMIA. 102.08.04 CATETERIZ. DECONDUCTO LAGRIMO NASAL EN QUIR.CON ANE Incluye: Honorarios y Gastos. 30.01.18DILATACION DE CONDUCTO LACRIMO NASAL CON INTUBACION!Incluye: Honorarios y Gastos. CATETERIZACION DE CONDUCTO LACRIMONASALIncluye: Honorarios y Gastos. Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables.\nEXCLUYE: TRATAMIENTO QUIRÚRGICO DEL GLAUCOMA Anestesia y sala de recuperación. 102.05.02COREOPLASTIA.IRIDECTOMIA.",
       "coseguro": "BQ"
     },
     {
       "code": "02.01.09",
       "description": "TRATAMIENTO QUIRURGICO CORRECTOR DEL ESTRABISMO-MIOTOTOMIAS",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables. | Excluye: Anestesia y sala de recuperación. Suturas Vicryl y Seda (A cargo de IAPOS)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. CATETERIZACION DE CONDUCTO LACRIMONASALIncluye: Honorarios y Gastos. Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables.\nEXCLUYE: TRATAMIENTO QUIRÚRGICO DEL GLAUCOMA Anestesia y sala de recuperación. 102.05.02COREOPLASTIA.IRIDECTOMIA.",
       "coseguro": "BQ"
     },
     {
       "code": "30.01.07",
       "description": "EJERCICIOS ORTOPTICOS, POR SESION.",
-      "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables. | Excluye: Anestesia y sala de recuperación. Suturas Vicryl y Seda (A cargo de IAPOS)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. CATETERIZACION DE CONDUCTO LACRIMONASALIncluye: Honorarios y Gastos. Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables.\nEXCLUYE: TRATAMIENTO QUIRÚRGICO DEL GLAUCOMA Anestesia y sala de recuperación. 102.05.02COREOPLASTIA.IRIDECTOMIA.",
       "coseguro": "2"
     },
     {
       "code": "30.01.20",
       "description": "ESTUDIO DE FIJACION EN EL ESTRABISMO -CON VISUSCOPIO-",
-      "normativa": "INCLUYE: Honorarios y Gastos. 1 Honorarios y Gastos. ECOGRAFIAOFTALMOLOGICA UNI OBILATERAL Honorarios y Gastos. 1 Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. 4 CURVA TENSIONAL Honorarios y Gastos. RETINOGRAFIA Honorarios y Gastos. RETINOFLUORESCENCIA Honorarios y Gastos. 13001 13 1 Honorarios y Gastos. Por procedimiento y se pueden realizar hasta 3 por paciente • U) ro -c) o' • •: C (13 o OW c C:r ro a.) ro \"C3 U) U) (U o • U) u) o CL • O a) (o O a) a) • C O O(1) 4- Z U) /3 2 u) o c 0- ro 5 O O u) U) E 5 ce ro <3 E t ro a) 2 o a) -o , .0_ 0 ro o o o as >, O 2 E 1.12 o 92 c73 C •(I) c .0 E a.) ro c CO ro -o E \"(7) o- a) E E O a) (U U) a) 0 «S (/) ZE CO (U 1Z3 U) • X CO a) O- 2 C _o 77. O as • : t ro O 5 irr <O (13 • (i) a) 12> .0 ro 51 -o ce (x) .2 O Q O o o O a) ro O E E o O O a) C O 2. \"-5 ó 0 c ro O) U) -o -0 U) • ro O O O (U -o (U :o a) a) E O O as .o (U O a) O O) o O) O) (U O C O a) er) O a) E U) O) o 3 (U O -o O t (u O a) ro E ro \"0 -6 (U o O 9 O) C O -o 13 ro >, Cr> <1:1 ▪ o E CO 5 C .1) = 0 I.> o cs) O 111 o o o Q N (.) O 111 u_ F2. oO H In < 2 2z 00 o o O < C1. LL o 0 0 < O 0 O o 2 2 O o O O O C‘) M CD O O C) O cs; O L.C> Lo",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos y descartables.\nEXCLUYE: TRATAMIENTO QUIRÚRGICO DEL GLAUCOMA Anestesia y sala de recuperación. 102.05.02COREOPLASTIA.IRIDECTOMIA.",
       "coseguro": "3"
     },
     {
       "code": "18.01.09",
       "description": "ECOGRAFÍA OFTALMOLÓGICA UNI O BILATERAL",
-      "normativa": "INCLUYE: Honorarios y Gastos. O FOTOCOAGULACIONCON RAYO LASER Honorarios y Gastos. c.; 1 Honorarios y Gastos. RECONSTRUCCIONTOTALDELPARPADO. TECNICA DE HUGJES O Honorarios y Gastos. Honorarios y Gastos. CORRECCION DEPTOSIS- UNILATERAL BLEFARORRAFIAPARCIAL OTOTAL. Honorarios y Gastos. BLEFAROCHALASIS. Honorarios y Gastos. ESCISION DEPARPADO, BLEFARECTOMIA-PIELDEPARPADO. GLANDULAMEIBOMIANA,CHALAZIO, SUTURA DEPIEL DEPARPADO- Honorarios y Gastos. BLEFAROTOMIA-ABSCESO-ORZUELO DACRIOCISTORRINOST.FISTULIZAC. SACO LAGRIMAL EN Honorarios y Gastos. Honorarios y Gastos. Honorarios_ y Gastos. 1 Honorarios y Gastos. N .=o 0 o c.; o U) 4 O C O 2 o O o o co < o _ O o,- a— I•• 1... e,.. e■ CO 01 o qqqq 8888 CURVA TENSIONAL Honorarios y Gastos. RETINOGRAFIA oz RETINOFLUORESCENCIA Honorarios y Gastos. 1 Honorarios y Gastos. 1 UNILATERAL. Honorarios y Gastos TOPOGRAFÍACORNEAL Honorarios y Gastos. 1 Honorarios y Gastos. ANGIOGRAFIA DIGITAL C/ INDOCIANINABILATERAL Honorarios y Gastos. BIOMETRIAOCULAR Honorarios y Gastos. TOMOGRAFIA E OCULAR DECOHERENCIA Honorarios y",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos y descartables.\nEXCLUYE: Anestesia y sala de recuperación.",
       "coseguro": "9"
     },
     {
       "code": "30.01.04",
       "description": "FONDO DE OJO Y/O ESQUIASCOPIA CON DILATACION PUPILAR.-",
-      "normativa": "INCLUYE: Honorarios y Gastos. honorarios, derechos quirúrgicos, medicamentos y descartables. Honorarios y Gastos. honorarios, derechos quirúrgicos, medicameribl y descartables. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. BLEFAROCHALASIS. Honorarios y Gastos. ESCISION DE PARPADO, BLEFARECTOMIA-PIEL DE PARPADO. GLANDULA MEIBOMIANA,CHALAZIO, SUTURADE PIEL DE PARPADO- BLEFAROTOMIA-ABSCESO- Honorarios y Gastos. ORZUELO DACRIOCISTORRINOST.FISTULIZAC. SACO LAGRIMAL EN CAV.NASAL .OPERACION Honorarios y Gastos. Excluye. : Set de intubación a cargo de PLASTICAEN CANALICULOS. IAPOS DRENAJE DEGLANDULAOSACO LAG RIMAL-ABS.SECC.PAPILA LAGRIMAL PILA LAGRIMAL Honorarios y Gastos. ESTRICTUROTOMIA. CATETERIZ. DECONDUCTO LAGRIMONASAL EN QUIR.CONANEST.GRAL. Incluye. Honorarios y Gastos. DILATACION DE CONDUCTOLACRIMO NASAL CON INTU BACION. Honorarios y Gastos. Honorarios y Gastos FOTOCOAGULACIONCON YAG LASER Honorarios y Gastos. ANGIOGRAFÍADIGITALC/ FLUORESCEÍNA UNILATERAL Incluye. Honorarios y Gastos. F ANGIOGRAFÍADIGITAL C/ FLUORESCEÍNA BILATERAL Honorarios y Gastos. FOTOCOAGULACION CON RAYOLASER Honorarios y Gastos, FOTOCOAGULACIÓNCON RAYO LASER ARGON Honorarios y Gastos. RECONSTRUCCION TOTAL DEL PARPADO. TECNICA DE HUGJES O SIMILAR 1 Honorarios y Gastos. BLEFAROPLASTIA-INJERTO,CANTOPL ASTIA,TRASOPLAST1A,RESTAURACION PLASTICA DE1 Honorarios y Gastos. BASE CILIAR, CORRECCION DEPTOSIS- UNILATERAL BLEFARORRAFIA PARCIAL O TOTAL . Honorarios y Gastos. RETINOPEXIA Y ESCLERECTOMIA . RETINOPEXIA (DIATERMIA, CRIO, ETC.) INYECCIÓN INTRAVITREA DESUSTANCIASANTIANGIOGÉNICAS 1\nEXCLUYE: Anestesia y sa la de recuperación. Anestesia y sa la de recuperación. Sras Vicryl y Seda (A cargo de IAPOS)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorar ios y Gastos. _ I KIACOM PUTAR IZADA Incluye: UNILATERAL. Honorarios y Gastos TOPOGRAFÍA CORNEAL Incluye: Honorar ios y Ga stos. --ANGiOGRAFÍA DIGITALC/INDOCIANINA UNILATERAL. Incluye: Honorarios y Gastos. ANGIOGRAFÍADIGITAL C/ INDOCIANINA BILATERALIncluye: Ho norarios y Gastos. BIOMETRÍA OCULAR Incluye: Honorarios y Gastos. TOMOGRAFÍAOCULAR DECOHERENCIA Incluye: Honorar ios y Gastos. H.R.T. TOMOGRA FÍA CON/FOCAL LASER U NI O BILATERAL Incluye: Honorar ios y Gastos.",
       "coseguro": "2"
     },
     {
       "code": "30.01.05",
       "description": "TONOMETRIA.",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. GASTROTOMÍA POR RADIOSCOPIA / FI BROSCOPIA Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y EXTRACCIÓNCUERPO EXTRAÑOESOFÁGICO Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. Uso de video. n34 / [J23 (3) O ci «S Punción aspirado de Médula Osea (esternal o Cresta Ilíaca Unilateral) Biopsia de Médula Osea Unilateral - Medulograma - Hemosiderina Medular Sideroblastos (% y clasificación) - Búsque de células neoplásicas - Descartables.\nEXCLUYE: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. FLUJOMETRÍA URINARIA Material Radiactivo según valor CEDIM Interior Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. EXUDADOFARÍNGEO METODO RÁPIDO\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos Diagnóstico y seguimiento de Leucemias agudas",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos TONOMETRIA. Incluye: Honorarios y Gastos. TOPOGRAF ÍA CORNEAL Incluye: Honorarios y Gastos. ¡TRATAMIENTO CON ACELERADOR LINEALXSESION\nEXCLUYE: Alimentación Parenteral v Coláaeno Dérmico Porc ino (a",
       "coseguro": "2"
     },
     {
       "code": "30.01.08",
       "description": "GONIOSCOPIA",
-      "normativa": "EXCLUYE: CEREBRAL) NNi N. COLOCACIÓN DE ENDOPRÓTESIS DE AORTA NACIMIENTO DE ARTERIAS ILÍACAS PRIMITIVAS ANGIOPLASTIA CAROTÍDEA () .--I 1",
-      "price_hidden": "",
+      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos y descartables.\nEXCLUYE: Anestesia y sala de recuperación.",
       "coseguro": "2"
     },
     {
       "code": "30.01.09",
       "description": "CURVA TENSIONAL",
-      "normativa": "INCLUYE: Pensl6n en UCC, pensl6n en habitacl6n compartida, Honorarios del equlpo el usa de m6todos/tecnologras adiclonales de evaluacl6n dlBgii6stlca hemodlnamlca anat6mlco-funclonal (lvus-REF-otros) y/a tecnologias/m6todos adiclonales de tratamlento tecnologlas para modlficacl6n de placas\nEXCLUYE: ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (Ias Dlferldas, no asl las lntraoperatorlas, que lncluyan co ngelaci6n) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATEftlAL IRREABSORBIBLE, MC)NOFllAMENTO, DE NYLON, PARA LA SfNTESIS DE LA PIEL EN LOS SITI0S DE INGRESO DE LOSTR6CARES A VAIORES CONVENIDOS y 3 tTRES) UGACLIPS HONORAR10S ANESTESIA. Suturas mecanlcas de acuerdo a patologla segdn normativas lAPOS. Observaclones: En clrugias de urgencla las practlcas no lncluidas en el m6dulo se facturan fuera de m6dulo par prestacl6n. Stei`t. Anestesla. Flltro de proteccl6n cerebral mcluye: Penslbn en UCC, pensl6n e^ habltacl6n compartlda, Honoi.arios M6dlcos, hemodlnamla, radfologla. Medlcamentos y Material descartable lnhei.entes al procedimlento.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Anestesia y sala de recuperación.",
       "coseguro": "3"
     },
     {
       "code": "30.01.11",
       "description": "RETINOGRAFIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Uso de video. Honorarios y Gastos. ASA. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. . Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico ), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos.\nEXCLUYE: Pensión en habitación PENSION: HASTA 1(UNO) DIA. ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL VI DEOLAPAROSCOPIA GINECOLOGICA DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, DIAGNOSTICA MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y TRES (3) LIGACLIPSSISE JUSTIFICA SU UTILIZACION. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación. PENSION: HASTA 3 (TRES) DIAS. ANATOMIA PATOLOGICA DE LA/S PIEZA/S Q UIRURGICA/S (las Diferidas, no asílas intraoperatorias, que incluyan VIDEOLAPAROSCOPIA GINECOLOGICA VIDEOLAPAROSCOPIA GINECOLOGICA TERAPEUTICACOMPLEJA TERAPEUTICACOMPLEJA congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOSSITIOS DEINGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. O\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza Tumor de ovario. Miomatosis uterina. Histerectomia o Anexo Histerectomia",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Anestesia y sala de recuperación.",
       "coseguro": "5"
     },
     {
       "code": "30.01.13",
       "description": "RETINOFLUORESCEINOGRAFIA- UNI- LATERAL-",
-      "normativa": "EXCLUYE: Anestesla. Todas las compllcaciones y/a procedlmlento adlclonal, Materiales proteslcos. Honorarlos M6dlcos por cartera prestaclonal lncluye: Pensl6n eri habltacl6n compartlda, Gastos operatorlos, usos de fresas, Usa del Videoartroscoplo, Mecllcamentos y Materlal descartable lnherente al procedlmlento. Anestesla. Todas las compllcaclones y/o procedlmlento adlcional, Materla les proteslcos. Honoi.a rlos M6dlcos por car[era prestaclonal Materlal Radlactivo (valor CEDIM lnterlor) a cargo de la cartera prestaclonal BIOPSIA DE VELLOSIDADES C !±E!±!i!!: Honoranos y Gastos BIOPSIA ENDOMI OCARDICA !aife: Horioi.arias m6dlcos de todo el equlpo lnterviniente, Hemodinamia, Gastos, Anatomia Patol6gica, Medicamentos y D8scratables lnherentes al (BEM) POR CATETERISMO CARDIACO procedimtonto. gz!g!!!ifa: Pension (por cartera prestacional). Anestesia (generalmente local) y 816tomo (provisto por lAPOS). Complicactones del procedimiento (facturaci6n par cartera prestacional). !agbe Penst6n en habitaa6n compartida. Honorarios Medicos de todo el",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "7"
     },
     {
       "code": "30.01.19",
       "description": "OFTALMOSCOPIA INDIRECTA BINOCULAR CON ESQUEMA DE FONDO DE OJO.",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: UNILATERAL. Honorarios y Gastos Incluye: Honorarios y Gastos. ANGIOGRAFÍA DIGITAL C/ INDOCIANINA UNILATERAL. Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. ECOGRAFIAOFTALMOLOGICA UNI OBILATERAL Incluye: Honorarios y Gastos. 130.01.04 FONDO DE OJOY/0 ESQUIASCOPIACONDILATACION PUPILAR. Incluye: Honorarios y Gastos. 1 30.01.05TONOMETRIA. Incluye: Honorarios y Gastos. Incluye: Honorarios y Gastos. 4 CURVA TENSIONALIncluye: Honorarios y Gastos. RETINOGRAFIAIncluye: Honorarios y Gastos. RETINOFLUORESCENCIA Incluye: Honorarios y Gastos. 13001 13 130.01.19 10FTALMOSCOPIAINDIRECTA BINOCULAR CON ESQUEMA DEFlíncluye: Honorarios y Gastos.",
       "coseguro": "2"
     },
     {
       "code": "30.02.01",
       "description": "CAMPIMETRÍA COMPUTARIZADA",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: UNILATERAL. Honorarios y Gastos Incluye: Honorarios y Gastos. ANGIOGRAFÍA DIGITAL C/ INDOCIANINA UNILATERAL. Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos.\nEXCLUYE: Anestesia, Medicación Inmunodeoresora.",
       "coseguro": "14"
     },
     {
       "code": "30.02.02",
       "description": "PAQUIMETRÍA COMPUTARIZADA",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: UNILATERAL. Honorarios y Gastos Incluye: Honorarios y Gastos. ANGIOGRAFÍA DIGITAL C/ INDOCIANINA UNILATERAL. Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios_ y Gastos. 130.01.21CATETERIZACION DE CONDUCTO LACRIMONASALIncluye: Honorarios y Gastos. N .=o",
       "coseguro": "7"
     },
     {
       "code": "30.02.04",
       "description": "TOPOGRAFÍA CORNEAL",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: UNILATERAL. Honorarios y Gastos Incluye: Honorarios y Gastos. ANGIOGRAFÍA DIGITAL C/ INDOCIANINA UNILATERAL. Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: de acuerdo a DG IAPOS viaente [35.03.01TRATAMIENTO CON ACELERADOR LINEALXSESION\nREQUISITOS: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "10"
     },
     {
       "code": "30.02.05",
       "description": "ANGIOGRAFÍA DIGITAL C/ INDOCIANINA UNILATERAL.",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: UNILATERAL. Honorarios y Gastos Incluye: Honorarios y Gastos. ANGIOGRAFÍA DIGITAL C/ INDOCIANINA UNILATERAL. Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de $ 5.005.100 para la suma de subcartera de anestesia, de $ 111.535.100 (Pesos ciento once millones quinientos treinta y cinco mil cien) con vigencia 1° de noviembre/22, el que incluye la suma de $ 5.261.300 para la subcartera de anestesia y de $ 114.998.900 (Pesos ciento catorce millones novecientos noventa y ocho mil novecientos) con vigencia 1° de diciembre/22, el que incluye la suma de $ 5.491.400 para la subcartera de anestesia. TERCERA: Incorporación de prestaciones: Las partes acuerdan que a partir del 1° de noviembre/22 se incorporan al convenio vigente las prestaciones de oftalmología, las que seran brindadas por profesionales que integran su padron de prestadores. Lo que es aceptado por las partes por ser su voluntad.CUARTA: Facturación prestaciones de anestesia: Las partes acuerdan por el presente intrumento que el excedente de la subcartera de anestesia deberá ser facturado por fuera de c.art0--.4.--do conforme previa auditoría y procedimiento administrativo acordado por las",
       "coseguro": "20"
     },
     {
       "code": "30.02.06",
       "description": "ANGIOGRAFÍA DIGITAL C/ INDOCIANINA BILATERAL",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: UNILATERAL. Honorarios y Gastos Incluye: Honorarios y Gastos. ANGIOGRAFÍA DIGITAL C/ INDOCIANINA UNILATERAL. Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de $ 219.700 (Pesos doscientos diecinueve mil setecientos) de sellado provincial y $ 140.000 (Pesos ciento cuarenta mil) para gastos administrativos; correspondiendo a ARPAC - Firmat la suma de $ 12.050.100 (Pesos doce millones cincuenta mil cien), b) Centro de Trabajo: Médico de Rufino: del total de la Cartera Fija la asignación a esta entidad será por la suma mensual de $ 13.495.700 (Pesos trece millones cuatrocientos noventa y cinco mil setecientos) y c) SAMCo. Venado Tuerto: del total de la Cartera Fija la asignación a esta entidad será por la suma mensual de $ 642.400 (Pesos seiscientos cuarenta y dos mil cuatrocientos), de $ 58.901.800 (Pesos cincuenta y ocho millones novecientos un mil ochocientos) con vigencia 1° de noviembre/22 con la siguiente distribución: a) Círculo Médico Venado Tuerto y Asociación Regional de Profesionales del Arte de Curar de ARPAC — Firmat: del total de la Cartera Fija la asignación a estas entidades será por la suma mensual de $ 44.509.500 (Pesos cuarenta y cuatro millones quinientos nueve mil quinientos), este monto",
       "coseguro": "20"
     },
     {
       "code": "30.50.01",
       "description": "BIOMETRÍA OCULAR",
-      "normativa": "Incluye: Honorarios y Gastos. Incluye: UNILATERAL. Honorarios y Gastos Incluye: Honorarios y Gastos. ANGIOGRAFÍA DIGITAL C/ INDOCIANINA UNILATERAL. Incluye: Honorarios y Gastos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de $ 18.570.300 para la subcartera de anestesia, de $ 356.876.900 (Pesos trescientos cincuenta y seis millones ochocientos setenta y seis mil novecientos) con vigencia 1° de noviembre/22, el que incluye la suma de $ 19.526.300 para la subcartera de anestesia y de $ 367.695.100 (Pesos trescientos sesenta y siete millones seiscientos noventa y cinco mil cien) con vigencia 1° de diciembre/22, el que incluye la suma de $ 20.372.700 para la subcartera de anestesia. Los importes precedentes incluyen la suma de $ 3.600.000 para las determinaciones de SARS-COV-2 (Covid). TERCERA: Incorporacion de prestaciones: Las partes acuerdan incluir a partir del 1° de noviembre/22 las prestaciones de oftalmología a brindar por prestadores que integran su padrón. Lo que es aceptado por las partes por ser su voluntad.CUARTA: Facturación de prestaciones COVID-19: Las partes acuerdan incorporar la presente cláusula atento a que el escenario epidemiológico y sanitario actual conlleva a un reordenamiento prestacional y de financiamiento sólo a los casos positivos con criterio de internación. Este nuevo marco prestacional se establece desde el 1° de noviembre de 2022 y por el tiempo que establezca la autoridad sanitaria nacional y/o provincial, o por LAPOS. Se aplicarán los criterios de definición de caso del Ministerio de Salud de la provincia de Santa Fe, actualizados a la fecha de la prestación. Los mismos aportarán a los criterios de financiamiento que define la Obra Social. Alta Epidemiológica en neumonías graves y/o críticas: los días se computarán desde la fecha de inicio de síntomas, por un máximo de 21 días. Podría considerarse un alta epidemiológica acortada a 14 días en el caso de buena evolución clínica y 1 PCR",
       "coseguro": "5"
     },
     {
       "code": "30.50.02",
       "description": "TOMOGRAFÍA OCULAR DE COHERENCIA",
-      "normativa": "EXCLUYE: Anestesla. Todas las compllcaclones y/o procedlmlento adlcional, Materla les proteslcos. Honoi.a rlos M6dlcos por car[era prestaclonal Materlal Radlactivo (valor CEDIM lnterlor) a cargo de la cartera prestaclonal BIOPSIA DE VELLOSIDADES C !±E!±!i!!: Honoranos y Gastos BIOPSIA ENDOMI OCARDICA !aife: Horioi.arias m6dlcos de todo el equlpo lnterviniente, Hemodinamia, Gastos, Anatomia Patol6gica, Medicamentos y D8scratables lnherentes al (BEM) POR CATETERISMO CARDIACO procedimtonto. gz!g!!!ifa: Pension (por cartera prestacional). Anestesia (generalmente local) y 816tomo (provisto por lAPOS). Complicactones del procedimiento (facturaci6n par cartera prestacional). !agbe Penst6n en habitaa6n compartida. Honorarios Medicos de todo el",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de $ 18.570.300 para la subcartera de anestesia, de $ 356.876.900 (Pesos trescientos cincuenta y seis millones ochocientos setenta y seis mil novecientos) con vigencia 1° de noviembre/22, el que incluye la suma de $ 19.526.300 para la subcartera de anestesia y de $ 367.695.100 (Pesos trescientos sesenta y siete millones seiscientos noventa y cinco mil cien) con vigencia 1° de diciembre/22, el que incluye la suma de $ 20.372.700 para la subcartera de anestesia. Los importes precedentes incluyen la suma de $ 3.600.000 para las determinaciones de SARS-COV-2 (Covid). TERCERA: Incorporacion de prestaciones: Las partes acuerdan incluir a partir del 1° de noviembre/22 las prestaciones de oftalmología a brindar por prestadores que integran su padrón. Lo que es aceptado por las partes por ser su voluntad.CUARTA: Facturación de prestaciones COVID-19: Las partes acuerdan incorporar la presente cláusula atento a que el escenario epidemiológico y sanitario actual conlleva a un reordenamiento prestacional y de financiamiento sólo a los casos positivos con criterio de internación. Este nuevo marco prestacional se establece desde el 1° de noviembre de 2022 y por el tiempo que establezca la autoridad sanitaria nacional y/o provincial, o por LAPOS. Se aplicarán los criterios de definición de caso del Ministerio de Salud de la provincia de Santa Fe, actualizados a la fecha de la prestación. Los mismos aportarán a los criterios de financiamiento que define la Obra Social. Alta Epidemiológica en",
       "coseguro": "20"
     },
     {
       "code": "30.50.03",
       "description": "H.R.T. TOMOGRAFÍA CONFOCAL LASER UNI O BILATERAL",
-      "normativa": "Incluye: Honorarios y Gastos. Por procedimiento y se pueden realizar hasta 3 por paciente",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de $ 5.005.100 para la suma de subcartera de anestesia, de $ 111.535.100 (Pesos ciento once millones quinientos treinta y cinco mil cien) con vigencia 1° de noviembre/22, el que incluye la suma de $ 5.261.300 para la subcartera de anestesia y de $ 114.998.900 (Pesos ciento catorce millones novecientos noventa y ocho mil novecientos) con vigencia 1° de diciembre/22, el que incluye la suma de $ 5.491.400 para la subcartera de anestesia. TERCERA: Incorporación de prestaciones: Las partes acuerdan que a partir del 1° de noviembre/22 se incorporan al convenio vigente las prestaciones de oftalmología, las que seran brindadas por profesionales que integran su padron de prestadores. Lo que es aceptado por las partes por ser su voluntad.CUARTA: Facturación prestaciones de anestesia: Las partes acuerdan por el presente intrumento que el excedente de la subcartera de anestesia deberá ser facturado por fuera de c.art0--.4.--do conforme previa auditoría y procedimiento administrativo acordado por las",
       "coseguro": "20"
     },
     {
       "code": "02.90.06",
       "description": "TRATAMIENTO LASER DE RETINOPATIA DEL PREMATURO",
-      "normativa": "Incluye: Honorarios y Gastos. Por procedimiento y se pueden realizar hasta 3 por paciente",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de $ 18.570.300 para la subcartera de anestesia, de $ 356.876.900 (Pesos trescientos cincuenta y seis millones ochocientos setenta y seis mil novecientos) con vigencia 1° de noviembre/22, el que incluye la suma de $ 19.526.300 para la subcartera de anestesia y de $ 367.695.100 (Pesos trescientos sesenta y siete millones seiscientos noventa y cinco mil cien) con vigencia 1° de diciembre/22, el que incluye la suma de $ 20.372.700 para la subcartera de anestesia. Los importes precedentes incluyen la suma de $ 3.600.000 para las determinaciones de SARS-COV-2 (Covid). TERCERA: Incorporacion de prestaciones: Las partes acuerdan incluir a partir del 1° de noviembre/22 las prestaciones de oftalmología a brindar por prestadores que integran su padrón. Lo que es aceptado por las partes por ser su voluntad.CUARTA: Facturación de prestaciones COVID-19: Las partes acuerdan incorporar la presente cláusula atento a que el escenario epidemiológico y sanitario actual conlleva a un reordenamiento prestacional y de financiamiento sólo a los casos positivos con criterio de internación. Este nuevo marco prestacional se establece desde el 1° de noviembre de 2022 y por el tiempo que establezca la autoridad sanitaria nacional y/o provincial, o por LAPOS. Se aplicarán los criterios de definición de caso del Ministerio de Salud de la provincia de Santa Fe, actualizados a la fecha de la prestación. Los mismos aportarán a los criterios de financiamiento que define la Obra Social. Alta Epidemiológica en neumonías graves y/o críticas: los días se computarán desde la fecha de inicio de síntomas, por un máximo de 21 días. Podría considerarse un alta e",
       "coseguro": "BQ"
     },
     {
       "code": "50.71.01",
       "description": "MÓDULO ACTUALIZACION PRE TRASPLANTE RENAL",
-      "normativa": "INCLUYE: Pensión en habitación compartida , gastos operatorios, uso de videoartroscopi o, medicament os, material descartable, set de artroscopia de cadera, puntadeShaver. Pensiónenhabitacióncompartida, Gastosoperatorios, usosde fresas, Uso del Videoartroscopi MedicamentosyMaterial o, descartableinherentealprocedimiento. PuntadeShaver(incluido envalorizacióndel módulo) Pensión en habitación compartida, Gastosoperatorios, usosde fresas, Uso del Videoartrosc opio, Medicamentosy Material descartableinherentealprocedimiento. PuntadeShaver(incluido envalorizacióndelmódulo) Pensiónen habitacióncompartida, Gastosoperatorios, usosdefresas, Uso delVideoartroscopio, MedicamentosyMaterial descartable inherentealprocedimiento. Puntade Shaver(incluido envalorización del módulo) Pensiónen habitación compartida , Gastos operatorios, usosde fresas, Uso del Videoartr oscopio, Medicam• • Material descartable inherentea\nEXCLUYE: Materiales protésicos (arpones), Complicacionesyo procedimientosadicionales. Anestesia. HonorariosMédicospor carteraprestacional l art Anestesia. Todaslascomplicacionesy/oprocedimiento adicional, Materialesprotésicos. HonorariosMédicosporcartera prestacional Anestesia. Todas lascomplicacionesy/oprocedimiento adicional, Materialesprotésicos. Honorarios Médicosporcartera prestacional Anestesia. Todaslascomplicacionesy/oprocedimiento adicional, Materialesprotésicos. Honorarios Médicosporcartera prestacional\nREQUISITOS: : Pinzamiento femoroacetabular, lesionesdelLabrum acetabular, Cuerposlibresintraarticulares, lesionaescondrales acetabularesy femorales, secuelasdeenfermedaddePerthesy epifisiolisis, enfermedad de lasinovial, condromatosissinovial, artritisséptica. Ventajas:Menostraumaquirúrgico, Menorriesgode complicacion es tanto intra como post-operatorias , Menor estadía hospitalaria, rápida recuperación con una incorporació n precoz ala rutinahabitual.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "50.71.02",
       "description": "MÓDULO PRE TRASPLANTE RENAL CADAVÉRICO",
-      "normativa": "INCLUYE: Pensión en habitación compartida, Gastos operatorios, usos Videoartroscop io, Medicamento s y Material de fresas, Uso del descartable inherente a l procedimiento. Punta de Shaver (incluido en va lorización del módulo) Pensión en habitación compartida, Gastos operatorios. usos' Videoartroscop io. Medicamentos y Material' de fresas, Uso del a l procedimiento. Punta de Shaver (incluido eni inherente desca rtable valorización del módulo) Pensión en habitación compartida, Gastos operatorios, usos Videoartroscopio, Medicamentos y Material de fresas, Uso del descartable inherente a l procedimiento. Punta de Shaver ( incluido en valorización del módulo) : Pensión en habitación compartida, Gastos operatorios, usos Videoartroscopio, Medicamento s y Material de fresas, Uso del descartable inherente a l procedimiento. Punta de Shaver (incluido en valorización del módulo) Honorarios y Gastos. Codificar REGION segun Radiactivo (valor Nomenclador Nacional. El monto Honorarios y Gastos Labrum\nEXCLUYE: Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Honorarios Médicos por ca rtera prestaciona l Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Honorarios Médicos por ca rtera prestaciona l Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Honorarios Médicos por ca rtera prestacional : Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Honorarios Médicos por ca rtera prestacional Alquiler Uso de Equipo a valores de plaza (independientemente del valor fijado por DG) Material prestacional ca rtera de la CEDIMInterior) a cargo\nREQUISITOS: Pinza miento femoroaceta bular, lesiones del condrales lesionaes intraarticulares, libres Cuerpos acetabular, acetabulares y femorales, secuelas de enfermeda d de Perthes y epifisi",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "50.71.08",
       "description": "MÓDULO PRE TRASPLANTE CARDIACO",
-      "normativa": "INCLUYE: Honorarios profesionales (valor dos consultas médicas) y Botón de Gastrostomía : Honorarios y Gastos. Uso de video. Honorarios y Gastos Honorarios y astos. Esui •amiento de monitoreo. 'APensión (hasta 12hs.), Lijo de endoscopio e instrumental inherente a la 40% del total del modulo), Medicamentos y práctica, Honorarios médicos (corresponde al MUCOSECTOMIA ENDOSCÓPICA Materiales descartables. Cateterismo y arteriografía selectiva de\nEXCLUYE: : Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos a nestésicos y descartables. En caso MODULO VIDEOENDOSCOPIA DIGESTIVA ALTA Y BAJA (VEDA + VCC) de realizarse en internación se permitiráfacturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado. MOVILIZACIÓN FORZADADEARTICULACIÓN BAJO ANESTESIA GEN ERi! Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. • MÓDULO RECAMBIO BOTON GASTRICO MÓDULO QUIMIOEMBOLIZACIÓN DE NÓDULOS HEPÁTICOS Criterios de autorización: en tumores hipervascularizados de progresion locoregional, sólo como alternativa a cirugia cuando esté formalmente contraindicada (u otros métodos ablativos percutáneos), con fu nción hepática estable, sin enfermedad extrahepatica, sin colestasis y con vena porta permeable.\nREQUISITOS: Sospecha de HTA guardapolvo blanco (3 mediciones en consultorio > ó= 140/90 mmHg con 3 mediciones fuera del consultorio < 140/90 sin evidencia de daño en órgano blando, Sospecha de HTA episódica o HTA sistólica aislada en > 60 años, HTA MONITOREO AMBULATORIO DE LA TENSIÓNARTERIAL - PRESUROME resistente (en pacientes tratados con dosis máximas de 3 o más medicamentos), Sospecha de episodios hipotensivos relacionados a medicación_ o síndromes neurológicos, Disfunsión autonómica. Profesionales autorizados; cardiólogos.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "50.71.10",
       "description": "MÓDULO PRE TRASPLANTE HEPÁTICO",
-      "normativa": "INCLUYE: Honorarios y Gastos de la detección. Criterios de autorización: carcinoma ma mario, melanoma cutáneo, carcinoma de vulva. : Honorarios. Uso de aparato Gamma Probe (ALQUIL ER=50%del valor del módulo). Pensión, Uso de endoscopio e instrumental inherente a la r práctica, Honorarios médicos (corresponde a l 40% del total del modulo), Medicamentos y Materiales descartables. : Honorarios y gastos. N 0 N 0 ci Lo ri N ECO-DOPPLERCARDÍACO COLOR C> \"4' O a) or) O, O 14) O cd cd Honorarios y Gastos. Instrumental inherente a la práctica, Honorarios médicos (corresponden a l 40% del valor tota l del modulo), Medicamentos y Materiales descartab\nEXCLUYE: : Pensión. Material radiactivo a cargo de cartera prestacional. centellograma I nfático. Anestesia. Honorarios a nestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.\nREQUISITOS: Definir inicio de tratamiento de la Fibrosis Pulmonar Idiopática y su seguimiento anual. Evaluación pretrasplante pulmonar. Elección de tratamiento en pacientes EPOC de a lto riesgo (VEF1 <50%, 2 o más exacerbaciones por a ño o a l menos 1 internación por año). Elección fa rmacológica en Enfermedades intersticiales Pulmonares (en las que las a lteraciones en la DLCO son anteriores a la clínica y a la espirometría). Solo en: esclerodermia, enfermedad mixta del tejido conectivo, LES, AR, sarcoidosis, dermato-polimiositis, vasculitis. Resumen HC orientado a la prestación. La boratorio con EAB. Espirometría. RxTx o TAC Sugerencia: Uno a l diagnóstico de TVP - TEP. Uno a los treinta días de suspendida a nticoagulación por TVP - TEP. Sugerencia para todos tos factores: De acuerdo a necesidad en estudio de sa ngrados y / o coagulopatías. Criterios de autorización: sólo en casos de presencia de múltiples nevus y a lto riesgo de melanoma y/o nevus displásicos. Se deberá adjuntar en todos los casos clasificación ABDC y score de Meinzes",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
@@ -3212,49 +2909,49 @@ const searchData = {
     {
       "code": "50.71.03",
       "description": "MÓDULO POST TRASPLANTE RENAL POR CONSULTORIO EXTERNO (1er semestre)",
-      "normativa": "EXCLUYE: ANESTESIA NIVEL 7 X 4 TRASpljENTE HEPATICO ADULTO (CADAVERICO) - ANESTESIA NIVEL 7 X 3 TRASPLANTE HEPATICO ADULTO OVIVO) - ANESTESIA NIVEL 7 X3 01 ANESTESIA NIVEL 7 X 3 TRASPLANTE HEPATICO PEDIATRICO OVIVO) - ANESTESIA NIVEL 01 7X3 01 ANESTESIA NIVEL 7 X 3 01 FIAD ]OTERAP lA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "50.71.04",
       "description": "MÓDULO POST TRASPLANTE RENAL POR CONSULTORIO EXTERNO (2dor semestra)",
-      "normativa": "INCLUYE: Honorarios y Gastos. todos los órganos y/o regiones. 1 Honorarios y Gastos. Honorarios y Gastos Cirugía oncológica-reconstructiva y funcional que permite la extirpación de tumores malignos de piel (CBC-CEC) no melanoma en sus formas más agresivas, con mejores tasas de curación que la escisión lesional ampliada o técnica convencional. Honorarios y Gastos. _ .. A partir de los 21 años de edad y cada 3 años para deteccion Criterios de Autorización: han hecho precoz de cáncer de cuello uterino.Si tiene mas de 30 años y también le la tanto inglés) y en sus siglas por (VPH, humano pruebas para el virus del papiloma VPH son normales, le pueden hacer prueba de Papanicolaou como las pruebas para el VPH es el virus que causa verrugas genitales y cáncer de exámenes cada 5 años (el cuello\nEXCLUYE: Anestesia y Sala de Recuperación (cuando se utilice).\nREQUISITOS: CLÍNICA: PRIMARIO: Según tamaño tumoral y área corporal: Área H>6 mm (párpados, cejas, nariz, labios pera, orejas); Área M>10mm (mejillas, frente y pretibial); Área L>20mm (tronco y miembros). RECIDIVATUMORAL. HISTOPATOL OGÍA: Subtipos histológicos indiferenciados: CBC: morfeiforme, esclerosante, metatlpico, micronodular. CEC: acantolítico, adenoescamoso, pagetoide, queratoacantomatoso. Infiltrante. Invasión perineural o linfovascular. Compromiso de márgenes luego de una Escisión inicial. ANTECEDENTESDEL PACIENTE: Inmunodepresión (HIV, trasplantados, oncohematológicos, drogas inmunosupresoras, etc). Síndromes genéticos con tumores de piel múltiples. Radioterapia local previa. Antecedentes personales de tumores agresivos. Resumen de histesteroágenes relacionados al tratamiento ablativo (TACRMN-ETE-ETT) o prácticas devenidas por complicaciones eventuales del procedimiento (pericardiocentesis-cirugía cardíaca). Estos insumos exchidos serán gestionados para su adquisición por mecanismos de licitación de IAPOS o facturados po [",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "50.71.05",
       "description": "MÓDULO POST TRASPLANTE RENAL POR CONSULTORIO EXTERNO (a partir mes 13 del",
-      "normativa": "EXCLUYE: AriesteslaySalade Recupera[16n (cua ndo se utlllce). !Eg!!!}[g. Honorarios y Gastos 5; * :¥ RE..,zqzq P&gina 4 ---13 7 2 3 DIC` 2024 -.-131 lncluye: Pensi6n hasta 1 dla, Gastos-derechos qulrdrglcos, Uso de laparoscoplo e Instrumental lnherente a la practlca (blsturl blpolar, arm6nlco corresponde al 10% del valor del total del m6dulo), Honorarios m6dlcos (corresponden al 40% del valor total del modulo), Medlcamentos. Las compllcaclones devenldas la prattlca reallzada estardn a cargo clel prestador, hasta dentro de los 15 dras, de acuerdo al concepto de \"PATOLOG/A RESU ELTA\". Esto lncluye eventuates drenajes percufaneos de colecclones post operatorias COLECISTECTOMIA CON 0SINCOLEDOCOTOMIATRANSLAPAROSC6PICA (cori Materiales necesarlos), reoperactones, materlales descartables y dem5s elementos qiie estardii a cargo del equlpo que lntervino al paclente. Excltiye: ANATOMIA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "50.71.06",
       "description": "MÓDULO POST TRASPLANTE RENAL CONTROL VIRUS BK",
-      "normativa": "EXCLUYE: ANESTESIA NIVEL 7 X 4 TRASpljENTE HEPATICO ADULTO (CADAVERICO) - ANESTESIA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "50.71.07",
       "description": "MÓDULO POST TRASPLANTE RENAL CONTROL HISTOPLASMOSIS",
-      "normativa": "INCLUYE: Honorarios médicos de todo el equipo interviniente, Hemodinamia, Gastos, Anatomía Patológica, Medicamentos y Descratables inherentes al procedimiento. Pensión en habitación compartida, Honorarios Médicos, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. 1/3 punta de Shaver (incluido en valorización del módulo) Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. Honorarios y Gastos /I oscopio, Medicamentos- y Material descartable inherente al lhaver (incluido en valorización del módulo) as complicacionesly/o procedimiento adicional, Materiales I • ARTROSCOPÍA DE RODILLA SIMPLE tv -- Pensión en ha bitación compartida, Honorarios Médicos, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. 1/3 punta de Shaver (incluido en valorización del módulo) Pensión en habitación compartida, Honorarios Médicos, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. 1/3 punta de Shaver (incluido en valorización del módulo)\nEXCLUYE: Pensión (por cartera prestacional), Anestesia (generalmente local) y Biótomo (provisto por IAPOS). Complicaciones del procedimiento (facturación por cartera prestacional). Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Alquiler Uso de Equipo a valores de plaza (independientemente del valor fijado por DG) _ , Material Radiactivo según valor CEDIMInterior Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Anestesia. Todas las complicaciones y/o procedimiento adici",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "50.71.09",
       "description": "MÓDULO POST TRASPLANTE CARDÍACO CON BEM",
-      "normativa": "INCLUYE: honorarios y gastos. Honorarios y Gastos. Se autorizará únicamente en aquellas pacientes cuyo Papanicolau resulte anormal o dudoso Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. El monto Honorarios y Gastos Honorarios médicos de todo el equipo interviniente, Hemodinamia, Gastos, Anatomía Patológica, Medicamentos y Descratables inherentes al procedimiento. Pensión en habitación compartida. Honorarios Médicos de todo el equipo, Gastos, Punción, Anatomía Patológica, Laboratorio, BIOPSIA HEPÁTICA POST-TRANSPLANTE HEPÁTICO Radiología, Medicamentos y Material Descartables inherentes al procedimiento. Honorarios y Gastos. Anatomía Patológica. BLOQUEO FASCETARIO RADICULAR BAJOTAC Honorarios y Gastos. Medicación Específica. Honorarios y Gastos. Codificar REGIÓN según Nomenclador CENTELLOGRAMA Nacional. El monto\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional BIOPSIA DE VELLOSIDADES CORIÓNICAS Pensión (por cartera BIOPSIA ENDOMIOCARDICA (BEM) POR CATETERISMO CARDIACO prestacional), Anestesia (generalmente local) y Biótomo (provisto por IAPOS). Complicaciones del procedimiento (facturación por cartera Iprestacional). Anestesia, Medicación Inmunodepresora. BIOPSIA MUSCULAR POR M.E. Material Radiactivo (valor CEDIM Interior) a cargo\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICA ORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMADOPPLER (ORMN) CON MEDICIONES E INFORME. FIBRILACION AURICULAR CRONICA NO VALVULAR CON ALTO RIESGO TROMBOEMBÓLICO + CONTRAINDICACIÓN ABSOLUTA DE ANTICOAGULACIÓN (determinada por especialista en hematología). RESUMEN DE HISTORIA CLÍNICA ORIENTADA A LA PRESTACIÓN. ECOCARDIOGRAMA DOPPLER (INFORMEE IMÁGENES). NTERCONSULTA CON HEMATOLOGÍA PARA ESTRATIFICACIÓNDERIESGOYCONTRAINDICACIÓNDE ANTICOAGULACIÓN.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "50.71.11",
       "description": "MÓDULO POST TRASPLANTE HEPÁTICO POR CONSULTORIO EXTERNO",
-      "normativa": "INCLUYE: Honorarios y Gastos. 1 CIRUGIA DEMONS 2 -03 4 23 MUY 2i]23 li ,,, .T ., \"Ii 5 d',..` ,...,„ COLOCACIÓNDE DESFIBRILADOR IMPLANTABLE 1° .— c- \\ o c--) \I cci N; .— o U) 1.-- o cc; a) o COLOCACIÓN DE ENDOPRÓTESIS DEAORTA COLECTOMIA VIDEO LAPAROSCOPICA C> 1, ( ) 6(,,, '---1) o--- ,,,s,_,\ ■‘. ..,\" ni' rc\" \\ COLECISTECTOMÍA CON O SIN COLEDOCOTOMÍA TRANSLAPAROSCÓPICA Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. Pensión en UCC y en Piso en habitación compartida. Estudio electrofisiológico realizado durante el implante. Honorarios Médicos. Gastos. Medicamentos y Material Descartable inherentes al procedimiento. Honorarios y Gastos Operatorios. 24 hs. UTI y/o UCO, medicamentos y descartables inherentes al procedimiento. Gastos-derechos quirúrgicos, Uso de lapa\nEXCLUYE: PENSION: HASTA 3 (TRES) DIAS. ANATOMIA PATOLOGICADE LA/SPIEZA/S Q UIRURGICA/S (las Diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE SESUTURAREABSORBIBLE (POLIGLACTINA) PARA CIERRE DEL SITIO DE EXTRACCION LA PIEZA QUIRURGICO Y UN (1) SOBRE DE SUTURA IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DEINGRESO DE LOS TRÓCARES A VALORES. CONVENIDOS. SUTURAS MECANICAS DE ACUERDO A PROTOCOLOSIAPOS. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación. • Otras prácticas médicas no relacionadas con el procedimiento - Cirugías - Complicaciones - Estudios de alta complejidadProvisión de la prótesis. Anestesia. Anestesia, resto de días de Pensión, cualquier prestación ajena la procedimiento. Endoprótesis (a cargo de lapos)",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
@@ -3289,15 +2986,13 @@ const searchData = {
     {
       "code": "50.70.20",
       "description": "MODULO 2 SEGUIMIENTO POST TRASPLANTE RENO-PANCREAS SIMULTANEO",
-      "normativa": "Incluye: 1 consulta / 1 Laboratorio basico (Hemograma, Glucemia, Uremia, Ionograma, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Creatinina urinaria) / 1 Dosaje de FK-506.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 2 consu ltas / 1 La bora to r io bas ico ( Hemog rama, G lucem ia, Urem ia, lon ograma, Am i lasa, Ca lcem ia, Fosfa tem ia, MODU LO 1 SEGUIMIENTO POSTTRASPLANTE RENO-PANCREAS Uricem ia, Orina Comp leta, ín dice A lbúm ina/ Creat in ina ur ina r ia ) / 2 Crea t inem ias / 2 Dosajes de FK-506 / 1 Dosaje de SIMULTANEO - S EGUNDO MES Pept ico C. Exc luye (Factura r fuera de l modulo con documentac ion req ue rida): Eco dopp ler rena l. Eco dopp ler de eje\nEXCLUYE: ( Factu rar fue ra de l SIMULTANEO (SEGUNDO TR IMESTRE) - S EGUNDO MES modulo con documentacion requerida): Eco dopp le r rena l. Eco dopp ler de eje esp e lno-rena l. Dosajes de PCR",
       "coseguro": "S/C"
     },
     {
       "code": "50.70.21",
       "description": "MODULO 2 SEGUIMIENTO POST TRASPLANTE RENO-PANCREAS SIMULTANEO",
-      "normativa": "Incluye: 1 consulta / 1 Laboratorio basico (Hemograma, Glucemia, Uremia, Ionograma, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Creatinina urinaria) / 1 Dosaje de FK-506 / 1 Perfil lipico + PTH + Vitamina D / Dosaje de Peptico C .",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 1 consulta /1 Laboratorio basico (Hemograma, Glucemia, Uremia, lonograma, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Creatinina MODULO 2 SEGUIMIENTO POST TRASPLANTE RENOurinaria) / 1 Dosaje de FK-506/ 1 Perfil lipico + PTH + Vitamina D /Dosaje de Peptico C\nEXCLUYE: PANCREASSIMULTANEO - TERCERMES (Facturar fuera del modulo con documentacion requerida): Eco doppler renal. Eco doppler de eje espelno-renal. Dosajes de PCR cuantitativa para CMV (solo para pacientes de bajo riesgo inmunologico, ya que los de alto riesgo estan con profilaxis con Ganciclovir y no lo requiere. Resto de las prestaciones no incluida en el Modulo.",
       "coseguro": "S/C"
     },
     {
@@ -3352,428 +3047,383 @@ const searchData = {
     {
       "code": "50.70.29",
       "description": "MODULO 3 SEGUIMIENTO POST TRASPLANTE RENO-PANCREAS SIMULTANEO -",
-      "normativa": "Incluye: 1 consulta / 1 Laboratorio basico (Hemograma, Glucemia, Uremia, Ionograma, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Creatinina urinaria) / 1 Perfil lipico + PTH + Vitamina D/ 1 Dosaje de FK-506 / 1 Dosaje de Peptico C.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 1 Consulta / 1ECG / 1 Laboratorio Basico (Hemograma, Uremia, Creatinemia, R MODULO 2 SEGUIMIENTO POSTTRASPLANTECARDIACO - PRIME lonograma, Glucemia, GOT, GPT, Bilirrubina Total y Fraccionada, Proteínas Totales y Albúmina, TP, Perfil Lipídico) / 1 Dosaje de FK-506.\nEXCLUYE: (Facturar fuera del modulo con documentacion requerida): MES Ecografia de abdomen. Eco doppler de eje hepatico-esplenico. Dosaje de Alfa Feto Proteina /PCR VHB. Dosajes de PCR cuantitativa para CMV . Resto de las prestaciones no incluida en el Modulo.",
       "coseguro": "S/C"
     },
     {
       "code": "50.70.30",
       "description": "MODULO 4 SEGUIMIENTO POST TRASPLANTE RENO-PANCREAS SIMULTANEO",
-      "normativa": "Incluye: 1 consulta / 1 Laboratorio basico (, Glucemia, Uremia, Ionograma, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Creatinina urinaria) / 1 Perfil lipico + PTH + Vitamina D/ 1 Dosaje de FK-506.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 1 consulta / 1 Laboratorio basico (, Glucemia, Uremia, lonograma, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Creatinina urinaria) / 1 Perfil lipico + PTH+Vitamina D/1 Dosaje de FK-506.\nEXCLUYE: (Facturar fuera del MODULO 4SEGUIMIENTO POST TRASPLANTERENO-PANCREAS modulo con documentacion requerida): Eco doppler renal. Eco doppler de eje espelno50.70.30 SIMULTANEO renal. Dosajes de PCR cuantitativa para CMV (solo para pacientes de bajo riesgo inmunologico, ya que los de alto riesgo estan con profilaxis con Ganciclovir y no lo requiere. Resto de las prestaciones no incluida en el Modulo.",
       "coseguro": "S/C"
     },
     {
       "code": "24.12.01",
       "description": "RECOLECCIÓN Y CRIOPRESERVACIÓN DE CÉLULAS PROGENITORAS",
-      "normativa": "Incluye: Honorarios Médicos, Derechos de Hemodinámia, Prácticas de Rx ,Medicamentos, Sustancia de Contraste (100ML) y Material Descartable inherente a la práctica. | Excluye: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la cinecoronariografia. Anestesia. | Observaciones: Cuando se realice Cinecoronariografía y Angioplastia en el mismo acto se abonará: 60% de la Cinecoronariografia y 100% de la Angioplastia Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente. CURVA DE CAPTACIÓN TIROIDEA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión en UCC y en Piso en habitación compartida. Estudio electrofisiológico realizado durante el implante. Honorarios Médicos de electrofisiologo. Gastos. Medicamentos y Material Descartable inherentes al procedimiento.\nEXCLUYE: Otras prácticas médicas no relacionadas con el procedimiento - Cirug ías - Complicaciones - Estudios de a lta complejidadProvisión de la prótesis. Anestesia. Honorarios Médicos por cartera prestacional",
       "coseguro": "OI"
     },
     {
       "code": "50.07.01",
       "description": "TRASPLANTE CARDÍACO - EXCLUYE ANESTESIA NIVEL 7 X 4",
-      "normativa": "TRASPLANTE CARDÍACO - EXCLUYE ANESTESIA NIVEL 7 X 4",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios + Gastos + Materiales ncluye: Honorarios y Gastos.",
       "coseguro": "OI"
     },
     {
       "code": "50.08.02",
       "description": "TRASPLANTE HEPÁTICO ADULTO (CADAVÉRICO) - EXCLUYE ANESTESIA NIVEL 7 X 3",
-      "normativa": "TRASPLANTE HEPÁTICO ADULTO (CADAVÉRICO) - EXCLUYE ANESTESIA NIVEL 7 X 3",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: ANESTESIA N IVEL 7 X 3 50.01.01TRASPLANTE MÉDULAÓSEAAUTÓLOGO",
       "coseguro": "OI"
     },
     {
       "code": "50.08.04",
       "description": "TRASPLANTE HEPÁTICO ADULTO (VIVO) - EXCLUYE ANESTESIA NIVEL 7 X 3",
-      "normativa": "TRASPLANTE HEPÁTICO ADULTO (VIVO) - EXCLUYE ANESTESIA NIVEL 7 X 3",
-      "price_hidden": "",
+      "normativa": "INCLUYE: ANESTESIA NIVEL 7X 3 $3.428.620 TRASPLANTE HEPÁTICO ADULTO (CADAVÉRICO) INCLUYE ANESTESIA",
       "coseguro": "OI"
     },
     {
       "code": "50.08.01",
       "description": "TRASPLANTE HEPÁTICO PEDIÁTRICO (CADAVÉRICO) - EXCLUYE ANESTESIA NIVEL 7 X",
-      "normativa": "TRASPLANTE HEPÁTICO PEDIÁTRICO (CADAVÉRICO) - EXCLUYE ANESTESIA NIVEL 7 X",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: ANESTESIA NIVEL 7 X 2 TRASPLANTE RENOPANCREATICO - EXCLUYE ANESTESIA NIVEL 7 X 3",
       "coseguro": "OI"
     },
     {
       "code": "50.08.03",
       "description": "TRASPLANTE HEPÁTICO PEDIÁTRICO (VIVO) - EXCLUYE ANESTESIA NIVEL 7 X 3",
-      "normativa": "TRASPLANTE HEPÁTICO PEDIÁTRICO (VIVO) - EXCLUYE ANESTESIA NIVEL 7 X 3",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: ANESTESIA NIVEL 7 X 2 TRASPLANTE RENOPANCREATICO - EXCLUYE ANESTESIA NIVEL 7 X 3",
       "coseguro": "OI"
     },
     {
       "code": "50.01.01",
       "description": "TRASPLANTE MÉDULA ÓSEA AUTÓLOGO",
-      "normativa": "EXCLUYE: TRASPLANTE HEPATICO ADULTO (VIVO) -EXCLllYE TRASPLANTE HEPATICO PEDIATRICO (CADAVERICO) TRASPLANTE HEPATICO PEDIATRICO (VIVO) - TRASPLANTE MEDULA OSEA AUTOLOGO TRASPLANTE MEDULA OSEA ALOGENICO RELACIONADO HIST TRASPLANTE MEDULA OSEA ALOGENICO RELACIONADO TRASPLANTE MEDULA OSEA ALOGENICO NO F{ELACIONADO BUSQUEDA INTERNAcloNAL) $32.417.323 $34.756.429 $22.668.449 $33.640.618 0' $31.010.556 $36.067.992 $28.525.008 $32.180.766 $19.769.691 $20.515.717 01 $26.464.524 $45.527.880 $27.463.186 Or7.245.913 01 $49.175.209 $51.030.877 01 ANESTESIA NIV $11.132.585 $11.552.683 01 ANESTESIA NIVE $33.706.369 $34.978.308 01 NOV/24 DIC'24",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: ANESTESIA NIVEL 7 X 2 TRASPLANTE RENOPANCREATICO - EXCLUYE ANESTESIA NIVEL 7 X 3",
       "coseguro": "OI"
     },
     {
       "code": "50.01.02",
       "description": "TRASPLANTE MÉDULA ÓSEA ALOGÉNICO RELACIONADO HISTOIDÉNTICO",
-      "normativa": "EXCLUYE: ANESTESIANIVEL 7 69 eZ/AON oO. O ANESTESIA NIVEL 7 X 3 o O LO T- ANESTESIA NIVEL 7 X 3 O CD co CD r-- CD tri co $543.700 co SET/23 O < O 0 17- Z O O Z O < CO ¡Prestaciones incluidas en cobertura con pago directo al prestador 1 RECOLECCIÓNY CRIOPRESERVACIÓN DECÉLULASPROGENITORAS",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos TRATAMIENTO QUIRURGICO CORRECTIVODEL ESTRABISMO UNI O BILATERAL\nEXCLUYE: Anestesia y sala de recuperación.\nREQUISITOS: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y !tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "OI"
     },
     {
       "code": "50.01.03",
       "description": "TRASPLANTE MÉDULA ÓSEA ALOGÉNICO RELACIONADO HAPLOINDÉNTICO",
-      "normativa": "INCLUYE: ANESTESIA 50.08.0 NIVEL 7 X 3 $4. 136.440 ANESTESIA NIVEL 7 X 3 «I $2.957.811 $3.042.320 5 50. 10.0'TITRASPLANTE RENAL CADAVÉRICO - ANESTESIA NIVEL 7 X 2 $4.405.040 r-co co LO co co $4.270.740 EF> ni $3.904.6311 co O) ic7) $4.786.628 5 TRASPLANTE MÉDULAÓSEA ALOGÉNICO RELACIONADO HISTOIDÉNTICO TRASPLANTE MÉDULAÓSEA ALOGÉNICO RELACIONADO",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: Anestesia y sala de recuperación.\nREQUISITOS: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y !tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "OI"
     },
     {
       "code": "50.01.04",
       "description": "TRASPLANTE MÉDULA ÓSEA ALOGÉNICO NO RELACIONADO - BÚSQUEDA",
-      "normativa": "EXCLUYE: ANESTESIA N IVEL 7 X 3 ANESTESIANIVEL 7 69 eZ/AON oO. O ANESTESIA NIVEL 7 X 3 o O LO T- ANESTESIA NIVEL 7 X 3 O CD co CD r-- CD tri co $543.700 co SET/23 O < O 0 17- Z O O Z O < CO ¡Prestaciones incluidas en cobertura con pago directo al prestador 1 RECOLECCIÓNY CRIOPRESERVACIÓN DECÉLULASPROGENITORAS",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: ANESTESIA NIVEL 7 X 2 TRASPLANTE RENOPANCREATICO - EXCLUYE ANESTESIA NIVEL 7 X 3",
       "coseguro": "OI"
     },
     {
       "code": "50.10.01",
       "description": "TRASPLANTE RENAL CADAVÉRICO -EXCLUYEANESTESIA NIVEL 7 X 2",
-      "normativa": "TRASPLANTE RENAL CADAVÉRICO -EXCLUYEANESTESIA NIVEL 7 X 2",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios del equipo médico clínico, quirúrgico y técnico, habilitado por el INCUCAI. Estudios radiológicos, ecográficos,_ de laboratorio clínicos y bacteriológicos e infectológicos nomenclados. Estudios de histocompatibilidad. Estudios cardiológicos y de riesgo quirúrgico. Exámen ginecológico y/o andrológico. Perfusión miocárdica spect. Inscripción en lista de espera para trasplante renopancreático en caso de ser apto. TAC Multi Slice. Eco Doppler eje espleno-portal. Evaluación y llenado de ficha 'Guía social para MÓDULOPRE-TRASPLANTERENOPANCREATICO paciente en situación de trasplante de órgano/tejidos'. Evaluación sicológica que incluya valoración de adherencia al tratamiento y a controles posteriores al procedimiento. La misma debe ser realizada en todos los casos, y en fcyma conjunta con el resto de las prácticas correspondientes a dichas evaluaciones. No deben ser consideradas un requerimiento previo para dicha evaluación.\nEXCLUYE: Estudios de hemodinamia, eleCtrofisiológicos, radiocardiograma. Résonancia magnétiCa nuclear. ImplaÓDULO4",
       "coseguro": "OI"
     },
     {
       "code": "50.08.05",
       "description": "TRASPLANTE RENOPANCREATICO - EXCLUYE ANESTESIA NIVEL 7 X 3",
-      "normativa": "TRASPLANTE RENOPANCREATICO - EXCLUYE ANESTESIA NIVEL 7 X 3",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Cinecoronografía Código\nEXCLUYE: ANESTESIA NIVEL 7 X 3 TRASPLANTE HEPÁTICOPEDIÁTRICO (VIVO) - EXCLUYE ANESTESIA NIVEL 7 X 3 $7.616.313 1",
       "coseguro": "OI"
     },
     {
       "code": "35.90.13",
       "description": "BETATERAPIA",
-      "normativa": "EXCLUYE: ANESTESIA NIVEL 7 X 3 (D CA D ANESTESIA NIVEL 7 X 3 TRASPLANTEHEPÁTICO PEDIÁTRICO (CADAVÉRICO) - ANESTESIA ANESTESIA NIVEL 7 X 3 PROVISION ACCESO VASCULAR EF). \"cc)",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.02",
       "description": "BRAQUITERAPIA 2 DIAS",
-      "normativa": "INCLUYE: ANESTESIA NIVEL 7 X 3 (\I LO TRASPLANTE RENAL CADAVÉRICO - ANESTESIA NIVEL 7X2 ÓSEA ALOGÉNICO 11P Írvr, U) O co z 0 0 0 0 0 0 CD CO EA -> EFY CO CO •4: EA 2 EA O 2 69 Lo CO a) a) a) a) a) M ,z1•,— ,— c5 O a) a) cri 0) — ,- CO N,— ,--- c0 ,-- OO c5 b b O a) ay a> a> a) a) oY oY ai ce csi a; — -,- — ,---- -,- 0) CD ,-,--, N CV CV O ca uy ce á ,- (2 og e, o s--- ci ci ci (N 0) 0) 0) c6 O) O) -1 te te- ea $4.084 co . LO N N,-ca $7 7651 ...1 ta 1 :V ___/ - o-) O) ,-N-•clcr) ea (9) (f)- m co ,-: ea (-9 (9 sz; LO c:.i c- b (.35' Cs; ,-- m- 1 - (l) 0) -‘-. ni- 0) Cs) ,-- o BY PASS GÁSTRICO EN Y DE ROUX LO O LX) O) O) (-5 0) T o 0 V-CO Ch e, O CO (.0 CO co C9 U) O o o co KINESIOLOGÍA z U) LO PRIMERA ENTREVISTA NUTRICIONISTA CO \"Z1- REGIMEN INDIVIDUAL CONPREPARACIONDE MENUDIETETICO CD SESION - 1ER TRIMESTRE r•-• NUTRICIONISTAXSESION CANTIDAD O N NUTRICIÓN CO C() INTERNACIÓN - GASTRECTOMÍAEN MANGA (SLEEVE) INTERNACIÓN $248.01,1 1 N. 0) 0) G1 nt .0) LO N ee $232.752 XCO $274.9621 CO CV CV <a $262.831 — $246.657 1 ED di CIRUGÍA BARIÁTRICA: GASTRECTOMÍA EN MANGA (SLEEVE) ( NO MATERIALES ESPEC ÍFICOS) - ANESTESIA NIVEL 7 + 50% G CV CIRUGÍABAR IÁTRICA: BY PASS GÁSTRICO EN Y DE ROUX ( NO MATERIAL ES ESPECÍFICOS) - ANES TESIA NIVEL 7 + 50% \ i N $4.277 BONOS1 IBAN 1 !LY",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión (de acuerdo a los días indicados). Bloqueo de cama. Medicamentos y Material Descartable. Honorarios y Gastos. Lccluye: Anestesia. Prácticas no relacionadas con la patología. Prácticas de Alta Complejidad. Días fuera de módulo. Prácticas conexas que ocurran a posteriori de los días incluidos dentro del del módulo. Complicaciones y reinternaciones.\nEXCLUYE: Anestesia. Prácticas no relacionadas con la patología. Prácticas de Alta Complejidad. Días fuera de módulo. Prácticas conexas que ocurran a posteriori de los días incluídos dentro del del módulo. Complicaciones y reinternaciones.",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.04",
       "description": "BRAQUITERAPIA 3 DIAS",
-      "normativa": "INCLUYE: Honorarios del equipo médico clínico, quirúrgico y técnico, habilitado por el INCUCAI. Estudios radiológicos, ecográficos,_ de laboratorio clínicos y bacteriológicos e infectológicos nomenclados. Estudios de histocompatibilidad. Estudios cardiológicos y de riesgo quirúrgico. Exámen ginecológico y/o andrológico. Perfusión miocárdica spect. Inscripción en lista de espera para trasplante renopancreático en caso de ser apto. TAC Multi Slice. Eco Doppler eje espleno-portal. Evaluación y llenado de ficha \"Guía social para MÓDULOPRE-TRASPLANTERENOPANCREATICO paciente en situación de trasplante de órgano/tejidos\". Evaluación sicológica que incluya valoración de adherencia al tratamiento y a controles posteriores al procedimiento. La misma debe ser realizada en todos los casos, y en fcyma conjunta con el resto de las prácticas correspondientes a dichas evaluaciones. No deben ser consideradas un requerimiento previo para dicha evaluación. prestaciones para los siguiente las prácticas mencionadas, que requieren ser actualizadas con una periodicidad anual. Histocompatibilidad: Cross Match contra panel. Laboratorio. Todas las determinaciones de rutina y aquellas especiales que requieran actualización de acuerdo al criterio medico y que puedan modificar la indicación y/o evolución del trasplante. MÓDULOPRE-TRASPLANTE RENOPANCREATICOSEGUIMIENTOANU Diagnostico por imágenes: Rx Tórax F y P, Ecografia abdominal completa. Interconsulta Cardiología: examen clínico, ECG, y Ecocardiograma Bidimensional. Interconsulta Ginecología.: examen clínico, PAP y colposcopia. Interconsulta Urología: examen clínico y laboratorio PSA. Interconsulta Psicología: Entrevista y Evaluación de Aptitud Psicológica para trasplante. biopsia renal. Anestesia Nivel 7 x 2. Resto según Anexo IV Disposición GN.° TRASPLANTERENAL CADAVÉRICO - INCLUYEAN\nEXCLUYE: Estudios de hemodinamia, eleCtrofisiológicos, radiocardiograma. Résonancia magnétiCa nuclear. ImplaÓDULO4",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. incluye: Honorarios y Gastos. Medicación Específica.\nEXCLUYE: Anestesia. Prácticas no relacionadas con la patología. Prácticas de Alta Complejidad. Días fuera de módulo. Prácticas conexas que ocurran a posteriori de los días incluídos dentro del del módulo. Complicaciones y reinternaciones.",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.05",
       "description": "BRAQUITERAPIA 4 DIAS",
-      "normativa": "INCLUYE: 2 consultas / 1 Laboratorio basico (Hemograma, Glucemia, Uremia, lonograma, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Creatinina MODULO1 SEGUIMIENTO POSTTRASPLANTE RENO- urinaria) / 2 Creatinemias / 2Dosajes de FK-506 /1 Dosaje de Peptico C. 1 consulta / 1 Laboratorio basico (Hemograma, Glucemia, Uremia, lonograma, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Creatinina MODULO 2 SEGUIMIENTO POST TRA SPLANTE RENO- urinaria) / 1 Dosaje de FK-506. 1 consulta / 1 Laboratorio basico (Hemograma, Glucemia, Uremia, lonograma, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Creatinina MODULO 2 SEGUIMIENTO POST TRASPLANTE RENO- urinaria) / 1Dosaje de FK-506.\nEXCLUYE: PANCREASSIMULTANEO - TERCERMES (Facturar fuera del modulo con documentacion requerida): Eco doppler renal. Eco doppler de eje espelno-renal. Dosajes de PCR cuantitativa para CMV (solo para pacientes de bajo riesgo inmunologico, ya que los de alto riesgo estan con profilaxis con Ganciclovir y no lo requiere. Resto de las prestaciones no incluida en el Modulo. (Facturar fuera del modulo con PANCREAS SIMULTANEO (SEGUNDO TRIMESTRE) - PRIMER documentacion requerida): Eco doppler renal. Eco doppler . de eje espelno-renal. MES Dosajes de PCR cuantitativa para CMV (solo para pacientes de bajo riesgo inmunologico, ya que los de alto riesgo estan con profilaxis con Ganciclovir y no lo requiere. Resto de las prestaciones no incluida en el Modulo. (Facturar fuera del modulo con PANCREAS SIMULTANEO (SEGUNDOT",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión (de acuerdo a los días indicados). Bloqueo de cama. Medicamentos y Material Descartable. Honorarios y Gastos.\nEXCLUYE: Anestesia. Prácticas no relacionadas con la patología. Prácticas de Alta Complejidad. Días fuera de módulo. Prácticas conexas que ocurran a posteriori de los días incluídos dentro del del módulo. Complicaciones y reinternaciones.",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.03",
       "description": "BRAQUITERAPIA 5 DIAS",
-      "normativa": "EXCLUYE: ANESTESIA NIVEL 7 X 3 TRASPLANTE HEPÁTICO ADULTO (CADAVÉRICO) - ANESTESIA NIVEL 7 X ANESTESIA NIVEL 7 X 3 (D CA D ANESTESIA NIVEL 7 X 3 TRASPLANTEHEPÁTICO PEDIÁTRICO (CADAVÉRICO) - ANESTESIA ANESTESIA NIVEL 7 X 3",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Pensión (de acuerdo a los días indicados). Bloqueo de cama. Medicamentos y Material Descartable. Honorarios y Gastos. Lccluye: Anestesia. Prácticas no relacionadas con la patología. Prácticas de Alta Complejidad. Días fuera de módulo. Prácticas conexas que ocurran a posteriori de los días incluidos dentro del del módulo. Complicaciones y reinternaciones.\nEXCLUYE: Anestesia. Prácticas no relacionadas con la patología. Prácticas de Alta Complejidad. Días fuera de módulo. Prácticas conexas que ocurran a posteriori de los días incluídos dentro del del módulo. Complicaciones y reinternaciones.",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.18",
       "description": "BRAQUITERAPIA ENDOCAVITARIA GINECOLOGICA - ALTA TASA",
-      "normativa": "EXCLUYE: Semillas radioactivas, aplicadores, anestesia, honorarios de anestesia e internación. CODIGO:\nREQUISITOS: y/o exigencias administrativas, técnicas y de auditoría que establezcan las partes en el convenio al que adhiero. 3) No efectuar discriminaciones respecto de los afiliados de I.A.P.O.S., a no cobrar, convenir ni exigir \"plus\", ni suma alguna por ningún concepto resp",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Simulación computarizada, planificación computarizada tridimensional, construcción de bloques de cerrobend individuales y elementos de fijación para tratamiento radiante. Todas las sesiones de acelerador lineal necesarias para tratar al paciente a través de múltiples campos coplanares y no coplanares. Control radiográfico semanal en acelerador líneas durante la irradiación.\nEXCLUYE: Estudios (TAC - RMN) localizadoras, según corresponda por patología. VALOR MÓDULO: PRÓSTATA: $ 162.215 con vigencia 1° de abril/21. $ 173.500 con vigencia 1° de junio/21. $ 186.195 con vigencia 1° de setiembre/21. VALOR MÓDULO OTRAS REGIONES: $ 193.112 con vigencia 1° de abril/21. $ 206.546 con vigencia 1° de junio/21. $ 221.659 con vigencia 1° de setiembre/21.\nREQUISITOS: Cáncer de próstata Cáncer de cabeza y cuello (criterio adyuvante o radical curativo) En caso de niños: IMRT (ependimoma, meduloblastoma) Se evaluarían individualmente cada caso por auditoría de IAPOS.",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.14",
       "description": "BRAQUITERAPIA INTERSTICIAL PROSTATICA",
-      "normativa": "INCLUYE: Honorarios M6dicos, Derechos, Uso de bomba infusora. Pensi6n (Sill6n). Consulta m€dica especializada en cuidados paliativos y tratamiento del dolor: Entrevista con el paciente y elaboraci6n de la historia cli'nica correspondiente. Aquf se las tablas que evahian estado de depresi6n y ansiedad, 1a cuales se relacionan con el dolor cr6nico. Las mismas son: Mini mental Status Test, Escala de Ansiedad y depresi6n de Golberg, Brief Pain Inventory (charles S Cleeland PHD- Pain Research Group 1991. Analisis de factores que agravan o alivian el dolor. Examen ffsico e indicaci6n del tratamiento correspondiente. Estinativamente, se previ que la duraci6n de la primera consulta sera de rna hora reloj. Consulta Psicol6gica: Debe evaluarse la inclusi6n o no de una consulta psicol6gica mensual ya que gran parte de los pacientes que padecen de dolor cr6nico requieren de una atenci6n multidisciplinaria (DOLOR TOTAL). Consulta de kinesiolog{a: Para la mejon'a de: Fuerza y Tono Muscular, Rango de movilidad artioular, Correcci6n de postura. Uso correcto de bast6n y/o andador. Fortalecimiento de la marcha. La expresi6n maxima de desnutrici6n en el cancer es la caquexia tumoral, que sera responsable directa o indirecta de la muerte en un tercio de los pacientes con cancer. EI soporte nutricional oral solo sera indicado a aquellos pacientes con diagn6stico de enfermedad terminal que no se encuentren en estadios de fin de vida. Insumos: Fomula hipercal6rica segiin requerimientos. 9-CONSuLTA AnmsuIATORIA (c6digo 42.ol.01) ='r - 0 0 5b`0 4 FEB 20£`5 AIXO n CONVENIO I.A.P.o.S. _ (1) ...............\nEXCLUYE: Semillas radioactivas, aplicadores, anestesia, honorarios de anestesia e intemaci6n 6-IRRADIAC16N DE SANGRE Y HEMODERIVADOS (c6digo Medicamentos Oncol6gicos (a cargo de IAPOS). 8-MODULO DOLOR ONCOL6GICO AMBULATORIO (c6digo",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: Semillas radioactivas, aplicadores, anestesia, honorarios de anestesia e internación. CODIGO:\nREQUISITOS: y/o exigencias administrativas, técnicas y de auditoría que establezcan las partes en el convenio al que adhiero. 3) No efectuar discriminaciones respecto de los afiliados de I.A.P.O.S., a no cobrar, convenir ni exigir 'plus', ni suma alguna por ningún concepto respecto de las prácticas incluidas en el contrato referido, prestando los servicios que me sean requeridos por los afiliados de I.A.P.O.S., conforme las cláusulas contractuales que declaro conocer y aceptar en todos sus términos. Presto mi conformidad",
       "coseguro": "BQ"
     },
     {
       "code": "26.90.01",
       "description": "IRRADIACION DE SANGRE Y PLAQUETAS",
-      "normativa": "Incluye: Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. | Excluye: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: Semillas radioactivas, aplicadores, anestesia, honorarios de anestesia e internación. CODIGO:\nREQUISITOS: y/o exigencias administrativas, técnicas y de auditoría que establezcan las partes en el convenio al que adhiero. 3) No efectuar discriminaciones respecto de los afiliados de I.A.P.O.S., a no cobrar, convenir ni exigir 'plus', ni suma alguna por ningún concepto respecto de las prácticas incluidas en el contrato referido, prestando los servicios que me sean requeridos por los afiliados de I.A.P.O.S., conforme las cláusulas contractuales que declaro conocer y aceptar en todos sus términos. Presto mi conformidad para que, en el 'Se deberá completar con el nombre de la entidad firmante del convenio con el IAPOS.",
       "coseguro": "20"
     },
     {
       "code": "35.90.07",
       "description": "RADIONEUROCIRUGIA ESTEREOTAXICA",
-      "normativa": "Incluye: Honorarios y Gastos. Medicamentos y Materiales Descartables inherentes al procedimiento. Simulación, Planificación, Radiografías, Tac y Aplicaciones. Pensión en habitación compartida. | Excluye: Anestesia. RECEPTORES CON TÉCNICA INMUNOHISTOQUÍMICA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Simulación computarizada, planificación computarizada tridimensional, construcción de bloques de cerrobend individuales y elementos de fijación para tratamiento radiante. Todas las sesiones de acelerador lineal necesarias para tratar al paciente a través de múltiples campos coplanares y no coplanares. Control radiográfico semanal en acelerador líneas durante la irradiación. Estudio: TAC según corresponda por patología.\nEXCLUYE: Gastos correspondientes a patologías concomitantes o complicaciones no neuroquirúrgicas posteriores al tratamiento. Estudios complementarios adicionales a los incluidos, sujeto a autorización de auditoría médica. Estudios complementarios (RMN (1) - Angiografía digital estereotáxica (1)) según corresponda por patología. CODIGO:\nREQUISITOS: La práctica contratada será de aplicación al tratamiento de las siguientes patologías: Tumor cerebral primario Cáncer de esófago Cáncer gástrico Cáncer de Pulmón Cáncer de Páncreas Cáncer de recto (criterio neoadyuvante-adyuvante) Cáncer de vejiga Tumor testicular seminoma Cáncer de mama izquierda y derecha Linfoma (criterio adyuvante-consolativo) Síndrome de vena cava superior Cáncer de endometrio (criterio adyuvante o curativo) Cáncer de cérvix Sarcomas óseos y de partes blandas Tumores de Mediastino Otros: Toda otra patología no definida en IMRT o en radioterapia bidimensional módulo paliativo.",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.16",
       "description": "RADIOTERAPIA DE INTENSIDAD MODULADA (IMRT) - OTRAS REGIONES",
-      "normativa": "INCLUYE: Honorarios M6dicos, Derechos, Uso de bomba infusora. Pensi6n (Sill6n). Consulta m€dica especializada en cuidados paliativos y tratamiento del dolor: Entrevista con el paciente y elaboraci6n de la historia cli'nica correspondiente. Aquf se las tablas que evahian estado de depresi6n y ansiedad, 1a cuales se relacionan con el dolor cr6nico. Las mismas son: Mini mental Status Test, Escala de Ansiedad y depresi6n de Golberg, Brief Pain Inventory (charles S Cleeland PHD- Pain Research Group 1991. Analisis de factores que agravan o alivian el dolor. Examen ffsico e indicaci6n del tratamiento correspondiente. Estinativamente, se previ que la duraci6n de la primera consulta sera de rna hora reloj. Consulta Psicol6gica: Debe evaluarse la inclusi6n o no de una consulta psicol6gica mensual ya que gran parte de los pacientes que padecen de dolor cr6nico requieren de una atenci6n multidisciplinaria (DOLOR TOTAL). Consulta de kinesiolog{a: Para la mejon'a de: Fuerza y Tono Muscular, Rango de movilidad artioular, Correcci6n de postura. Uso correcto de bast6n y/o andador. Fortalecimiento de la marcha. La expresi6n maxima de desnutrici6n en el cancer es la caquexia tumoral, que sera responsable directa o indirecta de la muerte en un tercio de los pacientes con cancer. EI soporte nutricional oral solo sera indicado a aquellos pacientes con diagn6stico de enfermedad terminal que no se encuentren en estadios de fin de vida. Insumos: Fomula hipercal6rica segiin requerimientos. 9-CONSuLTA AnmsuIATORIA (c6digo 42.ol.01) ='r - 0 0 5b`0 4 FEB 20£`5 AIXO n CONVENIO I.A.P.o.S. _ (1) ...................................................................................... DECLARACION JURADA de PROFESIONAIE S/EFECTORES Apellido y Nombre .............\nEXCLUYE: Medicamentos Oncol6gicos (a cargo de IAPOS). 8-MODULO DOLOR ONCOL6GICO AMBULATORIO (c6digo",
-      "price_hidden": "",
+      "normativa": "INCLUYE: cantidad de aplicaciones necesarias para el tratamiento, simulación y planificación. INDICACIONES Metástasis cerebrales múltiples o única (no resecable). Metástasis óseas única o múltiples. Criterio hemostático: hemoptisis, hematemesis, hemorragia digestiva baja, melena, ginecorragia). CODIGO:\nEXCLUYE: Estudios (TAC - RMN) localizadoras, según corresponda por patología. 90.15 011 0 DIQC5: r,VACOR MÓD LO: PRÓSTATA: $ 66.150.- con vigencia 1ro. de Marzo/18 $ 69.300.- con vigencia 1ro. de Agosto/18\nREQUISITOS: Metástasis cerebrales múltiples o única (no resecable). Metástasis óseas única o múltiples. Criterio hemostático: hemoptisis, hematemesis, hemorragia digestiva baja, melena, ginecorragia). CODIGO:",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.15",
       "description": "RADIOTERAPIA DE INTENSIDAD MODULADA (IMRT) - PROSTATA",
-      "normativa": "INCLUYE: I.a colocaci6n con anestesia local, de un marco estereofaxico que sera fijado a la tabla extema del crineo del paciente. Planificaci6n estere otaxica tridimensional. Estadfa en hospital de dfa del paciente durante el tiempo que demande el procedimiento. El tratamiento de la lesi6n, en acelerador lineal de alta energia por medio de colimadores y gufa estereotalca. La provisi6n de medicamentos (corticoides, medios de contraste, etc.) y descartables que se requieran durante el procediniento. Honorarios de radioterapeuta, fisico e instrumentadora. Estudio: TAG segiin corresponda por patologfa. ExcLun: Gastos correspondientes a patologfas concomitantes o complicaciones no neuroquirdrgicas posteriores al tratamiento. Estudios complementarios adicionales a los incluidos, sujeto a autorizaci6n de auditon'a medica. Estudios complementarios (RMN (1) - Angiografi'a digital estereotckica (1)) seg`in corresponda por patologia. 2- RADIOTERAPIA TRIDIRENSIONAL CONFORMADA (RTC3D) (c6digo\nREQUISITOS: : La prdctica contratada sera de aplicaci6n al tratamiento de las siguientes patologfas: Tumctr cerebral primario Cancer de es6fago Cancer gastrico E'r- - 0 0 5 0 4 FEE Z025 Tumor testicular seminoma Cancer de mama izquierda y derecha I.infoma (eriterio adyuvante -consolativo)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Simulación computarizada, planificación computarizada tridimensional, construcción de bloques de cerrobend individuales y elementos de fijación para tratamiento radiante. Estudios (TAC — RMN) localizadoras, según corresponda por patología. Todas las sesiones de acelerador lineal necesarias para tratar al paciente a través de múltiples campos coplanares y no coplanares. Control radiográfico semanal en acelerador líneas durante la irradiación CODIGO:\nEXCLUYE: anestesia, resto incluido. CÓDIGO:\nREQUISITOS: Metástasis cerebrales múltiples o única (no resecable) Metástasis óseas única o múltiples Criterio hemostático: hemoptisis, hematemesis, hemorragia digestiva baja, melena, ginecorragia) CODIGO:",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.09",
       "description": "RADIOTERAPIA TRIDIMENSIONAL CONFORMADA",
-      "normativa": "INCLUYE: Simulación computarizada, planificación computarizada tridimensional, construcción de bloques de cerrobend individuales y elementos de fijación para tratamiento radiante. Todas las sesiones de acelerador lineal necesarias para tratar al paciente a través de múltiples campos coplanares y no coplanares. Control radiográfico semanal en acelerador líneas durante la irradiación. Estudio: TAC según corresponda por patología.\nEXCLUYE: Estudios (RMN) localizadoras, según corresponda por patología. CODIGO: Semillas radioactivas, aplicadores, anestesia, honorarios de anestesia e internación. CODIGO:\nREQUISITOS: Cáncer de próstata Cáncer de cabeza y cuello (criterio adyuvante o radical curativo) En caso de niños: IMRT (ependimoma, meduloblastoma) Se evaluarían individualmente cada caso por auditoría de IAPOS.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: - Simulación computarizada, planificación computarizada tridimensional, construcción de bloques de cerrobend individuales y elementos de fijación para tratamiento radiante. - Estudios (TAC — RMN) localizadoras, según corresponda por patología. -\nEXCLUYE: anestesia, resto incluido.\nREQUISITOS: - Cáncer de próstata Cáncer de cabeza y cuello (criterio adyuvante o radical curativo) En caso de niños: IMRT (ependimoma, meduloblastoma) Se evaluarían individualmente cada caso por auditoría de IAPOS. INCLUSIONES: Simulación computarizada, planificación computarizada tridimensional, construcción de bloques de cerrobend individuales y elementos de fijación para tratamiento radiante. Estudios (TAC — RMN) localizadoras, según corresponda por patología. Todas las sesiones de acelerador lineal necesarias para tratar al paciente a través de múltiples campos coplanares y no coplanares. Control radiográfico semanal en acelerador líneas durante la irradiación CODIGO:",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.19",
       "description": "RADIOTERAPIA GUIADA POR IMÁGENES (IGRT)",
-      "normativa": "INCLUYE: 1 Consulta / 1ECG / 1 Laboratorio Basico (Hemograma, Uremia, Creatinemia, R MODULO 2 SEGUIMIENTO POSTTRASPLANTECARDIACO - PRIME lonograma, Glucemia, GOT, GPT, Bilirrubina Total y Fraccionada, Proteínas Totales y Albúmina, TP, Perfil Lipídico) / 1 Dosaje de FK-506. 1Consulta / 1 ECG / 1 Laboratorio Basico (Hemograma, Uremia, Creatinemia, CARDIACO - CUARTO lonograma, Glucemia, GOT, GPT, Bilirrubina Total y Fraccionada, Proteínas Totales y MODULO 2 SEGUIMIENTOPOSTTRASPLANTE Albúmina, TP, Perfil Lipídico) / 1 Dosaje de FK-506. 1 meses (Hemograma, Uremia, Creatinemia, lonograma, Glucemia, GOT, GPT, Bilirrubina Dosaje de FKTotal y Fraccionada, Proteínas Totales y Albúmina, TP, Perfil Lipídico) / 1 MODULO3SEGUIMIENTOPOSTTRASPLANTECARDIACO 506 cada 6 meses. 1 Consulta / 1 ECG / 1 Laboratorio Basico (Hemograma, Uremia, Creatinemia, lonograma, Glucemia, GOT, GPT, Bilirrubina Total y Fraccionada, Proteínas Totales y Albúmina, TP, Perfil Lipídico) / 1 Dosaje de FK-506. 1 Consulta cada 6 meses / 1 Laborato\nEXCLUYE: (Facturar fuera del modulo MES con documentacion requerida): Ecocardiograma BD/ Doppler. Biopsia endomiocardica Modulo. (valor grilla). Resto de las prestaciones no incluida en el o c,-) d r-d rn co> c•o rcz; Lo (Facturar fuera del modulo MES con documentacion requerida): Ecocardiograma BD/ Doppler. Biopsia endomiocardica Modulo. (valor grilla). Resto de las prestaciones no incluida en el Consulta cada 6 meses / 1 ECG cada 6 meses / 1 Laboratorio Basico cada 6 (Facturar fuera del modulo con documentacion requerida): Ecocardiograma BD /Doppler. Biopsia endomiocardica (valor grilla). Resto de Modulo. las prestaciones no incluida en el MODULO1 SEGUIMIENTOPOSTTRASPLANTECARDIACO o. o Lo (Facturar fuera del modulo con documentacion requerida): Ecocardiograma BD / Doppler. Biopsia endomiocardica (valor grilla). Resto de las prestaciones no incluida en el Modulo.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "35.90.20",
       "description": "RADIOTERAPIA CORPORAL ESTEREOTACTICA (SBRT)",
-      "normativa": "INCLUYE: prestaciones para los últimos 6 meses post-Trasplante, ente al primer año. El MÓDULO 3 prestaciones a partir del segundo año de post-Trasplante. Laboratorio basico (Hemograma, Uremia, Creatinemia, 1 Consulta / 1 lonograma, Glucemia, GOT, GPT, GGT, FA, Bilirrubina Total y Fraccionada, lipídico) / 1 Dosaje de FK-506 o Colinesterasa, Proteínas Totales y Albúmina, TP, perfil Ciclosporina. 1 Consulta / 1 Laboratorio basico (Hemograma, Uremia, Creatinemia, lonograma, Glucemia, GOT, GPT, GGT, FA, Bilirrubina Total y Fraccionada, Dosaje de FK-506 o Colinesterasa, Proteínas Totales y Albúmina, TP, perfil lipídico) / 1 MODULO2SEGUIMIENTOPOST TRASPLANTE HEPATICO - PRIMER Ciclosporina.\nEXCLUYE: (Facturar fuera del modulo con documentacion requerida): MODULO 1 SEGUIMIENTO POSTTRASPLANTEHEPATICO Ecografia de abdomen. Eco doppler de eje hepatico-esplenico. Dosaje de Alfa Feto Proteina / PCRVHB. Dosajes de PCR cuantitativa para CMV . Resto de las prestaciones no incluida en el Modulo. (Facturar fuera del modulo con documentacion requerida): MES Ecografia de abdomen. Eco",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "BQ"
     },
     {
       "code": "27.90.01",
       "description": "COLOCACIÓN DE CATETER PERITONEAL Y PERÍODO DE ENTRENAMIENTO",
-      "normativa": "INCLUYE: Honora rios y Gastos. Recuento de reticulocitos - Recuento de Plaquetas - Citomorfología de Sangre periférica - Ferremia (opcional) - Capacidad de saturación transferrina (opcional) Porcentaje Saturación tranferrina (opcional) - Toma de muestra. Sugerencia: Uno por mes los primeros tres meses. Luego uno cada dos meses. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. En casos de cítopenias críticas (< 50.000 plaquetas - < 1.500 neutrófilos o < 7gr. Hemoglobina), se pueden requerir controles mas seguidos. Pensión en habitación compartida, Medicamentos y Material Descartable inherente al procedimiento, Derecho de Hemodinámia, Honorarios Médicos, Realización del cateterismo, sobreestimulación cardíaca, mapeo y desencadenamiento de la arritmia y otros. -Hematocrito. -Recuento Plaquetario. -Frotis sangre Periférica. -Tiempo de sangría. -Tiempo plasma/recalcificado. -APTT . -Tiempo de Protrombina. -Tasa de Protrombina (Quick). -TiárWpo de Trombina. -Retracción del coágulo. -Fibrinógeno. -Lisis de Euglobulinas. ,,Consumo Protombina TGT (Test generación Tromboplastina).Sugerencia: Uno al inicio del tratamiento anticoagulante. Uno en pre-quirúrgico cirugía gral. Uno en pre-q9iii.:irgico cirugía CV. Dos en post-quirúrgico cirugia CV . Uno al inicio del estudio de coa'ulopatía o sangrados. Sujeto a modificaciones de acuerdo a evolución clínica o necesidád. Test de Sickling - Cuerpo-s- de Heinz - Electroforesis Hemoglob\nEXCLUYE: Material Radiactivo sea ún valor rFninn Colocación de marcapaso definitivo. Estudios Hemociinaminns Anestesia — Estudio inicial de coagulopatias. Preoperatorio de cirugía car9idvascular o general. Inicio del tratamiento Anticoagulante.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios incluye: Honorarios (incluye también extracción del elemento)\nEXCLUYE: Suturas mecanicas (de acuerdo a PROTOCOLO VIGENTE) Biopsia por congelación. Anatomía patologica. Interconsultas. Estudios prev os en caso de atención de guardia. Estudios prequirúrgicos. Anestesia.",
       "coseguro": "S/C"
     },
     {
       "code": "27.90.04",
       "description": "DIÁLISIS PERITONEAL CONTINUA AMBULATORIA",
-      "normativa": "COLOCACIÓN DE CATETER PERITONEAL Y PERÍODO DE ENTRENAMIENTO DIÁLISIS PERITONEAL CONTINUA AMBULATORIA Inclusiones y Exclusiones: de acuerdo a contrato IAPOS vigente",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: de acuerdo a DG IAPOS vigente\nREQUISITOS: para el mismo Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por año para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de 3 años Si la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior Se recomienda realizar DMO (S/la US Preventive Services Task Force(USPSTF) en: Mujeres mayores de 65 años en forma rutinaria. Mujeres, a partir de los 60 años, con riesgo",
       "coseguro": "S/C"
     },
     {
       "code": "27.90.03",
       "description": "HEMODIÁLISIS X SESIÓN",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a contrato IAPOS vigente HEMODIÁLISIS X SESIÓN CON TRASLADO AMBULANCIA INCLUIDO",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos 120.01.11 MANOMETRÍA ESOFÁGICA\nEXCLUYE: Botón de Gastrotomía",
       "coseguro": "S/C"
     },
     {
       "code": "27.90.23",
       "description": "HEMODIÁLISIS X SESIÓN CON TRASLADO AMBULANCIA INCLUIDO",
-      "normativa": "INCLUYE: Hematocrito - Recuento Plaquetas - Dosaje Anti SEGUIMIENTO ANTICOAGULACION HEPARINA BAJOPESO MOLECULAR SEGUIMIENTO ANTICOAGULACION HEPARINA + ORAL (TRANSICION) o necesidad. Sugerencia: Uno por día por cuatro días. Luego sigue con esquema de seguimiento de anticoagulación oral. Honorarios y Gastos 1 Gastos. o) O o «5 co = LUSODEMICROSCOPIO CO O CO o O = USODE ARGÓNPLASMA niCV CO O C0 O 1\nREQUISITOS: Lesiones vasculares o angiod",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "27.90.24",
       "description": "HEMODIÁLISIS X SESIÓN PACIENTE HIV+",
-      "normativa": "INCLUYE: Honorarios. Honorarios Médicos, Derechos de Hemodinámia, Prácticas de Rx ,Medicamentos, Sustancia de Contraste (100ML) y Material Descartable inherente a la práctica. Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. Honorarios y Gastos de la detección. ci Criterios de autorización: carcinoma mamario, melanoma cutáneo, carcinoma de vulva. Honorarios. Uso de aparato Gamma Probe (ALQUILER=50% del valor del módulo). Pensión*, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo CORONARIOGRAFFA SELECTIVA contempla solo lo inherente a la realización de la cinecoronariografia. Anestesia. Observación: Cuando se realice Cinecoronariografía y Angioplastia en el mismo acto se abonará: 60%de la Cinecoronarioqrafia y 100% de la_Angioplastia Pensión. Material radiactivo, centellograma linfático. Anestesia.\nREQUISITOS: DESCENSO MASIVO DE PESO (post bariatrica o no) +COLGAJOS CUTÁNEOSQUEREQUIERAN CORRECCIÓNPORPATOLOGÍAFUNCIONAL, EN CUALQUIERÁREADELCUERPO (ABDOMEN, BRAZOSOMUSLOS). El plan quirúrgico establecido debe estar debidamente justificado por el profesional tratante, desde el inicio DERMOLIPECTOMÍAPOST DESCENSO MASIVODE PESO del tratamiento ( para la autorización de cada solicitud). RESUMEN DE HISTORIACLÍNICA ORIENTADAALA PRESTACIÓNCON DESCRIPCIÓNDE COLGAJOSYTRANSTORNOFUNCIONALQUE JUSTIFIQUELAPRÁCTICA. FOTOGRAFÍASDELÁREA AFECTADA TOMADAS POR ELPROFESIONAL. Corresponde: Honorarios 70% y Gastos 30%del valor de la práctica. 'DETECCIÓNDEGANGLIO CENTINELA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "27.90.02",
       "description": "RECOLOCACIÓN DE CATÉTER PERITONEAL",
-      "normativa": "RECOLOCACIÓN DE CATÉTER PERITONEAL Inclusiones y Exclusiones: de acuerdo a contrato IAPOS vigente",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos. Uso de v ideo.\nEXCLUYE: de acuerdo a contrato IAPOS v igente",
       "coseguro": "S/C"
     },
     {
       "code": "27.90.05",
       "description": "TRANSPORTE DE PACIENTES (VALOR POR KM)",
-      "normativa": "EXCLUYE: PROVISION ACCESO VASCULAR) 01",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "19.90.03",
       "description": "MÓDULO NUTRICIÓN ENTERAL DOMICILIARIA ALTA COMPLEJIDAD",
-      "normativa": "INCLUYE: MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 + 75% CIRUGÍABARIÁTRICA: GASTRECTOMÍA EN MANGA (SLEEVE) (NO 75% MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 + d ci cs) o.) O) O) O) .--1 ,--i ,--i d cs) ci ci o.) a) O) a; ,--1 ,-I LO N 00 O) LO d' • id cr) O) .--I LO -ct d O O) ,--I rn Ln O Cr; O O O) Z ,--i CV 0 ,-i O Oi Oi ,--I .--I PRIMERA ENTREVISTA NUTRICIONISTA '1' 0 ,-i O",
-      "price_hidden": "",
+      "normativa": "INCLUYE: MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 + 75% CIRUGÍABARIÁTRICA: GASTRECTOMÍA EN MANGA (SLEEVE) (NO INCLUYE 75% MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 +\nEXCLUYE: PROVISION ACCESO VASCULAR",
       "coseguro": "OI"
     },
     {
       "code": "19.90.02",
       "description": "MÓDULO NUTRICIÓN ENTERAL DOMICILIARIA BAJA COMPLEJIDAD",
-      "normativa": "INCLUYE: Honorarios y Gastos. ECOGRAFÍA CON TRANSLUCENCIANUCAL Honorarios y Gastos. ECOGRAFÍADEAORTAABDOMINAL (DINÁMICA Y ESTÁTICA) ECOGRAFÍA DE CADERA Honorarios y Gastos. ECOGRAFÍADEPARTES BLANDAS Honorarios y Gastos. ECOGRAFÍA DETESTÍCULOS Honorarios y Gastos. : Honorarios y Gastos. Honorarios y Gastos. ECOENDOSCOPIA BILIOPANCREÁTICA CON O SIN PUNCIÓN Co La rea lización o no de la punción diagnóstica quedará sujeto a auditoría posterior, según protocolo. En caso de rea lizarse punción diagnóstica la misma deberá rea lizarse en e l mismo procedimiento, y gestionarse el elemento (aguja de puncion especifica) por la v ía de reposición. Honorarios y Gastos. ECOCARDIOGRAMA DE STRESS FÍSICO O FARMACO LÓGICO Honorarios , Gastos y Medicamentos. 20 50.04 1 Honorarios y Gastos. ECO-DOPPLER TRANSESOFÁGICO COLOR Honorarios y Gastos. c.- .--- [ Honorarios y Gastos. DRENAJEPERCUTÁNEO BILIAR N C9 O O O U) (11 c (\nREQUISITOS: CARACTERÍSTICAS PREOCUPANTES: ECOENDOSCOPIA Y EVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared 'quística. Wirsung entre 5 — 9 mm, ca mbio a brupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un crec imiento del quiste > 5 mm en dos a ños. ESTIGMASDE ALTORIESGO: CONDUCTA QUIRÚRGICA PRIMERA ELECCIÓN (NO ECOENDOSCOPÍANIPUNCIÓN). Obstrucción del Wirsung con lesión en cabeza pancreática. Wirsung >10 mm. SEGUIMIENTO IMAGENOLÓGICO (NOECOENDOSCOPÍA NI PUNCIÓN): TODOS LOS PACIENTES CON Q UISTESMENORES DE 3CM, SIN CARACTERISTICAS PREOCUPANTES. Resumen de historia clínica orientado a la patología. RMI de a bdomen o RMI colangio",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "19.90.01",
       "description": "MÓDULO NUTRICIÓN ENTERAL DOMICILIARIA PEDIÁTRICA",
-      "normativa": "INCLUYE: MA I EliIALJ=S ESPEcfFICoS) - •ANESTESIA NIVEL 7 + 75% BPE",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: nutricionales generales y particulares que le servirá como material de consulta en su domicilio. En todos los pacientes se trabajara con canteo de hidratos dadas las recomendaciones actuales en tratamiento de diabetes tipo 1. La implementación del conteo de hidratos de carbono se realizará de la siguiente forma: El tratamiento nutricional constará de cuatro (4) consultas iniciales de forma semanal, (módulo 1) para el aprendizaje del sistema de conteo de hidratos de carbono, posteriormente se realizarán consultas con una periodicidad acorde a cada paciente. Primera consulta: Conocimientos básicos de nutrientes, identificación de alimentos que contienen carbohidratos. Realización de anamnesis alimentaria (recordatorio, datos antropométricos, bioquímicos , otros). Breve explicación de los pasos a llevar a cabo en el método de",
       "coseguro": "OI"
     },
     {
       "code": "19.90.05",
       "description": "MÓDULO DISFAGIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. ECOGRAFÍA CON TRANSLUCENCIA NUCAL Honorarios y Gastos. 1 , ECOGRAFIA DE AORTAABDOMINAL (DINÁMICAYESTÁTICA) Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. ECOGRAFÍA DE TESTÍCULOS Honorarios y Gastos. - ,k :. 1. r) O o <— N O o -4o ,iri O ,:i o; o LO 00 .1) (9s; cd CO o5 1 - 1 - 1 - N- co o o. .c,\" O 0 a:. co <-- 1 - (N C- ,to ci Lo C\ I d <o ,-tr, E co cci ,-- co (S:\::' ,-,-;. V.-:■:\"' i r--- ,,,-; CD ci ul O ..c, O cg ,--- Lo ai- O ,- O ,-- 1 Honorarios y Gastos. ELECTROMIOGRAFIADEMIEMBROS SUPERIORES O INFERIORESO Honorarios y Gastos. Material Descartable FACIAL Criterios de autorización: patología inflamatoria, tumoral y funcional, que afecta el canal anal, recto inferior, tabique recto vaginal y suelo ECOGRAFIAENDOANAL pelviano, adjuntando descripción semiológica y otros estudios previos Honorarios y gastos. ECOGRAFIA ENDOCAVITARIA PROSTÁTICA Honorarios y Gastos. Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de a borto espontáneo - Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el ECOGRAFIA ENDOCAVITARIAVAGINAL cuello uterino está cambiando o a briéndose cuando el",
-      "price_hidden": "",
+      "normativa": "INCLUYE: MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 + 75% CIRUGÍABARIÁTRICA: GASTRECTOMÍA EN MANGA (SLEEVE) (NO INCLUYE 75% MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 +\nEXCLUYE: PROVISION ACCESO VASCULAR",
       "coseguro": "OI"
     },
     {
       "code": "19.90.04",
       "description": "MÓDULO SOPORTE ORAL COMPLEMENTARIO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 30.01. 13 RETINOFLUORESCENCIA Honorarios y Gastos. COREOPLASTlA.IRlDECTOMIA. TRATAMIENTO QUIR ÚRGICO DEL GLAUCOMA . OPERACION PLASTICA EN CANALICULOS. Honorarios y Gastos. _ DRENAJE GLANDULA O SACO LAG R1MAL-ABS.SECC. PAPILA Honorarios y Gastos. LAGRIMAL PILA LAGRIMAL-ESTRICTUROTOMIA. . cAtt itKiz. DECONDUCTO LAGR IMO NASAL EN QUIR. CON ANEST.GR Honorarios y,Gastos. DILATACIONDECONDUCTO LACRiM0 NASAL CONINTUBACION. Honorarios y Gastos. CATETERIZACION DE CONDUCTOLACRIMONASAL Honorarios y Gastos. LJAcKiuus I UHRINOST.FISTULIZAC. SACO LAGRIMAL EN CAV. NASAL o , Honorarios y Gastos. CORRECCIONDEPTOSIS- UNILATERAL __ _ IBLEI-AKORRAFIAPARCIAL OTOTAL. Honorarios y Gastos. RI FEAPnrl-lál Acic Honorarios y Gastos. ESCISION DE PARPADO, BLEFARECTOMIA- PIEL DE PARPADO. _ GLANDULA MEIBOMIANA,CHALAZIO, SUTURA DE PIEL DEPARPADO Honorarios y Gastos. BLEFAROTOMIA- Honorarios y Gastos. 1172 bLEI-AHÓPLASTIA-INJERTO,CANTOPL ASTIA,TRASOPLASTIA, RESTAURACION PLASTICA DE BASE CILIAR, SIMILAR ui RECONSTRUCCION TOTAL DEL PARPADO. TECNICADEHUGJES O novvovurcHrlkiDIGITAL U/ I- LuUKESCEINABILATERAL >, FOTOCOAGULACION CON RAYOLASER e Honorarios y Gastos. FOTOCOAGULACIÓN CON RAYO LASER ARGON Honorarios y Gastos. 7á 2 ()!MYSOU ap colpan crwoeiDosv currirPvoLre2 . a.ro s DI ( O \E rO1O £ 23* (jo Lb LULk O. O O_ (,) CO a) (0 o U) 5 oo o> - o 3 E '2 o) -3 o rTs cr o c aO .O •1 O 9c\"u3 5 Co CO -C - CO N O \"id C > E E- 8 w e c (Lo O -o o- g o 2 a 0. CD O 0_ a> O o o 8 0.. .0 0) u",
-      "price_hidden": "",
+      "normativa": "INCLUYE: (prestaciones mínimas): Desde el punto de vista nutricional el paciente debe aprender nociones básicas acerca del plan alimentario adecuado tanto desde el punto de vista teórico como practico comenzando a conocer desde lo más elemental acerca de los alimentos sus implicancias en la enfermedad. La educación nutricional debe ser metódica y programada, respetando los tiempos del paciente y su familia, considerando la necesidad de repetir todos los conceptos\nREQUISITOS: nutricionales generales y particulares que le servirá como material de consulta en su domicilio. En todos los pacientes se trabajara con conteo de hidratos dadas recomendaciones actuales en tratamiento de diabetes tipo 1. La implementación del conteo de hidratos de carbono se realizará de la siguiente forma: El tratamiento n",
       "coseguro": "OI"
     },
     {
       "code": "19.90.06",
       "description": "MODULO ALIMENTACION PARENTERAL (EXCLUYE PROVISION ACCESO VASCULAR)",
-      "normativa": "MODULO ALIMENTACION PARENTERAL (EXCLUYE PROVISION ACCESO VASCULAR)",
-      "price_hidden": "",
+      "normativa": "INCLUYE: módulo:\nREQUISITOS: más frecuentes son el síndrome de intestino corto y otras causas que produzcan una disminución efectiva de la superficie de absorción: fístulas entéricas, enfermedad inflamatoria intestinal, enteritis por radiación y los trastornos graves de la motilidad. Condiciones para realizar NP domiciliaria: • El paciente presenta una disfunción intestinal grave que se prevé prolongada. • El paciente no puede mantenerse exclusivamente con alimentación oral o enteral. • El tratamiento puede normalizar o, al menos, mejorar la situación nutricional del paciente. • El tratamiento puede mejorar la capacidad funcional del paciente. • Existe suficiente apoyo en el domicilio para encargarse de la técnica sin que suponga una carga desproporcionada.",
       "coseguro": "OI"
     },
     {
       "code": "19.90.13",
       "description": "MÓDULO ALERGIA PROTEINA ALIMENTARIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. ECOGRAFÍA CON TRANSLUCENCIA NUCAL Honorarios y Gastos. 1 , ECOGRAFIA DE AORTAABDOMINAL (DINÁMICAYESTÁTICA) Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. ECOGRAFÍA DE TESTÍCULOS Honorarios y Gastos. - ,k :. 1. r) O o <— N O o -4o ,iri O ,:i o; o LO 00 .1) (9s; cd CO o5 1 - 1 - 1 - N- co o o. .c,\" O 0 a:. co <-- 1 - (N C- ,to ci Lo C\ I d <o ,-tr, E co cci ,-- co (S:\::' ,-,-;. V.-:■:\"' i r--- ,,,-; CD ci ul O ..c, O cg ,--- Lo ai- O ,- O ,-- 1 Honorarios y Gastos. ELECTROMIOGRAFIADEMIEMBROS SUPERIORES O INFERIORESO Honorarios y Gastos. Material Descartable FACIAL Criterios de autorización: patología inflamatoria, tumoral y funcional, que afecta el canal anal, recto inferior, tabique recto vaginal y suelo ECOGRAFIAENDOANAL pelviano, adjuntando descripción semiológica y otros estudios previos Honorarios y gastos. ECOGRAFIA ENDOCAVITARIA PROSTÁTICA Honorarios y Gastos. Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de a borto espontáneo - Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el ECOGRAFIA ENDOCAVITARIAVAGINAL cuello uterino está cambiando o a briéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los valores n",
-      "price_hidden": "",
+      "normativa": "INCLUYE: . Honorarios profesionales Medico alergista (prik test), Medico nutricionista - Pediatra Licenciado en nutricional, plan nutricional y provisión de suplementos por periodo regular de hasta 10 meses. Corsulta, Evaluación y diag\nEXCLUYE: oxigenoterapia, acompañantes en el domicilio, urgencias, medicación transdérmica, traslado del paciente y toda otra prestación no expresamente incluida. Imponente: Las visitas médicas son programadas y según necesidad del paciente. A cualquiera de los módulos anteriores se le puede adicionar guardias de enfermería, para los casos de fin de vida, los que serán cotizados según la necesidad de cadente.",
       "coseguro": "OI"
     },
     {
       "code": "19.90.14",
       "description": "MÓDULO TRASTORNO CONDUCTA ALIMENTARIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. ECOGRAFÍA DE TESTÍCULOS Honorarios y Gastos. Criterios de autorización: patología inflamatoria, tumoral y funcional, que afecta el canal Honorarios y gastos. Honorarios y Gastos. F. P, o n-O (O (D Lo o o Lo o Lo Lo c) o o Lo (O 05 cd (O co O) O) N- O) O) O) .-- ..- ,-- ,-- ,- cm cm ,,-- CN CV CV 1 Honorarios y Gastos. ECOGRAFÍA PARA LAAMNINOCENTESIS Honorarios y Gastos. ECOGRAFIARENOVESICOP ROSTATICA COMPLETA Honorarios y Gastos. ECOGRAFÍATIROIDEA Honorarios y Gastos. EEGDIGITAL Honorarios y Gastos. EEGSUEÑOVIGILIA PROLONGA DO Honorarios y Gastos. ELECTROCARDIOGRAMADE HOLTERPOR 24HS Descartable Honorarios y Gastos. Material ELECTROMIOGRAF ÍACUATROMIEMBROS ELECTROMIOGRAFÍA DE MIEMBROS SUPERIORES OINFERIORE Honorarios y Gastos. Material Descartable Honorarios y Gastos. ELECTRORETINOGRAMACOMPUTARIZADO Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación EMBOLIZACIÓNSELECTIVA ARTERIALPERIFERICA (EXCLUYEC compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMIA, BAL para citología o cultivo, SOSPECHADEPATOLOGÍA DE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios profesionales Médico especialista en nutrición (inicial quincenal y mensual, psicólogo (inicial familiar y semanal), psiquiatra (inicial y mensual). Provisión de suplementos nutricionales. El médico especialista en nutrición realizará los controles clínicos, la evaluación nutricional y la reeducación alimentaria. Decidirá en cada paciente y de acuerdo a la evaluación nutricional realizada junto al equipo multidisciplinario el tipo de soporte nutricional. El mismo puede ser oral o enteral por SNG y domiciliario con suplemento hipercalórico vía oral y en caso de rechazo de la ingesta o ingesta insuficiente con estabilidad clínica se iniciará soporte enteral por SNG en domicilio con fórmulas isocalóricas 1000 a 1500 ml/d. Evaluación y diagnóstico nutricional. Evaluación de la conducta alimentaria. Evaluación clínica del paciente. Identificación y tratamiento de complicaciones o comorbilidades. Evaluación de estudios clínicos solicitados e indicación de interconsultas necesarias (cardiología, endocrinología, ginecología, etc.). Plan nutricional, implementación del mismo. Reeducación alimentaria. Prescripción de aportes necesarios para la recuperación nutricional y de medicación sintomática requerida. Solicitud de controles periódicos de laboratorio según evolución del paciente. Adecuación del tratamiento según evolución. T\nEXCLUYE: Determinaciones bioquímicas y otros descartables o insumos no relacionados.",
       "coseguro": "OI"
     },
     {
       "code": "19.90.15",
       "description": "MÓDULO CETOGENICO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. ECO-DOPPLERTRANSESOFÁGICOCOLOR Honorarios y Gastos. 1 Honorarios y Gastos. ECO-DOPPLERVASCULARPERIFÉRICO Honorarios y Gastos. ECOCARDIOGRAMA COMPLETO AMy B Honorarios y Gastos. 1 Honorarios , Gastos y Medicamentos. 2 nr N 0 C \I 0 a) Lo CCi co 0 0 O C•4 P LULA» 7I SCA O M N C> (3) cs) o O O 0 Cs1 0 C \I cd ozi „.-cd .,- N ,— O C> ts ■ 0 '1- ci N C; LO x-,— CCD Cd LO CD C; LO Cd r, r– N— C; Cd .......... 1 Honorarios y Gastos. Honorarios y Gastos. Criterios de Autorizacíón: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de aborto espontáneo - Escuchar los latidos cardíacos de un feto Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el cuello uterino está cambiando o abriéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los va lores normales, por ejemplo si las estructuras pélvicas o el feto son normales. Se autorizará una vez por año prestacional y en caso de necesidadde repetir el estudio con antelación al año prestacional, se deberán adjuntar estudios previos que justifiquen su realización. En caso de embarazo se autorizara bajo el plan materno infantil. Honorarios y Gastos. La realización o no de la punción diagnóstica quedará sujeto a auditoría posterior, según protocolo. En caso de realizarse punción diagnóstica la",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios profesionales Médico especialista en nutrición (inicial quincenal y mensual, psicólogo (inicial familiar y semanal), psiquiatra (inicial y mensual). Provisión de suplementos nutricionales. El médico especialista en nutrición realizará los controles clínicos, la evaluación nutricional y la reeducación alimentaria. Decidirá en cada paciente y de acuerdo a la evaluación nutricional realizada junto al equipo multidisciplinario el tipo de soporte nutricional. El mismo puede ser oral o enteral por SNG y domiciliario con suplemento hipercalórico vía oral y en caso de rechazo de la ingesta o ingesta insuficiente con estabilidad clínica se iniciará soporte enteral por SNG en domicilio con fórmulas isocalóricas 1000 a 1500 ml/d. Evaluación y diagnóstico nutricional. Evaluación de la conducta alimentaria. Evaluación clínica del paciente. Identificación y tratamiento de complicaciones o comorbilidades. Evaluación de estudios clínicos solicitados e indicación de interconsultas necesarias (cardiología, endocrinología, ginecología, etc.). Plan nutricional, implementación del mismo. Reeducación alimentaria. Prescripción de aportes necesarios para la recuperación nutricional y de medicación sintomática requerida. Solicitud de controles periódicos de laboratorio según evolución del paciente. Adecuación del tratamiento según evolución. Trabajo con la familia del paciente sobre los asp\nEXCLUYE: Determinaciones bioquímicas y otros descartables o insumos no relacionados.",
       "coseguro": "OI"
     },
     {
       "code": "19.90.16",
       "description": "MÓDULO PERIOPERATORIO CIRUGIA MAYOR",
-      "normativa": "INCLUYE: Honorarios y Gastos. DRENAJEPERCUTÁNEO BILIAR N C9 O O O U) (11 c (I) >-. ' 0 (13 U) 0 ' U) 011aO0Os00U)OU) 0(3 O u) o 2 rci 12 O' >\", E<i) as cr .0 la a CO .0 • OO CC Eg e (a.£ ,o •E o 0_ O ._ o o .7= 0 a) (13 _ O) E .N ro .0 7 1 ° 0 7 (5 0> 2 1)-cairuE ._ 11 O 0., (1) D-3-0 = -- -7=1 :6 13.1) X o_ ,._ 75 - E ,- o_ -o W O O 0_ C) 13 E .,_ rr, 7 U) 5 ca -17) e ,._ o a) = eu N (y) co C C OZ) 15 (..) a) ui a) 0 -cs u) 0 D =00 -ów wo cg o.,> ,_ 0 713 1 O 7; o 15u' D 11)., 2 a) ir -1-5 , ' co 0 -0 r ° ''.' C C5P•y) 7 ,- ,-- ce 0 u) 75)C073 0 ' > as cu co -(T) c'3 cu 3 'OO C 0 tTO 7 o 1 rs, cl) -- '--• 13 1:1)as07co-5-E(13 c {ay -E 9-, a)E -2TI 2 a) o u) m 12 ,a3 N O) O 0 ''''c\"\" c C) , Cr) c 9- -(5_5 e ...-.' -a).----.---0 a) 7 ,n3 -0 0 (a_,, ,--c--, ..--.• 03 (1) - OS c- (!) (u 1.-,--, o o U) I (f) -0 o - a) a) E ,o :5 U) 1 O a) CO <.) CL U) .-0 5) 4:11 COo a) Cr) N I4-7- ' O 0 C -0 .0 O: U) '.. cacoa)Sui usa) ,c>. 2 ) a) 1 u) w_ Tu 1 (13 u) w 13 c 5ou ) 1C..) (13 rt) O _ O -oi iii 9 S (-. c E (i) --t O É c '0- ._, ó -cs 8 5 ,° n 5 N 1o; 29L.) ..., o_ - = as = as a) :11 -o ■ c .- 0 U ...., -(ii c cu r ocoNal my ,„- _ u) a> c _ a> , o o O) N `'tu (T) a) E n •0 a).' a) -o>- u) U) --0,.... 0 1 n' E CL E 2 G.) 1D = 41) - •--,>_0 ° on a) . n o a) cl) 'c z- ---' 13 u) 4_.-',„. cr V) -0 U) ...› , -o co 0c u) o .4. >-. as c (13 ES c) o a) E 0 o , , co o - a) (u Ir c Ta _g 1 7)_ -a E -o ' 2 i. as C O 1.,=. (1) .o) <0 0 0 .0 •-coO . 5 u) 0 as N o al al -° o 2 ' .5 (7) -11) ac-u ° 49- a) ...,° ., e, E p o_ 3(vico. a) 7.. ,-, cu c cu -,_ 5, TO p u) _ ce .._o -,) O E .:(1) -5 -- y, .2, 4._9Ca, = (U U eL ,.._ > .--. a.) CL) c 4---: •-_-• O_ W 2 -o -o o C.) o_ o_ co o- ..c) }.• (13 . re G.) -.-.' CD >, 5 20. 715 as \"O O (C3 2= C O U) c CO . C o U) 7.5 co N O dO c m 7.) U) c o ca U) o o a) s >-. (13 T0 7 a). 0o >, U) U) 0 zi(-^ E (13 2 c5 e .-c2i; c2 co -c o 7,5 (1) O b 5 ,... o- a i.8 a, - .-1--1(a as l(13 1 -o SI) -o • 0 z ,,_",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios profesionales Médico especialista en nutrición (inicial quincenal y mensual, psicólogo (inicial familiar y semanal), psiquiatra (inicial y mensual). Provisión de suplementos nutricionales. El médico especialista en nutrición realizará los controles clínicos, la evaluación nutricional y la reeducación alimentaria. Decidirá en cada paciente y de acuerdo a la evaluación nutricional realizada junto al equipo multidisciplinario el tipo de soporte nutricional. El mismo puede ser oral o enteral por SNG y domiciliario con suplemento hipercalórico vía oral y en caso de rechazo de la ingesta o ingesta insuficiente con estabilidad clínica se iniciará soporte enteral por SNG en domicilio con fórmulas isocalóricas 1000 a 1500 ml/d. Evaluación y diagnóstico nutricional. Evaluación de la conducta alimentaria. Evaluación clínica del paciente. Identificación y tratamiento de complicaciones o comorbilidades. Evaluación de estudios clínicos solicitados e indicación de interconsultas necesarias (cardiología, endocrinología, ginecología, etc.). Plan nutricional, implementación del mismo. Reeducación alimentaria. Prescripción de aportes necesarios para la recuperación nutricional y de medicación sintomática requerida. Solicitud de controles periódicos de laboratorio según evolución del paciente. Adecuación del tratamiento según evolución. Trabajo con la familia del paciente sobre los aspectos clínicos y nutricional\nEXCLUYE: Determinaciones bioquímicas y otros descartables o insumos no relacionados.",
       "coseguro": "OI"
     },
     {
       "code": "19.90.17",
       "description": "MÓDULO DIABETES INICIO",
-      "normativa": "INCLUYE: Honorarios y Gastos. ECOGRAFÍA DE TESTÍCULOS Honorarios y Gastos. - ,k :. 1. r) O o <— N O o -4o ,iri O ,:i o; o LO 00 .1) (9s; cd CO o5 1 - 1 - 1 - N- co o o. .c,\" O 0 a:. co <-- 1 - (N C- ,to ci Lo C\ I d <o ,-tr, E co cci ,-- co (S:\::' ,-,-;. V.-:■:\"' i r--- ,,,-; CD ci ul O ..c, O cg ,--- Lo ai- O ,- O ,-- 1 Honorarios y Gastos. ELECTROMIOGRAFIADEMIEMBROS SUPERIORES O INFERIORESO Honorarios y Gastos. Material Descartable FACIAL Criterios de autorización: patología inflamatoria, tumoral y funcional, que afecta el canal anal, recto inferior, tabique recto vaginal y suelo ECOGRAFIAENDOANAL pelviano, adjuntando descripción semiológica y otros estudios previos Honorarios y gastos. ECOGRAFIA ENDOCAVITARIA PROSTÁTICA Honorarios y Gastos. Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de a borto espontáneo - Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el ECOGRAFIA ENDOCAVITARIAVAGINAL cuello uterino está cambiando o a briéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los valores norma les, por ejemplo si las estructuras pélvicas o el feto son norma les. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación a l año prestacional, se deberán adjuntar estudios previos que justifiquen su rea lización. E",
-      "price_hidden": "",
+      "normativa": "INCLUYE: (prestaciones mínimas): 1° Consulta con médico pediatra especialista en endocrinología infantil: Consulta de evaluación y diagnóstico, comunicación del diagnóstico al paciente y la familia. Pedido de laboratorio inicial e interconsultas y estudios respectivos. Determinar necesidad de internación o tratamiento ambulatorio. Indicación de tratamiento con insulina en todas sus alternativas terapéuticas SIN BOMBA INFUSORA. Explicación de automonitoreo. Instrucción sobre utilización de aparato de control de glucemia y colocación de insulina. Confección de pedidos necesarios para cada obra social de acuerdo al tratamiento indicado. 1° Consulta con médico pediatra especialista en nutrición: Consulta de evaluación y diagnóstico nutricional mediante historia clínica, antropometría, examen físico. Solicitud de exámenes complementarios necesarios. Comunicación de primeras nociones de tratamiento nutricional y opciones de tratamiento. Pedido de registro alimentario. Indicación de tratamiento nutricional según edad, sexo y complicaciones asociadas. 1° Consulta con licenciada en nutrición: Evaluación de registro alimentario. Confección de plan alimentario según indicación de médico especialista en nutrición. Comienzo de educación diabetológica. Consulta con licenciado en psicológia individual y familiar en modalidad sesiones y talleres Estas consultas se realizaran en simultáneo o en el caso de no ser posible dentro cit. la misma semana.\nREQUISITOS: basándose en una buena educación diabetológica en el marco de una excelente relación médico-paciente facilitaran el buen control metabólico considerado la meta del tratamiento actualmente. 1) Módulo Diabetes Inicio (código",
       "coseguro": "OI"
     },
     {
       "code": "19.90.18",
       "description": "MÓDULO DIABETES INICIO SUPLEMENTADO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. ECOGRAFÍA DE TESTÍCULOS Honorarios y Gastos. Criterios de autorización: patología inflamatoria, tumoral y funcional, que afecta el canal Honorarios y gastos. Honorarios y Gastos. F. P, o n-O (O (D Lo o o Lo o Lo Lo c) o o Lo (O 05 cd (O co O) O) N- O) O) O) .-- ..- ,-- ,-- ,- cm cm ,,-- CN CV CV 1 Honorarios y Gastos. ECOGRAFÍA PARA LAAMNINOCENTESIS Honorarios y Gastos. ECOGRAFIARENOVESICOP ROSTATICA COMPLETA Honorarios y Gastos. ECOGRAFÍATIROIDEA Honorarios y Gastos. EEGDIGITAL Honorarios y Gastos. EEGSUEÑOVIGILIA PROLONGA DO Honorarios y Gastos. ELECTROCARDIOGRAMADE HOLTERPOR 24HS Descartable Honorarios y Gastos. Material ELECTROMIOGRAF ÍACUATROMIEMBROS ELECTROMIOGRAFÍA DE MIEMBROS SUPERIORES OINFERIORE Honorarios y Gastos. Material Descartable Honorarios y Gastos. ELECTRORETINOGRAMACOMPUTARIZADO Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación EMBOLIZACIÓNSELECTIVA ARTERIALPERIFERICA (EXCLUYEC compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMIA, BAL para citología o cult",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: nutricionales del paciente diabético han variado en el tiempo en función del avance del conocimiento y si bien se basan en los mismos principios que una alimentación normal, la adecuada evaluación nutricional que determina una indicación precisa y la adecuada transmisión de estas indicaciones basándose en una buena educación diabetológica en el marco de una excelente relación médico-paciente facilitaran el buen control metabólico considerado la meta del tratamiento actualmente. Indicación; Pacientes diabéticos tipo 1 con necesidad de abordaje",
       "coseguro": "OI"
     },
     {
       "code": "19.90.19",
       "description": "MÓDULO DIABETES SEGUIMIENTO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. ECOGRAFÍA DE TESTÍCULOS Honorarios y Gastos. - ,k :. 1. r) O o <— N O o -4o ,iri O ,:i o; o LO 00 .1) (9s; cd CO o5 1 - 1 - 1 - N- co o o. .c,\" O 0 a:. co <-- 1 - (N C- ,to ci Lo C\ I d <o ,-tr, E co cci ,-- co (S:\::' ,-,-;. V.-:■:\"' i r--- ,,,-; CD ci ul O ..c, O cg ,--- Lo ai- O ,- O ,-- 1 Honorarios y Gastos. ELECTROMIOGRAFIADEMIEMBROS SUPERIORES O INFERIORESO Honorarios y Gastos. Material Descartable FACIAL Criterios de autorización: patología inflamatoria, tumoral y funcional, que afecta el canal anal, recto inferior, tabique recto vaginal y suelo ECOGRAFIAENDOANAL pelviano, adjuntando descripción semiológica y otros estudios previos Honorarios y gastos. ECOGRAFIA ENDOCAVITARIA PROSTÁTICA Honorarios y Gastos. Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de a borto espontáneo - Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el ECOGRAFIA ENDOCAVITARIAVAGINAL cuello uterino está cambiando o a briéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los valores norma les, por ejemplo si las estructuras pélvicas o el feto son norma les. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación a l año prestacional, se deberán adju",
-      "price_hidden": "",
+      "normativa": "INCLUYE: (prestaciones mínimas): Desde el punto de vista nutricional el paciente debe aprender nociones básicas acerca del plan alimentario adecuado tanto desde el punto de vista teórico como practico comenzando a conocer desde lo más elemental acerca de los alimentos sus implicancias en la enfermedad. La educación nutricional debe ser metódica y programada, respetando los tiempos del paciente y su familia, considerando la necesidad de repetir todos los conceptos\nREQUISITOS: nutricionales generales y particulares que le servirá como material de consulta en su domicilio. En todos los pacientes se trabajara con conteo de hidratos dadas recomendaciones actuales en tratamiento de diabetes tipo 1. La implementación del conteo de hidratos de carbono se realizará de la siguiente forma: El tratamiento nutricional constará de cuatro (4) consultas iniciales de forma semanal, para el aprendizaje del sistema de",
       "coseguro": "OI"
     },
     {
       "code": "19.90.20",
       "description": "MÓDULO DIABETES PACIENTES CRONICOS",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Criterios de Autorizacíón: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de aborto espontáneo - Escuchar los latidos cardíacos de un feto Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el cuello uterino está cambiando o abriéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los va lores normales, por ejemplo si las estructuras pélvicas o el feto son normales. Se autorizará una vez por año prestacional y en caso de necesidadde repetir el estudio con antelación al año prestacional, se deberán adjuntar estudios previos que justifiquen su realización. En caso de embarazo se autorizara bajo el plan materno infantil. Honorarios y Gastos. La realización o no de la punción diagnóstica quedará sujeto a auditoría posterior, según protocolo. En caso de realizarse punción diagnóstica la misma deberá realizarse en el mismo procedimiento, y gestionarse el elemento (aguja de puncion especifica) por la vía de reposición.\nREQUISITOS: CARACTERÍSTICASPREOCUPANTES: ECOENDOSCOPIA Y EVENTUAL PUNCIÓN. Quiste mayor a 3 cm, nódulos murales, engrosamientos de la pared quística. Wirsung entre 5 — 9 mm, cambio abrupto del mismo con atrofia pancreática, linfoadenopatías regionales, y Ca 19-9 elevado con un crecimiento ECOENDOSCOPIA BILIOPANCREÁTICACONOSINPUNCIÓN del quiste >5 mm en dos años. ESTIGMASDEALTORIESGO: CONDUCTA QUIRÚRGICAPRIMERAELECCIÓN (NO ECOENDOSCOPÍANIPUNCIÓN). Obstrucción del Wirsung con lesión en cabeza pancreática. Wirsung >10 mm. SEGUIMIENTO IMAGENOLÓGICO (NOECOENDOSCOPÍANIPUNC",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 1 consulta mensual por endocrinólogo pediatra. 1 consulta trimestral por médico nutricionista y/o licenciado en nutrición. Duración del Módulo: sin límite Condiciones para su autorización: Solicitud del Módulo. Resúmen de Historia Clínica. Automonitoreo (últimos 3 meses). HbAc. Condiciones para la facturación: Deberá adjuntarse la siguiente documentación: -Bonos asistenciales correspondientes. -Historia Clínicas con evolucion de la consulta realizada -Planilla de asistencia firmada por el paciente (si tienen 16 años o más) o por los padres (en menores de 16 años). Arancel y cantidad de bonos: $ 765 (valor mensual) y corresponden 10 bonos.",
       "coseguro": "OI"
     },
     {
       "code": "19.90.21",
       "description": "TALLER",
-      "normativa": "INCLUYE: Pensión hasta 1 día. Gastos-derechos qur41.gicos Uso del lapa roscopio e instrumental inherente a la práctica .:bistur bipoiar1 armónico), Honorarios médicos (corresponden a l 40'., del valor tota ll del modulo). Medicamentos. Las complicaciones devenidas lai práctica realizada esta rán a cargo dei prestador, riasta dentro de los ; 15 días, de acuerdo a l concepto de 'PATOLOGÍARET ':UELTA. Esto l eventuales drenajes percutáneos de c(..cciones post1 operatorias (con Materia les necesarios), reoperacios, materiaies1 descartables y demás eiementos que estarán a cargo de: equipo que ! interv ino a l paciente. Honora rios y Gastos. Uso de v ideo. Honorarios y Gastos. Uso de v ideo. 1 ! Honorarios y Gastos Uso de v ideo. Honorarios y Gastos. Uso de video. Excluye. Sala de Recuperación ( 1/6 valor pensión cua ndo se utilice). Anestesia. • Medicamentos anestésicos y descartables. Honorarios y Gastos. Uso de v ideo. Honora rios y Gastos. ASA. Uso de aparato. Honorarios Médicos. Ga\nEXCLUYE: : ANATOMIAPATOLOGICADE LA/SI PIEZA/S QUIRURGICA/S (las Diferidas, no as í las intraoperatoriasi que incluyan congelación) MATERIAL DE-SCARTABLE: UN ( 1) SOBRE DE MATERIAL I RREABSORBIBLE, MO NOFILAMENTO, DE NYLON, PARA LASÍNTESIS DE LA PIEL ENLOS SITIOS DE INGRESO DE LOS TROCARES A VALORESCONVENIDOS Y TRES (3) LIGACLIPSSISE JUSTIFICA SU UTILIZACION. . HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación. Sa la de Recuperación ( 1/6 va lor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. ' Pensión en ha bitación1 compa rtida. Anestesia Medica mentos y Descarta bles\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza!",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "19.90.30",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: VALORACIÓN INICIAL",
-      "normativa": "INCLUYE: honorarios, derechos quirúrgicos, medicamentos y descartables. Honorarios y Gastos Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de HRS. Medicamentos y Material Descartable inherente a la práctica. Pensión en UCC, pensión en habitación compartida, Honorarios del equipo quirúrgico. Medicamentos y Material descartable inherentes al procedimiento. Pensión en UCC, pensión en habitación compartida, Honorarios Médicos, hemodinámia, radiología. Medicamentos y Material cartable inherentes al procedimiento, honorarios, derechos quirúrgicos, medicamentos y descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. Gastos-derechos quirúrgicos , Uso de laparoscopio e instrumental inherente a la práctica (bisturíbipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo ), Medicamentos.\nEXCLUYE: Anestesia y sala de recuperación. Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la practica. Anestesia. Stent. Anestesia. Filtro de protección cerebral CCVValvuloplastia - Prótesis - Ortesis - C• ocación de marcap, • • • initivos Balón de Contrapulsación - Catéter adicionales - emoterapia - TA - Eco d• • pler Infusión de drogas - Estudio Electrofisiológico y • alquier otra compl., ion que -urgiere del .rocedimiento. Stent Anestesia /id E o u) w o AMIGDALECTOMÍA O ADENOIDECTOMÍA O 5 ADENOIDECTOMÍA +AMIGDALECTOMÍA Anestesia y sala de recuperación. ADENOIDECTOMÍA + MIRINGOTOMÍA Anestesia, elementos protésicos (diabolo a carpo de IAPOS). y sala de recuperación. PENSION: HASTA 2 (DOS) DIAS. ANATOMIA PATOLOGICADE LA/SPIEZA /S QUIRURGICA/S (las Diferidas , no así las intraoperatorias , que incluyan congelación ) ADRENALECTOMIA PORVIDEOSC\nREQUISITOS: Tumor suprarrenal .",
-      "price_hidden": "",
+      "normativa": "INCLUYE: MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 + 75% CIRUGÍABARIÁTRICA: GASTRECTOMÍA EN MANGA (SLEEVE) (NO INCLUYE 75% MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 +",
       "coseguro": "17"
     },
     {
       "code": "19.90.31",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: MÓDULO INICIO",
-      "normativa": "INCLUYE: Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. ECO-DOPPLERTRANSESOFÁGICOCOLOR Honorarios y Gastos. 1 Honorarios y Gastos. ECO-DOPPLERVASCULARPERIFÉRICO Honorarios y Gastos. ECOCARDIOGRAMA COMPLETO AMy B Honorarios y Gastos. 1 Honorarios , Gastos y Medicamentos. 2 nr N 0 C \I 0 a) Lo CCi co 0 0 O C•4 P LULA» 7I SCA O M N C> (3) cs) o O O 0 Cs1 0 C \I cd ozi „.-cd .,- N ,— O C> ts ■ 0 '1- ci N C; LO x-,— CCD Cd LO CD C; LO Cd r, r– N— C; Cd .......... 1 Honorarios y Gastos. Honorarios y Gastos. Criterios de Autorizacíón: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de aborto espontáneo - Escuchar los lati\nEXCLUYE: LOS MATERIALES NECESARIOS (SETDRENAJE BILIAR PERCUTANEO) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚNNORMATIVAS Y DRENAJEPERCUTÁNEOBILIAR PROTOCOLOS VIGENTES. TACO ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según_normativas IAPOS. 1",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "19.90.32",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: MÓDULO SEGUIMIENTO I",
-      "normativa": "INCLUYE: botón) 69 MÓDULO RECAMBIO BOTON GASTRICO te- T-1 5 O .1-",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "19.90.33",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: MÓDULO SEGUIMIENTO II",
-      "normativa": "INCLUYE: -Hematocrito. -Recuento Plaquetario. -Frotis sangre Periférica. -Tiempo de sangría. -Tiempo plasma recalcificado. -APTT . -Tiempo de Protrombina. -Tasa de Protrombina (Quick). -Tiempo de Trombina. -Retracción del coágulo. -Fibrinógeno. -Lisis de Euglobulinas. Consumo Protombina TGT (Test generación Tromboplastina).Sugerencia: Uno al inicio del tratamiento anticoagulante. Uno en pre-quirúrgico cirugía gral. Uno en pre-quirúrgico cirugía CV. Dos en post-quirúrgico cirugia CV . Uno a l inicio del estudio de coagulopatía o sangrados. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. Test de Sickling - Cuerpos de Heinz - Electroforesis Hemoglobina en acetato - Electroforesis Hemoglobina en Agar Cuantificación Hemoglobina Fetal - Estudio Resistencia Globular Esferocitosis Hereditaria - Eliptocitosis - etc.- Estudio anemias Hemoliticas Congénitas. Sugerencia: Uno solo al diagnóstico. 'Seguimiento con módulo de seguimiento de citopénias. Recuento de reticulocitos - Recuento de Plaquetas Citomorfología de Sangre periférica -• Ferremia (opcional) - Capacidadde saturación transferrina (opcional) - Porcentaje Saturación tranferrina (opcional) - Toma de muestra. Sugerencia: Uno por mes los primeros tres meses. Luego uno cada dos meses. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. En casos de citopenias críticas (< 50.000 plaquetas - < 1.500 neutrófilos o < 7gr. Hemoglobina), se pueden requerir controles mas seguidos. Pensión en habitación compartida, Medicamentos y Material Descartable inherente al procedimiento, Derecho de Hemodinámia, Honorarios Médicos, Realización del cateterismo, sobreestimulación cardíaca, mapeo y desencadenamiento de la arritmia y otros.\nEXCLUYE: Coloc",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "19"
     },
     {
       "code": "19.90.34",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: MÓDULO POSQUIRÚRGICO",
-      "normativa": "INCLUYE: *Sala de recuperación (hasta 7hs.), Videocolonofibroscopia diagnóstica (VCC). inherente a la práctica, Honorarios médicos Uso de endoscopio e instrumental del' modulo), Medicamentos y Materiales descartables. (corresponden al 40%del total *Sala de recuperación (hasta 7 hs.), Videoesofagogastroduodenofibroscopia inherente a la práctile, Honorarios diagnóstica (VIDA). Uso de endoscopio e instrumental médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. Honorarios y Gastos. calibración de CPAP ¡ Honorarios y Gastos. ¡ Honorarios +Gastos +Materiales. Honorariosy Gastos: Honorarios y Gastos. Honorarios neurocirugía, derechos, medicamentos y descartables. Honorarios y Gastos Honorarios, Derechos y Materiales Descartables. Incluido el correspondiente Kit. y\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. *En caso de realizarse en internación se permitirá facturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado. Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.*En caso de realizarse en internación se permitirá facturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado _ ¡ Anatomía Patológica. Inclu e: Honorarios y Gastos. Anatomía Patológica. ¡ Anatomía Patológica. Pensión, anatomía patológica, cultivos. Alquiler marco estereotáxico por parte de la Institución Prestadora: NOV/23 $75.371YDIC/23 $ 95.345 y Aguja de punción: NOV/23 $ 39.866 Y DIC/23 $ 50.431). Indicación: SAHO (Síndrome de Apneas Obstructivas del Sueño).Sólo por Neumonólogo Icon especialización en Medicina del Sueño.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 + 75% CIRUGÍABARIÁTRICA: GASTRECTOMÍA EN MANGA (SLEEVE) (NO INCLUYE 75% MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 +",
       "coseguro": "20"
     },
     {
       "code": "19.90.46",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: MÓDULO POST PUIO",
-      "normativa": "INCLUYE: Hematocrito - Recuento Plaquetas - Dosaje Anti Factor X activado. Sugerencia: anticoaqulación oral. Sugerencia: Uno por día por cuatro días. Luego sigue con esquema de seguimiento de clínica o necesidad. Corresponde a 1/6 de valor pensión (4hs), aplicable a prestaciones ambulatorias que requieran uso de NEUROLEPTOANALGESIA/ANESTESIA. Hematocrito. -Rto de Plaquetas. -Tiempo de Protrombina. -Tasa de Protrombína. -KPTT. -Tiempo de trombina. -Toma de muestra. Durante los primeros días del tratamiento 3 o SEGUIMIENTO ANTICOAGULACIONCONHEPARINA NO FRACCIONADA 4 controles diarios (De acuerdo a criterio médico). Sugerencia: Uno a las seis horas del inicio del goteo. Luego uno por día. Sujeto a modificaciones de acuerdo a evolución 2 honorarios y gastos. Fent ACTNICICIPAKAAnrIDDI PRAturzin Ter. t\"-1 DRAAI r-nniKAMNIrstrIKICC C IAICrlIDKAC facturables).\nREQUISITOS: RESUMENDE HISTORIA CLINICA ORIENTADO A LAPRESTACION. Su uso se adecua según gravedad de la quemadura por clasificación de Benain y evolución. Cada consumo deberá estar debidamente documentado en la indicación médica, evolución y hoja de enfermería. Se factura Pensión",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "19.90.47",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: MÓDULO INICIO SP",
-      "normativa": "INCLUYE: Honorarios Gastos. SENOGRAFIA AMPLIADA Y FOCALIZADA BILATERAL Honorarios y Gastos. SENOGRAFIAAMPLIADA Y FOCALIZADA UNILATERAL 1 Honorarios y Gastos. Uso de video. SINUSOTOMIA CON FIBRAÓPTICA Y VIDEOSCOPIA Honorarios y Gastos. ITAC CEREBRAL Honorados y Gastos. 1 TAC CEREBRAL DECONTROL (CON O SIN REFUERZO) e:HonorariosGastos. uye: Honorarios y Gastos. Honorarios y Gastos. TAC COMPLETA ABDOMEN REFORZADA 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos: Honorarios y Gastos. TACTIROIDEA Honorarios y Gastos. Honorarios y Gastos. ¡TACTORACICA REFORZADA o 1 Honorarios y Gastos. TACVEJIGAY PROSTATA ' Honorarios y Gastos. Honorarios y Gastos. Hematocrito - Recuento Plaquetas - Dosaje Anti SEGUIMIENTO ANTICOAGULACION HEPARINA BAJOPESO MOLECULAR SEGUIMIENTO ANTICOAGULACION HEPARINA + ORAL (TRANSICION) o necesidad. Sugerencia: Uno por día por cuatro días. Luego sigue con esquema de segu",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "19.90.48",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: MODULO SEGUIMIENTO I SP",
-      "normativa": "INCLUYE: FACTORESII — VII — IX — YX) ti) DOSAJE DIMERO-D ,- $540.0001 Lci HEMATOLOGIA r-: CO CV 0 N 1 botón) N 1",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "19.90.49",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: MODULO SEGUIMIENTO II SP",
-      "normativa": "INCLUYE: Punción aspirado Médula Osea para otros estudios. Ej.Estudio de Sindrome Febril prolongado para medulocultivos.. Punción aspirado de Médula Osea (esternal o Cresta Ilíaca Unilateral) - Biopsia de Médula Osea Unilateral - Medulograma - Hemosiderina Medkular - Sideroblastos (% y clal ificáción) - Busque de 'células neoplásica1 - Descartables. la extracción de muestras para estudios de inmunofenotipo y / o citogénico según criterio del médico tratante. honorarios, derechos quirúrgicos, medicamentos, descartables. Excluye' Anestesia, elementosprotésicos (diabolo a cargo de IAPOS) y sa la de recuperación. + propofol x 1 + midazolam x 1+ + Angiocath 20 x 1 +SF x 1 Perfus x 1 sublimaze x 1 +SF x 1 + propofol x 1 + midazolam x 1+ Perfus x 1 +Angiocath 20 x 1 1 sublimaze x 2+ atropina x 1\nEXCLUYE: Aguja de Punción (a cargo de IAPOS) Aguja de Punción (a cargo de IAPOS)\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular Descartables. Estudio de Citópenias aisladas o'combinadas - Estúdio de eritrocitosis:leucocitosis o trorhbocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y •I Seguimiento de Sindromes Mielodisplassicos - Estudió y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "19.90.35",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: ADICIONAL POR ACTIVIDAD FÍSICA",
-      "normativa": "INCLUYE: Punción aspirado Médula Osea para otros estudios. Ej.Estudio de Sindrome prestaciones para los 3 primeros meses post-Trasplante, correspondientes al primer trimestre. ElMÓDULO2 prestaciones para los siguientes 3 trimestres del primer año. El MÓDULO 3 prestaciones para los siguientes 3 cuatrimestres correspondientes al segundo año post-Trasplante. ElMÓDULO 4 prestaciones para los siguientes cuatrimestres correspondientes a partir del tercer año del post-Trasplante renal. 4Consultas / 1 Laboratorio basico (Hemograma, Uremia, Glucemia, lonograma, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Creatinina urinaria) / 2 Creatinemias / 2Dosajes de FK-506.\nEXCLUYE: Aguja de Punción (a . cargo de IAPOS) t 1 DEACUERDO ALA LEY DEPROTECCIONINTEGRALPARAPERSONAS TRASPLANTADAS, TODOS LOSMODULOS PREYPOSTTRASPLANTESONSINCARGOPARA EL AFILIADO POR LO TANTO NO LLEVANCOSEGURO MÓDULOSSEGUIMIENTO POST TRASPLANTE RENAL: (Facturar fuera del modulo con MODULO1 SEGUIMIENTO POST TRASPLANTE RENAL - PRIMER MES documentacion requerida): Eco doppler renal. Dosajes de PCR cuantitativa para CMV (solo para pacientes de bajo riesgo inmunologico, ya que los de alto riesgo estan co\nREQUISITOS: para la facturación: Certificado de implante. Protocolo quirúrgico con fecha de trasplante (solo para los primeros tres meses post trasplante). Historia clínica, evolución y estudios complementarios realizados incluidos en cada etapa de los módulos correspondientes. Las prestaciones que NO están incluidas en los Módulos se facturarán por prestación a los valores convenidos. Deben facturarse JUNTO al módulo correspondiente de post-trasplante renal. Pare eso se deberá adjuntar a la presentación: Resumen de Historia clínica y estudios pertinentes que justifiquen dicha solicitud para ser evaluados en Auditoría Médica. El MÓDULO 1",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "19.90.44",
       "description": "CIRUGÍA BARIÁTRICA: BY PASS GÁSTRICO EN Y DE ROUX (NO INCLUYE MATERIALES",
-      "normativa": "CIRUGÍA BARIÁTRICA: BY PASS GÁSTRICO EN Y DE ROUX (NO INCLUYE MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL 7 + 75%",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: de acuerdo a DG IAPOS viaente ECOGRÁFICO Y HORMONAL) MÓDULO INSEMINACIÓN ARTIFICIAL INTRA UTERINA Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente MÓDULO FIV / ICSIInclusiones y Exclusiones: de acuerdo a DG IAPOS vigente MÓDULO CONGELACIÓN + CRIOPRESERVACIÓN DE EMBRIONESInclusiones y Exclusiones: de acuerdo a DG IAPOS vigente",
       "coseguro": "BPE"
     },
     {
@@ -3786,358 +3436,345 @@ const searchData = {
     {
       "code": "19.90.51",
       "description": "INTERNACIÓN - BY PASS GÁSTRICO EN Y DE ROUX",
-      "normativa": "INCLUYE: 4 consultas / 1 Laboratorio basico (Hemograma, Glucemia, Uremia, Ionog rama, Amilasa, Calcemia, Fosfatemia, Uricemia, Orina Completa, índice Albúmina/Crea tinina MODULO1 SEGUIMIENTO POST TRASPLANTERENO- urinaria) / 2 Creatnemias /2 Dosajes de FK-506 / 1Dosaje de Peptico C. la extracción de muestras parnte de cardiodesfibrilador con resincronizador.s cuatrimestres correspondientes a partir del tercer año del post-Trasplante.e MODULOESTUDIO DE MEDULAOSEA I Punción aspirado d: lédula Osea (esternal o Cresta Ilíaca Unilateral) Medulograma - Hemosiderina medular - Sid\nEXCLUYE: PANCREASSIMULTANEO - PRIMER MES (Facturar fuera del modulo con documentacion requerida): Eco doppler renal. Eco doppler de eje espelno-renal. Dosajes de PCR cuantitativa para CMV (solo para pacientes de bajo riesgo inmunologico, ya que los de alto riesgo estan con profilaxis con Ganciclovir y no lo requiere. Resto de las prestaciones no incluida en el Modulo. 'ORLO TANTO NOLLEVAN COSEGURO Incluye,: Punción aspirado de Médula Osea (esternal o Cresta Ilíaca Unilateral) - Biopsia de Médula Osea Unilateral - Medulograma - Hemosiderina Medular - Sideroblastos (% y clasificación) - Busque de células neoplásicas - Descartables.\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular - Descartables. Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "19.90.50",
       "description": "INTERNACIÓN - GASTRECTOMÍA EN MANGA (SLEEVE)",
-      "normativa": "INCLUYE: PROGRAMA ÚNICO INTEGRAL OBESIDAD: M ÓDULO POST PUIO 20 20 w PROGRAMA ÚNICO I NTEGRAL OBESIDAD: M ÓDULO POSQ UIR ÚRC-) 1C0 BONOS ,-i",
-      "price_hidden": "",
+      "normativa": "INCLUYE: PROGRAMA ÚNICO INTEGRAL OBESIDAD: M ÓDULO POST PUIO",
       "coseguro": "S/C"
     },
     {
       "code": "19.90.53",
       "description": "MODULO INSUMOS CIRUGIAS BARIATRICAS",
-      "normativa": "INCLUYE: Honorarios y Gastos. todos los órganos y/o regiones. 1 Honorarios, Gastos y material descartable. Honorarios y Gastos Criterios de Autorización: A partir de los 21 años de edad y cada 3 años para detección precoz de cáncer de cuello uterino.Si tiene mas de 30 años y también le han hecho pruebas para el virus del papiloma humano (VPH, por sus siglas en inglés) y tanto la prueba de Papanicolaou como las pruebas para el VPH son normales, le pueden hacer exámenes cada 5 años (el VPH es el virus que causa verrugas genitales y cáncer de cuello uterino). Después de la edadde 65 a 70 años, la mayoría de las mujeres pueden dejar de hacerse la prueba de Papanicolaou siempre y cuando hayan obtenido 3 resultados negativos en los exámenes dentro de los últimos 10 años. Honorarios y Gastos. Cirugía oncológica-reconstructiva y funcional que permite la extirpación de tumores malignos de piel (CBC-CEC) no melanoma en sus formas más agresivas, con mejores tasas de curación que la escisión lesional ampliada o técnica convencional.\nEXCLUYE: Anestesia y Sala de Recuperación (cuando se utilice).\nREQUISITOS: CLÍNICA: PRIMARIO: Según tamaño tumoral y área corporal: Área H > 6 mm (párpados, cejas, nariz, labios pera, orejas); Área M >10mm (mejillas, frente y pretibial); Área L >20mm (tronco y miembros). RECIDIVA TUMORAL. HISTOPATOLOGÍA: Subtipos histológicos indiferenciados: CBC: morfeiforme, esclerosante, metatípico, micronodular. CEC: acantolítico, adenoescamoso, pagetoide, queratoacantomatoso. Infiltrante. Invasión perineural o linfovascular. Compromiso de márgenes luego de una Escisión inicial. ANTECEDENTES DEL PACIENTE: lnmunodepresión (HIV, trasplantados, oncohematológicos, drogas inmunosupr",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "19.01.03",
       "description": "NUTRICIONISTA X SESION",
-      "normativa": "INCLUYE: Honorarios y Gastos *Sala de recuperación (hasta 7hs.), Videocolonofibroscopia diagnóstica (VCC). Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. *Sala de (hasta recuperación 7 hs.), Videoesofagogastroduodenofibroscopia diagnóstica (VEDA). Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40%del total del modulo), Medicamentos y Materiales descartables. Honorarios, Derechos y Materiales Descartables. Incluido el correspondiente Kit. y filtros, Tipificación, Serología y reposición de líquidos. El valor establecido es por cada ciclo y se podrá solicitar hasta 10 ciclos, los cuales varían según la patología del paciente. Honorarios y Gastos. PAPILOESFINTEROTOMÍAENDOSCÓPICACON EXTRACCIÓNDECÁLCULO PANARTERIOGRAFÍA CEREBRAL POR CATETERISMO * sala de recuperación (hasta 7 hs.), Honorarios Médicos, Derechos de Hemodinámia, Prác\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. *En caso de realizarse en internación se permitiráfacturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado. Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.*En caso de realizarse en internación se permitirá facturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado Albunima Humana. Sangre. Plasma o Derivados. PANEL MOLECULARNEUROLÓGICO DE PCR CUALITATIVA PDF (PRODUCTODEGRADACION DE",
-      "price_hidden": "",
+      "normativa": "INCLUYE: educación nutricional. Para poder contemplar en el SIOS este punto se realiza lo siguiente: Se generó una nueva práctica para realizar la prestación de los primeros 3 meses; la práctica es la\nEXCLUYE: Quedan excluidas de las prestaciones reconocidas por IAPOS: VISITA DOMICILIARIA: A cargo del afiliado. Eventualmente puede considerarse reintegro de acuerdo a situación particular con historia clínica avalatoria por médico tratante. ANTROPOMETRIA: A cargo del afiliado. NOTA: Cuando una solicitud es denegada por auditoría médica, deberá generar una solicitud nueva adjuntando la documentación solicitada por el auditor, teniendo en cuenta las observaciones que se realizan a través del cuadro de diálogo de SIOS. NO ADJUNTAR DOCUMENTOS EN LA SOLICITUD QUE FUE DENEGADA porque no será posible autorizarla",
       "coseguro": "5"
     },
     {
       "code": "19.01.04",
       "description": "SESION - 1ER. TRIMESTRE",
-      "normativa": "INCLUYE: -Hematocrito. -Recuento Plaquetario. -Frotis sangre Periférica. -Tiempo de sangría. -Tiempo plasma recalcificado. -APTT . -Tiempo de Protrombina. -Tasa de Protrombina (Quick). -Tiempo de Trombina. -Retracción del coágulo. -Fibrinógeno. -Lisis de Euglobulinas. Consumo Protombina TGT (Test generación Tromboplastina).Sugerencia: Uno al inicio del tratamiento anticoagulante. Uno en pre-quirúrgico cirugía gral. Uno en pre-quirúrgico cirugía CV. Dos en post-quirúrgico cirugia CV . Uno a l inicio del estudio de coagulopatía o sangrados. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. Test de Sickling - Cuerpos de Heinz - Electroforesis Hemoglobina en acetato - Electroforesis Hemoglobina en Agar Cuantificación Hemoglobina Fetal - Estudio Resistencia Globular Esferocitosis Hereditaria - Eliptocitosis - etc.- Estudio anemias Hemoliticas Congénitas. Sugerencia: Uno solo al diagnóstico. 'Seguimiento con módulo de seguimiento de citopénias. Recuento de reticulocitos - Recuento de Plaquetas Citomorfología de Sangre periférica -• Ferremia (opcional) - Capacidadde saturación transferrina (opcional) - Porcentaje Saturación tranferrina (opcional) - Toma de muestra. Sugerencia: Uno por mes los primeros tres meses. Luego uno cada dos meses. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. En casos de citopenias críticas (< 50.000 plaquetas - < 1.500 neutrófilos o < 7gr. Hemoglobina), se pueden requerir controles mas seguidos. Pensión en habitación compartida, Medicamentos y Material Descartable inherente al procedimiento, Derecho de Hemodinámia, Honorarios Médicos, Realización del cateterismo, sobreestimulación cardíaca, mapeo y desencadenamiento de la arritmia y otros.\nEXCLUYE: Colocación de marcapaso definitivo, Estudios Hemodinamicos. Anest",
-      "price_hidden": "",
+      "normativa": "INCLUYE: educación nutricional. Para poder contemplar en el SIOS este punto se realiza lo siguiente: Se generó una nueva práctica para realizar la prestación de los primeros 3 meses; la práctica es la\nEXCLUYE: Quedan excluidas de las prestaciones reconocidas por IAPOS: VISITA DOMICILIARIA: A cargo del afiliado. Eventualmente puede considerarse reintegro de acuerdo a situación particular con historia clínica avalatoria por médico tratante. ANTROPOMETRIA: A cargo del afiliado. NOTA: Cuando una solicitud es denegada por auditoría médica, deberá generar una solicitud nueva adjuntando la documentación solicitada por el auditor, teniendo en cuenta las observaciones que se realizan a través del cuadro de diálogo de SIOS. NO ADJUNTAR DOCUMENTOS EN LA SOLICITUD QUE FUE DENEGADA porque no será posible autorizarla",
       "coseguro": "5"
     },
     {
       "code": "19.01.02",
       "description": "PLAN ALIMENTARIO",
-      "normativa": "INCLUYE: Pensión en habitación compartida, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. Punta de Shaver (corresponde al 25% del valor del módulo).\nEXCLUYE: Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Honorarios Médicos por cartera prestacional 4 fi r. gpv ¡u, N N ci cr) r■ c. q cñZLIJi - U)(1) Z 1-1-1 0'-'79 U) >'''-- 2 ca ca- u.)- c:' 0 Te .0 (/) (T) 2« 5 ,a3 - = -c cl) O '-E l I ,..., 3 O a -I o -2 -O---' (/), ,E, -(1 5 U) L 7) ,,,, - -c5 ,_ o. = -5 ,.. c5 ..., ... n, 2 0 =' 1:3 4- -1-, o LL1 c -1.1 0 0 0 ' O .0 „ .0 O -1-• ''''' '.(1 .- ... = 3 -o C9 Z0 0 '0 '- Ca<<H (1)Et0 = ot (1)(1 `á'E u) : 3 = .79 1:3 51 t. (7) 8 LB 0 0 2 (1) ° Cr E E 3 W Z o a) r) 0-o _ 2p)>,9> •E É a_ < 2 a al ID < o u) u) . , m -o o o .o a) n 5 S -7(1) in O T -o) ti E ca o o u,o a) = a 111 -0 2 7 „Dt.u < 1 7:3 a (D .= E ce o o 17\") a) a) .5m 7 .). 1 o -o 2 C) o)._ o H o u, 2-2 a) _0 .-.=, , 1.2 -0 Ca -n, H 0 1$' .1) U) 21 - (1) e cm E 2 á 13._ 45 .., o - <1.) uJ C) C) < w < c ; •= ft ce 9 -, Cr 2 O 1.1 '''.-: CCi C) C9 C.) O Ce C.) .= 0 zis E w 1.1 1 °I o - oj (7) a) ° 0 TL) > o_ce '- E caco D > c l) 1 13 11 E SI CI- «, U- . -0 = .5 11) 0 .C_ o o a) d ce Tu a 1 c'ij cr). LL (1) 12 O cr >- o .C7) 1:S e> ›. O 12 51 2 >'7.3 as = a) ca 'O c» O 2 ó2 re Sc_ c- .- `O °Q = fa I•i < . >. U) - 0 • - 0 0_ 3< = La -= 2 -1-. O ,c› C/i t rX '8' ';1 U) ›' 8 2 .1,z, 2 0 ,‘, .- 0 c .= _1 0 a) c a) Ti E 0... -5u-1-0 (/) ..,=,00u)N = 20 o oa)0 1u,:' = 2 < 'ao cn E Z 33 0 O 5 .6 :.•-• <_, ,::, a, u) Es 2 3 ti 8 .9,,, -------(). `')o =. . o ...< ec .0 o -,- E o 1.- .5 .13 -o, w E Es o_ -. li _- l'iCLs 2o)u)al2- a) o En / -c-a t .E, -- uj o ca E c .,._, .., :=-.51, • ,_ Ci) 5 ' C1 Leti , (2 a) ai -ar) Z o c E >, -0 0 < u) c9 ° H O 7 . C9 \"C - <-c•11 al E' 0- i ( ) '-c-:, 1 as o a) 0 •-g• , 7, (7) < .- 1. 0 0 .",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "7"
     },
     {
       "code": "42.50.03",
       "description": "PRIMERA ENTREVISTA NUTRICIONISTA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales GASTROTOMÍAPORRADIOSCOPIA/FIBROSCOPIA descartables. Honorarios y Gastos inherentes a la prestación, Pruebas de Compatibilidad, HEMOTERAPIA /TRANSFUSION Serología, Materiales Descartables. Biología Molecular. Filtro. HIBRIDACIÓNINSITU Honorarios y Gastos. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Materiales LIGADURAS DE VÁRICES ESOFÁGICAS descartables. Honorarios y Gastos. 1 Honorarios _TGastos. 20.01. 11 MANOMETRIAESOFAGICA Honorarios y Gastos. honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartab les. Perfus x 1 sublimaze x 1 +SF x 1 + propofol x 1 + midazolam x 1+1 16 90 02 MODULO 2: DROGAS ANE\nEXCLUYE: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. Honorarios anestesia, Elementos médicos específicos de acuerdo 'a patología según normativas IAPOS. LITOTRICIA EXTRACORPOREA RENAL MIRINGOPLASTIA TIPO I Anestesia, elementosprotésicos (diabolo a cargo de IAPOS) y. sala de recuperación. MIRINGOPLASTIATIPO II Anestesia, elementos protésicos (diabolo a cargo rgo ca de IAPOS)_sala y de recuperación. .",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "7"
     },
     {
       "code": "19.01.07",
       "description": "EDUCACIÓN ALIMENTARIA NUTRICIONAL",
-      "normativa": "INCLUYE: 6DIAS DE PENSION (1 () D 45 i z as u) u) u) T LU LU 15„•,- (n- M Z69- CO U.1 y) -cii U) >, nig? a) (T) M ft <1.) __10 O 'O C> - _ITD a a -(1003 O rr) .--, \" CAO r.i O MI -O c = = . - a) LiE1om 113 1 c., -, . O,,, „ co in O E co -00 ,ca- _6,11 8 a3 2 cr N O w ,_ -\")<I O --- „, 2 _O 0 ddoo 0 11,wc- ED--00o .-5 ,- o 0 >(n om ro o a)D >, ,.. o _-c onso c)),, O , 0 u) ,_ _ 0 £1_3 (D -•-• (11) .n3 -'-' Z 16 _ _ -'' u) C u Oj nicm Z U(1) cw Oa 12 ‘-' c ya 0 n -EL --- -c,Ej CL ( _.- = 0. > 2w0c0 11 --co= . ../..woet -sm oBomg c „,woz 0 E-, u ,2w ozw- co trro '.1 1-1-'''' ° o_ 0,1&11 -1WIB2151 u) =I 157:82 (/),,a 1,2 -Nzu,=->„ 13= a,1-ar m -0_00.0- E - 1,, 91>-oE u,a0->„1511111.43—.9111 71) 735 m 0_,_ (» .,_. co co 2,0 o o o - .=11(r<owmpomEm.mm,g. r o 2 u-li- m = =‹),J).--015 O 1- O 9 Z 16 Cl 2 E 24 C i,.<- u_ < ° 9 Q) 6 CL :1 - -2; g .2 : g 735 t .1 3 -.z .. _a.co> > - W3 iwi'•E o(Dcm 017)/(jo cinoascoEinzc2w Ow iliwir) pcnBmcmw< o?loom,I,E212.c8 el_TTel o w1R Lri (1) .--:12.-:‘,.= o c ... 12 il = Cll o ai - ' o — ?-á i• 1)* Z 0 - L_ 0 0 ....' •= - .- •---- 0 < ... := 5 z= MI mi n) O m) ft (U a , . „, z (,) O O •(1) . c -17', 1- C _ 1;• 0_ ,„ o \" , a) .- u) — - ni o ns .¿-. o co (Dm O Cr1 (1)12 om 10)9 2 . ca.--9 cg<10 m -or w ai - Qc c -c7 -5L-'NE -1-w cm--.-0 :2-c\".41 0 0 15 = c ¿T)= (/)._.•-• (Dm, D — _c ti) ••- 0 O C C 9 0 o '.-. -CLU.-1 ..,-(n M 1.0o-c . t= = -\"g\"1 OmIli ° W 4) 2L -1-1 II i < el - 2 a) (p (.) _O C13 O = CC c)a-Zc)C --(1) >, °E QWE13(9°03WC'-'(°° ,,00<uilo =,-wc -- o 2 mo=015wow-c'En oEmfflom m ''. >, as .-, 2 - z11 1 --g-w12 1(1 ) 55)(1m 1..9jWa2(1)12 1 1 - 2 .9 oc a 0D=z w ,cu E cruj cu'Erv=a)0 4E >,a) a) a) o - was0\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional 0041 • N N ' c)•• Cgías de malformaciones congénitas cardiácas, cirugías de revascularización miocardicas, cirugía de reemplazo valvular, PREaneurisma de aorta torácica.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "7"
     },
     {
       "code": "25.90.04",
       "description": "MÓDULO DE ATENCIÓN KINÉSICA INTEGRAL",
-      "normativa": "Incluye: Todos los tratamientos kinésicos y tecnología asociada a la práctica que sea necesaria según cada caso (fisioterapia, kinesioterapia, magnetoterapia, etc.). MÓDULO DE ATENCIÓN KINÉSICA INTEGRAL A DOMICILIO",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Anestesia, elementos prOtésicos (diabolo a\nREQUISITOS: rintr^1..s d Cona.irnic.nto 'nci-,-h. , t^lógicn snün protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "3"
     },
     {
       "code": "25.01.06",
       "description": "MÓDULO DE ATENCIÓN KINÉSICA INTEGRAL A DOMICILIO",
-      "normativa": "Incluye: Todos los tratamientos kinésicos y tecnología asociada a la práctica que sea necesaria según cada caso (fisioterapia, kinesioterapia, magnetoterapia, etc.). MÓDULO DE ATENCIÓN KINÉSICA INTEGRAL A DOMICILIO",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Honorarios y Gastos\nEXCLUYE: Anestesia, elementos prOtésicos (diabolo a\nREQUISITOS: rintr^1..s d Cona.irnic.nto 'nci-,-h. , t^lógicn snün protocolo aplicado y criterio del médico tratante - Aguja de Punción Medular - Descartables. Indicaciones: Estudio de Citopenias aisladas o combinadas - Estudio de eritrocitosis, leucocitosis o trombocitosis aisladas o combinadas - Estudio y seguimiento de aplasias medulares - Estudio y Seguimiento de Sindromes Mielodisplassicos - Estudio y seguimiento de Sindromes Mieloproliferativos - Diagnóstico y seguimiento de Leucemias agudas y crónicas - Estadificación de Linfomas (Hodgkin y No Hodgkin) - Estudio y Seguimieto de Discrasias de células plasmáticas - Evaluación de reserva medular y / o búsqueda de metástasis medulares de tumores sólidos. En todos los casos se",
       "coseguro": "1"
     },
     {
       "code": "25.01.03",
       "description": "TERAPIA OCUPACIONAL X SESION",
-      "normativa": "INCLUYE: EVENTUALTOMA DE VENA PARA PLASTICA O INJERTO. 1 TOMA DEL INJERTO. DERIVACION (BY PASS) DE VASOS PERIFERICOS CON INJERTO SINTETICO FEMORO FEMORAL , FEMO RO POPLITEO, AXILO HUMERAL, AXILO BIFEMORAL. IMPLANTE DE DISPOSITIVO CARDIACO ELECTRICO UNI-CAMERAL 1",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "5"
     },
     {
       "code": "25.90.72",
       "description": "ELABORACIÓN DE FÉRULA ESTÁTICA - VALVA DE CODO",
-      "normativa": "EXCLUYE: Honorarios ailestesla, Elementos m€dlcos especificos de acuei.do a Sugerencia para todos lo§ factores: De acuerdo a necesidad en estudio de sangrados y / a coagulopat(as. gel q£-' DEffi` Pagina 6 23DIC2024 ---137 !p§!!±}[g: Instrumerifal inherente a la pfactica, Honorarios medicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. E±:",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "25.90.73",
       "description": "ELABORACIÓN DE FÉRULA ESTÁTICA - INMOVILIZACIÓN DE MUÑECA Y DEDOS",
-      "normativa": "INCLUYE: Honorarios. Uso de aparato Gamma Probe (ALQUILER=50% del valor del módulo). Pensión*, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Materiales descartables. Instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. ECO-DOPPLERTRANSESOFÁGICOCOLOR Honorarios y Gastos. 1 Honorarios y Gastos. ECO-DOPPLERVASCULARPERIFÉRICO Honorarios y Gastos. ECOCARDIOGRAMA COMPLETO AMy B Honorarios y Gastos. 1\nEXCLUYE: Pensión. Material radiactivo, centellograma linfático. Anestesia. Honorarios anestesia, Elementos médicos específicos de acuerdo DILATACIÓN ESOFÁGICAENDOSCOPICA a patología según normativas IAPOS. *En caso de realizarse en internación se permitirá facturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado). • Sugerencia: Uno al diagnóstico de TVP - TEP. Uno a los treinta días de suspendida LOS MATERIALES NECESARIOS (SETDRENAJE BILIAR PERCUTANEO) PARA LA PRÁCTICAS, ESTARÁN A CARGO DE I.A.P.O.S., SEGÚNNORMATIVAS Y DRENAJEPERCUTÁNEOBILIAR PROTOCOLOS VIGENTES. TACO ECOGRAFIA (SOLO UNA) NECESARIA PARA REALIZAR EL PROCEMIENTO. PENSION (HASTA 1 DIA) EN PROCEDIMIENTOS PROGRAMADOS AMBULATORIOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según_normativas IAPOS. 1",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "25.90.74",
       "description": "ELABORACIÓN DE FÉRULA ESTÁTICA - INMOVILIZACIÓN DE MUÑECA",
-      "normativa": "INCLUYE: Honorarios, Gastos y Asa de Leep. Honorarios Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y Materiales descartables. Honorarios y Gastos de la detección. DETECCIÓNDEGANGLIO CENTINELA Criterios de autorización: carcinoma mamario, melanoma cutáneo, carcinoma DETECCIÓN DEGANGLIO CENTINELACON USODE de vulva. Honorarios. Uso de aparato Gamma Probe (ALQUILER=50%\nEXCLUYE: Material Radiactivo según valor CEDIM Interior CONIZACIÓN DE CUELLO 5 Pensión en habitación compartida. COLOCACIÓNOEXTRACCIÓNDECATETER DOBLE Pensión, Gastos Sanatoriales, Set completo con J guia y cateter doble J a cargo de IAPOS de acuerdo a PROTOCOLO VIGENTE. COLOCACIÓNDEENDOPRÓTESISESOFAGICA Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. 005 2 2 FEB 2 023 O ir) 0 c:i a) ei Pensión. Material radiactivo, centellograma linfático. Anestesia. Criterios de autorización: sólo en casos de presencia de múltiples nevus y alto DERMATOSCOMADIGITAL CON MAPEO CO RPORAL riesgo de melanoma y/o nevus displásicos. Se deberá adjuntar en todos\nREQUISITOS: DESCENSO MASIVO DE PESO (post bariatrica o no) + COLGAJOSCUTÁNEOS QUEREQUIERAN CORRECCIÓN POR PATOLOGÍA FUNCIONAL, ENCUALQUIERÁREADELCUERPO (ABDOMEN, BRAZOSO MUSLOS). El plan quirúrgico establecido debe estar debidamente justificado por DERMOLIPECTOMÍA POST DESCENSO MASIVO DE el profesional tratante, desde el inicio del tratamiento ( para la PESO autorización de cada solicitud). RESUMEN DE HISTORIA CLÍNICAORIENTADA A LA PRESTACIÓN CON DESCRIPCIÓN DE COLGAJOS Y TRANSTORNO FUNCIONAL QUE JUSTIFIQUE LA PRÁCTICA. FOTOGRAFÍAS DELÁREA AFECTADA TOMADAS POR EL PROFESIONAL. Corresponde: Honorarios 70% y Gastos 30% del valor de la práctica.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "25.90.75",
       "description": "ELABORACIÓN DE FÉRULA ESTÁTICA - INMOVILIZACIÓN DE MUÑECA Y MCF PULGAR",
-      "normativa": "INCLUYE: Honorarios y Gastos. .- oo o d O) i cm eCD O) ni N d d LO eCD LO Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), LIGADURAS DE VÁRICES ESOFÁGICAS Medicamentos y Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. 0.01.11 MANOMETRÍA ESOFÁGICA Honorarios y Gastos. honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. MIRINGOPLASTIA TIPO II honorarios, derechos quirúrgicos, medicamentos, descartables. Pensión en habitación compartida. Arteriografía renal selectiva. Estudios radiológicos y ecográficos nomenclados. Exámen funcional respiratorio, Laboratorio. Prácticas cardiológicas nomencladas. Medicina transfusional - 1 módulo de serología. Consultas con distintas especialidades. Honorarios del equipo médico clínico, quirúrgico y técnico. Estudios de histocompatibilidad (metodo Luminex): MÓDULO PRE-TRANSPLANTE RENAL DONANTE determinacion de Antigeno HLA y ABC. Determinacion de antigeno HLADR. Cultivo mixto de linfocitos. Grupo sanguineo y factor. Crossmatch c/panel receptor. Crossmatch D-R (luminex)\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. r 1 Ó.01.25 LITOTRICIA EXTRACORPÓREA RENAL Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. MIRINGOTOMIA CONOSIN COLOCACION DE TUBO DRENAJE Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Prácticas quirúrgicas. Tratamientos derivados de diagnósticos que se establezcan. Tac, Biopsias y sus estudios anatomopatológicos. Medicamentos específicos. MOD",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "25.90.76",
       "description": "ELABORACIÓN DE FÉRULA ESTÁTICA - INMOVILIZACIÓN TMC PULGAR",
-      "normativa": "INCLUYE: Honorarios y Gastos 1 Gastos. o) O o «5 co = LUSODEMICROSCOPIO CO O CO o O = USODE ARGÓNPLASMA niCV CO O C0 O 1 Honorarios — Derechos - Uso de aparatología, 'Ade la sonda/catéter y elementos específicos Honorarios y Gastos. Criterios de autorización: para valoración de estrategia terapéutica en HTPla (excepcional//2a) Pensión en habitación compartida. Evaluación pre, intra y postprocedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. Honorarios y Gastos . honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. Honorarios\nEXCLUYE: Endoscopia - Anestesia - Medicamentos - Sala de recuperación. URETEROLITOTRICIAENDOSCÓPICA URETROCISTOFIBROSCOPIA URETROCISTOURETEROFIBROSCOPÍACON VIDEO URETRORENOSCOPIA INFERIOR URETRORENOSCOPÍAMEDIA URETRORENOSCOPÍA SUPERIOR 1URORESONANCIA CD 0 TRATAMIENTOENDOVASCULARDECOARTACIÓN DE AORTA Anestesia. Droga (ampollas de adenosina). Anestesia, ele-mentos protésicos .(diabolo a cargo deIAPOS) y sala de recuperación. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación.\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "25.90.77",
       "description": "ELABORACIÓN DE FÉRULA ESTÁTICA - INMOVILIZACIÓN DE DEDOS",
-      "normativa": "INCLUYE: Honorarios y Gastos. Uso de video. OO5 2 9 Rí:P ?? ci ni- O co O) C\I 3 a) - ,, u) 0., a) = 0 (1.) r3 73 1 (ri >, 70 0 12 73 o - 0 .- = O...., o...... =O- o = cn ,_, o_ o ...., O ,,, s-■ -cDco --,. 0 10 o 0 - o -0 cn 2= = - c•,) O 0 0 0 1— O o O O O O o d a) ,o Cr) O alguna de estas dos situaciones: Menos de 6 horas de evolución y que tengan contraindicación médica o que estén fuera de ventana terapéutica para el TTO trombolítico. En caso de centros que realicen RMN con Difusión/Perfusión y método Rapid, la ventana terapéutica puede extenderse hasta 12 horas de iniciada la sintomatología. Mala respuesta al TTO trombolítico definido como no I mejoría de la sintomatología objetivada por la escala NIHSSluego de 30' de iniciada la infusión de r-TPA o empeoramiento de los síntomas con más de 4 MODULO DE TROMBECTOMIA MECANICA PARA ACV puntos de progresión en la escala NIHSS, respecto al basal, ISQUEMICO independientemente del tiempo de iniciada la infusión del trombolítico. Honorarios NEUROINTERVENCIONISTA: OCT/22 $ 271.333, NOV/22 $ 280.287 Y DIC/22 289.256, técnicos. Catéter balón, Microguías. Catéter extractor de trombos. Microcatéteres. Medicamentos. Angiografía digital y medio de contraste. Materiales descartables. Uso y gastos de quirófano.\nEXCLUYE: Honorarios Médicos para Neurólogo vascular: OCT/22 $ 25.424, NOV/22 $ 26.263 Y DIC/22 $ 27.103 Medicación r-TPA que seráfacturada con la internación según normas de convenio. Pensión (UTI, Piso) Traslados. Estudios complementarios: TAC, Doppler, Análisi, Transfusiones. CRITERIOS: ACV isquémico con compromiso de gran vaso que presenten segmento prestacional que corresponda. Criterios: ACV isquémico con ventana de hasta 4.5 horas de comenzado los síntomas. Escala de NIHSS entre 4 y 22, realizada por Neurólogo vascular; o paciente con afasia global, independientemente de la valoración en la escala NIHSS. Sin contra\nREQUISITOS: médicas para TTO de trombo",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "25.90.78",
       "description": "ELABORACIÓN DE FÉRULA DINÁMICA POST TENORRAFIA TENDONES FLEX/EXT",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 30.01. 13 RETINOFLUORESCENCIA Honorarios y Gastos. COREOPLASTlA.IRlDECTOMIA. TRATAMIENTO QUIR ÚRGICO DEL GLAUCOMA . OPERACION PLASTICA EN CANALICULOS. Honorarios y Gastos. _ DRENAJE GLANDULA O SACO LAG R1MAL-ABS.SECC. PAPILA Honorarios y Gastos. LAGRIMAL PILA LAGRIMAL-ESTRICTUROTOMIA. . cAtt itKiz. DECONDUCTO LAGR IMO NASAL EN QUIR. CON ANEST.GR Honorarios y,Gastos. DILATACIONDECONDUCTO LACRiM0 NASAL CONINTUBACION. Honorarios y Gastos. CATETERIZACION DE CONDUCTOLACRIMONASAL Honorarios y Gastos. LJAcKiuus I UHRINOST.FISTULIZAC. SACO LAGRIMAL EN CAV. NASAL o , Honorarios y Gastos. CORRECCIONDEPTOSIS- UNILATERAL __ _ IBLEI-AKORRAFIAPARCIAL OTOTAL. Honorarios y Gastos. RI FEAPnrl-lál Acic Honorarios y Gastos. ESCISION DE PARPADO, BLEFARECTOMIA- PIEL DE PARPADO. _ GLANDULA MEIBOMIANA,CHALAZIO, SUTURA DE PIEL DEPARPADO Honorarios y Gastos. BLEFAROTOMIA- Honorarios y Gastos. 1172 bLEI-AHÓPLASTIA-INJERTO,CANTOPL ASTIA,TRASOPLASTIA, RESTAURACION PLASTICA DE BASE CILIAR, SIMILAR ui RECONSTRUCCION TOTAL DEL PARPADO. TECNICADEHUGJES O novvovurcHrlkiDIGITAL U/ I- LuUKESCEINABILATERAL >, FOTOCOAGULACION CON RAYOLASER e Honorarios y Gastos. FOTOCOAGULACIÓN CON RAYO LASER ARGON Honorarios y Gastos. 7á 2 ()!MYSOU ap colpan crwoeiDosv currirPvoLre2 . a.ro s DI ( O \E rO1O £ 23* (jo Lb LULk O. O O_ (,) CO a) (0 o U) 5 oo o> - o 3 E '2 o) -3 o rTs cr o c aO .O •1 O 9c\"u3 5 Co CO -C - CO N O \"id C > E E- 8 w e c (Lo O -o o- g o 2 a 0. CD O 0_ a> O o o 8 0.. .0 0) u)• 17 o 1 -o C a CO Zu CV o E c (0 O >, O Q o o ui o o o u) oO O as o O 0 ro0 O o -J o oz o O O o o O o o ái o =o1 >, ; úl E cl - N V) O H CS'Q 1- z",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "25.90.79",
       "description": "ELABORACIÓN DE FÉRULA DINÁMICA DIGITALES INDIVIDUALES",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 30.01. 13 RETINOFLUORESCENCIA Honorarios y Gastos. COREOPLASTlA.IRlDECTOMIA. TRATAMIENTO QUIR ÚRGICO DEL GLAUCOMA . OPERACION PLASTICA EN CANALICULOS. Honorarios y Gastos. _ DRENAJE GLANDULA O SACO LAG R1MAL-ABS.SECC. PAPILA Honorarios y Gastos. LAGRIMAL PILA LAGRIMAL-ESTRICTUROTOMIA. . cAtt itKiz. DECONDUCTO LAGR IMO NASAL EN QUIR. CON ANEST.GR Honorarios y,Gastos. DILATACIONDECONDUCTO LACRiM0 NASAL CONINTUBACION. Honorarios y Gastos. CATETERIZACION DE CONDUCTOLACRIMONASAL Honorarios y Gastos. LJAcKiuus I UHRINOST.FISTULIZAC. SACO LAGRIMAL EN CAV. NASAL o , Honorarios y Gastos. CORRECCIONDEPTOSIS- UNILATERAL __ _ IBLEI-AKORRAFIAPARCIAL OTOTAL. Honorarios y Gastos. RI FEAPnrl-lál Acic Honorarios y Gastos. ESCISION DE PARPADO, BLEFARECTOMIA- PIEL DE PARPADO. _ GLANDULA MEIBOMIANA,CHALAZIO, SUTURA DE PIEL DEPARPADO Honorarios y Gastos. BLEFAROTOMIA- Honorarios y Gastos. 1172 bLEI-AHÓPLASTIA-INJERTO,CANTOPL ASTIA,TRASOPLASTIA, RESTAURACION PLASTICA DE BASE CILIAR, SIMILAR ui RECONSTRUCCION TOTAL DEL PARPADO. TECNICADEHUGJES O novvovurcHrlkiDIGITAL U/ I- LuUKESCEINABILATERAL >, FOTOCOAGULACION CON RAYOLASER e Honorarios y Gastos. FOTOCOAGULACIÓN CON RAYO LASER ARGON Honorarios y Gastos. 7á 2 ()!MYSOU ap colpan crwoeiDosv currirPvoLre2 . a.ro s DI ( O \E rO1O £ 23* (jo Lb LULk O. O O_ (,) CO a) (0 o U) 5 oo o> - o 3 E '2 o) -3 o rTs cr o c aO .O •1 O 9c\"u3 5 Co CO -C - CO N O \"id C > E E- 8 w e c (Lo O -o o- g o 2 a 0. CD O 0_ a> O o o 8 0.. .0 0) u)• 17 o 1 -o C a CO Zu CV o E c (0 O >, O Q o o ui o o o u) oO O as o O 0 ro0 O o -J o oz o O O o o O o o ái o =o1 >, ; úl E cl - N V) O H CS'Q 1- z \" 1 o 0L z (f) z -J z o E O oo o o N N C -¿ c",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "25.90.80",
       "description": "ELABORACIÓN DE FÉRULA DINÁMICA BASE FIJA EN CARPO Y TRACCIÓN DIGITAL",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. 30.01. 13 RETINOFLUORESCENCIA Honorarios y Gastos. COREOPLASTlA.IRlDECTOMIA. TRATAMIENTO QUIR ÚRGICO DEL GLAUCOMA . OPERACION PLASTICA EN CANALICULOS. Honorarios y Gastos. _ DRENAJE GLANDULA O SACO LAG R1MAL-ABS.SECC. PAPILA Honorarios y Gastos. LAGRIMAL PILA LAGRIMAL-ESTRICTUROTOMIA. . cAtt itKiz. DECONDUCTO LAGR IMO NASAL EN QUIR. CON ANEST.GR Honorarios y,Gastos. DILATACIONDECONDUCTO LACRiM0 NASAL CONINTUBACION. Honorarios y Gastos. CATETERIZACION DE CONDUCTOLACRIMONASAL Honorarios y Gastos. LJAcKiuus I UHRINOST.FISTULIZAC. SACO LAGRIMAL EN CAV. NASAL o , Honorarios y Gastos. CORRECCIONDEPTOSIS- UNILATERAL __ _ IBLEI-AKORRAFIAPARCIAL OTOTAL. Honorarios y Gastos. RI FEAPnrl-lál Acic Honorarios y Gastos. ESCISION DE PARPADO, BLEFARECTOMIA- PIEL DE PARPADO. _ GLANDULA MEIBOMIANA,CHALAZIO, SUTURA DE PIEL DEPARPADO Honorarios y Gastos. BLEFAROTOMIA- Honorarios y Gastos. 1172 bLEI-AHÓPLASTIA-INJERTO,CANTOPL ASTIA,TRASOPLASTIA, RESTAURACION PLASTICA DE BASE CILIAR, SIMILAR ui RECONSTRUCCION TOTAL DEL PARPADO. TECNICADEHUGJES O novvovurcHrlkiDIGITAL U/ I- LuUKESCEINABILATERAL >, FOTOCOAGULACION CON RAYOLASER e Honorarios y Gastos. FOTOCOAGULACIÓN CON RAYO LASER ARGON Honorarios y Gastos. 7á 2 ()!MYSOU ap colpan crwoeiDosv currirPvoLre2 . a.ro s DI ( O \E rO1O £ 23* (jo Lb LULk O. O O_ (,) CO a) (0 o U) 5 oo o> - o 3 E '2 o) -3 o rTs cr o c aO .O •1 O 9c\"u3 5 Co CO -C - CO N O \"id C > E E- 8 w e c (Lo O -o o- g o 2 a 0. CD O 0_ a> O o o 8 0.. .0 0) u)• 17 o 1 -o C a CO Zu CV o E c (0 O >, O Q o o ui o o o u) oO O as o O 0 ro0 O o -J o oz o O O o o O o o ái o =o1 >, ; úl E cl - N V) O H CS'Q 1- z \" 1 o 0L z (f) z -J z o E O oo o o N N C -¿ cr H w -1 O oo O z zz O o Uo Lu O z oo O o",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "25.90.81",
       "description": "EVALUACIÓN PEDIÁTRICA - TEST DE INTEGRACIÓN VISO-MOTORA (VMI) DE KEITH",
-      "normativa": "INCLUYE: Honorarios y Gastos. 30.01. 13 RETINOFLUORESCENCIA Honorarios y Gastos. COREOPLASTlA.IRlDECTOMIA. TRATAMIENTO QUIR ÚRGICO DEL GLAUCOMA . OPERACION PLASTICA EN CANALICULOS. Honorarios y Gastos. _ DRENAJE GLANDULA O SACO LAG R1MAL-ABS.SECC. PAPILA Honorarios y Gastos. LAGRIMAL PILA LAGRIMAL-ESTRICTUROTOMIA. . cAtt itKiz. DECONDUCTO LAGR IMO NASAL EN QUIR. CON ANEST.GR Honorarios y,Gastos. DILATACIONDECONDUCTO LACRiM0 NASAL CONINTUBACION. Honorarios y Gastos. CATETERIZACION DE CONDUCTOLACRIMONASAL Honorarios y Gastos. LJAcKiuus I UHRINOST.FISTULIZAC. SACO LAGRIMAL EN CAV. NASAL o , Honorarios y Gastos. CORRECCIONDEPTOSIS- UNILATERAL __ _ IBLEI-AKORRAFIAPARCIAL OTOTAL. Honorarios y Gastos. RI FEAPnrl-lál Acic Honorarios y Gastos. ESCISION DE PARPADO, BLEFARECTOMIA- PIEL DE PARPADO. _ GLANDULA MEIBOMIANA,CHALAZIO, SUTURA DE PIEL DEPARPADO Honorarios y Gastos. BLEFAROTOMIA- Honorarios y Gastos. 1172 bLEI-AHÓPLASTIA-INJERTO,CANTOPL ASTIA,TRASOPLASTIA, RESTAURACION PLASTICA DE BASE CILIAR, SIMILAR ui RECONSTRUCCION TOTAL DEL PARPADO. TECNICADEHUGJES O novvovurcHrlkiDIGITAL U/ I- LuUKESCEINABILATERAL >, FOTOCOAGULACION CON RAYOLASER e Honorarios y Gastos. FOTOCOAGULACIÓN CON RAYO LASER ARGON Honorarios y Gastos. 7á 2 ()!MYSOU ap colpan crwoeiDosv currirPvoLre2 . a.ro s DI ( O \E rO1O £ 23* (jo Lb LULk O. O O_ (,) CO a) (0 o U) 5 oo o> - o 3 E '2 o) -3 o rTs cr o c aO .O •1 O 9c\"u3 5 Co CO -C - CO N O \"id C > E E- 8 w e c (Lo O -o o- g o 2 a 0. CD O 0_ a> O o o 8 0.. .0 0) u)• 17 o 1 -o C a CO Zu CV o E c (0 O >, O Q o o ui o o o u) oO O as o O 0 ro0 O o -J o oz o O O o o O o o ái o =o1 >, ; úl E cl - N V) O H CS'Q 1- z \" 1 o 0L z (f) z -J z o E O oo o o N N C -¿ cr H w -1 O oo O z zz O o Uo Lu O z oo O o -J 0_ O_ LLI z oO o oo o O 5 O o o z CL .E2 (/) O",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "25.90.82",
       "description": "EVALUACIÓN PEDIÁTRICA BRUININKS OSERETSKY TEST OF MOTOR PROFICIENCY",
-      "normativa": "INCLUYE: TOMA DELMISMO.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "25.90.83",
       "description": "EVALUACIÓN PEDIÁTRICA - TEST DE DESARROLLO DE LA PERCEPCIÓN VISUAL",
-      "normativa": "INCLUYE: Honorarios_ y Gastos. 1 Honorarios y Gastos. N .=o 0 o c.; o U) 4 O C O 2 o O o o co < o _ O o,- a— I•• 1... e,.. e■ CO 01 o qqqq 8888 CURVA TENSIONAL Honorarios y Gastos. RETINOGRAFIA oz RETINOFLUORESCENCIA Honorarios y Gastos. 1 Honorarios y Gastos. 1 UNILATERAL. Honorarios y Gastos TOPOGRAFÍACORNEAL Honorarios y Gastos. 1 Honorarios y Gastos. ANGIOGRAFIA DIGITAL C/ INDOCIANINABILATERAL Honorarios y Gastos. BIOMETRIAOCULAR Honorarios y Gastos. TOMOGRAFIA E OCULAR DECOHERENCIA Honorarios y Gastos. H.R.T. TOMOGRAFIA CONFOCALLASER UNI O BILATERAL Honorarios y Gastos. 8 0 o .c 3 u, .= 1 ›, u, o ,c C O 2 1 O O 0 C■i 8 0 9 Lo w) o 8 g re) dg Ni Q Q Ci CO'— 2 2, 1 Y_ a u, N o yr U) •- > g • '2 .5 E Q . .15 '15 To• ro c CO (\i Co oto),C rziN C C o .ca 11. tn. 3 E a .8 175 F3 \"rx`; O e O 'El\" ▪CO • .7. < 8 al co > 6 g> . CO 2 w t 'ct O .77., a) •o c ..0. \" 10 ••••Oe. \"C3 O o I— • o .<7, so 1:› o o o o ro .0 •a cDoxW c5 r.> 3 C 2 :5 '2 a 2 2 E :52 iii 139 8 -92 69 C ..... 2 . 1 (u A A Fi 11. t 8O.13. c o? co o <o o 1 Ir 3 E = cl AS É Z II\"a) 1 li e so 9 O o a 1 113É 10 Ozet : 7 (1) 1 1 •a) ,co ...., 5 0 ,_ Q co co c 11: 6\" dt \"0/5 8> 1- 1 E 1 1 1 u) 15 rt 11 o 552„ {.u, 2 :‘, I § le 5 2 al 511 112 .0 c .c <2 1 q.,5;-:¿,i ,.,. i 44:9 nu,««1/4-, 1 1 I 1 1 (S 1z22221 .1 o'2 ra le 2 o 03 ,C E I .a 12 41g 411 1 ( 1 li 2 2 I P.). o 8 c,i las siguientes intervenciones: Resección marginal de tumores de partes bla benignos y profundos a la fascia que NO requieren reconstrucción de partes b",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "25.90.84",
       "description": "EVALUACIÓN PEDIÁTRICA - EVALUACIÓN PEABODY DEVELOPMENTAL MOTOR SCALES",
-      "normativa": "INCLUYE: Honorarios y Gastos. 1 UNILATERAL. Honorarios y Gastos TOPOGRAFÍACORNEAL Honorarios y Gastos. 1 Honorarios y Gastos. ANGIOGRAFIA DIGITAL C/ INDOCIANINABILATERAL Honorarios y Gastos. BIOMETRIAOCULAR Honorarios y Gastos. TOMOGRAFIA E OCULAR DECOHERENCIA Honorarios y Gastos. H.R.T. TOMOGRAFIA CONFOCALLASER UNI O BILATERAL Honorarios y Gastos. 8 0 o .c 3 u, .= 1 ›, u, o ,c C O 2 1 O O 0 C■i 8 0 9 Lo w) o 8 g re) dg Ni Q Q Ci CO'— 2 2, 1 Y_ a u, N o yr U) •- > g • '2 .5 E Q . .15 '15 To• ro c CO (\i Co oto),C rziN C C o .ca 11. tn. 3 E a .8 175 F3 \"rx`; O e O 'El\" ▪CO • .7. < 8 al co > 6 g> . CO 2 w t 'ct O .77., a) •o c ..0. \" 10 ••••Oe. \"C3 O o I— • o .<7, so 1:› o o o o ro .0 •a cDoxW c5 r.> 3 C 2 :5 '2 a 2 2 E :52 iii 139 8 -92 69 C ..... 2 . 1 (u A A Fi 11. t 8O.13. c o? co o <o o 1 Ir 3 E = cl AS É Z II\"a) 1 li e so 9 O o a 1 113É 10 Ozet : 7 (1) 1 1 •a) ,co ...., 5 0 ,_ Q co co c 11: 6\" dt \"0/5 8> 1- 1 E 1 1 1 u) 15 rt 11 o 552„ {.u, 2 :‘, I § le 5 2 al 511 112 .0 c .c <2 1 q.,5;-:¿,i ,.,. i 44:9 nu,««1/4-, 1 1 I 1 1 (S 1z22221 .1 o'2 ra le 2 o 03 ,C E I .a 12 41g 411 1 ( 1 li 2 2 I P.). o 8 c,i las siguientes intervenciones: Resección marginal de tumores de partes bla benignos y profundos a la fascia que NO requieren reconstrucción de partes blan. liberación vasculo-nerviosas (Ej.: Mixomas-hemangiomas-lipomas profundos). ROncológica de tumores de partes blandas malignos y superficiales que NO requ reconstrucción de partes blandas ni liberación vasculo-nerviosas (Ej < Dermatofibrosarcoma protuberans). i las siguientes intervenciones: Resección de sarcomas de partes bla . profundos de los miembros. Resección de tu",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "25.90.85",
       "description": "EVALUACIÓN PEDIÁTRICA - EVALUACIÓN ESCALAS BAYLEY DE DESARROLLO",
-      "normativa": "INCLUYE: Honorarios y Gastos. ECOGRAFIAOFTALMOLOGICA UNI OBILATERAL Honorarios y Gastos. 1 Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. 4 CURVA TENSIONAL Honorarios y Gastos. RETINOGRAFIA Honorarios y Gastos. RETINOFLUORESCENCIA Honorarios y Gastos. 13001 13 1 Honorarios y Gastos. Por procedimiento y se pueden realizar hasta 3 por paciente • U) ro -c) o' • •: C (13 o OW c C:r ro a.) ro \"C3 U) U) (U o • U) u) o CL • O a) (o O a) a) • C O O(1) 4- Z U) /3 2 u) o c 0- ro 5 O O u) U) E 5 ce ro <3 E t ro a) 2 o a) -o , .0_ 0 ro o o o as >, O 2 E 1.12 o 92 c73 C •(I) c .0 E a.) ro c CO ro -o E \"(7) o- a) E E O a) (U U) a) 0 «S (/) ZE CO (U 1Z3 U) • X CO a) O- 2 C _o 77. O as • : t ro O 5 irr <O (13 • (i) a) 12> .0 ro 51 -o ce (x) .2 O Q O o o O a) ro O E E o O O a) C O 2. \"-5 ó 0 c ro O) U) -o -0 U) • ro O O O (U -o (U :o a) a) E O O as .o (U O a) O O) o O) O) (U O C O a) er) O a) E U) O) o 3 (U O -o O t (u O a) ro E ro \"0 -6 (U o O 9 O) C O -o 13 ro >, Cr> <1:1 ▪ o E CO 5 C .1) = 0 I.> o cs) O 111 o o o Q N (.) O 111 u_ F2. oO H In < 2 2z 00 o o O < C1. LL o 0 0 < O 0 O o 2 2 O o O O O C‘) M CD O O C) O cs; O L.C> Lo Lo O O O ci re) M re, O O a) U) a) O a) O O (U -0 ro 11.1 C O ci 0) O ro O E U) ro U C o_ as 2 O) cn O O",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "25.90.86",
       "description": "EVALUACIÓN PEDIÁTRICA - VINELAND ADAPTATIVE BEHAVIOR SCALES.",
-      "normativa": "INCLUYE: Honorarios y Gastos. N .=o 0 o c.; o U) 4 O C O 2 o O o o co < o _ O o,- a— I•• 1... e,.. e■ CO 01 o qqqq 8888 CURVA TENSIONAL Honorarios y Gastos. RETINOGRAFIA oz RETINOFLUORESCENCIA Honorarios y Gastos. 1 Honorarios y Gastos. 1 UNILATERAL. Honorarios y Gastos TOPOGRAFÍACORNEAL Honorarios y Gastos. 1 Honorarios y Gastos. ANGIOGRAFIA DIGITAL C/ INDOCIANINABILATERAL Honorarios y Gastos. BIOMETRIAOCULAR Honorarios y Gastos. TOMOGRAFIA E OCULAR DECOHERENCIA Honorarios y Gastos. H.R.T. TOMOGRAFIA CONFOCALLASER UNI O BILATERAL Honorarios y Gastos. 8 0 o .c 3 u, .= 1 ›, u, o ,c C O 2 1 O O 0 C■i 8 0 9 Lo w) o 8 g re) dg Ni Q Q Ci CO'— 2 2, 1 Y_ a u, N o yr U) •- > g • '2 .5 E Q . .15 '15 To• ro c CO (\i Co oto),C rziN C C o .ca 11. tn. 3 E a .8 175 F3 \"rx`; O e O 'El\" ▪CO • .7. < 8 al co > 6 g> . CO 2 w t 'ct O .77., a) •o c ..0. \" 10 ••••Oe. \"C3 O o I— • o .<7, so 1:› o o o o ro .0 •a cDoxW c5 r.> 3 C 2 :5 '2 a 2 2 E :52 iii 139 8 -92 69 C ..... 2 . 1 (u A A Fi 11. t 8O.13. c o? co o <o o 1 Ir 3 E = cl AS É Z II\"a) 1 li e so 9 O o a 1 113É 10 Ozet : 7 (1) 1 1 •a) ,co ...., 5 0 ,_ Q co co c 11: 6\" dt \"0/5 8> 1- 1 E 1 1 1 u) 15 rt 11 o 552„ {.u, 2 :‘, I § le 5 2 al 511 112 .0 c .c <2 1 q.,5;-:¿,i ,.,. i 44:9 nu,««1/4-, 1 1 I 1 1 (S 1z22221 .1 o'2 ra le 2 o 03 ,C E I .a 12 41g 411 1 ( 1 li 2 2 I P.). o 8 c,i las siguientes intervenciones: Resección marginal de tumores de partes bla benignos y profundos a la fascia que NO requieren reconstrucción de partes blan. liberación vasculo-nerviosas (Ej.: Mixomas-hemangiomas-lipomas profundos). ROncológica de",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "25.90.87",
       "description": "EVALUACIÓN PEDIÁTRICA - THE FUNCTIONAL INDEPENDENCE MEASURE FOR",
-      "normativa": "INCLUYE: UNILATERAL. Honorarios y Gastos TOPOGRAFÍACORNEAL Honorarios y Gastos. 1 Honorarios y Gastos. ANGIOGRAFIA DIGITAL C/ INDOCIANINABILATERAL Honorarios y Gastos. BIOMETRIAOCULAR Honorarios y Gastos. TOMOGRAFIA E OCULAR DECOHERENCIA Honorarios y Gastos. H.R.T. TOMOGRAFIA CONFOCALLASER UNI O BILATERAL Honorarios y Gastos. 8 0 o .c 3 u, .= 1 ›, u, o ,c C O 2 1 O O 0 C■i 8 0 9 Lo w) o 8 g re) dg Ni Q Q Ci CO'— 2 2, 1 Y_ a u, N o yr U) •- > g • '2 .5 E Q . .15 '15 To• ro c CO (\i Co oto),C rziN C C o .ca 11. tn. 3 E a .8 175 F3 \"rx`; O e O 'El\" ▪CO • .7. < 8 al co > 6 g> . CO 2 w t 'ct O .77., a) •o c ..0. \" 10 ••••Oe. \"C3 O o I— • o .<7, so 1:› o o o o ro .0 •a cDoxW c5 r.> 3 C 2 :5 '2 a 2 2 E :52 iii 139 8 -92 69 C ..... 2 . 1 (u A A Fi 11. t 8O.13. c o? co o <o o 1 Ir 3 E = cl AS É Z II\"a) 1 li e so 9 O o a 1 113É 10 Ozet : 7 (1) 1 1 •a) ,co ...., 5 0 ,_ Q co co c 11: 6\" dt \"0/5 8> 1- 1 E 1 1 1 u) 15 rt 11 o 552„ {.u, 2 :‘, I § le 5 2 al 511 112 .0 c .c <2 1 q.,5;-:¿,i ,.,. i 44:9 nu,««1/4-, 1 1 I 1 1 (S 1z22221 .1 o'2 ra le 2 o 03 ,C E I .a 12 41g 411 1 ( 1 li 2 2 I P.). o 8 c,i las siguientes intervenciones: Resección marginal de tumores de partes bla benignos y profundos a la fascia que NO requieren reconstrucción de partes blan. liberación vasculo-nerviosas (Ej.: Mixomas-hemangiomas-lipomas profundos). ROncológica de tumores de partes blandas malignos y superficiales que NO requ reconstrucción de partes blandas ni liberación vasculo-nerviosas (Ej < Dermatofibrosarcoma protuberans). i las siguientes intervenciones: Resección de sarcomas de partes bla . profundos de los miembros. Resección de tumores de partes blandas (benignos ,. j malignos) que requieran liberación de nervios principales (Ej.: Schwannomas) o y- '.-- 1",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "25.90.88",
       "description": "EVALUACIÓN PEDIÁTRICA - ESCALAS MCCARTHY DE APTITUDES Y",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. ESQUEMA DEFONDODEOJO. CAMPIMETRÍA COMPUTARIZADA Honorarios y Gastos. UNILATERAL. Honorarios y Gastos",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "25.90.89",
       "description": "EVALUACIÓN TRAUMATOLÓGICA - GONIOMETRÍA, FUNCIONAL, OTRAS.",
-      "normativa": "INCLUYE: Honorarios y Gastos. 22 F EB 2023 O .ces t as a) o 1 75 a aj o as -1' (u 200 Li- a) O a) 17 (D) a) m t.1 ), (Jo(3 N ,fla ..... -c) e\" 01, fri :4 '\" t) va \"' 13 o ' '- -a 2 2 In 15 ra °-.03 _O N W>•(L)0 a) C ° 0 OS (O -0 a) -O :•;_-, U) . IN 1•69 1 2 as (/) 5 Tú 1°- E o_ 1B O c u) C7) a) -o 70 (7)_ E O O u) ce _i ai ..' li 0 U)- 13 = Ui C •,. <-) - w a) Lz ,03 a, :ro 3 a)c .---Z 5.) CO E c o) en o .5 = Lu •Ct) -c s7) c 0.). = •E 6 ro a)„ ,,, _o 12 ,- 0 11 0 bo c E w a _c u) _c li a> 0O (\i f3 u) .._..2 > LE =u)(0 0 r ez) en < c rn o al o ca E a) E 1 «.,,, o a)-o c (J) c , 0 a) ca D >, es = w a) o r (n (\i O 1:, ni o z, O ..=-. E w u) o O La ti; a t9ft La '17.= a) •= = CO Ci2 O r t, No_c0c ow -o < C a U) 2 15 o •ct >. C9 o o ca 73 .r) z_ E o o 2 a) o c» caca g LL1 --o2 -1 fa í-r, u) -Q 0 a) wa)15'E 2 vi 0 X-012° • - w \"E C\") u) ca (I) (-) 0 O a) C U) X 0 (7 2 __I a) a) -o a) u) = o ci 9., 0 1:1 2 .0 o c •co :a N 2 u_ E 0 ‘-' .co .5 Tu -6 1) c 0 a)-0 ca -6 - c 2 c o I; , 2 .0 ri) C•5 9t (1) E E ,,, 0 w co . - z. E 5 u) f -c as al a) o cs) o c ,,, es 3:3 c.) io_ co _1 .-: -o . a7 -a_ E 0_u) = - 13 wro E E a) CL ',9 (53 o o 1:3 ch , c ,ni .rzs o 0 E ..- a t - 0 E o a) 0 (9 -(5 41 2 (c) -.C0 (u u„. 41 - o U u)• 7200o_mmi o c u) (1) a ce a) '(\"75 u) ) ea (/) 11 ca 31- % 1 ,4! 11 Ú -(1 co 15 ál ds 41 1aS 9 5 cm C., C -0 E E 16 . - 1:1 03 la.. a) o '173 = a) Es D 73 cnE ----. (a U) la 2 = en a) ..a. n -1-3 w o o_ c) o r.._ - -*-. 0. -o o =4- OV)o -co (ut) >, .03 u)c a) c o o) n3 E_. ,-- _s u) cu < ca cr o o c o u) 2 O -13) , 5 , a) (O 1 u §)- (21 1 M CI) .2 2 .,. (13(13 - C r,O\" ft 2 O '5 2 -c,... \"C) -4 OZ `c5 1 1 a)'9 ni- o as O 0- U- -o u.- a o_ 12 a) U) ui las siguientes intervenciones: Resección marginal de tumores de partes blandas benignos y profundos a la fascia que NO requieren reconstrucción de partes blandas ni liberación vasculo-nervi",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "25.90.90",
       "description": "EVALUACIÓN NEUROCOGNITIVA - BATERÍA DE EVALUACIONES (MINI MENTAL STATE,",
-      "normativa": "INCLUYE: Honorarios y GaStps. Uso de video. Honorarios y Gastos. Codificar REGIÓN según Nomepcládor Nacional. Honorarios y Gastos. Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales GASTROTOMÍAPORRADIOSCOPIA/FIBROSCOPIA descartables. Honorarios y Gastos inherentes a la prestación, Pruebas de Compatibilidad, HEMOTERAPIA /TRANSFUSION Serología, Materiales Descartables. Biología Molecular. Filtro. HIBRIDACIÓNINSITU Honorarios y Gastos. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Materiales LIGADURAS DE VÁRICES ESOFÁGICAS descartables. Honorarios y Gastos. 1 Honorarios _TGastos. 20.01. 11 MANOMETRIAESOFAGICA Honorarios y Gastos. honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartab les.\nEXCLUYE: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. Honorarios anestesia, Elementos médicos específicos de acuerdo 'a patología según normativas IAPOS. LITOTRICIA EXTRACORPOREA RENAL MIRINGOPLASTIA TIPO I Anestesia, elementosprotésicos (diabolo a cargo de IAPOS) y. sala de recuperación. MIRINGOPLASTIATIPO II Anestesia, elementos protésicos (diabolo a cargo rgo ca de IAPOS)_sala y de recuperación. .",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "31.01.02",
       "description": "AUDIOMETRIA",
-      "normativa": "INCLUYE: Pensión en habitación compartida, Honorarios médicos del Obstetra y Neonatólogo, Gastos Operatorios, Laboratorio del recién nacido. Monitoreo Fetal, Medicamentos y Material descartables inherentes a la prestación. Parto múltiple. El 70% del valor del módulo corresponde a Gasto quirúrgico Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. honos-arios, derechos quirúrgicos, medicamentos y descartables. la anestesia general se reconoce CIRUGÍA DE CATARATAS Indicación: PARAPACIENTES CON MENOS DE 6DÉCIMAS (6/10) DEAGUDEZA VISUAL. Honorarios Médicos, Derechos Quirúrgico, Monitoreo, Medicamentos. Honorarios y Gastos. __ EXTRACCION DE CUERPOEXTRANOEN CORNEA. Honorarios y Gastos. COLOCACIÓN DE ANILLOSINTRAESTROMALES Honorarios . . ASHIKACION, LAVADO E IMPLANTE DELVITREO. Honorarios y Gastos. Descripción: Vitrectomía + extracción de membrana + fotocoagulación + gas/aceite\nEXCLUYE: Todas las complicaciones de la parturienta y todas las patologías del bebé. Anestesia, NEO, TAC, RMN, Screening Neonata!, Sangre, Plasma. Observaciones: En caso de complicaciones se factura toda la internación por prestación. opesol ap earppw uppelan5:e olunlpv apraialaas uu CONSULTAVESTIDA (1) O N .i 0 O CV 0 1 — oo 44 N 0 0 e \i CV o 0 o o O M\" N.. O 0 CV O CV 0 o 11-) (O CV N- ,— O 0 C1) 0 0 O CV CV Cc) C`') 0 O T. \" . 1 -. . ',. o ,-- ,ZD . 0 . Anestesia. Todo otro procedimiento adicional. Material Descartable inherentes al procedimiento, L10+ suturas+sustancia. __ EXTRACCION DE CUERPO EXTRANO CONJUNTIVAL.\nREQUISITOS: retinopatía DBT proliferativa severa con o sin desprendimiento",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "4"
     },
     {
       "code": "31.01.09",
       "description": "IMPEDANCIOMETRIA",
-      "normativa": "INCLUYE: Honorados y Gastos. 1 TAC CEREBRAL DECONTROL (CON O SIN REFUERZO) e:HonorariosGastos. uye: Honorarios y Gastos. Honorarios y Gastos. TAC COMPLETA ABDOMEN REFORZADA 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos: Honorarios y Gastos. TACTIROIDEA Honorarios y Gastos. Honorarios y Gastos. ¡TACTORACICA REFORZADA o 1 Honorarios y Gastos. TACVEJIGAY PROSTATA ' Honorarios y Gastos. Honorarios y Gastos. Hematocrito - Recuento Plaquetas - Dosaje Anti SEGUIMIENTO ANTICOAGULACION HEPARINA BAJOPESO MOLECULAR SEGUIMIENTO ANTICOAGULACION HEPARINA + ORAL (TRANSICION) o necesidad. Sugerencia: Uno por día por cuatro días. Luego sigue con esquema de seguimiento de anticoagulación oral.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "4"
     },
     {
       "code": "31.01.03",
       "description": "LOGOAUDIOMETRIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. TAC TORÁCICA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC VEJIGA Y PROSTATA REFORZADA Honorarios y Gastos. TEST DECAMINATA6' Honorarios y Gastos. TESTDECAMINATA6' CON OXIGENO [ Honorarios y Gastos. Criterios de autorización: para valoración de estrategia terapéutica en HTP la TEST DE VASOREACTIVIDAD PULMONAR C/REGISTRO DE (excepcional// 2a) Pensión en habitación compartida. Evaluación pre, intra y post Gastos. «5 C■I co c., .- in o c5 q 9 c! ,01) ° CD ci .«- .ci ci ci o) o o on a1 o Ir) cti co cli uri IP c.Ci •hr j 09 cn cg cg c.\" 19 cn ,-<-ci a) ci cm o 9 in co cn\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS (VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍA CON EL 1 PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir lescalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS (IMPLANTE respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra VALVULAR AÓRTICOTRANSCATETER — TAVI) requerir información adicional que considere pertinente. RESUMEN HISTORIA CLINICA orientado a la prestación con evaluación por Heart Team (con firma y sello de todos",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "3"
     },
     {
       "code": "31.50.02",
       "description": "OTOEMISIONES ACUSTICAS UNI O BILATERAL",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. [ Honorarios y Gastos. Honorarios y Gastos. 134. 10.011TACCEREBRAL TACCEREBRAL DE CONTROL (CON O SIN 34. 10.03 REFUERZO) 1 Honorarios y Gastos. Uso de video. 1 Honorarios y Gastos. UNILATERAL Honorarios y Gastos. ,-,-ci u, en o ci Lo txi N cp ,-.- r•-: .- O co o O o) en o honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. Honorarios y Gastos . (o o ci o) en , TRATAMIENTO ENDOVASCULAR DE COARTACIÓN DE AORTA MEDIA Honorarios. in o ci o) «S en Honorarios — Derechos - Uso de aparatología, 1/3 de la sonda/catéter y elementos específicos Honorarios y Gastos . URETRORENOSCOPÍA SUPERIOR Honorarios. Honorarios.\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Endoscopía - Anestesia - Medicamentos - Sala de recuperación.\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "13"
     },
     {
       "code": "31.01.04",
       "description": "PRUEBAS SUPRALIMINARES",
-      "normativa": "INCLUYE: Honorarios y Gastos. TAC GINECOLOGICAREFORZADA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC MAMARIA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC TORÁCICA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC VEJIGA Y PROSTATA REFORZADA Honorarios y Gastos. TEST DECAMINATA6' Honorarios y Gastos. TESTDECAMINATA6' CON OXIGENO [ Honorarios y Gastos. Criterios de autorización: para valoración de estrategia terapéutica en HTP la TEST DE VASOREACTIVIDAD PULMONAR C/REGISTRO DE (excepcional// 2a) Pensión en habitación compartida. Evaluación pre, intra y post Gastos. «5 C■I co c., .- in o c5 q 9 c! ,01) ° CD ci .«- .ci ci ci o) o o on a1 o Ir) cti co cli uri IP c.Ci •hr j 09 cn cg cg c.\" 19 cn ,-<-ci a) ci cm o 9 in co cn\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS (VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍA CON EL 1 PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir lescalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS (IMPLAN",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "3"
     },
     {
       "code": "42.50.04",
       "description": "PRIMERA ENTREVISTA FONOAUDIOLOGICA",
-      "normativa": "INCLUYE: Honorarios_y Gastos. Honorarios y Gastos. TACDECOLUMNA Honorarios y Gastos. TACDE OTROSORGANOSOREGIONES Honorarios y Gastos. Honorarios y Gastos. TAC GINECOLOGICAREFORZADA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC MAMARIA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC TORÁCICA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC VEJIGA Y PROSTATA REFORZADA Honorarios y Gastos. TEST DECAMINATA6' Honorarios y Gastos. TESTDECAMINATA6' CON OXIGENO [ Honorarios y Gastos. Criterios de autorización: para valoración de estrategia terapéutica en HTP la TEST DE VASOREACTIVIDAD PULMONAR C/REGISTRO DE (excepcional// 2a) Pensión en habitación compartida. Evaluación pre, intra y post Gastos. «5 C■I co c., .- in o c5 q 9 c! ,01) ° CD ci .«- .ci ci ci o) o o on a1 o Ir) cti co cli uri IP c.Ci •hr j 09 cn cg cg c.\" 19 cn ,-<-ci a) ci cm o 9 in co cn\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS (VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍA CON EL 1 PROCE",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "7"
     },
     {
       "code": "25.01.04",
       "description": "REHABILITACION FONOAUDIOLOGICA",
-      "normativa": "INCLUYE: Honorarios y Gastos. TAC MAMARIA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC TORÁCICA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC VEJIGA Y PROSTATA REFORZADA Honorarios y Gastos. TEST DECAMINATA6' Honorarios y Gastos. TESTDECAMINATA6' CON OXIGENO [ Honorarios y Gastos. Criterios de autorización: para valoración de estrategia terapéutica en HTP la TEST DE VASOREACTIVIDAD PULMONAR C/REGISTRO DE (excepcional// 2a) Pensión en habitación compartida. Evaluación pre, intra y post Gastos. «5 C■I co c., .- in o c5 q 9 c! ,01) ° CD ci .«- .ci ci ci o) o o on a1 o Ir) cti co cli uri IP c.Ci •hr j 09 cn cg cg c.\" 19 cn ,-<-ci a) ci cm o 9 in co cn\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS (VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍA CON EL 1 PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir lescalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS (IMPLANTE respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra VALVULAR AÓRTICOTRANSCATETER — TAVI) requerir información adicional que cons",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "5"
     },
     {
       "code": "31.01.05",
       "description": "SELECCIÓN DE OTOAMPLIFONOS",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material de contraste. Honorarios y Gastos . Honorarios y Gastos. Material de contraste. TILT TEST Honorarios y Gastos . honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. 1 Honorarios y Gastos. Honorarios. cr), «S- LO Ce) O) Ce) Gastos. nt CD cS o C.-: O VERTEBROPLASTIA PERCUTÁNEAACRÍLICA Uso de aparato. Honorarios Médicos. Gastos Sanatoriales.\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y El material radioactivo F18TOMOGRAFÍA POR EMISIÓN DE POSITRONES (PET-CT) FDG ( Anestesia. Tac diagnóstica, Tac de control, pensión en habitación compartida. Complicaciones. Set de vertebroplastia a cargo de IAPOSObservaciones: En caso de dos (2) Vértebras, se factura el 100% de la primer vértebra + el 50% de la segunda vértebra.\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓNDE TRATAMIENTOINVASIVO CONRIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2SCORESVALIDADOS (Adjuntar PRINTCOMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) OMAL CANDIDATO QUIRÚRGICOPOR OTRASVARIABLESNO CONTEMPLADAS EN LOSSCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DEVIDA > 1 AÑO. DEBE DETERMINARSECALIDAD DE VIDAACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍACON EL PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las co",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "33.03.13",
       "description": "PRIMERA ENTREVISTA PSICOLOGICA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. [ Honorarios y Gastos. Honorarios y Gastos. 134. 10.011TACCEREBRAL TACCEREBRAL DE CONTROL (CON O SIN 34. 10.03 REFUERZO) 1 Honorarios y Gastos. Uso de video. 1 Honorarios y Gastos. UNILATERAL Honorarios y Gastos. ,-,-ci u, en o ci Lo txi N cp ,-.- r•-: .- O co o O o) en o honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. Honorarios y Gastos . (o o ci o) en , TRATAMIENTO ENDOVASCULAR DE COARTACIÓN DE AORTA MEDIA Honorarios. in o ci o) «S en\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación.\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo",
-      "price_hidden": "",
+      "normativa": "INCLUYE: tanto sesiones individuales como familiares (antes bajo el código",
       "coseguro": "7"
     },
     {
       "code": "33.01.01",
       "description": "PSICOTERAPIA (por Sesión)",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Criterios de Autorización - Para Diagnóstico: En mujeres que tengan un puntaje IARO igual o mayor a 9 mas alguno de los factores de riesgo y que estén dispuestas a realizar tratamiento o no tengan contra Honorarios y Gastos. Si es por dos regiones, se factura 50% adicional. CONTROL TELEMETRICO DE DISPOSITIVOS Honorarios. CARDIACOS Honorarios Médicos, Derechos de Hemodinámia, Prácticas de Rx ,Medicamentos, Sustancia de Contraste (100ML) y Material Descartable inherente a la práctica.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja CORONARIOGRAFÍASELECTIVA aclarado que el modulo contempla solo lo inherente a la realización de la cinecoronariografia. Anestesia. Observación: Cuando se realice Cinecoronariografía y Angioplastia en el mismo acto se abonará: 60%de la Cineco\nREQUISITOS: para el mismo. Se autorizará para edad mayor a 55 años siempre que tenga algún factor de riesgo de los mencionados, independientemente de su IARO. Criterios de Autorización - Para seguimiento: En mujeres bajo tratamiento de osteoporosis se reconoce una DMO por año para seguimiento, aunque lo indicado sería repetirla no antes de los 2 años. No se reconoce antes del año del estudio previo ya que el tratamiento es a muy largo plazo y los resultados son de poca magnitud. Si la DMO es normal (T score mayor a -1) se reconocerá su repetición luego de 3 años. Si la DMO da por encima del valor normal no se reconocerá ningún seguimiento posterior. Se recom ienda realizar DMO (S/la US Preventive Services Task Force(USPSTF) en: Mujeres mayores de 65 años en forma rutinaria. Mujeres, a partir de los 60 años, con riesgo incrementado para fracturas osteoporóticas. Se recomienda realizar DMO (S/la National Osteoporosis Foundation (NOF) en: Toda mujer <65 años que tiene uno o más factores de riesgo para fractura. Todas las mujeres mayores de 65 años.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la nueva asignación para gasto administrativo equivalente a 300 UB, por lo que atento al arancel actual de $26,90 se establece l",
       "coseguro": "5"
     },
     {
       "code": "33.01.11",
       "description": "PRUEBAS PSICOMETRICAS",
-      "normativa": "INCLUYE: Honorarios y Gastos. RMN DEARTICULACIONES REGIÓN Honorarios y Gastos. RMNDECOLUMNA1 Honorarios y Gastos. RMNDECOLUMNA2REGIONES [ Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. RMNDEVEJIGAY PRÓSTATA Honorarios y Gastos. f Honorarios y Gastos. 1 Honorarios y Gastos. [RMNMAMARIA Honorarios y Gastos. Honorarios y Gastos. RMNOFTALMOLÓGICA Honorarios y Gastos. 1 Honorarios y Gastos. RMNRENAL Honorarios y Gastos. Honorarios y Gastos. IRMNSUPRARRENAL 1RMNTORÁCICA Honorarios y Gastos. PUNCIÓN BIOPSIA PERCUTÁNEA POR TAC '00 2 1 FEB 7024 O o z O r:C M nt CV CO 0 CO d d d LO LO LO CO CO CO ,-- .,o ó 0) CO (,) N0 o á Lo (O o tr) O) có r\" O ,— o O) CO o-) d cv ,-- CV. in cp c\ oi ,... ,__ o LO) Ó,.- ni ni ,- CV C•, C,\" r) o o o ir) C\I r, ) Li-) .,— cn LO ..,-- co o dd CV u) ni ni 0, cn o LO) ni en CV co, ,--- nr LO (O dd LA ir) ni ni com dódó LO LO LO C's1 nt ni ni ni mcnmen <X' N.- O O kr) LO In .-- nr M 0 LO N C'S Hematocrito. -Recuento de Plaquetas. -KPTT. -Tiempo de Protrombina. -Tasa Protrombina. -R.I.N. (rango internacional normatizado). -Factor II . -Toma de muestra. Sugerencia: Uno por semana el primer mes. Luego uno por mes. Sujeto a modificaciones SEGUIMIENTO ANTICOAGULACION ORAL Honorarios Gastos. SENOGRAFIA AMPLIADA Y FOCALIZADA BILATERAL Honorarios y Gastos. SENOGRAFIAAMPLIADA Y FOCALIZADA UNILATERAL 1 Honorarios y Gastos. Uso de video. SINUSOTOMIA CON FIBRAÓPTICA Y VIDEOSCOP",
-      "price_hidden": "",
+      "normativa": "INCLUYE: a partir del 01 de marzo de 2018, la suma de Pesos veinticinco mil ($28.000) en concepto de gastos administrativos.-",
       "coseguro": "8"
     },
     {
       "code": "33.01.12",
       "description": "PRUEBAS PROYECTIVAS -MÍNIMO 4 TEST",
-      "normativa": "INCLUYE: Honorarios y Gastos. [RMNMAMARIA Honorarios y Gastos. Honorarios y Gastos. RMNOFTALMOLÓGICA Honorarios y Gastos. 1 Honorarios y Gastos. RMNRENAL Honorarios y Gastos. Honorarios y Gastos. IRMNSUPRARRENAL 1RMNTORÁCICA Honorarios y Gastos. PUNCIÓN BIOPSIA PERCUTÁNEA POR TAC '00 2 1 FEB 7024 O o z O r:C M nt CV CO 0 CO d d d LO LO LO CO CO CO ,-- .,o ó 0) CO (,) N0 o á Lo (O o tr) O) có r\" O ,— o O) CO o-) d cv ,-- CV. in cp c\ oi ,... ,__ o LO) Ó,.- ni ni ,- CV C•, C,\" r) o o o ir) C\I r, ) Li-) .,— cn LO ..,-- co o dd CV u) ni ni 0, cn o LO) ni en CV co, ,--- nr LO (O dd LA ir) ni ni com dódó LO LO LO C's1 nt ni ni ni mcnmen <X' N.- O O kr) LO In .-- nr M 0 LO N C'S Hematocrito. -Recuento de Plaquetas. -KPTT. -Tiempo de Protrombina. -Tasa Protrombina. -R.I.N. (rango internacional normatizado). -Factor II . -Toma de muestra. Sugerencia: Uno por semana el primer mes. Luego uno por mes. Sujeto a modificaciones SEGUIMIENTO ANTICOAGULACION ORAL Honorarios Gastos. SENOGRAFIA AMPLIADA Y FOCALIZADA BILATERAL Honorarios y Gastos. SENOGRAFIAAMPLIADA Y FOCALIZADA UNILATERAL 1 Honorarios y Gastos. Uso de video. SINUSOTOMIA CON FIBRAÓPTICA Y VIDEOSCOPIA Honorarios y Gastos. ITAC CEREBRAL Honorados y Gastos. 1 TAC CEREBRAL DECONTROL (CON O SIN REFUERZO) e:HonorariosGastos. uye: Honorarios y Gastos. Honorarios y Gastos. TAC COMPLETA ABDOMEN REFORZADA 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos",
-      "price_hidden": "",
+      "normativa": "INCLUYE: a partir del 01 de marzo de 2018, la suma de Pesos veinticinco mil ($28.000) en concepto de gastos administrativos.-",
       "coseguro": "8"
     },
     {
       "code": "33.03.03",
       "description": "ORIENTACION PARA PADRES DE NIÑOS MENORES DE 17 AÑOS",
-      "normativa": "INCLUYE: Honorarios y Gastos. 1 Honorarios y Gastos. [RMNMAMARIA Honorarios y Gastos. Honorarios y Gastos. RMNOFTALMOLÓGICA Honorarios y Gastos. 1 Honorarios y Gastos. RMNRENAL Honorarios y Gastos. Honorarios y Gastos. IRMNSUPRARRENAL 1RMNTORÁCICA Honorarios y Gastos. PUNCIÓN BIOPSIA PERCUTÁNEA POR TAC '00 2 1 FEB 7024 O o z O r:C M nt CV CO 0 CO d d d LO LO LO CO CO CO ,-- .,o ó 0) CO (,) N0 o á Lo (O o tr) O) có r\" O ,— o O) CO o-) d cv ,-- CV. in cp c\ oi ,... ,__ o LO) Ó,.- ni ni ,- CV C•, C,\" r) o o o ir) C\I r, ) Li-) .,— cn LO ..,-- co o dd CV u) ni ni 0, cn o LO) ni en CV co, ,--- nr LO (O dd LA ir) ni ni com dódó LO LO LO C's1 nt ni ni ni mcnmen <X' N.- O O kr) LO In .-- nr M 0 LO N C'S Hematocrito. -Recuento de Plaquetas. -KPTT. -Tiempo de Protrombina. -Tasa Protrombina. -R.I.N. (rango internacional normatizado). -Factor II . -Toma de muestra. Sugerencia: Uno por semana el primer mes. Luego uno por mes. Sujeto a modificaciones SEGUIMIENTO ANTICOAGULACION ORAL Honorarios Gastos. SENOGRAFIA AMPLIADA Y FOCALIZADA BILATERAL Honorarios y Gastos. SENOGRAFIAAMPLIADA Y FOCALIZADA UNILATERAL 1 Honorarios y Gastos. Uso de video. SINUSOTOMIA CON FIBRAÓPTICA Y VIDEOSCOPIA Honorarios y Gastos. ITAC CEREBRAL Honorados y Gastos. 1 TAC CEREBRAL DECONTROL (CON O SIN REFUERZO) e:HonorariosGastos. uye: Honorarios y Gastos. Honorarios y Gastos. TAC COMPLETA ABDOMEN REFORZADA 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gasto",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la nueva asignación para gasto administrativo equivalente a 300 UB, por lo que atento al arancel actual de $26,90 se establece la suma de pesos ocho mil setenta ($8.070,00) p",
       "coseguro": "5"
     },
     {
       "code": "42.50.02",
       "description": "PRIMERA ENTREVISTA PSICOPEDAGOGICA",
-      "normativa": "INCLUYE: el uso de métodos/tecnologías adicionales de evaluación diagnóstica hemodinámica anatómico-funcional (IVUS-RFF-otros) y/o tecnologías/métodos adicionales de tratamiento (tecnologías para modificación de placas calcificadas-aterectomia /litotricia/ técnica con ANGIOPLASTIA CORONARIA balones/ -etc.) para el abordaje de la lesión culpable, como así también el apoyo hemodinámico de la angioplastia con balón de contrapulsación intra-aórtico cuando correspondiere. Pensión en UCC o Pensión en habitación compartida, Honorarios Médicos. Derechos de hemodinámia. Medicamentos y Material Descartable inherentes al procedimiento. el uso de métodos/tecnologías adicionales de evaluación diagnóstica hemodinámica anatómico-funcional (IVUS-RFF-otros) y/o tecnologías/métodos adicionales de tratamiento (tecnologías para modificación de placas calcificadas-aterectomia /litotricia/ técnica con ANGIOPLASTIA ARTERIAL PERIFERICA (NO CORONARIA-CAROTIDEA) balones/ -etc.) para el abordaje de la lesión culpable, como así también el apoyo hemodinámico de la angioplastia con balón de contrapulsación intra-aórtico cuando correspondiere. Honorarios, Gastos y RMN Cerebral. Criterio de autorización: TEC y/o M.A.V. en plan de evaluación para ANGIOTOMOGRAFIA CRANEO Y VASOS DE CUELLO resolución quirúrgica H\nEXCLUYE: CCV - Valvuloplastia - Prótesis - Ortesis - Colocación de marcapaso definitivos -Hemoterapia - TAC - Eco doppler - Infusión de ¡drogas - Estudio Electrofisiológico y cualquier otra complicación que 'surgiere del procedimiento. Stent. Anestesia Prácticas y/o estudios complementarios a partir del tercer día de internación. Cirugía de revascularización por el fracaso de la angioplastia. Otras practicas tales como eco-doppler, estudios electrofisiológicos, etc. Infusión de drogas trombolíticos. Stent. Anestesia. 1ANGIORESONANCIA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "7"
     },
     {
       "code": "33.90.01",
       "description": "PSICOPEDAGOGIA X SESION",
-      "normativa": "INCLUYE: Honorarios y Gastos. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental 40%del valor práctica (bisturíbipolar, armónico), Honorarios médicos (corresponden al . • . . . . ,(UNO) DIAANATOMÍA PATOLOGICADELA/SPIEZA/S QU1RURGICA/S (las Diferidas, no asílas intraoperatorias, que incluyan congelación) MATERIALDESCARTABLE: DOS (2) SOBRES DESUTURASIRREABSORBIBLE, MONOFILAMENTO, DENYLON, PARA LA APENDICECTOMIA POR VIDEOLAPAROSCOPIA °á BASE APENDICULARYSÍNTESISDE LA PIEL EN LOS SITIOS DE INGRESODELOS TRÓCARESAVALORESCONVENIDOS. HONORARIOSANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación APLICACIÓNDEBOTOX 1 Honorarios Honorarios y Gastos. Arpón Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. ARTERIOGRAFÍA DE VASOS DE CUELLO Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material ARTERIOGRAFÍAPERIFÉRICA DE MIEMBRO INFERIOR BILATERAL Descartable inherente al procedimiento. DESDENACIMIENTO DE ARTERIAS ILÍACASPRIMITIVAS\nEXCLUYE: Material inherente a la Anestesia [ Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia. Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia. ibplly t e: Honorarios y Gastos 13 -47515.5 IARTRORESONANCIA 1 Labrum acetabular, Cuerpos\nREQUISITOS: Pinzamiento femoroacetabular, lesiones del libres intraarticulares, lesionaes condrales acetabu",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "5"
     },
     {
       "code": "33.90.03",
       "description": "PSICOPEDAGOGIA POR SESION FAMILIAR",
-      "normativa": "INCLUYE: Honorarios y Gastos Pensión en UCC o Pensión en habitación compartida, Honorarios Médicos. Derechos de hemodinámia. Medicamentos y Material Descartable inherentes al procedimiento. ANGIOPLASTIAARTERIAL PERIFERICA (NO CORONARIA-CARO\" Honorarios, Gastos y RMN Cerebral. ANGIOPLASTIACORONARIA ANGIOPLASTIA CAROTÍDEA ifti d 14) ni cf) N CV Inclu e: Pensión hasta 1 día. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos Las complicaciones devenidas la práctica realizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de \"PATOLOGÍA RESUELTA\". Esto eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente. APENDICECTOMIA POR VI DEOLAPAROSCOPIA Exclu e : ANATOMIA PATOLOGICA DE LA/S PIEZA/S Q UIRURGICA/S (las Diferidas, no así las intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: DOS (2) SOBRES DE SUTURAS IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA BASE PENDICULAR Y SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación 1 Honorarios\nEXCLUYE: Material de Contraste. Prácticas y/o estudios complementarios a partir del tercer día de internación. Cirugía de revascularización por el fracaso de la angioplastia. Otras practicas tales como eco-doppler, estudios electrofisiológicos, etc. Infusión de drogas trombolíticos. Stent. Anestesia. ANGIORESONANCIA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "5"
     },
     {
       "code": "33.90.11",
       "description": "PRUEBAS PSICOMETRICAS DE PSICOPEDAGOGIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. RMNDEVEJIGAY PRÓSTATA Honorarios y Gastos. f Honorarios y Gastos. 1 Honorarios y Gastos. [RMNMAMARIA Honorarios y Gastos. Honorarios y Gastos. RMNOFTALMOLÓGICA Honorarios y Gastos. 1 Honorarios y Gastos. RMNRENAL Honorarios y Gastos. Honorarios y Gastos. IRMNSUPRARRENAL 1RMNTORÁCICA Honorarios y Gastos. PUNCIÓN BIOPSIA PERCUTÁNEA POR TAC '00 2 1 FEB 7024 O o z O r:C M nt CV CO 0 CO d d d LO LO LO CO CO CO ,-- .,o ó 0) CO (,) N0 o á Lo (O o tr) O) có r\" O ,— o O) CO o-) d cv ,-- CV. in cp c\ oi ,... ,__ o LO) Ó,.- ni ni ,- CV C•, C,\" r) o o o ir) C\I r, ) Li-) .,— cn LO ..,-- co o dd CV u) ni ni 0, cn o LO) ni en CV co, ,--- nr LO (O dd LA ir) ni ni com dódó LO LO LO C's1 nt ni ni ni mcnmen <X' N.- O O kr) LO In .-- nr M 0 LO N C'S Hematocrito. -Recuento de Plaquetas. -KPTT. -Tiempo de Protrombina. -Tasa Protrombina. -R.I.N. (rango internacional normatizado). -Factor II . -Toma de muestra. Sugerencia: Uno por semana el primer mes. Luego uno por mes. Sujeto a modificaciones SEGUIMIENTO ANTICOAGULACION ORAL Honorarios Gastos. SENOGRAFIA AMPLIADA Y FOCALIZADA BILATERAL Honorarios y Gastos. SENOGRAFIAAMPLIADA Y FOCALIZADA UNILATERAL 1 Honorarios y Gastos. Uso de video. SINUSOTOMIA CON FIBRAÓPTICA Y VIDEOSCOPIA Honorarios y Gastos. ITAC CEREBRAL Honorados y Gastos. 1 TAC CEREBRAL DECONTROL (CON O SIN REFUERZO) e:HonorariosGastos. uye: Honorarios y Gastos. Honorarios y Gastos. TAC COMPLETA ABDOMEN REFORZADA 1 Honorarios y Gastos.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "33.90.12",
       "description": "PRUEBAS PROYECTIVAS DE PSICOPEDAGOGIA -MÍNIMO 4 TEST-",
-      "normativa": "INCLUYE: Pensión en UCC, pensión en habitación compartida, Honorarios H.1 N Lo C‹) N ó (.41 : .\ ,,,,.\\ ■ Is,-... N N .21:L„,1 -:, s,, in ci co c,) O 4 ARTERIOGRAFIA DE VASOS DE CUELLO APLICACIÓN DE BOTOX 1ARPONAJEMAMARIO (MARCACIÓN PREQUIRURGICA) APENDICECTOMIA POR VIDEOLAPAROSCOPIA ANGIOTOMOGRAFIA DETORAX 1 Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX , Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. Honorarios Honorarios y Gastos. Arpón/Clip. Pensión hasta 1 día. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico corresponde al 10%del valor del total del módulo), Honorarios 40% del valor total del modulo), médicos (corresponden al Medicamentos Las complicaciones devenidas la práctica rea lizada estarán a cargo del prestador, hasta dentro de los 15 días, de acuerdo al concepto de \"PATOLOGÍA RESUELTA\". Esto eventuales drenajes percutáneos de colecciones post operatorias (con Materiales necesarios), reoperaciones, materiales descartables y demás elementos que estarán a cargo del equipo que intervino al paciente.\nEXCLUYE: Cualquier otro procedimiento adicional. Se deja aclarado que el modulo contempla solo lo inherente a la realización de la práctica. Anestesia. Anestesia ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así MATERIAL las intraoperatorias, que incluyan congelación) DESCARTABLE: DOS (2) SOBRES DE SUTURASIRREABSORBIBLE, MONOFILAMENTO, DENYLON, PARA LA BASE APENDICULAR Y SÍNTESIS DELA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo p",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "8"
     },
     {
       "code": "25.90.50",
       "description": "MÓDULO 1- REHABILITACION NEUROLOGICA ALTA COMPLEJIDAD",
-      "normativa": "INCLUYE: Honorarios y Gastos. RMNRENAL Honorarios y Gastos. Honorarios y Gastos. IRMNSUPRARRENAL 1RMNTORÁCICA Honorarios y Gastos. PUNCIÓN BIOPSIA PERCUTÁNEA POR TAC '00 2 1 FEB 7024 O o z O r:C M nt CV CO 0 CO d d d LO LO LO CO CO CO ,-- .,o ó 0) CO (,) N0 o á Lo (O o tr) O) có r\" O ,— o O) CO o-) d cv ,-- CV. in cp c\ oi ,... ,__ o LO) Ó,.- ni ni ,- CV C•, C,\" r) o o o ir) C\I r, ) Li-) .,— cn LO ..,-- co o dd CV u) ni ni 0, cn o LO) ni en CV co, ,--- nr LO (O dd LA ir) ni ni com dódó LO LO LO C's1 nt ni ni ni mcnmen <X' N.- O O kr) LO In .-- nr M 0 LO N C'S Hematocrito. -Recuento de Plaquetas. -KPTT. -Tiempo de Protrombina. -Tasa Protrombina. -R.I.N. (rango internacional normatizado). -Factor II . -Toma de muestra. Sugerencia: Uno por semana el primer mes. Luego uno por mes. Sujeto a modificaciones SEGUIMIENTO ANTICOAGULACION ORAL Honorarios Gastos. SENOGRAFIA AMPLIADA Y FOCALIZADA BILATERAL Honorarios y Gastos. SENOGRAFIAAMPLIADA Y FOCALIZADA UNILATERAL 1 Honorarios y Gastos. Uso de video. SINUSOTOMIA CON FIBRAÓPTICA Y VIDEOSCOPIA Honorarios y Gastos. ITAC CEREBRAL Honorados y Gastos. 1 TAC CEREBRAL DECONTROL (CON O SIN REFUERZO) e:HonorariosGastos. uye: Honorarios y Gastos. Honorarios y Gastos. TAC COMPLETA ABDOMEN REFORZADA 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1",
-      "price_hidden": "",
+      "normativa": "INCLUYE: prácticas, insumos y material descartable destinado al manejo y recambio de traqueotomía.",
       "coseguro": "BPE"
     },
     {
       "code": "25.90.51",
       "description": "MÓDULO 2 - REHABILITACION NEUROLOGICA ALTA COMPLEJIDAD CON ASISTENCIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. RMNDEVEJIGAY PRÓSTATA Honorarios y Gastos. f Honorarios y Gastos. 1 Honorarios y Gastos. [RMNMAMARIA Honorarios y Gastos. Honorarios y Gastos. RMNOFTALMOLÓGICA Honorarios y Gastos. 1 Honorarios y Gastos. RMNRENAL Honorarios y Gastos. Honorarios y Gastos. IRMNSUPRARRENAL 1RMNTORÁCICA Honorarios y Gastos. PUNCIÓN BIOPSIA PERCUTÁNEA POR TAC '00 2 1 FEB 7024 O o z O r:C M nt CV CO 0 CO d d d LO LO LO CO CO CO ,-- .,o ó 0) CO (,) N0 o á Lo (O o tr) O) có r\" O ,— o O) CO o-) d cv ,-- CV. in cp c\ oi ,... ,__ o LO) Ó,.- ni ni ,- CV C•, C,\" r) o o o ir) C\I r, ) Li-) .,— cn LO ..,-- co o dd CV u) ni ni 0, cn o LO) ni en CV co, ,--- nr LO (O dd LA ir) ni ni com dódó LO LO LO C's1 nt ni ni ni mcnmen <X' N.- O O kr) LO In .-- nr M 0 LO N C'S Hematocrito. -Recuento de Plaquetas. -KPTT. -Tiempo de Protrombina. -Tasa Protrombina. -R.I.N. (rango internacional normatizado). -Factor II . -Toma de muestra. Sugerencia: Uno por semana el primer mes. Luego uno por mes. Sujeto a modificaciones SEGUIMIENTO ANTICOAGULACION ORAL Honorarios Gastos. SENOGRAFIA AMPLIADA Y FOCALIZADA BILATERAL Honorarios y Gastos. SENOGRAFIAAMPLIADA Y FOCALIZADA UNILATERAL 1 Honorarios y Gastos. Uso de video. SINUSOTOMIA CON FIBRAÓPTICA Y VIDEOSCOPIA Honorarios y Gastos. ITAC CEREBRAL Honorados y Gastos. 1 TAC CEREBRAL DECONTROL (CON O SIN REFUERZO) e:HonorariosGastos. uye: Honorarios y Gastos. 34.10.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: prácticas, insumos y material descartable destinado al manejo y recambio de traqueotomía.",
       "coseguro": "BPE"
     },
     {
       "code": "25.90.60",
       "description": "MÓDULO 3 - REHABILITACIÓN EN INTERNACIÓN DE MEDIANA COMPLEJIDAD",
-      "normativa": "INCLUYE: Honorarios y Gastos. Medicación Específica. Honorarios y Gastos. Codificar REGIÓN según Nomenclador 6DIAS DE PENSION (1 () D 45 i z as u) u) u) T LU LU 15„•,- (n- M Z69- CO U.1 y) -cii U) >, nig? a) (T) M ft <1.) __10 O 'O C> - _ITD a a -(1003 O rr) .--, \" CAO r.i O MI -O c = = . - a) LiE1om 113 1 c., -, . O,,, „ co in O E co -00 ,ca- _6,11 8 a3 2 cr N O w ,_ -\")<I O --- „, 2 _O 0 ddoo 0 11,wc- ED--00o .-5 ,- o 0 >(n om ro o a)D >, ,.. o _-c onso c)),, O , 0 u) ,_ _ 0 £1_3 (D -•-• (11) .n3 -'-' Z 16 _ _ -'' u) C u Oj nicm Z U(1) cw Oa 12 ‘-' c ya 0 n -EL --- -c,Ej CL ( _.- = 0. > 2w0c0 11 --co= . ../..woet -sm oBomg c „,woz 0 E-, u ,2w ozw- co trro '.1 1-1-'''' ° o_ 0,1&11 -1WIB2151 u) =I 157:82 (/),,a 1,2 -Nzu,=->„ 13= a,1-ar m -0_00.0- E - 1,, 91>-oE u,a0->„1511111.43—.9111 71) 735 m 0_,_ (» .,_. co co 2,0 o o o - .=11(r<owmpomEm.mm,g. r o 2 u-li- m = =‹),J).--015 O 1- O 9 Z 16 Cl 2 E 24 C i,.<- u_ < ° 9 Q) 6 CL :1 - -2; g .2 : g 735 t .1 3 -.z .. _a.co> > - W3 iwi'•E o(Dcm 017)/(jo cinoascoEinzc2w Ow iliwir) pcnBmcmw< o?loom,I,E212.c8 el_TTel o w1R Lri (1) .--:12.-:‘,.= o c ... 12 il = Cll o ai - ' o — ?-á i• 1)* Z 0 - L_ 0 0 ....' •= - .- •---- 0 < ... := 5 z= MI mi n) O m) ft (U a , . „, z (,) O O •(1) . c -17', 1- C _ 1;• 0_ ,„ o \" , a) .- u) — - ni o ns .¿-. o co (Dm O Cr1 (1)12 om 10)9 2 . ca.--9 cg<10 m -or w ai - Qc c -c7 -5L-'NE -1-w cm--.-0 :2-c\".41 0 0 15 = c ¿T)= (/)._.•-• (Dm, D — _c ti) ••- 0 O C C 9 0 o '.-. -CLU.-1 ..,-(n M 1.0o-c . t= = -\"g\"1 OmIli ° W 4) 2L -1-1 II i < el - 2 a) (p (.) _O C13 O = CC c)a-Zc)C --(1) >, °E QWE13(9°03WC'-'(°° ,,00<uilo =,-w\nEXCLUYE: Material Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional 0041 • N N ' c)•• Cgías de malformaciones congénitas cardiácas, cirugías de revascularización miocardicas, cirugía de reemplazo valvular, PREaneurisma de aorta torácica.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: prácticas, insumos y material descartable destinado al manejo y recambio de traqueotomía.",
       "coseguro": "BPE"
     },
     {
@@ -4150,267 +3787,252 @@ const searchData = {
     {
       "code": "33.91.20",
       "description": "MÓDULO ADMISIÓN",
-      "normativa": "INCLUYE: Hemograma - Recuento de Reticulocitos - Recuento de Plaquetas - Citomorfología de Sangre periférica - Ferremia - Capacidadde saturación transferina - Porcentaje saturación tansferrina - Toma de muestra. Sugerencia: Uno en la evaluación inicial de citopenias. ESTUDIO INICIALDE CITOPENIAS AISLADASOCOMBINADAS -Hematocrito. -Recuento Plaquetario. -Frotis sangre Periférica. -Tiempo de sangría. -Tiempo plasma recalcificado. -APTT . -Tiempo de Protrombina. -Tasa de Protrombina (Quick). -Tiempo de Trombina. -Retracción del coágulo. -Fibrinógeno. -Lisis de Euglobulinas. Consumo Protombina TGT (Test generación Tromboplastina).Sugerencia: Uno al inicio del tratamiento anticoagulante. Uno en pre-quirúrgico cirugía gral. Uno en pre-quirúrgico cirugía CV. Dos en post-quirúrgico cirugia CV . Uno a l inicio del estudio de coagulopatía o sangrados. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. Test de Sickling - Cuerpos de Heinz - Electroforesis Hemoglobina en acetato - Electroforesis Hemoglobina en Agar Cuantificación Hemoglobina Fetal - Estudio Resistencia Globular Esferocitosis Hereditaria - Eliptocitosis - etc.- Estudio anemias Hemoliticas Congénitas. Sugerencia: Uno solo al diagnóstico. 'Seguimiento con módulo de seguimiento de citopénias. Recuento de reticulocitos - Recuento de Plaquetas Citomorfología de Sangre periférica -• Ferremia (opcional) - Capacidadde saturación transferrina (opcional) - Porcentaje Saturación tranferrina (opcional) - Toma de muestra. Sugerencia: Uno por mes los primeros tres meses. Luego uno cada dos meses. Sujeto a modificaciones de acuerdo a evolución clínica o necesidad. En casos de citopenias críticas (< 50.000 plaquetas - < 1.500 neutrófilos o < 7gr.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "12"
     },
     {
       "code": "33.91.30",
       "description": "MÓDULO AMBULATORIO INTENSIVO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Uso de video. Honorarios y Gastos. Uso de video. VIDEOESOFAGOGASTRODUODENOFIBROSCOPÍA : Honorarios y Gastos. Uso de video. Honorarios y Gastos. Uso de video. Honorarios y Gastos. ASA. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. . Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico ), Honorarios médicos (corresponden al 40% del valor total del modulo), Med\nEXCLUYE: : Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. En caso de realizarse en internación se permitiráfacturar el valor diferencial de pensión en relación al espacio en el cual se encuentra internado. Pensión en habitación PENSION: HASTA 1(UNO) DIA. ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL VI DEOLAPAROSCOPIA GINECOLOGICA DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, DIAGNOSTICA MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y TRES (3) LIGACLIPSSISE JUSTIFICA SU UTILIZACION. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza Tumor de ovario. Miomatosis uterina. Histerectomia o Anexo Histerectomia",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "33.91.31",
       "description": "MÓDULO AMBULATORIO DE SOSTÉN",
-      "normativa": "INCLUYE: OSTOMIAS) ESOFAGUECTOMIA EN TRES TIEMPOS POR EL MISMO GRUPO QUIRURGICO HONORARIOS DE EQUIPO DE CIRUGÍA PLÁSTICA) TRAQUEOSTOMIA POR CUALQUIER VIA RESECCION PULMONAR PARCIAL O TOTAL, DECORTICACION PULMONAR POR",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "33.91.16",
       "description": "CENTRO DE REHABILITACIÓN PSICOSOCIAL - MEDIA JORNADA",
-      "normativa": "INCLUYE: AAAYUXTARRENALES, PSEUDOANEURISMAS, INFECCIÓN DE PRÓTESISVASCULARESABDOMINALES, TRAUMATISMOS, INVASIÓNTUMORALDEVASOSABDOMINALES) $241.642 TROMBOENDARTERECTOMIA DE VASOS PERIFÉRICOS CONOSINARTERIOPLASTIA ( TOMA DE EVENTUAL INJERTO VENOSO) a) $322.189 ni' DERIVACIÓN AORTO O ILIACOFEMORAL UNI/BILATERAL (CON O SIN SIMPATICECTOM(A) c9 n-",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "33.91.08",
       "description": "CENTRO DE REHABILITACIÓN PSICOSOCIAL - JORNADA COMPLETA",
-      "normativa": "INCLUYE: Honorarios y derechos. Aguja ATEC Honorarios Médicos, Derechos, Uso de bomba infusora. Pensión (Sillón). Honorarios Médicos, Derechos, Uso de bomba infusora. *Sala de recuperación (hasta 7hs.), Videoesofagogastroduodenofibroscopia inherente a la práctica, Honorarios diagnóstica (VEDA). Uso de endoscopio e instrumental del modulo), Medicamentos y Materiales médicos (corresponden al 40% del total descartables. Honorarios y Gastos. calibración de CPAP Incluye. Honorarios y Gastos. Honorarios +Gastos +Materiales. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios neurocirugía, derechos, medicamentos y descartables. Honorarios médicos, Derechos, Medicamentos y Material Honorarios médicos, Derechos, Medicamentos y Material compartida. en habitación [\nEXCLUYE: Anatomía patológica. Anestesia. _ _ Medicamentos Oncológicos (a cargo de lapos). _ Pensión en habitación compartida . Medicamentos Oncológicos a (cargo de lapos). Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.*En caso de realizarse en internación se permitirá facturar el valor diferencialde pensión en relación al espacio en el cual se encuentra internado Anatomía Patológica. Anatomía Patológica. Anatomía Patológica. Pensión, anatomía patológica, cultivos. Alquiler marco estereotáxico por parte de la Institución Prestadora: NOV/23 $ 75.371 YDIC/23 $ 95.345 y Aguja de punción: NOV/23 $ 39.866Y DIC/23 $ 50.431). Descartable, Aguja. Anatomía Patológica, pensión en habitación compartida. Descartable, Aguja. Anatomía Patológica, pensión •ica. • Inclu e: Honorarios Gastos, • s r mama, • or lesión Exclu e: Ana",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "33.91.32",
       "description": "CENTRO DE DÍA - MEDIA JORNADA - ADULTOS MAYORES",
-      "normativa": "EXCLUYE: ANESTESIA NIVEL 7 X 3 TRASPLANTE HEPÁTICO ADULTO (CADAVÉRICO) - ANESTESIA NIVEL 7 X",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "33.91.33",
       "description": "CENTRO DE DÍA - JORNADA EXTENDIDA - ADULTOS MAYORES",
-      "normativa": "INCLUYE: Uso de aparato. Honorarios Médicos. Derechos, Punción de vértebra bajo control tomográfico (abordaje bilateral) Flebografía intra ósea. Biopsia de vértebra. Anatomía patológica, Uso de radioscopia con arco en C durante el procedimiento, Practicas de Rx y Medicamentos, Material Descartable: Agujas de Punción ósea de 10 Gauge (descartables), Aguja de tipo Janshide, Polvo de VERTEBROPLASTIAPERCUTÁNEAACRÍLICA tantalio, Bone Cemnet Simplex surgical (de Honmédica) Jeringas descarables, Xilocaina al 2%, Agujas de punción lumbar. Honorarios y Gastos. Uso de video.\nEXCLUYE: Anestesia. Tac diagnóstica, Tac de control, pensión en habitación compartida. Complicaciones. Observaciones : En caso de dos (2) Vértebras, se factura el 100% de la primer vértebra + el 50% de la segunda vértebra Sala de Recuperación 20.\nREQUISITOS: RESUMEN HISTORIACLINICA orientado a la prestación con TRANSCATETER — TAVI) evaluación por Heart Team (con firma y sello de todos integrantes) donde se avale lo scado a l mes 3°, 6° y 12°. Biopsia endomiocárdica: si sospecha de rechazo agudo en el primer año (c ada 2 semanas en los primeros 3 meses o cada 2 meses hasta cumplir el año) o para control de tratamiento efectivo posterior a rechazo.ementarios de laboratorios, imágenes, anatomía patológica. Interconsultas médicas. Honorarios de cirujanos cardiovasculares. Honorarios de cirujanos plásticos. Férulas ortopédicas- inmolizacion con yesos. Nuevas cirugías relacionadas con la intervención más allá de los 6 meses post operatorias. Nuevas cirugías en la fase aguda-subaguda no relacionadas con la patología de base o con la intervención e n cuestión. Sangre-hemoderivados. Traslados. Embolizacion preoperatorias. Mapeo de espécimen para determinación de porce ntaje de necrosis postQuimioterapia. Cualquier otra prestación no incluida expresamente. Las siguientes dos intervenciones quedaran fuera del sistema de módulos, respetando los convenios",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: establecidos por la propia habilitación, al igual que el número de personas a alojar. El titular del establecimiento habilitado será el responsable del estado de salud y bienestar integral de los alojados. Las actividades por realizar",
       "coseguro": "OI"
     },
     {
       "code": "43.90.60",
       "description": "HOSTALES",
-      "normativa": "INCLUYE: Honorarios y Gastos de la detección. Criterios de autorización: carcinoma mamario, melanoma cutáneo, carcinoma de vulva. Honorarios. Uso de aparato Gamma Probe (ALQUILER=50% del valor del módulo). Honorarios y gastos. Z J DERMATOSCOPÍA DIGITAL CON MAPEO CORPORAL TOTAL 0 Honorarios y Gastos. Honorarios y Gastos. ) bralIMM POR TCV MULTISLICE UN MAXILAR Criterios de Autorización - Para Diagnóstico: En mujeres que tengan un puntaje IARO igual o mayor a\nEXCLUYE: Pensión. Material radiactivo, centellograma linfático. Anestesia. DETECCIÓN DE GANGLIO CENTINELACON USODE\nREQUISITOS: DESCENSO MASIVO DE PESO (post bariatrica o no) + COLGAJOSCUTÁNEOS QUE REQUIERANCORRECCIÓN POR PATOLOGÍA FUNCIONAL, EN CUALQUIERÁREADELCUERPO (ABDOMEN, BRAZOS O MUSLOS). El plan quirúrgico establecido debe estar debidamente justificado por el profesional tratante, desde el inicio del tratamiento ( para la autorización de cada solicitud). RESUMENDEHISTORIA CLÍNICA ORIENTADA A LA PRESTACIÓN CON DESCRIPCIÓN DECOLGAJOSYTRANSTORNO FUNCIONAL QUE JUSTIFIQUE LA PRÁCTICA. FOTOGRAFÍAS DELÁREA AFECTADA TOMADAS POREL PROFESIONAL. Corresponde: Honorarios 70% y Gastos 30% ) Criterios de autorización: sólo en casos de presencia de múltiples nevus y alto riesgo de melanoma y/o nevus displásicos. Se deberá adjuntar en todos los casos clasificación ABDC y score de Meinzes",
-      "price_hidden": "",
+      "normativa": "INCLUYE: en el módulo la hotelería y 2 comidas diarias más dos colaciones para los usuarios del módulo. 7. Se\nEXCLUYE: la medicación, las prácticas complementarias y los traslados eventuales , necesarios. 8. La Obra Social reconocerá hasta 16 afiliados alojados en cada Hostal, siempre que la habilitación supere este número. Autorización Trimestral — Sujeto a Auditoría contra informe de evolución y conformidad del paciente y/o familiares o representante legal Código",
       "coseguro": "OI"
     },
     {
       "code": "43.90.53",
       "description": "COMUNIDAD TERAPÉUTICA - 1° AL 3° MES",
-      "normativa": "INCLUYE: Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos. . Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico ), Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos.\nEXCLUYE: PENSION: HASTA 1(UNO) DIA. ANATOMIA PATOLOGICA DE LA/S PIEZA/S QUIRURGICA/S (las Diferidas, no así las intraoperatorias que incluyan congelación) MATERIAL VI DEOLAPAROSCOPIA GINECOLOGICA DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, DIAGNOSTICA MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOS SITIOS DE INGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y TRES (3) LIGACLIPSSISE JUSTIFICA SU UTILIZACION. HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación. PENSION: HASTA 3 (TRES) DIAS. ANATOMIA PATOLOGICA DE LA/S PIEZA/S Q UIRURGICA/S (las Diferidas, no asílas intraoperatorias, que incluyan VIDEOLAPAROSCOPIA GINECOLOGICA VIDEOLAPAROSCOPIA GINECOLOGICA TERAPEUTICACOMPLEJA TERAPEUTICACOMPLEJA congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIAL IRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LA SÍNTESIS DE LA PIEL EN LOSSITIOS DEINGRESO DE LOS TRÓCARES A VALORES CONVENIDOS Y 3 (TRES) LIGACLIPS HONORARIOS ANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Cuadros pelvianos agudos sin diagnóstico de certeza Tumor de ovario. Miomatosis uterina. Histerectomia o Anexo Histerectomia",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "43.90.54",
       "description": "COMUNIDAD TERAPÉUTICA - 3° AL 6° MES",
-      "normativa": "INCLUYE: Honorarios y Gastos. Uso de video. Excluye. Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. Honorarios y Gastos. Uso de video. p/IDÉPELECTROENCEFALOGRAMAPORTELEMETRIA Honorarios y Gastos. Uso de video. : Honorarios y Gastos. Uso de video. Toracocentesis. uso de laparoscopio e Indicación: Nodulectomias, Segmentectomias en todas sus variedades, Lobectomias en todas sus variedades. uso de laparoscopio e instrumental inherente a la práctica (bisturí monopolar, bipolar, armónico), honorarios médicos (60% del valor del módulo), medicamentos y materiales descartables inherentes al procedimie\nEXCLUYE: : Sala de Recuperación (1/6 valor pensión cuando se utilice). Anestesia. Medicamentos anestésicos y descartables. En caso VIDEOESOFAGOGASTRODUODENOFIBROSCOMA (VEDA) de realizarse en internación se permitirá facturar el valor diferencial de pensión en z O O 1 O CH Oj w; 01 >' , ,4,Ó oo ci• ti in Lo d. '01 czi al .-- VIDEOTORACOSCOPIA TERAPÉUTICA GRUPO 1 VIDEOTORACOSCOPÍATERAPÉUTICAGRUPO 2 VIDEOTORACOSCOPIATERAPÉUTICA GRUPO 3 N E c:i o) ai nt o LO d u, ai O N N N ci a) có o d a) có N instrumental inherente a la práctica (bisturí monopolar, bipolar, armónico), honorarlos médicos (60% del valor del módulo), medicamentos y materiales descartables inherentes al procedimiento: trocares, drenajes, suturas no mecánicas, sistemas retractores y protectores de pared. Anatomía Patológica, Insumos específicos de hemostasia (BERIPLAST SPONGOSTAN, etc.) cuando sean justificados su utilización. Pension, Honorarios de Anestesia, Suturas Mecanices Auto-Suturas de acuerdo a la patología y en todo de acuerdo a las Normativas y protocolos de de IAPOS, vigentes y que figuren en la pagina oficial del instituto, en cuanto a tipo y numero Indicación: Neumonectomias, Esofagectomia Total.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "43.90.55",
       "description": "COMUNIDAD TERAPÉUTICA - 6° AL 12° MES",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material de contraste. Honorarios y Gastos. Honorarios y Gastos. Material de contraste. 3. 4:80.93 'SUPRARRENALCONCONTRASTE Honorarios y Gastos. Honorarios y Gastos. Material de contraste. Honorarios y Gastos . Honorarios y Gastos. Material Honorarios y Gastos . Honorarios y Gastos. Material de contraste. Honorarios y Gastos . Honorarios y Gastos. Material de contraste. Honorarios y Gastos . Honorarios y Gastos. Material de contraste. TILT TEST Honorarios y Gastos . honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. 1 Honorarios y Gastos. Honorarios. cr), «S-\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y El material radioactivo F18TOMOGRAFÍA POR EMISIÓN DE POSITRONES (PET-CT) FDG (",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "43.90.64",
       "description": "COMUNIDAD TERAPÉUTICA BUENOS AIRES",
-      "normativa": "INCLUYE: Honorarios +Gastos +Materiales. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Hematocrito - Recuento Plaquetas - Dosaje Anti Factor X activado. SEGUIMIENTO ANTICOAGULACION H\nEXCLUYE: Anatom ía Patológica. PUNCIÓNBIOPSIADEPRÓSTATABAJOECOGRAFÍA Anatom ía Patológica. 005 .Q c\i ,-- 0 U)",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "43.90.58",
       "description": "CENTRO DE NOCHE - CONTENCIÓN FINES DE SEMANA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), Medicamentos y Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. GASTROTOMÍA POR RADIOSCOPIA / FI BROSCOPIA Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del modulo), Medicamentos y Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. Codificar REGIÓN según Nomenclador Nacional. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del total del modulo), Medicamentos y EXTRACCIÓNCUERPO EXTRAÑOESOFÁGICO Materiales descartables. Honorarios y Gastos. Honorarios y Gastos. Uso de video. n34 / [J23 (3) O ci «S Punción aspirado de Médula Osea (esternal o Cresta Ilíaca Unilateral) Biopsia de Médula Osea Unilateral - Medulograma - Hemosiderina Medular Sideroblastos (% y clasificación) - Búsque de células neoplásicas - Descartables.\nEXCLUYE: Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. FLUJOMETRÍA URINARIA Material Radiactivo según valor CEDIM Interior Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. EXUDADOFARÍNGEO METODO RÁPIDO\nREQUISITOS: Controles de Seguimiento de patologías onco-hematológicas, según protocolo aplicado y criterio del médico trata",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "33.91.09",
       "description": "TALLERES DE HABILIDADES SOCIALES / INSERCIÓN",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Material Descartable ELECTROMIOGRAFÍA DE MIEMBROSSUPERIORES O Honorarios y Gastos. Material Descartable INFERIORESO FACIAL ELECTRORETINOGRAMA COMPUTARIZADO Honorarios y Gastos. ECOGRAFÍA MAMARIA UNI O BILATERAL Criterios de Autorización: Para la detección del cáncer de mama y de pequeños tumores de mama que aún no se han propagado hacia los ganglios linfáticos. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación al año prestacional, se deberán adjuntar estudios previos que justifiquen su realización. En el caso de mujeres mayores de 40 años, se autorizara cada 6 meses (calendario prestacional) según diagnostico presuntivo y estudios complementarios. Honorarios y Gastos ECOGRAFÍA HEPÁTICA, BILIAR, ESPLÉNICAO Honorarios y Gastos. TORÁCICA INTRAOPERATORIA Honorarios y Gastos. . ECOGRAFÍA - ECOGRAFÍA ENDOCAVITARIA VAGINAL i O 4 M O) o O O N.: O O , o in cd N Honorarios y Gastos Honorarios y Gastos. Pensión, Uso de endoscopio e instrumental inherente a la práctica, ESCLEROSIS DE LESIÓNSANGRANTE GÁSTRICA O Honorarios médicos (corresponden al 40% del total del modulo), Medic\nEXCLUYE: Medicamentos y Descartable. Sala del ENTEROCLISIS BAJOTAC 'Recuperación. Anestesia. ERGOMETRÍA COMPUTARIZADA\nREQUISITOS: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE ENDOSCOPIA RESPIRATORIATERAPEUTICA LESIONES OMALFORMACIONES DE LA VÍA AÉREA (presentar estudios que lo ad (PEDIATRICA-ADI U LTO) documenten). REQ UISITOS: RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX UOTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: ,Honorarios 70% y Gastos 30% del valor de la práctica '",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: del AT 1. Tener más de 21 años 2. Ser egresada/o como psicólogos, estudiante avanzado de psicología con 4to año aprobado (presentando certificación que lo avale) 3. Ser eg",
       "coseguro": "6"
     },
     {
       "code": "33.91.10",
       "description": "TALLERES FAMILIARES",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. [ Honorarios y Gastos. Honorarios y Gastos. 134. 10.011TACCEREBRAL TACCEREBRAL DE CONTROL (CON O SIN 34. 10.03 REFUERZO) 1 Honorarios y Gastos. Uso de video. 1 Honorarios y Gastos. UNILATERAL Honorarios y Gastos. ,-,-ci u, en o ci Lo txi N cp ,-.- r•-: .- O co o O o) en o honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. Honorarios y Gastos . (o o ci o) en , TRATAMIENTO ENDOVASCULAR DE COARTACIÓN DE AORTA MEDIA Honorarios. in o ci o) «S en Honorarios — Derechos - Uso de aparatología, 1/3 de la sonda/catéter y elementos específicos Honorarios y Gastos . URETRORENOSCOP\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Endoscopía - Anestesia - Medicamentos - Sala de recuperación.\nREQUISITOS: Lesiones vasculares o angiodisplasias con signo de sangrado activo severo en estómago, colon y recto - Ectasia vascular antral gástrica - Proctitis actínica Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: del AT 1. Tener más de 21 años 2. Ser egresada/o como psicólogos, estudiante avanzado de psicología con 4to año aprobado (presentando certificación que lo avale) 3. Ser egresada/o como Acompañante Terapéutico o título equivalente de universidades argentinas estatales o privadas legalmente habilitadas o de universidades extranjeras cuyos l; títulos sean revalidados o reconocidos por la ley argentina en virtud de tratados internacionales o egresado/a en Institutos Terciarios o de extensión universitaria en la materia, autorizados por el Ministerio de Educación de la Provincia de Santa Fe. 4. Seguro de praxis profesional. Destinatarios Afiliados activos con criterio de ingreso al Programa de Salud Mental Prestador A cargo de prestadores adheridos a la",
       "coseguro": "8"
     },
     {
       "code": "33.91.14",
       "description": "ACOMPAÑANTE TERAPÉUTICO (AT)",
-      "normativa": "INCLUYE: Honorarios y Gastos ECOGRAFÍA EN DOCAVITARIA VAGINAL Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de aborto espontáneo Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el cuello uterino está cambiando o abriéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los valores normales, por ejemplo si las estructuras pélvicas o el feto son normales. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación al año prestacional, se deberán adjuntar estudios previos que justifiquen su realización. En caso de embarazo se autorizara bajo el plan materno infantil. Honorarios y Gastos. 1-. o. o. o .o o Lo cd cm ai oi , cm C> LO 'Ir ECOGRAFÍATIROIDEA Honorarios y Gastos. EEG DIGITAL Honorarios y Gastos. EEGSUEÑO VIGILIA PROLONGADO Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Material Descartable ELECTROMIOGRAFÍA DE MIEMBROSSUPERIORES Honorarios y Gastos. Material Descartable O INFERIORES O FACIAL ELECTRORETINOGRAMA COMPUTARIZADO Honorarios y Gastos. 0 05 2 2 FEB 2023 LO Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en j habitación compartida (Por Cartera perstacional) INDICACIONE",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: establecidos por AFIP y el Tribunal de Cuentas de la Provincia) y demás documentación respaldatoria, la cual será registrada en el SIOS con el código 730901 (con el registro del SIOS se realiza la planilla",
       "coseguro": "OI"
     },
     {
       "code": "33.91.34",
       "description": "EVALUACIÓN NEUROCOGNITIVA (EN)",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Material Descartable ELECTROMIOGRAFÍA DE MIEMBROSSUPERIORES O Honorarios y Gastos. Material Descartable INFERIORESO FACIAL ELECTRORETINOGRAMA COMPUTARIZADO Honorarios y Gastos. ECOGRAFÍA MAMARIA UNI O BILATERAL Criterios de Autorización: Para la detección del cáncer de mama y de pequeños tumores de mama que aún no se han propagado hacia los ganglios linfáticos. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación al año prestacional, se deberán adjuntar estudios previos que justifiquen su realización. En el caso de mujeres mayores de 40 años, se autorizara cada 6 meses (calendario prestacional) según diagnostico presuntivo y estudios complementarios. Honorarios y Gastos ECOGRAFÍA HEPÁTICA, BILIAR, ESPLÉNICAO Honorarios y Gastos. TORÁCICA INTRAOPERATORIA Honorarios y Gastos. . ECOGRAFÍA - ECOGRAFÍA ENDOCAVITARIA VAGINAL i O 4 M O) o O O N.: O O , o in cd N Honorarios y Gastos Honorarios y Gastos.\nEXCLUYE: Medicamentos y Descartable. Sala del ENTEROCLISIS BAJOTAC 'Recuperación. Anestesia. ERGOMETRÍA COMPUTARIZADA\nREQUISITOS: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE ENDOSCOPIA RESPIRATORIATERAPEUTICA LESIONES OMALFORMACIONES DE LA VÍA AÉREA (presentar estudios que lo ad (PEDIATRICA-ADI U LTO) documenten). REQ UISITOS: RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX UOTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: ,Honorarios 70% y Gastos 30% del valor de la práctica '",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "11"
     },
     {
       "code": "33.91.35",
       "description": "POST ALTA I PSM",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. o Lo lo co O O ol ,-r co ECOGRAFÍA ENDOCAVITARIA VAGINAL Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de aborto espontáneo - Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el cuello uterino está cambiando o abriéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los valores normales, por ejemplo si las estructuras pélvicas o el feto son normales. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación al año prestacional, se deberán adjuntar estudios previos que justifiquen su realización. En caso de embarazo se autorizara bajo el plan materno infantil. Honorarios y Gastos. Criterios de Autorización: Para la detección del cáncer de mama y de pequeños tumores de mama que aún no se han propagado hacia los ganglios linfáticos. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación al año prestacional, se Honorarios y Gastos Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. ECOGRAFIA RENOVESICOPROSTATICA COMPLETA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OC"
     },
     {
       "code": "33.91.36",
       "description": "POST ALTA II PSM",
-      "normativa": "INCLUYE: Honorarios y Gastos. TORÁCICA Honorarios y Gastos. Criterios de Autorización: Para la detección del cáncer de mama y de pequeños tumores de mama que aún no se han propagado hacia los ganglios linfáticos. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación al año prestacional, se deberán adjuntar Honorarios y Gastos ECOGRAFÍA EN DOCAVITARIA VAGINAL Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico - Evaluar casos de amenaza de aborto espontáneo Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el cuello uterino está cambiando o abriéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los valores normales, por ejemplo si las estructuras pélvicas o el feto son normales. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación al año prestacional, se deberán adjuntar estudios previos que justifiquen su realización. En caso de embarazo se autorizara bajo el plan materno infantil. Honorarios y Gastos. 1-. o. o. o .o o Lo cd cm ai oi , cm C> LO 'Ir ECOGRAFÍATIROIDEA Honorarios y Gastos. EEG DIGITAL Honorarios y Gastos. EEGSUEÑO VIGILIA PROLONGADO Honorarios y Gastos. Honorarios y Gastos.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OC"
     },
     {
       "code": "33.91.28",
       "description": "MÓDULO ASISTENCIA EN SITUACIONES DE VIOLENCIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. 1 Honorarios y Gastos. 1 Honorarios y Gastos. 1 ECOGRAFIA TIROIDEA Honorarios y Gastos. 1 Honorarios y Gastos. EEGSUEÑOVIGILIAPROLONGADO ¡ Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Material Descartable ELECTROMIOGRAFÍADE MIEMBROS SUPERIORES O INFERIORESO Honorarios y Gastos. Material Descartable FACIAL ELECTRORETINOGRAMA COMPUTARIZADO Honorarios y Gastos. Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación [EMBOLIZACIÓN SELECTIVAARTERIALPERIFERICA ( CEREBR compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍADE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON RIESGO DECOMPROMISO DEVIA AÉREA) . RESUMEN DE HISTORIACLINICAORIENTADOA LA ENDOSCOPIA RESPIRATORIA DIGANOSTICA (PEDIATRICA-ADULTO) PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEEIMAGEN) UOTRO ECOGRAFIA ENDOCAVITARIA VAGINAL Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico Evaluar casos de amenaza de aborto espontáneo - Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el cuello uterino está cambiando o abriéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los valores normales, por ejemplo si las estructuras pélvicas o e",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "20"
     },
     {
       "code": "33.91.29",
       "description": "MÓDULO ASISTENCIA EN SITUACIONES DE VIOLENCIA -SEGUIMIENTO",
-      "normativa": "INCLUYE: Honorarios y Gastos. 1 Honorarios y Gastos. 1 ECOGRAFIA TIROIDEA Honorarios y Gastos. 1 Honorarios y Gastos. EEGSUEÑOVIGILIAPROLONGADO ¡ Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Material Descartable ELECTROMIOGRAFÍADE MIEMBROS SUPERIORES O INFERIORESO Honorarios y Gastos. Material Descartable FACIAL ELECTRORETINOGRAMA COMPUTARIZADO Honorarios y Gastos. Honorarios y Gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación [EMBOLIZACIÓN SELECTIVAARTERIALPERIFERICA ( CEREBR compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍADE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON RIESGO DECOMPROMISO DEVIA AÉREA) . RESUMEN DE HISTORIACLINICAORIENTADOA LA ENDOSCOPIA RESPIRATORIA DIGANOSTICA (PEDIATRICA-ADULTO) PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEEIMAGEN) UOTRO ECOGRAFIA ENDOCAVITARIA VAGINAL Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico Evaluar casos de amenaza de aborto espontáneo - Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el cuello uterino está cambiando o abriéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los valores normales, por ejemplo si las estructuras pélvicas o el feto son normales. Se autorizará una vez por año prestacional y en caso",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: -Equipo admisión lunes a viernes horario comercial. -Teléfono para urgencias. -Equipos interdisciplinarios conformados por: psicólogas, tr aso sociales, médicas. Alguna profesional con formación en violencia de gén o. Opcional:",
       "coseguro": "16"
     },
     {
       "code": "33.91.23",
       "description": "HOSPITAL DE DIA - MEDIA JORNADA",
-      "normativa": "INCLUYE: uso de laparoscopio e instrumental inherente a la práctica (bisturí monopolar, bipolar, armónico), honorarios médicos (60% del valor del módulo), medicamentos y materiales descartables inherentes al procedimiento: trocares, drenajes, suturas no mecánicas, sistemas retractores y protectores de pared. Toracocentesis. uso de laparoscopio e instrumental inherente a la práctica (bisturí monopolar, bipolar, armónico), honorarios médicos (60% del valor del módulo), medicamentos y materiales descartables inherentes al procedimiento: trocares, drenajes, suturas no mecánicas, sistemas retractores y protectores de pared. Toracocentesis. Gastos-derechos quirúrgicos, Uso de laparoscopio e instrumental inherente a la práctica (bisturí bipolar, armónico), Honora\nEXCLUYE: Anatomía Patológica, Insumos específicos de hemostasia (BERIPLASTSPONGOSTAN, etc.) cuando sean justificados su utilización. Pension, Honorarios de Anestesia, Suturas Mecanicas Auto-Suturas de acuerdo a la patología y en todo de acuerdo a las Normativas y protocolos de de IAPOS, vigentes y que figuren en la pagina oficial del instituto, en cuanto a tipo y numero. Indicación: Diagnóstica-Biopsia Pulmonar, Mediastinal, Pleural Pleurodesis. Tratamiento de Neumotorax recidivado. Anatomía Patológica, Insumos específicos de hemostasia (BERIPLAST SPONGOSTAN, etc.) cuando sean justificados su utilización. Pension, Honorarios de Anestesia, Suturas Mecanicas Auto-Suturas de acuerdo a la patología y en todo de acuerdo a las Normativas y protocolos de de IAPOS, vigentes y que figuren en la pagina oficial del instituto, en cuanto a tipo y numero.\nREQUISITOS: Embarazo ectopico. Endometriosis. Quiste ovario con complicaciones (hemorragico, sangrante,infectado). Adherencias pelvianas que compliquen la cirugia convencional",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "33.91.22",
       "description": "HOSPITAL DE DIA - JORNADA COMPLETA",
-      "normativa": "INCLUYE: Honorarios y Gastos. calibración de CPAP POTENCIALES EVOCADOS Honorarios y Gastos. 1PRICK TEST Honorarios +Gastos +Materiales. 1 Honorarios y Gastos. Honorarios y Gastos. Exclu Anatomía Patológica. Honorarios neurocirugía, derechos, medicamentos y descartables. Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. PUNCIÓN BIOPSIA PERCUTÁNEAPORTAC Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. Honorarios y Gastos, por mama, por lesión Honorarios y Gastos Honorarios, Derechos y Materiales Descartables. Incluido el correspondiente Kit. y filtros, Tipificación, Serología y reposición de líquidos. El valor establecido es por cada ciclo y se podrá solicitar hasta 10 ciclos, los cuales varían según la patología del paciente. *Pensión, Uso de endoscopio e ins\nEXCLUYE: Anatomía Patológica. 1 Anatomía Patológica. 1 Pensión, anatomía patológica, cultivos. Alquiler marco estereotáxico por parte de la Institución Prestadora: JUU23 $48.516, AGO/23 $ 55.891, SET/23 $ 57.735, COT/23$ PUNCIÓNBIOPSIAESTEREOTÁXICA INTRA-AXIAL GUIADA POR TAC 59.582, NOV/23 $ 61. 132Y DIC/23 $ 62.660 y Aguja de punción: JUU23 $ 25.662, AGO/23 $29.563, SET/23$ 30.538, OCT/23 $ 31.515, NOV/23 $ 32.335 Y DIC/23 $ 33.143). Anatomía Patológica, pensión en habitación compartida. Anatomía Patológica, pensión en habitación compartida. PUNCIÓNDE MAMABAJOECOGRAFIA Anatomía Patológica. Indicación: SANO (Síndrome de Apneas Obstructivas del Sueño).Sólo por Neumonólogo con especialización en Medicina del Sueño. Albunima Humana. Sangre. Plasma o Derivados.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "43.96.01",
       "description": "MÓDULO I: SUBSIDIO PARA DEPENDIENTES O SEMIDEPENDIENTES",
-      "normativa": "INCLUYE: la provisi6n de sensores de monitoreo continuo de glucosa, como Freest",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "43.90.02",
       "description": "MÓDULO I: SUBSIDIO PARA DEPENDIENTES O SEMIDEPENDIENTES",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. ECOGRAFIA pg, PARTESBLANDAS Honorarios y Gastos. ECOGRAFIADE/tESICULOS Honorarios y Gastos. Criterios de autorización: patología inflamatoria, tumoral y funcional, que afecta el canal ECOGRAFlytNDOANAL anal, recto inferior, tabique recto vaginal y suelo pelviano, adjuntando descripción semiológica y otros estudios previos Honorarios y gastos.\nEXCLUYE: Coils (a cargo de IAPOS). Pensión en habitación [EMBOLIZACIÓN SELECTIVAARTERIALPERIFERICA ( CEREBR compartida (Por Cartera perstacional)\nREQUISITOS: DECANULACIÓNDETRAQUEOSTOMÍA, BAL para citología o cultivo, SOSPECHA DE PATOLOGÍADE VÍA AÉREA (ESTRIDOR, HEMOPTISIS, ATELECTASIAS RECURRENTES, GRAN QUEMADO CON RIESGO DECOMPROMISO DEVIA AÉREA) . RESUMEN DE HISTORIACLINICAORIENTADOA LA ENDOSCOPIA RESPIRATORIA DIGANOSTICA (PEDIATRICA-ADULTO) PRESTACIÓN. RADIOGRAFÍA DE TÓRAX FRENTE (INFORMEEIMAGEN) UOTRO ECOGRAFIA ENDOCAVITARIA VAGINAL Criterios de Autorización: Hallazgos anormales en un examen físico, como quistes, tumores fibroideos u otras neoplasias (proliferación anormal de células) - Sangrado vaginal anormal y problemas menstruales - Ciertos tipos de infertilidad - Dolor pélvico Evaluar casos de amenaza de aborto espontáneo - Escuchar los latidos cardíacos de un feto - Examinar la placenta - Buscar la causa de sangrado - Vigilar el crecimiento del embrión o el feto a comienzos del embarazo - Ver si el cuello uterino está cambiando o abriéndose cuando el trabajo de parto está comenzando tempranamente - Comprobar los valores normales, por ejemplo si las estructuras pélvicas o el feto son normales. Se autorizará una vez por año prestacional y en caso de necesidadde repetir el estudio con antelación al año prestacional, se deberán adjuntar estudios previos que justifiquen su realización. En caso de embarazo se autorizara bajo el plan materno infantil.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "43.96.03",
       "description": "MÓDULO I: SUBSIDIO PARA DEPENDIENTES O SEMIDEPENDIENTES",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Material Descartable ELECTROMIOGRAFÍA DE MIEMBROSSUPERIORES O Honorarios y Gastos. Material Descartable INFERIORESO FACIAL ELECTRORETINOGRAMA COMPUTARIZADO Honorarios y Gastos. ECOGRAFÍA MAMARIA UNI O BILATERAL Criterios de Autorización: Para la detección del cáncer de mama y de pequeños tumores de mama que aún no se han propagado hacia los ganglios linfáticos. Se autorizará una vez por año prestacional y en caso de necesidad de repetir el estudio con antelación al año prestacional, se deberán adjuntar estudios previos que justifiquen su realización. En el caso de mujeres mayores de 40 años, se autorizara cada 6 meses (calendario prestacional) según diagnostico presuntivo y estudios complementarios. Honorarios y Gastos ECOGRAFÍA HEPÁTICA, BILIAR, ESPLÉNICAO Honorarios y Gastos. TORÁCICA INTRAOPERATORIA Honorarios y Gastos. . ECOGRAFÍA - ECOGRAFÍA ENDOCAVITARIA VAGINAL i O 4 M O) o O O N.: O O , o in cd N Honorarios y Gastos Honorarios y Gastos. Pensión, Uso de endoscopio e instrumental inherente a la práctica, ESCLEROSIS DE LESIÓNSANGRANTE GÁSTRICA O Ho\nEXCLUYE: Medicamentos y Descartable. Sala del ENTEROCLISIS BAJOTAC 'Recuperación. Anestesia. ERGOMETRÍA COMPUTARIZADA\nREQUISITOS: TRATAMIENTO DE ESTENOSIS TRAQUEAL (presentar estudios diagnosticos que demuestren grado de estrechez y nivel). TRATAMIENTO DE ENDOSCOPIA RESPIRATORIATERAPEUTICA LESIONES OMALFORMACIONES DE LA VÍA AÉREA (presentar estudios que lo ad (PEDIATRICA-ADI U LTO) documenten). REQ UISITOS: RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ENDOSCOPÍA DIAGNOSTICA (SI FUE REALIZADA). TAC DE TÓRAX UOTRO ESTUDIO QUE DOCUMENTE LA PATOLOGÍA. Corresponde: ,Honorarios 70% y Gastos 30% del valor de la práctica '",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "41.02.01",
       "description": "MÓDULO II: INTERNACIÓN GERIÁTRICA",
-      "normativa": "INCLUYE: Honorarios y Gastos. ESQUEMA DEFONDODEOJO. CAMPIMETRÍA COMPUTARIZADA Honorarios y Gastos. UNILATERAL. Honorarios y Gastos",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "44.10.01",
       "description": "MÓDULO III: INTERNACIÓN GERIÁTRICA - SALUD MENTAL",
-      "normativa": "INCLUYE: Honorarios y Gastos. RMNCARDIACAFUNCIONAL Honorarios y Gastos. 1 Honorarios y Gastos. RMN COMPLETA DE ABDOMEN Honorariosy Gastos. 1 Honorarios y Gastos. RMN DECOLUMNA 1REGIÓN I lncluye: Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. 1 Honorarios y Gastos. RMNGINECOLÓGICA Honorarios y Gastos. 1 Honorarios y Gastos. RMNMAMARIA Honorarios y Gastos. RMNOFTALMOLÓGICA Honorarios y Gastos. 1 Honorarios y Gastos. IRMNOTRASREGIONES Inclu e: Honorarios Gastos. 1 Honorarios y Gastos. 1 Honorarios y Gastos._ 1 Honorarios y Gastos. o habitación compartida . Medicamentos Oncológicos a (cargo de lapos). Honorarios Médicos, Derechos, Uso de bomba infusora. Pensión (Sillón). Anestesia. Criterios de autorización: biopsia nódulos mamarios definidos, como opción no quirúrgica. Honorarios y derechos. Aguja ATEC Honorarios y Gastos. Aguja de Punción. Sala de recuperación.\nEXCLUYE: Anatomía patológica. de LCR. Estudio compartida. Medicamentos Oncológicos a cargo de lapos. QUIMIOTERAPIAAMBULATORIA PUNCIÓNMAMOGRÁFICACONSISTEMA ATEC/SUROS PUN 9011 LUMBARDIAGNÓSTICA ,PUNCIÓNLUIOIEI4RCON QUIMIOTERAPIAINTRATECAL",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "78.09.01",
       "description": "MÓDULO IV: REINTEGRO DE GASTOS POR PRESTACIÓN DE ACOMPAÑANTE",
-      "normativa": "INCLUYE: Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios_y Gastos. Honorarios y Gastos. TACDECOLUMNA Honorarios y Gastos. TACDE OTROSORGANOSOREGIONES Honorarios y Gastos. Honorarios y Gastos. TAC GINECOLOGICAREFORZADA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC MAMARIA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC TORÁCICA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC VEJIGA Y PROSTATA REFORZADA Honorarios y Gastos. TEST DECAMINATA6' Honorarios y Gastos. TESTDECAMINATA6' CON OXIGENO [ Honorarios y Gastos. Criterios de autorización: para valoración de estrategia terapéutica en HTP la TEST DE VASOREACTIVIDAD PULMONAR C/REGISTRO DE (excepcional// 2a) Pensión en habitación compartida. Evaluación pre, intra y post Gastos. «5 C■I co c., .- in o c5 q 9 c! ,01) ° CD ci .«- .ci ci ci o) o o on a1 o Ir) cti co cli uri IP c.Ci •hr j 09 cn cg cg c.\" 19 cn ,-<-ci a) ci cm o 9 in co cn\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS (VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiació",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "S/C"
     },
     {
       "code": "33.30.02",
       "description": "MODULO I - DE 1 A 15 DIAS DE INTERNACION",
-      "normativa": "INCLUYE: Honorarios y Gastos. TAC TORÁCICA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. TAC VEJIGA Y PROSTATA REFORZADA Honorarios y Gastos. TEST DECAMINATA6' Honorarios y Gastos. TESTDECAMINATA6' CON OXIGENO [ Honorarios y Gastos. Criterios de autorización: para valoración de estrategia terapéutica en HTP la TEST DE VASOREACTIVIDAD PULMONAR C/REGISTRO DE (excepcional// 2a) Pensión en habitación compartida. Evaluación pre, intra y post Gastos. «5 C■I co c., .- in o c5 q 9 c! ,01) ° CD ci .«- .ci ci ci o) o o on a1 o Ir) cti co cli uri IP c.Ci •hr j 09 cn cg cg c.\" 19 cn ,-<-ci a) ci cm o 9 in co cn\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS (VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍA CON EL 1 PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir lescalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS (IMPLANTE respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra VALVULAR AÓRTICOTRANSCATETER — TAVI) requerir información adicional que considere pertinente. RESUMEN HISTORIA CLINICA orientado a la prestación con evaluación por Heart Team (con firma y sello de todos integrantes) donde se avale lo sccado al mes 3°, 6° y 12°",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de Pesos novecientos veintiún mil ($921.000)para asignar a la sub cartera Clínica San Roque; y a partir del 01 de noviembre de 2019 en la",
       "coseguro": "OI"
     },
     {
       "code": "33.30.03",
       "description": "MODULO II - DE 1 A 16 DIAS Y HASTA 30 DIAS DE INTERNACION",
-      "normativa": "INCLUYE: Honorarios y Gastos. TAC VEJIGA Y PROSTATA REFORZADA Honorarios y Gastos. TEST DECAMINATA6' Honorarios y Gastos. TESTDECAMINATA6' CON OXIGENO [ Honorarios y Gastos. Criterios de autorización: para valoración de estrategia terapéutica en HTP la TEST DE VASOREACTIVIDAD PULMONAR C/REGISTRO DE (excepcional// 2a) Pensión en habitación compartida. Evaluación pre, intra y post Gastos. «5 C■I co c., .- in o c5 q 9 c! ,01) ° CD ci .«- .ci ci ci o) o o on a1 o Ir) cti co cli uri IP c.Ci •hr j 09 cn cg cg c.\" 19 cn ,-<-ci a) ci cm o 9 in co cn\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2 SCORES VALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MAL CANDIDATO QUIRÚRGICO POR OTRAS (VARIABLES NO CONTEMPLADAS EN LOS SCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍA CON EL 1 PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir lescalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS (IMPLANTE respecta a fragilidad y esfera cognitiva, todo lo cual será evaluado por auditoria medica y podra VALVULAR AÓRTICOTRANSCATETER — TAVI) requerir información adicional que considere pertinente. RESUMEN HISTORIA CLINICA orientado a la prestación con evaluación por Heart Team (con firma y sello de todos integrantes) donde se avale lo sccado al mes 3°, 6° y 12°. Biopsia endomiocárdica: si sospecha de rechazo agudo en el primer año (cada 2 semanas en los primeros 3 meses o cada 2 meses hasta cumplir el año) o para co",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de Pesos novecientos veintiún mil ($921.000)para asignar a la sub cartera Clínica San Roque; y a partir del 01 de noviembre de 2019 en la suma de Pesos seis millones cuatrocientos noventa y seis m",
       "coseguro": "OI"
     },
     {
       "code": "06.90.01",
       "description": "MÓDULO INDUCCIÓN DE OVULACIÓN (MONITOREO ECOGRÁFICO Y HORMONAL)",
-      "normativa": "MÓDULO INSEMINACIÓN ARTIFICIAL INTRA UTERINA Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: 1.- BAJA COMPLEJIDAD 1) Módulo Inducción de ovulación (monitoreo ecográfico y hormonal) Dado que este módulo constituye el ingreso a las modalidades consecutivas, se contemplará como práctica aislada (en sus componentes y costo). Inclusiones: •",
       "coseguro": "21"
     },
     {
       "code": "06.90.02",
       "description": "MÓDULO INSEMINACIÓN ARTIFICIAL INTRA UTERINA",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente MÓDULO CONGELACIÓN + CRIOPRESERVACIÓN DE EMBRIONES",
-      "price_hidden": "",
+      "normativa": "INCLUYE: las determinaciones hormonales necesarias para primer control y para intramedicación de inducción (par Estradiol, FSH o LH según corresponda y Sub Unidad Beta GCH). En caso de realizarse sólo el dosaje de un par, no realizarse la inducción y por lo tanto tampoco los controles subsiguientes, se facturará el 25% del valor del Módulo. Código Nomenclador IAPOS:",
       "coseguro": "37"
     },
     {
       "code": "06.90.10",
       "description": "PUNCION BIOPSIA TESTICULAR (Programa Fertilidad)",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente PUNCION BIOPSIA TESTICULAR (Programa Fertilidad) Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: medicación para estimulación ovárica, técnicas especiales, estudios prequirúrgicos y cualquier otro procedimiento no incluido",
       "coseguro": "BQ"
     },
     {
       "code": "06.90.11",
       "description": "SONOHISTEROGRAFIA",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente MÓDULO HORMONAL PARA FERTILIZACION ASISTIDA - TECNICA RAPIDA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: medicación para estimulación ovárica, técnicas especiales, estudios prequirúrgicos y cualquier otro procedimiento no incluido",
       "coseguro": "24"
     },
     {
       "code": "06.90.12",
       "description": "MONITOREO FOLICULAR",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente MÓDULO HORMONAL PARA FERTILIZACION ASISTIDA - TECNICA RAPIDA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: medicación para estimulación ovárica, técnicas especiales, estudios prequirúrgicos y cualquier otro procedimiento no incluido",
       "coseguro": "20"
     },
     {
       "code": "06.90.13",
       "description": "MÓDULO HORMONAL PARA FERTILIZACION ASISTIDA - TECNICA RAPIDA",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente MÓDULO HORMONAL PARA FERTILIZACION ASISTIDA - TECNICA RAPIDA",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente nclusionesy Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente",
       "coseguro": "24"
     },
     {
       "code": "06.90.14",
       "description": "MONITOREO ENDOMETRIAL",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Autorización: Sujeto a auditoria médica previa. Para paciente con antecedentes de tratamiento quimioterapicoo o situación de ovodonacion",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente nclusionesy Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente",
       "coseguro": "20"
     },
     {
@@ -4423,15 +4045,13 @@ const searchData = {
     {
       "code": "06.90.04",
       "description": "MÓDULO CONGELACIÓN + CRIOPRESERVACIÓN DE EMBRIONES",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente MÓDULO CONGELACIÓN + CRIOPRESERVACIÓN DE EMBRIONES",
-      "price_hidden": "",
+      "normativa": "INCLUYE: •\nEXCLUYE: y costos definidos. En base a la casuística registrada en las solicitudes de prestaciones en la obra social se proponen considerandos generales sobre las mismas y valores monetarios máximos de reconocimiento (los cuales se adicionarán a los módulos previamente definidos según corresponda). La donación se realizará formalmente, por escrito, con expreso consentimiento informado del donante y de los beneficiarios de las técnicas, con carácter de secreto y a título gratui",
       "coseguro": "BQ"
     },
     {
       "code": "06.90.05",
       "description": "MÓDULO DESCONGELACIÓN + TRANSFERENCIA DE EMBRIONES",
-      "normativa": "Incluye: Honorarios médicos, monitoreo de la ovulación, dosajes hormonales (FSH, LH; Estradiol, Progesterona), aspiración folicular ovárica con punción ecográfica vaginal bajo anestesia, internación ambulatoria en sala de recuperación, materiales descartables e insumos específicos, consulta con Psicóloga (en caso de requerirlo) y criopreservación de óvulos (1 año mantenimiento). | Excluye: medicación para estimulación ovárica, técnicas especiales, estudios prequirúrgicos y cualquier otro procedimiento no incluido",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: y costos definidos. En base a la casuística registrada en las solicitudes de prestaciones en la obra social se proponen considerandos generales sobre las mismas y valores monetarios máximos de reconocimiento (los cuales se adicionarán a los módulos previamente definidos según corresponda). La donación se realizará formalmente, por escrito, con expreso consentimiento informado del donante y de los beneficiarios de las técnicas, con carácter de secreto y a título gratuito, la misma revestirá carácter anónimo en cuanto a la identidad del dador. La persona nacida de gametos donados por terceros, una vez llegada a la mayoría de edad, podrá solicitar judicialmente conocer la identidad del donante que aportó sus respectivos gametos. Si la donación se ha efectuado en un establecimiento diferente al de la realización del tratamiento, el titular del derecho deberá presentar una declaración jurada original del establecimiento receptor del gameto en el cual conste el consentimiento debidamente prestado por el donante.",
       "coseguro": "BQ"
     },
     {
@@ -4444,15 +4064,13 @@ const searchData = {
     {
       "code": "06.90.06",
       "description": "PROVISION DE SEMEN DE BANCO",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente PUNCION BIOPSIA TESTICULAR (Programa Fertilidad) Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: para el enrolamiento son los siguientes: - Certificado médico en el que el ginecólogo tratante deje constancia de que 'la pareja que presenta dificultades para lograr un embarazo por métodos naturales en el último año, NO PRESENTA ninguna enfermedad preexistente al momento de la consulta que pueda agravarse con el embarazo y ponga en riesgo la vida de alguno de los involucrados (v.g. obesidad mórbida, diabetes descompensada, hábitos tóxicos, hipertensión arterial, antecedentes de eclampsia, cáncer de mama, enfermedad renal, colagenopatías) y requiere estudios de mayor complejidad para definir la necesidad de aplicación de técnicas de fertilización asistida y abordar un tratamiento adecuado'. - Afiliación al IAPOS de los be",
       "coseguro": "BQ"
     },
     {
       "code": "06.90.07",
       "description": "OVOCITOS FRESCOS",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente PUNCION BIOPSIA TESTICULAR (Programa Fertilidad) Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: para el enrolamiento son los siguientes: - Certificado médico en el que el ginecólogo tratante deje constancia de que 'la pareja que presenta dificultades para lograr un embarazo por métodos naturales en el último año, NO PRESENTA ninguna enfermedad preexistente al momento de la consulta que pueda agravarse con el embarazo y ponga en riesgo la vida de alguno de los involucrados (v.g. obesidad mórbida, diabetes descompensada, hábitos tóxicos, hipertensión arterial, antecedentes de eclampsia, cáncer de mama, enfermedad renal, colagenopatías) y requiere estudios de mayor complejidad para definir la necesidad de aplicación de técnicas de fertilización asistida y abordar un tratamiento adecuado'. - Afiliación al IAPOS de los beneficiarios para permitir el enrolamiento de cada uno de ellos, lo cual será verificado por la Obra Social antes de proceder al enrolamiento. El enrolamiento será realizado en los lugares que disponga el IAPOS a tal efecto y permitirá acceder al nivel de c",
       "coseguro": "BQ"
     },
     {
@@ -4465,8 +4083,7 @@ const searchData = {
     {
       "code": "06.90.09",
       "description": "OVOCITOS DE BANCO",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente PUNCION BIOPSIA TESTICULAR (Programa Fertilidad) Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: para el enrolamiento son los siguientes: - Certificado médico en el que el ginecólogo tratante deje constancia de que 'la pareja que presenta dificultades para lograr un embarazo por métodos naturales en el último año, NO PRESENTA ninguna enfermedad preexistente al momento de la consulta que pueda agravarse con el embarazo y ponga en riesgo la vida de alguno de los involucrados (v.g. obesidad mórbida, diabetes descompensada, hábitos tóxicos, hipertensión arterial, antecedentes de eclampsia, cáncer de mama, enfermedad renal, colagenopatías) y requiere estudios de mayor complejidad para definir la necesidad de aplicación de técnicas de fertilización asistida y abordar un tratamiento adecuado'. - Afiliación al IAPOS de los beneficiarios para permitir el enrolamiento de cada uno de ellos, lo cual será verificado por la Obra Social antes de proceder al enrolamiento. El enrolamiento será realizado en los lugares que disponga el IAPOS a tal efecto y permitirá acceder al nivel de cobertura requerido para su",
       "coseguro": "BQ"
     },
     {
@@ -4479,224 +4096,224 @@ const searchData = {
     {
       "code": "38.90.41",
       "description": "MÓDULO AUDITORIAS DE PROGRAMAS - SANTA FE",
-      "normativa": "INCLUYE: Honorarios y Gastos. Materia l de con traste : Honorarios y Gastos. Honora rios y Gastos. Materia l de con traste ' Ho norarios y Gastos. Honorarios y Gastos. Material de con traste : Honorarios y Gastos. Hono ra rios y Gastos. Materia l de contraste Honorarios Honorarios y Gastos. Honorarios y Gastos. Materia lde contraste Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Materia l de contraste Honorarios y Gastos. Material de contraste Honora rios y Gastos. Materia l de contr;--, :t Honorarios y Gastos. Material de contraste Ho norarios y Gastos. Honorarios y Gastos. Materia lde contraste Honorarios y Gastos. f ' / ' TI ..\", . '..:.:.> 1-,.. › c...'.: : zr.. nry --I 1 1 Honorarios y Gastos. Material de contraste Honorarios y Gastos. --j Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honora rios y Gastos. Material de contraste Honorarios y Gastos. : Hono rarios y Gastos. Honora rios y Gastos. Honorarios y Gastos. Material de con traste TODAS LAS RMN Q UE SE DETALLAN ACONTINUACIÓN INCLUYENBAJO Y ALTOCAMPO MAGNÉTICO",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.91.41",
       "description": "MÓDULO AUDITORIAS DE PROGRAMAS - BUENOS AIRES",
-      "normativa": "INCLUYE: Honorarios y Gastos. o habitación compartida . Medicamentos Oncológicos a (cargo de lapos). Honorarios Médicos, Derechos, Uso de bomba infusora. Pensión (Sillón). Anestesia. Criterios de autorización: biopsia nódulos mamarios definidos, como opción no quirúrgica. Honorarios y derechos. Aguja ATEC Honorarios y Gastos. Aguja de Punción. Sala de recuperación. Hematocrito - Recuento Plaquetas - Dosaje Anti Factor X activado. Sugerencia: anticoaqulación oral. Sugerencia: Uno por día por cuatro días. Luego sigue con esquema de seguimiento de clínica o necesidad. Corresponde a 1/6 de valor pensión (4hs), aplicable a prestaciones ambulatorias que requieran uso de NEUROLEPTOANALGESIA/ANESTESIA. Hematocrito. -Rto de Plaquetas. -Tiempo de Protrombina. -Tasa de Protrombína. -KPTT. -Tiempo de trombina. -Toma de muestra. Durante los primeros días del tratamiento 3 o SEGUIMIENTO ANTICOAGULACIONCONHEPARINA NO FRACCIONADA 4 controles diarios (De acuerdo a criterio médico). Sugerencia: Uno a las seis horas del inicio del goteo. Luego uno por día. Sujeto a modificaciones de acuerdo a evolución 2\nEXCLUYE: Anatomía patológica. de LCR. Estudio compartida. Medicamentos Oncológicos a cargo de lapos. QUIMIOTERAPIAAMBULATORIA PUNCIÓNMAMOGRÁFICACONSISTEMA ATEC/SUROS PUN 9011 LUMBARDIAGNÓSTICA ,PUNCIÓNLUIOIEI4RCON QUIMIOTERAPIAINTRATECAL",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.10",
       "description": "MÓDULO 1A - ASISTENCIA INTENSIVA DE CUIDADOS EN DOMICILIO - CONTROL",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Uso de video. RINOSINUSOFIBROSCOPÍA DIAGNÓSTICA Honorarios y Gastos. Q PIMIOTERAPIA EN INTERNACIÓN 0041 2 .1./N 207.3 ..- ci ci u, co C9 LO 1- ni ni cn LO kr) ko, krl nf ni nt', C\", Cr> c,-).., Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Corresponde a 1/6 de valor pensión (4hs), aplicable a prestaciones ambulatorias que requieran uso de NEUROLEPTOANALGESIA / ANESTESIA. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos.\nREQUISITOS: Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos realizados, que justifiquen la solicitud. Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.11",
       "description": "MÓDULO 1A - ASISTENCIA INTENSIVA DE CUIDADOS EN DOMICILIO - CONTROL",
-      "normativa": "INCLUYE: Honorarios y Gastos._ 1 Honorarios y Gastos. o habitación compartida . Medicamentos Oncológicos a (cargo de lapos). Honorarios Médicos, Derechos, Uso de bomba infusora. Pensión (Sillón). Anestesia. Criterios de autorización: biopsia nódulos mamarios definidos, como opción no quirúrgica. Honorarios y derechos. Aguja ATEC Honorarios y Gastos. Aguja de Punción. Sala de recuperación. Hematocrito - Recuento Plaquetas - Dosaje Anti Factor X activado. Sugerencia: anticoaqulación oral. Sugerencia: Uno por día por cuatro días. Luego sigue con esquema de seguimiento de clínica o necesidad. Corresponde a 1/6 de valor pensión (4hs), aplicable a prestaciones ambulatorias que requieran uso de NEUROLEPTOANALGESIA/ANESTESIA. Hematocrito. -Rto de Plaquetas. -Tiempo de Protrombina. -Tasa de Protrombína. -KPTT. -Tiempo de trombina. -Toma de muestra. Durante los primeros días del tratamiento 3 o SEGUIMIENTO ANTICOAGULACIONCONHEPARINA NO FRACCIONADA 4 controles diarios (De acuerdo a criterio médico). Sugerencia: Uno a las seis horas del inicio del goteo. Luego uno por día. Sujeto a modificaciones de acuerdo a evolución 2\nEXCLUYE: Anatomía patológica. de LCR. Estudio compartida. Medicamentos Oncológicos a cargo de lapos. QUIMIOTERAPIAAMBULATORIA PUNCIÓNMAMOGRÁFICACONSISTEMA ATEC/SUROS PUN 9011 LUMBARDIAGNÓSTICA ,PUNCIÓNLUIOIEI4RCON QUIMIOTERAPIAINTRATECAL",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.12",
       "description": "MÓDULO 1A - ASISTENCIA INTENSIVA DE CUIDADOS EN DOMICILIO - VISITA",
-      "normativa": "INCLUYE: Honora rios y Gastos. Uso de video. Honorarios y Gastos. Uso de video. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. [ Honorarios y Gastos. Honorarios y Gastos. 134. 10.011TACCEREBRAL TACCEREBRAL DE CONTROL (CON O SIN 34. 10.03 REFUERZO) 1 Honorarios y Gastos. Uso de video. 1",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.13",
       "description": "MÓDULO 1A - ASISTENCIA INTENSIVA DE CUIDADOS EN DOMICILIO - GASTOS FIJOS",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honora rios y Gastos. Uso de video. Honorarios y Gastos. Uso de video. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. [ Honorarios y Gastos. Honorarios y Gastos. 134. 10.011TACCEREBRAL TACCERE",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.15",
       "description": "MÓDULO 2 - ASISTENCIA ESTANDAR DE CUIDADOS EN DOMICILIO - CONTROL MEDICO",
-      "normativa": "INCLUYE: Hematocrito - Recuento Plaquetas - Dosaje Anti Factor X activado. SEGUIMIENTO ANTICOAGULACION HEPARINA BAJO Sugerencia: Solo en insuficiencia renal, embarazo y pacientes en extremos del PESO MOLECULAR rango del BMI (Body Mass Index). Sujeto a modificación de acuerdo a evolución clínica o necesidad. Honorarios y Gastos. 34.20. 10 RMN TORÁCICA Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honora rios y Gastos. Uso de video.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.17",
       "description": "MÓDULO 2 - ASISTENCIA ESTANDAR DE CUIDADOS EN DOMICILIO - GASTOS FIJOS",
-      "normativa": "INCLUYE: Honorarios y Gastos. 1 Honorarios y Gastos._ 1 Honorarios y Gastos. o habitación compartida . Medicamentos Oncológicos a (cargo de lapos). Honorarios Médicos, Derechos, Uso de bomba infusora. Pensión (Sillón). Anestesia. Criterios de autorización: biopsia nódulos mamarios definidos, como opción no quirúrgica. Honorarios y derechos. Aguja ATEC Honorarios y Gastos. Aguja de Punción. Sala de recuperación. Hematocrito - Recuento Plaquetas - Dosaje Anti Factor X activado. Sugerencia: anticoaqulación oral. Sugerencia: Uno por día por cuatro días. Luego sigue con esquema de seguimiento de clínica o necesidad. Corresponde a 1/6 de valor pensión (4hs), aplicable a prestaciones ambulatorias que requieran uso de NEUROLEPTOANALGESIA/ANESTESIA. Hematocrito. -Rto de Plaquetas. -Tiempo de Protrombina. -Tasa de Protrombína. -KPTT. -Tiempo de trombina. -Toma de muestra. Durante los primeros días del tratamiento 3 o SEGUIMIENTO ANTICOAGULACIONCONHEPARINA NO FRACCIONADA 4 controles diarios (De acuerdo a criterio médico). Sugerencia: Uno a las seis horas del inicio del goteo. Luego uno por día. Sujeto a modificaciones de acuerdo a evoluci\nEXCLUYE: Anatomía patológica. de LCR. Estudio compartida. Medicamentos Oncológicos a cargo de lapos. QUIMIOTERAPIAAMBULATORIA PUNCIÓNMAMOGRÁFICACONSISTEMA ATEC/SUROS PUN 9011 LUMBARDIAGNÓSTICA ,PUNCIÓNLUIOIEI4RCON QUIMIOTERAPIAINTRATECAL",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.16",
       "description": "MÓDULO 2 - ASISTENCIA ESTANDAR DE CUIDADOS EN DOMICILIO - CONTROL",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste RMN MAMARIA Honorarios y Gastos. RMN MAMARIA CON CONTRASTE Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. de contraste Honorarios y Gastos. Material Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Uso de video. RINOSINUSOFIBROSCOPÍA DIAGNÓSTICA Honorarios y Gastos. Q PIMIOTERAPIA EN INTERNACIÓN 0041 2 .1./N 207.3 ..- ci ci u, co C9 LO 1- ni ni cn LO kr) ko, krl nf ni nt', C\", Cr> c,-).., Honorarios y Gastos. Honorarios y Gastos. Material de",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.14",
       "description": "MÓDULO 2 - ASISTENCIA ESTANDAR DE CUIDADOS EN DOMICILIO - CONTROL MEDICO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honora rios y Gastos. Uso de video. Honorarios y Gastos. Uso de video. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. 1 Honorarios y Gastos. Honorarios y Gastos. [ Honorarios y Gastos. Honorarios y Gastos. 134. 10.011TACCEREBRAL TACCEREBRAL DE CONTROL (CON O SIN 34. 10.03 REFUERZO) 1 Honorarios y Gast",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.18",
       "description": "MÓDULO 3 - CUIDADOS DE ENFERMERÍA CON CONTROL MEDICO - CONTROL MEDICO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Uso de video. RINOSINUSOFIBROSCOPÍA DIAGNÓSTICA Honorarios y Gastos. Q PIMIOTERAPIA EN INTERNACIÓN 0041 2 .1./N 207.3 ..- ci ci u, co C9 LO 1- ni ni cn LO kr) ko, krl nf ni nt', C\", Cr> c,-).., Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Corresponde a 1/6 de valor pensión (4hs), aplicable a prestaciones ambulatorias que requieran uso de NEUROLEPTOANALGESIA / ANESTESIA. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Requi",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.19",
       "description": "MÓDULO 3 - CUIDADOS DE ENFERMERÍA CON CONTROL MEDICO - CONTROL",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Uso de video. RINOSINUSOFIBROSCOPÍA DIAGNÓSTICA Honorarios y Gastos. Q PIMIOTERAPIA EN INTERNACIÓN 0041 2 .1./N 207.3 ..- ci ci u, co C9 LO 1- ni ni cn LO kr) ko, krl nf ni nt', C\", Cr> c,-).., Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Corresponde a 1/6 de valor pensión (4hs), aplicable a prestaciones ambulatorias que requieran uso de NEUROLEPTOANALGESIA / ANESTESIA. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Material de contraste.\nREQUISITOS: Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos realizados, que justifiquen la solicitud. Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos realizados, que justifiquen la solicitud.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.20",
       "description": "MÓDULO 3 - CUIDADOS DE ENFERMERÍA CON CONTROL MEDICO - GASTOS FIJOS",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. de contraste Honorarios y Gastos. Material Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Uso de video. RINOSINUSOFIBROSCOPÍA DIAGNÓSTICA Honorarios y Gastos. Q PIMIOTERAPIA EN INTERNACIÓN 0041 2 .1./N 207.3 ..- ci ci u, co C9 LO 1- ni ni cn LO kr) ko, krl nf ni nt', C\", Cr> c,-).., Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Corresponde a 1/6 de valor pensión (4hs), aplicable a prestaciones ambulatorias que requieran uso de NEUROLEPTOANALGESIA / ANESTESIA. Honorarios y Gastos.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.21",
       "description": "MÓDULO 4A - REHABILITACIÓN CON CONTROL MEDICO - CONTROL MEDICO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. Material de contraste RMN MAMARIA Honorarios y Gastos. RMN MAMARIA CON CONTRASTE Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. de contraste Honorarios y Gastos. Material Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Uso de video. RINOSINUSOFIBROSCOPÍA DIAGNÓSTICA Honorarios y Gastos. Q PIMIOTERAPIA EN INTERNACIÓN 0041 2 .1./N 207.3 ..- ci ci u, co C9 LO 1- ni ni cn LO kr) ko, krl nf ni nt', C\", Cr> c,-).., Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honora",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.22",
       "description": "MÓDULO 4A - REHABILITACIÓN CON CONTROL MEDICO – SESION",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material de contraste RMN MAMARIA Honorarios y Gastos. RMN MAMARIA CON CONTRASTE Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. de contraste Honorarios y Gastos. Material Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Uso de video. RINOSINUSOFIBROSCOPÍA DIAGNÓSTICA Honorarios y Gastos. Q PIMIOTERAPIA EN INTERNACIÓN 0041 2 .1./N 207.3 ..- ci ci u, co C9 LO 1- ni ni cn LO kr) ko, krl nf ni nt', C\", Cr> c,-).., Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste Corresponde a 1/6 de valor pensión (4hs), apli",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.23",
       "description": "MÓDULO 4A - REHABILITACIÓN CON CONTROL MEDICO - GASTOS FIJOS POR DIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material de contraste. Honorarios y Gastos. Honorarios y Gastos. Uso de video. TODASLASTAC SEGÚNPATOLOGÍA AESTUDIAR, INDEPEík1DIENTEMENTEDELNÚMERO DECORTESOSLICES Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste RMNOTRAS REGIONES Honorarios y Gastos. RMN OIDOCON CONTRASTE Honorarios y Gastos. Material de contraste 34.51-82 , RMNOFTALMOLÓGICA CON CONTRASTE RMNOIDO Honorarios y Gastos. 34.50:64RMN OFTALMOLÓGICA 00 it.IN 373 0, c.‘-- .— honorarios y gastos. Honorarios, Gastos y materiales específicos. Honorarios y Gastos . Honorarios y Gastos. Uso de video. Honorarios y Gastos. Material de contraste. Honorarios y Gastos. Honorarios y Gastos. Material de contraste. 3. 4:80.93 'SUPRARRENALCONCONTRASTE Honorario\nREQUISITOS: RESUMEN DEHISTORIA CLÍNICA ORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMADOPPLER-ANGIO TAC O RMN CONMEDICIONESEINFORME.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.42",
       "description": "MODULO 4B - SOSTÉN CRÓNICO EN DOMICILIO - CONTROL MÉDICO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material de contraste. Honorarios y Gastos. Honorarios y Gastos. Material de contraste. Honorarios y Gastos. Honorarios y Gastos. Uso de video. TODASLASTAC SEGÚNPATOLOGÍA AESTUDIAR, INDEPEík1DIENTEMENTEDELNÚMERO DECORTESOSLICES Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste RMNOTRAS REGIONES Honorarios y Gastos. RMN OIDOCON CONTRASTE Honorarios y Gastos. Material de contraste 34.51-82 , RMNOFTALMOLÓGICA CON CONTRASTE RMNOIDO Honorarios y Gastos. 34.50:64RMN OFTALMOLÓGICA 00 it.IN 373 0, c.‘-- .— honorarios y gastos. Honorarios, Gastos y materiales específicos. Honorarios y Gastos . Honorarios y Gastos. Uso de video. Honorarios y Gastos. Material de contraste. Honorarios y Gastos.\nREQUISITOS: RESUMEN DEHISTORIA CLÍNICA ORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMADOPPLER-ANGIO TAC O RMN CONMEDICIONESEINFORME.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.80.49",
       "description": "MODULO 4B - SOSTÉN CRÓNICO EN DOMICILIO - KINESIOLOGÍA O TERAPIA",
-      "normativa": "INCLUYE: : Honorarios y Gastos.\nREQUISITOS: Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos rea lizados, q ue justifiquen la solicitud. TACDECOLUMNACONCONTRASTE 1 R EGIÓN CO r.) c- -- .,..- co LO 2 023 - • c U O c m (1) N (O .5 12 :o , C O --a3 U (1.-' 5 o_ co o u), Cr a) CO (u 4:2 cr) • a) a- m > c (T) (1) N cu (13 U) u) O al (.0 92 fp_ Cr ra(13 T (1) (7) E 3 (1:300. 0D °- -5 E ro E c?) ILI U ..-, O) T, E. :5 j.. a.) . u7 ,._ Rf ,c; y, E ca.) u) a) a) .5 U) -c a) U) ro a) (13 C a 0_ C (1-) O .(1) 0 (13 -oCOa) -c) o- a) 7 ( ) LL \"CS (3) D 0) 0 C cn O (I) „ 0 u) ID O cl) M 1-13 (1) a) U a) (13 N 6 a) L) 0 7- 1 1 . ) 1:7-DE 73 0 _ •-• (13 Q (13 NoC C E O O co O 0 E EC ay 5 I7 0 COn--o u) ce 0 _c E (o= (f) ‘o a2_ 2 -1 15 o „ c) 5 a:s o 1\"«)) a) 'o_ °2 O 5 c 2:1) .1 a) p u) o CO 0 0. U .5) .) ,._ o .= 4- (-) o o -1= a) -o O a) 2 .0 73 Q. = 13 (13 i5 0 > c o o (r) •-■=, 0 -o 1) u) £ Ec E o_ o_ CO ca (7) T ..0 C13 E) U a) >, OL c CL ,0 z...-_ „, - 'zr RS ca E.9 \"7\" 5 c (I) .n) O .c._ i.-(1) L-13 17) E 15-) (1) Cr ni (0 0 75 -- E .a) a) E -o u) -o cri 0 c (-) -o a) o > 17 c(o o (B a) cm() -Es CO o c C a) -0 c a) -`,.7-; :_,. 0 1 1:5_ o 0 cr (13 O O O c) > a) ro O fn G O u E. N -o o <13 ea -a) >N .5 e .E Ú 4-= 7.3 E (13 E a) C o CL -o a> t?) (1) ° O Ea3 El)cc .G 2 c o p 2 5 V a) (1) c0 0 .5 4= 5 a) O cc .ro ui P O ¿_ U .R., ,J) z.T.- o < -o (13 O__. ] (T3 tt U) ' C1 O (13 <7.3 >\" C.- O X ;7\". 1.9 C W U J ro O ro O -5 tr_ 22 co E {(?) ci) E 5 u) E (a 2 ro O 3 0) • c -o O UN OO 0a) e -o --(15 CO Eo zn -a) JO u_ 1-1 OO > ,._. O CO a) o > 173 , ca c.),11J,Ñ _ , 7) 2,.., 1.) -' 2 tri a) a) ,--- o , U) a) C13 Eco 03 -6 U ,--- os 2 E ...-. ,.. .-1-_ ili 1 a) - •5 a.) c ,o- o c cr E a) :o a) a) 9 Ti.) 5 -cT.) 5 c >,-: o 1.t1 u) 11) -r:,.,r-‘-'-' ,ci)b U) 0 2 ___ (.6 0_ 1) x ,,„,, ro 0 1./) n) o C -7.„ (1) 15 oi < -o co o O o 0 o o u) Q o a) < i .o o O 03",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.54",
       "description": "MODULO 4B - SOSTÉN CRÓNICO EN DOMICILIO - GASTOS FIJOS POR DÍA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material de contraste. Honorarios y Gastos. Material de contraste. Honorarios y Gastos. Honorarios y Gastos. Material de contraste. Honorarios y Gastos. Honorarios y Gastos. Uso de video. TODASLASTAC SEGÚNPATOLOGÍA AESTUDIAR, INDEPEík1DIENTEMENTEDELNÚMERO DECORTESOSLICES Honorarios y Gastos. Honorarios y Gastos. Material de contraste Honorarios y Gastos. Honorarios y Gastos. Material de contraste RMNOTRAS REGIONES Honorarios y Gastos. RMN OIDOCON CONTRASTE Honorarios y Gastos. Material de contraste 34.51-82 , RMNOFTALMOLÓGICA CON CONTRASTE RMNOIDO Honorarios y Gastos. 34.50:64RMN OFTALMOLÓGICA 00 it.IN 373 0, c.‘-- .— honorarios y gastos. Honorarios, Gastos y materiales específicos. Honorarios y Gastos . Honorarios y Gastos. Uso de video.\nREQUISITOS: RESUMEN DEHISTORIA CLÍNICA ORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMADOPPLER-ANGIO TAC O RMN CONMEDICIONESEINFORME.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.43",
       "description": "MÓDULO 4C - VISITA MÉDICA PLANIFICADA - CONTROL MÉDICO",
-      "normativa": "INCLUYE: Honorarios y Gastos Material TACMAMARIACON CONTRASTE Honorarios y Gastos. Honorarios y Gastos. : Honorarios y Gastos. Honora rios y Gastos. Material de contraste Indicac iones: Pacientes con contra ind icaciones de !sa liza r RIV11 dei columna. Honorarios y Gastos. Material de contraste. Honorarios y Gastos Honorarios y Gastos.\nREQUISITOS: Resumen depb:1,5toria 1 udios clínica orientado a la prestación, informe e imágenes de gl previos realizados, q ue justifiquen la solicitud. Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos realizados, que justifiquen la solicitud. TACDECOLUMNACONCONTRASTE 2 REGIONES 34 5116 ' Re,s:.irnen de historia ' clínica orientado a la prestación, informe e Imágenes de estud iosi prev ios rea lizados, que justifiquen la solicitud. ! Estenosis infranq ueable con endoscopio 21 v ideocolonofibroscop ias previas incompletas. Resumen; ide historia clínica orientado a la prestación. VCC previas que' acrediten la indicación. No indicado: Antecedentes de cáncer ' colonico o pólipos. Antecedentes familiares de poliposis c cáncer de l colon. Ell. Diverticulitis aguda. J Resumen de historia clínic!.-; 7.rientado patología. Estud ios de laboratorio y de imágenes prev 1.- . Resumen de historial clínica orientado a la prestación, informe e imágenes de estud ios prev ios rea lizados, que justifiquen la solicitud. 1 I TAC DE COLUMNA 3 REGIONES ni !TAC DE CO LUMNA 2 REGIONES 1COLONOGRAFIA PORTACMULTISLICE (COLONOSCOPIA VIRTUAL) MIELO TAC 34 50.97 1!TAC VEJIGA YPROSTATACONCONTRASTE TAC VEJIGA:Y PROSTATA 34. 10 11 1 134.51. 12 1 1 TAC TORAC ICA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.53",
       "description": "MÓDULO 4C - VISITA MÉDICA PLANIFICADA - GASTOS FIJOS",
-      "normativa": "INCLUYE: Honorarios y Gastos. TACDEOTROS ORGANOSOREGIONES de contraste. Honorarios y Gastos. Material TACDEOTROSORGANOSOREGIONESCONCONTRASTE : Honorarios y Gastos.\nREQUISITOS: Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos rea lizados, q ue justifiquen la solicitud. TACDECOLUMNACONCONTRASTE 1 R EGIÓN CO r.) c- -- .,..- co LO 2 023 - • c U O c m (1) N (O .5 12 :o , C O --a3 U (1.-' 5 o_ co o u), Cr a) CO (u 4:2 cr) • a) a- m > c (T) (1) N cu (13 U) u) O al (.0 92 fp_ Cr ra(13 T (1) (7) E 3 (1:300. 0D °- -5 E ro E c?) ILI U ..-, O) T, E. :5 j.. a.) . u7 ,._ Rf ,c; y, E ca.) u) a) a) .5 U) -c a) U) ro a) (13 C a 0_ C (1-) O .(1) 0 (13 -oCOa) -c) o- a) 7 ( ) LL \"CS (3) D 0) 0 C cn O (I) „ 0 u) ID O cl) M 1-13 (1) a) U a) (13 N 6 a) L) 0 7- 1 1 . ) 1:7-DE 73 0 _ •-• (13 Q (13 NoC C E O O co O 0 E EC ay 5 I7 0 COn--o u) ce 0 _c E (o= (f) ‘o a2_ 2 -1 15 o „ c) 5 a:s o 1\"«)) a) 'o_ °2 O 5 c 2:1) .1 a) p u) o CO 0 0. U .5) .) ,._ o .= 4- (-) o o -1= a) -o O a) 2 .0 73 Q. = 13 (13 i5 0 > c o o (r) •-■=, 0 -o 1) u) £ Ec E o_ o_ CO ca (7) T ..0 C13 E) U a) >, OL c CL ,0 z...-_ „, - 'zr RS ca E.9 \"7\" 5 c (I) .n) O .c._ i.-(1) L-13 17) E 15-) (1) Cr ni (0 0 75 -- E .a) a) E -o u) -o cri 0 c (-) -o a) o > 17 c(o o (B a) cm() -Es CO o c C a) -0 c a) -`,.7-; :_,. 0 1 1:5_ o 0 cr (13 O O O c) > a) ro O fn G O u E. N -o o <13 ea -a) >N .5 e .E Ú 4-= 7.3 E (13 E a) C o CL -o a> t?) (1) ° O Ea3 El)cc .G 2 c o p 2 5 V a) (1) c0 0 .5 4= 5 a) O cc .ro ui P O ¿_ U .R., ,J) z.T.- o < -o (13 O__. ] (T3 tt U) ' C1 O (13 <7.3 >\" C.- O X ;7\". 1.9 C W U J ro O ro O -5 tr_ 22 co E {(?) ci) E 5 u) E (a 2 ro O 3 0) • c -o O UN OO 0a) e -o --(15 CO Eo zn -a) JO u_ 1-1 OO > ,._. O CO a) o > 173 , ca c.),11J,Ñ _ , 7) 2,.., 1.) -' 2 tri a) a) ,--- o , U) a) C13 Eco 03 -6 U ,--- os 2 E ...-. ,.. .-1-_ ili 1 a) - •5 a.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.24",
       "description": "SUBMÓDULO 5 - PRACTICAS ADICIONALES DE ENFERMERIA - CONTROL ENFERMERIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Honorarios y Gastos. : Honorarios y Gastos. Honora rios y Gastos. Material de contraste Indicac iones: Pacientes con contra ind icaciones de !sa liza r RIV11 dei columna. Honorarios y Gastos. Material de contraste. Honorarios y Gastos Honorarios y Gastos. Honorarios y Gastos. Material de contraste. Honora rios y Gastos . 34. 10.05 TAC\nREQUISITOS: Resumen depb:1,5toria 1 udios clínica orientado a la prestación, informe e imágenes de gl previos realizados, q ue justifiquen la solicitud. Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos realizados, que justifiquen la solicitud. TACDECOLUMNACONCONTRASTE 2 REGIONES 34 5116 ' Re,s:.irnen de historia ' clínica orientado a la prestación, informe e Imágenes de estud iosi prev ios rea lizados, que justifiquen la solicitud. ! Estenosis infranq ueable con endoscopio 21 v ideocolonofibroscop ias previas incompletas. Resumen; ide historia clínica orientado a la prestación. VCC previas que' acrediten la indicación. No indicado: Antecedentes de cáncer ' colonico o pólipos. Antecedentes familiares de poliposis c cáncer de l colon. Ell. Diverticulitis aguda. J Resumen de historia clínic!.-; 7.rientado patología. Estud ios de laboratorio y de imágenes prev 1.- . Resumen de historial clínica orientado a la prestación, informe e imágenes de estud ios prev ios rea lizados, que justifiquen la solicitud. 1 I TAC DE COLUMNA 3 REGIONES ni !TAC DE CO LUMNA 2 REGIONES 1COLONOGRAFIA PORTACMULTISLICE (COLONOSCOPIA VIRTUAL) MIELO TAC 34 50.97 1!TAC VEJIGA YPROSTATACONCONTRASTE TAC VEJIGA:Y PROSTATA 34. 10 11 1 134.51. 12 1 1 TAC TORAC ICA",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.25",
       "description": "SUBMÓDULO 5 - PRACTICAS ADICIONALES DE ENFERMERIA - GASTOS FIJOS POR DIA",
-      "normativa": "INCLUYE: Honorarios y Gastos__ Honorarios y Gastos. TACMAMARIA 34. 10.06 Honorarios y Gastos. TACDEOTROS ORGANOSOREGIONES de contraste. Honorarios y Gastos. Material TACDEOTROSORGANOSOREGIONESCONCONTRASTE : Honorarios y Gastos.\nREQUISITOS: Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos rea lizados, q ue justifiquen la solicitud. TACDECOLUMNACONCONTRASTE 1 R EGIÓN CO r.) c- -- .,..- co LO 2 023 - • c U O c m (1) N (O .5 12 :o , C O --a3 U (1.-' 5 o_ co o u), Cr a) CO (u 4:2 cr) • a) a- m > c (T) (1) N cu (13 U) u) O al (.0 92 fp_ Cr ra(13 T (1) (7) E 3 (1:300. 0D °- -5 E ro E c?) ILI U ..-, O) T, E. :5 j.. a.) . u7 ,._ Rf ,c; y, E ca.) u) a) a) .5 U) -c a) U) ro a) (13 C a 0_ C (1-) O .(1) 0 (13 -oCOa) -c) o- a) 7 ( ) LL \"CS (3) D 0) 0 C cn O (I) „ 0 u) ID O cl) M 1-13 (1) a) U a) (13 N 6 a) L) 0 7- 1 1 . ) 1:7-DE 73 0 _ •-• (13 Q (13 NoC C E O O co O 0 E EC ay 5 I7 0 COn--o u) ce 0 _c E (o= (f) ‘o a2_ 2 -1 15 o „ c) 5 a:s o 1\"«)) a) 'o_ °2 O 5 c 2:1) .1 a) p u) o CO 0 0. U .5) .) ,._ o .= 4- (-) o o -1= a) -o O a) 2 .0 73 Q. = 13 (13 i5 0 > c o o (r) •-■=, 0 -o 1) u) £ Ec E o_ o_ CO ca (7) T ..0 C13 E) U a) >, OL c CL ,0 z...-_ „, - 'zr RS ca E.9 \"7\" 5 c (I) .n) O .c._ i.-(1) L-13 17) E 15-) (1) Cr ni (0 0 75 -- E .a) a) E -o u) -o cri 0 c (-) -o a) o > 17 c(o o (B a) cm() -Es CO o c C a) -0 c a) -`,.7-; :_,. 0 1 1:5_ o 0 cr (13 O O O c) > a) ro O fn G O u E. N -o o <13 ea -a) >N .5 e .E Ú 4-= 7.3 E (13 E a) C o CL -o a> t?) (1) ° O Ea3 El)cc .G 2 c o p 2 5 V a) (1) c0 0 .5 4= 5 a) O cc .ro ui P O ¿_ U .R., ,J) z.T.- o < -o (13 O__. ] (T3 tt U) ' C1 O (13 <7.3 >\" C.- O X ;7\". 1.9 C W U J ro O ro O -5 tr_ 22 co E {(?) ci) E 5 u) E (a 2 ro O 3 0) • c -o O UN OO 0a) e -o --(15 CO Eo zn -a) JO u_ 1-1 OO > ,._. O CO a) o > 173 ,",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.26",
       "description": "SUBMÓDULO 6A - ADICIONAL ASISTENCIA KINESIO / FONO - SESION",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material de contraste. Honora rios y Gastos . 34. 10.05 TAC T IROIDEA Honorarios y Gastos. Material de contraste. 1 TACOFTALMOLOGICA 34 10 04 I-- • Honorarios y Gastos__ Honorarios y Gastos. TACMAMARIA 34. 10.06 Honorarios y Gastos. TACDEOTROS ORGANOSOREGIONES de contraste. Honorarios y Gastos. Material TACDEOTROSORGANOSOREGIONESCONCONTRASTE : Honorarios y Gastos.\nREQUISITOS: Resumen de historia clínica orientado a la prestación, informe e imágenes de estudios previos rea lizados, q ue justifiquen la solicitud. TACDECOLUMNACONCONTRASTE 1 R EGIÓN CO r.) c- -- .,..- co LO 2 023 - • c U O c m (1) N (O .5 12 :o , C O --a3 U (1.-' 5 o_ co o u), Cr a) CO (u 4:2 cr) • a) a- m > c (T) (1) N cu (13 U) u) O al (.0 92 fp_ Cr ra(13 T (1) (7) E 3 (1:300. 0D °- -5 E ro E c?) ILI U ..-, O) T, E. :5 j.. a.) . u7 ,._ Rf ,c; y, E ca.) u) a) a) .5 U) -c a) U) ro a) (13 C a 0_ C (1-) O .(1) 0 (13 -oCOa) -c) o- a) 7 ( ) LL \"CS (3) D 0) 0 C cn O (I) „ 0 u) ID O cl) M 1-13 (1) a) U a) (13 N 6 a) L) 0 7- 1 1 . ) 1:7-DE 73 0 _ •-• (13 Q (13 NoC C E O O co O 0 E EC ay 5 I7 0 COn--o u) ce 0 _c E (o= (f) ‘o a2_ 2 -1 15 o „ c) 5 a:s o 1\"«)) a) 'o_ °2 O 5 c 2:1) .1 a) p u) o CO 0 0. U .5) .) ,._ o .= 4- (-) o o -1= a) -o O a) 2 .0 73 Q. = 13 (13 i5 0 > c o o (r) •-■=, 0 -o 1) u) £ Ec E o_ o_ CO ca (7) T ..0 C13 E) U a) >, OL c CL ,0 z...-_ „, - 'zr RS ca E.9 \"7\" 5 c (I) .n) O .c._ i.-(1) L-13 17) E 15-) (1) Cr ni (0 0 75 -- E .a) a) E -o u) -o cri 0 c (-) -o a) o > 17 c(o o (B a) cm() -Es CO o c C a) -0 c a) -`,.7-; :_,. 0 1 1:5_ o 0 cr (13 O O O c) > a) ro O fn G O u E. N -o o <13 ea -a) >N .5 e .E Ú 4-= 7.3 E (13 E a) C o CL -o a> t?) (1) ° O Ea3 El)cc .G 2 c o",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.27",
       "description": "SUBMÓDULO 6A - ADICIONAL ASISTENCIA KINESIO / FONO - GASTOS FIJOS POR DIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Material de contraste. TILT TEST Honorarios y Gastos . honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. 1 Honorarios y Gastos. Honorarios. cr), «S- LO Ce) O) Ce) Gastos. nt CD cS o C.-: O VERTEBROPLASTIA PERCUTÁNEAACRÍLICA Uso de aparato. Honorarios Médicos. Gastos Sanatoriales.\nEXCLUYE: Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y El material radioactivo F18TOMOGRAFÍA POR EMISIÓN DE POSITRONES (PET-CT) FDG ( Anestesia. Tac diagnóstica, Tac de control, pensión en habitación compartida. Complicaciones. Set de vertebroplastia a cargo de IAPOSObservaciones: En caso de dos (2) Vértebras, se factura el 100% de la primer vértebra + el 50% de la segunda vértebra.\nREQUISITOS: ESTENOSIS AÓRTICA SEVERACON INDICACIÓNDE TRATAMIENTOINVASIVO CONRIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS 2SCORESVALIDADOS (Adjuntar PRINTCOMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) OMAL CANDIDATO QUIRÚRGICOPOR OTRASVARIABLESNO CONTEMPLADAS EN LOSSCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DEVIDA > 1 AÑO. DEBE DETERMINARSECALIDAD DE VIDAACTUAL DELPACIENTE E IMPACTOEN SU MEJORÍACON EL PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las comorbilidades crónicas de cada paciente con especial atencion en lo que VALVULOPLASTIA AÓRTICA CON BALÓN O PROTESIS respecta a fragilidad y esfera cognitiva, todo lo cual se",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.28",
       "description": "SUBMÓDULO 6B - ADICIONAL ASISTENCIA KINESIO / FONO - SESION",
-      "normativa": "INCLUYE: Honorarios y Gastos. Uso de video. honorarios y gastos. Honorarios, Gastos y materiales específicos. Honorarios y Gastos . y evolución. Cada consumo deberá estar debidamente documentado en la indicación médica, evolución y hoja de enfermería. Se factura Pensión TRATAMIENTO DELQUEMADO - SESIÓN BALNEOTEF (Quemado Crítico: UTI / Quemado Grave y Moderado: Cuidados Especiales/ Quemado Leve: Pensión en habitación de 2)-Toilette- medicación y descartables por prestación (Sólo se podrán facturar descartables que el Acta de Comisión Mixta de Descartables defina como facturables). i Su uso se adecua según gravedad de la quemadura por clasificación de Benain TOMOGRAFÍA POR EMISIÓN DE POSITRONES (PET- , Honorarios y Gastos. Pensión en habitación compartida. Evaluación pre, C/REGISTRO DE RESISTENCIA Y PRESIONES intra y post-procedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. Gastos.\nEXCLUYE: El material radioactivo F18-FDG CT) ( Anestesia. Droga (ampollas de adenosina). FEB 2 023\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMA DOPPLER-ANGIO TAC O RMN CON MEDICIONES E INFORME. ESTENOSIS AÓRTICASEVERA CON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS2SCORESVALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MALCANDIDATO Q UIRÚRGICO POR OTRAS VARIABLES NO CONTEMPLADAS EN LOSSCORES (documentar Aorta en porcelana o Histo",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.29",
       "description": "SUBMÓDULO 6B - ADICIONAL ASISTENCIA KINESIO / FONO - GASTOS FIJOS POR DIA",
-      "normativa": "INCLUYE: Honorarios y Gastos. Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40%del valor total del Honorarios y Gastos inherentes a la prestación, Pruebas de HEMOTERAPIA / TRANSFUSION Compatibilidad, Serología, Materiales Descartables. Biología Molecular. Filtro. HIBRIDACIÓN IN SITU Honorarios y Gastos. ESTUDIO FUNCIÓN VENTRICULAR IZQ UIERDA Y PERFUSIÓN Honorarios y Gastos. Pensión en habitación compartida, Medicamentos y Material Descartable inherente al procedimiento, Derecho de Hemodinámia, Honorarios Médicos, Realización del cateterismo, sobreestimulación cardíaca, mapeo y desencadenamiento de la arritmia y otros. Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), ESCLEROSIS DE VÁRICES ESOFÁGICAS Medicamentos y Materiales descartables. Honorarios y Gastos. .- oo o d O) i cm eCD O) ni N d d LO eCD LO Pensión, Uso de endoscopio e instrumental inherente a la práctica, Honorarios médicos (corresponde al 40% del total del modulo), LIGADURAS DE VÁRICES ESOFÁGICAS Medicamentos y Materiales descartables.\nEXCLUYE: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. El monto Material MIOCÁRDICA CON SPECT (SPECT CARDIACO) Radiactivo (valor CEDIM Interior) a cargo de la cartera prestacional Colocación de marcapaso definitivo, Estudios Hemodinamicos. Anestesia. Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. Honorarios anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS. r 1 Ó.01.25",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.30",
       "description": "SUBMÓDULO 7 - ADICIONAL ENFERMERIA - 4 A 8 HS DIARIAS - VALOR HORA",
-      "normativa": "INCLUYE: Honorarios. Honorarios y Gastos. Uso de video. honorarios y gastos. Honorarios, Gastos y materiales específicos. Honorarios y Gastos . y evolución. Cada consumo deberá estar debidamente documentado en la indicación médica, evolución y hoja de enfermería. Se factura Pensión TRATAMIENTO DELQUEMADO - SESIÓN BALNEOTEF (Quemado Crítico: UTI / Quemado Grave y Moderado: Cuidados Especiales/ Quemado Leve: Pensión en habitación de 2)-Toilette- medicación y descartables por prestación (Sólo se podrán facturar descartables que el Acta de Comisión Mixta de Descartables defina como facturables). i Su uso se adecua según gravedad de la quemadura por clasificación de Benain TOMOGRAFÍA POR EMISIÓN DE POSITRONES (PET- , Honorarios y Gastos. Pensión en habitación compartida. Evaluación pre, C/REGISTRO DE RESISTENCIA Y PRESIONES intra y post-procedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. Gastos.\nEXCLUYE: El material radioactivo F18-FDG CT) ( Anestesia. Droga (ampollas de adenosina). FEB 2 023\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMA DOPPLER-ANGIO TAC O RMN CON MEDICIONES E INFORME. ESTENOSIS AÓRTICASEVERA CON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS2SCORESVALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MALCANDIDATO Q UIRÚRGICO POR OTRAS VARIABLES NO CONTEMPL",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "38.90.31",
       "description": "SUBMÓDULO 7 - ADICIONAL ENFERMERIA - 12 A 16 HS DIARIAS - VALOR HORA",
-      "normativa": "INCLUYE: Honorarios, Gastos y materiales específicos. Honorarios y Gastos . y evolución. Cada consumo deberá estar debidamente documentado en la indicación médica, evolución y hoja de enfermería. Se factura Pensión TRATAMIENTO DELQUEMADO - SESIÓN BALNEOTEF (Quemado Crítico: UTI / Quemado Grave y Moderado: Cuidados Especiales/ Quemado Leve: Pensión en habitación de 2)-Toilette- medicación y descartables por prestación (Sólo se podrán facturar descartables que el Acta de Comisión Mixta de Descartables defina como facturables). i Su uso se adecua según gravedad de la quemadura por clasificación de Benain TOMOGRAFÍA POR EMISIÓN DE POSITRONES (PET- , Honorarios y Gastos. Pensión en habitación compartida. Evaluación pre, C/REGISTRO DE RESISTENCIA Y PRESIONES intra y post-procedimiento. Honorarios médicos. Medicamentos y descartables inherentes a la práctica. Gastos.\nEXCLUYE: El material radioactivo F18-FDG CT) ( Anestesia. Droga (ampollas de adenosina). FEB 2 023\nREQUISITOS: ESTENOSIS AÓRTICASEVERA CON INDICACIÓN DE TRATAMIENTO INVASIVO CON RIESGO QUIRÚRGICO ALTO DETERMINADO POR AL MENOS2SCORESVALIDADOS (Adjuntar PRINT COMPLETO de cada score y todos los estudios que objetiven las variables incorporadas en los mismos) O MALCANDIDATO Q UIRÚRGICO POR OTRAS VARIABLES NO CONTEMPLADAS EN LOSSCORES (documentar Aorta en porcelana o Historia de Irradiación o cirugía torácica). EXPECTATIVA DE VIDA > 1 AÑO. DEBE DETERMINARSE CALIDAD DE VIDA ACTUAL DEL PACIENTE E IMPACTO EN SU MEJORÍA CONEL PROCEDIMIENTO; INDEPENDENCIA EN ABVD (Actividades básicas de la vida diaria). Incluir escalas acordes a las como",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "38.90.44",
       "description": "SUBMÓDULO 7 - ADICIONAL ENFERMERIA - 1 A 3 HS DIARIAS - VALOR HORA",
-      "normativa": "INCLUYE: Honorarios y Gastos. : Honorarios neurocirug ía, derechos, medicamentos y descartables. Honorarios médicos. Derec hos, Medicamen tos y Material Descarta ble, Aguja. Honorarios médicos, Derechos, Medicame ntos y Material I Descartable, Aguja. Exc luye: Anatomía Patológica, pensión en i habitación compartida. Honora rios y Gastos por mama, por lesión Honorarios Gastos por rnarrsz nnr ts :„ !Anatomía Patológica. Honorarios y Gastos. Aguja de Punción Fp:luye. Pensión ; en ha bitación compartida Medicame ntos OncológicrIs a cama de lapos. -1 Honorarios y Gastos. Honorarios y Gastos. Inc luye ca libración de CPAP Honorarios y Gastos. Honorarios + Gastos + Materia les. Honorarios y Gastos. Honorarios Médicos, Derechos, Uso de bomba infusora. ' Honorarios y Gastos. Medicamentos y Materia les Descartables inherentes a l proced imiento. Simulación, Planificación, Radiografías, Tac y Aplicaciones. Pensión en ha bitación comparfida. Honorarios y Gastos. Simulación, Planificación, Radiografías, Tac y Aplicaciones. Honorarios y Gastos. Honorarios y Gastos. Uso de video. Honorarios y Gastos. Criterios de aut\nEXCLUYE: Anatomía Patológica. Pensión, anatom ía patológica, cultivos. Alquiler ma rco estereotáx ico por parte de la Institución Prestadora: MAR/23 36.478, MAY/23 $ 38. 931 Y JUL/23 $ 40.770 y Aguja de punción. MAR/23 $ 19.295, MAY/23 20.592 Y /9 3 !I 91 565) Anatomía Patológica, pensión en habitación compartida. Anatomía Patológ ica. Anatomía Patológ ica Anatomía Patológica. Pensión en ha bitación compartida . Medicamen tos Oncológicos a (ca rgo de lapos). Anestesia. Anestesia. Toda, otra prestación no expresamente incluida. -^",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "OI"
     },
     {
       "code": "38.90.34",
       "description": "SUBMÓDULO 9 - ADICIONAL ASISTENCIA SICOSOCIAL - VALOR HORARIO",
-      "normativa": "INCLUYE: Honorarios y Gastos. Aguja de Punción. Honorarios neurocirugía, derechos, medicamentos y descartables. Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. Honorarios médicos, Derechos, Medicamentos y Material Descartable, Aguja. Honorarios y Gastos, por mama, por lesión Excluye,: Anatom ía Patológica. Honorarios y Gastos, por mama, por lesión Honorarios y Gastos. Honorarios y Gastos. calibración de CPAP Honorarios y Gastos. Honorarios +Gastos +Materiales. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos. Honorarios y Gastos.\nEXCLUYE: Pensión en habitación compartida. Medicamentos Oncológicos a cargo de lapos. Pensión, anatomía patológica, cultivos. Alquiler marco estereotáxico por parte de la Institución Prestadora: OCT/22 $ 28.754, NOV/22 $ 29.703 Y DIC/22 $ 30.654 y Aguja de punción: OCT/22 $ 15.210, NOV/22 $ 15.712 Y DIC/22 16.214). Anatom ía Patológica, pensión en habitación compartida. Anatom ía Patológica, pensión en habitación) compartida. Anatomía) Patológica. Anatomía Patológica. Anatom ía Patológica. PUNCIÓNBIOPSIADEPRÓSTATABAJOECOGRAFÍA Anatom ía Patológica. 005 .Q c\i ,-- 0 U)",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
     {
       "code": "38.90.35",
       "description": "SUBMÓDULO 9 - ADICIONAL ASISTENCIA SICOSOCIAL - GASTOS FIJOS POR DIA",
-      "normativa": "INCLUYE: honorarios y gastos. Fent ACTNICICIPAKAAnrIDDI PRAturzin Ter. t\"-1 DRAAI r-nniKAMNIrstrIKICC C IAICrlIDKAC facturables). Honorarios y Gastos . honorarios, derechos quirúrgicos, medicamentos, descartables. honorarios, derechos quirúrgicos, medicamentos, descartables. Honorarios y Gastos.\nEXCLUYE: Anestesia. Droga (ampollas de adenosina). [ Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. Anestesia, elementos protésicos (diabolo a cargo de IAPOS) y sala de recuperación. El material radioactivo F18-FDG (\nREQUISITOS: RESUMENDE HISTORIA CLINICA ORIENTADO A LAPRESTACION. Su uso se adecua según gravedad de la quemadura por clasificación de Benain y evolución. Cada consumo deberá estar debidamente documentado en la indicación médica, evolución y hoja de enfermería. Se factura Pensión (Quemado Crítico: UTI / Quemado Grave y Moderado: Cuidados Especiales/ Quemado Leve: Pensión en habitación de 2)-Toilette- medicación y descartables por prestación (Sólo se podrán facturar descartables que el Acta de Comisión Mixta de Descartables defina como práctica.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
@@ -4724,8 +4341,7 @@ const searchData = {
     {
       "code": "38.90.37",
       "description": "MÓDULO 1",
-      "normativa": "Incluye: Visitas médicas: hasta 2 visita semanal. Visitas de enfermería: hasta 3 visitas semanales. Visitas psicosociales: hasta 2 visita semanal. Psicología o trabajador social, según indicación médica. Soporte en ABVD (actividades básicas de la vida diaria): hasta 2 visitas semanales de kinesiología o terapia ocupacional, según indicación médica. Disponibilidad telefónica las 24hs. Material descartable: guantes, iodopovidona, tela adherente hipoalergénica, alcohol, agua oxigenada, algodón, apósitos, vendas, gasas, agujas comunes, jeringas 1 a 60 cc, solución fisiológica, dextrosa, abbocaths, butterflies, guías, sondas (vesical y de aspiración de secreciones), contenedores, bolsas colectoras de orina. Logística, transporte y distribución de insumos. | Excluye: oxigenoterapia, acompañantes en el domicilio, urgencias, medicación transdérmica, traslado del paciente y toda otra prestación no expresamente incluida. Importante: Las visitas médicas son programadas y según necesidad del paciente. A cualquiera de los módulos anteriores se le puede adicionar guardias de enfermería, para los casos de fin de vida, los que serán cotizados según la necesidad de paciente.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: y\nEXCLUYE: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente nclusionesy Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente",
       "coseguro": ""
     },
     {
@@ -4745,14 +4361,13 @@ const searchData = {
     {
       "code": "38.90.40",
       "description": "MÓDULO DOLOR ONCOLÓGICO AMBULATORIO",
-      "normativa": "Incluye: Consulta médica especializada en cuidados paliativos y tratamiento del dolor: Entrevista con el paciente y elaboración de la historia clínica correspondiente. Aquí se incluye las tablas que evalúan estado de depresión y ansiedad, la cuales se relacionan con el dolor crónico. Las mismas son: Mini mental Status Test, Escala de Ansiedad y depresión de Golberg, Brief Pain Inventory (charles S Cleeland PHD- Pain Research Group 1991. Análisis de factores que agravan o alivian el dolor. Examen físico e indicación del tratamiento correspondiente. Estimativamente, se prevé que la duración de la primer consulta será de una hora reloj. Consulta Psicológica: Debe evaluarse la inclusión o no de una consulta psicológica mensual ya que gran parte de los pacientes que padecen de dolor crónico requieren de una atención multidisciplinaria (DOLOR TOTAL). Consulta de kinesiologia: Para la mejoria de: Fuerza y Tono Muscular, Rango de movilidad articular, Correcion de postura. Uso correcto de baston y/o andador. Fortalecimiento de la marcha. La expresión máxima de desnutrición en el cáncer es la caquexia tumoral, que será responsable directa o indirecta de la muerte en un tercio de los pacientes con cáncer. El soporte nutricional oral solo sera indicado a aquellos pacientes con diagnostico de enfermedad terminal que no se encuentren en estadios de fin de vida . Insumos: Formula hipercalorica según requerimientos.",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Consulta médica especializada en cuidados paliativos y tratamiento del dolor: Entrevista con el paciente y elaboración de la historia clínica correspondiente. Aquí se incluye las ta blas que eva lúan estado de depresión y a nsiedad, la cuales se relacionan con el dolor crónico. Las mismas son: Mini mental Status Test, Esca la de Ansiedad y depresión de Golberg, BriefPain Inventory (charles SCleeland PHDPain Research Group 1991. Análisis de factores que agravan o alivian el dolor. Examen físico e indicación del tratamiento correspondiente. Estimativamente, se prevé que la duración de la primer consulta será de una hora reloj. Consulta Psicológica: Debe evaluarse la inclusión o no de una consulta psicológica mensual ya que gran parte de los pacientes que padecen de dolor crónico requieren de una atención multidisciplinaria (DOLOR TOTAL). Consulta de kinesiologia: Para la mejoria de: Fuerza y Tono Muscular, Rango de movilidad articular, Correcion de postura. Uso correcto de baston y/o a ndador. Fortalecimiento de la marokz La expresión máxima de desnutrición en el cáncer es la cag.lexial tumoral, que será responsable directa o indirecta de la muerte en un tercio de los pacientes con cáncer. El soporte nutricional ore-solo sera indicado a aquellos pacientes con diagnostico de enfe*ad terminal que no se encuentren en estadios de fin de v ida . Insumos:' Formula hipercalorica según requerimientos.",
       "coseguro": ""
     },
     {
       "code": "38.91.10",
       "description": "MÓDULO 1A - ASISTENCIA INTENSIVA DE CUIDADOS EN DOMICILIO - CONTROL",
-      "normativa": "INCLUYE: Consulta m€dica especializada en cuidados paliativos y tratamiento del dolor: Entrevista con el paciente y elaboraci6n de la historia cli'nica correspondiente. Aquf se las tablas que evahian estado de depresi6n y ansiedad, 1a cuales se relacionan con el dolor cr6nico. Las mismas son: Mini mental Status Test, Escala de Ansiedad y depresi6n de Golberg, Brief Pain Inventory (charles S Cleeland PHD- Pain Research Group 1991. Analisis de factores que agravan o alivian el dolor. Examen ffsico e indicaci6n del tratamiento correspondiente. Estinativamente, se previ que la duraci6n de la primera consulta sera de rna hora reloj. Consulta Psicol6gica: Debe evaluarse la inclusi6n o no de una consulta psicol6gica mensual ya que gran parte de los pacientes que padecen de dolor cr6nico requieren de una atenci6n multidisciplinaria (DOLOR TOTAL). Consulta de kinesiolog{a: Para la mejon'a de: Fuerza y Tono Muscular, Rango de movilidad artioular, Correcci6n de postura. Uso correcto de bast6n y/o andador. Fortalecimiento de la marcha. La expresi6n maxima de desnutrici6n en el cancer es la caquexia tumoral, que sera responsable directa o indirecta de la muerte en un tercio de los pacientes con cancer. EI soporte nutricional oral solo sera indicado a aquellos pacientes con diagn6stico de enfermedad terminal que no se encuentren en estadios de fin de vida. Insumos: Fomula hipercal6rica segiin requerimientos. 9-CONSuLTA AnmsuIATORIA (c6digo 42.ol.01) ='r - 0 0 5b`0 4 FEB 20£`5 AIXO n CONVENIO I.A.P.o.S. _ (1) ...................................................................................... DECLARACION JURADA de PROFESIONAIE S/EFECTORES Apellido y Nombre ................................................................,............................................. Hbro:...........\"...........Folio:.................Matn'culaprofesionalN°...........„....,„.„..„..„............ Ti'tulo Profesional Expedid",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
@@ -5032,15 +4647,13 @@ const searchData = {
     {
       "code": "43.07.54",
       "description": "MOD2.A-LOC SIST O2 LIQ C/MOCH - INTERIOR",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: reservorio (S/ANMAT) de 32-40 litros de 02 líquido medicinal con mochila de transporte de 1 - 1,5 litros.- Cantidad necesaria de cánulas, vasos humidificadores y baterías.- Incluye hasta 2 recargas por mes; recargas adicionales MOD2B. Manual de instrucción de uso y seguridad'",
       "coseguro": "BQ"
     },
     {
       "code": "43.07.55",
       "description": "MOD2.A-LOC SIST O2 LIQ C/MOCH - SANTA FE Y ROSARIO",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: reservorio (S/ANMAT) de 32-40 litros de 02 líquido medicinal con mochila de transporte de 1 - 1,5 litros.- Cantidad necesaria de cánulas, vasos humidificadores y baterías.- Incluye hasta 2 recargas por mes; recargas adicionales MOD2B. Manual de instrucción de uso y seguridad'",
       "coseguro": "BQ"
     },
     {
@@ -5536,15 +5149,13 @@ const searchData = {
     {
       "code": "81.02.02",
       "description": "LENTES CONTACTO BLANDAS",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: DESAYUNO)\nEXCLUYE: ANATOMIAPATOLOGICA DE LA/SPIEZA/S Q UIRURGICA/S I (las Diferidas, no as í las intraoperatorias, que incluyan congelación) MATERIAL DESCARTABLE: UN (1) SOBRE DE MATERIALIRREABSORBIBLE, MONOFILAMENTO, DE NYLON, PARA LASÍNTESISDELAPIELEN LOS SITIOS 'DEINGRESODELOS TRÓCARES AVALORESCONVENIDOSY 3 (TRES) LIGACLIPS HONORARIOSANESTESIA. Suturas mecánicas de acuerdo a patología según normativas IAPOS. Observaciones: En cirugías de urgencia las practicas no incluidas en el módulo se facturan fuera de módulo por prestación.\nREQUISITOS: Tumor suprarrenal.",
       "coseguro": "S/C"
     },
     {
       "code": "81.02.03",
       "description": "LENTES CONTACTO BLANDAS TORICAS",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: y/o exigencias administrativas, técnicas y de auditoría que establezcan las partes en el convenio al que adhiero. 3) No efectuar discriminaciones respecto de los afiliados de I.A.P.O.S., a no cobrar, convenir ni exigir 'plus', ni suma alguna por ningún concepto respecto de las prácticas incluidas en el contrato referido, prestando los servicios que me sean queri por los afiliados de I.A.P.O.S., conforme las cláusulas contractuales que declaro -,'conocer y aceptar",
       "coseguro": "S/C"
     },
     {
@@ -5592,7 +5203,7 @@ const searchData = {
     {
       "code": "38.10.07",
       "description": "DEPARTAMENTOS O APART HOTEL",
-      "normativa": "INCLUYE: DESAYUNO) 20 26\nREQUISITOS: inicial para su admisi6n. Este criterio aplica sin importar si posteriormente [a atenci6n m6dica deriva en la realizaci6n de una intervenci6n quirdrgica o en la necesidad de llevar a cabo una prestaci6n de alta complejidad. EI objetivo de este procedimiento es garantizar una atenci6n rapida y eficaz en situaciones criticas, evitando demoras innecesarias que pudieran comprometer la salud del afiliado. a) Bono Prestaciones Especiales (BPE): equivalente a 10 (diez) consultas m6dicas digitales Se aplicara a prestaciones, practicas y servicios de alto costo que se encuentren dentro del mend prestacional. Correspondera tambi6n su aplicaci6n a internaciones, procedimientos y cirugfas con derivaci6n a Buenos Aires. Excepciones: En los casos en que el afiliado no pueda afrontar el pago del coseguro correspondiente, se prev6 la intervenci6n del Departamento Discapacidad, Salud Mental y Problematica Social, a fin de realizar una evaluaci6n socioecon6mica. Conforme dicha evaluaci6n y, previa autorizaci6n de la Direcci6n Provincial, podra exceptuarse total o parcialmente el pago,",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "15"
     }
@@ -8807,8 +8418,7 @@ const searchData = {
     {
       "code": "664734",
       "description": "ERITROPOYETINA (EPO)",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "PROTOCOLOS DE AUTORIZACIÓN Y AUDITORÍA FARMACOS Y ELEMENTOS RELACIONADOS • NORMATIVAS DE USO • REQUISITOS DE SOLICITUD DE ELEMENTOS MÉDICOS Índice • • • • • • RENVELA (sevelamer) THYROGEN (TSH recombinante) EPO (uso en IRCT y OncoHematología) MIRCERA (m-peg-EPOetin beta) BOMBA INFUSORA DE INSULINA PRADAXA (dabigatran) El presente documento pretende ser una guía para la Auditoría Médica IAPOS en la consideración de casos clínicos particulares, más una normativa de ordenamiento de los datos indispensables para su correcta evaluación, en el uso de elementos médicos comunes ligados a las prácticas solicitadas. RENVELA ® / RENAGEL ® (carbonato/clorhidrato de sevelamer) Descripción General de la Tecnología El sevelamer (clorhidrato o carbonato) es una macromolécula sintética no absorbible de características acídicas, utilizada como quelante del fósforo a nivel intestinal. La indicación de su uso es en los casos de hiperfosfatemia con hipercalcemia para pacientes EN DIÁLISIS cuando se evidencia fracaso de terapia con quelantes de calcio convencionales. Aunque el resultado de la terapéutica es evidente en muchos casos tratados, existen contradicciones sobre la efectividad neta en términos de impacto sobre la sobrevida y comorbilidad de los pacientes, la tasa de efectos colaterales o intolerancia a la terapia, y las condiciones de costo/efectividad inherentes al uso de sevelamer. Requisitos de Solicitud - Historia clínica, consignando (si corresponde) antecedentes de patología digestiva obstructiva o cirugía mayor abdominal (con firma de médico responsable). - Dieta prescripta con estimación de aporte diario de Calcio y Fósforo (con firma de nutricionista). - Considerar dosis y posología de fármacos convencionales en el mismo período: - Fosfatemia persistente > 5.5 mg/l (> 3 meses) - Calcemia persistente > 10,5 mg/l (> 3 meses) - Producto CaXP persistente > 55 mg/l (> 3 meses) - iPTH persistente < 100 pg/dl (o Dx histológico de enfermedad ósea adinámica: esto contraindica el uso de quelantes cálcicos) - Rx de manos o imágenes de calcificaciones en partes blandas ó depósitos vasculares (con fecha). - Plan terapéutico sobre metabolismo óseo de los últimos 6 meses, consignando droga, posología y dosis diaria ó semanal de quelantes de fósforo y calcitriol si corresponde (con firma de médico responsable). - Tiempo de diálisis por sesión y concentración de Ca++ en dializado. - Adjuntar resultados de los últimos 6 meses: Kt/V, calcemia, fosfatemia y CaXP, más últimos 2 valores de iPTH (con firma de bioquímico). CONTRAINDICACIONES: Obstrucción intestinal – Pacientes menores de 18 años – Pacientes en IRC estadío 4 o inferior – Intolerancia a sevelamer - Hipoparatiroidismo PRECAUCIONES: Antecedentes de cirugía abdominal previa – Trastornos en la ingestión/deglución – Enfermedad inflamatoria intestinal activa – Gastroparesia – Diverticulosis – Deficiencia de vitaminas liposolubles Dadas las contradicciones inherentes al uso de sevelamer analizadas, se sugiere la aplicación estricta del protocolo precedente para considerar la autorización del tratamiento. Se recomienda como plazo de los mismos para renovación con reevaluación cada 3 meses. Protocolo de Uso Se presenta para su uso en comprimidos de 400 mg que deben ingerirse preferentemente con la comidas principales, con una dosis basal de inicio de 800 mg, pudiendo elevarse a 8 – 12 comprimidos diarios de acuerdo a la respuesta terapéutica (descenso de la fostatemia) y tolerancia al fármaco (alta tasa de trastornos gastrointestinales con dosis crecientes). Los tratamientos no requieren ser sostenidos de manera indefinida (no se dispone de datos ni experiencia sobre el uso de la droga por más de 12 meses), pudiendo retomarse tratamiento convencional (quelantes cálcicos) cuando se produzca normalización de calcemia y/o fosfatemia. Medidas generales para disminuir calcemia y fosfatemia (sin utilizar Sevelamer): Tiempo de hemodiálisis semanal: mínimo 12 hs. Revisar Ca++ baño de diálisis (de",
       "coseguro": "20"
     },
     {
@@ -13282,15 +12892,13 @@ const searchData = {
     {
       "code": "05.02.01",
       "description": "FLÚOR EN EMBARAZADAS",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de $20.000 en concepto de prestación del servicio urgencias odontológicas en el importe consignado para gastos administrativos; Que la Dirección General de Asuntos Jurídicos conforme lo lineamientos establecido por Dirección Provincial a fojas 76/77 y desde su competencia funcional, por el artículo 2°, inciso c) del Decreto N° 132/94, adjunta los proyectos de modificacion de contratos con las asociaciones antes mencionadas, conforme los lineamentos establecidos por Dirección Provincial; Que se cuenta con crédito presupuestario suficiente habiéndose realizado el compromiso definitivo, según consta a fojas 23 a 28, también se ha previsto para las futuras prestaciones del servicio; Por ello, y con las facultades conferidas por el artículo 7 de la Ley N° 8288 y Decreto N° 283/17;",
       "coseguro": "5"
     },
     {
       "code": "05.02.02",
       "description": "FLÚOR EN DISCAPACITADOS",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de $20.000 en concepto de prestación del servicio urgencias odontológicas en el importe consignado para gastos administrativos; Que la Dirección General de Asuntos Jurídicos conforme lo lineamientos establecido por Dirección Provincial a fojas 76/77 y desde su competencia funcional, por el artículo 2°, inciso c) del Decreto N° 132/94, adjunta los proyectos de modificacion de contratos con las asociaciones antes mencionadas, conforme los lineamentos establecidos por Dirección Provincial; Que se cuenta con crédito presupuestario suficiente habiéndose realizado el compromiso definitivo, según consta a fojas 23 a 28, también se ha previsto para las futuras prestaciones del servicio; Por ello, y con las facultades conferidas por el artículo 7 de la Ley N° 8288 y Decreto N° 283/17;",
       "coseguro": "5"
     },
     {
@@ -13387,36 +12995,31 @@ const searchData = {
     {
       "code": "09.01.01",
       "description": "RX PERIAPICAL",
-      "normativa": "INCLUYE: toma de impresiones, construcci6n de modelos, monfaje en articulador, construcci6n splint de acrilico. El equipo quirtirgico aportafa todo el instrumental especifico, micromotores, piezas de mano, fresas quirilrgicas, sierra oscilante y reciprocante, etc. En caso de solicitar alquiler de equipamiento especifico, t]nicamente en casos donde no se utiliza material de ortopedia, se puede homologar el c6digo 10999. honorarios de cirujano y ayudantes mss las consultas posteriores hasta dar el alta al paciente de esa patologia. En caso de cirugias a realizarse en consultorio gastos de descartables, anes{esia, premedicaci6n, ap6sitos. fresas quirdrgicas, suturas, so]uci6n fisiol6gica, acrilico, arcos peine, alambre de acero quindrgico, etc. La auditoria puede pedir historia clinica, radiografias pre y /o pos operatorias, modelos, fotos, o 1o que considere necesario para un mejor control. Todas las cirugias se realizaran con autorizaci6n previa de la auditoria. EI valor concertado solo honorarios de cirujarios y ayudantes cuando la cirugia se realice en sanatorios. No ningi]n elemento aloplastico, ortopedico, placas, tomillos implantes, medicamentos para curaciones, etc. No honorarios de otro especialista (medico) Para retiro de material de ortopedia corresponde homologar al c6digo 10999. Discapacidad: los afiliados que presenten certificado de discapacidad y requieran",
-      "price_hidden": "",
+      "normativa": "INCLUYE: toma de impresiones, construcción de modelos, montaje en articulador, construcción splint de acrílico. El equipo quirúrgico aportará todo el instrumental especifico, micromotores, piezas de mano, fresas quirúrgicas, sierra oscilante y reciprocante, etc. En caso de solicitar alquiler de equipamiento específico, únicamente en casos donde no se utiliza material de ortopedia, se puede homologar el código 10999. Incluye honorarios de cirujano y ayudantes más las consultas posteriores hasta dar el alta al paciente de esa patología. En caso de cirugías a realizarse en consultorio incluye gastos de descartables, anestesia, premedicación, apósitos, fresas quirúrgicas, suturas, solución fisiológica, acrílico, arcos peine, alambre de acero quirúrgico, etc. La auditoría puede pedir historia clínica, radiografías pre y /o pos operatorias, modelos, fotos, o lo que considere necesario para un mejor control. Todas las cirugías se realizarán con autorización previa de la auditoría. El valor concertado incluye solo honorarios de cirujanos y ayudantes cuando la cirugía se realice en sanatorios. No incluye ningún elemento aloplástico, ortopédico, placas, tomillos implantes, medicamentos para curaciones, etc. No incluye honorarios de otro especialista (médico) Para retiro de material de ortopedia corresponde homologar al código 10999. Disca",
       "coseguro": "3"
     },
     {
       "code": "09.01.02",
       "description": "RX MEDIA SERIADA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: toma de impresiones, construcción de modelos, montaje en articulador, construcción splint de acrílico. El equipo quirúrgico aportará todo el instrumental especifico, micromotores, piezas de mano, fresas quirúrgicas, sierra oscilante y reciprocante, etc. En caso de solicitar alquiler de equipamiento específico, únicamente en casos donde no se utiliza material de ortopedia, se puede homologar el código 10999. Incluye honorarios de cirujano y ayudantes más las consultas posteriores hasta dar el alta al paciente de esa patología. En caso de cirugías a realizarse en consultorio incluye gastos de descartables, anestesia, premedicación, apósitos, fresas quirúrgicas, suturas, solución fisiológica, acrílico, arcos peine, alambre de acero quirúrgico, etc. La auditoría puede pedir historia clínica, radiografías pre y /o pos operatorias, modelos, fotos, o lo que considere necesario para un mejor control. Todas las cirugías se realizarán con autorización previa de la auditoría. El valor concertado incluye solo honorarios de cirujanos y ayudantes cuando la cirugía se realice en sanatorios. No incluye ningún elemento aloplástico, ortopédico, placas, tomillos implantes, medicamentos para curaciones, etc. No incluye honorarios de otro especialista (médico) Para retiro de material de ortopedia corresponde homologar al código 10999. Discapacidad: los afiliados que presenten cert",
       "coseguro": "11"
     },
     {
       "code": "09.01.03",
       "description": "RX SERIADA TOTAL",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: toma de impresiones, construcción de modelos, montaje en articulador, construcción splint de acrílico. El equipo quirúrgico aportará todo el instrumental especifico, micromotores, piezas de mano, fresas quirúrgicas, sierra oscilante y reciprocante, etc. En caso de solicitar alquiler de equipamiento específico, únicamente en casos donde no se utiliza material de ortopedia, se puede homologar el código 10999. Incluye honorarios de cirujano y ayudantes más las consultas posteriores hasta dar el alta al paciente de esa patología. En caso de cirugías a realizarse en consultorio incluye gastos de descartables, anestesia, premedicación, apósitos, fresas quirúrgicas, suturas, solución fisiológica, acrílico, arcos peine, alambre de acero quirúrgico, etc. La auditoría puede pedir historia clínica, radiografías pre y /o pos operatorias, modelos, fotos, o lo que considere necesario para un mejor control. Todas las cirugías se realizarán con autorización previa de la auditoría. El valor concertado incluye solo honorarios de cirujanos y ayudantes cuando la cirugía se realice en sanatorios. No incluye ningún elemento aloplástico, ortopédico, placas, tomillos implantes, medicamentos para curaciones, etc. No incluye honorarios de otro especialista (médico) Para retiro de material de ortopedia corresponde homologar al código 10999. Discapacidad: los afiliados que presenten certificado de discapacidad y requieran tratamiento bajo anestesia",
       "coseguro": "17"
     },
     {
       "code": "09.02.04",
       "description": "PANTOMOGRAFÍA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: toma de impresiones, construcci6n de modelos, montaje en articulador, construcci6n splint de acrilico. El equipo quirt]rgico aportard todo el instrumental especifico, micromotores, piezas de mano, fresas quirdrgicas, sierra oscilante y reciprocante, etc. En caso de solicitar alquiler de equipamiento especifico, t]nicamente en casos donde no se utiliza material de ortopedia, se puede homologar el c6digo 10999. Incluye honorarios de cirujano y ayudantes mss las consultas posteriores hasta dar el alta al paciente de esa patologia. En caso de cirugfas a realizarse en consultorio incluye gastos de descartab es, anestesia, premedicaci6n, ap6sitos, fresas quirdrgicas, suturas, n fisiol6gica, acrilico, arcos peine, alambre de acero quirdrgico, etc. La",
       "coseguro": "12"
     },
     {
       "code": "09.02.05",
       "description": "TELE-RADIOGRAFÍA CEFALOMÉTRICA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) $ 2. 149 ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA $ 2. 149 CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR $ 5.8291 EXTIRPACIÓN DE TUMORES, Q UISTES DE MAS DE 4 CM. BENIGNOS $5.829 1 SUBMAXILECTOMÍA $ 5.8291 PLÁSTICA DE LABIO FISURADO UNI OBILATERAL $ 5.829 PLÁSTICA DEPALADAR FISURADO $ 5.829 FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA $ 5.829 OSTEOTOMIAS PARA DISTRACCIÓNOSTEOGENICA DE MAXILARES $5.829 TÉCNICAS CORRECTIVAS DE DEFORMIDADES O MALOCLUSIONES, SEGMENTARIAS $5.829 CORRECCIÓN QUIR ÚRGICA DE DEFORMIDADES DENTOFACIALES (PROGNATISMO, HIPOPLASIA MAX. SUPERIOR, TEROGNATISMO, ETC) RECONSTRUCCIONES MANDIBULARES O MAXILARES CONINJERTOS ÓSEOSAUTÓGENOS CIRUGÍADEANQUILOSISTÉMPOROMANDIBULAR $9.794 CO",
       "coseguro": "12"
     },
     {
@@ -13450,8 +13053,7 @@ const searchData = {
     {
       "code": "09.65.05",
       "description": "T.C. CONE BEAM 3º MOLARES",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) 10.361 ANTROTOMEASENOMAXILARPORCAUSA ODONTOGENA 1 10.37 'CIRUGÍAARTICULACIÓN TEMPORO MANDIBULAR $10.139",
       "coseguro": "15"
     },
     {
@@ -13478,7 +13080,7 @@ const searchData = {
     {
       "code": "09.65.09",
       "description": "T.C. CONE BEAM A.T.M. (BOCA CERRADA)",
-      "normativa": "INCLUYE: TOMA DE INJERTO)",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": "18"
     },
@@ -13590,22 +13192,19 @@ const searchData = {
     {
       "code": "10.16.01",
       "description": "QUISTECTOMÍA O EXTIRPACIÓN DE TUMORES EN TEJIDOS BLANDOS O DUROS DE",
-      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR EXTIRPACIÓN DE TUMORES, QUISTES DE MAS DE 4 CM. BENIGNOS SUBMAXILECTOMÍA PLÁSTICA DE LABIO FISURADO UNI O BILATERAL PLÁSTICA DE PALADAR FISURADO FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA OSTEOTOMIAS PARA DISTRACCIÓN OSTEOGENICA DE MAXILARES $209.034 $209.034 $ 96.256 $261.042 10.44 10.45 10.46 10.47 10.48 10.49 10.3 0'01 TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA TRAT",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR EXTIRPACIÓN DE TUMORES, QUISTES DE MAS DE 4 CM. BENIGNOS SUBMAXILECTOMÍA PLÁSTICA DE LABIO FISURADO UNI O BILATERAL PLÁSTICA DE PALADAR FISURADO FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA OSTEOTOMIAS PARA DISTRACCIÓN OSTEOGENICA DE MAXILARES",
       "coseguro": "20"
     },
     {
       "code": "10.16.02",
       "description": "QUISTECTOMÍA O EXTIRPACIÓN DE TUMORES EN TEJIDOS BLANDOS O DUROS DE",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR EXTIRPACIÓN DE TUMORES, QUISTES DE MAS DE 4 CM. BENIGNOS SUBMAXILECTOMÍA PLÁSTICA DE LABIO FISURADO UNI O BILATERAL PLÁSTICA DE PALADAR FISURADO FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA OSTEOTOMIAS PARA DISTRACCIÓN OSTEOGENICA DE MAXILARES",
       "coseguro": "20"
     },
     {
       "code": "10.16.03",
       "description": "QUISTECTOMÍA O EXTIRPACIÓN DE TUMORES EN TEJIDOS BLANDOS O DUROS DE",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR EXTIRPACIÓN DE TUMORES, QUISTES DE MAS DE 4 CM. BENIGNOS SUBMAXILECTOMÍA PLÁSTICA DE LABIO FISURADO UNI O BILATERAL PLÁSTICA DE PALADAR FISURADO FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA OSTEOTOMIAS PARA DISTRACCIÓN OSTEOGENICA DE MAXILARES",
       "coseguro": "20"
     },
     {
@@ -13828,56 +13427,49 @@ const searchData = {
     {
       "code": "10.30.01",
       "description": "TRATAMIENTO DE HERIDAS DE TEJIDOS BLANDOS COMPLEJOS",
-      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA TRATAMIENTO CON ANESTESIA GENERAL DISCAPACIDAD/CASOS ESPECIALES NO AMBULATORIOS $209.034 $234.118 $261.042 $351.129 $393.264 $438.490 $351.129 $393.264 $438.490 $351.129 $393.264 $438.490 $351.129 $393.264 $438.490 $351.129 $393.264 $438.490 $ 92.397 $103.485 $115.386 $ 92.397 $103.485 $115.386 $ 92.397 $103.485 $115.386 $ 92.397 $103.485 $115.386 $ 92.397 $103.485 $115.386 $ 92.397 $103.485 $115.386 $350.000 $402.500 $442.750 SEGUNDA: Se fijan los nuevos valores de Cartera Fija en la suma de $23.076.200 (Pesos veintitrés millones setenta y seis mil doscientos) con vigencia 1° de Abril/24, de $25.821.300 (Pesos veinticinco millones ochocientos veintiún mil trescientos) con vigencia 1° de Mayo/24 y de $28.767.700 (Pesos veintiocho millones setecientos sesenta y siete mil setecientos) con vigencia 1° de Junio/24. TERCERA: En cuanto no estuviera modificado por el presente, continúan vigentes los términos del contrato de fecha 06-03-09 y sus posteriores modificaciones, los que las partes ratifican por ser su voluntad. ----Así de conformidad, previa lectura y ratificac",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA TRATAMIENTO CON ANESTESIA GENERAL DISCAPACIDAD/CASOS ESPECIALES NO AMBULATORIOS",
       "coseguro": "20"
     },
     {
       "code": "10.31.01",
       "description": "EXTIRPACIÓN DE TUMORES, QUISTES O HIPERPLASIAS DE 4 CM. BENIGNOS O",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR EXTIRPACIÓN DE TUMORES, QUISTES DE MAS DE 4 CM. BENIGNOS SUBMAXILECTOMÍA PLÁSTICA DE LABIO FISURADO UNI O BILATERAL PLÁSTICA DE PALADAR FISURADO FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA OSTEOTOMIAS PARA DISTRACCIÓN OSTEOGENICA DE MAXILARES",
       "coseguro": "20"
     },
     {
       "code": "10.32.01",
       "description": "PLÁSTICA A DISTANCIA DE FÍSTULA BUCONASAL O BUCOSINUSAL",
-      "normativa": "INCLUYE: DESAYUNO) 12 POR DIA HABITACION TRIPLE (lNCLUYE DESAYUNO) 15 POR DIA HABITACION SIMPLE (lNCLUYE DESAYUNO) 18 POR DIA DESAYUNO) 20 26",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: Pensión, Gaos. Sanatorieles;: Set 'completo 36.w.0.01 COLOCACIÓN . ,. : don..gtilá. St cargo. catéter :doblés.,:l.á cargo. de.1AP.08 . de :acuerdo: a PROTOCOLO DE CATETERDOBLEj ; ' . •, • • VIGENTE. ''• . fricitiye. Pensión, gastos: nierechos: quirúrgicos, uso de.:laparotcoplo e. instrumental inherente 11a prectica,,(biattin.monO polar; bipolar, armónico); ;honorarios médicos; anatomía,. patológica, medicamentos y Materiales •detcartables y no. descertable Inherentes .ai. .procedimiento :'pomo:. trocares,:: endolools,...endoclils, suturas ;no . „• , . megániCas, bolses,ColeCtorás, drenajes, material'de.hemostasle en . todes, sus formas •• . _,_ <lamines, esponjas, godos>, sistemas:retractores y,protectores de Pared, puerto s 28:90.01 VlbEOTORACOS.COPIÁ .... • úñicol pera V.LP.; otrot. Bitipsies pulmonares'o.mediaStínáleá, Resección de bullas, ' . TERAPEUTIcÁGRupo 1: bulbos,. blebs -45 petólógi.as gire:Motiven ..tretemiento de Neumotórax recidivádes, .. . Pleurodella . independientemente de . le.• Oatologfa. que ;-lo ' motive (Iriduye Itorácocenteti4 . •xcluye HoriOrsrioi . de, anestesia, :Suturas Mecánicas ,(Auto Suturas) ..de , acuerdo á patología y :e",
       "coseguro": "20"
     },
     {
       "code": "10.33.01",
       "description": "SUBLINGUALECTOMÍA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR EXTIRPACIÓN DE TUMORES, QUISTES DE MAS DE 4 CM. BENIGNOS SUBMAXILECTOMÍA PLÁSTICA DE LABIO FISURADO UNI O BILATERAL PLÁSTICA DE PALADAR FISURADO FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA OSTEOTOMIAS PARA DISTRACCIÓN OSTEOGENICA DE MAXILARES",
       "coseguro": "20"
     },
     {
       "code": "10.35.01",
       "description": "INJERTOS OSEOS EN MAXILARES (INCLUYE TOMA DE INJERTO)",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA TRATAMIENTO CON ANESTESIA GENERAL DISCAPACIDAD/CASOS ESPECIALES NO AMBULATORIOS",
       "coseguro": "20"
     },
     {
       "code": "10.36.01",
       "description": "ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA TRATAMIENTO CON ANESTESIA GENERAL DISCAPACIDAD/CASOS ESPECIALES NO AMBULATORIOS",
       "coseguro": "20"
     },
     {
       "code": "10.99.99",
       "description": "TRATAMIENTO CON ANESTESIA GENERAL DISCAPACIDAD/CASOS ESPECIALES NO",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR EXTIRPACIÓN DE TUMORES, QUISTES DE MAS DE 4 CM. BENIGNOS SUBMAXILECTOMÍA PLÁSTICA DE LABIO FISURADO UNI O BILATERAL PLÁSTICA DE PALADAR FISURADO FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA OSTEOTOMIAS PARA DISTRACCIÓN OSTEOGENICA DE MAXILARES",
       "coseguro": "S/C"
     },
     {
       "code": "04.01.01",
       "description": "INCRUSTACIÓN CAVIDAD SIMPLE",
-      "normativa": "INCLUYE: consultas para ajustes de oclusi6n y adaptaci6n. Omitir terceros molares. En caso de existir restos radiculares en condiciones para quedar bajo la pr6tesis\nREQUISITOS: anat6micos de una corona definitiva. No esta contemplado la reutilizaci6n de coronas de manera provisoria. Seran reconocidas por dnica vez en cualquier pieza dentaria y una por pieza dentaria.",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
@@ -13961,8 +13553,7 @@ const searchData = {
     {
       "code": "04.01.26",
       "description": "RE CEMENTADO",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: firmas y teléfonos de ambos ). Falta de codificación especificando pieza dentaria. Falta de diseño de la prótesis en la ficha aclarando las piezas que repone. Falta de sello del profesional (debe ser legible). La firma de conformidad del afiliado por práctica realizada deberá estar al momento de la presentación al cobro (no para su autorización previa). No quedan contempladas las radiografías o imágenes que fueron presentadas en fichas ant t'O'afá'dI/ültiriio,,recibo ' de sueldo, credencial del titular y paciente (fotocopias) (solo para Circulos y Asociaciones ; que no a utbriz'á por la via on line). Falta de bono ódóntológico.\nREQUISITOS: establecidos. Falta de radiografías o imagen . Falta de adaptación de incrustaciones, coronas, prótesis removibles. Al momento de la auditoría la falta de prótesis en el paciente será motivo de débito. Motivo de devolución de la documentación (previo a su autorización) Odontogramas incompletos. Falta de datos del paciente y profesional (",
       "coseguro": ""
     },
     {
@@ -14073,7 +13664,7 @@ const searchData = {
     {
       "code": "04.01.13",
       "description": "ELEMENTO PROVISORIO DE ACRÍLICO",
-      "normativa": "INCLUYE: la provisi6n de sensores de monitoreo continuo de glucosa, como Freestyle Libre o Dexcom, fundamentales para pacientes con diabetes tipo I o insulinodependientes. Estos dispositivos permiten controlar la glucemia reemplazando la utilizaci6n de liras reactivas. Las mismas se encuentran con cobertura de programa de cr6nicos de medicamentos. 6. Provisi6n de",
+      "normativa": "",
       "price_hidden": "",
       "coseguro": ""
     },
@@ -15356,8 +14947,7 @@ const searchData = {
     {
       "code": "071300",
       "description": "CATETERES",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "PROTOCOLO PARA SOLICITUD DE CATÉTERES SEMI IMPLANTABLES Los catéteres Semi Implantables, son muy utilizados en pacientes que requieren NUTRICIÓN PARENTERAL (total o complementaria N.P.T. / N.P.C.) sea en la etapa Hospitalaria o bien luego en la Internación domiciliaria. Son Catéteres que pueden ser de simple vía (Lumen o Luz) o de doble vía (Lumen o luz), y que por usos y costumbres han sido denominados con el nombre de sus creadores: Catéteres de Broviac® y de Hickman®, situación que en la actualidad ya no se utiliza, dado que dichos nombres propios, hoy son marcas registradas por una empresa. Por tal motivo, y se verá en la normativa del pedido, no se aceptarán pedidos de catéteres con nombres propios, sino que se deberá limitar el pedido al número de Luces o Lúmenes del catéter que se requiera para cada situación en especial, léase: CATÉTER SEMI IMPLANTABLE DE UNA VÍA (En lugar de Catéter de Broviac®) o CATÉTER DE DOBLE VÍA (En lugar de Catéter de Hickman®) Dado que dichos catéteres, son catéteres de larga estancia y que son imprescindibles para el sostén vital de los pacientes, hay dos cuidados fundamentales en los mismos: La colocación del catéter y su correcta ubicación en la vena central (No en cavidades), el adecuado tunelizado y el correcto sellado del mismo. Práctica que debe realizarse en quirófano y de preferencia bajo radioscopía, para garantizar la ubicación del “tip” del catéter. La correcta utilización del mismo (Habilitación primero), pasaje de la sustancia con normas de antisepsia adecuadas y el SELLADO O CIERRE HEPARÍNICO del mismo, lo que garantiza la no obstrucción (Coagulación) y la vida útil del catéter. El primero depende del cirujano actuante y el segundo del personal que administra las sustancias (En general personal de enfermería). Para la solicitud de un CATÉTER SEMI IMPLANTABLE, se deberán cumplir con los siguientes requisitos: 1. PEDIDO MÉDICO DEL CATÉTER, ADECUADAMENTE SOLICITADO, CON EL TIPO DE CATÉTER (NÚMERO DE LUCES O LÚMENES: UNA VÍA O DOS VÍAS, no por nombre propio) Y PRINCIPALMENTE EL DIÁMETRO (Ø) DEL CATÉTER QUE SE SOLICITARÁ, variable según el paciente. 2. HISTORIA CLÍNICA COMPLETA EN LA CUAL SE DETALLE LA PATOLOGÍA DE BASE DEL PACIENTE, EL MOTIVO DEL PEDIDO (Nutrición Parenteral u otro) Y EL TIEMPO QUE SE INSTAURARÁ EL TRATAMIENTO. 3. EN EL CASO DE REQUERIRSE PARA N.P.T. o N.P.C. (Complementaria), EL PEDIDO DEBERÁ ESTAR ACOMPAÑADO DE UNA EVALUACIÓN FIRMADA POR LICENCIADA/O EN NUTRICIÓN, ADEMÁS DEL PEDIDO MÉDICO. 4. EL PEDIDO LO FORMULARÁ EL CIRUJANO QUE COLOCARÁ EL CATÉTER O BIEN EL MÉDICO TRATANTE, INDICANDO EL PROFESIONAL QUE REALIZARÁ LA PRÁCTICA DE COLOCACIÓN. La colocación deberá ser realizada en quirófano y deberá contar con PROTOCOLO QUIRÚRGICO Y CERTIFICADO DE IMPLANTE CON LOS ELEMENTOS QUE DEMUESTREN SU COLOCACIÓN (Stickers ad hoc, material de sellado del blíster u otros, según lo normatizado en la licitación de los Catéteres Semi Implantables.) 5. CERTIFICADO DE DISCAPACIDAD en el caso que el paciente lo posea.",
       "coseguro": ""
     },
     {
@@ -15377,8 +14967,7 @@ const searchData = {
     {
       "code": "071304",
       "description": "CATETER VENOSOS CENTRALES DE INSERCION PERIFERICA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "PROTOCOLO PARA SOLICITUD DE CATÉTERES CENTRALES DE INSERCIÓN PERIFÉRICA (P.I.C.C.) La solicitud de este tipo de Catéteres está prácticamente limitada al tratamiento domiciliario, en aquellos pacientes que pudiendo estar externados, deben recibir algún tipo de medicación especifica por vía parenteral durante un tiempo relativamente prolongado y que carecen de capital venoso periférico o bien que la/s sustancia/s a administrar, sea muy irritante para las venas periféricas, por lo cual su administración en venas centrales. Dado que los P.I.C.C., son catéteres de estancias intermedias a prolongadas y que son imprescindibles para el sostén vital de los pacientes, hay dos cuidados fundamentales en los mismos, que dependen de dos momentos, a saber: La colocación del catéter y su correcta ubicación en la vena central (No en cavidades), procedimiento que debe ser realizado en quirófano y de preferencia bajo radioscopía. La correcta utilización del mismo (Habilitación primero), pasaje de la sustancia con normas de antisepsia adecuadas y el SELLADO O CIERRE HEPARÍNICO del mismo, lo que garantiza la no obstrucción (Coagulación) y la vida útil del catéter. El primero depende del cirujano actuante y el segundo del personal que administra las sustancias (En general personal de enfermería) Para la solicitud de un P.I.C.C. (Catéter Venoso Central de Inserción Periférica) se deberán cumplir con los siguientes requisitos: 1. PEDIDO MEDICO DEL CATÉTER, ADECUADAMENTE SOLICITADO, CON EL TIPO DE CATÉTER Y PRINCIPALMENTE EL DIÁMETRO (Ø) DEL CATÉTER QUE SE SOLICITARÁ, variable según el paciente. 2. HISTORIA CLÍNICA COMPLETA EN LA CUAL SE DETALLE LA PATOLOGÍA DE BASE DEL PACIENTE, LA DROGA O DROGAS A RECIBIR Y EL TIEMPO QUE SE INSTAURARÁ EL TRATAMIENTO. 3. EL PEDIDO LO FORMULARÁ EL CIRUJANO QUE COLOCARÁ EL CATÉTER O BIEN EL MÉDICO TRATANTE, INDICANDO EL PROFESIONAL QUE REALIZARÁ LA PRACTICA DE COLOCACIÓN. La colocación deberá ser realizada en quirófano y deberá contar con el PROTOCOLO QUIRÚRGICO Y CERTIFICADO DE IMPLANTE CON LOS ELEMENTOS QUE DEMUESTREN SU COLOCACIÓN (Stickers ad hoc, material de sellado del blíster, otros, según lo normatizado en la licitación de los Catéteres de Inserción Periférica.) 4. CERTIFICADO DE DISCAPACIDAD en el caso que el paciente lo posea.",
       "coseguro": ""
     },
     {
@@ -15727,8 +15316,7 @@ const searchData = {
     {
       "code": "072600",
       "description": "ENDOPROTESIS",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "NORMATIVA PARA LA SOLICITUD DE ENDOPRÓTESIS “STENTS” PARA EL TUBO DIGESTIVO ENDOPRÓTESIS “STENT” ESOFÁGICO Las indicaciones para este tipo de material siguen las normativas de los consensos Nacionales e Internacionales, las cuales se resumen a continuación. Enfermedades concomitantes fuera del alcance quirúrgico -Cáncer esofágico irresecable (T3 yT4 N1-2 M1) -Cáncer esofágico inoperable (Tx + comorbilidad) Dilataciones inefectivas o complicadas Estenosis malignas o benignas, extrínsecas, obstructivas, de crecimiento rápido Estrecheces post-radioterapia Fístulas esófago-traqueales Recurrencia tumoral post-resección quirúrgica Recurrencia post-radio/quimioterapia CRITERIOS DE EXCLUSIÓN Y CONTRAINDICACIONES Estrecheces de un largo mayor de 12 cm Crecimiento del tumor dentro de los 3 cm del esfínter esofágico superior CONTRAINDICACIONES RELATIVAS Pacientes en muy mal estado general (Se debe evaluar riesgo-beneficio) Estenosis no circunferenciales (migración). Estenosis proximales al esfínter cricofáringeo (Pero a más de 3 cm) REQUISITOS INDISPENSABLES PARA LA SOLICITUD DE UNA PRÓTESIS AUTO EXPANSIBLE METÁLICA “STENT” PARA EL ESÓFAGO 1. HISTORIA CLÍNICA AMPLIA DE LOS MOTIVOS QUE LLEVAN A LA SOLICITUD DEL ELEMENTO. En esta historia clínica deberán constar en forma insoslayable, las condiciones del paciente, desde el punto de vista nutricional, evaluación hecha por el especialista (Lic. en Nutrición) a fin de evaluar la necesidad o no de Nutrición Enteral por S.N. Yeyunal, N.P.T. o N.P.C. <Complementaria> en los casos que la obstrucción no sea completa. La historia clínica además de la evaluación del cirujano, gastroenterólogo y nutricionista, deberá tener en los casos de patologías malignas, la evaluación del oncólogo clínico. 2. DOCUMENTACIÓN DE LA ESTRECHEZ U ESTENOSIS DEL ESÓFAGO, MEDIANTE S.E.G.D., V.E.D.A., MARCANDO FUNDAMENTALMENTE SU ALTURA (Ubicación) Y EXTENSIÓN (Longitud). Muy importante para las lesiones de la región Esofagogástrica, por el riesgo mayor de migración y las lesiones muy cercanas al esfínter cricofaríngeo. 3. ANATOMÍA PATOLÓGICA DE LA LESIÓN. Este requisito es indispensable, a fin de evaluar en los casos de lesiones malignas, la conducta oncológica a seguir de acuerdo al tipo histológico de la lesión. 4. ESTUDIOS COMPLEMENTARIOS EN LOS CASOS DE NEOPLASIAS MALIGNAS, PARA ESTADIFICACIÓN Y EVENTUAL DEFINICIÓN DE CRITERIOS DE RESECABILIDAD O IRRESECABILIDAD. (T.A.C. / R.M.N. / P.E.T. u otros) 5. TODA DECISIÓN QUE SE DECIDA CON EL PACIENTE, SEA ESTA PALIATIVA (COLOCACIÓN DE ENDOPRÓTESIS COMO ÚNICA ACCIÓN) O CIRUGÍA RESECTIVA CON NEOADYUVANCIA O TRATAMIENTO ADYUVANTE POSTERIOR DEBERÁ ESTAR AVALADA Y FIRMADA POR EL CIRUJANO Y/0 GASTROENTERÓLOGO RESPONSABLE Y EL ONCÓLOGO CLÍNICO, SIN EXCEPCIÓN. No se aceptarán pedidos que no tengan la evaluación conjunta de Cirugía/Gastroenterología y Oncología. 6. ESPECIFICACIÓN DE SI HA TENIDO TRATAMIENTOS PREVIOS (Ej.: Dilataciones previas o Stents anteriores que disfuncionaron o migraron). 7. ESPECIFICAR COMPROMETIDA. SI HA TENIDO RADIACIÓN DE LA REGIÓN ENDOPRÓTESIS PARA ESTÓMAGO DISTAL Y DUODENO El I.A.P.O.S. NO PROVEERÁ ENDOPRÓTESIS O STENTS PARA ESTA REGION ANATOMICA, EXISTIENDO OTRAS ALTERNATIVAS PARA EL MANEJO DE LA PATOLOGIA. ENDOPRÓTESIS PARA COLON O RECTO El I.A.P.O.S. NO PROVEERÁ ENDOPRÓTESIS O STENTS PARA ESTA REGION ANATOMICA, EXISTIENDO OTRAS ALTERNATIVAS PARA EL MANEJO DE LA PATOLOGIA.",
       "coseguro": ""
     },
     {
@@ -16168,15 +15756,13 @@ const searchData = {
     {
       "code": "081201",
       "description": "KIT DE MUCOSECTOMIA CON CLIP",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "PROTOCOLO PARA SOLICITUD DE KIT PARA MUCOSECTOMÍA ENDOSCÓPICA El IAPOS, proveerá de KITS para MUCOSECTOMÍA ENDOSCÓPICA, los cuales son “completos”, por lo cual NO SE ACEPTARAN PEDIDOS DE MATERIALES EXTRAS AL KIT O SET PARA MUCOSECTOMÍA. IAPOS entregará el KIT o SET COMPLETO necesario para la práctica solicitada “Mucosectomía Endoscópica”. Para la solicitud de un KIT de mucosectomía endoscópica desde auditoria médica se solicitará y evaluará: 1. PEDIDO MEDICO DEL ELEMENTO 2. HISTORIA CLÍNICA DEL PACIENTE (De singular importancia en caso de pacientes con antecedentes directos personales o familiares de neoplasias del tubo digestivo) 3. ESTUDIO ENDOSCÓPICO ORIGINAL, CON LAS IMÁGENES (FOTOS) ORIGINALES Y LAS MEDIDAS Y TIPO DE LA/S LESIONES A RESECAR. 4. ANATOMÍA PATOLÓGICA DE LA LESIÓN A RESECAR NOTA: Respecto a LOS ENDOCLIPS PARA SER UTILIZADOS EN PROCEDIMIENTOS ENDOSCÓPICOS (Mucosectomía, Resecciones Submucosas u otros), en el caso de ser realmente necesaria su utilización, se deberá realizar la gestión de REPOSICION DE/LOS ELEMENTOS UTILIZADOS POR EL PROFESIONAL ACTUANTE, CONTRA LA DEMOSTRACIÓN POR VIDEO (CD O DVD) DE LA REAL NECESIDAD DE SU USO (complicación durante el procedimiento) Y DE LA CANTIDAD DE ELEMENTOS UTILIZADOS. No se proveerán clips endoscópicos previo al procedimiento y tampoco se aceptará que se le solicite la compra al afiliado, incitándolo a que luego gestione un reintegro.",
       "coseguro": ""
     },
     {
       "code": "081202",
       "description": "KIT DE MUCOSECTOMIA SIN CLIP",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "PROTOCOLO PARA SOLICITUD DE KIT PARA MUCOSECTOMÍA ENDOSCÓPICA El IAPOS, proveerá de KITS para MUCOSECTOMÍA ENDOSCÓPICA, los cuales son “completos”, por lo cual NO SE ACEPTARAN PEDIDOS DE MATERIALES EXTRAS AL KIT O SET PARA MUCOSECTOMÍA. IAPOS entregará el KIT o SET COMPLETO necesario para la práctica solicitada “Mucosectomía Endoscópica”. Para la solicitud de un KIT de mucosectomía endoscópica desde auditoria médica se solicitará y evaluará: 1. PEDIDO MEDICO DEL ELEMENTO 2. HISTORIA CLÍNICA DEL PACIENTE (De singular importancia en caso de pacientes con antecedentes directos personales o familiares de neoplasias del tubo digestivo) 3. ESTUDIO ENDOSCÓPICO ORIGINAL, CON LAS IMÁGENES (FOTOS) ORIGINALES Y LAS MEDIDAS Y TIPO DE LA/S LESIONES A RESECAR. 4. ANATOMÍA PATOLÓGICA DE LA LESIÓN A RESECAR NOTA: Respecto a LOS ENDOCLIPS PARA SER UTILIZADOS EN PROCEDIMIENTOS ENDOSCÓPICOS (Mucosectomía, Resecciones Submucosas u otros), en el caso de ser realmente necesaria su utilización, se deberá realizar la gestión de REPOSICION DE/LOS ELEMENTOS UTILIZADOS POR EL PROFESIONAL ACTUANTE, CONTRA LA DEMOSTRACIÓN POR VIDEO (CD O DVD) DE LA REAL NECESIDAD DE SU USO (complicación durante el procedimiento) Y DE LA CANTIDAD DE ELEMENTOS UTILIZADOS. No se proveerán clips endoscópicos previo al procedimiento y tampoco se aceptará que se le solicite la compra al afiliado, incitándolo a que luego gestione un reintegro.",
       "coseguro": ""
     },
     {
@@ -16315,8 +15901,7 @@ const searchData = {
     {
       "code": "090000",
       "description": "SUTURAS",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "PROTOCOLOS DE AUTORIZACIÓN Y AUDITORÍA SUTURAS MECÁNICAS PROCEDIMIENTOS GASTROINTESTINALES - NORMATIVAS DE USO - REQUISITOS DE SOLICITUD DE ELEMENTOS MÉDICOS Índice - Características tisulares y quirúrgicas de segmentos - Tipos de suturas mecánicas - Suturas Mecánicas en Cirugía Digestiva o Intestino Delgado/Esófago/Estómago o Gastrectomía compleja o Duodenopancreatectomía o Recto o Unión Rectosigmoidea y Sigmoides o Hemicolectomía  Abierta  Laparoscópica - Suturas Mecánicas en Cirugía Torácica y Pulmonar - Balones endoscópicos de dilatación - Drenajes percutáneos de colecciones - Drenaje biliar percutáneo 2 3 5 7 7 8 9 El presente documento pretende ser una guía para la Auditoría Médica IAPOS en la consideración de casos clínicos particulares, más una normativa de ordenamiento de los datos indispensables para su correcta evaluación, sobre casos específicos de elementos médicos comunes ligados a las prácticas solicitadas. 1 Características Quirúrgicas de los Segmentos Gastrointestinales 1.- Esófago.- Las condiciones quirúrgicas de este órgano son de las peores para realizar anastomosis, su acceso quirúrgico es difícil, la irrigación es muy pobre, el plano muscular débil y la submucosa fina. Por estas razones la prevención de las fugas y el desgarro de las suturas dependen casi totalmente del plano mucoso, que no es el mejor. Las fugas anastomóticas del esófago representan la más alta incidencia de mortalidad en la cirugía del esófago razón por la cual las anastomosis intratorácicas deben ser evitadas porque una fuga a este nivel tiene consecuencias desastrosas para el paciente y deben preferirse las uniones en el esófago cervical. En el esófago y el recto extraperitoneal son los sitios donde preferentemente deben usarse suturadores mecánicos por la facilidad con la cual se realizan. Las suturas manuales son más sencillas de realizarlas en estos sitios cuando se realizan en forma interrumpida tomando la totalidad de los planos usando material de sutura adecuado y procurando que la mucosa de ambos bordes quede en perfecta oposición. La inversión de la mucosa debe ser mínima para evitar las estenosis. 2.- Estómago.- Su gruesa capa muscular, y su gran irrigación hacen que la hemorragia en la línea de sutura sea uno de los principales riesgos durante una resección o gastronomía. Por esto es deseable siempre realizar una sutura continua de todos los planos, de manera preferente reforzándolo con un segundo plano seromuscular. Los aparatos mecánicos son excelentes para hacer la nueva curvatura menor, cerrar el duodeno y construir la anastomosis Billroth I o Billroth II, ahorrando tiempo en forma significativa. La sutura manual, de todas maneras, continua siendo el patrón estándar en manos de cirujanos entrenado. 3.- Intestino Delgado.- Es uno de los segmentos más nobles para realizar suturas y anastomosis termino-terminal, termino-lateral o latero-lateral. Es una de las primeras anastomosis que realiza el cirujano en entrenamiento por su baja incidencia en fugas y dehiscencias. Usualmente se utilizan en la anastomosis dos planos el primero continuo en la pared anterior y posterior, seguido por uno invaginante. Los suturadores mecánicos tienen muy poca cabida en este segmento. 4.- Colon.- El colon ha sido uno de los segmentos intestinales que mayores temores produce en los cirujanos, debido a su contenido altamente contaminante, en el caso de presentarse fugas anastomóticas. Las anastomosis de este segmento suelen realizarse en dos planos, un interno invaginante que puede ser perforante o extramucoso y un externo seromuscular de refuerzo. Se debe tener especial cuidado con mantener la irrigación del borde anastomótico y de evitar la tensión de la sutura. Las suturas mecánicas han tenido un importante aporte en la realización de las anastomosis rectales muy bajas, que producen una anastomosis invaginante, 2 directa, término-terminal y circular que no hubiera sido factible con técnicas manuales. Debemos anotar que en todas las",
       "coseguro": ""
     },
     {
@@ -16553,8 +16138,7 @@ const searchData = {
     {
       "code": "120000",
       "description": "TRAUMATOLOGIA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "PROTOCOLO DE AUTORIZACION DE ELEMENTOS EN TRAUMATOLOGÍA Contenido I.- Prótesis Total de Cadera (PTC) II.- Prótesis Parcial de Cadera (PPC) III.- Prótesis Total de Cadera de Revisión (PTC-R) IV.- Prótesis Total de Rodilla (PTR) V.- Prótesis Total de Rodilla de Revisión (PTR-R) VI.- Prótesis de Hombro VII.- Prótesis de Tobillo y Codo VIII.- Osteosíntesis Placa-Tornillos IX.- Micro-osteosíntesis X.- Clavos Endomedulares XI.- Arpones XII.- Tornillos Interferenciales XIII.- Sistemas Tipo Loop XIV.- Sistemas de Fijación Interespinosos XV.- Fijación Externa XVI.- Parches de Duramadre XVII.- Fijacion de Columna XVIII.- Injerto óseo-injerto de tendón XIX.- Sutura meniscal I.- Prótesis Total de Cadera (PTC): se reconocerá según rango etareo:  En menores de 40 años: prótesis mini hip.  Entre los 40 y 50 años: prótesis no cementada par de fricción cerámicopolietileno.  Entre los 50 y 65 años: prótesis no cementada par de fricción metalpolietileno hibrida importada  Entre los 65 y 75 años: prótesis híbrida nacional.  Hasta los 75 años: prótesis cementada nacional.  Doble movilidad en caso de insuficiencia del aparato abductor o lesiones neurologicas que generen inestabilidad –(cadera inestable)- menor de 65 años importado, mayor de 65 años nacional.  Tallo de fijacion distal solo para deficit oseo metafisario femoral, menor de 65 años importado y mayores de 65 años nacional .  Materiales de titanio trabecular: se autorizaran en los casos donde la reconstruccion osea no sea posible (disrupcion pelvica). Sera excepcional y sujeta a auditoria medica debiendo aportar Rx y TAC reciente con reconstruccion 3D. II.- Prótesis Parcial de Cadera(PPC)  Se autorizarán PPC en casos de fractura mediales de caderas con artrosis asociada, en pacientes mayores de 80 años. Se autorizará material de origen nacional, tanto prótesis tipo Thompson como bipolar indistintamente.  En casos de fractura lateral se autorizarán tallos de revisión.  En fracturas laterales y subtrocantericas donde se decida realizar osteosintesis se autorizaran clavo gamma menores 80 años y DHS mayores de 80 años. III.- Prótesis Total de Cadera de Revisión (PTC-R): se reconocerá según rango etareo:  En menores de 65años: PTC-R no cementada e hibrida par metal polietileno importado.  En mayores de 65 años: PTC-R hibrida o no cementada nacional.  En mayores de 75 años: PTC-R cementada nacional  Se autorizarán PTC-R no convencional para los casos de pérdida de stock óseo severo y lesiones tumorales dándose prioridad a material nacional IV.- Prótesis Total de Rodilla (PTR): se reconocerá según rango etareo:  Hasta los 65 años: Prótesis total de rodilla anatomica importada.  A partir de los 65 años: Prótesis total de rodilla a n a t o m i c a modular nacional.  Se reconocerán vástago tibial en pacientes con antecedentes traumáticos que desvíen el eje o en Artritis Reumatoidea manifiesta y de jerarquía, asociado a marcado sobrepeso. V.- Prótesis Total de Rodilla de Revisión (PTR-R): se reconocerá según rango etareo:  Hasta los 65 años: se reconocerá material importado.  A partir de los 65 años: se reconocerá material nacional.  Prótesis total de rodilla no convencional se autorizarán en casos de defecto osteoligamentario severo dándose prioridad a material nacional.  En los casos de lesion tumoral corresponde protesis no convencional de origen nacional debiendo aportar centellografia, PET, TAC 3D y evaluacion oncologica de sobrevida que debe ser mayor a 1 año.  Los conos de titanio trabecular se autorizaran en caso de deficit metafisario severo que no puedan reconstruirse con injerto oseo previo aporte y evaluacion con Rx y TAC 3D. VI.- Prótesis de Hombro  Prótesis parcial de hombre en fractura a 4 fragmentos en los cuales sea imposible la reconstrucción del hueso o cuando este asociado a luxación. Se autorizará material importado hasta los 65 años y nacional a partir de 65 años.  Prótesis total de hombro en casos de artrosis severa (importada hasta los 65 a",
       "coseguro": ""
     },
     {
@@ -19360,8 +18944,7 @@ const searchData = {
     {
       "code": "240100",
       "description": "CATETERES",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "PROTOCOLO PARA SOLICITUD DE CATÉTERES SEMI IMPLANTABLES Los catéteres Semi Implantables, son muy utilizados en pacientes que requieren NUTRICIÓN PARENTERAL (total o complementaria N.P.T. / N.P.C.) sea en la etapa Hospitalaria o bien luego en la Internación domiciliaria. Son Catéteres que pueden ser de simple vía (Lumen o Luz) o de doble vía (Lumen o luz), y que por usos y costumbres han sido denominados con el nombre de sus creadores: Catéteres de Broviac® y de Hickman®, situación que en la actualidad ya no se utiliza, dado que dichos nombres propios, hoy son marcas registradas por una empresa. Por tal motivo, y se verá en la normativa del pedido, no se aceptarán pedidos de catéteres con nombres propios, sino que se deberá limitar el pedido al número de Luces o Lúmenes del catéter que se requiera para cada situación en especial, léase: CATÉTER SEMI IMPLANTABLE DE UNA VÍA (En lugar de Catéter de Broviac®) o CATÉTER DE DOBLE VÍA (En lugar de Catéter de Hickman®) Dado que dichos catéteres, son catéteres de larga estancia y que son imprescindibles para el sostén vital de los pacientes, hay dos cuidados fundamentales en los mismos: La colocación del catéter y su correcta ubicación en la vena central (No en cavidades), el adecuado tunelizado y el correcto sellado del mismo. Práctica que debe realizarse en quirófano y de preferencia bajo radioscopía, para garantizar la ubicación del “tip” del catéter. La correcta utilización del mismo (Habilitación primero), pasaje de la sustancia con normas de antisepsia adecuadas y el SELLADO O CIERRE HEPARÍNICO del mismo, lo que garantiza la no obstrucción (Coagulación) y la vida útil del catéter. El primero depende del cirujano actuante y el segundo del personal que administra las sustancias (En general personal de enfermería). Para la solicitud de un CATÉTER SEMI IMPLANTABLE, se deberán cumplir con los siguientes requisitos: 1. PEDIDO MÉDICO DEL CATÉTER, ADECUADAMENTE SOLICITADO, CON EL TIPO DE CATÉTER (NÚMERO DE LUCES O LÚMENES: UNA VÍA O DOS VÍAS, no por nombre propio) Y PRINCIPALMENTE EL DIÁMETRO (Ø) DEL CATÉTER QUE SE SOLICITARÁ, variable según el paciente. 2. HISTORIA CLÍNICA COMPLETA EN LA CUAL SE DETALLE LA PATOLOGÍA DE BASE DEL PACIENTE, EL MOTIVO DEL PEDIDO (Nutrición Parenteral u otro) Y EL TIEMPO QUE SE INSTAURARÁ EL TRATAMIENTO. 3. EN EL CASO DE REQUERIRSE PARA N.P.T. o N.P.C. (Complementaria), EL PEDIDO DEBERÁ ESTAR ACOMPAÑADO DE UNA EVALUACIÓN FIRMADA POR LICENCIADA/O EN NUTRICIÓN, ADEMÁS DEL PEDIDO MÉDICO. 4. EL PEDIDO LO FORMULARÁ EL CIRUJANO QUE COLOCARÁ EL CATÉTER O BIEN EL MÉDICO TRATANTE, INDICANDO EL PROFESIONAL QUE REALIZARÁ LA PRÁCTICA DE COLOCACIÓN. La colocación deberá ser realizada en quirófano y deberá contar con PROTOCOLO QUIRÚRGICO Y CERTIFICADO DE IMPLANTE CON LOS ELEMENTOS QUE DEMUESTREN SU COLOCACIÓN (Stickers ad hoc, material de sellado del blíster u otros, según lo normatizado en la licitación de los Catéteres Semi Implantables.) 5. CERTIFICADO DE DISCAPACIDAD en el caso que el paciente lo posea.",
       "coseguro": ""
     },
     {
@@ -19549,15 +19132,13 @@ const searchData = {
     {
       "code": "370114",
       "description": "HIDROCOLOIDE EN PASTA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "PROTOCOLO PARA SOLICITUD DE MATERIALES DE CURACIONES DE LESIONES CRÓNICAS DE LA PIEL Se reúnen en este protocolo, aquellos procedimientos productos de uso frecuente para el tratamiento de lesiones “crónicas” de la piel, como ESCARAS POR DECÚBITO, LESIONES POR PRESIÓN, LESIONES ISQUÉMICAS (Ulceras Arteriales), ULCERAS ARTERÍTICAS, LESIONES POR FLEBOPATÍAS CRÓNICAS (Ulceras Varicosas, Dermatopatías severas, Eccemas crónicos). Existen consensos internacionales para el tratamiento de estas lesiones y de otras más, de acuerdo al momento en que se encuentra la lesión y sus condiciones (sobre infectada o no, seca, secretante, exuberante, deprimida, etc.). Además, para cada caso existen varias alternativas en cuanto al material más adecuado a utilizar, de acuerdo a lo que se busca terapéuticamente, por ejemplo: Limpieza, desbridación, regeneración de los tejidos, aumento de la circulación, disminución de la secreción y la humedad, solo por nombrar algunas de las estrategias. Por lo cual, si bien en este protocolo se especifican la mayoría de los productos de uso habitual en la Argentina, como existe la posibilidad de que algunos no sean cotizados, se prevé que ante esta situación se le solicitará al médico prescribiente, que realice un nuevo pedido con opciones que reemplacen el material que no se halla en el mercado o bien su licitación quedó desierta, sabedores de que existen más de una opción para cada tratamiento necesario. Los materiales deberán ser pedidos por el nombre de su/sus compuesto/s, sean simples o combinados. NO SE ACEPTARÁN NOMBRE PROPIOS, CÓDIGOS DE PRODUCTOS O LA SOLICITUD DE UN PRODUCTO “TIPO”. Lo cual garantizará la posibilidad de un llamado a licitación de materiales en forma amplia y no dirigida a un proveedor y a una marca en particular. REQUISITOS PARA LA SOLICITUD DE LOS MATERIALES HISTORIA CLÍNICA COMPLETA: Debe ser realizada en forma completa, detallándose el tiempo de evolución de la lesión, el estado actual, las condiciones de la misma, la estrategia terapéutica, el tiempo estimado de uso del material, PATOLOGÍA DE BASE, este ES UN REQUISITO INDISPENSABLE (Arterial, Venosa, Por Presión o Decúbito, otras) y comorbilidades asociadas. ESTUDIOS COMPLEMENTARIOS REALIZADOS QUE CORROBORAN LA PATOLOGÍA DE BASE y SU ETIOLOGIA: Este es un requisito muy necesario a fin de tener en cuenta de que etiología es la lesión. Se deberán adjuntar estudios realizados (Doppler Arteriales, Doppler Venosos, Dermatoscopías, Estudios de presiones, Pletismografías, Arteriografías, Flebografías, Biopsias de La/s lesión/es si fuese necesario u otras) FOTOS ACTUALIZADAS CON FECHA DE LAS LESIONES: Será necesario la presentación de las imágenes en fotos color, claras (No es necesario que sean muchas, sino que con una de cada lesión donde permita apreciarse fehacientemente la lesión, su tipo y estado). Si son varias lesiones, es preciso una foto de cada lesión, donde se aprecie además el sitio (MM.II., Trocánteres, Talones, Sacro, otras). Seran requeridas fotos actualizadas de la/s lesión/es en cada solicitud de renovación. A fin de agilizar el pedido de los materiales, el profesional podrá descargar el listado de materiales que se expone a continuación y señalar con una cruz el que ha elegido para cada paciente, especificando gramaje, superficie, tamaño, gramos, mililitros, y cantidades, según corresponda a cada presentación. LISTADO DE MATERIALES HIDROCOLOIDES Apósito de HIDROCOLOIDE de “x” centímetros. Autoadhesivo o no Apósito de HIDROCOLOIDE TRANSPARENTE de “x” centímetros Apósito de HIDROCOLOIDE CON ALGINATO DE CALCIO de “x” centímetros, con formas especiales, con o sin planchas de Poliuretano. HIDROCOLOIDE EN PASTA, para ulceras socavadas. Requiere un apósito que cubra la lesión. Especificar gramaje HIDROCOLOIDE EN POLVO. Requiere un apósito que cubra la lesión. Especificar cantidad en gramos. Otra presentación. ALGINATO DE CALCIO Apósito de ALGINATO DE CALCIO solo. De “x” centímetros que requiere un segundo após",
       "coseguro": ""
     },
     {
       "code": "370115",
       "description": "HIDROCOLOIDE EN POLVO",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "PROTOCOLO PARA SOLICITUD DE MATERIALES DE CURACIONES DE LESIONES CRÓNICAS DE LA PIEL Se reúnen en este protocolo, aquellos procedimientos productos de uso frecuente para el tratamiento de lesiones “crónicas” de la piel, como ESCARAS POR DECÚBITO, LESIONES POR PRESIÓN, LESIONES ISQUÉMICAS (Ulceras Arteriales), ULCERAS ARTERÍTICAS, LESIONES POR FLEBOPATÍAS CRÓNICAS (Ulceras Varicosas, Dermatopatías severas, Eccemas crónicos). Existen consensos internacionales para el tratamiento de estas lesiones y de otras más, de acuerdo al momento en que se encuentra la lesión y sus condiciones (sobre infectada o no, seca, secretante, exuberante, deprimida, etc.). Además, para cada caso existen varias alternativas en cuanto al material más adecuado a utilizar, de acuerdo a lo que se busca terapéuticamente, por ejemplo: Limpieza, desbridación, regeneración de los tejidos, aumento de la circulación, disminución de la secreción y la humedad, solo por nombrar algunas de las estrategias. Por lo cual, si bien en este protocolo se especifican la mayoría de los productos de uso habitual en la Argentina, como existe la posibilidad de que algunos no sean cotizados, se prevé que ante esta situación se le solicitará al médico prescribiente, que realice un nuevo pedido con opciones que reemplacen el material que no se halla en el mercado o bien su licitación quedó desierta, sabedores de que existen más de una opción para cada tratamiento necesario. Los materiales deberán ser pedidos por el nombre de su/sus compuesto/s, sean simples o combinados. NO SE ACEPTARÁN NOMBRE PROPIOS, CÓDIGOS DE PRODUCTOS O LA SOLICITUD DE UN PRODUCTO “TIPO”. Lo cual garantizará la posibilidad de un llamado a licitación de materiales en forma amplia y no dirigida a un proveedor y a una marca en particular. REQUISITOS PARA LA SOLICITUD DE LOS MATERIALES HISTORIA CLÍNICA COMPLETA: Debe ser realizada en forma completa, detallándose el tiempo de evolución de la lesión, el estado actual, las condiciones de la misma, la estrategia terapéutica, el tiempo estimado de uso del material, PATOLOGÍA DE BASE, este ES UN REQUISITO INDISPENSABLE (Arterial, Venosa, Por Presión o Decúbito, otras) y comorbilidades asociadas. ESTUDIOS COMPLEMENTARIOS REALIZADOS QUE CORROBORAN LA PATOLOGÍA DE BASE y SU ETIOLOGIA: Este es un requisito muy necesario a fin de tener en cuenta de que etiología es la lesión. Se deberán adjuntar estudios realizados (Doppler Arteriales, Doppler Venosos, Dermatoscopías, Estudios de presiones, Pletismografías, Arteriografías, Flebografías, Biopsias de La/s lesión/es si fuese necesario u otras) FOTOS ACTUALIZADAS CON FECHA DE LAS LESIONES: Será necesario la presentación de las imágenes en fotos color, claras (No es necesario que sean muchas, sino que con una de cada lesión donde permita apreciarse fehacientemente la lesión, su tipo y estado). Si son varias lesiones, es preciso una foto de cada lesión, donde se aprecie además el sitio (MM.II., Trocánteres, Talones, Sacro, otras). Seran requeridas fotos actualizadas de la/s lesión/es en cada solicitud de renovación. A fin de agilizar el pedido de los materiales, el profesional podrá descargar el listado de materiales que se expone a continuación y señalar con una cruz el que ha elegido para cada paciente, especificando gramaje, superficie, tamaño, gramos, mililitros, y cantidades, según corresponda a cada presentación. LISTADO DE MATERIALES HIDROCOLOIDES Apósito de HIDROCOLOIDE de “x” centímetros. Autoadhesivo o no Apósito de HIDROCOLOIDE TRANSPARENTE de “x” centímetros Apósito de HIDROCOLOIDE CON ALGINATO DE CALCIO de “x” centímetros, con formas especiales, con o sin planchas de Poliuretano. HIDROCOLOIDE EN PASTA, para ulceras socavadas. Requiere un apósito que cubra la lesión. Especificar gramaje HIDROCOLOIDE EN POLVO. Requiere un apósito que cubra la lesión. Especificar cantidad en gramos. Otra presentación. ALGINATO DE CALCIO Apósito de ALGINATO DE CALCIO solo. De “x” centímetros que requiere un segundo após",
       "coseguro": ""
     },
     {
@@ -20326,8 +19907,7 @@ const searchData = {
     {
       "code": "430000",
       "description": "OXIGENOTERAPIA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "Provincia de Santa Fe Ministerio de Salud I.A.P.O.S. PROTOCOLO IAPOS: OXIGENOTERAPIA DOMICILIARIA PEDIÁTRICA (OTD. P) Indicaciones de la OTD: P Pacientes con FALLO OXIGENATORIO La OTD está indicada para corregir o prevenir la hipoxemia a través del incremento de la PaO2. La necesidad de oxigenoterapia domiciliaria debe ser valorada por un neumonólogo pediatra o por pediatras o neonatólogos entrenados en el seguimiento de pacientes con oxigenoterapia crónica.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx No existe un criterio uniforme con relación al nivel de Sa O2 con el cual indicar O2 en lactantes con insuficiencia respiratoria crónica. Diversos estudios han mostrado que cuando la Sa O2 se mantiene por encima del 93% a través de la administración de O2 se disminuye el rango de muerte súbita, se produce una mejor ganancia de peso y una disminución del 50% en la presión de la arteria pulmonar. Los bajos flujos de O2 reducen también los episodios intermitentes de hipoxemia aún en niños con Sa O2 en reposo alrededor del 90%. Por lo tanto se recomienda indicar O2 suplementario a todos los niños con Pa O2 menor a 60 mmHg y/o Sat O2 menores del 93%. xxxxxxxxxxxxxxxxxx Los niños que reciben oxigenoterapia domiciliaria se dividen en dos grupos: Grupo 1: - Niños con posibilidad de mejoría, donde el objetivo de la OTD es corregir la hipoxemia para prevenir o tratar la hipertensión pulmonar, favorecer el crecimiento somático y mejorar la tolerancia al ejercicio y actividades de la vida diaria. Se indica con saturación de O2 menor a 93% - 95%. Estos niños pueden tener episodios de hipoxemia no sospechados clínicamente durante la alimentación y el sueño por lo que la determinación de la saturación debe realizarse siempre en reposo, durante la alimentación y el sueño. Patologías: - Displasia broncopulmonar (DBP). - Enfermedad Pulmonar Crónica Post Viral (EPCP). - Neumonía aspirativa (lipoidea). Grupo 2: - Niños con fibrosis quística, reservada para mejorar la calidad de vida y no tempranamente. La hipoxemia en niños FQ es un signo de enfermedad pulmonar severa y previo a la indicación de OTD se deben intensificar todos los tratamientos habituales. En los pacientes con retención crónica de CO2 la oxigenoterapia debe iniciarse con precaución. En niños candidatos de transplante pulmonar se debe reafirmar la indicación de la oxigenoterapia, la cual preserva al paciente de cor pulmonale. Existen otras enfermedades crónicas de muy baja frecuencia, que cursan con insuficiencia respiratoria crónica para las cuales todavía no existe una normatización respecto a las indicaciones y que se deberá analizar en cada caso particular. 1 Provincia de Santa Fe Ministerio de Salud I.A.P.O.S. El objetivo de la OTD es mejorar la calidad de vida, aumentando la tolerancia a la actividad física y disminuyendo las consecuencias negativas de la discapacidad. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx La decisión de OTD se basa en la evolución clínica del niño, las pruebas de función respiratorias (reposo, con el ejercicio y durante el sueño) con una saturación menor al 90% - 92% respirando aire ambiental. Patologías: - Fibrosis quística. - Neumonía intersticial crónica (fibrosis pulmonar, bronquiectasias). - Otras: desórdenes neuromusculares, hipertensión pulmonar, colagenopatías y enfermedades oncológicas en etapa terminal. Objetivos Aumentar la sobrevida y mejorar la calidad de vida, facilitando la reinserción familiar y escolar. Liberar camas hospitalarias. Reducir días/cama y costo hospitalario. Disminuir el riesgo de infecciones nosocomiales. Criterios de Ingreso Paciente menor de 16 años de edad, portador de Insuficiencia Respiratoria Crónica. Paciente que requiere administración de O2 en forma transitoria o permanente y en quien el O2 determine un beneficio clínico objetivable. Requerimiento de O2 no mayor a 2 l/m, por cánula nasal. Período de estabilidad clínica y radiológica, sin cambios importantes en los requerimientos de O2 en las últimas 2 semanas. E",
       "coseguro": ""
     },
     {
