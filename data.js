@@ -42,7 +42,7 @@ const searchData = {
     {
       "code": "43.11.03",
       "description": "ASISTENCIA RESPIRATORIA EN TERAPIA INTENSIVA (POR DIA INTERNACION)",
-      "normativa": "REQUISITOS: Insuficiencia respiratoria aguda grave por Covid 19, y además uno de los siguientes: -Reqüétimiento de ARM invasiva. 'eqUetifilieto de vasopresores. Esté.MÓduló' lf factura conjuntamente con UTI (",
+      "normativa": "EXCLUYE: Los módulos anteriores excluyen las demás prestaciones diagnósticas y terapéuticas necesarias para la atención del caso, las C,UaTlés serán facturadas en el convenio establecido por cartera y a los valores cletertydriados por",
       "coseguro": ""
     },
     {
@@ -1938,7 +1938,7 @@ const searchData = {
     {
       "code": "36.01.08",
       "description": "URETROCISTOURETEROFIBROSCOPÍA CON VIDEO",
-      "normativa": "INCLUYE: Honorarios — Derechos - Uso de aparatología, 1/3 de la sonda/catéter y elementos específicos\nEXCLUYE: Endoscopía - Anestesia - Medicamentos - Sala de recuperación.\nREQUISITOS: RESUMEN DE HISTORIA CLÍNICAORIENTADO A LA PRESTACIÓN. ECOCARDIOGRAMA DOPPLER-ANGIO TAC O RMN CON MEDICIONES E INFORME.",
+      "normativa": "INCLUYE: Honorarios y Gastos . TEST DE CAMINATA 6' Incluye: Honorarios y Gastos . TEST DE CAMINATA 6'CON OXÍGENOIncluye: Honorarios y Gastos .\nEXCLUYE: Anestesia. Ecod000ler transesofáaieo\nREQUISITOS: Se deberá adjuntar historia clínica justificando el pedido describiendo características de la lesión y tamaño, con informe de estudios endoscópicos previos.",
       "coseguro": "20"
     },
     {
@@ -2500,8 +2500,7 @@ const searchData = {
     {
       "code": "42.01.02",
       "description": "FONDO DE OJO EN PREMATUROS P19",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: Anestesia. Todo otro procedimiento adicional.",
       "coseguro": "8"
     },
     {
@@ -2800,8 +2799,7 @@ const searchData = {
     {
       "code": "30.01.13",
       "description": "RETINOFLUORESCEINOGRAFIA- UNI- LATERAL-",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "EXCLUYE: _ C _ C Q3 a) 13 a) '1= •1.7. a) c a) c J '«3 w ,C) ( 13 9 ._",
       "coseguro": "7"
     },
     {
@@ -3113,7 +3111,7 @@ const searchData = {
     {
       "code": "50.01.04",
       "description": "TRASPLANTE MÉDULA ÓSEA ALOGÉNICO NO RELACIONADO - BÚSQUEDA",
-      "normativa": "EXCLUYE: ANESTESIA NIVEL 7 X 2 TRASPLANTE RENOPANCREATICO - EXCLUYE ANESTESIA NIVEL 7 X 3",
+      "normativa": "INCLUYE: Cinecoronografía Código\nEXCLUYE: ANESTESIA NIVEL 7 X 3 $7.961.823 1 ¡TRASPLANTEHEPÁTICO ADULTO (VIVO) - EXCLUYE ANESTESIA NIVEL 7 X 3 $8.536.334 1",
       "coseguro": "OI"
     },
     {
@@ -3269,8 +3267,7 @@ const searchData = {
     {
       "code": "19.90.02",
       "description": "MÓDULO NUTRICIÓN ENTERAL DOMICILIARIA BAJA COMPLEJIDAD",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL7+50%",
       "coseguro": "OI"
     },
     {
@@ -3368,15 +3365,13 @@ const searchData = {
     {
       "code": "19.90.32",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: MÓDULO SEGUIMIENTO I",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: MATERIALESESPECÍFICOS) - ANESTESIA NIVEL 7 + 50%",
       "coseguro": "20"
     },
     {
       "code": "19.90.33",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: MÓDULO SEGUIMIENTO II",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: MATERIALESESPECÍFICOS) - ANESTESIA NIVEL 7 + 50%",
       "coseguro": "19"
     },
     {
@@ -3416,8 +3411,7 @@ const searchData = {
     {
       "code": "19.90.35",
       "description": "PROGRAMA ÚNICO INTEGRAL OBESIDAD: ADICIONAL POR ACTIVIDAD FÍSICA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: MATERIALES ESPECÍFICOS) - ANESTESIA NIVEL7+50%",
       "coseguro": "S/C"
     },
     {
@@ -3641,22 +3635,19 @@ const searchData = {
     {
       "code": "31.01.02",
       "description": "AUDIOMETRIA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: sin los cuales no serán reconocidas por I.A.P.O.S. Los pagos por estas prestaciones se realizarán según régimen general del convenio vigente. La Obra Social, no reconocerá adicionales por categorización INOS ni por ningún otro concepto.",
       "coseguro": "4"
     },
     {
       "code": "31.01.09",
       "description": "IMPEDANCIOMETRIA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: sin los cuales no serán reconocidas por I.A.P.O.S. Los pagos por estas prestaciones se realizarán según régimen general del convenio vigente. La Obra Social, no reconocerá adicionales por categorización INOS ni por ningún otro concepto.",
       "coseguro": "4"
     },
     {
       "code": "31.01.03",
       "description": "LOGOAUDIOMETRIA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: sin los cuales no serán reconocidas por I.A.P.O.S. Los pagos por estas prestaciones se realizarán según régimen general del convenio vigente. La Obra Social, no reconocerá adicionales por categorización INOS ni por ningún otro concepto.",
       "coseguro": "3"
     },
     {
@@ -3669,8 +3660,7 @@ const searchData = {
     {
       "code": "31.01.04",
       "description": "PRUEBAS SUPRALIMINARES",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: sin los cuales no serán reconocidas por I.A.P.O.S. Los pagos por estas prestaciones se realizarán según régimen general del convenio vigente. La Obra Social, no reconocerá adicionales por categorización INOS ni por ningún otro concepto.",
       "coseguro": "3"
     },
     {
@@ -3683,15 +3673,13 @@ const searchData = {
     {
       "code": "25.01.04",
       "description": "REHABILITACION FONOAUDIOLOGICA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: la suma de pesos dos mil cuatrocientos ($2.400,00) en concepto de gastos administrativos.-",
       "coseguro": "5"
     },
     {
       "code": "31.01.05",
       "description": "SELECCIÓN DE OTOAMPLIFONOS",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "REQUISITOS: sin los cuales no serán reconocidas por I.A.P.O.S. Los pagos por estas prestaciones se realizarán según régimen general del convenio vigente. La Obra Social, no reconocerá adicionales por categorización INOS ni por ningún otro concepto.",
       "coseguro": "8"
     },
     {
@@ -3703,19 +3691,19 @@ const searchData = {
     {
       "code": "33.01.01",
       "description": "PSICOTERAPIA (por Sesión)",
-      "normativa": "INCLUYE: la nueva asignación para gasto administrativo equivalente a 300 UB, por lo que atento al arancel actual de $26,90 se establece l",
+      "normativa": "INCLUYE: 1/3 punta de Shaver) 620,00.$ Videoendoscopia colónica $ 450,00.Videoendoscopia gástrica - Barrido total p/carcinoma de tiroides (\nEXCLUYE: material radioactivo $ 410,00.valor CEDIM Interior) - Centellograma de paratiroides - cámara gamma (excluye material $ 695,00.radioactivo valor CEDIM Interior) - Centellograma de pulmón - cámara gamma (excluye material $ 625,00.radioactivo valor CEDIM Interior) - Centellograma óseo - cámara gamma (excluye material radioactivo $ 625,00.valor CEDIM Interior) Spect cardíaco c/radioisótopos (excluye material radioactivo valor $ 1.750,00.CEDIM Interior) $ 1.650,00.Punción biopsia percutánea bajo TAC $ 200,00.Campimetría computarizada $ 7.500,00.Vitrectomía Complejida Alta $ 6.400,00.Vitrectomía Complejida Media $ 4.080,00.Vitrectomía Complejida Baja 360,00.$ Fotocoagulación con yag láser 985,00.$ Punción Biopsia de Ovario bajo Ecografía $ 1.085,00.Punción Biopsia de Próstata bajo Ecografía $ 1.075,00.Punción Biopsia de Tiroides bajo Ecografía 915,00.$ Punción Biopsia Renal bajo Ecografía $ 180,00.Ecografía endocavitaria (transvaginal, prostática, cordón) $ 3.250,00.Coronariografía $ 12.100,00.- Angioplastia renal/periferica/vasos de cuello $ 15.700,00.ngioplastía coronaria $ 12.300,00.Angioplastía cerebral $ 2.200,00.- Estudio electrofisiológico 600,00.- por sesión $ - Fotocoagulación con rayo laser argón 810,00.$ - Ecodoppler transesofágico color",
       "coseguro": "5"
     },
     {
       "code": "33.01.11",
       "description": "PRUEBAS PSICOMETRICAS",
-      "normativa": "INCLUYE: a partir del 01 de marzo de 2018, la suma de Pesos veinticinco mil ($28.000) en concepto de gastos administrativos.-",
+      "normativa": "INCLUYE: a todos los prepagos de las Federaciones y Asociaciones Médicas de la República Argentina); Que posteriormente se ordena a la Dirección General de Asuntos Jurídico elaborar anteproyecto modificatorio en el que deberá tenerse en cuenta diversos aspectos contractuales; Que interviene la Dirección General de Asuntos Jurídicos, que desde su competencia funcional, asignada por el artículo 24 inciso c) del Decreto N4 132/94, adjunta proyecto de convenio tendiente a producir modificaciones en cuanto a la modalidad contractual y valores arancelarios del convenio vigente, con el Colegio de Psicólogos de la Provincia de Santa Fe 24 Circunscripción, conforme lineamientos impartidos por ésta Dirección Provincial,; Que la Dirección General de Administración informa, que la modificación del convenio con el Colegio de Psicologos de la Provincia de Santa Fe 24 circuncripción implica un nuevo precio contractual a partir del 01-01-2009,",
       "coseguro": "8"
     },
     {
       "code": "33.01.12",
       "description": "PRUEBAS PROYECTIVAS -MÍNIMO 4 TEST",
-      "normativa": "INCLUYE: a partir del 01 de marzo de 2018, la suma de Pesos veinticinco mil ($28.000) en concepto de gastos administrativos.-",
+      "normativa": "INCLUYE: a todos los prepagos de las Federaciones y Asociaciones Médicas de la República Argentina); Que posteriormente se ordena a la Dirección General de Asuntos Jurídico elaborar anteproyecto modificatorio en el que deberá tenerse en cuenta diversos aspectos contractuales; Que interviene la Dirección General de Asuntos Jurídicos, que desde su competencia funcional, asignada por el artículo 24 inciso c) del Decreto N4 132/94, adjunta proyecto de convenio tendiente a producir modificaciones en cuanto a la modalidad contractual y valores arancelarios del convenio vigente, con el Colegio de Psicólogos de la Provincia de Santa Fe 24 Circunscripción, conforme lineamientos impartidos por ésta Dirección Provincial,; Que la Dirección General de Administración informa, que la modificación del convenio con el Colegio de Psicologos de la Provincia de Santa Fe 24 circuncripción implica un nuevo precio contractual a partir del 01-01-2009,",
       "coseguro": "8"
     },
     {
@@ -4008,13 +3996,13 @@ const searchData = {
     {
       "code": "06.90.10",
       "description": "PUNCION BIOPSIA TESTICULAR (Programa Fertilidad)",
-      "normativa": "INCLUYE: y\nEXCLUYE: medicación para estimulación ovárica, técnicas especiales, estudios prequirúrgicos y cualquier otro procedimiento no incluido",
+      "normativa": "INCLUYE: la siguiente Norma de Trabajo: 'El Módulo incluye las determinaciones hormonales necesarias para primer control y para intramedicación de inducción (par Estradiol, FSH o LH según corresponda y Sub Unidad Beta GCH). En caso de realizarse sólo el Dosaje de un par, no realizarse la inducción y por lo tanto tampoco los controles subsiguientes, se facturará el 25% del valor del Módulo'.ARTICULO 4°): Autorizar las liquidaciones y pagos que surjan de las modificaciones incorporadas por la presente",
       "coseguro": "BQ"
     },
     {
       "code": "06.90.11",
       "description": "SONOHISTEROGRAFIA",
-      "normativa": "INCLUYE: y\nEXCLUYE: medicación para estimulación ovárica, técnicas especiales, estudios prequirúrgicos y cualquier otro procedimiento no incluido",
+      "normativa": "INCLUYE: la siguiente Norma de Trabajo: 'El Módulo incluye las determinaciones hormonales necesarias para primer control y para intramedicación de inducción (par Estradiol, FSH o LH según corresponda y Sub Unidad Beta GCH). En caso de realizarse sólo el Dosaje de un par, no realizarse la inducción y por lo tanto tampoco los controles subsiguientes, se facturará el 25% del valor del Módulo'.ARTICULO 4°): Autorizar las liquidaciones y pagos que surjan de las modificaciones incorporadas por la presente",
       "coseguro": "24"
     },
     {
@@ -4026,7 +4014,7 @@ const searchData = {
     {
       "code": "06.90.13",
       "description": "MÓDULO HORMONAL PARA FERTILIZACION ASISTIDA - TECNICA RAPIDA",
-      "normativa": "INCLUYE: y\nEXCLUYE: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente nclusionesy Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente",
+      "normativa": "INCLUYE: la siguiente Norma de Trabajo: 'El Módulo incluye las determinaciones hormonales necesarias para primer control y para intramedicación de inducción (par Estradiol, FSH o LH según corresponda y Sub Unidad Beta GCH). En caso de realizarse sólo el Dosaje de un par, no realizarse la inducción y por lo tanto tampoco los controles subsiguientes, se facturará el 25% del valor del Módulo'.ARTICULO 4°): Autorizar las liquidaciones y pagos que surjan de las modificaciones incorporadas por la presente",
       "coseguro": "24"
     },
     {
@@ -4038,8 +4026,7 @@ const searchData = {
     {
       "code": "06.90.03",
       "description": "MÓDULO FIV / ICSI",
-      "normativa": "Inclusiones y Exclusiones: de acuerdo a DG IAPOS vigente MÓDULO CONGELACIÓN + CRIOPRESERVACIÓN DE EMBRIONES",
-      "price_hidden": "",
+      "normativa": "INCLUYE: Procedimientos de Descongelación Procedimiento de transferencia ecoguiada de embriones Prácticas anestésicas Control de la fertilización y crecimiento embrionario",
       "coseguro": "BQ"
     },
     {
@@ -4110,15 +4097,13 @@ const searchData = {
     {
       "code": "38.90.10",
       "description": "MÓDULO 1A - ASISTENCIA INTENSIVA DE CUIDADOS EN DOMICILIO - CONTROL",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: situaciones consignadas en el Módulo 3 que se presenten en forma concurrente. Código Nomenclador IAPOS Código:",
       "coseguro": ""
     },
     {
       "code": "38.90.11",
       "description": "MÓDULO 1A - ASISTENCIA INTENSIVA DE CUIDADOS EN DOMICILIO - CONTROL",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: ECG, espirometría, radiología u otra práctica para evaluación)",
       "coseguro": ""
     },
     {
@@ -4131,8 +4116,7 @@ const searchData = {
     {
       "code": "38.90.13",
       "description": "MÓDULO 1A - ASISTENCIA INTENSIVA DE CUIDADOS EN DOMICILIO - GASTOS FIJOS",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 7 visitas semanales de enfermería. Las situaciones que puedan requerir su utilización pueden estar relacionadas a administración de medicac",
       "coseguro": ""
     },
     {
@@ -4159,8 +4143,7 @@ const searchData = {
     {
       "code": "38.90.14",
       "description": "MÓDULO 2 - ASISTENCIA ESTANDAR DE CUIDADOS EN DOMICILIO - CONTROL MEDICO",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: 7 visitas semanales de enfermería. Las situaciones que puedan requerir su utilización pueden estar relacionadas a administración de medicación endovenosa, hidratación parenteral o controles frecuentes de signos vitales (presión arterial, saturación de oxígeno). Código Nomenclador IAPOS Código:",
       "coseguro": ""
     },
     {
@@ -4173,15 +4156,13 @@ const searchData = {
     {
       "code": "38.90.19",
       "description": "MÓDULO 3 - CUIDADOS DE ENFERMERÍA CON CONTROL MEDICO - CONTROL",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: de manera mandatoria la confección de un informe escrito de la evaluación realizada por los prestadores, el cual será auditado en cuanto a su pertinencia por Auditoría Médica.",
       "coseguro": ""
     },
     {
       "code": "38.90.20",
       "description": "MÓDULO 3 - CUIDADOS DE ENFERMERÍA CON CONTROL MEDICO - GASTOS FIJOS",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: de manera mandatoria la confección de un informe escrito de la evaluación realizada por los prestadores, el cual será auditado en cuanto a su pertinencia por Auditoría Médica.",
       "coseguro": ""
     },
     {
@@ -12822,8 +12803,7 @@ const searchData = {
     {
       "code": "02.09.10",
       "description": "RESTAURACIÓN COMPLEJA CON RETENCIÓN ADICIONAL",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: toma de injerto) 8 $ 623,00 Antrotomia seno maxilar por causa odontogena $ 623,00 8 Cirugía articulación temporo mandibular $1.690,00 16 Extirpación de tumores, quistes de más de 4 cm. benignos 16 $1.690,00 Submaxil",
       "coseguro": "17"
     },
     {
@@ -13192,19 +13172,19 @@ const searchData = {
     {
       "code": "10.16.01",
       "description": "QUISTECTOMÍA O EXTIRPACIÓN DE TUMORES EN TEJIDOS BLANDOS O DUROS DE",
-      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR EXTIRPACIÓN DE TUMORES, QUISTES DE MAS DE 4 CM. BENIGNOS SUBMAXILECTOMÍA PLÁSTICA DE LABIO FISURADO UNI O BILATERAL PLÁSTICA DE PALADAR FISURADO FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA OSTEOTOMIAS PARA DISTRACCIÓN OSTEOGENICA DE MAXILARES",
+      "normativa": "INCLUYE: toma de injerto) 10.36 Antrotomía seno maxilar por causa odontogena 10.37 Cirugía articulación temporo mandibular 10.39 Submaxilectomía 10.40 Plástica de labio fisurado uni o bilateral 10.41 Plástica de paladar fisurado 10.42 Faringoplastía como secuela de fisura palatina 10.43 Osteotomias para distracción osteogenica de maxilares Técnicas correctivas de deformidades o maloclusiones, 10.44 segmentarias Corrección quirúrgica de deformidades dentofaciales 10.45 (prognatismo, hipoplasia max. superior, terognatismo, etc) Reconstrucciones mandibulares o maxilares con injertos óseos 10.46 autógenos 10.47 Cirugía de anquilosis témporo mandibular Tratamiento quirúrgico de fracturas mandibulares y/o tercio 10.48 medio facial con abordajes y osteo síntesis 10.49 Extirpación de tumores malignos con linfadenectomía cervical T4",
       "coseguro": "20"
     },
     {
       "code": "10.16.02",
       "description": "QUISTECTOMÍA O EXTIRPACIÓN DE TUMORES EN TEJIDOS BLANDOS O DUROS DE",
-      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR EXTIRPACIÓN DE TUMORES, QUISTES DE MAS DE 4 CM. BENIGNOS SUBMAXILECTOMÍA PLÁSTICA DE LABIO FISURADO UNI O BILATERAL PLÁSTICA DE PALADAR FISURADO FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA OSTEOTOMIAS PARA DISTRACCIÓN OSTEOGENICA DE MAXILARES",
+      "normativa": "INCLUYE: toma de injerto) 10.36 Antrotomía seno maxilar por causa odontogena 10.37 Cirugía articulación temporo mandibular 10.39 Submaxilectomía 10.40 Plástica de labio fisurado uni o bilateral 10.41 Plástica de paladar fisurado 10.42 Faringoplastía como secuela de fisura palatina 10.43 Osteotomias para distracción osteogenica de maxilares Técnicas correctivas de deformidades o maloclusiones, 10.44 segmentarias Corrección quirúrgica de deformidades dentofaciales 10.45 (prognatismo, hipoplasia max. superior, terognatismo, etc) Reconstrucciones mandibulares o maxilares con injertos óseos 10.46 autógenos 10.47 Cirugía de anquilosis témporo mandibular Tratamiento quirúrgico de fracturas mandibulares y/o tercio 10.48 medio facial con abordajes y osteo síntesis 10.49 Extirpación de tumores malignos con linfadenectomía cervical T4",
       "coseguro": "20"
     },
     {
       "code": "10.16.03",
       "description": "QUISTECTOMÍA O EXTIRPACIÓN DE TUMORES EN TEJIDOS BLANDOS O DUROS DE",
-      "normativa": "INCLUYE: TOMA DE INJERTO) ANTROTOMÍA SENO MAXILAR POR CAUSA ODONTOGENA CIRUGÍA ARTICULACIÓN TEMPORO MANDIBULAR EXTIRPACIÓN DE TUMORES, QUISTES DE MAS DE 4 CM. BENIGNOS SUBMAXILECTOMÍA PLÁSTICA DE LABIO FISURADO UNI O BILATERAL PLÁSTICA DE PALADAR FISURADO FARINGOPLASTÍA COMO SECUELA DE FISURA PALATINA OSTEOTOMIAS PARA DISTRACCIÓN OSTEOGENICA DE MAXILARES",
+      "normativa": "INCLUYE: toma de injerto) 10.36 Antrotomía seno maxilar por causa odontogena 10.37 Cirugía articulación temporo mandibular 10.39 Submaxilectomía 10.40 Plástica de labio fisurado uni o bilateral 10.41 Plástica de paladar fisurado 10.42 Faringoplastía como secuela de fisura palatina 10.43 Osteotomias para distracción osteogenica de maxilares Técnicas correctivas de deformidades o maloclusiones, 10.44 segmentarias Corrección quirúrgica de deformidades dentofaciales 10.45 (prognatismo, hipoplasia max. superior, terognatismo, etc) Reconstrucciones mandibulares o maxilares con injertos óseos 10.46 autógenos 10.47 Cirugía de anquilosis témporo mandibular Tratamiento quirúrgico de fracturas mandibulares y/o tercio 10.48 medio facial con abordajes y osteo síntesis 10.49 Extirpación de tumores malignos con linfadenectomía cervical T4",
       "coseguro": "20"
     },
     {
@@ -13629,8 +13609,7 @@ const searchData = {
     {
       "code": "04.04.10",
       "description": "REBASADO DE PRÓTESIS COMPLETA",
-      "normativa": "",
-      "price_hidden": "",
+      "normativa": "INCLUYE: toda práctica o prestación que sea necesaria realizar para la co",
       "coseguro": ""
     },
     {
