@@ -220,9 +220,9 @@ function displayCode(code) {
 }
 
 function getEffectiveNormativa(item) {
-    const cleanCode = String(item.code).replace(/\./g, '').trim().padStart(6, '0');
+    const cleanCode = String(item.code).replace(/\./g, '').trim();
     const override = state.userOverrides[cleanCode];
-    if (override && override.normativa) {
+    if (override && override.normativa !== undefined) {
         return override.normativa;
     }
     return item.normativa || ''; // Normativa original del PDF si no hay override
