@@ -1,6 +1,5 @@
 // data.js - Generado automáticamente
 // Limpieza OCR + corrección gramatical + corrección semántica aplicada
-
 const searchData = {
   "medicas": [
     {
@@ -13148,6297 +13147,7206 @@ const searchData = {
       "description": "ELEM MEDICO A CODIFICAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "000200",
       "description": "ELEMENTO DENEGADO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "010000",
       "description": "NEUROQUIRURGICAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "010100",
       "description": "CLIPS P/ANEURISMA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurocirugía"
     },
     {
       "code": "010101",
       "description": "CLIPS P/ANEURISMA CER.TRANS/DEF T.MODEL",
       "normativa": "INCLUYE: Medicamentos, Mat. DE 11 Cirugía Cardiovascular SIN Bomba. INCLUYE: Medicamentos, Mat. Des 12 Neurocirugia, Módulo a. Códigos 010101 AL 06, 010201 AL 03, 010207, 01( 21 Neurocirug1a, Módulo B. Códigos 010204 AL 06, 010208, 010210, 010303, 0 22 Neonatologia CON ARM, Primeros 15 Dias (POR Dia). Cirugía POR Nome 311 Neonatologia CON ARM, 16 Dias EN Adelante.(pordia). Cirugía POR Nc 312 Neonatologia SIN ARM, Primeros 10 Dias (POR Dia). Cirugía POR Nomen 321 Neonatologia SIN ARM, 11 Dias EN Adelante (FORDIA). Cirugía POR Non 322 Hemodiálisis (POR Sesioniincluye: Medicamentos, Mat. Descartable; 41 Cuidados. Moderados 51 Terapia Intensiva CON a. R. M. Primeros 15 Dias 521. Terapia Intensiva CON a. R. M. Dia 16 EN Adelante 522 < Terapia Intensiva SIN a. R. M. 531 Hemodinamia Diagnóstica 61 • Hemodinamia CON Valvuloplastias 62 Hospital DE Dia 71 Consulta 81 Radioterapia 91 990104 Cierre DE Ductus POR Ccateterismo.(Incluye Medicamentos y Material Desc 990107 Embolizacion Esclerosis 4, 990108 Estudio DE Fistula (FISTULA DE Dialisis) 990109 Estudio DE Insulinoma 990110 Colecistocolangiografia Transhepatica (CCTHP) 990111 Drenaje Biliar (NO INCLUYE Medicamentos Ni Mate-riales Descartabi 990112 Puncion Biopsia Guiada POR Ecografía 990113 Drenaje DE Colecciones (NO INCLUYE Medicamentosni Materiales DE 990117 Colocación DE Pic. 990118 Dilatacion DE LA Via Biliar. 990119 Nefrostomía Percutasnea. 990120 Dilatacion Pieloureteral., 990121 Dilatacion Vascular Periferica. 990122 Cierre DE Cia/civ POR Hemodinamia 990126 Colocación DE Marcapasos POR Cateterismo. 990127 Colocación DE Filtro DE Vena Cava POR Intervencionismo 990201 Ecocardiograma Doppler Blanco y Negro. 990202 Ecocardiograma Doppler Color. 990203 Ecografía Doppler Obstetrica o Pelviana Blancoy Negro. 990204 Ecografía Doppler Obstetrica o Pelviana Color. 990205 Ecografía Doppler Cerebral Blanco y Negro. 990206 Ecografía Doppler Cerebral Color. 990207 Ecografía Doppler Tiroidea Cuello, Glandulas, Parotidea, Partes E 990208 Ecografía Doppler Tiroidea Cuello, Glandulas, Parotidea, Partes 990209 Ecografía Doppler Testicular o Escrotal Blanco Ynegro. 990210 Ecografía Doppler Testicula o Escrotal Color. 990211 Ecografía Doppler Abdominal o Digestiva Blancoy Negro. 990212 Ecografía Doppler Abdominal o Digestiva Color. 990213 Ecografía Doppler Hepatica, Biliar, Esplenicatorawcica Blanco y I 990214 Ecografía Doppler Hepatica, Biliar, Esplenica Ototacica Color. 990215 Ecografía Doppler DE Vejiga o Prostata Blanco Ynegro. 990216 Ecografía Doppler DE Vejiga o Prostata Color. 990217 Ecografía Doppler Renal Bilateral, Esqueletica, Lumbar, Medula o 990218 Ecografía Doppler Renal Bilateral, Esqueletica, Lumbar, Medula o 990301 Colocación DE Porth a Cath.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurocirugía"
     },
     {
       "code": "010200",
       "description": "VALVULAS DE TITANIO PARA HIDROCEFALIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010202",
       "description": "DRENAJE EXTERNO VENTRICULAR C/SIST.ANTI",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "010203",
       "description": "SISTEMA P/PLASTICA CRANEAL C/CEMENTO",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010204",
       "description": "SISTEMA NEURO ESTIMULADOR IMPLANTABLE",
       "normativa": "INCLUYE: Medicamentos, Mat. DE 11 Cirugía Cardiovascular SIN Bomba. INCLUYE: Medicamentos, Mat. Des 12 Neurocirugia, Módulo a. Códigos 010101 AL 06, 010201 AL 03, 010207, 01( 21 Neurocirug1a, Módulo B. Códigos 010204 AL 06, 010208, 010210, 010303, 0 22 Neonatologia CON ARM, Primeros 15 Dias (POR Dia). Cirugía POR Nome 311 Neonatologia CON ARM, 16 Dias EN Adelante.(pordia). Cirugía POR Nc 312 Neonatologia SIN ARM, Primeros 10 Dias (POR Dia). Cirugía POR Nomen 321 Neonatologia SIN ARM, 11 Dias EN Adelante (FORDIA). Cirugía POR Non 322 Hemodiálisis (POR Sesioniincluye: Medicamentos, Mat. Descartable; 41 Cuidados. Moderados 51 Terapia Intensiva CON a. R. M. Primeros 15 Dias 521. Terapia Intensiva CON a. R. M. Dia 16 EN Adelante 522 < Terapia Intensiva SIN a. R. M. 531 Hemodinamia Diagnóstica 61 • Hemodinamia CON Valvuloplastias 62 Hospital DE Dia 71 Consulta 81 Radioterapia 91 990104 Cierre DE Ductus POR Ccateterismo.(Incluye Medicamentos y Material Desc 990107 Embolizacion Esclerosis 4, 990108 Estudio DE Fistula (FISTULA DE Dialisis) 990109 Estudio DE Insulinoma 990110 Colecistocolangiografia Transhepatica (CCTHP) 990111 Drenaje Biliar (NO INCLUYE Medicamentos Ni Mate-riales Descartabi 990112 Puncion Biopsia Guiada POR Ecografía 990113 Drenaje DE Colecciones (NO INCLUYE Medicamentosni Materiales DE 990117 Colocación DE Pic. 990118 Dilatacion DE LA Via Biliar. 990119 Nefrostomía Percutasnea. 990120 Dilatacion Pieloureteral., 990121 Dilatacion Vascular Periferica. 990122 Cierre DE Cia/civ POR Hemodinamia 990126 Colocación DE Marcapasos POR Cateterismo. 990127 Colocación DE Filtro DE Vena Cava POR Intervencionismo 990201 Ecocardiograma Doppler Blanco y Negro. 990202 Ecocardiograma Doppler Color. 990203 Ecografía Doppler Obstetrica o Pelviana Blancoy Negro. 990204 Ecografía Doppler Obstetrica o Pelviana Color. 990205 Ecografía Doppler Cerebral Blanco y Negro. 990206 Ecografía Doppler Cerebral Color. 990207 Ecografía Doppler Tiroidea Cuello, Glandulas, Parotidea, Partes E 990208 Ecografía Doppler Tiroidea Cuello, Glandulas, Parotidea, Partes 990209 Ecografía Doppler Testicular o Escrotal Blanco Ynegro. 990210 Ecografía Doppler Testicula o Escrotal Color. 990211 Ecografía Doppler Abdominal o Digestiva Blancoy Negro. 990212 Ecografía Doppler Abdominal o Digestiva Color. 990213 Ecografía Doppler Hepatica, Biliar, Esplenicatorawcica Blanco y I 990214 Ecografía Doppler Hepatica, Biliar, Esplenica Ototacica Color. 990215 Ecografía Doppler DE Vejiga o Prostata Blanco Ynegro. 990216 Ecografía Doppler DE Vejiga o Prostata Color. 990217 Ecografía Doppler Renal Bilateral, Esqueletica, Lumbar, Medula o 990218 Ecografía Doppler Renal Bilateral, Esqueletica, Lumbar, Medula o 990301 Colocación DE Porth a Cath.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010208",
       "description": "SISTEMA DRENAJE VENTRIC C/CAT EN ANTIB.",
       "normativa": "INCLUYE: Medicamentos, Mat. DE 11 Cirugía Cardiovascular SIN Bomba. INCLUYE: Medicamentos, Mat. Des 12 Neurocirugia, Módulo a. Códigos 010101 AL 06, 010201 AL 03, 010207, 01( 21 Neurocirug1a, Módulo B. Códigos 010204 AL 06, 010208, 010210, 010303, 0 22 Neonatologia CON ARM, Primeros 15 Dias (POR Dia). Cirugía POR Nome 311 Neonatologia CON ARM, 16 Dias EN Adelante.(pordia). Cirugía POR Nc 312 Neonatologia SIN ARM, Primeros 10 Dias (POR Dia). Cirugía POR Nomen 321 Neonatologia SIN ARM, 11 Dias EN Adelante (FORDIA). Cirugía POR Non 322 Hemodiálisis (POR Sesioniincluye: Medicamentos, Mat. Descartable; 41 Cuidados. Moderados 51 Terapia Intensiva CON a. R. M. Primeros 15 Dias 521. Terapia Intensiva CON a. R. M. Dia 16 EN Adelante 522 < Terapia Intensiva SIN a. R. M. 531 Hemodinamia Diagnóstica 61 • Hemodinamia CON Valvuloplastias 62 Hospital DE Dia 71 Consulta 81 Radioterapia 91 990104 Cierre DE Ductus POR Ccateterismo.(Incluye Medicamentos y Material Desc 990107 Embolizacion Esclerosis 4, 990108 Estudio DE Fistula (FISTULA DE Dialisis) 990109 Estudio DE Insulinoma 990110 Colecistocolangiografia Transhepatica (CCTHP) 990111 Drenaje Biliar (NO INCLUYE Medicamentos Ni Mate-riales Descartabi 990112 Puncion Biopsia Guiada POR Ecografía 990113 Drenaje DE Colecciones (NO INCLUYE Medicamentosni Materiales DE 990117 Colocación DE Pic. 990118 Dilatacion DE LA Via Biliar. 990119 Nefrostomía Percutasnea. 990120 Dilatacion Pieloureteral., 990121 Dilatacion Vascular Periferica. 990122 Cierre DE Cia/civ POR Hemodinamia 990126 Colocación DE Marcapasos POR Cateterismo. 990127 Colocación DE Filtro DE Vena Cava POR Intervencionismo 990201 Ecocardiograma Doppler Blanco y Negro. 990202 Ecocardiograma Doppler Color. 990203 Ecografía Doppler Obstetrica o Pelviana Blancoy Negro. 990204 Ecografía Doppler Obstetrica o Pelviana Color. 990205 Ecografía Doppler Cerebral Blanco y Negro. 990206 Ecografía Doppler Cerebral Color. 990207 Ecografía Doppler Tiroidea Cuello, Glandulas, Parotidea, Partes E 990208 Ecografía Doppler Tiroidea Cuello, Glandulas, Parotidea, Partes 990209 Ecografía Doppler Testicular o Escrotal Blanco Ynegro. 990210 Ecografía Doppler Testicula o Escrotal Color. 990211 Ecografía Doppler Abdominal o Digestiva Blancoy Negro. 990212 Ecografía Doppler Abdominal o Digestiva Color. 990213 Ecografía Doppler Hepatica, Biliar, Esplenicatorawcica Blanco y I 990214 Ecografía Doppler Hepatica, Biliar, Esplenica Ototacica Color. 990215 Ecografía Doppler DE Vejiga o Prostata Blanco Ynegro. 990216 Ecografía Doppler DE Vejiga o Prostata Color. 990217 Ecografía Doppler Renal Bilateral, Esqueletica, Lumbar, Medula o 990218 Ecografía Doppler Renal Bilateral, Esqueletica, Lumbar, Medula o 990301 Colocación DE Porth a Cath.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010209",
       "description": "DRENAJE VENTRIC EXT C/CAT VENTR GRADUAD",
       "normativa": "INCLUYE: medicamentos y material descartable) CATETERISMO DIAGNÒSTICO + SEPTOSTOMÍA INTERAURICULAR (Incluye medicamentos y material descartable) CIERRE DE DUCTUS POR CATETERISMO. (Incluye medicamentos y material descartable). (No incluye Prótesis) ESTUDIO ELECTROFISIOLÓGICO (Incluye medicamentos y material descartable) TILT TEST CIERRE DE CIA/CIV POR HEMODINAMIA (No incluye Prótesis) ELECTROCARDIOGRAMA DE SEÑALES PROMEDIADAS VARIABLILIDAD DE FRECUENCIA CARDIACA ABLACIÓN POR RADIOFRECUENCIA COLOCACIÓN DE MARCAPASOS POR CATETERISMO TRANSITORIO ( EXCLUYE: marcapasos) COLOCACIÓN DE MARCAPASOS POR CATETERISMO DEFINITIVO (Excluye marcapasos) BP. ENDOMIOCÁRDICA EMBOLIZACIONES (Excluye Prótesis) PERFORACIÓN DE VÁLVULA PULMONAR POR RADIOFRECUENCIA REVERSIÓN DE ARRITMIAS POR SOBREESTIMULACIÓN.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010215",
       "description": "GRAMPAS PARA CRANEOPLASTIA NAC.",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010216",
       "description": "GRAMPAS PARA CRANEOPLASTIA IMP.",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010218",
       "description": "VALVULAS DE DERIVACION VENTRICULO PERITONEAL (DVP)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "010219",
       "description": "ALQUILER MARCO ESTEREOTAXICO",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurocirugía"
     },
     {
       "code": "010220",
       "description": "ALQUILER DE INSTRUMENTAL QIRÚRGICO",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "010221",
       "description": "VALVULA P/ HIDROCEFALIA PRESION FIJA BAJA MEDIA AL",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010222",
       "description": "VALVULA PARA HIDROCEFALIA AUTORREGULABLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010223",
       "description": "VALVULA PARA HIDROCEFALIA REGULABLE EXTERNA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010300",
       "description": "TRAQUEOFLEX/CANULA TRAQUEOSTOMIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "010400",
       "description": "FIBRA OPTICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "010401",
       "description": "SET DE PRESION INTRACRANEANA IMP",
       "normativa": "INCLUYE: medicamentos y material descartable) CATETERISMO DIAGNÒSTICO + SEPTOSTOMÍA INTERAURICULAR (Incluye medicamentos y material descartable) CIERRE DE DUCTUS POR CATETERISMO. (Incluye medicamentos y material descartable). (No incluye Prótesis) ESTUDIO ELECTROFISIOLÓGICO (Incluye medicamentos y material descartable) TILT TEST CIERRE DE CIA/CIV POR HEMODINAMIA (No incluye Prótesis) ELECTROCARDIOGRAMA DE SEÑALES PROMEDIADAS VARIABLILIDAD DE FRECUENCIA CARDIACA ABLACIÓN POR RADIOFRECUENCIA COLOCACIÓN DE MARCAPASOS POR CATETERISMO TRANSITORIO ( EXCLUYE: marcapasos) COLOCACIÓN DE MARCAPASOS POR CATETERISMO DEFINITIVO (Excluye marcapasos) BP. ENDOMIOCÁRDICA EMBOLIZACIONES (Excluye Prótesis) PERFORACIÓN DE VÁLVULA PULMONAR POR RADIOFRECUENCIA REVERSIÓN DE ARRITMIAS POR SOBREESTIMULACIÓN.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010402",
       "description": "FIBRA DE PIC PARA MEDICION INTRAPARENQUIMATOSA IMP",
       "normativa": "INCLUYE: medicamentos y material descartable) CATETERISMO DIAGNÒSTICO + SEPTOSTOMÍA INTERAURICULAR (Incluye medicamentos y material descartable) CIERRE DE DUCTUS POR CATETERISMO. (Incluye medicamentos y material descartable). (No incluye Prótesis) ESTUDIO ELECTROFISIOLÓGICO (Incluye medicamentos y material descartable) TILT TEST CIERRE DE CIA/CIV POR HEMODINAMIA (No incluye Prótesis) ELECTROCARDIOGRAMA DE SEÑALES PROMEDIADAS VARIABLILIDAD DE FRECUENCIA CARDIACA ABLACIÓN POR RADIOFRECUENCIA COLOCACIÓN DE MARCAPASOS POR CATETERISMO TRANSITORIO ( EXCLUYE: marcapasos) COLOCACIÓN DE MARCAPASOS POR CATETERISMO DEFINITIVO (Excluye marcapasos) BP. ENDOMIOCÁRDICA EMBOLIZACIONES (Excluye Prótesis) PERFORACIÓN DE VÁLVULA PULMONAR POR RADIOFRECUENCIA REVERSIÓN DE ARRITMIAS POR SOBREESTIMULACIÓN.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010403",
       "description": "FIBRA DE PIC PARA MEDICION INTRAVENTRICULAR IMP",
       "normativa": "INCLUYE: medicamentos y material descartable) CATETERISMO DIAGNÒSTICO + SEPTOSTOMÍA INTERAURICULAR (Incluye medicamentos y material descartable) CIERRE DE DUCTUS POR CATETERISMO. (Incluye medicamentos y material descartable). (No incluye Prótesis) ESTUDIO ELECTROFISIOLÓGICO (Incluye medicamentos y material descartable) TILT TEST CIERRE DE CIA/CIV POR HEMODINAMIA (No incluye Prótesis) ELECTROCARDIOGRAMA DE SEÑALES PROMEDIADAS VARIABLILIDAD DE FRECUENCIA CARDIACA ABLACIÓN POR RADIOFRECUENCIA COLOCACIÓN DE MARCAPASOS POR CATETERISMO TRANSITORIO ( EXCLUYE: marcapasos) COLOCACIÓN DE MARCAPASOS POR CATETERISMO DEFINITIVO (Excluye marcapasos) BP. ENDOMIOCÁRDICA EMBOLIZACIONES (Excluye Prótesis) PERFORACIÓN DE VÁLVULA PULMONAR POR RADIOFRECUENCIA REVERSIÓN DE ARRITMIAS POR SOBREESTIMULACIÓN.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010500",
       "description": "MALLA DE TITANIO PARA CRANEOPLASTIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010501",
       "description": "CASCO ORTOPEDICO",
       "normativa": "INCLUYE: medicamentos y material descartable) CATETERISMO DIAGNÒSTICO + SEPTOSTOMÍA INTERAURICULAR (Incluye medicamentos y material descartable) CIERRE DE DUCTUS POR CATETERISMO. (Incluye medicamentos y material descartable). (No incluye Prótesis) ESTUDIO ELECTROFISIOLÓGICO (Incluye medicamentos y material descartable) TILT TEST CIERRE DE CIA/CIV POR HEMODINAMIA (No incluye Prótesis) ELECTROCARDIOGRAMA DE SEÑALES PROMEDIADAS VARIABLILIDAD DE FRECUENCIA CARDIACA ABLACIÓN POR RADIOFRECUENCIA COLOCACIÓN DE MARCAPASOS POR CATETERISMO TRANSITORIO ( EXCLUYE: marcapasos) COLOCACIÓN DE MARCAPASOS POR CATETERISMO DEFINITIVO (Excluye marcapasos) BP. ENDOMIOCÁRDICA EMBOLIZACIONES (Excluye Prótesis) PERFORACIÓN DE VÁLVULA PULMONAR POR RADIOFRECUENCIA REVERSIÓN DE ARRITMIAS POR SOBREESTIMULACIÓN.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "010600",
       "description": "PARCHE DE DURAMADRE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010601",
       "description": "PARCHE DE DURAMADRE 7,5 X 7,5 APROX MP",
       "normativa": "INCLUYE: medicamentos y material descartable) CATETERISMO DIAGNÒSTICO + SEPTOSTOMÍA INTERAURICULAR (Incluye medicamentos y material descartable) CIERRE DE DUCTUS POR CATETERISMO. (Incluye medicamentos y material descartable). (No incluye Prótesis) ESTUDIO ELECTROFISIOLÓGICO (Incluye medicamentos y material descartable) TILT TEST CIERRE DE CIA/CIV POR HEMODINAMIA (No incluye Prótesis) ELECTROCARDIOGRAMA DE SEÑALES PROMEDIADAS VARIABLILIDAD DE FRECUENCIA CARDIACA ABLACIÓN POR RADIOFRECUENCIA COLOCACIÓN DE MARCAPASOS POR CATETERISMO TRANSITORIO ( EXCLUYE: marcapasos) COLOCACIÓN DE MARCAPASOS POR CATETERISMO DEFINITIVO (Excluye marcapasos) BP. ENDOMIOCÁRDICA EMBOLIZACIONES (Excluye Prótesis) PERFORACIÓN DE VÁLVULA PULMONAR POR RADIOFRECUENCIA REVERSIÓN DE ARRITMIAS POR SOBREESTIMULACIÓN.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010602",
       "description": "PARCHE DE DURAMADRE 10 X 10 APROX IMP",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010603",
       "description": "PARCHE DE DURAMADRE 10 X 15 APROX IMP",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010604",
       "description": "PARCHE DURAMADRE DE 5 X 5 APROX. NAC.",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010605",
       "description": "PARCHE DURAMADRE DE 5 X 5 APROX. IMP.",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010606",
       "description": "PARCHE DURA MADRE MEDIANO (HASTA 10X10) NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010607",
       "description": "PARCHE DURA MADRE GRANDE (MAYOR 10X10) NAC",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "010700",
       "description": "OSTEOSET C/INST Y SET COL A PRESTAMO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "011100",
       "description": "COLAGENO REABSOR (DYRAGEN)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "011200",
       "description": "DISTRACTOR PARA CRANEOESTENOSIS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "011201",
       "description": "DISTRACTOR INTRAORAL MAXILAR SUPERIOR TODAS LAS ME",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "011202",
       "description": "DISTRACTOR INTRAORAL MAXILAR INFERIOR TODAS LAS ME",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "011203",
       "description": "DISTRACTOR PALATINO TODAS LAS MEDIDAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "011600",
       "description": "CIERRE PARA CRANEOSPLATIA DE TITANIO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "011601",
       "description": "CIERRE PARA CRANEOPLASTIA DE PEEK",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "011602",
       "description": "CIERRE P/CRANEOPLASTIA DE TITANIO (H 3 PLACAS) NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "011603",
       "description": "CIERRE P/CRANEOPLASTIA DE TITANIO (H 3 PLACAS) IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "011800",
       "description": "SET DE CRANEOSTOMIA BIODEG PEDIATRICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "011801",
       "description": "PROTESIS DE CIERRE DE SILLA TURCA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "011802",
       "description": "HALO CEFALICO CON CHALECO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "011803",
       "description": "SISTEMA DE TRACCION HALO SILLA - HALO CAMA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "020100",
       "description": "PROTESIS OCULARES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020101",
       "description": "PROTESIS OCULAR OJO IZQUIERDO",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020102",
       "description": "PROTESIS OCULAR OJO DERECHO",
       "normativa": "INCLUYE: Stent, Materiales y Descartables) CON Autorización Previa.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020200",
       "description": "SUTURAS OCULARES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020201",
       "description": "SUTURA REABSORBIBLE DE ACIDO POLIGLICOLICO O POLIG",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020202",
       "description": "SUTURA NO REABSORBIBLE DE SEDA DE DISTINTOS DIAMET",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020203",
       "description": "SUTURA NO REABSORBIBLE DE NYLON DE DISTINTOS DIAME",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020300",
       "description": "BANDAS DE SILICONAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020301",
       "description": "PERFLUOROCARBONO 100% FLUORADO LIQUIDO (VIAL) PARA",
       "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables. No se reconoce la anestesia general.",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020302",
       "description": "AMPOLLAS DE ACEITE DE SILICONA",
       "normativa": "Incluye: honorarios, derechos quirúrgicos, medicamentos y descartables. No se reconoce la anestesia general.",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020303",
       "description": "ESPONJA DE SILICONA (3X5 MM Y OTRAS MEDIDAS) PARA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020400",
       "description": "LENTE INTRAOCULAR Y ELEMENTOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020401",
       "description": "L.I.O. OJO DERECHO Y ELEMENTOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020402",
       "description": "L.I.O. OJO IZQUIERDO Y ELEMENTOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020403",
       "description": "LENTE INTRAOCULAR OJO DERECHO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020404",
       "description": "LENTE INTRAOCULAR OJO IZQUIERDO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020405",
       "description": "L.I.O OD MONOFOCAL ACRILICO HIDROFILICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020406",
       "description": "L.I.O OI MONOFOCAL ACRILICO HIDROFILICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020500",
       "description": "SUSTANCIA VISCOELASTICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020701",
       "description": "LENTE P/VISION SUBNORMAL",
       "normativa": "Incluye: Honorarios Médicos, Derechos Quirúrgico, Monitoreo, Medicamentos. | Excluye: Anestesia. Todo otro procedimiento adicional. Material Descartable inherentes al procedimiento, LIO+ suturas+sustancia. extracción DE CUERPO EXTRAÑO CONJUNTIVAL.",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020704",
       "description": "INSUMOS DE CIRUGÍAS DE CATARATAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "020718",
       "description": "DISPOSITIVO DE COMUNICACION CON VISUAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "020719",
       "description": "DISPOSITIVO MAGNIFICADOR PARA BAJA VISIÓN",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021101",
       "description": "SET TUBULADURA P/VITRECTOMIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021200",
       "description": "SET DE INTUBACION BICANALICULAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "021201",
       "description": "LENTE TERAUPEUTICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021202",
       "description": "VALVULA DE AMHED",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021203",
       "description": "SET DE TUBULADURA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021204",
       "description": "OCLUSOR O TAPON LAGRIMAL DE SILICONA TIPO PUNCTUM",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021205",
       "description": "OCLUSOR LAGRIMAL TIPO PAINLESS PUG",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021300",
       "description": "CASCARILLA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021400",
       "description": "TREPANO DONANTE Y RECEPTOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021401",
       "description": "TRÉPANO DE CÓRNEA DONANTE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021402",
       "description": "TRÉPANO DE CÓRNEA RECEPTOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "021500",
       "description": "ANILLOS INTRACORNEALES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oftalmología"
     },
     {
       "code": "030001",
       "description": "VALVULA DE FONACION (MARCAS/MODELOS)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030003",
       "description": "OXIMETRO PULSO PORTATIL CON/SIN ALARMA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030004",
       "description": "OXIMETRO DE PULSO FIJO (CON MONITOR NEONATAL, PEDI",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030005",
       "description": "ASPIRADOR DE SECRECIONES PORTATIL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030006",
       "description": "ASPIRADOR DE SECRECIONES FIJO (A PISTON)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030007",
       "description": "NEBULIZADOR PARA TRAQUEOSTOMIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030008",
       "description": "NEBULIZADOR FIJO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030009",
       "description": "NEBULIZADOR DEVILBISS (TODOS LOS MODELOS)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030100",
       "description": "AUDIFONOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030101",
       "description": "AUDIFONOS AMBOS OIDOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030102",
       "description": "AUDIFONO OIDO DERECHO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030103",
       "description": "AUDIFONO OIDO IZQUIERDO",
       "normativa": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030104",
       "description": "AUDIFONO B.A.H.A. CON VINCHA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030110",
       "description": "PILAS DE AUDÍFONOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030111",
       "description": "PASTILLAS DESHUMIDIFICADORAS PARA AUDÍFONOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030112",
       "description": "ACCESORIO PARA AUDIFONO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030200",
       "description": "DIABOLOS Y TUBOS DE VENT.P/OIDO MEDIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030201",
       "description": "VALVULA VENTIL OTICA(DIABOLO)SILIC/FLUO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030300",
       "description": "PROTESIS PARA OIDO MEDIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030400",
       "description": "EQUIPO IMPLANTE COCLEAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030401",
       "description": "CALIBRACION DEL IMP.COCLEAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030402",
       "description": "PILAS P/IMPLANTE COCLEAR/PASTILLA DESHU",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030403",
       "description": "REPARACION IMPLANTE COCLEAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030404",
       "description": "CABLE PARA IMPLANTE COCLEAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030407",
       "description": "PASTILLAS DESHUMIFICADORAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030408",
       "description": "ACCESORIOS PARA IMPLANTE COCLEAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030409",
       "description": "BATERIAS PARA IMPLANTE COCLEAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030410",
       "description": "BOBINA PARA IMPLANTE COCLEAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030411",
       "description": "FILTROS PARA MICROFONOS (IMPLANTE COCLEAR)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "030500",
       "description": "NEBULIZADOR Y ASPIRADOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030600",
       "description": "PROTESIS AURICULAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030700",
       "description": "LARINGOFONO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030800",
       "description": "FILTROS PARA LARINGUECTOMIZADOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030900",
       "description": "SET TRAQUEOSTOMIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "030901",
       "description": "SET DE TRAQUEOSTOMIA PERCUTANEA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "031100",
       "description": "SONDA PARA ASPIRACION DE TRAQUEOTOMIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "031101",
       "description": "FILTRO PARA TRAQUEOTOMIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "031106",
       "description": "TUBO EN T DE MONTGOMERY",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "031200",
       "description": "REPARACION DE AUDIFONO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "031300",
       "description": "CHALECO VIBRATORIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "040108",
       "description": "PERNO MUÑON SIMPLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "050101",
       "description": "TUBO ENDOTRAQUEAL SELECTIVO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "060120",
       "description": "COMPRAS - PROTESIS MAMARIA TERMOCONFORMADA EXTERNA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "060200",
       "description": "PROTESIS MAMARIA SILICONADA INTERNA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "060201",
       "description": "PROTESIS MAMARIA SILICONADA INTERNA REDONDA LISA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "060300",
       "description": "PROT EXTERNA RELLENO CORP SILICONADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "060301",
       "description": "B.E.AUDIFONO O.D.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "060302",
       "description": "B.E.AUDIFONO O.I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "060303",
       "description": "B.E.AUDIFONO B.A.H.A. CON VINCHA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "060400",
       "description": "EXPANSOR MAMARIO Y OTROS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "070100",
       "description": "MARCAPASO DEFINITIVO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070101",
       "description": "MARCAPASO DEFINITIVO VVI C/CATETERES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070102",
       "description": "CATETER ELECTRODO ENDOCAV VVI/DDD/VDD/CDI/OTRO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070103",
       "description": "MARCAPASOS DEFINIT. VVIR C/CATETERES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070104",
       "description": "MARCAPASOS DDD C/CATET. AURIC. FIJ. ACT",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070105",
       "description": "MARCAPASOS DDDR C/CAT. VENT/AUR FIJ ACT",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070106",
       "description": "MARCAPASOS VDDR MONOCATETER CUADRIPOLAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070108",
       "description": "INTRODUCTOR PEEL AWAY",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070113",
       "description": "MARCAPASO MULTIPROG BICAM DDDR PROG FRE",
       "normativa": "Incluye: Honorarios médicos de todo el equipo interviniente, Hemodinamia, Gastos, Anatomía Patológica, Medicamentos y Descratables inherentes al procedimiento. | Excluye: Pensión (por cartera prestacional), Anestesia (generalmente local) y Biótomo (provisto por IAPOS). Complicaciones del procedimiento (facturación por cartera prestacional).",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070116",
       "description": "CATETER EPICARDICO PARA MPD",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070117",
       "description": "CATETER P/SENO CORONARIO (P/RESINCRON)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070201",
       "description": "PROTESIS VALV. CARD. MECAN. BIVALVA",
       "normativa": "Incluye: 6 DIAS DE PENSION (1 PRE-OPERATORI0 Y 5 POSTOPERATORIOS). EN CASO DE complicación, LA PENSION SE FACTURARA POR FUERA DE módulo. Honorarios Cirujanos (estos corresponden al 40% del valor del Módulo), ayudantes, perfusionista, cardiólogos, infectólogos, kinesiólogos Derechos Quirúrgicos e instrumentista. Prácticas, medicamentos y material descartable inherentes a la Cgía. Cardiovascular. | Excluye: HONORARIOS RECUPERACION CARDIOVASCULAR (AGO/23 , SET/23 , OCT/23 , NOV/23 y DIC/23 ) Y HEMOTERAPIA (SE RECONOCERAN HASTA 8 TRANSFUSIONES DE ACUERDO A CRITERIO TRANSFUSIONAL DE SAH Y SUJETO A AUDITORIA). Simdax (levosimendan) Prótesis vasculares, válvulas. Parches intracavitarios y todo tipo de material implantable, marcapasos definitivos. Medicamentos y Materiales Descartables que no tengan relación con la prestación, trombolíticos y protomplex, ECMO y Oxido Nítrico. Tomografía Axial Computada, Resonancia Magnética Nuclear, Eco-Doppler Transesofágico. Estudios de Hemodinámia, Recupero de sangre intra y post operatorio. Balón de contrapulsación. Bomba centrífuga (mat.descartable), en caso de que el paciente padezca endocarditis bacteriana, HIV. Anestesia. Se excluyen Específicamente: transplante, cardiomioplastías, cirugías de arritmias y toda complicación cardiológica. Prestaciones no comprendidas en el módulo. Toda cirugía o práctica no incluída en el módulo será facturada a los valores fijados por contrato con la respectiva Obra Social. Las prácticas no nomencladas serán facturadas según los aranceles vigentes al momento de la intervención (por ejemplo virus). Las Hemodiálisis y diálisis contínuas (DPCA): se facturará al valor que fije el contrato. | Observaciones: Si el paciente fallece dentro de las 24 hs. de operado se abona el 60% del valor del módulo. En caso de re-operaciones se incrementa un 20% al valor del módulo.",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070205",
       "description": "ANILLO PARA VALVULOPLASTIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070206",
       "description": "VALVULOTOMO",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070207",
       "description": "VALVULA MEC POSICION AORTICA T/MEDIDAS",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070208",
       "description": "VALVULA MEC POSICION MITRAL T/MEDIDAS",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070209",
       "description": "VALVULA BIOL POSICION AORTICA T/MEDIDAS",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070210",
       "description": "VALVULA BIOL POSICION MITRAL T/MEDIDAS",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070211",
       "description": "TUBO VALVULADO AORTICO EN T/MEDIDAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070213",
       "description": "VALVULA AORT IMPLANTE TRANSCATETER TAVI",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070300",
       "description": "PROTESIS VASCULAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070400",
       "description": "PROTESIS ARTERIALES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070403",
       "description": "PROT.ART.DACRON KNITTED REC. 6/8/10X60",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070405",
       "description": "PROT.ART.DACRON WOVEN BIFURCADAS TOD ME",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070406",
       "description": "PROT.ART.DACRON KNITTED BIFURC. TOD MED",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070407",
       "description": "PROT.ART.DACRON REC.POROS.0 PREC 6/8/10",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070408",
       "description": "PROT.ART.DACRON REC.POROS.0 PREC 12/30",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070409",
       "description": "PROT.ART.DACRON BIFURC.POR. 0 PREC. T.M",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070416",
       "description": "PROT. ART.DACRON WOVEN REC. 6/8/10 X70",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070417",
       "description": "PROT.ART.DACRON KNITTED REC 6/8/10 X70",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070425",
       "description": "PROTESIS ART PTFE REC. ANILLADA 6 X 45",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070426",
       "description": "PROTESIS ART PTFE REC. ANILLADA 6 X 70",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070427",
       "description": "PROTESIS ART PTFE REC. ANILLADA 6 X 80",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070503",
       "description": "FILTRO DE PROTECCION DISTAL/CEREBRAL",
       "normativa": "INCLUYE: Est. Electrofisiologico- .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070504",
       "description": "FILTRO VENA CAVA C/INTROD YUG.Y FEMORAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070505",
       "description": "FILTRO DE VENA CAVA INFERIOR FIJO O NO REMOVIBLE C",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070506",
       "description": "FILTRO DE VENA CAVA INFERIOR REMOVIBLE CON SET DE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070507",
       "description": "SISTEMA DE EXTRACCION DE FILTRO DE VENA CAVA INFER",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070600",
       "description": "HEMOCLIPS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "070700",
       "description": "CLIPS - LIGACLIPS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "070801",
       "description": "SISTEMA CIERRE PERCUTANEO VASCULAR EN T.A.V.I.",
       "normativa": "Incluye: Pensión en UCC, pensión en habitación compartida, Honorarios del equipo quirúrgico. Medicamentos y Material descartable inherentes al procedimiento. | Excluye: Stent. Anestesia. Filtro de protección cerebral.",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070802",
       "description": "SISTEMA DE CIERRE VASCULAR (SUTURA POLIPROPILENO Y",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070900",
       "description": "CATETER BALON PARA VALVULOPLASTIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "070901",
       "description": "CATETER BALON PARA CONTRAPULSACION INTRA AORTICA C",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071000",
       "description": "CATETER BALON P/ANGIOPLASTIA CORONARIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071300",
       "description": "CATETERES",
       "normativa": "PROTOCOLO PARA SOLICITUD DE CATÉTERES SEMI IMPLANTABLES Los catéteres Semi Implantables, son muy utilizados en pacientes que requieren NUTRICIÓN PARENTERAL (total o complementaria N. P. T. / N. P. C.) sea en la etapa Hospitalaria o bien luego en la Internación domiciliaria. Son Catéteres que pueden ser de simple vía (Lumen o Luz) o de doble vía (Lumen o luz), y que por usos y costumbres han sido denominados con el nombre de sus creadores: Catéteres de Broviac® y de Hickman®, situación que en la actualidad ya no se utiliza, dado que dichos nombres propios, hoy son marcas registradas por una empresa. Por tal motivo, y se verá en la normativa del pedido, no se aceptarán pedidos de catéteres con nombres propios, sino que se deberá limitar el pedido al número de Luces o Lúmenes del catéter que se requiera para cada situación en especial, léase: CATÉTER SEMI IMPLANTABLE DE UNA VÍA (En lugar de Catéter de Broviac®) o CATÉTER DE DOBLE VÍA (En lugar de Catéter de Hickman®) Dado que dichos catéteres, son catéteres de larga estancia y que son imprescindibles para el sostén vital de los pacientes, hay dos cuidados fundamentales en los mismos: La colocación del catéter y su correcta ubicación en la vena central (No en cavidades), el adecuado tunelizado y el correcto sellado del mismo. Práctica que debe realizarse en quirófano y de preferencia bajo radioscopía, para garantizar la ubicación del “tip” del catéter. La correcta utilización del mismo (Habilitación primero), pasaje de la sustancia con normas de antisepsia adecuadas y el SELLADO O CIERRE HEPARÍNICO del mismo, lo que garantiza la no obstrucción (Coagulación) y la vida útil del catéter. El primero depende del cirujano actuante y el segundo del personal que administra las sustancias (En general personal de enfermería). Para la solicitud de un CATÉTER SEMI IMPLANTABLE, se deberán cumplir con los siguientes requisitos: 1. PEDIDO MÉDICO DEL CATÉTER, ADECUADAMENTE SOLICITADO, CON EL TIPO DE CATÉTER (NÚMERO DE LUCES O LÚMENES: UNA VÍA O DOS VÍAS, no por nombre propio) Y PRINCIPALMENTE EL DIÁMETRO (Ø) DEL CATÉTER QUE SE SOLICITARÁ, variable según el paciente. 2. HISTORIA CLÍNICA COMPLETA EN LA CUAL SE DETALLE LA PATOLOGÍA DE BASE DEL PACIENTE, EL MOTIVO DEL PEDIDO (Nutrición Parenteral u otro) Y EL TIEMPO QUE SE INSTAURARÁ EL TRATAMIENTO. 3. EN EL CASO DE REQUERIRSE PARA N. P. T. o N. P. C. (Complementaria), EL PEDIDO DEBERÁ ESTAR ACOMPAÑADO DE UNA EVALUACIÓN FIRMADA POR LICENCIADA/O EN NUTRICIÓN, ADEMÁS DEL PEDIDO MÉDICO. 4. EL PEDIDO LO FORMULARÁ EL CIRUJANO QUE COLOCARÁ EL CATÉTER O BIEN EL MÉDICO TRATANTE, INDICANDO EL PROFESIONAL QUE REALIZARÁ LA PRÁCTICA DE COLOCACIÓN. La colocación deberá ser realizada en quirófano y deberá contar con PROTOCOLO QUIRÚRGICO Y CERTIFICADO DE IMPLANTE CON LOS ELEMENTOS QUE DEMUESTREN SU COLOCACIÓN (Stickers ad hoc, material de sellado del blíster u otros, según lo normatizado en la licitación de los Catéteres Semi Implantables.) 5. CERTIFICADO DE DISCAPACIDAD en el caso que el paciente lo posea.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071301",
       "description": "PORT A CATH",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071303",
       "description": "CATETER SEMI-IMPLANTABLE TIPO HICKMAN O BROVIAC  P",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071304",
       "description": "CATETER VENOSOS CENTRALES DE INSERCION PERIFERICA",
       "normativa": "PROTOCOLO PARA SOLICITUD DE CATÉTERES CENTRALES DE INSERCIÓN PERIFÉRICA (P. I. C. C.) La solicitud de este tipo de Catéteres está prácticamente limitada al tratamiento domiciliario, en aquellos pacientes que pudiendo estar externados, deben recibir algún tipo de medicación específica por vía parenteral durante un tiempo relativamente prolongado y que carecen de capital venoso periférico o bien que la/s sustancia/s a administrar, sea muy irritante para las venas periféricas, por lo cual su administración en venas centrales. Dado que los P. I. C. C., son catéteres de estancias intermedias a prolongadas y que son imprescindibles para el sostén vital de los pacientes, hay dos cuidados fundamentales en los mismos, que dependen de dos momentos, a saber: La colocación del catéter y su correcta ubicación en la vena central (No en cavidades), procedimiento que debe ser realizado en quirófano y de preferencia bajo radioscopía. La correcta utilización del mismo (Habilitación primero), pasaje de la sustancia con normas de antisepsia adecuadas y el SELLADO O CIERRE HEPARÍNICO del mismo, lo que garantiza la no obstrucción (Coagulación) y la vida útil del catéter. El primero depende del cirujano actuante y el segundo del personal que administra las sustancias (En general personal de enfermería) Para la solicitud de un P. I. C. C. (Catéter Venoso Central de Inserción Periférica) se deberán cumplir con los siguientes requisitos: 1. PEDIDO médico DEL CATÉTER, ADECUADAMENTE SOLICITADO, CON EL TIPO DE CATÉTER Y PRINCIPALMENTE EL DIÁMETRO (Ø) DEL CATÉTER QUE SE SOLICITARÁ, variable según el paciente. 2. HISTORIA CLÍNICA COMPLETA EN LA CUAL SE DETALLE LA PATOLOGÍA DE BASE DEL PACIENTE, LA DROGA O DROGAS A RECIBIR Y EL TIEMPO QUE SE INSTAURARÁ EL TRATAMIENTO. 3. EL PEDIDO LO FORMULARÁ EL CIRUJANO QUE COLOCARÁ EL CATÉTER O BIEN EL MÉDICO TRATANTE, INDICANDO EL PROFESIONAL QUE REALIZARÁ LA práctica DE COLOCACIÓN. La colocación deberá ser realizada en quirófano y deberá contar con el PROTOCOLO QUIRÚRGICO Y CERTIFICADO DE IMPLANTE CON LOS ELEMENTOS QUE DEMUESTREN SU COLOCACIÓN (Stickers ad hoc, material de sellado del blíster, otros, según lo normatizado en la licitación de los Catéteres de Inserción Periférica.) 4. CERTIFICADO DE DISCAPACIDAD en el caso que el paciente lo posea.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071305",
       "description": "CATETER BALON DE OCLUSION PARA MALFORMACIONES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071306",
       "description": "CATETER BALON DE OCLUSION PARA ANEURISMA CEREBRAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071307",
       "description": "CATETER PARA TROMBECTOMIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071308",
       "description": "CATETER BALON SIN DROGA P ANGIOPLASTIA ART INFRAPA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071309",
       "description": "BIOTOMO PARA BIOPSIA ENDOMIOCADICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071310",
       "description": "CATETER PARA EMBOLECTOMIA ARTERIAL PERISFERICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071311",
       "description": "CATETER VENOSOS CENTRALES DE INSERCION DOBLE LUMEN",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "071400",
       "description": "TUBULADURAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "071401",
       "description": "CONECTORES PARA TUBULADURAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "071402",
       "description": "SONDAS PARA ASPIRACION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "071403",
       "description": "SONDAS PARA ASPIRACION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "071600",
       "description": "CANULAS AORTICAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071700",
       "description": "CANULAS VENOSAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "071701",
       "description": "PARCHE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "071900",
       "description": "VENDAS Y MEDIAS ELASTICAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "072000",
       "description": "STENT CORONARIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072002",
       "description": "STENT PERIFERICOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072005",
       "description": "STENT CORONARIO CONV ACERO T/MEDIDAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072007",
       "description": "STENT CORONARIO C/LIBER DROGA T/MEDIDA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072008",
       "description": "STENT PERIFERICO EXPANDIBLE POR BALON",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072009",
       "description": "STENT PERIFERICO AUTOEXPANDIBLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072010",
       "description": "STENT INTRACRANEANO EXPANDIBLE P/BALON",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072011",
       "description": "STENT INTRACRANEANO AUTOEXPANDIBLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072013",
       "description": "STENT PREF CAROTIDEO AUTOEXPANDIBLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072014",
       "description": "STENT CAROT AUTOEXP NITINOL C/FIL.PROT.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072017",
       "description": "SHUNT CAROTIDEO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072019",
       "description": "BALON LIBERADOR DROGA P/ANGIOPLAS MMII",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072020",
       "description": "ENDOPROT DIVERSORA FLUJO P/ANEUR CEREB",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072021",
       "description": "STENT CUBIERTO P ANEURISMA ART PERI AUTOEXPANDIBLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072022",
       "description": "STENT VENOSO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072023",
       "description": "BALONES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072024",
       "description": "BALON LIBERADOR DROGA PARA ANGIOPLASTIA CORONARIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072025",
       "description": "STENT FORRADO P ANEURISMA ART. PERIFERICO BALON EX",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072026",
       "description": "SIST MAPEO C CAT ABLACION IRR P RADIOFREC. C PARCH",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072027",
       "description": "SIST CRIO ABLA VENAS PUL (CAT BAL CON INTR CONSOLA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072028",
       "description": "SIST CRIO ABL FOCAL (CAT -CON-INTRODUCT.-CONSOLA)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072102",
       "description": "CARDIODESF UNICAM VVI C/CAT ELEC ENDOC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072103",
       "description": "CARDIODESF BICAM DDD C/CAT ELEC ENDOCAV",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072105",
       "description": "CARDIODESFIBRILADOR UNICAM VVI",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072107",
       "description": "CARDIODESF C/CAP DE RESINCRONIZ C/CAT",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072108",
       "description": "VAINA Y ESTILETE PARA EXTRACCION DE CATETER ELECTR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072109",
       "description": "SET PUNCION TRANS ABLAC ARRIT AGUJA PUN",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072110",
       "description": "SET PUNCION TRANSEPTAL PARA ABLACION DE ARRITMIAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072300",
       "description": "SET P /VARICES ESOFAGICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072500",
       "description": "OTROS STENT",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072503",
       "description": "DISPOSITIVO OCLUSOR PARA CIERRE DE CIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072504",
       "description": "DISPOSITIVO OCLUSOR PARA CIERRE DE DUCTUS ARTERIOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072505",
       "description": "DISPOSITIVO OCLUSOR PARA CIERRE DE COMUNICACION IN",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072506",
       "description": "DISPOSITIVO OCLUSOR PARA OREJUELA IZQUIERDA EN TOD",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072600",
       "description": "ENDOPROTESIS",
       "normativa": "NORMATIVA PARA LA SOLICITUD DE ENDOPRÓTESIS “STENTS” PARA EL TUBO DIGESTIVO ENDOPRÓTESIS “STENT” ESOFÁGICO Las indicaciones para este tipo de material siguen las normativas de los consensos Nacionales e Internacionales, las cuales se resumen a continuación. Enfermedades concomitantes fuera del alcance quirúrgico -Cáncer esofágico irresecable (T3 yT4 N1-2 M1) -Cáncer esofágico inoperable (Tx + comorbilidad) Dilataciones inefectivas o complicadas Estenosis malignas o benignas, extrínsecas, obstructivas, de crecimiento rápido Estrecheces post-radioterapia Fístulas esófago-traqueales Recurrencia tumoral post-resección quirúrgica Recurrencia post-radio/quimioterapia CRITERIOS DE EXCLUSIÓN Y CONTRAINDICACIONES Estrecheces de un largo mayor de 12 cm Crecimiento del tumor dentro de los 3 cm del esfínter esofágico superior CONTRAINDICACIONES RELATIVAS Pacientes en muy mal estado general (Se debe evaluar riesgo-beneficio) Estenosis no circunferenciales (migración). Estenosis proximales al esfínter cricofáringeo (Pero a más de 3 cm) REQUISITOS INDISPENSABLES PARA LA SOLICITUD DE UNA PRÓTESIS AUTO EXPANSIBLE METÁLICA “STENT” PARA EL ESÓFAGO 1. HISTORIA CLÍNICA AMPLIA DE LOS MOTIVOS QUE LLEVAN A LA SOLICITUD DEL ELEMENTO. En esta historia clínica deberán constar en forma insoslayable, las condiciones del paciente, desde el punto de vista nutricional, evaluación hecha por el especialista (Lic. en Nutrición) a fin de evaluar la necesidad o no de Nutrición Enteral por S. N. Yeyunal, N. P. T. o N. P. C. <Complementaria> en los casos que la obstrucción no sea completa. La historia clínica además de la evaluación del cirujano, gastroenterólogo y nutricionista, deberá tener en los casos de patologías malignas, la evaluación del oncólogo clínico. 2. DOCUMENTACIÓN DE LA ESTRECHEZ U ESTENOSIS DEL ESÓFAGO, MEDIANTE S. E. G. D., V. E. D. A., MARCANDO FUNDAMENTALMENTE SU ALTURA (Ubicación) Y EXTENSIÓN (Longitud). Muy importante para las lesiones de la región Esofagogástrica, por el riesgo mayor de migración y las lesiones muy cercanas al esfínter cricofaríngeo. 3. ANATOMÍA PATOLÓGICA DE LA LESIÓN. Este requisito es indispensable, a fin de evaluar en los casos de lesiones malignas, la conducta oncológica a seguir de acuerdo al tipo histológico de la lesión. 4. ESTUDIOS COMPLEMENTARIOS EN LOS CASOS DE NEOPLASIAS MALIGNAS, PARA ESTADIFICACIÓN Y EVENTUAL DEFINICIÓN DE CRITERIOS DE RESECABILIDAD O IRRESECABILIDAD. (T. A. C. / R. M. N. / P. E. T. u otros) 5. TODA DECISIÓN QUE SE DECIDA CON EL PACIENTE, SEA ESTA PALIATIVA (COLOCACIÓN DE ENDOPRÓTESIS COMO ÚNICA ACCIÓN) O CIRUGÍA RESECTIVA CON NEOADYUVANCIA O TRATAMIENTO ADYUVANTE POSTERIOR DEBERÁ ESTAR AVALADA Y FIRMADA POR EL CIRUJANO Y/0 GASTROENTERÓLOGO RESPONSABLE Y EL ONCÓLOGO CLÍNICO, SIN EXCEPCIÓN. No se aceptarán pedidos que no tengan la evaluación conjunta de Cirugía/Gastroenterología y Oncología. 6. ESPECIFICACIÓN DE SI HA TENIDO TRATAMIENTOS PREVIOS (Ej.: Dilataciones previas o Stents anteriores que disfuncionaron o migraron). 7. ESPECIFICAR COMPROMETIDA. SI HA TENIDO RADIACIÓN DE LA REGIÓN ENDOPRÓTESIS PARA ESTÓMAGO DISTAL Y DUODENO El I. A. P. O. S. NO PROVEERÁ ENDOPRÓTESIS O STENTS PARA ESTA región ANATOMICA, EXISTIENDO OTRAS ALTERNATIVAS PARA EL MANEJO DE LA patología. ENDOPRÓTESIS PARA COLON O RECTO El I. A. P. O. S. NO PROVEERÁ ENDOPRÓTESIS O STENTS PARA ESTA región ANATOMICA, EXISTIENDO OTRAS ALTERNATIVAS PARA EL MANEJO DE LA patología.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072602",
       "description": "ENDOP EXCL AORT ABDO MONO C/FIJ SUPRA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072603",
       "description": "ENDOP EXCL AORT TORACICA T/MED",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072604",
       "description": "ENDOP EXCL AORT ABDO BIF S/EX ILI C/FS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072605",
       "description": "ENDOP EXCL AORT ABDO BIF C/EX ILI C/FS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072606",
       "description": "EXTENSIONES DE ENDOPROTESIS UNI-ILIACA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072608",
       "description": "DISPOSITIVO OCLUSOR VASCULAR ARTERIAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072609",
       "description": "COILS P/EMBOLIZACION ART PERIF T/MED",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072610",
       "description": "ENDOP EXCL AORT ABDO CON/FIJ SUPRA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072611",
       "description": "ENDOP EXCL AORT ABDO SIN/FIJ SUPRA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072612",
       "description": "ENDOP EXCL AORT ABDO MONO S/FIJ SUPRA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072613",
       "description": "ENDOP EXCL AORT ABDO BIF S/EX ILI S/FS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072614",
       "description": "ENDOP EXCL AORT ABDO BIF C/EX ILI S/FS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072701",
       "description": "RESINCRONIZADOR C/CATETER ELECTRODO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072800",
       "description": "PARTICULAS EMBOLIZACION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072801",
       "description": "PARTICULAS DE EMBOLIZACION (ESFERAS) QUIMIOEMBOLI",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072802",
       "description": "AGENTES EMBOLIZANTES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072900",
       "description": "PARCHES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072901",
       "description": "PARCHE DE TEFLON",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072902",
       "description": "PARCHE DE PTFE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072903",
       "description": "PARCHE DE DACRON",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072905",
       "description": "CEMENTO BIOLOGICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072906",
       "description": "PARCHE PTFE CAROTIDA MED 1X9X0,5",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072907",
       "description": "PARCHE PTFE CARDIOVASCULAR 5X7,5X0,5",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "072908",
       "description": "PARCHE DE PERICARDIO BOVINO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "080100",
       "description": "PROTESIS DE ESOFAGO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080201",
       "description": "MALLA DE POLIPROPILENO DE 8 X 13 IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080202",
       "description": "MALLA DE POLIPROPILENO DE 7 X 12",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080204",
       "description": "MALLA DE POLIPROPILENO DE 15 X 15 IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080206",
       "description": "MALLA DE POLIPROPILENO DE 30 X 30 IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080210",
       "description": "MALLA P/EVENT.CONTACTO/VISCERAS MED",
       "normativa": "INCLUYE: desayuno y cochera- (Pesos Doscientos Dieciseis con 00/100). • Habitación doble -incluye desayuno y cochera- (Pesos Doscientos Ochenta y Ocho con 00/100). • Habitación triple -incluye desayuno y cochera- (Pesos Cuatrocientos Tres con 00/100)'.- artículo 2°): Regístrese, comuníquese, archívese.'-• , •,1 1 4, I Dr. SILVIOALEJANORO NZÁLEZ DIRECTOR PROVINCIAL I. A. P. O. S.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080211",
       "description": "MALLA P/EVENT.CONTACTO/VISCERAS GRANDE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080212",
       "description": "MALLA DE POLIPROPILENO DE 20 X 30 IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080213",
       "description": "MALLA DE POLIPROPILENO DE 15 X 15 NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080214",
       "description": "MALLA DE POLIPROPILENO 30 X 30 NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080300",
       "description": "MALLA GOROTEX O PTFE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080400",
       "description": "SUTURA MECANICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080401",
       "description": "SUTURA MECANICA CIRCULAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080404",
       "description": "SUTURA MECANICA LINEAL CORTANTE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080405",
       "description": "SURGI CLIPS",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables)",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080407",
       "description": "CARTUCHO PARA SUTURA LINEAL CORTANTE",
       "normativa": "Incluye: Pensión, Uso de eco o TAC e instrumental inherente a la práctica, Honorarios médicos (corresponden al 40% del valor total del módulo), Medicamentos y Materiales descartables. | Excluye: Honorarios Anestesia, Elementos médicos específicos de acuerdo a patología según normativas IAPOS.",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080409",
       "description": "SUTURA MEC. LIN CURVA CORTA(DIF. MED)",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080410",
       "description": "ENDOSUTURA LINEAL (DIF. MEDIDAS)",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080412",
       "description": "CARTUCHOS ENDOSUTURA LINEAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080413",
       "description": "CARTUCHO PARA SUTURA LIN CURVA CORTANTE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080415",
       "description": "CLIPS PARA LIGADURA ENDOSCOPICA ALTA O BAJA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080500",
       "description": "BOTON PARA GASTROTOMIA ALIMENTACION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080501",
       "description": "SET DE GASTROTOMIA",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080502",
       "description": "BOTON DE GASTROSTOMIA CON O SIN BALON",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080503",
       "description": "B.GAST SILASTIC C/BAL INT FIJ(DIF. MED)",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080504",
       "description": "SET DE GASTROSTOMIA ENDOSCOPICO",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080505",
       "description": "SET GASTASTROST. ENDOSC. PERCUT. C/SET INTROD.",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080506",
       "description": "SET DE GRASTROYEYMOSTOMIA",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080507",
       "description": "SET LIGAD ENDOS.VARICEAL MULTIB (6 B.)",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080508",
       "description": "CONECT Y PROLON NUT.ENTERAL X B GASTRIC",
       "normativa": "INCLUYE: Ileostomía EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080601",
       "description": "BOLSAS DE COLOSTOMIA",
       "normativa": "INCLUYE: Mat 080723 Descartables Específicos EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080602",
       "description": "BOLSAS DE ILEOSTOMIA",
       "normativa": "INCLUYE: Mat 080723 Descartables Específicos EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080603",
       "description": "BOLSAS DE UROSTOMIA",
       "normativa": "INCLUYE: Mat 080723 Descartables Específicos EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080802",
       "description": "SET DE GASTROSTOMIA RADIOLOGICA",
       "normativa": "INCLUYE: Mat 080723 Descartables Específicos EXCLUYE: Materiales Descartables) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080900",
       "description": "CANASTA DE DORMIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "080901",
       "description": "PINZA DESC/HOT BIOPSY",
       "normativa": "INCLUYE: MAT 080723 DESCARTABLES específicos EXCLUYE: Pigtail) .",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081100",
       "description": "ANILLO BIOFRAGMENTABLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081200",
       "description": "SET BANDAS P/VARICES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081201",
       "description": "KIT DE MUCOSECTOMIA CON CLIP",
       "normativa": "PROTOCOLO PARA SOLICITUD DE KIT PARA MUCOSECTOMÍA ENDOSCÓPICA El IAPOS, proveerá de KITS para MUCOSECTOMÍA ENDOSCÓPICA, los cuales son “completos”, por lo cual NO SE ACEPTARAN PEDIDOS DE MATERIALES EXTRAS AL KIT O SET PARA MUCOSECTOMÍA. IAPOS entregará el KIT o SET COMPLETO necesario para la práctica solicitada “Mucosectomía Endoscópica”. Para la solicitud de un KIT de mucosectomía endoscópica desde auditoria médica se solicitará y evaluará: 1. PEDIDO médico DEL ELEMENTO 2. HISTORIA CLÍNICA DEL PACIENTE (De singular importancia en caso de pacientes con antecedentes directos personales o familiares de neoplasias del tubo digestivo) 3. ESTUDIO ENDOSCÓPICO ORIGINAL, CON LAS IMÁGENES (FOTOS) ORIGINALES Y LAS MEDIDAS Y TIPO DE LA/S LESIONES A RESECAR. 4. ANATOMÍA PATOLÓGICA DE LA LESIÓN A RESECAR NOTA: Respecto a LOS ENDOCLIPS PARA SER UTILIZADOS EN PROCEDIMIENTOS ENDOSCÓPICOS (Mucosectomía, Resecciones Submucosas u otros), en el caso de ser realmente necesaria su utilización, se deberá realizar la gestión de REPOSICION DE/LOS ELEMENTOS UTILIZADOS POR EL PROFESIONAL ACTUANTE, CONTRA LA DEMOSTRACIÓN POR VIDEO (CD O DVD) DE LA REAL NECESIDAD DE SU USO (complicación durante el procedimiento) Y DE LA CANTIDAD DE ELEMENTOS UTILIZADOS. No se proveerán clips endoscópicos previo al procedimiento y tampoco se aceptará que se le solicite la compra al afiliado, incitándolo a que luego gestione un reintegro.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081202",
       "description": "KIT DE MUCOSECTOMIA SIN CLIP",
       "normativa": "PROTOCOLO PARA SOLICITUD DE KIT PARA MUCOSECTOMÍA ENDOSCÓPICA El IAPOS, proveerá de KITS para MUCOSECTOMÍA ENDOSCÓPICA, los cuales son “completos”, por lo cual NO SE ACEPTARAN PEDIDOS DE MATERIALES EXTRAS AL KIT O SET PARA MUCOSECTOMÍA. IAPOS entregará el KIT o SET COMPLETO necesario para la práctica solicitada “Mucosectomía Endoscópica”. Para la solicitud de un KIT de mucosectomía endoscópica desde auditoria médica se solicitará y evaluará: 1. PEDIDO médico DEL ELEMENTO 2. HISTORIA CLÍNICA DEL PACIENTE (De singular importancia en caso de pacientes con antecedentes directos personales o familiares de neoplasias del tubo digestivo) 3. ESTUDIO ENDOSCÓPICO ORIGINAL, CON LAS IMÁGENES (FOTOS) ORIGINALES Y LAS MEDIDAS Y TIPO DE LA/S LESIONES A RESECAR. 4. ANATOMÍA PATOLÓGICA DE LA LESIÓN A RESECAR NOTA: Respecto a LOS ENDOCLIPS PARA SER UTILIZADOS EN PROCEDIMIENTOS ENDOSCÓPICOS (Mucosectomía, Resecciones Submucosas u otros), en el caso de ser realmente necesaria su utilización, se deberá realizar la gestión de REPOSICION DE/LOS ELEMENTOS UTILIZADOS POR EL PROFESIONAL ACTUANTE, CONTRA LA DEMOSTRACIÓN POR VIDEO (CD O DVD) DE LA REAL NECESIDAD DE SU USO (complicación durante el procedimiento) Y DE LA CANTIDAD DE ELEMENTOS UTILIZADOS. No se proveerán clips endoscópicos previo al procedimiento y tampoco se aceptará que se le solicite la compra al afiliado, incitándolo a que luego gestione un reintegro.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081300",
       "description": "SET DE DRENAJE BILIAR PERCUTANEO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081301",
       "description": "HILO GUIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081302",
       "description": "SET INTRODUCTOR DE DAGOSTINO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081303",
       "description": "CAT.DRENAJE MULTIP PIG TAIL SKATER 14F",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081304",
       "description": "SET DE DRENAJE MULTIPROPOSITO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081305",
       "description": "SET BIL.INT/EXT HIDROF 2 2FR SELLINGER",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081306",
       "description": "HILO GUÍA PARA ENDOPRÓTESIS BILIARES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081400",
       "description": "SET DE DERIVACION ABDOMINAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081500",
       "description": "BALON NEUMATICO P/DILATACION ESOFASTICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081501",
       "description": "SET BALON NEUMAT DILAT TRANSENDOS CRR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081502",
       "description": "SET DE BALÓN DILATADOR NEUMÁTICO PERCUTÁNEO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081503",
       "description": "BALÓN PARA COMPRESIÓN DEL V PAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "081600",
       "description": "STENT BILIAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "082000",
       "description": "ENDOPROTESIS BILIAR PLASTICA (TEFLON, POLIURETANO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "082001",
       "description": "ENDOPROTESIS BILIAR METALICO (EN TODAS SUS MEDIDAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "082002",
       "description": "ENDOPROTESIS-STENT ESOFAGICO (DIFERENTES MEDIDAS)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "082003",
       "description": "ENDOPROTESIS BILIAR PLASTICA (TEFLON, POLIURETANO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "082004",
       "description": "ENDOPROTESIS BILIAR METALICO INTRODUCT. PERCUTANEO",
       "normativa": "INCLUYE: L. I. O.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "082100",
       "description": "TUBO DE GASTROSTOMIA (EN TODOS SUS DIAMETROS)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "090000",
       "description": "SUTURAS",
       "normativa": "PROTOCOLOS DE AUTORIZACIÓN Y AUDITORÍA SUTURAS MECÁNICAS PROCEDIMIENTOS GASTROINTESTINALES - NORMATIVAS DE USO - REQUISITOS DE SOLICITUD DE ELEMENTOS MÉDICOS Índice - Características tisulares y quirúrgicas de segmentos - Tipos de suturas mecánicas - Suturas Mecánicas en Cirugía Digestiva o Intestino Delgado/Esófago/Estómago o Gastrectomía compleja o Duodenopancreatectomía o Recto o Unión Rectosigmoidea y Sigmoides o Hemicolectomía  Abierta  Laparoscópica - Suturas Mecánicas en Cirugía Torácica y Pulmonar - Balones endoscópicos de dilatación - Drenajes percutáneos de colecciones - Drenaje biliar percutáneo 2 3 5 7 7 8 9 El presente documento pretende ser una guía para la Auditoría Médica IAPOS en la consideración de casos clínicos particulares, más una normativa de ordenamiento de los datos indispensables para su correcta evaluación, sobre casos específicos de elementos médicos comunes ligados a las prácticas solicitadas. 1 Características Quirúrgicas de los Segmentos Gastrointestinales 1.- Esófago.- Las condiciones quirúrgicas de este órgano son de las peores para realizar anastomosis, su acceso quirúrgico es difícil, la irrigación es muy pobre, el plano muscular débil y la submucosa fina. Por estas razones la prevención de las fugas y el desgarro de las suturas dependen casi totalmente del plano mucoso, que no es el mejor. Las fugas anastomóticas del esófago representan la más alta incidencia de mortalidad en la cirugía del esófago razón por la cual las anastomosis intratorácicas deben ser evitadas porque una fuga a este nivel tiene consecuencias desastrosas para el paciente y deben preferirse las uniones en el esófago cervical. En el esófago y el recto extraperitoneal son los sitios donde preferentemente deben usarse suturadores mecánicos por la facilidad con la cual se realizan. Las suturas manuales son más sencillas de realizarlas en estos sitios cuando se realizan en forma interrumpida tomando la totalidad de los planos usando material de sutura adecuado y procurando que la mucosa de ambos bordes quede en perfecta oposición. La inversión de la mucosa debe ser mínima para evitar las estenosis. 2.- Estómago.- Su gruesa capa muscular, y su gran irrigación hacen que la hemorragia en la línea de sutura sea uno de los principales riesgos durante una resección o gastronomía. Por esto es deseable siempre realizar una sutura continua de todos los planos, de manera preferente reforzándolo con un segundo plano seromuscular. Los aparatos mecánicos son excelentes para hacer la nueva curvatura menor, cerrar el duodeno y construir la anastomosis Billroth I o Billroth II, ahorrando tiempo en forma significativa. La sutura manual, de todas maneras, continua siendo el patrón estándar en manos de cirujanos entrenado. 3.- Intestino Delgado.- Es uno de los segmentos más nobles para realizar suturas y anastomosis termino-terminal, termino-lateral o latero-lateral. Es una de las primeras anastomosis que realiza el cirujano en entrenamiento por su baja incidencia en fugas y dehiscencias. Usualmente se utilizan en la anastomosis dos planos el primero continuo en la pared anterior y posterior, seguido por uno invaginante. Los suturadores mecánicos tienen muy poca cabida en este segmento. 4.- Colon.- El colon ha sido uno de los segmentos intestinales que mayores temores produce en los cirujanos, debido a su contenido altamente contaminante, en el caso de presentarse fugas anastomóticas. Las anastomosis de este segmento suelen realizarse en dos planos, un interno invaginante que puede ser perforante o extramucoso y un externo seromuscular de refuerzo. Se debe tener especial cuidado con mantener la irrigación del borde anastomótico y de evitar la tensión de la sutura. Las suturas mecánicas han tenido un importante aporte en la realización de las anastomosis rectales muy bajas, que producen una anastomosis invaginante, 2 directa, término-terminal y circular que no hubiera sido factible con técnicas manuales. Debemos anotar que en todas las.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "100100",
       "description": "PROTESIS TESTICULAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "100101",
       "description": "SUSTANCIA INYECTABLE PARA REFLUJO VESICOURETERAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "100400",
       "description": "CATETERES VESICALES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "100401",
       "description": "CAT IMPL P/QUIM C/VAL ANTIR C/EXT DISTA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "100402",
       "description": "CAT IMPL T/PORT UNITIZADO TIT E INTROD",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "100500",
       "description": "SONDAS VESICALES A PERMANENCIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "100505",
       "description": "SONDA FOLEY 2 VIAS (DIF MED)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "100517",
       "description": "COMPRAS - SONDA DE FOLEY SILICONADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "100601",
       "description": "COMPRAS - BOLSA COLECTORA DE ORINA 2L",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "100608",
       "description": "BOLSAS COLECTORAS DE ORINA PARA PIERNA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "100712",
       "description": "COMPRAS - PANAL ADULTO CON GEL (UNIDAD)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "100713",
       "description": "COMPRAS - PANAL ADULTO ELASTIZADO CON GEL (UNIDAD)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "100721",
       "description": "COMPRAS - PANAL INFANTIL ELASTIZADO C/ GEL(UNIDAD)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "100732",
       "description": "COMPRAS - PANAL JUVENIL CON GEL (UNIDAD)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "100733",
       "description": "COMPRAS - PANAL ELASTIZADO CON GEL (UNIDAD)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "100800",
       "description": "CHAPEAU (DISPOSITIVO P/INCONTINENCIA)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "100900",
       "description": "COLAGENO BARD",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101100",
       "description": "BOLSA DE UROSTOMIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101200",
       "description": "CATETER URETERAL DOBLE J",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101201",
       "description": "CATETER DOBLE J DE 26 FR X 6 CM",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101202",
       "description": "CATETER DOBLE J 6FR X 2,7-HIDROF G.H.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101203",
       "description": "CATETER DOB J PUNT AB. C/ALAM G/7FRX28",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101204",
       "description": "CATETER DOBLE JOTA 4.8 PUNTA CERRADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101205",
       "description": "CATÉTER DOBLE J GUIA TÉFLON",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101206",
       "description": "CATETER DOBLE J HIDROFIL. Y GUIA DE LARGA DURACION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101301",
       "description": "SLING URINARIO MASCULINO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101302",
       "description": "ESFINTER URINARIO ARTIFICIAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101303",
       "description": "SLING URINARIO FEMENINO SUPRAPUBICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101400",
       "description": "MALLA P/CIRUGIA PROLAPSO ANT O SISTOCEL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101401",
       "description": "MALLA P/CIRUGIA PROLAPSO POS O RECTOCEL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101402",
       "description": "MALLA P/CIRUGIA INCONT URIN. FEM SLING",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "101403",
       "description": "SET O KIT COMPLETO DE ARPONES PARA COLPOPEXIA VAGI",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "110000",
       "description": "DISPOSITIVO INTRAUTERINO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "120000",
       "description": "TRAUMATOLOGIA",
       "normativa": "PROTOCOLO DE autorización DE ELEMENTOS EN TRAUMATOLOGÍA Contenido I.- Prótesis Total de Cadera (PTC) II.- Prótesis Parcial de Cadera (PPC) III.- Prótesis Total de Cadera de Revisión (PTC-R) IV.- Prótesis Total de Rodilla (PTR) V.- Prótesis Total de Rodilla de Revisión (PTR-R) VI.- Prótesis de Hombro VII.- Prótesis de Tobillo y Codo VIII.- Osteosíntesis Placa-Tornillos IX.- Micro-osteosíntesis X.- Clavos Endomedulares XI.- Aarpones XII.- Tornillos Interferenciales XIII.- Sistemas Tipo Loop XIV.- Sistemas de Fijación Interespinosos XV.- Fijación Externa XVI.- Parches de Duramadre XVII.- fijación de Columna XVIII.- Injerto óseo-injerto de tendón XIX.- Sutura meniscal I.- Prótesis Total de Cadera (PTC): se reconocerá según rango etareo:  En menores de 40 años: prótesis mini hip.  Entre los 40 y 50 años: prótesis no cementada par de fricción cerámicopolietileno.  Entre los 50 y 65 años: prótesis no cementada par de fricción metalpolietileno hibrida importada  Entre los 65 y 75 años: prótesis híbrida nacional.  Hasta los 75 años: prótesis cementada nacional.  Doble movilidad en caso de insuficiencia del aparato abductor o lesiones neurologicas que generen inestabilidad –(cadera inestable)- menor de 65 años importado, mayor de 65 años nacional.  Tallo de fijación distal solo para deficit oseo metafisario femoral, menor de 65 años importado y mayores de 65 años nacional.  Materiales de titanio trabecular: se autorizaran en los casos donde la reconstrucción osea no sea posible (disrupcion pelvica). será excepcional y sujeta a auditoria médica debiendo aportar Rx y TAC reciente con reconstrucción 3D. II.- Prótesis Parcial de Cadera(PPC)  Se autorizarán PPC en casos de fractura mediales de caderas con artrosis asociada, en pacientes mayores de 80 años. Se autorizará material de origen nacional, tanto prótesis tipo Thompson como bipolar indistintamente.  En casos de fractura lateral se autorizarán tallos de revisión.  En fracturas laterales y subtrocantericas donde se decida realizar osteosíntesis se autorizaran clavo gamma menores 80 años y DHS mayores de 80 años. III.- Prótesis Total de Cadera de Revisión (PTC-R): se reconocerá según rango etareo:  En menores de 65años: PTC-R no cementada e hibrida par metal polietileno importado.  En mayores de 65 años: PTC-R hibrida o no cementada nacional.  En mayores de 75 años: PTC-R cementada nacional  Se autorizarán PTC-R no convencional para los casos de pérdida de stock óseo severo y lesiones tumorales dándose prioridad a material nacional IV.- Prótesis Total de Rodilla (PTR): se reconocerá según rango etareo:  Hasta los 65 años: Prótesis total de rodilla anatomica importada.  A partir de los 65 años: Prótesis total de rodilla a n a t o m i c a modular nacional.  Se reconocerán vástago tibial en pacientes con antecedentes traumáticos que desvíen el eje o en Artritis Reumatoidea manifiesta y de jerarquía, asociado a marcado sobrepeso. V.- Prótesis Total de Rodilla de Revisión (PTR-R): se reconocerá según rango etareo:  Hasta los 65 años: se reconocerá material importado.  A partir de los 65 años: se reconocerá material nacional.  Prótesis total de rodilla no convencional se autorizarán en casos de defecto osteoligamentario severo dándose prioridad a material nacional.  En los casos de lesión tumoral corresponde prótesis no convencional de origen nacional debiendo aportar centellografia, PET, TAC 3D y evaluación oncológica de sobrevida que debe ser mayor a 1 año.  Los conos de titanio trabecular se autorizaran en caso de deficit metafisario severo que no puedan reconstruirse con injerto oseo previo aporte y evaluación con Rx y TAC 3D. VI.- Prótesis de Hombro  Prótesis parcial de hombre en fractura a 4 fragmentos en los cuales sea imposible la reconstrucción del hueso o cuando este asociado a luxación. Se autorizará material importado hasta los 65 años y nacional a partir de 65 años.  Prótesis total de hombro en casos de artrosis severa (importada hasta los 65 a.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "120100",
       "description": "PEGAMENTO QUIRURGICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "120306",
       "description": "COTILO DE METAL TRABECULAR MULTIPERFORADO PARA REV",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "120307",
       "description": "SUTURA ALTA RESISTENC NO REABS FIREWIRE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "120307",
       "description": "SUTURA DE ALTA RESISTENCIA NO REABSORBIBLE TIPO FI",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "120308",
       "description": "SUTURA DE ALTA RESISTENCIA NO REABSORBIBLE TIPO FI",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "120309",
       "description": "SUTURA DE ALTA RESISTENCIA NO REABSORBIBLE IMP.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "120400",
       "description": "PROTESIS DE CADERA NO CEMENTADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "120508",
       "description": "PROT TOT CADERA REVISION Y DESCARTABLES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "120607",
       "description": "CUÑAS P/PROT. DE REV DIFERENTES TAM.X2",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "120700",
       "description": "PROTESIS DE OTRAS ARTICULACIONES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "120701",
       "description": "PROT. DE OTRAS ARTICULAC. Y DESCARTAB.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "120704",
       "description": "METACARPIANO.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "120801",
       "description": "OSTEOSINTESIS Y DESCARTABLES",
       "normativa": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "120802",
       "description": "BARRA DE NUSS PARA PECTUS EXCAVATUM",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "120807",
       "description": "PLACA MALEAB. 1/3 TUBO 3,5MM DIAM C/TOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "120908",
       "description": "TORNILLOS IMF NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "120909",
       "description": "TORNILLOS IMF IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "121002",
       "description": "SIST.RECTROESTERNAL P/PETUS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "121100",
       "description": "PROTESIS DE AMPUTACION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121200",
       "description": "PILON DE MARCHA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121300",
       "description": "MATERIAL P/CIRUG.COLUMNA(SIS.LUQUE/OTR)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121310",
       "description": "MESH PARA REEMPLAZO DE CUERPO VERTEBRAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121317",
       "description": "CAGE INTERSOMATICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121318",
       "description": "MAT P/CIRUG COLUMNA Y DESCARTABLES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121319",
       "description": "CAGE LUMBAR TECNICA TLIF(1 X NIVEL) NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121320",
       "description": "CAGE LUMBAR TECNICA TLIF(1 X NIVEL) IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121321",
       "description": "CAGE CERVICAL NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121322",
       "description": "CAGE CERVICAL IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121323",
       "description": "CAGE CERVICAL AUTOBLOQ TORN-PIN Y OT N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121324",
       "description": "CAGE CERVICAL AUTOBLOQ TORN-PIN Y OT I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121325",
       "description": "ARTROPLASTIA DISCO CERVICAL 1 NIV N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121326",
       "description": "ARTROPLASTIA DISCO CERVICAL 1 NIV I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121327",
       "description": "DOSIS DE HUESO AUTOLOGO DE BANCO EN CHIPS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "121328",
       "description": "CABEZA FEMORAL ESTRUCTURADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "121329",
       "description": "INJERTO TRICORTICAL DE CRESTA ILIACA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "121330",
       "description": "DOSIS DE SUSTITUTO OSEO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "121333",
       "description": "CAGE LUMBAR TITANIO / PEEK NACIONAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "121402",
       "description": "SLING URINARIO FEMENINO TOT (TRANSOBTURATRIZ)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "121503",
       "description": "TABLA OSEA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121605",
       "description": "CORSET DE KNIGHT TAYLOR REFORZADO CUTIL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121606",
       "description": "CORSET DE TAYLOR",
       "normativa": "EXCLUYE: del cálculo el financiamiento por Módulos COVID-19 y Test.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121610",
       "description": "COMPRAS - CORSET ORTOPEDICO BALLENADO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121611",
       "description": "COMPRAS - FAJA LUMBOSACRA BALLENADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121612",
       "description": "COMPRAS - CORSET BALLENADO CON BRETELES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121616",
       "description": "COMPRAS - CORSET DE KNIGHT-TAYLOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121702",
       "description": "CORS. BOSTON S/MEDIDA EN MOLDE DE YESO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121703",
       "description": "CORSET CRUCIFORME",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121704",
       "description": "CORSET DE JEWETT",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121706",
       "description": "CORSET TLS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121708",
       "description": "SISTEMA DE COMPRESION DINAMICO TORAXICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121709",
       "description": "DESROTADOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121730",
       "description": "COMPRAS - CORSET TERMNOCONFORMADO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121737",
       "description": "COMPRAS - ESPALDERA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121801",
       "description": "-",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "121810",
       "description": "COMPRAS - COOLAR DE FILADELFIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121812",
       "description": "COMPRAS - COLLAR DE SHANZ",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "121900",
       "description": "FERULAS PARA LUXACION CONGENITA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122000",
       "description": "CALZADO ORTOPÉDICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122001",
       "description": "CALZADO ORTOPÉDICO NIÑOS",
       "normativa": "Incluye: Pensión en habitación compartida, Honorarios médicos, Derechos de hemodinámia, Prácticas de RX, Medicamentos, Sustancia de Contraste y Material Descartable inherente al procedimiento. | Excluye: Cualquier otro procedimiento adicional. Se deja aclarado que el módulo contempla solo lo inherente a la realización de la práctica. Anestesia.",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122002",
       "description": "CALZADO ORTOPÉDICO ADULTOS",
       "normativa": "Incluye: Pensión en habitación compartida, Gastos operatorios, usos de fresas, Uso del Videoartroscopio, Medicamentos y Material descartable inherente al procedimiento. Punta de Shaver (incluido en valorización del módulo) | Excluye: Anestesia. Todas las complicaciones y/o procedimiento adicional, Materiales protésicos. Honorarios Médicos por cartera prestacional.",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122101",
       "description": "COMPRAS - PLANTILLAS ORTOPEDICAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122300",
       "description": "TUTOR EXTERNO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122312",
       "description": "TUTOR EXTERNO FIJACION MUNECA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122314",
       "description": "TUTOR EXTERNO Y DESCARTABLES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122402",
       "description": "RODILLERAS STD. C/SOP.ROTUL U VELC REF",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122403",
       "description": "RODILLERAS STD.C/BARRAS LAT. ALUM.REF.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122410",
       "description": "COMPRAS - RODILLERA DE NEOPRENE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122415",
       "description": "COMPRAS - INMOVILIZADOR DE RODILLA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122500",
       "description": "REPARACION PROT.AMPUTACION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122700",
       "description": "FERULA DE MOVIM. PASIVO TIPO TORONTO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122800",
       "description": "FERULA MIEMBROS SUPERIORES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122801",
       "description": "FERULA MIEMBROS INFERIORES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "122910",
       "description": "COMPRAS - MU±EQUERA NEOPRENE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "123000",
       "description": "MATERIAL P/INJERTO OSEO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "123310",
       "description": "COMPRAS - CABESTRILLO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "123312",
       "description": "COMPRAS - CABESTRILLO DE VIETNAM",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "123600",
       "description": "CLAVO ENDOMEDULAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123607",
       "description": "CLAVO ENDOMEDULAR Y DESCARTABLES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123608",
       "description": "ENDOBUTTON TITANIO-TITANIO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123609",
       "description": "ENDOBUTTON TITANIO-TITANIO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123611",
       "description": "ENDOBUTTON PEEK-PEEK IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123612",
       "description": "ENDOBUTTON HIBRIDO NACIONAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123613",
       "description": "ENDOBUTTON HIBRIDO IMPORTADO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123614",
       "description": "ENDOBUTTON DE ASA HIZABLE NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123615",
       "description": "ENDOBUTTON DE ASA HIZABLE IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123616",
       "description": "CANULAS ARTROSCOPIA DE CADERA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123617",
       "description": "CANULAS ARTROSCOPIA DE CADERA IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123618",
       "description": "FIJ DINAM CORTICAL P/ACROMIO CLAVIC N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123619",
       "description": "FIJ DINAM CORTICAL P/ACROMIO CLAVIC I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123620",
       "description": "FIJ DINAM CORTICAL P/SINDESMOSIS NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123621",
       "description": "FIJ DINAM CORTICAL P/SINDESMOSIS IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "123710",
       "description": "COMPRAS - CINTURON PELVICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "123901",
       "description": "ARPONES P/MANG. ROT. HOMBRO C/SET MED",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "124000",
       "description": "ORTESIS TERMOPLASTICAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "124107",
       "description": "GRAMPAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "124108",
       "description": "SET DE SUTURA MENISCAL (2) NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "124109",
       "description": "SET DE SUTURA MENISCAL (2) IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "124300",
       "description": "CONO DE ENCHUFE A PROTESIS DE AMPUTAC.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "124500",
       "description": "ROPA COMPRESIVA PARA QUEMADOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "124601",
       "description": "MINI PLACA P/FRACT.MAXILOFAC C/TORN AL.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "124607",
       "description": "CLAVO ENDOMEDULAR DE TIBIA FORRADO EN ANTIBIOTICOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "124900",
       "description": "CLAVIJAS DE KIRSCHNER",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "125002",
       "description": "EXTRACTOR DE PROTESIS (ALQUILER)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "125200",
       "description": "ESPACIADOR PARA PROTESIS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "125500",
       "description": "SET DE MOSAICOPLASTIA DE TOBILLO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126001",
       "description": "PROTESIS PARC. CADERA THOMPSON CEMENT N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126002",
       "description": "PROTESIS PARCIAL CADERA BIPOL CEMENT N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126003",
       "description": "PROTESIS TOTAL CADERA CEMENT. NACIONAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126004",
       "description": "PROTESIS TOTAL CADERA CEMENT. IMPORTADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126005",
       "description": "PROT TOT CAD CEMENT COTILO AUTORET NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126006",
       "description": "PROT TOT CAD CEMENT COTILO AUTORET IMPO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126007",
       "description": "PROTESIS TOTAL CADERA HIBRIDA NACIONAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126008",
       "description": "PROTESIS TOTAL CADERA HIBRIDA IMPORTADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126009",
       "description": "PROTESIS TOT CADERA NO CEMENTADA IMPORT",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126011",
       "description": "PROTESIS TOTAL CADERA REVISION CEMENTADO  (CABEZA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126012",
       "description": "PROTESIS TOT CADERA DE REV CEMENT IMP.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126013",
       "description": "PROTESIS TOT CADERA DE REV HIBRIDA IMP.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126014",
       "description": "PROTESIS TOT CADERA REV NO CEMENT IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126019",
       "description": "PROTESIS TOT RODILLA IMPORTADA MODULAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126021",
       "description": "PROT TOT RODILLA REV NAC C/VAST FEM/TIB",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126023",
       "description": "PROT TOT RODILLA REV IMP C/VAST FEM/TIB",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126024",
       "description": "PROTESIS TOTAL INVERTIDA DE HOMBRO CEMENTADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126026",
       "description": "CUNAS P/PROTESIS DE REVISION DE RODILLA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126027",
       "description": "PROTESIS PARCIAL HOMBRO CEMENTADA NACIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126028",
       "description": "PROTESIS PARCIAL HOMBRO CEMENTADA IMPOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126029",
       "description": "PROTESIS TOTAL DE HOMBRO NACIONAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126030",
       "description": "PROTESIS TOTAL DE HOMBRO IMPORTADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126031",
       "description": "PROTESIS CUPULA RADIAL CEMENTADA NACION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126033",
       "description": "MAT. INJERTO OSEO DE BANCO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126034",
       "description": "PROTESIS PARCIAL CADERA BIPOLAR IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126035",
       "description": "PROTESIS TOT CADERA NO CEMENTADA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126036",
       "description": "PR T.CAD.NO CEM MET MET/ CER CERAM NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126037",
       "description": "PRT.CAD.NO CEM MET MET/ CER CERAM IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126039",
       "description": "PROTESIS TOTAL CADERA REVISION HIBRIDO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126041",
       "description": "PROTESIS TOT RODILLA NACIONAL MODULAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126042",
       "description": "PROT TOT ROD NAC C/1 VAST Y 1 CU?A REV",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126043",
       "description": "PROT TOT ROD IMP C/1 VAST Y 1 CU?A REV",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126044",
       "description": "PROTESIS TOTAL DE RODILLA DE RESECCION TUMORAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126045",
       "description": "PROTESIS TOTAL INVERTIDO DE HOMBRO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126049",
       "description": "PROT UNINOMPARTIMENTAL BASE METAL IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126051",
       "description": "PROT UNINOMPARTIMENTAL BASE POLIET.IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126052",
       "description": "PROTESIS TOTAL DE TOBILLO IMPORTADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126053",
       "description": "PROT TOT CAD CEMENT.TIPO MONOBLOCK NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126057",
       "description": "PROT CAD P/RESECCION TUMORAL PARC. NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126058",
       "description": "PROT CAD P/RESECCION TUMORAL PARC. IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126059",
       "description": "PROT CAD P/RESEC TUMORAL FEMUR TOT.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126060",
       "description": "PROT CAD P/RESEC TUMORAL FEMUR TOT.IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126062",
       "description": "PROT TOT ROD MODULAR PLATILLO MOVIL IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126063",
       "description": "PROT TOT ROD MODU NAC C/VAST FEM Y TIB",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126064",
       "description": "PROT TOT ROD MODU IMP C/VAST FEM Y TIB",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126065",
       "description": "PROT T ROD MOD C/VAST-CUNA REV ROT NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126066",
       "description": "PROT T ROD MOD C/VAST-CUNA REV ROT IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126068",
       "description": "PROT PAR RODILLA PATELO FEMORAL IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126069",
       "description": "PROTESIS PARCIAL DE CADERA BIPOLAR  CON TALLO FEMO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126070",
       "description": "PROTESIS TOTAL CADERA CEMENTADA CON COTILO DOBLE M",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126071",
       "description": "PROTESIS TOTAL CADERA CEMENTADA CON COTILO DOBLE M",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126072",
       "description": "PROTESIS TOTAL CADERA HIBRIDO CON COTILO DOBLE MOV",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126073",
       "description": "PROTESIS TOTAL CADERA HIBRIDO CON COTILO DOBLE MOV",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126074",
       "description": "PROTESIS TOTAL CADERA HIBRIDO CON COTILO RETENTIVO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126075",
       "description": "PROTESIS TOTAL CADERA HIBRIDO CON COTILO RETENTIVO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126076",
       "description": "PROTESIS TOTAL CADERA NO CEMENTADA COTILO DOBLE MO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126077",
       "description": "PROTESIS TOTAL CADERA NO CEMENTADA COTILO DOBLE MO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126078",
       "description": "PROTESIS TOTAL CADERA NO CEMENTADA COTILO RETENTIV",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126079",
       "description": "PROTESIS TOTAL CADERA NO CEMENTADA MINI HIP (CABEZ",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126080",
       "description": "PROTESIS TOTAL CADERA REVISION HIBRIDO COTILO DOBL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126081",
       "description": "PROTESIS TOTAL CADERA REVISION HIBRIDO COTILO DOBL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126082",
       "description": "PROTESIS TOTAL CADERA REVISION NO CEMENTADA COTILO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126083",
       "description": "PROTESIS TOTAL DE RODILLA  ALL  POLY",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126084",
       "description": "PROTESIS TOTAL DE RODILLA ALL POLY",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126085",
       "description": "TALLO NO CEMENTADO DE FIJACION DISTAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126086",
       "description": "SET DE DESCEMENTACION Y EXTRACCIÓN DE PRÓTESIS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126087",
       "description": "COTILO DOBLE MOVILIDAD CEMENTADO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126088",
       "description": "COTILO DOBLE MOVILIDAD CEMENTADO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126089",
       "description": "COTILO DOBLE MOVILIDAD NO CEMENTADO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126090",
       "description": "COTILO DOBLE MOVILIDAD NO CEMENTADO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126091",
       "description": "COTILO RETENTIVO NO CEMENTADO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126092",
       "description": "COTILO RETENTIVO NO CEMENTADO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126093",
       "description": "TALLO NO CEMENTADO DE FIJACIÓN  DISTAL IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126094",
       "description": "PROTESIS ABISAGRADA PRIMARIA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126095",
       "description": "PROTESIS ABISAGRADA PRIMARIA IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126096",
       "description": "DOSIS DE CEMENTO SIN ATB",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126097",
       "description": "DOSIS DE CEMENTO CON ATB",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126501",
       "description": "OSTEOSINTESIS PARA PEQ FRAGMENTOS NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126503",
       "description": "PLACA TORNILLO DESLIZANTE TIPO DHS NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126504",
       "description": "CLAVOS PLACA TIPO MULLER NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126505",
       "description": "PLACA TIPO PUDU P/OSTEOTOMIAS TIBIA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126506",
       "description": "PLACA MAXILO-FACIAL NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126507",
       "description": "ALAMBRE QUIRURGICO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126508",
       "description": "CLAVOS STEIMANN CUALQ.DIAM/LARGO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126509",
       "description": "CLAVOS KIRSCHNER CUALQ.DIAM/LGO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126510",
       "description": "GRAMPAS ACERO INOX CUALQ.MEDIDA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126511",
       "description": "GRAMPAS DE TITANIO CUALQ MEDIDA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126513",
       "description": "MALLAS DE RECONSTRUCCION DE TITANIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126516",
       "description": "TORNILLOS SCHANTZ P/TUTORES NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126517",
       "description": "PLACA T DOBLE ACOD.C/TOR.TIBIAL NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126520",
       "description": "PLACA 1/3 DE TUBO 3,5 MM C/TORN NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126521",
       "description": "PLACA DCP 3,5 MM CON TORNILLOS NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126522",
       "description": "PLACA DCP 4,5 MM CON TORNILLOS NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126523",
       "description": "PLACA P/EXTR DISTAL DE RADIO EN T NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126524",
       "description": "PLACA P/EXT DISTAL RADIO BLOQ EN T NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126525",
       "description": "PLACA P/EXTR PROXIMAL HUMERO N/BLO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126527",
       "description": "PLACA RECONST 3,5 MM C/TORN NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126528",
       "description": "PLACA RECONST 3,5 MM BLOQ C/TORN NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126530",
       "description": "PLACA RECONST 4,5 MM BLOQ C/TORN NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126531",
       "description": "PLACA BLOQ P/EXTREMO DISTAL FEMUR NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126532",
       "description": "PLACA PARA RECONST DE CALCANEO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126533",
       "description": "TORNILLOS CORTICALES DE 3,5 MM/ARAND N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126534",
       "description": "TORNILLOS CORTICALES DE 4,5 MM/ARAND N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126536",
       "description": "TORNILLOS DE ESPONJOSA 6,5 MM Y ARAND N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126537",
       "description": "TORNILLOS MALEOLARES Y ARAND NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126538",
       "description": "TORNILLOS CANULADOS TIPO HERBERT NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126539",
       "description": "TORNILLOS CANULADOS DE 7 MM NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126540",
       "description": "TORNILLOS CANULADOS DE 4,5 MM NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126543",
       "description": "PLACA TORNILLO DESLIZANTE DHS IMPORTADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126548",
       "description": "MAT. P/COL FIJ.V ANT.TIT 2N.CERV.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126555",
       "description": "MAT. INTERSOMATICO COLUMNA CELDAS X 2",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126557",
       "description": "ANILLOS BURT-SCHNEIDER NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126564",
       "description": "CLAVOS PLACA TIPO MULLER IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126566",
       "description": "ESPAC.CEMENT. P/CADERA C/GENTAMIC.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126567",
       "description": "ESPAC.CEMENT. P/CADERA C/GENTAMIC.IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126570",
       "description": "ESPAC.CEMENT.P/CAD.DE ARM.INTRAQUIR.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126572",
       "description": "ESPAC.CEMENT.P/ROD.PREFOR.C/GENTAM.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126573",
       "description": "ESPAC.CEMENT.P/ROD.PREFOR.C/GENTAM.IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126574",
       "description": "ESPAC.CEMENT.P/ROD.PREFOR.C/TOBRAM.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126576",
       "description": "ESPAC.CEMENT.P/ROD.D/ARM.INTRAQUIR.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126578",
       "description": "ESPAC.CEMENT.P/HOMB.PREFOR.C/GENTAM.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126585",
       "description": "GRAMPAS DE TITANIO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126586",
       "description": "MALLA TIT.MAXILOFACIAL(P/ORB O SIM).NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126587",
       "description": "MALLA TIT.MAXILOFACIAL(P/ORB O SIM).IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126591",
       "description": "PLACA TORNILLO DESLIZANTE DHS MAS DE 10 ORIFICIOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126600",
       "description": "MAT. P/COL FIJ.V ANT.TIT CERV.IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126601",
       "description": "MAT. P/COL FIJ.V ANT.TIT 3N.CERV.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126602",
       "description": "MAT. P/COL FIJ.V ANT.TIT 3N.CERV.IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126610",
       "description": "MAT.P/COL FIJ.V ANT TIT.4 NIV CERV.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126611",
       "description": "MAT.P/COL FIJ.V ANT TIT.4 NIV CERV.IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126614",
       "description": "MAT.P/COL FIJ.V POST.C/TIT OCC-CERV.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126615",
       "description": "MAT.P/COL FIJ.V POST.C/TIT OCC-CERV.IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126655",
       "description": "MAT.P/COL P/ VERTEBROPLASTIA IMP.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126657",
       "description": "MAT.P/COL EST.DIN.V POST.ELASTOM/PEEK.I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126658",
       "description": "MICROTORNILLOS CANUL. TIPO HERBERT NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126659",
       "description": "MICROTORNILLOS CANUL. TIPO HERBERT IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126661",
       "description": "OSTEOSINTESIS PARA PEQ FRAGMENTOS IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126662",
       "description": "OSTEOSINTESIS PARA PEQ FRAG BLOQ NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126664",
       "description": "PLACA TORNILLO DESLIZANTE TIPO DHS IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126665",
       "description": "PLACA TIPO PUDU OSTEOTOMIAS TIBIA IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126666",
       "description": "PLACA T.PUDU OSTEOT VARIZANTE FEMO.NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126667",
       "description": "PLACA T.PUDU OSTEOT VARIZANTE FEMO.IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126669",
       "description": "PLACA T DOBLE ACOD.C/TOR.TIBIAL BLOQ. N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126676",
       "description": "PLACA DCP 3,5 MM C/TORNILLOS IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126677",
       "description": "PLACA DCP 3,5 MM C/TORNILLOS BLOQ NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126678",
       "description": "PLACA DCP 3,5 MM C/TORNILLOS BLOQ IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126680",
       "description": "PLACA DCP 4,5 MM C/TORNILLOS BLOQ NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126681",
       "description": "PLACA DCP 4,5 MM C/TORNILLOS BLOQ IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126683",
       "description": "PLACA P/EXT DISTAL RADIO BLOQ EN T IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126684",
       "description": "PLACA P/EXTR PROXIMAL HUMERO N/BLO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126687",
       "description": "PLACA RECONST 3,5 MM BLOQ C/TORN IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126689",
       "description": "PLACA RECONST 4,5 MM BLOQ C/TORN IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126690",
       "description": "PLACA BLOQ P/EXTREMO DISTAL FEMUR IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126691",
       "description": "PLACA PARA RECONST DE CALCANEO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126692",
       "description": "TORNILLOS SCHANTZ P/TUTORES IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126693",
       "description": "TORNILLOS CORTICALES DE 3,5 MM/ARAND I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126694",
       "description": "TORNILLOS CORTICALES DE 4,5 MM/ARAND I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126695",
       "description": "TORNILLOS DE ESPONJOSA DE 4 MM/ARAND N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126696",
       "description": "TORNILLOS DE ESPONJOSA DE 4 MM/ARAND I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126697",
       "description": "TORNILLOS DE ESPONJOSA 6,5 MM Y ARAND I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126698",
       "description": "TORNILLOS MALEOLARES Y ARAND IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126699",
       "description": "TORNILLOS CANULADOS TIPO HERBERT IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126700",
       "description": "TORNILLOS CANULADOS DE 4,5 MM IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126701",
       "description": "TORNILLOS CANULADOS DE 6,5 MM NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126702",
       "description": "TORNILLOS CANULADOS DE 6,5 MM IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126703",
       "description": "TORNILLOS CANULADOS DE 7 MM IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126704",
       "description": "TORN INTERF P/LIG CRUZ ANT TITANIO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126705",
       "description": "TORN INTERF P/LIG CRUZ ANT TITANIO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126706",
       "description": "TORN INTERF P/LIG CRUZ ANT R. ROMA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126707",
       "description": "TORN INTERF P/LIG CRUZ ANT R. ROMA IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126709",
       "description": "TORN INTERF P/LIG CRUZ ANT BIODEGRA I.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126710",
       "description": "CLAVO DE NANCY TITANIO Y ACERO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126711",
       "description": "CLAVO DE NANCY TITANIO Y ACERO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126712",
       "description": "CLAVO PLACA DE CADERA PEDIATRICA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126713",
       "description": "CLAVO PLACA DE CADERA PEDIATRICA IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126714",
       "description": "TORNILLOS SCHANTZC/HIDROXIOPATITA IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126715",
       "description": "SET PLACA MAXILOFAC 1,5/2MM TIT.(2)NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126716",
       "description": "SET PLACA MAXILOFAC 1,5/2MM TIT.(2)IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126717",
       "description": "SET PLACA MAXILOFAC 1,5/2MM TIT.BL(2)NA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126718",
       "description": "SET PLACA MAXILOFAC 1,5/2MM TIT.BL(2)IM",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126727",
       "description": "PLACA PARA ARTRODESIS DE MUNECA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126728",
       "description": "PLACA PARA ARTRODESIS DE MUNECA IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126729",
       "description": "CLAVO DE ENDERS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126730",
       "description": "PLACA ANAT PERILOCK P/EXT PROX TIBIA N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126731",
       "description": "PLACA ANAT PERILOCK P/EXT PROX TIBIA I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126732",
       "description": "PLACA ANAT PERILOCK P/EXT DIST TIBIA N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126733",
       "description": "PLACA ANATÓMICA BLOQUEADA PARA HUMERO DISTAL IMPOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126734",
       "description": "PLACA ANAT PERILOCK P/EXT PROX FEMUR N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126735",
       "description": "PLACA ANAT PERILOCK P/EXT PROX FEMUR I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126736",
       "description": "PLACA  ANAT BLOQ PARA CLAVICULA N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126737",
       "description": "PLACA  ANAT BLOQ PARA CLAVICULA I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126738",
       "description": "PLACA ANATÓMICA BLOQUEADA PARA HUMERO DISTAL NAC.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126739",
       "description": "PLACA  ANAT BLOQ P/HUMERO DISTAL I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126740",
       "description": "PLACA  ANAT P/TROCANTE MAY T/ACCORD N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126741",
       "description": "PLACA  ANAT P/TROCANTE MAY T/ACCORD I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126742",
       "description": "PLACA  ANAT T/COMPACT FOOT RECTA/X N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126743",
       "description": "PLACA  ANAT T/COMPACT FOOT RECTA/X I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126744",
       "description": "PLACA 1/3 TUBO BLOQUEADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126745",
       "description": "PLACA 1/3 DE TUBO 3,5 MM C/TORN BLOQ I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126746",
       "description": "TORNILLO TIPO TWIST OFF NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126747",
       "description": "TORNILLO TIPO TWIST OFF IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126748",
       "description": "TORNILLO TIPO BAROUK NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126749",
       "description": "TORNILLO TIPO BAROUK IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126750",
       "description": "TORNILLO TIPO CALCANEO STOP NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126751",
       "description": "TORNILLO TIPO CALCANEO STOP IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126752",
       "description": "ESPAC.CEMENT P/CAD C/GENTAM.C/T REV N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126753",
       "description": "ESPAC.CEMENT P/CAD C/GENTAM.C/T REV I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126755",
       "description": "ESPAC.CEMENT P/CAD C/TOBRAMI.C/T REV I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "126756",
       "description": "MAT. P/COL V POST. ADULTO 1N NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126757",
       "description": "MAT. P/COL V POST. ADULTO 1N IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126758",
       "description": "MAT. P/COL V POST. PEDIATRICA 1N NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126759",
       "description": "MAT. P/COL V POST. PEDIATRICA 1N IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126760",
       "description": "MAT.P/COL FIJ.V POST.CERV(2PLACAS) NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126761",
       "description": "SET PLACA MAXILOFAC 2,5 TIT. (2) NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126762",
       "description": "SET PLACA MAXILOFAC 2,5 TIT. (2) IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126763",
       "description": "SET PLACA MAXILOFAC 2,5 TIT.BL (2) NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126764",
       "description": "SET PLACA MAXILOFAC 2,5 TIT.BL (2) IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126765",
       "description": "MAT.P/COL FIJ.V POST.CERV(2PLACAS) IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126766",
       "description": "MICROTORNILLO MACIZO DE PARA CORTICAL DE 1,5 A 2,7",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126767",
       "description": "MICROTORNILLO MACIZO DE PARA CORTICAL DE 1,5 A 2,7",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126768",
       "description": "OSTEOSINTESIS MICROFRAGMENTOS BLOQUEADO    DE 1,2",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126769",
       "description": "OSTEOSINTESIS MICROFRAGMENTOS BLOQUEADO    DE 1,2",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126770",
       "description": "PLACA ANATOMICA BLOQUEADA PARA OLECRANON",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126771",
       "description": "PLACA ANATOMICA BLOQUEADA PARA OLECRANON",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126772",
       "description": "MICRO GRAMPA DE TITANIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126773",
       "description": "MICRO GRAMPA DE TITANIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126774",
       "description": "PLACA DE ANGULO VARIABLE BLOQUEADA PEDIATRICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126775",
       "description": "PLACA DE ANGULO VARIABLE BLOQUEADA PEDIATRICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126776",
       "description": "PLACA CABLE BLOQUEADA CON TORNILLO DIVERGENTE CON",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126777",
       "description": "PLACA CABLE BLOQUEADA CON TORNILLO DIVERGENTE CON",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126778",
       "description": "TUTOR ORTHOFIX PARA FRACTURA DE HUMERO TIBIA O FEM",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126779",
       "description": "TORNILLO INTERFERENCIAL PARA LCA EN PEEK IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126780",
       "description": "MICROTORNILLO TIPO HERLBERT MAYOR A 4 MM PARA MANO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126781",
       "description": "MATERIAL COLUMNA CERVICAL VÍA POSTERIOR ADULT0 1N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Neurología"
     },
     {
       "code": "126783",
       "description": "TORNILLO INTERFERENCIAL PARA LCA EN PEEK NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126784",
       "description": "MICROTORNILLO TIPO HEBERT 4MM PARA MANO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126790",
       "description": "PLACA MAXILOFACIAL PARA MENTON CHIN PLATE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126791",
       "description": "MEMBRANA DE COLAGENO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "126792",
       "description": "PLACA PARA ARTRODESIS DE TOBILLO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "126793",
       "description": "PLACA DE RECONSTRUCCION 2,5 MAXILOFACIAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127000",
       "description": "TRAUMATOLOGIA - ARPONES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127001",
       "description": "ARPONES P/TECNICA ARTROSCOPICA TIT NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127002",
       "description": "ARPONES DE 3 MM EN TITANIO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127003",
       "description": "ARPONES DE 5 MM EN TITANIO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127004",
       "description": "ARPONES P/TECNICA ARTROSCOPICA TIT IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127006",
       "description": "ARPONES P/TECNICA ARTROSCOP DEGRAD IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127007",
       "description": "ARPONES DE 3 MM EN TITANIO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127008",
       "description": "ARPONES DE 5 MM EN TITANIO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127009",
       "description": "ARPONES DE 3 MM BIODEG ALTA RESIST NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127010",
       "description": "ARPONES DE 3 MM BIODEG ALTA RESIST IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127012",
       "description": "ARPONES DE 5 MM BIODEG ALTA RESIST IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127015",
       "description": "ARPONES P/TEC ARTR PEEK 3,5 Y 5 MM NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127016",
       "description": "ARPONES P/TEC ARTR PEEK 3,5 Y 5 MM IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127017",
       "description": "ARPON DE 1.4 MM TITANIO (MANO-PIE) NACIONAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127018",
       "description": "ARPON DE 1.4 MM TITANIO (MANO-PIE) IMPORTADO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127023",
       "description": "MICRO ARPON BIODEGRADABLE O SOLO SUTURA (MANO-PIE)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127024",
       "description": "ARPON MANO-PIE SOLO SUTURA NACIONAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127025",
       "description": "ARPON MANO-PIE SOLO SUTURA IMPORTADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127501",
       "description": "CLAVO ENDOMED ACERROJ HUM ANTEROGRAD N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127502",
       "description": "CLAVO ENDOMED ACERROJ HUM RETROGRAD N.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127503",
       "description": "CLAVO ENDOMED P/RECONS PROXIMAL HUM N.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127504",
       "description": "CLAVO ENDOMED P/FEMUR TIPO GAMMA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127505",
       "description": "CLAVO ENDOMED ACERROJ P/FEM ANTEROGR N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127506",
       "description": "CLAVO ENDOMED ACERROJ P/FEM RETROGR N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127507",
       "description": "CLAVO ENDOMED ACERROJADO DE TIBIA NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127508",
       "description": "CLAVO ENDOMED ACERROJ HUM ANTEROGRAD I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127509",
       "description": "CLAVO ENDOMED ACERROJ HUM RETROGRAD I.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127510",
       "description": "CLAVO ENDOMED P/RECONS PROXIMAL HUM I.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127511",
       "description": "CLAVO ENDOMED P/FEMUR TIPO GAMMA IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127512",
       "description": "CLAVO ENDOMED ACERROJ P/FEM ANTEROGR I",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127513",
       "description": "CLAVO ENDOMED ACERROJ P/FEM RETROGR I.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127514",
       "description": "CLAVO ENDOMED ACERROJADO DE TIBIA IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127519",
       "description": "CLAVO RETROG P/ARTRODESIS TOBILLO NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127520",
       "description": "CLAVO RETROG P/ARTRODESIS TOBILLO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127521",
       "description": "SET DE PLACAS EN 8 (2) NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127522",
       "description": "SET DE PLACAS EN 8 (2) IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127601",
       "description": "SISTEMA FIJACION CORTICAL PARA LCA TITANIO NACIONA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127602",
       "description": "SISTEMA FIJACION CORTICAL PARA LCA TITANIO IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127604",
       "description": "SIST TRANSV P/LCA TIT FIJ CORT HIB NAC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127606",
       "description": "CLAVO ENDOMEDULAR DE FEMUR FORRADO EN ANTIBIOTICOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127607",
       "description": "SISTEMA DE FIJACION TIPO XLIF",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127608",
       "description": "SISTEMA DE FIJACION TIPA ALIF",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127609",
       "description": "BOTON ALL INSIDE PEDIATRICO PARA LCA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127610",
       "description": "SIST. LATARJET P/INESTABILIDAD HOMBRO CON TORNILLO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "127611",
       "description": "BOTON IZABLE PARA BICEPS DISTAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "128007",
       "description": "TUT AO P/FRAC EXP GRAVES TRAT URG NAC.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "128008",
       "description": "TUTOR EXTERNO DE MUNECA NAC.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "128016",
       "description": "TUT AO P/FRAC EXP GRAVES TRAT URG IMP.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "128017",
       "description": "TUTOR EXTERNO DE MUNECA IMP.",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "128018",
       "description": "TUT EXT ILIZAROV IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "128019",
       "description": "TUTOR DE RECONSTRUCCION FEMUR, TIBIA O HUMERO LRS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "128020",
       "description": "TUTOR DE RECONSTRUCCION FEMUR, TIBIA O HUMERO LRS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "177006",
       "description": "ARPONES P/TECN ARTROSCOPICA BIODEG IMP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "200618",
       "description": "CAPSULA ENDOSCOPICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "202500",
       "description": "STENT CUB.P/ ANEURISMA ARTERIAL  PER. BALON EXPAND",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Cardiología"
     },
     {
       "code": "240100",
       "description": "CATETERES",
       "normativa": "PROTOCOLO PARA SOLICITUD DE CATÉTERES SEMI IMPLANTABLES Los catéteres Semi Implantables, son muy utilizados en pacientes que requieren NUTRICIÓN PARENTERAL (total o complementaria N. P. T. / N. P. C.) sea en la etapa Hospitalaria o bien luego en la Internación domiciliaria. Son Catéteres que pueden ser de simple vía (Lumen o Luz) o de doble vía (Lumen o luz), y que por usos y costumbres han sido denominados con el nombre de sus creadores: Catéteres de Broviac® y de Hickman®, situación que en la actualidad ya no se utiliza, dado que dichos nombres propios, hoy son marcas registradas por una empresa. Por tal motivo, y se verá en la normativa del pedido, no se aceptarán pedidos de catéteres con nombres propios, sino que se deberá limitar el pedido al número de Luces o Lúmenes del catéter que se requiera para cada situación en especial, léase: CATÉTER SEMI IMPLANTABLE DE UNA VÍA (En lugar de Catéter de Broviac®) o CATÉTER DE DOBLE VÍA (En lugar de Catéter de Hickman®) Dado que dichos catéteres, son catéteres de larga estancia y que son imprescindibles para el sostén vital de los pacientes, hay dos cuidados fundamentales en los mismos: La colocación del catéter y su correcta ubicación en la vena central (No en cavidades), el adecuado tunelizado y el correcto sellado del mismo. Práctica que debe realizarse en quirófano y de preferencia bajo radioscopía, para garantizar la ubicación del “tip” del catéter. La correcta utilización del mismo (Habilitación primero), pasaje de la sustancia con normas de antisepsia adecuadas y el SELLADO O CIERRE HEPARÍNICO del mismo, lo que garantiza la no obstrucción (Coagulación) y la vida útil del catéter. El primero depende del cirujano actuante y el segundo del personal que administra las sustancias (En general personal de enfermería). Para la solicitud de un CATÉTER SEMI IMPLANTABLE, se deberán cumplir con los siguientes requisitos: 1. PEDIDO MÉDICO DEL CATÉTER, ADECUADAMENTE SOLICITADO, CON EL TIPO DE CATÉTER (NÚMERO DE LUCES O LÚMENES: UNA VÍA O DOS VÍAS, no por nombre propio) Y PRINCIPALMENTE EL DIÁMETRO (Ø) DEL CATÉTER QUE SE SOLICITARÁ, variable según el paciente. 2. HISTORIA CLÍNICA COMPLETA EN LA CUAL SE DETALLE LA PATOLOGÍA DE BASE DEL PACIENTE, EL MOTIVO DEL PEDIDO (Nutrición Parenteral u otro) Y EL TIEMPO QUE SE INSTAURARÁ EL TRATAMIENTO. 3. EN EL CASO DE REQUERIRSE PARA N. P. T. o N. P. C. (Complementaria), EL PEDIDO DEBERÁ ESTAR ACOMPAÑADO DE UNA EVALUACIÓN FIRMADA POR LICENCIADA/O EN NUTRICIÓN, ADEMÁS DEL PEDIDO MÉDICO. 4. EL PEDIDO LO FORMULARÁ EL CIRUJANO QUE COLOCARÁ EL CATÉTER O BIEN EL MÉDICO TRATANTE, INDICANDO EL PROFESIONAL QUE REALIZARÁ LA PRÁCTICA DE COLOCACIÓN. La colocación deberá ser realizada en quirófano y deberá contar con PROTOCOLO QUIRÚRGICO Y CERTIFICADO DE IMPLANTE CON LOS ELEMENTOS QUE DEMUESTREN SU COLOCACIÓN (Stickers ad hoc, material de sellado del blíster u otros, según lo normatizado en la licitación de los Catéteres Semi Implantables.) 5. CERTIFICADO DE DISCAPACIDAD en el caso que el paciente lo posea.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "240200",
       "description": "BOMB.INFUSION PORTATIL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "240201",
       "description": "RESERVORIOS P/BOMBA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "240202",
       "description": "SET DE INFUSION P/ BOMBA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "240204",
       "description": "BOMBAS PORT.INFUSION DE QUIMIO(ELAST)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "240300",
       "description": "BOMB.INFUSION IMPLANTADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "240400",
       "description": "FILTRO PARA GLOBULOS ROJOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "240401",
       "description": "FILTROS DESLEUCOCITADORES P/GLOBULOS RO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "240402",
       "description": "FILTROS DESLEUCOCITADORES PARA PLAQUETAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "240500",
       "description": "AGUJAS PARA PUNCION BIOPSIA DE MEDILA OSEA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "240501",
       "description": "AGUJAS PARA ASPIRACION DE MEDULA OSEA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "270100",
       "description": "FILTROS P/HEMODIALISIS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "270101",
       "description": "CATETERES P/DIALISIS DOBLE LUMEN",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "270102",
       "description": "CATETER DOBLE LUMEN P/HEMODIALISIS 12FR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "270300",
       "description": "SET PARA NEFRACTOMIA PERCUTANEA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "270301",
       "description": "SET NEFROSTOMIA F 12 COMP C/ BALON DIL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370000",
       "description": "MATERIAL DESCARTABLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370001",
       "description": "APOSITO DE PROTECTOR AUTOADHESIVO TRANSPARENTE PAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370100",
       "description": "AGUJAS DE PUNCION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370101",
       "description": "MATERIAL P/CURACION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370102",
       "description": "JERINGA DESCARTABLE 60 CC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370103",
       "description": "JERINGA DESCARTABLE TOOMEY",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370106",
       "description": "SOLUCION SALINA ESTERIL AL 9% (SUERO FISIOLOGICO)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370107",
       "description": "AGUJA DE BIOPSIA PARA ECO ENDOSCOPÍA DIGESTIVA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370111",
       "description": "APOSITO DE HIDROCOLOIDE (AUTOADHESIVO O NO) EN TOD",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370112",
       "description": "APOSITO DE HIDROCOLOIDE TRANSPARENTE  EN TODAS SUS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370113",
       "description": "APOSITO DE HIDROCOLOIDE CON ALGINATO DE CALCIO, CO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370114",
       "description": "HIDROCOLOIDE EN PASTA",
       "normativa": "PROTOCOLO PARA SOLICITUD DE MATERIALES DE CURACIONES DE LESIONES CRÓNICAS DE LA PIEL Se reúnen en este protocolo, aquellos procedimientos productos de uso frecuente para el tratamiento de lesiones “crónicas” de la piel, como ESCARAS POR DECÚBITO, LESIONES POR PRESIÓN, LESIONES ISQUÉMICAS (Ulceras Arteriales), ULCERAS ARTERÍTICAS, LESIONES POR FLEBOPATÍAS CRÓNICAS (Ulceras Varicosas, Dermatopatías severas, Eccemas crónicos). Existen consensos internacionales para el tratamiento de estas lesiones y de otras más, de acuerdo al momento en que se encuentra la lesión y sus condiciones (sobre infectada o no, seca, secretante, exuberante, deprimida, etc.). Además, para cada caso existen varias alternativas en cuanto al material más adecuado a utilizar, de acuerdo a lo que se busca terapéuticamente, por ejemplo: Limpieza, desbridación, regeneración de los tejidos, aumento de la circulación, disminución de la secreción y la humedad, solo por nombrar algunas de las estrategias. Por lo cual, si bien en este protocolo se especifican la mayoría de los productos de uso habitual en la Argentina, como existe la posibilidad de que algunos no sean cotizados, se prevé que ante esta situación se le solicitará al médico prescribiente, que realice un nuevo pedido con opciones que reemplacen el material que no se halla en el mercado o bien su licitación quedó desierta, sabedores de que existen más de una opción para cada tratamiento necesario. Los materiales deberán ser pedidos por el nombre de su/sus compuesto/s, sean simples o combinados. NO SE ACEPTARÁN NOMBRE PROPIOS, CÓDIGOS DE PRODUCTOS O LA SOLICITUD DE UN PRODUCTO “TIPO”. Lo cual garantizará la posibilidad de un llamado a licitación de materiales en forma amplia y no dirigida a un proveedor y a una marca en particular. REQUISITOS PARA LA SOLICITUD DE LOS MATERIALES HISTORIA CLÍNICA COMPLETA: Debe ser realizada en forma completa, detallándose el tiempo de evolución de la lesión, el estado actual, las condiciones de la misma, la estrategia terapéutica, el tiempo estimado de uso del material, PATOLOGÍA DE BASE, este ES UN REQUISITO INDISPENSABLE (Arterial, Venosa, Por Presión o Decúbito, otras) y comorbilidades asociadas. ESTUDIOS COMPLEMENTARIOS REALIZADOS QUE CORROBORAN LA PATOLOGÍA DE BASE y SU ETIOLOGIA: Este es un requisito muy necesario a fin de tener en cuenta de que etiología es la lesión. Se deberán adjuntar estudios realizados (Doppler Arteriales, Doppler Venosos, Dermatoscopías, Estudios de presiones, Pletismografías, Arteriografías, Flebografías, Biopsias de La/s lesión/es si fuese necesario u otras) FOTOS ACTUALIZADAS CON FECHA DE LAS LESIONES: Será necesario la presentación de las imágenes en fotos color, claras (No es necesario que sean muchas, sino que con una de cada lesión donde permita apreciarse fehacientemente la lesión, su tipo y estado). Si son varias lesiones, es preciso una foto de cada lesión, donde se aprecie además el sitio (MM. II., Trocánteres, Talones, Sacro, otras). serán requeridas fotos actualizadas de la/s lesión/es en cada solicitud de renovación. A fin de agilizar el pedido de los materiales, el profesional podrá descargar el listado de materiales que se expone a continuación y señalar con una cruz el que ha elegido para cada paciente, especificando gramaje, superficie, tamaño, gramos, mililitros, y cantidades, según corresponda a cada presentación. LISTADO DE MATERIALES HIDROCOLOIDES Apósito de HIDROCOLOIDE de “x” centímetros. Autoadhesivo o no Apósito de HIDROCOLOIDE TRANSPARENTE de “x” centímetros Apósito de HIDROCOLOIDE CON ALGINATO DE CALCIO de “x” centímetros, con formas especiales, con o sin planchas de Poliuretano. HIDROCOLOIDE EN PASTA, para ulceras socavadas. Requiere un apósito que cubra la lesión. Especificar gramaje HIDROCOLOIDE EN POLVO. Requiere un apósito que cubra la lesión. Especificar cantidad en gramos. Otra presentación. ALGINATO DE CALCIO Apósito de ALGINATO DE CALCIO solo. De “x” centímetros que requiere un segundo após.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370115",
       "description": "HIDROCOLOIDE EN POLVO",
       "normativa": "PROTOCOLO PARA SOLICITUD DE MATERIALES DE CURACIONES DE LESIONES CRÓNICAS DE LA PIEL Se reúnen en este protocolo, aquellos procedimientos productos de uso frecuente para el tratamiento de lesiones “crónicas” de la piel, como ESCARAS POR DECÚBITO, LESIONES POR PRESIÓN, LESIONES ISQUÉMICAS (Ulceras Arteriales), ULCERAS ARTERÍTICAS, LESIONES POR FLEBOPATÍAS CRÓNICAS (Ulceras Varicosas, Dermatopatías severas, Eccemas crónicos). Existen consensos internacionales para el tratamiento de estas lesiones y de otras más, de acuerdo al momento en que se encuentra la lesión y sus condiciones (sobre infectada o no, seca, secretante, exuberante, deprimida, etc.). Además, para cada caso existen varias alternativas en cuanto al material más adecuado a utilizar, de acuerdo a lo que se busca terapéuticamente, por ejemplo: Limpieza, desbridación, regeneración de los tejidos, aumento de la circulación, disminución de la secreción y la humedad, solo por nombrar algunas de las estrategias. Por lo cual, si bien en este protocolo se especifican la mayoría de los productos de uso habitual en la Argentina, como existe la posibilidad de que algunos no sean cotizados, se prevé que ante esta situación se le solicitará al médico prescribiente, que realice un nuevo pedido con opciones que reemplacen el material que no se halla en el mercado o bien su licitación quedó desierta, sabedores de que existen más de una opción para cada tratamiento necesario. Los materiales deberán ser pedidos por el nombre de su/sus compuesto/s, sean simples o combinados. NO SE ACEPTARÁN NOMBRE PROPIOS, CÓDIGOS DE PRODUCTOS O LA SOLICITUD DE UN PRODUCTO “TIPO”. Lo cual garantizará la posibilidad de un llamado a licitación de materiales en forma amplia y no dirigida a un proveedor y a una marca en particular. REQUISITOS PARA LA SOLICITUD DE LOS MATERIALES HISTORIA CLÍNICA COMPLETA: Debe ser realizada en forma completa, detallándose el tiempo de evolución de la lesión, el estado actual, las condiciones de la misma, la estrategia terapéutica, el tiempo estimado de uso del material, PATOLOGÍA DE BASE, este ES UN REQUISITO INDISPENSABLE (Arterial, Venosa, Por Presión o Decúbito, otras) y comorbilidades asociadas. ESTUDIOS COMPLEMENTARIOS REALIZADOS QUE CORROBORAN LA PATOLOGÍA DE BASE y SU ETIOLOGIA: Este es un requisito muy necesario a fin de tener en cuenta de que etiología es la lesión. Se deberán adjuntar estudios realizados (Doppler Arteriales, Doppler Venosos, Dermatoscopías, Estudios de presiones, Pletismografías, Arteriografías, Flebografías, Biopsias de La/s lesión/es si fuese necesario u otras) FOTOS ACTUALIZADAS CON FECHA DE LAS LESIONES: Será necesario la presentación de las imágenes en fotos color, claras (No es necesario que sean muchas, sino que con una de cada lesión donde permita apreciarse fehacientemente la lesión, su tipo y estado). Si son varias lesiones, es preciso una foto de cada lesión, donde se aprecie además el sitio (MM. II., Trocánteres, Talones, Sacro, otras). serán requeridas fotos actualizadas de la/s lesión/es en cada solicitud de renovación. A fin de agilizar el pedido de los materiales, el profesional podrá descargar el listado de materiales que se expone a continuación y señalar con una cruz el que ha elegido para cada paciente, especificando gramaje, superficie, tamaño, gramos, mililitros, y cantidades, según corresponda a cada presentación. LISTADO DE MATERIALES HIDROCOLOIDES Apósito de HIDROCOLOIDE de “x” centímetros. Autoadhesivo o no Apósito de HIDROCOLOIDE TRANSPARENTE de “x” centímetros Apósito de HIDROCOLOIDE CON ALGINATO DE CALCIO de “x” centímetros, con formas especiales, con o sin planchas de Poliuretano. HIDROCOLOIDE EN PASTA, para ulceras socavadas. Requiere un apósito que cubra la lesión. Especificar gramaje HIDROCOLOIDE EN POLVO. Requiere un apósito que cubra la lesión. Especificar cantidad en gramos. Otra presentación. ALGINATO DE CALCIO Apósito de ALGINATO DE CALCIO solo. De “x” centímetros que requiere un segundo após.",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370121",
       "description": "APOSITO DE ALGINATO DE CALCIO  EN TODAS SUS FORMAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370122",
       "description": "APOSITO DE ALGINATO DE CALCIO Y PLATA  EN TODAS SU",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370123",
       "description": "ALGINATO DE CALCIO EN TIRAS O FILLER EN ROLLOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370131",
       "description": "HIDROGEL, HIDROGEL ESTERIL, HIDROGEL ESTERIL SIN A",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370141",
       "description": "APOSITO DE ESPUMA DE POLIURETANO (AUTOADHESIVO O N",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370142",
       "description": "APOSITO DE ESPUMA DE POLIURETANO CON PLATA (NO ADH",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370161",
       "description": "APOSITO HIDROPOLIMERICO (AUTOADHESIVO O NO)  EN TO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370171",
       "description": "APOSITO DE CARBOXIMETILCELULOSA  EN TODAS SUS FORM",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370172",
       "description": "APOSITO DE CARBOXIMETILCELULOSA Y ALGINATO DE CALC",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370181",
       "description": "SOLUCION POLIHEXANIDA Y UNDECILENAMIDOPROPIL BETAI",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370191",
       "description": "ACIDOS GRASOS HIPEROXIGENADOS (A.G.H.O.) EN TODAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Enfermería"
     },
     {
       "code": "370404",
       "description": "OXIMETRO DE PULSO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "370406",
       "description": "MASCARA PARA SISTEMA DE VENTILACION NO INVASIVA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "370407",
       "description": "VENTILADOR A PRESION POSITIVA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "370409",
       "description": "NEBULIZADOR TIPO RAIN DROP",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "370410",
       "description": "JARRA P/HUMIFICADOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "370411",
       "description": "FILTRO /OXIGENOTERAPIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "370412",
       "description": "OXICAGNOGRAFO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "370500",
       "description": "SUTURAS QUIRURGICAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "370700",
       "description": "AEROCAMARA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "371200",
       "description": "RESUCITADOR MANUAL -AMBU.-",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "371202",
       "description": "CANULA NASAL P/OXIG.SILICONADA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "380110",
       "description": "COMPRAS - CAMA ORTOPEDICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380111",
       "description": "COMPRAS - CAMA ORTOPEDICA CON BARANDA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380112",
       "description": "COMPRAS - CAMA ORTOPEDICA CON BARANDA Y TRAPECIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380113",
       "description": "COMPRAS - CAMA ORTOPEDICA TRAPECIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380114",
       "description": "COMPRAS - CAMA ORTOPEDICA RESPALDO DESMONTABLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380120",
       "description": "STOCK - CAMA ORTOPEDICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380121",
       "description": "STOCK - CAMA ORTOPEDICA CON BARANDA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380122",
       "description": "STOCK - CAMA ORTOPEDICA CON BARANDA Y TRAPECIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380123",
       "description": "STOCK - CAMA ORTOPEDICA TRAPECIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380124",
       "description": "STOCK - CAMA ORTOPEDICA RESPALDO DESMONTABLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380201",
       "description": "SILLON CON BASINILLA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380204",
       "description": "SILLON DE PASEO P/NINO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380206",
       "description": "REPARACION SILLON DE RUEDAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380210",
       "description": "COMPRAS - SILLON DE RUEDAS ESTANDAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380212",
       "description": "COMPRAS - SILLON PARA BANO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380213",
       "description": "COMPRAS - SILLON DE RUEDAS ESTANDAR CON PERNERA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380215",
       "description": "COMPRAS - SILLON DE RUEDAS JUNIOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380217",
       "description": "COMPRAS - SILLON DE RUEDAS JUNIOR CON PERNERA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380220",
       "description": "STOCK - SILLON DE RUEDAS ESTANDAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380222",
       "description": "STOCK - SILLON PARA BANO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380223",
       "description": "STOCK - SILLON DE RUEDAS ESTANDAR CON PERNERA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380225",
       "description": "STOCK - SILLON DE RUEDAS JUNIOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380227",
       "description": "STOCK - SILLON DE RUEDAS JUNIOR CON PERNERA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380250",
       "description": "SISTEMA DE VACÍO Y COMPACTACIÓN(SI.VA.CO.) O TPN",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380301",
       "description": "ANDADOR P/NINO C/RUEDAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380310",
       "description": "COMPRAS - ANDADOR CUADRUPLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380312",
       "description": "COMPRAS - ANDADOR PLEGABLE CON RUEDAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380313",
       "description": "COMPRAS - ANDADOR PLEGABLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380320",
       "description": "STOCK - ANDADOR CUADRUPLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380322",
       "description": "STOCK - ANDADOR PLEGABLE CON RUEDAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380323",
       "description": "STOCK - ANDADOR PLEGABLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380401",
       "description": "BASTON CANADIENSE PARA NIÑO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380410",
       "description": "COMPRAS - BASTON CANADIENSE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380420",
       "description": "STOCK - BASTON CANADIENSE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380510",
       "description": "COMPRAS - BASTON TRIPODE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380520",
       "description": "STOCK - BASTON TRIPODE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380600",
       "description": "BASTONES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380601",
       "description": "BASTON DE 4 PUNTOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380603",
       "description": "BASTON PIRAMIDAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380612",
       "description": "COMPRAS - BASTON DE UN PUNTO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380614",
       "description": "COMPRAS - BASTON BLANCO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380615",
       "description": "COMPRAS - BASTON VERDE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380622",
       "description": "STOCK - BASTON DE UN PUNTO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380710",
       "description": "COMPRAS - PAR DE MULETAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380720",
       "description": "STOCK - PAR DE MULETAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380800",
       "description": "SILLON PARA ENCEFALOPATIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "380801",
       "description": "ADAPTADOR PARA SILLON P/ENCEFALOPATIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381010",
       "description": "COMPRAS - ALMOHADON ANTIESCARA CON GEL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381101",
       "description": "SILLON REFORZADO STANDART",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381110",
       "description": "COMPRAS - SILLON DE RUEDAS PACIENTES MAS DE 100KG",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381200",
       "description": "SILLON DE RUEDAS ELECTRICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381201",
       "description": "REPARACION SILLON ELECTRICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381310",
       "description": "COMPRAS - ELEVADOR DE INODORO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381311",
       "description": "COMPRAS - INODORO PORTATIL CON PATAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381402",
       "description": "COMPRAS ELEVADOR HIDRÁULICO PARA PACIENTES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381403",
       "description": "STOCK ELEVADOR HIDRÁULICO PARA PACIENTES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381404",
       "description": "BRAZO HIDRÁULICO PARA PILETAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381500",
       "description": "ANDADOR C/RUEDA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381701",
       "description": "COLCHON ANTIESCARAS C/MOTOR SECUENCIAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381710",
       "description": "COMPRAS - COLCHON ANTIESCARAS CON COMPRESOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381810",
       "description": "COMPRAS - ARO ANTIESCARA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "381900",
       "description": "SILLON DE RUEDAS PARA BIAMPUTADOS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "390000",
       "description": "MEDICAMENTOS FUERA DE CONVENIO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "391502",
       "description": "SENSOR FREE STYLE O SIMILAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391503",
       "description": "LECTOR FREE STYLE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391504",
       "description": "SISTEMA FLASH DE MONITOREO CONTINUO DE GLUCOSA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391505",
       "description": "RECEPTOR PARA  SISTEMA MONITOREO CONTINUO GLUCOSA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391506",
       "description": "SENSORES PARA SISTEMA MONITOREO CONTINUO GLUCOSA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391507",
       "description": "TRANSMISOR PARA SISTEMA MONITOREO CONTINUO GLUCOSA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391508",
       "description": "MICROINFUSORA DE INSULINA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391509",
       "description": "SENSORES PARA MICROINFUSORA DE INSULINA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391510",
       "description": "BASE DE BOMBA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391511",
       "description": "APLICADOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391512",
       "description": "DESCARTABLES DE INSULINA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Diabetes"
     },
     {
       "code": "391600",
       "description": "SEMILLAS DE BRAQUITERAPIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "400000",
       "description": "DESCARTABLES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "400100",
       "description": "ASPIRADOR (FIJO CON VASOS)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "400101",
       "description": "ASPIRADOR MANUAL (PISTOLA)",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "400102",
       "description": "VASOS PARA ASPIRADOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "400103",
       "description": "ASPIRADOR PORTATIL A BATERIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "400200",
       "description": "COLCHON AIRE /AGUA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "400202",
       "description": "FILTROS PARA QUIMIOTERAPIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "400300",
       "description": "PIEL MEDICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "400400",
       "description": "BIPEDESTADOR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "400510",
       "description": "COMPRAS - TALONERA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "400511",
       "description": "COMPRAS - BOTA WALKER",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "400600",
       "description": "ACCESORIO PARA ELEMENTOS MÉDICOS-PLUMAS O SILLONES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "430000",
       "description": "OXIGENOTERAPIA",
       "normativa": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "435803",
       "description": "ALQUILER ASISTENTE PARA TOS - COUGH ASSIST",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "436300",
       "description": "MOD6.B LOC BPAP C/FREC DE BACK UP SFROS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Oxigenoterapia"
     },
     {
       "code": "500100",
       "description": "TRASLADO EN AMBULANCIA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Traslados"
     },
     {
       "code": "600000",
       "description": "BENEFICIOS DE EXCEPCION",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Sin clasificar"
     },
     {
       "code": "600300",
       "description": "B.E.AUDIFONO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "600304",
       "description": "B.E.REPARACION IMPLANTE COCLEAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "600305",
       "description": "B.E.IMPLANTE COCLEAR",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Audiología"
     },
     {
       "code": "600404",
       "description": "PLUMA HIDRAULICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "601220",
       "description": "B.E.CALZADO ORTOPEDICO",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "603702",
       "description": "B.E.BOMBA DE PRESION NEGATIVA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "603802",
       "description": "B.E.REPARACION SILLON DE RUEDAS ELECT",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Ortopedia y Movilidad"
     },
     {
       "code": "730207",
       "description": "VALVULA DE HEIMLICH",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "740305",
       "description": "STENT TRAQUEAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "750012",
       "description": "PROTESIS PENEANAS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "750023",
       "description": "SET DE CALIBRADORES VAGINALES",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "CX General"
     },
     {
       "code": "751300",
       "description": "PPROTESIS DE RECONSTRUCCION HEMIPELVICA",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Prótesis"
     },
     {
       "code": "762003",
       "description": "ALAMBRE",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "762049",
       "description": "TORNILLO BIOTENODESIS",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "762119",
       "description": "PLACA OSTEOSINTESIS BIOABSORBIBLE DE 1,5 A 2",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     },
     {
       "code": "762120",
       "description": "PLACA DE FIJACION DISTAL",
       "normativa": "",
       "price_hidden": "",
-      "coseguro": ""
+      "coseguro": "",
+      "category": "Osteosíntesis"
     }
   ]
 };

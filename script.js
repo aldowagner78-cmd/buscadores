@@ -146,7 +146,9 @@ const dom = {
     themeToggle: document.getElementById('themeToggle'),
     sunIcon: document.getElementById('sunIcon'),
     moonIcon: document.getElementById('moonIcon'),
-    mainTitle: document.getElementById('mainTitle')
+    mainTitle: document.getElementById('mainTitle'),
+    categoryFilter: document.getElementById('categoryFilter'),
+    categoryFilterContainer: document.getElementById('categoryFilterContainer')
 };
 
 // --- Initialization Logic ---
@@ -156,6 +158,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // 2. Suscribir a real-time
     subscribeRealtimeChanges();
     // 3. Inicializar UI
+    populateCategoryFilter();
     updateTab('medicas');
     dom.searchInput.focus();
     // 4. Theme
@@ -209,9 +212,14 @@ async function subscribeRealtimeChanges() {
 
 function refreshSearchResults() {
     const query = dom.searchInput.value;
+    const catFilter = (state.currentTab === 'elementos') ? dom.categoryFilter.value : '';
     if (query.length >= 2) {
-        const results = engine.search(state.currentTab, query);
+        let results = engine.search(state.currentTab, query);
+        if (catFilter) results = results.filter(item => item.category === catFilter);
         renderResults(results);
+    } else if (catFilter) {
+        const items = engine.data[state.currentTab] || [];
+        renderResults(items.filter(item => item.category === catFilter));
     }
 }
 
@@ -268,6 +276,21 @@ function initTheme() {
 }
 
 // --- Tab Switching ---
+function populateCategoryFilter() {
+    const items = engine.data['elementos'] || [];
+    const cats = new Set();
+    items.forEach(item => { if (item.category) cats.add(item.category); });
+    const sorted = Array.from(cats).sort((a, b) => a.localeCompare(b, 'es'));
+    // Clear existing options except first
+    while (dom.categoryFilter.options.length > 1) dom.categoryFilter.remove(1);
+    sorted.forEach(cat => {
+        const opt = document.createElement('option');
+        opt.value = cat;
+        opt.textContent = cat;
+        dom.categoryFilter.appendChild(opt);
+    });
+}
+
 function updateTab(tabName) {
     state.currentTab = tabName;
     document.body.dataset.scope = tabName;
@@ -279,6 +302,14 @@ function updateTab(tabName) {
             t.classList.remove('active');
         }
     });
+
+    // Show/hide category filter
+    if (tabName === 'elementos') {
+        dom.categoryFilterContainer.classList.remove('hidden');
+    } else {
+        dom.categoryFilterContainer.classList.add('hidden');
+        dom.categoryFilter.value = '';
+    }
 
     dom.searchInput.value = '';
     dom.searchInput.placeholder = 'Buscar en ' + tabName.toUpperCase() + '...';
@@ -292,6 +323,27 @@ dom.tabs.forEach(tab => {
     tab.addEventListener('click', () => updateTab(tab.dataset.tab));
 });
 
+// Category filter change
+dom.categoryFilter.addEventListener('change', function () {
+    const query = dom.searchInput.value;
+    if (query.length >= 2) {
+        let results = engine.search(state.currentTab, query);
+        const cat = dom.categoryFilter.value;
+        if (cat) results = results.filter(item => item.category === cat);
+        renderResults(results);
+        dom.resultsCount.textContent = results.length + ' resultados encontrados';
+    } else if (this.value) {
+        // Filter even without search query when category selected
+        const items = engine.data[state.currentTab] || [];
+        const filtered = items.filter(item => item.category === this.value);
+        renderResults(filtered);
+        dom.resultsCount.textContent = filtered.length + ' elementos en ' + this.value;
+    } else {
+        renderResults([]);
+        dom.resultsCount.textContent = '';
+    }
+});
+
 // --- Search Logic ---
 dom.searchInput.addEventListener('input', function () {
     const query = this.value;
@@ -303,12 +355,26 @@ dom.searchInput.addEventListener('input', function () {
     }
 
     if (query.length < 2) {
-        renderResults([]);
-        dom.resultsCount.textContent = '';
+        // If category filter is active, show filtered results even without search
+        const cat = dom.categoryFilter.value;
+        if (state.currentTab === 'elementos' && cat) {
+            const items = engine.data[state.currentTab] || [];
+            const filtered = items.filter(item => item.category === cat);
+            renderResults(filtered);
+            dom.resultsCount.textContent = filtered.length + ' elementos en ' + cat;
+        } else {
+            renderResults([]);
+            dom.resultsCount.textContent = '';
+        }
         return;
     }
 
-    const results = engine.search(state.currentTab, query);
+    let results = engine.search(state.currentTab, query);
+    // Apply category filter if active
+    const catFilter = dom.categoryFilter.value;
+    if (state.currentTab === 'elementos' && catFilter) {
+        results = results.filter(item => item.category === catFilter);
+    }
     renderResults(results);
     dom.resultsCount.textContent = results.length + ' resultados encontrados';
 });
@@ -409,6 +475,13 @@ function createResultCard(item, index) {
         badge.className = 'badge-normativa ml-2';
         badge.textContent = 'Normativa';
         topRow.appendChild(badge);
+    }
+
+    if (item.category) {
+        const catBadge = document.createElement('span');
+        catBadge.className = 'badge-category ml-2';
+        catBadge.textContent = item.category;
+        topRow.appendChild(catBadge);
     }
     card.appendChild(topRow);
 
